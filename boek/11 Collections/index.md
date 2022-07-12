@@ -1,2 +1,2 @@
-# Chapter 2: Hello, World
+# Chapter 11: Collection Types
 

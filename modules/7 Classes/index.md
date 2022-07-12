@@ -1,4 +1,4 @@
-# Algoritmen
+# Object-georienteerd programmeren
 
 ...
 

@@ -1,2 +1,2 @@
-# Chapter 2: Hello, World
+# Chapter 14: Object-oriented programming
 

@@ -1,2 +1,2 @@
-# Chapter 2: Hello, World
+# Chapter 6: Modular Approach
 
