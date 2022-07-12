@@ -34,7 +34,7 @@
 
 4. Chapter 9 exercises: maak opdrachten ...
 
-7. Opdracht [**camelCase**](/problems/week3/camelCase)
+7. Opdracht [**camelCase**](/problems/week3/camelcase)
 
 8. Opdracht [**RNA**](/problems/week3/rna) of [**Leesbaarheid**](/problems/week3/leesbaarheid)
 
