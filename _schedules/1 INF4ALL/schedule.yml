@@ -9,9 +9,9 @@ Week 1:
 
 Week 2:
     Overzicht: /modules/beslissingen
-    "Chapter 5: Making Choices": /boek/hello
-    "Chapter 6: Modular Approach": /boek/functions
-    "Chapter 7: Using Methods": /boek/text
+    "Chapter 5: Making Choices": /boek/choices
+    "Chapter 6: Modular Approach": /boek/modules
+    "Chapter 7: Using Methods": /boek/methods
     Orakel: /opdrachten/week2/orakel
     Etenstijd: /opdrachten/week2/etenstijd
     Sommen: /opdrachten/week2/sommen
@@ -42,21 +42,21 @@ Week 5:
     Overzicht: /modules/dataverwerking
     "Chapter 10: Reading and Writing Files": /boek/files
     "Chapter 11: Collection Types": /boek/collections
-    World Cup: /opdrachten/week5/worldcup
-    Indexer: /opdrachten/week5/indexer
-    Climate: /opdrachten/week5/climate
+    World Cup (TBD): /opdrachten/week5/worldcup
+    Indexer (TBD): /opdrachten/week5/indexer
+    Climate (TBD): /opdrachten/week5/climate
 
 Week 6:
     Overzicht: /modules/algoritmen
-    "Chapter 12: Designing Algorithms": /boek/hello
-    "Chapter 13: Search and Sorting": /boek/functions
-    Algorithms: /opdrachten/week1/algorithms
-    Measurements: /opdrachten/week1/measurements
-    Sort: /opdrachten/week1/sort
-    Virus: /opdrachten/week1/virus
+    "Chapter 12: Designing Algorithms": /boek/algorithms
+    "Chapter 13: Search and Sorting": /boek/searching
+    Algorithms (TBD): /opdrachten/week1/algorithms
+    Measurements (TBD): /opdrachten/week1/measurements
+    Sort (TBD): /opdrachten/week1/sort
+    Virus (TBD): /opdrachten/week1/virus
 
 Week 7:
     Overzicht: /onderwerp/classes
-    "Chapter 14: Object-oriented programming": /boek/hello
+    "Chapter 14: Object-oriented programming": /boek/objects
     Call Center: /opdrachten/week7/callcenter
-    Adventure: /opdrachten/week7/adventure
+    Adventure (TBD): /opdrachten/week7/adventure
