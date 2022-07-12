@@ -1,6 +1,6 @@
 # Chapter 2: Hello, World
 
-Voer je antwoorden voor de oefeningen in. Na insturen worden ze nagekeken, en eventueel moet je ze nog verbeteren.
+Voer je antwoorden voor de oefeningen in. Na insturen worden ze nagekeken, en eventueel moet je ze nog verbeteren. Schrijf je antwoorden in het Nederlands (of in Python!).
 
 ## 1
 
