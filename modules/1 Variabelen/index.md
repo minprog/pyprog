@@ -20,23 +20,3 @@ Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. En dat is
 3. Ga naar het hoorcollege om goed te begrijpen wat van je verwacht wordt deze week
 4. Reserveer flink tijd om aan de programmeeropdrachten te werken
 5. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen
-
-## Stof
-
-1. Chapter 2: **Hello, Python**
-
-2. Chapter 2 exercises: maak opdrachten ...
-
-3. Chapter 3: **Designing and Using Functions**
-
-4. Chapter 3 exercises: maak opdrachten ...
-
-5. Chapter 4: **Working with Text**
-
-6. Chapter 4 exercises: maak opdrachten ...
-
-7. Opdracht [**Caffeine**](/problems/week1/cafeine)
-
-8. Opdracht [**Vakantie**](/problems/week1/vakantie)
-
-9. [Toetsje tijdens laatste werkcollege](/toetsjes/week1)

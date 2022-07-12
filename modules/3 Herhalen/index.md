@@ -23,25 +23,3 @@
 1. Opdrachten goed afmaken, gewoon tijd voor nemen ook al heb je een tentamen volgende week
 2. Alleen theorie die je gemarkeerd hebt als "moeilijk" nog eens doornemen en kijken of je het al beter begrijpt
 3. Langskomen bij de speciale sessie om vragen te stellen bij de voorbereiding
-
-## Stof
-
-1. Chapter 8: **Storing Collections using Lists**
-
-2. Chapter 8 exercises: maak opdrachten ...
-
-3. Chapter 9: **Repeating Code using Loops**
-
-4. Chapter 9 exercises: maak opdrachten ...
-
-7. Opdracht [**camelCase**](/problems/week3/camelcase)
-
-8. Opdracht [**RNA**](/problems/week3/rna) of [**Leesbaarheid**](/problems/week3/leesbaarheid)
-
-9. Opdracht [**Cola**](/problems/week3/cola) of [**Populatie**](/problems/week3/populatie)
-
-10. Opdracht [**Sjoelen**](/problems/week3/sjoelen)
-
-11. Opdracht [**Temperatuur**](/problems/week3/temperatuur)
-
-12. [Toetsje tijdens laatste werkcollege](/toetsjes/week3)
