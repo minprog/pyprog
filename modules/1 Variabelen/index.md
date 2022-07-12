@@ -6,20 +6,20 @@ Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. En dat is
 
 ## Deze week belangrijk
 
-1.	Begrijpen hoe variabelen werken 
-2.	Wat voor berekeningen je kunt doen
-3.	Welke ingebouwde functies Python heeft
-4.	Hoe je zelf een functie kunt ontwerpen
-5.	Hoe je een compleet programma kunt schrijven
-6.	Welke basisoperaties voor strings je kunt gebruiken
+1. Begrijpen hoe variabelen werken 
+2. Wat voor berekeningen je kunt doen
+3. Welke ingebouwde functies Python heeft
+4. Hoe je zelf een functie kunt ontwerpen
+5. Hoe je een compleet programma kunt schrijven
+6. Welke basisoperaties voor strings je kunt gebruiken
 
 ## Aanpak
 
-1.	Neem het boek goed door en markeer moeilijke delen
-2.	Maak de oefeningen en gebruik ze om de tekst te begrijpen en andersom; dit kost veel tijd
-3.	Ga naar het hoorcollege om goed te begrijpen wat van je verwacht wordt deze week
-4.	Reserveer flink tijd om aan de programmeeropdrachten te werken
-5.	Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen
+1. Neem het boek goed door en markeer moeilijke delen
+2. Maak de oefeningen en gebruik ze om de tekst te begrijpen en andersom; dit kost veel tijd
+3. Ga naar het hoorcollege om goed te begrijpen wat van je verwacht wordt deze week
+4. Reserveer flink tijd om aan de programmeeropdrachten te werken
+5. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen
 
 ## Stof
 
@@ -35,8 +35,8 @@ Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. En dat is
 
 6. Chapter 4 exercises: maak opdrachten ...
 
-7. Opdracht [**Caffeine**](/problems/week1/caffeine)
+7. Opdracht [**Caffeine**](/problems/week1/cafeine)
 
 8. Opdracht [**Vakantie**](/problems/week1/vakantie)
 
-9. [Toetsje tijdens laatste werkcollege](toetsje)
+9. [Toetsje tijdens laatste werkcollege](/toetsjes/week1)
