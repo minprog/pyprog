@@ -1,4 +1,4 @@
-# Chapter 2: Hello, World
+# Chapter 2: Hello, Python
 
 Voer je antwoorden voor de oefeningen in. Na insturen worden ze nagekeken, en eventueel moet je ze nog verbeteren. Schrijf je antwoorden in het Nederlands (of in Python!).
 
