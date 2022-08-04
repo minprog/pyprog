@@ -1,6 +1,4 @@
-# Cafeïne inname
-
-## Cafeïne
+# Cafeïne
 
 Om gezond te blijven is het belangrijk om te letten op je cafeïne inname en te zorgen dat deze niet te hoog is.
 Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillende dranken.
@@ -12,15 +10,16 @@ Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillend
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `cafeine.py`, een programma dat de gebruiker vraagt hoeveel cafeïne houdende dranken die drinkt en vervolgens de totale cafeïne inname berekent.
-Hierbij mag je ervan uit gaan dat de gebruiker getallen groter dan nul invult.
+Schrijf, in een bestand genaamd `cafeine.py`, een programma dat de gebruiker vraagt hoeveel cafeïne houdende dranken die drinkt en vervolgens de totale cafeïne-inname berekent.
+Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan nul invult, en dus geen fouten maakt bij de invoer.
 
 ## Code
 
 In deze opdracht bestaat je code uit een zelfgeschreven functie en het aanroepen van een aantal functies.
 Je moet hier niet alleen je zelfgeschreven functie aanroepen maar ook een aantal functies die al implementeerd zijn in Python.
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
+Schrijf ook code om de functie aan te roepen.
 
     def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
         """
@@ -28,12 +27,12 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en
           drankjes van het type koffie, thee, energie, en cola.
         """
 
-    Roep hier de benodigde functies aan.
+    <Schrijf op deze plek code voor de invoer en roep de functie aan.>
 
 ## Tips
 
-* Voor deze opdracht moet je een functie schrijven, houd de functional design recipe bij de hand hiervoor.
-* We hebben input van de gebruiker nodig om de hoeveelheid caffeïne te berekenen, welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
+* Voor deze opdracht moet je een functie schrijven, dus houd de functional design recipe bij de hand.
+* We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen, welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
 
 
 ## Voorbeelden

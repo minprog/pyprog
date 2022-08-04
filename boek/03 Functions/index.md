@@ -1,5 +1,7 @@
 # Chapter 3: Designing functions
 
+Voer je antwoorden voor de oefeningen in. Na insturen worden ze nagekeken, en eventueel moet je ze nog verbeteren. Schrijf je antwoorden in het Nederlands (of in Python!).
+
 ## 1
 
 1. <input name="form[q1a]" type="text" required>
