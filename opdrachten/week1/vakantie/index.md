@@ -23,7 +23,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         Bepaal de overnachtingskosten op basis van het aantal nachten dat je op vakantie gaat.
         """
 
-    <Schrijf hier code die input van de gebruiker krijgt en print hoeveel de vakantie gaat kosten.>
+    <Schrijf hier code die input van de gebruiker krijgt en print hoeveel de vakantie gaat kosten>
 
 ## Tips
 

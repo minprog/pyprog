@@ -27,12 +27,13 @@ Schrijf ook code om de functie aan te roepen.
           drankjes van het type koffie, thee, energie, en cola.
         """
 
-    <Schrijf op deze plek code voor de invoer en roep de functie aan.>
+    <Schrijf op deze plek code voor de invoer en roep de functie aan>
 
 ## Tips
 
-* Voor deze opdracht moet je een functie schrijven, dus houd de functional design recipe bij de hand.
+* Voor deze opdracht moet je een functie schrijven, dus houd het functional design recipe (FDR) bij de hand.
 * We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen, welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
+* Je ziet dat de naam van de functie en van de parameters in het Engels is, maar het commentaar is in het Nederlands. Dit is bewust zo gedaan, dus zorg dat je dit patroon ook blijft volgen.
 
 
 ## Voorbeelden
