@@ -21,7 +21,7 @@ In deze opdracht moet je weer een zelf een functie schrijven. Ontwerp je code zo
         """
 
     if __name__ == '__main__':
-        <Prompt hier de gebruiker voor input, roep je functie aan en print het antwoord>
+        <Prompt hier de gebruiker om invoer, roep je functie aan en print het antwoord>
 
 ## Tips
 

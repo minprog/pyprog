@@ -39,7 +39,7 @@ Ontwerp je code zoals hieronder beschreven. Zoals je kan zien staan er twee TODO
         """
 
     if __name__ == '__main__':
-        Roep hier je drie functies aan. Vul hier dus ook de rechthoeken in die je wil testen.
+        <Hoofdprogramma>
 
 ## Tips
 

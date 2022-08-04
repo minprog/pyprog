@@ -40,7 +40,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         """
 
     if __name__ == '__main__':
-        <Input, functies, output>
+        <Hoofdprogramma>
 
 ## Tips
 
