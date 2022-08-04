@@ -1,27 +1,23 @@
-# Wachtwoord eisen
+# Een veilig wachtwoord
 
-## Wachtwoorden
+`TODO: de extra uitdaging is nog wat vaag`
 
-We hebben tegenwoordig voor alles accounts en bij elk account hoort een bijbehorend wachtwoord zodat alleen wij bij onze informatie kunnen.
-Aan deze wachtwoorden zitten vaak eisen, bijvoorbeeld dat het wachtwoord minstens:
-* 8 karakters,
-* een hoofdletter en een kleine letter,
-* een cijfer,
-* een speciaal karakter
-moet bevatten.
+We hebben tegenwoordig voor alles accounts en bij elk account hoort een wachtwoord zodat alleen wij bij onze informatie kunnen.
+Aan deze wachtwoorden zitten vaak eisen om te zorgen dat ze niet te makkelijk te raden zijn door kwaadwillende buitenstaanders.
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `wachtwoord.py`, een programma dat de gebruiker vraagt voor een wachtwoord en laat weten of het wachtwoord voldoet aan de eisen. Het wachtwoord moet minstens voldoen aan de volgende eisen:
+Schrijf, in een bestand genaamd `wachtwoord.py`, een programma dat de gebruiker vraagt voor een wachtwoord en laat weten of het wachtwoord voldoet aan de eisen. Het wachtwoord moet minimaal voldoen aan de volgende eisen:
+
 * Het moet minstens een hoofdletter en een kleine letter bevatten
 * Het moet 8 karakters bevatten
 * Het moet een cijfer bevatten
 
 ## Code
 
-Er zijn drie eisen waar het wachtwoord aan moet voldoen. Deze eisen kunnen allemaal worden gecontroleerd door middel van losse functies. Omdat je ook moet testen of aan al deze eisen is voldaan heb je ook nog een vierde functie nodig die dat test.
+Er zijn drie eisen waar het wachtwoord aan moet voldoen. Deze eisen kunnen allemaal worden gecontroleerd door middel van losse functies. Omdat je ook moet testen of aan al deze eisen is voldaan heb je ook nog een vierde functie nodig die de check compleet maakt.
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def check_length(password: str) -> bool:
         """
@@ -44,20 +40,12 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en
         """
 
     if __name__ == '__main__':
-        Vraag de gebruiker voor een wachtwoord en controleer met behulp van je zelfgeschreven functies of het wachtwoord aan de eisen voldoet. Print vervolgens of het wachtwoord wel of niet valide is.
-
+        <Input, functies, output>
 
 ## Tips
 
-* Wanneer je checkt of een wachtwoord zowel een grote als een kleine letter bevat, moet je ook checken of het uberhaupt een letter bevat.
-* Wees creatief in het bedenken van je checks! Er zijn super veel verschillende mogelijkheden. Kijk bijvoorbeeld naar alle string operaties in het boek voor inspiratie.
-
-## Extra uitdaging
-
-Als extra uitdaging mag je meer eisen waar het wachtwoord aan moet voldoen bedenken. Behalve dat wachtwoorden bepaalde elementen moet bevatten kan je ook dingen verbieden. Zoals dat er geen spaties mogen zijn bijvoorbeeld.
-Let op: dit is niet verplicht en wordt dus niet gecheckt met checkpy.
-
-Dit is de laatste opdracht van de week. Mocht je tijd over hebben, kijk dan ook of je kan implementeren dat er wordt weergegeven aan welke eis een niet valide wachtwoord niet voldoet.
+* Wees creatief bij het implementeren van de drie checks! Er zijn super veel verschillende mogelijkheden om dat voor elkaar te krijgen. Kijk naar alle mogelijke string-operaties in het boek voor inspiratie.
+* Wanneer je checkt of een wachtwoord zowel een grote als een kleine letter bevat, moet je ook checken of het überhaupt een letter bevat.
 
 ## Voorbeelden
 
@@ -70,3 +58,11 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     $ python wachtwoord.py
     Geef een wachtwoord: hoi
     Het gegeven wachtwoord is niet valide.
+
+## Extra uitdaging
+
+Als extra uitdaging mag je meer eisen bedenken waar het wachtwoord aan moet voldoen. Behalve dat wachtwoorden bepaalde elementen moet bevatten kan je ook dingen verbieden. Zoals dat er geen spaties mogen zijn bijvoorbeeld.
+
+Dit is de laatste opdracht van de week. Mocht je tijd over hebben, kijk dan ook of je kan implementeren dat er wordt weergegeven aan **welke eis** een niet valide wachtwoord niet voldoet, omdat de gebruiker anders niet zoveel kan met de feedback.
+
+Let op: dit is niet verplicht en wordt dus niet gecheckt met checkpy.

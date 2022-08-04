@@ -27,10 +27,6 @@ In deze opdracht moet je weer een zelf een functie schrijven. Ontwerp je code zo
 
 * De gebruiker kan de tijdstippen invullen in de vorm `X:XX` en `XX:XX` wat is dan een goede manier om de uren van de minuten te splitsen?
 
-## Extra uitdaging
-
-Wil je voor een extra uitdaging gaan? Zorg dan dat de gebruiker ook tijden kan invullen van de vorm `X:XX a.m.`, `XX:XX a.m.`, `X:XX p.m.`, en `XX:XX p.m.`. Let op dit is niet verplicht, hier zijn dan ook geen checks voor in `checkpy`. Zorg wel dat alle bestaande checks blijven werken!
-
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
@@ -51,3 +47,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Hoe laat is het? 22:12
 
 De laatste geeft dus geen enkele uitvoer.
+
+## Extra uitdaging
+
+Wil je voor een extra uitdaging gaan? Zorg dan dat de gebruiker ook tijden kan invullen van de vorm `X:XX AM`, `XX:XX AM`, `X:XX PM`, en `XX:XX PM`. Let op dit is niet verplicht, hier zijn dan ook geen checks voor in `checkpy`. Zorg wel dat alle bestaande checks blijven werken!

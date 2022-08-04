@@ -11,7 +11,7 @@
 > "Yes...!"  
 > "Is.."  
 > "Yes...!!!...?"  
-> "Forty-two," said Deep Thought, with infinite majesty and calm."
+> "Forty-two," said Deep Thought, with infinite majesty and calm.
 >
 > --- The Hitchhiker’s Guide to the Galaxy, Douglas Adams
 

@@ -2,11 +2,14 @@
 
 ![](rechthoeken.png){: width="215"}
 
-Wanneer je twee rechthoeken hebt in een vlak, dan kunnen deze overlappen.
-Aangezien het veel werk is om telkens twee rechthoeken te tekenen om te kijken of ze overlappen, is het een handigere optie om dit te bepalen aan de hand van de coördinaten.
+`TODO: waarschijnlijk wel invoer toelaten van de gebruiker`
+
 De coördinaten van een rechthoek kunnen als volgt worden weergegeven: `rechthoek A1 = ((x1,y1), (x2,y2), (x3,y3), (x4,y4))`, waar elk coördinaat een hoek voorstelt.
 Aangezien we het hebben over een rechthoek zijn een aantal van deze waarden gelijk en hebben we genoeg informatie als we dit schrijven als `rechthoek A2 = ((x5,y5), (x6,y6))`.
 Nu mag je zelf uitzoeken welke waarden van rechthoek A1 corresponderen met de waarden in rechthoek A2.
+
+Wanneer je twee rechthoeken hebt in een vlak, dan kunnen deze overlappen.
+Aangezien het veel werk is om telkens twee rechthoeken te tekenen om te kijken of ze overlappen, is het een handigere optie om dit te bepalen aan de hand van de coördinaten.
 
 ## Opdracht
 
