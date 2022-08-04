@@ -1,62 +1,76 @@
 Week 1:
     Overzicht: /modules/variabelen
-    "Chapter 2: Hello, Python": /boek/hello
-    "Chapter 3: Designing functions": /boek/functions
-    "Chapter 4: Working with text": /boek/text
-    Cafeine: /opdrachten/week1/cafeine
-    Vakantie: /opdrachten/week1/vakantie
-    Toetsje: /toetsjes/week1
+    Lezen en oefenen:
+        "Chapter 2: Hello, Python": /boek/hello
+        "Chapter 3: Designing functions": /boek/functions
+        "Chapter 4: Working with text": /boek/text
+    Programmeeropdrachten:
+        Cafeine: /opdrachten/week1/cafeine
+        Vakantie: /opdrachten/week1/vakantie
+    Checkup:
+        Toetsje: /toetsjes/week1
 
 Week 2:
     Overzicht: /modules/beslissingen
-    "Chapter 5: Making Choices": /boek/choices
-    "Chapter 6: Modular Approach": /boek/modules
-    "Chapter 7: Using Methods": /boek/methods
-    Orakel: /opdrachten/week2/orakel
-    Etenstijd: /opdrachten/week2/etenstijd
-    Sommen: /opdrachten/week2/sommen
-    Overlap: /opdrachten/week2/overlap
-    Wachtwoord: /opdrachten/week2/wachtwoord
-    Toetsje: /toetsjes/week2
+    Lezen en oefenen:
+        "Chapter 5: Making Choices": /boek/choices
+        "Chapter 6: Modular Approach": /boek/modules
+        "Chapter 7: Using Methods": /boek/methods
+    Programmeeropdrachten:
+        Orakel: /opdrachten/week2/orakel
+        Etenstijd: /opdrachten/week2/etenstijd
+        Sommen: /opdrachten/week2/sommen
+        Overlap: /opdrachten/week2/overlap
+        Wachtwoord: /opdrachten/week2/wachtwoord
+        Toetsje: /toetsjes/week2
 
 Week 3:
     Overzicht: /modules/herhalen
-    "Chapter 8: Storing Collections using Lists": /boek/lists
-    "Chapter 9: Repeating Code using Loops": /boek/loops
-    camelCase: /opdrachten/week3/camelcase
-    RNA: /opdrachten/week3/rna
-    Leesbaarheid: /opdrachten/week3/leesbaarheid
-    Cola: /opdrachten/week3/cola
-    Populatie: /opdrachten/week3/populatie
-    Sjoelen: /opdrachten/week3/sjoelen
-    Temperatuur: /opdrachten/week3/temperatuur
-    Toetsje: /toetsjes/week3
+    Lezen en oefenen:
+        "Chapter 8: Storing Collections using Lists": /boek/lists
+        "Chapter 9: Repeating Code using Loops": /boek/loops
+    Programmeeropdrachten:
+        camelCase: /opdrachten/week3/camelcase
+        RNA: /opdrachten/week3/rna
+        Leesbaarheid: /opdrachten/week3/leesbaarheid
+        Cola: /opdrachten/week3/cola
+        Populatie: /opdrachten/week3/populatie
+        Sjoelen: /opdrachten/week3/sjoelen
+        Temperatuur: /opdrachten/week3/temperatuur
+        Toetsje: /toetsjes/week3
 
 Week 4:
     Overzicht: /modules/problemen
-    Scrabble: /opdrachten/week4/scrabble
-    Schuifpuzzel: /opdrachten/week4/schuifpuzzel
-    Kalender: /opdrachten/week4/kalender
+    Programmeeropdrachten:
+        Scrabble: /opdrachten/week4/scrabble
+        Schuifpuzzel: /opdrachten/week4/schuifpuzzel
+        Kalender: /opdrachten/week4/kalender
 
 Week 5:
     Overzicht: /modules/dataverwerking
-    "Chapter 10: Reading and Writing Files": /boek/files
-    "Chapter 11: Collection Types": /boek/collections
-    World Cup (TBD): /opdrachten/week5/worldcup
-    Indexer (TBD): /opdrachten/week5/indexer
-    Climate (TBD): /opdrachten/week5/climate
+    Lezen en oefenen:
+        "Chapter 10: Reading and Writing Files": /boek/files
+        "Chapter 11: Collection Types": /boek/collections
+    Programmeeropdrachten:
+        World Cup (TBD): /opdrachten/week5/worldcup
+        Indexer (TBD): /opdrachten/week5/indexer
+        Climate (TBD): /opdrachten/week5/climate
 
 Week 6:
     Overzicht: /modules/algoritmen
-    "Chapter 12: Designing Algorithms": /boek/algorithms
-    "Chapter 13: Search and Sorting": /boek/searching
-    Algorithms (TBD): /opdrachten/week1/algorithms
-    Measurements (TBD): /opdrachten/week1/measurements
-    Sort (TBD): /opdrachten/week1/sort
-    Virus (TBD): /opdrachten/week1/virus
+    Lezen en oefenen:
+        "Chapter 12: Designing Algorithms": /boek/algorithms
+        "Chapter 13: Search and Sorting": /boek/searching
+    Programmeeropdrachten:
+        Algorithms (TBD): /opdrachten/week1/algorithms
+        Measurements (TBD): /opdrachten/week1/measurements
+        Sort (TBD): /opdrachten/week1/sort
+        Virus (TBD): /opdrachten/week1/virus
 
 Week 7:
     Overzicht: /modules/classes
-    "Chapter 14: Object-oriented programming": /boek/objects
-    Call Center: /opdrachten/week7/callcenter
-    Adventure (TBD): /opdrachten/week7/adventure
+    Lezen en oefenen:
+        "Chapter 14: Object-oriented programming": /boek/objects
+    Programmeeropdrachten:
+        Call Center: /opdrachten/week7/callcenter
+        Adventure (TBD): /opdrachten/week7/adventure
