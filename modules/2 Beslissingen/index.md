@@ -1,6 +1,6 @@
 # Beslissingen
 
-Tijd om moeilijke belissingen te nemen. Deze week gaat helemaal over het gebruik van **conditionals** waarmee je je programma geschikt kunt maken voor het verwerken van verschillende opties. De programma's die je schrijft bevatten dus ook allemaal van dit soort constructies.
+Tijd om moeilijke belissingen te nemen; maar gelukkig kun je die overlaten aan de computer. Deze week gaat helemaal over het gebruik van **conditionals**, waarmee je je programma geschikt kunt maken voor het verwerken van verschillende opties. De programma's die je schrijft bevatten dus ook allemaal van dit soort constructies.
 
 Tegelijk ga je aan de slag met het schrijven van kleine **tests** voor je functies, zodat je kunt laten zien dat de functies voor een deel correct werken. En tot slot is er aandacht voor de **methods** die bij Python bijgeleverd zitten. Op lange termijn schelen zulke methods je veel werk, maar nu je er voor het eerst mee aan de slag gaat zal het wel wat uitzoekwerk opleveren.
 
