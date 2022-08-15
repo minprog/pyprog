@@ -6,7 +6,7 @@ files:
 #     tool: check50
 #     slug: minprog/programmeren-ki/2021/other/calendar
 plag:
-    server: https://coda.quinner.nl/api/submission
+    server: https://coda.quinner.nl/api/submission/
     slug: pyprog/2022/cafeine
     # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
     course: pyprog
