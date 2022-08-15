@@ -1,0 +1,15 @@
+name: vakantie
+files:
+    required:
+        - vakantie.py
+# check:
+#     tool: check50
+#     slug: minprog/programmeren-ki/2021/other/calendar
+plag:
+    server: https://coda.quinner.nl/api/submission
+    slug: pyprog/2022/cafeine
+    # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
+    course: pyprog
+    # archives:
+    #     - pyprog/2021/calendar
+    #     - pyprog/2020/calendar
