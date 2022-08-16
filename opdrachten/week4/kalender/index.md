@@ -1,7 +1,5 @@
 # Kalender
 
-## Kalender
-
 De kalender zoals we hem kennen kan op vele manieren worden weergegeven. Een van deze manieren is per maand:
 
               Jun 2022

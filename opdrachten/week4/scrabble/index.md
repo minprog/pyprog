@@ -1,7 +1,5 @@
 # Scrabble
 
-## Scrabble
-
 Bij het spel Scrabble, leggen de spelers woorden neer waar ze punten voor krijgen. Voor elke letter krijgen ze een bijbehorend aantal punten, te zien in onderstaande tabel, de som van alle letters is de score voor hun woord.
 
 | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** | **I** | **J** | **K** | **L** | **M** | **N** | **O** | **P** | **Q** | **R** | **S** | **T** | **U** | **V** | **W** | **X** | **Y** | **Z** |

@@ -1,7 +1,5 @@
 # Sjoelen
 
-## Sjoelen
-
 Sjoelen is een oud Nederlands spel dat je zowel in je eentje als tegen anderen kan spelen. Iedere speler speelt drie rondes waarbij die probeert 30 schijven in vier verschillende gleuven te krijgen.
 
 De vier gleuven hebben een verschillend aantal punten: 2, 3, 4, en 1. Wanneer in elke gleuf een sjoelsteen is geschoven, levert dit 20 punten op. Alle overige stenen die geen deel uitmaken van zo'n 'kwartet' tellen voor de waarde van het bakje waarin ze zijn geschoven.

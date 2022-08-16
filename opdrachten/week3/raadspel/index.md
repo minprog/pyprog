@@ -1,8 +1,6 @@
-# Raden
+# Raadspel
 
-## Raadspel
-
-Getal onder de tien is misschien wel een van de meest gespeelde spellen om keuzes te maken voor kinderen. Het is echter wel een spel waar je minstens twee mensen voor nodig hebt: degene die het getal weet en degene die het raadt.
+"Getal onder de tien" is misschien wel een van de meest gespeelde spellen om keuzes te maken voor kinderen. Het is echter wel een spel waar je minstens twee mensen voor nodig hebt: degene die het getal weet en degene die het raadt.
 Stel nou je hebt zin om dit in je eentje te spelen, dan is een computer natuurlijk de perfecte medespeler! Maar waarom ophouden bij 10, dit kan je natuurlijk ook doen tot 100 of 5843!
 
 ## Opdracht

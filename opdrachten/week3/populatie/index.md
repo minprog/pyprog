@@ -1,6 +1,4 @@
-# Populatie verloop
-
-## Populatie
+# Populatie-verloop
 
 Stel we hebben een populatie van `n` lama's. Elk jaar worden er `n / 3` nieuwe lama's geboren en sterven er `n / 4` lama's.
 Bijvoorbeeld, als we starten met `n = 1200` lama's, dan worden er in het eerste jaar, `1200 / 3 = 400` nieuwe lama's geboren. Maar er zijn ook `1200 / 4 = 300` lama's die overlijden.

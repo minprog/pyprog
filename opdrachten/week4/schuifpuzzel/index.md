@@ -1,7 +1,5 @@
 # Schuifpuzzel
 
-## Schuifpuzzel
-
 Een schuifpuzzel is een vierkante puzzel die meestal bestaat uit `4 * 4 = 16` velden.
 In al deze velden zitten tegels, op één veld na. Doordat er een tegel mist, is er een los veld en kan je de andere tegels verschuiven.
 Door telkens een tegel per keer te verschuiven kan je de volgorde van de tegels veranderen.

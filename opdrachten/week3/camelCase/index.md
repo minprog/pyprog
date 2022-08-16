@@ -1,6 +1,4 @@
-# camelCase
-
-## camelCase of snake_case?
+# camelCase of snake_case?
 
 Over het algemeen hebben jullie bij het programmeren gebruik gemaakt van snake_case. Waarbij er een `_` tussen de woorden staat. Er zijn echter ook mensen die de camelCase prefereren.
 Bij de camelCase begint de naam van de variabele of functie met een kleine letter maar hierbij begint elk nieuw woord met een hoofdletter zodat de verschillende woorden binnen de naam nog steeds goed te onderscheiden zijn.

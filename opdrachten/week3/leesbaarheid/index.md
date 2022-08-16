@@ -1,14 +1,15 @@
 # Leesbaarheid
 
-## Coleman-Liau index
 De Coleman-Liau index is een leesbaarheidstest die de mate van leesbaarheid van een tekst meet. Dit is op basis van het Amerikaanse systeem waarin ze grades gebruiken.
 Deze index wordt onder andere berekend op basis van het aantal karakters per woord.
 
 De formule is als volgt:
+
     CLI = 0.0588 * L - 0.296 * S - 15.8
+
 waarbij L het gemiddelde aantal letters per 100 woorden is en S het gemiddelde aantal zinnen per 100 woorden.
 
-Meer informatie over de Coleman-Liau index kan je vinden op de wikipedia pagina: https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index.
+Meer informatie over de Coleman-Liau index kan je vinden op de betreffende [Wikipedia-pagina](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index).
 
 ## Opdracht
 

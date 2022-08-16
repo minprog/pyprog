@@ -1,10 +1,8 @@
 # Call center
 
-## Simulatie
-
 Computers worden veelal gebruikt voor het simuleren van situaties die in de werkelijkheid kunnen gebeuren.
-Zo kan er bijvoorbeeld worden gesimuleerd hoe een regenbui effect heeft op het waterpeil, wat er gebeurt binnen de bloedstroom in een ader of hoe mensen zich bewegen in een menigte.
-Dit zijn alle drie voorbeelden van grote ingewikkelde modellen. Maar er zijn natuurlijk ook makkelijkere dingen die we kunnen simuleren. Bijvoorbeeld inkomende teloofgesprekken bij een callcenter.
+Zo kan er bijvoorbeeld worden gesimuleerd hoe een regenbui effect heeft op het waterpeil, wat er gebeurt binnen de bloedstroom in een ader of hoe mensen zich bewegen in een menigte. Je hebt eerder in deze cursus ook al een kleine simulatie gebouwd.
+Dit keer gebruiken we simulaties als onderwerp om te oefenen met objectgeoriënteerd programmeren.
 
 ## Opdracht
 

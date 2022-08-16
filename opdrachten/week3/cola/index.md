@@ -1,6 +1,4 @@
-# Cola
-
-## Cola automaat
+# Cola-automaat
 
 Stel nou je hebt ontzettende dorst en je wil graag een flesje cola uit een drankautomaat halen.
 In de automaat waar je voor staat kost een flesje cola 50 cent en worden er alleen maar muntstukken van 25, 10, en 5 cent geaccepteerd.
