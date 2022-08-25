@@ -1,0 +1,78 @@
+Week 1:
+    Overzicht / Overview: /modules/variabelen
+    Lezen en oefenen / Reading and practice:
+        "Chapter 2: Hello, Python": /boek/hello
+        "Chapter 3: Designing functions": /boek/functions
+        "Chapter 4: Working with text": /boek/text
+    Opdrachten / Assignments:
+        Cafeine: /opdrachten/week1/cafeine
+        Vakantie: /opdrachten/week1/vakantie
+    Weekly checkup:
+        Toetsje: /toetsjes/week1
+
+Week 2:
+    Overzicht / Overview: /modules/beslissingen
+    Lezen en oefenen / Reading and practice:
+        "Chapter 5: Making Choices": /boek/choices
+        "Chapter 6: Modular Approach": /boek/modules
+        "Chapter 7: Using Methods": /boek/methods
+    Opdrachten / Assignments:
+        Orakel: /opdrachten/week2/orakel
+        Etenstijd: /opdrachten/week2/etenstijd
+        Calculator: /opdrachten/week2/calculator
+        Overlap: /opdrachten/week2/overlap
+        Wachtwoord: /opdrachten/week2/wachtwoord
+    Weekly checkup:
+        Toetsje: /toetsjes/week2
+
+Week 3:
+    Overzicht / Overview: /modules/herhalen
+    Lezen en oefenen / Reading and practice:
+        "Chapter 8: Storing Collections using Lists": /boek/lists
+        "Chapter 9: Repeating Code using Loops": /boek/loops
+    Opdrachten / Assignments:
+        camelCase: /opdrachten/week3/camelcase
+        RNA: /opdrachten/week3/rna
+        Leesbaarheid: /opdrachten/week3/leesbaarheid
+        Cola: /opdrachten/week3/cola
+        Populatie: /opdrachten/week3/populatie
+        Sjoelen: /opdrachten/week3/sjoelen
+        Temperatuur: /opdrachten/week3/temperatuur
+    Weekly checkup:
+        Toetsje: /toetsjes/week3
+
+Week 4:
+    Overzicht / Overview: /modules/problemen
+    Opdrachten / Assignments:
+        Scrabble: /opdrachten/week4/scrabble
+        Schuifpuzzel: /opdrachten/week4/schuifpuzzel
+        Kalender: /opdrachten/week4/kalender
+
+Week 5:
+    Overzicht / Overview: /modules/dataverwerking
+    Lezen en oefenen / Reading and practice:
+        "Chapter 10: Reading and Writing Files": /boek/files
+        "Chapter 11: Collection Types": /boek/collections
+    Opdrachten / Assignments:
+        World Cup (TBD): /opdrachten/week5/worldcup
+        Indexer (TBD): /opdrachten/week5/indexer
+        Climate (TBD): /opdrachten/week5/climate
+
+Week 6:
+    Overzicht / Overview: /modules/algoritmen
+    Lezen en oefenen / Reading and practice:
+        "Chapter 12: Designing Algorithms": /boek/algorithms
+        "Chapter 13: Search and Sorting": /boek/searching
+    Opdrachten / Assignments:
+        Algorithms (TBD): /opdrachten/week1/algorithms
+        Measurements (TBD): /opdrachten/week1/measurements
+        Sort (TBD): /opdrachten/week1/sort
+        Virus (TBD): /opdrachten/week1/virus
+
+Week 7:
+    Overzicht / Overview: /modules/classes
+    Lezen en oefenen / Reading and practice:
+        "Chapter 14: Object-oriented programming": /boek/objects
+    Opdrachten / Assignments:
+        Call Center: /opdrachten/week7/callcenter
+        Adventure (TBD): /opdrachten/week7/adventure
