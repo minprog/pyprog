@@ -10,7 +10,7 @@ Je moet het vak Inleiding Programmeren Bèta-gamma volledig hebben gehaald voord
 
 ## Docenten en assistent
 
-De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <help@mprog.nl>. Lodewijk van Keizerswaard is assistent en samen met Bas aanwezig bij alle bijeenkomsten. Bas en Lodewijk kijken ook het wekelijkse huiswerk na.
+De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>. Lodewijk van Keizerswaard is assistent en samen met Bas aanwezig bij alle bijeenkomsten. Bas en Lodewijk kijken ook het wekelijkse huiswerk na.
 
 ## Opdrachten en eindcijfer
 
@@ -30,13 +30,11 @@ Om in aanmerking te komen voor een eindbeoordeling moet je minimaal alle program
 
 Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
 
-**Assistentie:** direct contact met een assistent, voor hulp bij programmeren.
+**Assistentie:** direct contact met een assistent of docent, voor hulp bij programmeren.
 
-* hulp op locatie (lokaal L0.09--L0.10)
+* hulp op locatie (zie rooster)
 * je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 * moeite met verzinnen oplossing
-* dagelijks beschikbaar, zet jezelf in de rij
-* parttime-studenten vanaf 13 uur
 
 **Spreekuur en e-mail:** contact met de docenten.
 
@@ -44,7 +42,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 * meedenken over grote problemen met het vak
 * andere officiële zaken
 * administratie na afloop van het vak
-* mail <help@mprog.nl> of kom langs tijdens het spreekuur
+* mail <progbg@mprog.nl> of kom langs tijdens het spreekuur
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
