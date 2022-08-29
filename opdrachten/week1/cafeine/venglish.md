@@ -1,69 +1,67 @@
-# Cafeïne
+# Caffeine
 
-Om gezond te blijven is het belangrijk om te letten op je cafeïne-inname en te zorgen dat deze niet te hoog is.
-Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillende dranken.
+With your health in mind, it is important to keep a close watch on your caffeine intake and make sure that it is not too high.
+Following is a list of caffeine dosages for a variety of caffeinated beverages.
 
 * Coffee - 90 mg
-* Thee - 45 mg
-* Energiedrankjes - 80 mg
+* Tea - 45 mg
+* Energy drinks - 80 mg
 * Cola - 40 mg
 
-## Opdracht
+## Assignment
 
-Schrijf, in een bestand genaamd `cafeine.py`, een programma dat de gebruiker vraagt hoeveel cafeïne houdende dranken die drinkt en vervolgens de totale cafeïne-inname berekent.
-Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan nul invult, en dus geen fouten maakt bij de invoer.
+Implement, in a file named `cafeine.py`, a program that prompts the user to indicate how many caffeinated drinks they drink, that then calculates the total caffeine intake of the user based on their input. 
+You may assume the user only enters numbers greater than zero and never inputs any incorrect values.
 
 ## Code
 
-In deze opdracht bestaat je code uit een zelfgeschreven functie en het aanroepen van een aantal functies.
-Je moet hier niet alleen je zelfgeschreven functie aanroepen maar ook een aantal functies die al implementeerd zijn in Python.
+For this assignment your code will consist of a self-written function and calls to a number of functions.
+Not only do you have to call your own created function, but also a number of functions already implemented and included in the Python distribution.
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
-Schrijf ook code om de functie aan te roepen.
+Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
+You als have to write code that calls the function.
 
-    def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
+    def calculate_caffeine(coffee: int, tea: int, energy: int, cola: int) -> int:
         """
-        Berekent de hoeveelheid cafeine op basis van de hoeveelheid gedronken
-          drankjes van het type koffie, thee, energie, en cola.
+        Calculates the amount of caffein based on the number of consumed beverages
+          of either coffee, tea, energy, or cola.
         """
 
-    <Schrijf op deze plek code voor de invoer en roep de functie aan>
+    <Write code here to prompt for input and call the function>
 
 ## Tips
 
-* Voor deze opdracht moet je een functie schrijven, dus houd het functional design recipe (FDR) bij de hand.
-* We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen, welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
-* Je ziet dat de naam van de functie en van de parameters in het Engels is, maar het commentaar is in het Nederlands. Dit is bewust zo gedaan, dus zorg dat je dit patroon ook blijft volgen.
+* For this assignment you have to write a function, so keep the functional design recipe (FDR) at hand.
+* We have to prompt the user for values to determine the amount of caffeine, which Python inbuilt function can be best used?
 
+## Examples
 
-## Voorbeelden
-
-Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+Ultimately, your program has to produce output like the examples below.
 
     $ python cafeine.py
-    Hoeveel koppen koffie? 2
-    Hoeveel koppen thee? 1
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 0
-    Je krijgt 225 mg cafeïne binnen.
+    How many cups of coffee? 2
+    How many cups of tea? 1
+    How many energy drinks? 0
+    How many glasses of cola? 0
+    Your intake is 225 mg of caffeine.
 
     $ python cafeine.py
-    Hoeveel koppen koffie? 2
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 2
-    Hoeveel glazen cola? 0
-    Je krijgt 340 mg cafeïne binnen.
+    How many cups of coffee? 2
+    How many cups of tea? 0
+    How many energy drinks? 2
+    How many glasses of cola? 0
+    Your intake is 340 mg of caffeine.
 
     $ python cafeine.py
-    Hoeveel koppen koffie? 0
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 1
-    Je krijgt 40 mg cafeïne binnen.
+    How many cups of coffee? 0
+    How many cups of tea? 0
+    How many energy drinks? 0
+    How many glasses of cola? 1
+    Your intake is 40 mg of caffeine.
 
     $ python cafeine.py
-    Hoeveel koppen koffie? 5
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 0
-    Je krijgt 450 mg cafeïne binnen.
+    How many cups of coffee? 5
+    How many cups of tea? 0
+    How many energy drinks? 0
+    How many glasses of cola? 0
+    Your intake is 450 mg of caffeine.
