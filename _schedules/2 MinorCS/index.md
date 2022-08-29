@@ -1,4 +1,4 @@
-# Programmeren voor Bèta-gamma KI
+# Python Programming for Minor Computational Science
 
 ## Studiewijzer<br><small>Herfst 2022</small>
 
