@@ -54,9 +54,9 @@ Week 5:
         "Chapter 10: Reading and Writing Files": /boek/files
         "Chapter 11: Collection Types": /boek/collections
     Opdrachten / Assignments:
-        World Cup (TBD): /opdrachten/week5/worldcup
-        Indexer (TBD): /opdrachten/week5/indexer
-        Climate (TBD): /opdrachten/week5/climate
+        World Cup: /opdrachten/week5/worldcup
+        Indexer: /opdrachten/week5/indexer
+        Climate: /opdrachten/week5/climate
 
 Week 6:
     Overzicht / Overview: /modules/algoritmen
@@ -64,10 +64,10 @@ Week 6:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten / Assignments:
-        Algorithms (TBD): /opdrachten/week1/algorithms
-        Measurements (TBD): /opdrachten/week1/measurements
-        Sort (TBD): /opdrachten/week1/sort
-        Virus (TBD): /opdrachten/week1/virus
+        Algorithms: /opdrachten/week1/algorithms
+        # Measurements (TBD): /opdrachten/week1/measurements
+        Sort: /opdrachten/week1/sort
+        Virus: /opdrachten/week1/virus
 
 Week 7:
     Overzicht / Overview: /modules/classes
@@ -75,4 +75,4 @@ Week 7:
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten / Assignments:
         Call Center: /opdrachten/week7/callcenter
-        Adventure (TBD): /opdrachten/week7/adventure
+        Adventure: /opdrachten/week7/adventure
