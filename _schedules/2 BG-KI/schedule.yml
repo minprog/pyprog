@@ -64,10 +64,10 @@ Week 6:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten / Assignments:
-        Algorithms: /opdrachten/week1/algorithms
+        Algorithms: /opdrachten/week6/algorithms
         # Measurements (TBD): /opdrachten/week1/measurements
-        Sort: /opdrachten/week1/sort
-        Virus: /opdrachten/week1/virus
+        Sort: /opdrachten/week6/sort
+        Virus: /opdrachten/week6/virus
 
 Week 7:
     Overzicht / Overview: /modules/classes
