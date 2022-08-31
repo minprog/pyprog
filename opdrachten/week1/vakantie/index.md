@@ -9,7 +9,7 @@ hoeveel kilometer je moet reizen en hoe lang je blijft.
 Schrijf, in een bestand genaamd `vakantie.py`, een programma dat
 berekent hoeveel je vakantie kost. De vervoerskosten zijn 13 cent per
 kilometer voor zowel de heen als de terugreis. De verblijfskosten zijn
-60 euro per nacht. De uiteindelijke kosten moeten worden afgerond naar
+60 euro per nacht. De totale kosten moeten worden afgerond naar
 de dichtbijzijnde hele euro.
 
 ## Code
@@ -19,11 +19,7 @@ In deze opdracht bestaat je code uit drie zelfgeschreven functies.
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met
 doctests en eventueel verdere uitleg.
 
-    def total_costs(km: int, nights: int) -> int:
-        """
-        Bepaalt de totale kosten op basis van de te rijden afstand en het aantal nachten en rond af naar hele euros.
-        """
-
+    
     def travel_costs(km: int) -> float:
         """
         Bepaalt de vervoerskosten op basis van de te rijden afstand naar de accomodatie.
@@ -33,7 +29,12 @@ doctests en eventueel verdere uitleg.
         """
         Bepaalt de overnachtingskosten op basis van het aantal nachten dat je op vakantie gaat.
         """
-
+        
+    def total_costs(km: int, nights: int) -> int:
+        """
+        Bepaalt de totale kosten op basis van de afstand en het aantal nachten en rond af naar hele euros.
+        """
+    
     <Schrijf hier code die input van de gebruiker krijgt en print hoeveel de vakantie gaat kosten>
 
 ## Tips
