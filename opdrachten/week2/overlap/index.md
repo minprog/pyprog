@@ -2,8 +2,6 @@
 
 ![](rechthoeken.png){: width="215"}
 
-`TODO: waarschijnlijk wel invoer toelaten van de gebruiker`
-
 De coördinaten van een rechthoek kunnen als volgt worden weergegeven: `rechthoek A1 = ((x1,y1), (x2,y2), (x3,y3), (x4,y4))`, waar elk coördinaat een hoek voorstelt.
 Aangezien we het hebben over een rechthoek zijn een aantal van deze waarden gelijk en hebben we genoeg informatie als we dit schrijven als `rechthoek A2 = ((x5,y5), (x6,y6))`.
 Nu mag je zelf uitzoeken welke waarden van rechthoek A1 corresponderen met de waarden in rechthoek A2.
@@ -13,13 +11,11 @@ Aangezien het veel werk is om telkens twee rechthoeken te tekenen om te kijken o
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `overlap.py`, een programma dat op basis van de coordinaten van twee rechthoeken bepaalt of er een overlap tussen de twee is.
-De coördinaten van de rechthoeken hoeven niet gegeven te worden door de gebruiker en kunnen gewoon in je code zelf worden gezet.
+Schrijf, in een bestand genaamd `overlap.py`, een programma dat op basis van de coordinaten van twee rechthoeken bepaalt of er een overlap tussen de twee is. Elke rechthoek bestaat uit twee paar x,y coördinaten doe door de gebruiker worden ingevoerd in het format `x,y`. Je mag ervan uitgaan dat de gebruiker altijd eerst een valide x,y paar voor linksonder invoert gevolgd door een valide x,y paar voor rechtsboven.
 
 ## Code
 
-Voor deze opdracht ga je drie functies moeten schrijven.
-We gebruiken geen gebruik van input van de gebruiker. Je moet de coördinaten van de verschillende rechthoeken waarvan je de overlap wil weten dus telkens veranderen in je code.
+Voor deze opdracht zul je drie functies moeten schrijven en om invoer van de gebruiker vragen voor 2 vierhoeken die elk uit 2 paren x,y coördinaten bestaan.
 
 Ontwerp je code zoals hieronder beschreven. Zoals je kan zien staan er twee TODO's in, hier moet je zelf bedenken wat voor output de functie moet hebben.
 
@@ -43,17 +39,23 @@ Ontwerp je code zoals hieronder beschreven. Zoals je kan zien staan er twee TODO
 
 ## Tips
 
-* Voorheen was de input van een functie vaak input van de gebruiker. Maar je kan als input ook de output van een andere functie gebruiken. Dat is het geval voor check_overlap. Daar gebruik je de output van check_xaxis en check_yaxis als input.
+* Om een `x,y` coordinaat lost uit de invoer van de gebruiker te halen kun je de invoer splitten op de komma; `a, b = "3,5".split(",")`.
 * De check_overlap functie heeft twee booleans als input, wat zegt dat over de output van de andere twee functies?
 
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
-    $ python overlap.py
-    *Bij het invullen van de volgende input: (1,2, 4,4, 2,3 5,8) krijg je de volgende output*
+    $ python overlap.py    
+    Wat is het linkeronder coordinaat van vierhoek 1? 1,2
+    Wat is het rechterboven coordinaat van vierhook 1? 4,4
+    Wat is het linkeronder coordinaat van vierhoek 2? 2,3
+    Wat is het rechterboven coordinaat van vierhook 2? 5,8
     Er is een overlap tussen de twee rechthoeken
 
     $ python overlap.py
-    *Bij het invullen van de volgende input: (1,2, 4,4, 5,3 6,5) krijg je de volgende output*
+    Wat is het linkeronder coordinaat van vierhoek 1? 1,2
+    Wat is het rechterboven coordinaat van vierhook 1? 4,4
+    Wat is het linkeronder coordinaat van vierhoek 2? 5,3
+    Wat is het rechterboven coordinaat van vierhook 2? 6,5
     Er is geen overlap tussen de twee rechthoeken
