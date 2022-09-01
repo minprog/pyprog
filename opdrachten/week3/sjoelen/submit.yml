@@ -1,14 +1,14 @@
-name: cafeine
+name: sjoelen
 files:
   required:
-    - cafeine.py
+    - sjoelen.py
 check:
   tool: checkpy
-  repo: minprog/python
-  args: cafeine
+  repo: minprog/sjoelen
+  args: sjoelen
 plag:
   server: https://coda.quinner.nl/api/submission/
-  slug: pyprog/2022/cafeine
+  slug: pyprog/2022/sjoelen
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:

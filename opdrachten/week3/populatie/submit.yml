@@ -1,14 +1,14 @@
-name: cafeine
+name: populatie
 files:
   required:
-    - cafeine.py
+    - populatie.py
 check:
   tool: checkpy
-  repo: minprog/python
-  args: cafeine
+  repo: minprog/populatie
+  args: populatie
 plag:
   server: https://coda.quinner.nl/api/submission/
-  slug: pyprog/2022/cafeine
+  slug: pyprog/2022/populatie
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:

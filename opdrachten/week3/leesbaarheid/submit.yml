@@ -1,14 +1,14 @@
-name: cafeine
+name: leesbaarheid
 files:
   required:
-    - cafeine.py
+    - leesbaarheid.py
 check:
   tool: checkpy
-  repo: minprog/python
-  args: cafeine
+  repo: minprog/leesbaarheid
+  args: leesbaarheid
 plag:
   server: https://coda.quinner.nl/api/submission/
-  slug: pyprog/2022/cafeine
+  slug: pyprog/2022/leesbaarheid
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:

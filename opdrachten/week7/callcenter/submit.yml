@@ -1,14 +1,14 @@
-name: cafeine
+name: callcenter
 files:
   required:
-    - cafeine.py
+    - callcenter.py
 check:
   tool: checkpy
-  repo: minprog/python
-  args: cafeine
+  repo: minprog/callcenter
+  args: callcenter
 plag:
   server: https://coda.quinner.nl/api/submission/
-  slug: pyprog/2022/cafeine
+  slug: pyprog/2022/callcenter
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:
