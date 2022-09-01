@@ -41,7 +41,7 @@ doctests and any other explanation you deem necessary.
 ## Tips
 
 * Remember to correctly calculate `travel_costs(km)` for a round-trip even though the function only receives km for a one way trip!
-* Make sure the final costs is rounded so that your output is an integer.
+* Make sure the final cost calculation is rounded so that your output is an integer.
 
 ## Examples
 
