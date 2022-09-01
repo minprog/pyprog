@@ -36,6 +36,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 ## Tips
 
 * De getallen in de expressie kunnen uit meerdere cijfers bestaan (bijvoorbeeld 135). Denk dus even na hoe je de expressie op zo'n manier splitst zodat je zowel honderdtallen als losse cijfers kan verwerken.
+* Je kan meerdere waardes uit een string uitpakken door met de split() functie de string op te splitsen bij een specifiek scheidingsteken; `a, b = "hello world!".split(" ")`. Let op dat de string nu bij elke 'spatie' wordt opgesplitst en dat het aantal variabelen waar je naar uitpakt gelijk moet zijn aan het resultaat van de opsplitsing.
 
 ## Voorbeelden
 
