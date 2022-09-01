@@ -4,7 +4,7 @@ files:
         - cafeine.py
 check:
     tool: checkpy
-    repo: minprog/pyprog
+    repo: minprog/python
     args: cafeine
 plag:
     server: https://coda.quinner.nl/api/submission/
