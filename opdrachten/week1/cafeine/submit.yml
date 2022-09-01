@@ -2,9 +2,10 @@ name: cafeine
 files:
     required:
         - cafeine.py
-# check:
-#     tool: check50
-#     slug: minprog/programmeren-ki/2021/other/calendar
+check:
+    tool: checkpy
+    repo: minprog/pyprog
+    args: cafeine
 plag:
     server: https://coda.quinner.nl/api/submission/
     slug: pyprog/2022/cafeine
