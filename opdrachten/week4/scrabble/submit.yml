@@ -7,7 +7,7 @@ check:
   repo: minprog/scrabble
   args: scrabble
 plag:
-  server: https://coda.quinner.nl/api/submission/
+  server: http://83.96.241.94/api/submission/
   slug: pyprog/2022/scrabble
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
