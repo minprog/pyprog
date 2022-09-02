@@ -61,3 +61,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Hoe ver ga je weg in kilometers? 2159
     Hoe veel nachten is je verblijf? 12
     Jouw vakantie kost: 1281
+
+## Insturen
+
+Je kunt je uitwerking onderaan deze pagina insturen. Na enige minuten vind je op de [voortgangspagina](/submissions) een knop om de resultaten van de automatische controle te bekijken.

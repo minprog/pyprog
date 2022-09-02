@@ -61,3 +61,7 @@ Ultimately, your program has to produce output like the examples below.
     How far are you traveling in kilometers? 2159
     How many nights will you book? 12
     Your vacation will cost: 1281
+
+## Submit
+
+You can submit your solution at the bottom of this page. After a few minutes you'll find on the [progress page](/submissions) a button to view the results of the automatic checks. If there are still errors, please fix them and submit again.
