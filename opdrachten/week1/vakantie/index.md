@@ -1,34 +1,46 @@
 # Vakantiekosten
 
-Je wil in je eentje op vakantie naar Frankrijk, maar dat kost nogal wat.
-De kosten van de reis naar het verblijf zijn afhankelijk van hoeveel kilometer je moet reizen en hoe lang je blijft. Je gaat met de auto en dat kost 13 cent per kilometer. Daarnaast kost het verblijf 60 euro per nacht.
+Je wil in je eentje op vakantie naar Frankrijk, maar dat kost nogal
+wat. De kosten van de reis naar het verblijf zijn afhankelijk van
+hoeveel kilometer je moet reizen en hoe lang je blijft. 
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `vakantie.py`, een programma dat berekent hoeveel je vakantie kost op basis van hoe ver weg je gaat en het aantal dagen dat je op vakantie gaat. Het totaal aan vakantiekosten is de som van de vervoers- en overnachtingskosten. We drukken onze resultaten uit in gehele euro's, dus elke berekening ronden we af naar de dichtstbijzijnde integer. Je mag ervan uitgaan dat alle invoer geldig is.
+Schrijf, in een bestand genaamd `vakantie.py`, een programma dat
+berekent hoeveel je vakantie kost. De vervoerskosten zijn 13 cent per
+kilometer voor zowel de heen als de terugreis. De verblijfskosten zijn
+60 euro per nacht. De totale kosten moeten worden afgerond naar
+de dichtbijzijnde hele euro.
 
 ## Code
 
-In deze opdracht bestaat je code uit twee zelfgeschreven functies.
+In deze opdracht bestaat je code uit drie zelfgeschreven functies.
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met
+doctests en eventueel verdere uitleg.
 
-    def travel_costs(km: int) -> int:
+    
+    def travel_costs(km: int) -> float:
         """
-        Bepaal de vervoerskosten op basis van de te rijden afstand naar de accomodatie.
-        """
-
-    def overnight_costs(nights: int) -> int:
-        """
-        Bepaal de overnachtingskosten op basis van het aantal nachten dat je op vakantie gaat.
+        Bepaalt de vervoerskosten op basis van de te rijden afstand naar de accomodatie.
         """
 
+    def overnight_costs(nights: int) -> float:
+        """
+        Bepaalt de overnachtingskosten op basis van het aantal nachten dat je op vakantie gaat.
+        """
+        
+    def total_costs(km: int, nights: int) -> int:
+        """
+        Bepaalt de totale kosten op basis van de afstand en het aantal nachten en rond af naar hele euros.
+        """
+    
     <Schrijf hier code die input van de gebruiker krijgt en print hoeveel de vakantie gaat kosten>
 
 ## Tips
 
 * Houd bij `travel_costs(km)` in de gaten dat je niet alleen heen maar ook terug moet rijden, terwijl de functie de afstand voor alleen de heenreis ontvangt!
-* Zorg dat in je functies de uitkomsten worden afgerond, zodat je output een integer is.
+* Zorg dat de uiteindelijke kosten worden afgerond zodat je output een integer is.
 
 ## Voorbeelden
 

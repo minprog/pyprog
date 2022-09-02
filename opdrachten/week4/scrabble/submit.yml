@@ -1,14 +1,14 @@
-name: cafeine
+name: scrabble
 files:
   required:
-    - cafeine.py
+    - scrabble.py
 check:
   tool: checkpy
-  repo: minprog/python
-  args: cafeine
+  repo: minprog/scrabble
+  args: scrabble
 plag:
   server: https://coda.quinner.nl/api/submission/
-  slug: pyprog/2022/cafeine
+  slug: pyprog/2022/scrabble
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:

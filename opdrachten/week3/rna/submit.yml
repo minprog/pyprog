@@ -1,14 +1,14 @@
-name: cafeine
+name: rna
 files:
   required:
-    - cafeine.py
+    - rna.py
 check:
   tool: checkpy
-  repo: minprog/python
-  args: cafeine
+  repo: minprog/rna
+  args: rna
 plag:
   server: https://coda.quinner.nl/api/submission/
-  slug: pyprog/2022/cafeine
+  slug: pyprog/2022/rna
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:
