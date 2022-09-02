@@ -20,7 +20,7 @@ Not only do you have to call your own created function, but also a number of fun
 
 Design your program as described below.
 Complete the docstrings with example calls and return values (step three from the function design recipe), and any other explanations as needed.
-You als have to write code that calls the function.
+Finally, write some code that asks for input and calls the function.
 
     def calculate_caffeine(coffee: int, tea: int, energy: int, cola: int) -> int:
         """

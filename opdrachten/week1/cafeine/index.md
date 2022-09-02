@@ -20,7 +20,7 @@ Je moet hier niet alleen je zelfgeschreven functie aanroepen maar ook een aantal
 
 Ontwerp je code zoals hieronder beschreven.
 Vul de docstrings aan met voorbeeld-aanroepen en de gewenste uitkomsten (stap 3 van het function design recipe), en eventueel verdere uitleg.
-Schrijf ook code om de functie aan te roepen.
+Schrijf ook code om invoer te vragen en de functie aan te roepen.
 
     def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
         """

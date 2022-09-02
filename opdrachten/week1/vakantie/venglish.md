@@ -19,6 +19,7 @@ For this assignment your code will consist of three self-written functions.
 
 Design your program as described below.
 Complete the docstrings with example calls and return values (step three from the function design recipe), and any other explanations as needed.
+Finally, write some code that asks for input and calls the function.
 
     def travel_costs(km: int) -> float:
         """

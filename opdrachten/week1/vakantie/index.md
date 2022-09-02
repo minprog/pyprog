@@ -18,6 +18,7 @@ In deze opdracht bestaat je code uit drie zelfgeschreven functies.
 
 Ontwerp je code zoals hieronder beschreven.
 Vul de docstrings aan met voorbeeld-aanroepen en de gewenste uitkomsten (stap 3 van het FDR), en eventueel verdere uitleg.
+Schrijf ook code om invoer te vragen en de functie aan te roepen.
 
     
     def travel_costs(km: int) -> float:
