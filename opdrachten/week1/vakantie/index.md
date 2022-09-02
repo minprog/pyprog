@@ -16,8 +16,8 @@ de dichtbijzijnde hele euro.
 
 In deze opdracht bestaat je code uit drie zelfgeschreven functies.
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met
-doctests en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven.
+Vul de docstrings aan met voorbeeld-aanroepen en de gewenste uitkomsten (stap 3 van het FDR), en eventueel verdere uitleg.
 
     
     def travel_costs(km: int) -> float:

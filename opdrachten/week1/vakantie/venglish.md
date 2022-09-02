@@ -17,9 +17,8 @@ nearest whole euro.
 
 For this assignment your code will consist of three self-written functions.
 
-Design your program as described below. Complete the docstrings with
-doctests and any other explanation you deem necessary.
-
+Design your program as described below.
+Complete the docstrings with example calls and return values (step three from the function design recipe), and any other explanations as needed.
 
     def travel_costs(km: int) -> float:
         """
