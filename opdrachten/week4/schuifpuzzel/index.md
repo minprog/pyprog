@@ -8,8 +8,7 @@ tegels in oplopende volgorde gesorteerd staan van linksboven tot rechtsonder (zi
 Het verschuiven van tegels kan alleen horizontaal en verticaal. In het voorbeeld
 kan je dus de tegels met de cijfers 12 en 15 verplaatsen.
 
-<img src="tiles1.png" alt="correct_config" width="250"/>
-
+![correct_config](tiles1.png)
 
 Zoals je je misschien wel kan voorstellen, zijn er ontzettend veel verschillende
 configuraties van tegels mogelijk.
@@ -24,7 +23,7 @@ een oneven aantal tegels zijn) de tegels 1 & 2 moeten worden omgewisseld.
 Dit is nodig zodat de puzzel oplosbaar is. De beginconfiguratie voor een schuifpuzzel
 met zijden van 4 velden is weergegeven in het voorbeeld hieronder.
 
-<img src="tiles2.png" alt="start_config" width="250"/>
+![start_config](tiles2.png)
 
 
 ## Opdracht
