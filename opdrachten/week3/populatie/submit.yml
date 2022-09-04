@@ -4,7 +4,7 @@ files:
     - populatie.py
 check:
   tool: checkpy
-  repo: minprog/populatie
+  repo: minprog/python
   args: populatie
 plag:
   server: http://83.96.241.94/api/submission/

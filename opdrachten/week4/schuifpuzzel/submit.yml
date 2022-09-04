@@ -4,7 +4,7 @@ files:
     - schuifpuzzel.py
 check:
   tool: checkpy
-  repo: minprog/schuifpuzzel
+  repo: minprog/python
   args: schuifpuzzel
 plag:
   server: http://83.96.241.94/api/submission/

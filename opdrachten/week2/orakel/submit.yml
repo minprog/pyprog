@@ -4,7 +4,7 @@ files:
     - orakel.py
 check:
   tool: checkpy
-  repo: minprog/orakel
+  repo: minprog/python
   args: orakel
 plag:
   server: http://83.96.241.94/api/submission/

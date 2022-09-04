@@ -4,7 +4,7 @@ files:
     - cola.py
 check:
   tool: checkpy
-  repo: minprog/cola
+  repo: minprog/python
   args: cola
 plag:
   server: http://83.96.241.94/api/submission/

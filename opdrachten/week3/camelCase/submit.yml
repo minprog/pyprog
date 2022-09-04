@@ -4,7 +4,7 @@ files:
     - camelcase.py
 check:
   tool: checkpy
-  repo: minprog/camelcase
+  repo: minprog/python
   args: camelcase
 plag:
   server: http://83.96.241.94/api/submission/

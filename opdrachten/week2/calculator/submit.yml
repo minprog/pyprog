@@ -4,7 +4,7 @@ files:
     - calculator.py
 check:
   tool: checkpy
-  repo: minprog/calculator
+  repo: minprog/python
   args: calculator
 plag:
   server: http://83.96.241.94/api/submission/
