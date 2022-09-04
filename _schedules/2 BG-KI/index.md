@@ -24,7 +24,7 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 4. Beoordeling tentamen (0%). Het telt niet mee voor je eindcijfer, maar je moet een voldoende halen om het vak af te kunnen ronden.
 
-Om in aanmerking te komen voor een eindbeoordeling moet je minimaal alle programmeeropdrachten hebben ingeleverd die inhoudelijk beoordeeld worden (punt 3 hierboven). Je moet ook aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven. Daarnaast moet je het tentamen voldoende maken. Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages.
+Om in aanmerking te komen voor een eindbeoordeling moet je minimaal alle programmeeropdrachten hebben ingeleverd die inhoudelijk beoordeeld worden (punt 3 hierboven). Je moet ook aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag één werkcollege missen). Daarnaast moet je het tentamen voldoende maken. Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages.
 
 ## Vragen stellen
 
