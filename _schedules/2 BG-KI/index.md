@@ -18,9 +18,9 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 1. Aftekenen oefeningen uit het boek (10%). In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Het maken van de oefeningen levert je een deel van het eindcijfer op. Ze worden gecheckt op volledigheid van de antwoorden.
 
-2. Insturen van oplossingen voor de programmeeropdrachten (10%). Voor het inleveren van correcte oplossingen voor de opdrachten staat ook een deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+2. Insturen van oplossingen voor de programmeeropdrachten (20%). Voor het inleveren van correcte oplossingen voor de opdrachten staat ook een deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3. Beoordeling individuele programmeeropdrachten (80%). Bijna elke week is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit.
+3. Beoordeling individuele programmeeropdrachten (70%). Bijna elke week is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit.
 
 4. Beoordeling tentamen (0%). Het telt niet mee voor je eindcijfer, maar je moet een voldoende halen om het vak af te kunnen ronden.
 
