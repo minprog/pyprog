@@ -67,11 +67,11 @@ Dit is een overzicht van de deadlines per week:
 |             | deadline werkend | deadline verbeterd |
 |:------------|:-----------------|:-------------------|
 | Module 1    | vr  9 sep  17:59 | -                  |
-| Module 2    | vr 16 sep  17:59 | di 20 sep  18:59   |
-| Module 3    | vr 23 sep  17:59 | di 27 sep  18:59   |
-| Module 4    | vr 30 sep  17:59 | di  4 okt  18:59   |
-| Module 5    | vr  7 okt  17:59 | di 11 okt  18:59   |
-| Module 6    | vr 14 okt  17:59 | di 18 okt  18:59   |
+| Module 2    | vr 16 sep  17:59 | ma 21 sep  18:59   |
+| Module 3    | vr 23 sep  17:59 | ma 28 sep  18:59   |
+| Module 4    | vr 30 sep  17:59 | ma  5 okt  18:59   |
+| Module 5    | vr  7 okt  17:59 | ma 12 okt  18:59   |
+| Module 6    | vr 14 okt  17:59 | ma 19 okt  18:59   |
 | Module 7    | vr 21 okt  17:59 | -                  |
 
 De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering. Eventuele wijzigingen worden na aanvang van de cursus doorgegeven.
