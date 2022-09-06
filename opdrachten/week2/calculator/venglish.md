@@ -8,7 +8,7 @@ To that end we'll write a program that prompts the user to input a formula, for 
 Implement, in a file named `calc.py`, a program that prompts the user to input a formula and then outputs the correct result for that formula.
 
 * The formula that is input by the user should be of the form `x y z` with a space between each of the `x`, `y`, and `z`.
-* `x` and `z` should be integers and `z` is one of the following operators: `+`, `-`, `*`, `/`.
+* `x` and `z` should be integers and `y` is one of the following operators: `+`, `-`, `*`, `/`.
 * You may assume that the user will not input a 0 (zero) for `z` if the operator is chosen as `/`.
 * The output of the program should be the `float` type.
 * Your program should also work for negative numbers.
@@ -23,7 +23,7 @@ Design your program as described below. Complete the docstrings with doctests an
         `x` and `z` are returned as integers and `y` as a single character string.
         """
 
-    def get_result(x: int, y: str, z: int) -> float:
+    def calculate(x: int, y: str, z: int) -> float:
         """
         Calculate the result of the expression based on the values of x, y and z.
         The result is returned as a float.

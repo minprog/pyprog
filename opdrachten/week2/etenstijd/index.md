@@ -13,7 +13,7 @@ Schrijf, in een bestand genaamd `etenstijd.py`, een programma dat de gebruiker v
 
 ## Code
 
-In deze opdracht moet je weer een zelf een functie schrijven. Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
+In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def convert(time):
         """

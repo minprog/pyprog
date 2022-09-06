@@ -45,7 +45,7 @@ Design your program as described below. Complete the docstrings with doctests an
 ## Tips
 
 * Ther is no one correct solution for each of the checks! There's more than one way to implement each of the functions, take a look at all of the string-operations in the book for inspiration.
-* When you check whether a password contains both an upper case letter and a lower case letter, you also need to check whether there is any letter at all.
+* Beware! When you check whether a password contains both an upper case letter and a lower case letter, you also need to check whether there is any letter at all.
 
 ## Examples
 

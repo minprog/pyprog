@@ -1,4 +1,6 @@
-# Het antwoord op alles
+# Orakel
+
+"Het antwoord op alles."
 
 > "All right," said the computer, and settled into silence again. The two men fidgeted. The tension was unbearable.  
 > "You’re really not going to like it," observed Deep Thought.  

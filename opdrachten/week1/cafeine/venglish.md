@@ -32,7 +32,7 @@ You als have to write code that calls the function.
 ## Tips
 
 * For this assignment you have to write a function, so keep the functional design recipe (FDR) at hand.
-* We have to prompt the user for values to determine the amount of caffeine; which built-in Python function should you use to prompt the user?
+* Which built-in Python function should you use to prompt the user?
 
 ## Examples
 
