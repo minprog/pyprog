@@ -1,4 +1,4 @@
-# Orakel
+# Oracle
 
 "The answer to everything."
 
@@ -23,7 +23,7 @@ Implement, in a file named `orakel.py`, a program that prompts the user for the 
 
 ## Code
 
-From now onwards we will wrap our function calls in an "if __name__ == '__main__':" statement, instead of putting those function calls under or in between our function definitions.
+From now on we will wrap our function calls in a `if __name__ == '__main__':` statement, instead of putting those function calls under or in between our function definitions.
 Aside from those function calls, your code will consist of a self-written function.
 
 Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
