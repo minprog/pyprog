@@ -24,7 +24,7 @@ Als de gebruiker als antwoord `42`, `tweeenveertig`, of `tweeënveertig` geeft, 
 
 ## Code
 
-Vanaf nu gaan we code aanroepen door middel van het gebruik van `if __name__ == '__main__'`.
+Vanaf nu gaan we code aanroepen door middel van het gebruik van "if __name__ == '__main__':".
 Hier kan je de code schrijven waarin je je verschillende functies aanroept, in plaats van dat je het los onder je zelfgeschreven functies zet.
 Verder bestaat je code in deze opdracht uit een zelfgeschreven functie.
 
