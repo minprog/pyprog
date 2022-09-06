@@ -1,7 +1,5 @@
 # Een veilig wachtwoord
 
-`TODO: de extra uitdaging is nog wat vaag`
-
 We hebben tegenwoordig voor alles accounts en bij elk account hoort een wachtwoord zodat alleen wij bij onze informatie kunnen.
 Aan deze wachtwoorden zitten vaak eisen om te zorgen dat ze niet te makkelijk te raden zijn door kwaadwillende buitenstaanders.
 
@@ -45,7 +43,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 ## Tips
 
 * Wees creatief bij het implementeren van de drie checks! Er zijn super veel verschillende mogelijkheden om dat voor elkaar te krijgen. Kijk naar alle mogelijke string-operaties in het boek voor inspiratie.
-* Wanneer je checkt of een wachtwoord zowel een grote als een kleine letter bevat, moet je ook checken of het überhaupt een letter bevat.
+* Let op! Wanneer je checkt of een wachtwoord zowel een grote als een kleine letter bevat, moet je ook checken of het überhaupt een letter bevat.
 
 ## Voorbeelden
 

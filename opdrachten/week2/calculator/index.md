@@ -8,7 +8,7 @@ Daarom gaan we een programma schrijven dat de gebruiker vraagt een formule te ge
 Schrijf, in een bestand genaamd `calc.py`, een programma dat de gebruiker vraagt een formule in te tikken en het antwoord van de formule geeft als output.
 
 * De formule die wordt gegeven door de gebruiker is van de vorm `x y z` met een spatie tussen de `x` en `y`, en `y` en `z`.
-* Hier zijn de `x` en `z` integers en is de `z` één van de operaties `+, -, *, / `.
+* Hier zijn de `x` en `z` integers en is de `y` één van de operaties `+, -, *, / `.
 * Je mag aannemen dat de gebruiker `z` niet nul maakt als voor `y` de operatie `/` is gekozen (dat zou een probleem zijn!).
 * De output van het programma moet een float zijn.
 * Je programma moet ook kunnen omgaan met negatieve getallen.
@@ -24,7 +24,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         karakter.
         """
 
-    def get_result(x: int, y: str, z: int) -> float:
+    def calculate(x: int, y: str, z: int) -> float:
         """
         Bereken het resultaat van de expressie gebasseerd op de x, y, en z waardes.
         Je output is een float.  
