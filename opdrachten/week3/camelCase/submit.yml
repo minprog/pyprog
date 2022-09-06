@@ -1,14 +1,14 @@
-name: cafeine
+name: camelcase
 files:
   required:
-    - cafeine.py
+    - camelcase.py
 check:
   tool: checkpy
   repo: minprog/python
-  args: cafeine
+  args: camelcase
 plag:
   server: http://83.96.241.94/api/submission/
-  slug: pyprog/2022/cafeine
+  slug: pyprog/2022/camelcase
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:
