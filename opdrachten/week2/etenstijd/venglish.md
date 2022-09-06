@@ -45,7 +45,6 @@ Ultimately, your program has to produce output like the examples below.
     What is the time? 13:00
     It's time for lunch.
 
-
     $ python etenstijd.py
     What is the time? 18:53
     It's time for dinner.
