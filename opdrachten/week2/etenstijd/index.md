@@ -1,6 +1,6 @@
-# Maaltijden
+# Etenstijd
 
-Een welbekend stereotype van Nederlanders is dat ze stipt om 18:00 uur aan tafel zitten. Laten we aannemen dat dit stereotype ook doorwerkt op de andere maaltijden en daarmee de vaste etenstijden voor ontbijt tussen 7:00 en 8:00 zijn, voor lunch tussen 12:00 en 13:00 en voor avondeten tussen 18:00 en 19:00.
+Een welbekend stereotype van Nederlanders is dat ze stipt om 18:00 uur aan tafel zitten. Laten we aannemen dat dit stereotype ook doorwerkt op de andere maaltijden en dat de vaste etenstijden voor ontbijt tussen 7:00 en 8:00 zijn, voor lunch tussen 12:00 en 13:00 en voor avondeten tussen 18:00 en 19:00.
 Zou het niet handig zijn als er een programma is dat ons vertelt, op basis van het tijdstip, welke maaltijd we moeten eten?
 
 ## Opdracht
@@ -25,7 +25,12 @@ In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals 
 
 ## Tips
 
-* De gebruiker kan de tijdstippen invullen in de vorm `X:XX` en `XX:XX` wat is dan een goede manier om de uren van de minuten te splitsen?
+Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `help@mprog.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
+
+    email = "help@mprog.nl"
+    user, domain = email.split("@")
+
+Daarna heb je twee losse variabelen `user` en `domain` met daarin informatie uit de originele string `email`. Probeer zelf nog even uit hoe dit werkt in Python en of je de informatie uit de `user`-variabele kunt printen!
 
 ## Voorbeelden
 

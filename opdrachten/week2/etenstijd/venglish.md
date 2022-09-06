@@ -1,4 +1,4 @@
-# Meal Time
+# Meal time
 
 An infamous stereotype of the Dutch is that they start dinner at exactly 18:00. Let's assume this stereotype also reflects punctuality for other meals of the day. This means that breakfast time will be between 7:00 and 8:00, lunchtime is between 12:00 and 13:00 and dinnertime is between 18:00 and 19:00.
 Let's utilize the knowledge of these time slots and have a program tell us what meal we should be eating based on the time of day.
@@ -26,8 +26,12 @@ For this assignment you will, once again, have to write your own function. Desig
 
 ## Tips
 
-* The user can input times of two different formats; `X:XX` and `XX:XX`. How would you go about splitting the hours and minutes to correctly convert it to a float?
+You can "unpack" multiple values from one string by using the method `split()`. If you have a string containing `help@mprog.nl` you can unpack it into two variables like so:
 
+    email = "help@mprog.nl"
+    user, domain = email.split("@")
+
+After these two lines you will have two separate variables `user` and `domain` containing information from the original string `email`. Try it yourself using Python and see if you can print all information from the `user`-variable!
 
 ## Examples
 
