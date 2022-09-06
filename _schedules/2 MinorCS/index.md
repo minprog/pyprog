@@ -10,7 +10,7 @@ Your teachers in class are Quinten van der Post and Jasper Timmer. They will be 
 
 ## Assignments and final grade
 
-Learning to programming is done through lost of practice. Almost all of the work in this course is making programming assignments. These are the main components:
+Learning to programming is done through lots of practice. Almost all of the work in this course is making programming assignments. These are the main components:
 
 1. Book exercises (10%). The book contains exercises you may do to support your understanding of the reading materials. Making and submitting exercises will be part of your final grade. Your answers are checked for completeness and correctness.
 
@@ -24,6 +24,7 @@ To get a final grade for the course you will need to, at a minimum:
 
 -  Submit all programming assignments that are individually assessed (item 3).
 -  Have attended all but 1 of the Tuesday lectures.
+-  During the first two weeks, Fridays are also mandatory to attend.
 -  Pass the exam.
 
 When all is set, the final grade will be calculated according to the percentages above.
@@ -72,7 +73,7 @@ For most weeks there are two deadlines.
     - Programming assignments need to be fully correct and will be automatically checked, so if you're on time you could correct and re-submit your solution.
     - No need to write tidy and nice code, because that's what the second deadline is for.
 
-2. The deadline for the **improved** version of one or two weekly programs. During the lecture you will do a code review with another student, and you will improve your solution on various aspects. This is the version that's graded by the staff. The improved version still has to be correct!
+2. The deadline for the **improved** version of one or two weekly programs. During the lecture you will do a code review with another student, and you will improve your solution on various aspects. The teacher will assign the programs that have to be reviewed. If you weren't able to finish one of these programs, the teacher will decide which programs your will review. After submitting the improved versions, these will graded by the staff. Note that the improved version still has to be correct as it was before!
 
 |             | completion deadline | improvement deadline |
 |:------------|:--------------------|:---------------------|
@@ -109,7 +110,7 @@ These aspects concern *code quality*, about which you'll learn more during the c
 1. insufficient observable attention to code quality aspects
 {: start="6" reversed=""}
 
-Want to do well (4 points)? Study the aspects that we provide and actively participate in the code review. This should yield a lot input for improving your programs.
+Want to do well (4 points)? Study the aspects that we provide and actively participate in the code review. This should yield a lot of input for improving your programs.
 
 Want to score very high (6 points)? In that case you'll need to study not only our materials but find external sources about writing good Python code and make a very good design that fits the solution in particular.
 
