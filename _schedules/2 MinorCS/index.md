@@ -2,10 +2,6 @@
 
 ## Syllabus<br><small>Fall 2022</small>
 
-Dit vak volg je als je Bèta-gamma studeert en de major Kunstmatige intelligentie gaat volgen. Het helpt je verder leren vanuit je basiskennis van Python naar meer geavanceerde programma's, en je bereidt jezelf voor op het vak Datastructuren uit de bachelor Kunstmatige Intelligentie.
-
-## Prerequisites
-
 We assume no prior programming experience. You can learn quite a bit still, if you have some informal prior experience or if you've done just a few assignments in Python. If you have done a full 6 credit course in Python this course is not for you.
 
 ## Teacher and assistants
@@ -133,7 +129,7 @@ The essence of all work that you submit to this course must be your own (unless 
 
 Below are rules of thumb that (inexhaustively) characterize acts that the course considers reasonable and not reasonable. If in doubt as to whether some act is reasonable, do not commit it until you solicit and receive approval in writing from the course's heads. Acts considered not reasonable by the course are handled harshly.
 
-By the way, the text of this section was copied (!) from the course Scienctific Programming 1 by Simon Pauw and adapted from the course CS50 by David Malan. We use the text with permission under a Creative Commons license.
+By the way, the text of this section was copied (!) from the course Scienctific Programming 1 by  Simon Pauw and adapted from the course CS50 by David Malan. We use the text with permission under a Creative Commons license.
 
 ### Reasonable
 
