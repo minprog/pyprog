@@ -13,25 +13,27 @@ Implement, in a file named `etenstijd.py`, a program that prompts the user to in
 
 ## Code
 
-For this assignment you will, once again, have to write your own function. Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
+For this assignment you are going to write your own function, as before. Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
 
-
-    def convert(time: str) -> float:
+    def meal(time: str) -> str:
         """
-        Converts a string describing the time to a float.
+        Converts a time string to a meal name.
+        Meal can be "breakfast", "lunch", "dinner" or "".
         """
 
     if __name__ == '__main__':
-        <Prompt the user for input, call your function and print the correct result>
+        <Prompt hier de gebruiker om invoer, roep je functie aan en print het antwoord>
 
 ## Tips
 
-You can "unpack" multiple values from one string by using the method `split()`. If you have a string containing `help@mprog.nl` you can unpack it into two variables like so:
+*   You can "unpack" multiple values from one string by using the method `split()`. If you have a string containing `help@mprog.nl` you can unpack it into two variables like so:
 
-    email = "help@mprog.nl"
-    user, domain = email.split("@")
+        email = "help@mprog.nl"
+        user, domain = email.split("@")
 
-After these two lines you will have two separate variables `user` and `domain` containing information from the original string `email`. Try it yourself using Python and see if you can print all information from the `user`-variable!
+    After these two lines you will have two separate variables `user` and `domain` containing information from the original string `email`. Try it yourself using Python and see if you can print all information from the `user`-variable!
+
+*   In the `main` part you need to ensure that absolutely nothing is printed if it's not time for a meal yet. See the examples below.
 
 ## Examples
 

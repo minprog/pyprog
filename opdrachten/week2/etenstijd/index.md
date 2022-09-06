@@ -15,9 +15,10 @@ Schrijf, in een bestand genaamd `etenstijd.py`, een programma dat de gebruiker v
 
 In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def convert(time: str) -> float:
+    def meal(time: str) -> str:
         """
-        Converteert de string van de de tijd naar een float.
+        Converteert een tijd-string naar een maaltijd.
+        De maaltijd kan zijn "ontbijt", "lunch", "avondeten" of "".
         """
 
     if __name__ == '__main__':
@@ -25,12 +26,14 @@ In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals 
 
 ## Tips
 
-Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `help@mprog.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
+*   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `help@mprog.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
 
-    email = "help@mprog.nl"
-    user, domain = email.split("@")
+        email = "help@mprog.nl"
+        user, domain = email.split("@")
 
-Daarna heb je twee losse variabelen `user` en `domain` met daarin informatie uit de originele string `email`. Probeer zelf nog even uit hoe dit werkt in Python en of je de informatie uit de `user`-variabele kunt printen!
+    Daarna heb je twee losse variabelen `user` en `domain` met daarin informatie uit de originele string `email`. Probeer zelf nog even uit hoe dit werkt in Python en of je de informatie uit de `user`-variabele kunt printen!
+
+*   In de `main` moet je zorgen dat er echt helemaal niets wordt geprint als het nog geen etenstijd is. Zie de voorbeelden hieronder.
 
 ## Voorbeelden
 
@@ -38,7 +41,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python etenstijd.py
     Hoe laat is het? 7:15
-    Het is tijd voor onbijt
+    Het is tijd voor ontbijt
 
     $ python etenstijd.py
     Hoe laat is het? 13:00
