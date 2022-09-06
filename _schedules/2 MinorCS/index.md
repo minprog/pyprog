@@ -1,186 +1,199 @@
 # Python Programming for Minor Computational Science
 
-## Studiewijzer<br><small>Herfst 2022</small>
+## Syllabus<br><small>Fall 2022</small>
 
 Dit vak volg je als je Bèta-gamma studeert en de major Kunstmatige intelligentie gaat volgen. Het helpt je verder leren vanuit je basiskennis van Python naar meer geavanceerde programma's, en je bereidt jezelf voor op het vak Datastructuren uit de bachelor Kunstmatige Intelligentie.
 
-## Voorkennis
+## Prerequisites
 
-Je moet het vak Inleiding Programmeren Bèta-gamma volledig hebben gehaald voordat je aan dit vak mag beginnen.
+We assume no prior programming experience. You can learn quite a bit still, if you have some informal prior experience or if you've done just a few assignments in Python. If you have done a full 6 credit course in Python this course is not for you.
 
-## Docenten en assistent
+## Teacher and assistants
 
-De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>. Lodewijk van Keizerswaard is assistent en samen met Bas aanwezig bij alle bijeenkomsten. Bas en Lodewijk kijken ook het wekelijkse huiswerk na.
+Your teachers in class are Quinten van der Post and Jasper Timmer. They will be on your side during class and might respond to e-mail inquiries. Course design and examination is done by Martijn Stegeman, who will not be in class but can be reached with the rest of the team at <help@mprog.nl>.
 
-## Opdrachten en eindcijfer
+## Assignments and final grade
 
-Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
+Learning to programming is done through lost of practice. Almost all of the work in this course is making programming assignments. These are the main components:
 
-1. Aftekenen oefeningen uit het boek (10%). In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Het maken van de oefeningen levert je een deel van het eindcijfer op. Ze worden gecheckt op volledigheid van de antwoorden.
+1. Book exercises (10%). The book contains exercises you may do to support your understanding of the reading materials. Making and submitting exercises will be part of your final grade. Your answers are checked for completeness and correctness.
 
-2. Insturen van oplossingen voor de programmeeropdrachten (10%). Voor het inleveren van correcte oplossingen voor de opdrachten staat ook een deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+2. Programming assignment solutions (10%). Your solutions for the assignments are part of the final grade. The assignments will be assessed on correctness, not on other qualities. Submitting correct assignments automatically yields points for this part of the grade.
 
-3. Beoordeling individuele programmeeropdrachten (80%). Bijna elke week is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit.
+3. Individual assignment quality (80%). Every week you will take one or two correct programs of the previous week and thoroughly review it with another student. You can then make it even better and re-submit it. These programs will be assessed on quality (you will receive detailed instructions).
 
-4. Beoordeling tentamen (0%). Het telt niet mee voor je eindcijfer, maar je moet een voldoende halen om het vak af te kunnen ronden.
+4. Exam (0%). The exam will not count in your final grade but you must pass it to be able to pass the course.
 
-Om in aanmerking te komen voor een eindbeoordeling moet je minimaal alle programmeeropdrachten hebben ingeleverd die inhoudelijk beoordeeld worden (punt 3 hierboven). Je moet ook aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven. Daarnaast moet je het tentamen voldoende maken. Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages.
+To get a final grade for the course you will need to, at a minimum:
 
-## Vragen stellen
+-  Submit all programming assignments that are individually assessed (item 3).
+-  Have attended all but 1 of the Tuesday lectures.
+-  Pass the exam.
 
-Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Er zijn diverse opties voor het stellen van vragen. De beste optie hangt af van het soort vraag dat je wil stellen.
+When all is set, the final grade will be calculated according to the percentages above.
 
-**Assistentie:** direct contact met een assistent of docent, voor hulp bij programmeren.
+## Asking questions
 
-* hulp op locatie (zie rooster)
-* je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
-* moeite met verzinnen oplossing
+During this course you will enlist the help from teaching assistants and classmates. There are a few options for asking questions. Which one is best depends on the kind of question or problem you have.
 
-**Spreekuur en e-mail:** contact met de docenten.
+**Classmates:** thinking together about the theory and the assignments.
 
-* maken van persoonlijke planningsafspraken
-* meedenken over grote problemen met het vak
-* andere officiële zaken
-* administratie na afloop van het vak
-* mail <progbg@mprog.nl> of kom langs tijdens het spreekuur
+* work together in class or at other hours
+* talking through the exact requirements of the assignments
+* discussing the inner workings of Python and how to apply to problems
+* analyzing examples and bugs
 
-<details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
-Juist even niet aan de opdracht werken kan je verder helpen!
+**Teaching assistants:** help with programming from very experienced assistants.
 
-- Neem een halfuurtje echt even afstand van je computer; dit helpt je brein afstand nemen van het probleem. Met een frisse blik kom je dan toch weer verder.
+* getting help during class hours
+* you don't know where to start or have a brain-breaking bug
+* you have trouble thinking of a solution
+* you need someone to talk to about the assignment
 
-- Ga even door met de volgende opdracht van de module om te kijken hoe je daar mee gaat.
+**Laptop helpdesk:** help with your computer.
 
-- Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
-</details>
+* your computer broke down
+* you have trouble installing everything correctly
+* available every weekday 10-16h in room B1.19A @ Science Park 904
+* after three weeks they're not regularly available
+
+**E-mail:** talk to the teachers for personal arrangements.
+
+* help with planning the course in your personal schedule
+* talking through big troubles with the course
+* other official business
+* administrative issues after the course
+* e-mail <help@mprog.nl> and mention the Python for Data Processing course
+
 
 ## Deadlines
 
-Er zijn twee deadlines voor de meeste modules.
+For most weeks there are two deadlines.
 
-1. De deadline voor het **volledig maken** van de opdrachten en oefeningen. De oefeningen kun je zo goed mogelijk doen en dan inleveren. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Dan kun je (ook voor de deadline) je uitwerking nog verbeteren. Je hoeft de uitwerking nog helemaal niet netjes te maken, want daarvoor is de tweede deadline.
+1. The deadline for **completing** weekly assignments and exercises. They do not count towards your grade after this deadline, whatever happens. If you don't meet the deadline you should probably still try to finish the assignments in order to get the practice that you need.
 
-2. De deadline voor de **verbeterde** versie van één van de wekelijkse programma's. Tijdens het werkcollege zul je een code review doen met een medestudent, op basis waarvan je dat ene programma helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt.
+    - Exercises need to be complete and mostly correct to get credit. They will be checked by hand.
+    - Programming assignments need to be fully correct and will be automatically checked, so if you're on time you could correct and re-submit your solution.
+    - No need to write tidy and nice code, because that's what the second deadline is for.
 
-Dit is een overzicht van de deadlines per week:
+2. The deadline for the **improved** version of one or two weekly programs. During the lecture you will do a code review with another student, and you will improve your solution on various aspects. This is the version that's graded by the staff. The improved version still has to be correct!
 
-|             | deadline werkend | deadline verbeterd |
-|:------------|:-----------------|:-------------------|
-| Module 1    | vr  9 sep  17:59 | -                  |
-| Module 2    | vr 16 sep  17:59 | di 20 sep  18:59   |
-| Module 3    | vr 23 sep  17:59 | di 27 sep  18:59   |
-| Module 4    | vr 30 sep  17:59 | di  4 okt  18:59   |
-| Module 5    | vr  7 okt  17:59 | di 11 okt  18:59   |
-| Module 6    | vr 14 okt  17:59 | di 18 okt  18:59   |
-| Module 7    | vr 21 okt  17:59 | -                  |
+|             | completion deadline | improvement deadline |
+|:------------|:--------------------|:---------------------|
+| Module 1    | Fri  9 Sep  17:59   | -                    |
+| Module 2    | Fri 16 Sep  17:59   | Tue 20 Sep  18:59    |
+| Module 3    | Fri 23 Sep  17:59   | Tue 27 Sep  18:59    |
+| Module 4    | Fri 30 Sep  17:59   | Tue  4 Okt  18:59    |
+| Module 5    | Fri  7 Okt  17:59   | Tue 11 Okt  18:59    |
+| Module 6    | Fri 14 Okt  17:59   | Tue 18 Okt  18:59    |
+| Module 7    | Fri 21 Okt  17:59   | -                    |
 
-De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering. Eventuele wijzigingen worden na aanvang van de cursus doorgegeven.
+### Illness and getting back on track
 
-### Ziekte en inhalen
+When you get ill please report it as soon as you can by e-mail. You don't have to make elaborate explanations or excuses, but simply tell what's going on. Keeping in touch is the most important thing you can do, and it is required in case an exception would have to be made.
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via e-mail. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+- When you're ill for just a few days you can still catch up. Does it prevent you from finishing the last assignment of the week? No worries, you may miss a point or two but you can still continue without too much trouble. Do catch up because otherwise you don't get enough practice.
 
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en haal je deze opdracht tijdens het weekend in. Dit mag alleen als je de andere opdrachten al hebt ingeleverd.
+- Do you have a medical emergency and gone for maybe a full week? Then it's time to talk to the teacher and see if it's reasonable to continue the course and how to do that. Factors to take into account are how many courses you're doing, how well you're progressing in the course, etc.
 
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+- Are you lagging behind and not meeting deadlines anymore? Maybe you have too much to do or you've lost your focus. It's important to discuss such problems as early as possible. Your teacher can provide information about consequences or help assess your course progress.
 
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:progbg@mprog.nl)!
+In all cases feel free to send an e-mail to <help@mprog.nl> and mention Python for Data Processing.
 
-## Opdrachtcijfers
+## Assignment grades
 
-De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. Voor elke opdracht zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal is als volgt:
+The points for the **improved** solutions that you make on Tuesdays are assigned through the schedule below, with a maximum of 6 points per week. For each week, we provide a number of "aspects" that are the primary influence of the points you get (but not the only influence).
+These aspects concern *code quality*, about which you'll learn more during the code reviews on Tuesdays.
 
-6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
-5. zeer goede kwaliteit, beperkt ruimte voor verbetering
-4. degelijke kwaliteit op alle genoemde aspecten, met ruimte voor verbetering
-3. net voldoende aandacht voor alle genoemde aspecten, erg veel ruimte voor verbetering
-2. enige zichtbare aandacht voor een beperkt aantal aspecten
-1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
+6. exceptionally good quality based on a well thought-out design
+5. very good quality overall, with limited room for improvement
+4. solid quality on all aspects, with room for improvement
+3. just enough attention for all of the aspects, with a lot of room for improvement
+2. some attention for a part of the aspects, not enough for all
+1. insufficient observable attention to code quality aspects
 {: start="6" reversed=""}
 
-Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
+Want to do well (4 points)? Study the aspects that we provide and actively participate in the code review. This should yield a lot input for improving your programs.
 
-Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
+Want to score very high (6 points)? In that case you'll need to study not only our materials but find external sources about writing good Python code and make a very good design that fits the solution in particular.
 
-## Boek
+## Book
 
-Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van Paul Gries. Je kunt het aanschaffen als PDF via <https://pragprog.com/titles/gwpy3/practical-programming-third-edition/>. Je kunt het ook bestellen in de boekhandel.
+For building your Python knowledge (in a particular way) we use the book  **Practical Programming**, third edition, by Paul Gries. You can buy it as PDF via <https://pragprog.com/titles/gwpy3/practical-programming-third-edition/>.
 
-## Tentamen
+## Exam
 
-Tijdens het tentamen ga je aan de slag met een selectie van kleine programmeerproblemen. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je wekelijkse oefeningen in de werkcollelges en er is natuurlijk ook een oefententamen.
+During the exam you'll build a number of small programs based on the problems that we propose. You'll do this on your own computer by leveraging the experience you have with building small and large programs during the course. To get used to the particular form of testing, you get weekly exam exercises in class.
 
-## Samenwerken
+## Doing your own work
 
-De basis van alles wat je inlevert moet jouw eigen intellectuele werk zijn, behalve waar het gaat om samenwerkopdrachten waar dit expliciet vermeld is.
+This course's philosophy on academic honesty is best stated as "be reasonable." The course recognizes that interactions with classmates and others can facilitate mastery of the course's material. However, there remains a line between enlisting the help of another and submitting the work of another. This policy characterizes both sides of that line.
 
-Natuurlijk is het nuttig om bij het maken van individuele opdrachten **interactie** te hebben met je medestudenten, en dat kan ook enorm helpen bij het beheersen van de stof. Maar er is een grens tussen het vragen van hulp aan een ander en het inleveren van werk van een ander. Hieronder karakteriseren we beide kanten van die grens.
+The essence of all work that you submit to this course must be your own (unless explicitly stated otherwise). Collaboration on problem sets is not permitted except to the extent that you may ask classmates and others for help so long as that help does not reduce to another doing your work for you. Generally speaking, when asking for help, you may show your code to others, but you may not view theirs, so long as you and they respect this policy's other constraints. Collaboration on the course's test and quiz is not permitted at all.
 
-Je mag niet samenwerken aan de **implementatie** van je programma's. Uitzondering is dat je medestudenten om hulp mag vragen, zolang dat er niet op neer komt dat een ander een deel van het werk voor jou doet. Over het algemeen mag je, als je om hulp vraagt, jouw code laten zien, maar kijk je niet naar de code van een ander. Je laat je dus niks voorzeggen.
+Below are rules of thumb that (inexhaustively) characterize acts that the course considers reasonable and not reasonable. If in doubt as to whether some act is reasonable, do not commit it until you solicit and receive approval in writing from the course's heads. Acts considered not reasonable by the course are handled harshly.
 
-Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hieronder vind je een incomplete lijst van voorbeelden die een beeld schetsen van welke handelingen we als redelijk of onredelijk bestempelen. Twijfel je of een handeling redelijk is, vraag het, en wacht tot je per e-mail toestemming hebt gekregen van een docent (niet assistent). Als je onredelijk handelt dan kan dit leiden tot een melding bij de examencommissie.
+By the way, the text of this section was copied (!) from the course Scienctific Programming 1 by Simon Pauw and adapted from the course CS50 by David Malan. We use the text with permission under a Creative Commons license.
 
-<details markdown="1"><summary markdown="span">Voorbeelden van **redelijke** acties</summary>
+### Reasonable
 
-* Praten met medestudenten over de opdrachten in het Nederlands (of een andere natuurlijke taal).
+- Communicating with classmates about problem sets' problems in English (or some other spoken language).
 
-* Het cursusmateriaal bespreken met anderen om het beter te begrijpen.
+- Discussing the course's material with others in order to understand it better.
 
-* Een medestudent helpen bij het debuggen tijdens een laptopcollege of daarbuiten, of zelfs online, door het bekijken, compileren of draaien van zijn of haar code, zelfs op je eigen computer.
+- Helping a classmate identify a bug in his or her code at office hours, elsewhere, or even online, as by viewing, compiling, or running his or her code, even on your own computer.
 
-* Het in je uitwerking opnemen van een paar regels code die je online of ergens anders vindt, gegeven dat deze regels niet de essentie van de opdracht vormen en dat je de bron van de code vermeldt.
+- Incorporating a few lines of code that you find online or elsewhere into your own code, provided that those lines are not themselves solutions to assigned problems and that you cite the lines' origins.
 
-* Het inzien van tentamens van voorgaande jaren en oplossingen daarvan.
+- Reviewing past semesters' quizzes and solutions thereto.
 
-* Code die jij hebt geschreven versturen of laten zien aan iemand anders, wellicht een medestudent, zodat deze jou kan helpen bij het debuggen.
+- Sending or showing code that you've written to someone, possibly a classmate, so that he or she might help you identify and fix a bug.
 
-* Het online delen van een paar regels van jouw code zodat anderen wellicht kunnen helpen met debuggen.
+- Sharing a few lines of your own code online so that others might help you identify and fix a bug.
 
-* Een aan het vak verbonden assistent om hulp vragen.
+- Turning to the course's heads for help or receiving help from the course's heads during the quiz or test.
 
-* Naar het internet gaan voor tutorials buiten het vak, voor referenties, en voor oplossingen bij technische problemen, maar niet voor gehele oplossingen voor (de essentie van) opdrachten.
+- Turning to the web or elsewhere for instruction beyond the course's own, for references, and for solutions to technical difficulties, but not for outright solutions to problem set's problems or your own final project.
 
-* Het uittekenen of uitwerken van oplossingen op een whiteboard door middel van diagrammen of pseudocode, maar niet "echte" code.
+- Whiteboarding solutions to problem sets with others using diagrams or pseudocode but not actual code.
 
-* Werken met (en zelfs betalen voor) een tutor om je te helpen met het vak, gegeven dat de tutor niet het werk voor je doet.
-</details>
+- Working with (and even paying) a tutor to help you with the course, provided the tutor does not do your work for you.
 
-<details markdown="1"><summary markdown="span">Voorbeelden van **onredelijke** acties</summary>
+### Not Reasonable
 
-* Een oplossing van een opdracht inzien voordat je jouw opdracht hebt ingeleverd.
+- Accessing a solution to some problem prior to (re-)submitting your own.
 
-* Een medestudent vragen om hun oplossing, voordat je jouw opdracht hebt ingeleverd.
+- Asking a classmate to see his or her solution to a problem set's problem before (re-)submitting your own.
 
-* Het decompileren, deobfusceren, of op andere manier achterhalen van een "staff" oplossing van een opdracht.
+- Decompiling, de-obfuscating, or disassembling the staff's solutions to problem sets.
 
-* Vergeten de bron te citeren van code of technieken die je hebt opgenomen van buiten de lessen van dit vak, en hebt geïntegreerd in je eigen werk, zelfs als je wel de andere restricties aanhoudt.
+- Failing to cite (as with comments) the origins of code or techniques that you discover outside of the course's own lessons and integrate into your own work, even while respecting this policy's other constraints.
 
-* Het aan een medestudent geven of laten zien van een oplossing voor een opdracht waar hij of zij (dus niet jij) moeite mee heeft.
+- Giving or showing to a classmate a solution to a problem set's problem when it is he or she, and not you, who is struggling to solve it.
 
-* Betalen, of het aanbieden om te betalen, voor het recht om werk van een ander als onderdeel van jouw eigen werk in te leveren.
+- Looking at another individual's work during the test or quiz.
 
-* Het beschikbaar stellen van oplossingen voor opdrachten van dit vak aan anderen die dit vak in de toekomst wellicht gaan volgen.
+- Paying or offering to pay an individual for work that you may submit as (part of) your own.
 
-* Het opzoeken van complete oplossingen voor opdrachten online of ergens anders.
+- Providing or making available solutions to problem sets to individuals who might take this course in the future.
 
-* Werk van een opdracht opsplitsen met een ander.
+- Searching for or soliciting outright solutions to problem sets online or elsewhere.
 
-* Werk van een ander, behalve een paar regels zoals eerder omschreven, inleveren.
+- Splitting a problem set's workload with another individual and combining your work.
 
-* Hetzelfde of bijna hetzelfde werk inleveren bij dit vak dat je hebt ingeleverd of gaat inleveren bij een ander vak.
+- Submitting (after possibly modifying) the work of another individual beyond the few lines allowed herein.
 
-* Het inleveren van werk voor dit vak, waarbij je intentie is om dit ook ergens anders voor in te zetten (zeg voor een baan), zonder daar eerst toestemming voor te hebben gekregen van een docent.
+- Submitting the same or similar work to this course that you have submitted or will submit to another.
 
-* Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
-</details>
+- Submitting work to this course that you intend to use outside of the course (e.g., for a job) without prior approval from the course's heads.
 
+- Turning to humans (besides the course's heads) for help or receiving help from humans (besides the course's heads) during the quiz or test.
 
-## Plagiaat
+- Viewing another's solution to a problem set's problem and basing your own solution on it.
 
-Alle inzendingen worden wekelijks gecontroleerd met behulp van een detectiesysteem dat zoekt naar overeenkomsten in programmacode. Dat kunnen overeenkomsten zijn binnen de groep, met studenten van vorige jaren, of zelfs met code van internet.
+In all cases we follow the directives regarding fraud and plagiarism of the
+University of Amsterdam and of the Computer Science
+BSc programme. Find them here in [English] and [Dutch].
 
-Vinden we overeenkomsten, dan gaat een docent direct met je in gesprek om je voor te lichten en om af te spreken hoe je het vak zonder plagiëren kunt halen. Is er een **vermoeden van plagiaat**, dan moet dit gemeld worden bij de examencommissie.
-
-In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij.
-
-De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronvermelding/plagiaat-en-fraude.html) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en is de basis voor bovenstaande regelingen.
+[Dutch]: https://student.uva.nl/onderwerpen/plagiaat-en-fraude
+[English]: https://student.uva.nl/en/topics/plagiarism-and-fraud
