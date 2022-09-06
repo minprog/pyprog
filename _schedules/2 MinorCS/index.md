@@ -73,7 +73,7 @@ For most weeks there are two deadlines.
     - Programming assignments need to be fully correct and will be automatically checked, so if you're on time you could correct and re-submit your solution.
     - No need to write tidy and nice code, because that's what the second deadline is for.
 
-2. The deadline for the **improved** version of one or two weekly programs. During the lecture you will do a code review with another student, and you will improve your solution on various aspects. The teacher will assign the programs that have to be reviewed. If you weren't able to finish one of these programs, the teacher will decide which programs your will review. After submitting the improved versions, these will graded by the staff. Note that the improved version still has to be correct as it was before!
+2. The deadline for the **improved** version of one or two weekly programs. During the lecture you will do a code review with another student, and you will improve your solution on various aspects. The teacher will assign the programs that have to be reviewed. If you weren't able to finish one of these programs, the teacher will decide which programs you will review. After submitting the improved versions, these will graded by the staff. Note that the improved version still has to be correct as it was before!
 
 |             | completion deadline | improvement deadline |
 |:------------|:--------------------|:---------------------|
