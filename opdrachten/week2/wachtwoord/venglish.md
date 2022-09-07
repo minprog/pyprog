@@ -5,15 +5,15 @@ Often times these passwords are constrained by certain rules to make them harder
 
 ## Assignment
 
-Implement, in a file named `wachtwoord.py`, a program that prompts the user for a password and give the user feedback whether that password fulfills the constraints. At minimum the password should contain at least:
+Implement, in a file named `wachtwoord.py`, a program that prompts the user for a password and give the user feedback whether that password fulfills the constraints. The password should contain at least:
 
 * one upper case letter, and one lower case letter.
 * 8 characters.
-* 1 numeric character.
+* 1 number.
 
 ## Code
 
-The password should comply with at least the 3 earlier mentioned constraints. Implement an individual function to check for each constraint. Since the password has to comply with all three of the constraints, you will need to implement one additional function to tie all of the other together.
+The password should comply with the 3 constraints mentioned earlier. Implement an individual function to check for each constraint. Since the password has to comply with all three of the constraints, you will need to implement one additional function to tie everything together.
 
 Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
 
@@ -29,7 +29,7 @@ Design your program as described below. Complete the docstrings with doctests an
 
     def check_number(password: str) -> bool:
         """
-        Check whether the password contains a least 1 numeric character.
+        Check whether the password contains a least 1 number.
         """
 
     def check_password(password: str) -> bool:
