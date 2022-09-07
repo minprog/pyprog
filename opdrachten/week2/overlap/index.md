@@ -13,6 +13,12 @@ Aangezien het veel werk is om telkens twee rechthoeken te tekenen om te kijken o
 
 Schrijf, in een bestand genaamd `overlap.py`, een programma dat op basis van de coordinaten van twee rechthoeken bepaalt of er een overlap tussen de twee is. Elke rechthoek bestaat uit twee paar x,y coördinaten doe door de gebruiker worden ingevoerd in het format `x,y`. Je mag ervan uitgaan dat de gebruiker altijd eerst een valide x,y paar voor linksonder invoert gevolgd door een valide x,y paar voor rechtsboven.
 
+Met die coördinaten kun je vervolgens kijken of er overlap kan bestaan tussen de twee rechthoeken. Overlap doet zich voor als er zowel een coordinaat van een van de rechtoeken op de x-as zich tussen de coordinaten van de andere rechthoek bevindt, als een coördinaat van een rechthoek zich op de y-as tussen de coördinaten van de andere rechthoek bevindt.
+
+Je moet dus vanuit twee perspectieven controleren; ligt er een hoekpunt van rechthoek a tussen de hoekpunten van rechthoek b, of ligt een hoekpunt van rechthoek b tussen de hoekpunten van rechthoek a.
+
+Als je het moeilijk vindt om het probleem goed voor je te zien, teken dan de verschillende situaties uit op papier!
+
 ## Code
 
 Voor deze opdracht zul je drie functies moeten schrijven en om invoer van de gebruiker vragen voor 2 vierhoeken die elk uit 2 paren x,y coördinaten bestaan.
@@ -40,6 +46,8 @@ Ontwerp je code zoals hieronder beschreven. Zoals je kan zien staan er twee TODO
 ## Tips
 
 * Om een `x,y` coordinaat lost uit de invoer van de gebruiker te halen kun je de invoer splitten op de komma; `a, b = "3,5".split(",")`.
+* Je kunt met logische operatoren meerdere voorwaarden aan elkaar koppelen.
+* Probeer elke check functie eerst lost te checken voor je op de gehele overlap controleert.
 * De check_overlap functie heeft twee booleans als input, wat zegt dat over de output van de andere twee functies?
 
 ## Voorbeelden
