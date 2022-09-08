@@ -22,7 +22,7 @@ For this assignment you are going to write your own function, as before. Design 
         """
 
     if __name__ == '__main__':
-        <Prompt hier de gebruiker om invoer, roep je functie aan en print het antwoord>
+        <Prompt the user for an answer, call your function, and print the result>
 
 ## Tips
 
@@ -51,11 +51,11 @@ Ultimately, your program has to produce output like the examples below.
     What is the time? 18:53
     It's time for dinner.
 
-    $ python maaltijd.py
+    $ python etenstijd.py
     What is the time? 22:12
 
 Note that the last example does not produce any output aside from the prompt.
 
 ## Extra challenge
 
-Looking for a little bit of increase in difficulty? Allow the user to also specify the time in 12-hour time format using PM or AM. This would allow for the following formats: `X:XX AM`, `XX:XX AM`, `X:XX PM`, and `XX:XX PM`. Since this is part of an extra challenge there will be no checks in `checkpy` to test for this, but you still have to make sure you pass all existing checks.
+Looking for a little bit of increase in difficulty? Allow the user to also specify the time in 12-hour time format using PM or AM. This would allow for the following formats: `X:XX AM`, `XX:XX AM`, `X:XX PM`, and `XX:XX PM`. Since this is part of an optional extra challenge there will be no checks in `checkpy` to test for this, but you still have to make sure you pass all existing checks.

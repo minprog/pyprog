@@ -30,10 +30,10 @@ Design your program as described below. Complete the docstrings with doctests an
 
     def check_answer(answer: str) -> str:
         """
-        Check whether the answer is equal to 42, forty-two, fortytwo, or forty two.
+        Check whether the answer is 42, forty-two, fortytwo, or forty two.
         """
 
-    if __name__ == `__main__`:
+    if __name__ == '__main__':
         <Prompt the user for an answer, call your function, and print the result>
 
 ## Tips
