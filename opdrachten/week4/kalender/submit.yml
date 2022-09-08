@@ -10,7 +10,7 @@ plag:
   server: http://83.96.241.94/api/submission/
   slug: pyprog/2022/kalender
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
-  course: pyprog/2022
+  course: pyprog2022
   # archives:
   #     - pyprog/2021/calendar
   #     - pyprog/2020/calendar
