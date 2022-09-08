@@ -1,4 +1,4 @@
-# Orakel
+# Oracle
 
 "The answer to everything."
 
@@ -23,17 +23,17 @@ Implement, in a file named `orakel.py`, a program that prompts the user for the 
 
 ## Code
 
-From now onwards we will wrap our function calls in an "if __name__ == '__main__':" statement, instead of putting those function calls under or in between our function definitions.
+From now on we will wrap our function calls in a `if __name__ == '__main__':` statement, instead of putting those function calls under or in between our function definitions.
 Aside from those function calls, your code will consist of a self-written function.
 
 Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
 
     def check_answer(answer: str) -> str:
         """
-        Check whether the answer is equal to 42, forty-two, fortytwo, or forty two.
+        Check whether the answer is 42, forty-two, fortytwo, or forty two.
         """
 
-    if __name__ == `__main__`:
+    if __name__ == '__main__':
         <Prompt the user for an answer, call your function, and print the result>
 
 ## Tips

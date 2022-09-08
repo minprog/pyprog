@@ -24,18 +24,18 @@ Als de gebruiker als antwoord `42`, `tweeenveertig`, of `tweeënveertig` geeft, 
 
 ## Code
 
-Vanaf nu gaan we code aanroepen door middel van het gebruik van "if __name__ == '__main__':".
-Hier kan je de code schrijven waarin je je verschillende functies aanroept, in plaats van dat je het los onder je zelfgeschreven functies zet.
+Vanaf nu gaan we code aanroepen door middel van het gebruik van `if __name__ == '__main__':`.
+Hier kun je de code schrijven waarin je je verschillende functies aanroept, in plaats van dat je het los onder je zelfgeschreven functies zet.
 Verder bestaat je code in deze opdracht uit een zelfgeschreven functie.
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def check_answer(answer: str) -> str:
         """
-        Controleer of het antwoord op de vraag 42, tweeenveertig, of tweeen veertig is.
+        Controleer of het antwoord op de vraag 42, tweeenveertig, of tweeënveertig is.
         """
 
-    if __name__ == `__main__`:
+    if __name__ == '__main__':
         <Prompt hier de gebruiker om een antwoord, roep je functie aan, en print het oordeel>
 
 ## Tips

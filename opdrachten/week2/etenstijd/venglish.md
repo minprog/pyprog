@@ -1,4 +1,4 @@
-# Meal Time
+# Meal time
 
 An infamous stereotype of the Dutch is that they start dinner at exactly 18:00. Let's assume this stereotype also reflects punctuality for other meals of the day. This means that breakfast time will be between 7:00 and 8:00, lunchtime is between 12:00 and 13:00 and dinnertime is between 18:00 and 19:00.
 Let's utilize the knowledge of these time slots and have a program tell us what meal we should be eating based on the time of day.
@@ -13,21 +13,27 @@ Implement, in a file named `etenstijd.py`, a program that prompts the user to in
 
 ## Code
 
-For this assignment you will, once again, have to write your own function. Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
+For this assignment you are going to write your own function, as before. Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
 
-
-    def convert(time: str) -> float:
+    def meal(time: str) -> str:
         """
-        Converts a string describing the time to a float.
+        Converts a time string to a meal name.
+        Meal can be "breakfast", "lunch", "dinner" or "".
         """
 
     if __name__ == '__main__':
-        <Prompt the user for input, call your function and print the correct result>
+        <Prompt the user for an answer, call your function, and print the result>
 
 ## Tips
 
-* The user can input times of two different formats; `X:XX` and `XX:XX`. How would you go about splitting the hours and minutes to correctly convert it to a float?
+*   You can "unpack" multiple values from one string by using the method `split()`. If you have a string containing `help@mprog.nl` you can unpack it into two variables like so:
 
+        email = "help@mprog.nl"
+        user, domain = email.split("@")
+
+    After these two lines you will have two separate variables `user` and `domain` containing information from the original string `email`. Try it yourself using Python and see if you can print all information from the `user`-variable!
+
+*   In the `main` part you need to ensure that absolutely nothing is printed if it's not time for a meal yet. See the examples below.
 
 ## Examples
 
@@ -41,7 +47,6 @@ Ultimately, your program has to produce output like the examples below.
     What is the time? 13:00
     It's time for lunch.
 
-
     $ python etenstijd.py
     What is the time? 18:53
     It's time for dinner.
@@ -53,4 +58,4 @@ Note that the last example does not produce any output aside from the prompt.
 
 ## Extra challenge
 
-Looking for a little bit of increase in difficulty? Allow the user to also specify the time in 12-hour time format using PM or AM. This would allow for the following formats: `X:XX AM`, `XX:XX AM`, `X:XX PM`, and `XX:XX PM`. Since this is part of an extra challenge there will be no checks in `checkpy` to test for this, but you still have to make sure you pass all existing checks.
+Looking for a little bit of increase in difficulty? Allow the user to also specify the time in 12-hour time format using PM or AM. This would allow for the following formats: `X:XX AM`, `XX:XX AM`, `X:XX PM`, and `XX:XX PM`. Since this is part of an optional extra challenge there will be no checks in `checkpy` to test for this, but you still have to make sure you pass all existing checks.

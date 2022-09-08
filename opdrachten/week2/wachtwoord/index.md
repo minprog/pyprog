@@ -13,7 +13,7 @@ Schrijf, in een bestand genaamd `wachtwoord.py`, een programma dat de gebruiker 
 
 ## Code
 
-Er zijn drie eisen waar het wachtwoord aan moet voldoen. Deze eisen kunnen allemaal worden gecontroleerd door middel van losse functies. Omdat je ook moet testen of aan al deze eisen is voldaan heb je ook nog een vierde functie nodig die de check compleet maakt.
+Er zijn drie eisen waar het wachtwoord aan moet voldoen. Deze eisen kunnen allemaal worden gecontroleerd door middel van losse functies. Omdat je ook moet testen of aan de combinatie van eisen is voldaan, heb je ook nog een vierde functie nodig die de check compleet maakt.
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
@@ -32,17 +32,17 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         Controleer of het wachtwoord een cijfer bevat.
         """
 
-    def check_password(letter: bool, length: bool, number: bool) -> bool:
+    def check_password(password: str) -> bool:
         """
-        Controleer of aan alle drie de eisen is voldaan.
+        Controleer of aan alledrie de eisen is voldaan.
         """
 
     if __name__ == '__main__':
-        <Hoofdprogramma>
+        <Hoofdprogramma mag maar één functie aanroepen>
 
 ## Tips
 
-* Wees creatief bij het implementeren van de drie checks! Er zijn super veel verschillende mogelijkheden om dat voor elkaar te krijgen. Kijk naar alle mogelijke string-operaties in het boek voor inspiratie.
+* Wees creatief bij het implementeren van de drie checks! Er zijn superveel verschillende mogelijkheden om dat voor elkaar te krijgen. Kijk naar alle mogelijke string-operaties in het boek voor inspiratie.
 * Let op! Wanneer je checkt of een wachtwoord zowel een grote als een kleine letter bevat, moet je ook checken of het überhaupt een letter bevat.
 
 ## Voorbeelden

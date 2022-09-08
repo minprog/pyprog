@@ -5,7 +5,7 @@ Daarom gaan we een programma schrijven dat de gebruiker vraagt een formule te ge
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `calc.py`, een programma dat de gebruiker vraagt een formule in te tikken en het antwoord van de formule geeft als output.
+Schrijf, in een bestand genaamd `calculator.py`, een programma dat de gebruiker vraagt een formule in te tikken en het antwoord van de formule geeft als output.
 
 * De formule die wordt gegeven door de gebruiker is van de vorm `x y z` met een spatie tussen de `x` en `y`, en `y` en `z`.
 * Hier zijn de `x` en `z` integers en is de `y` één van de operaties `+, -, *, / `.
@@ -17,17 +17,16 @@ Schrijf, in een bestand genaamd `calc.py`, een programma dat de gebruiker vraagt
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def get_values(expression: str):
+    def perform_operation(x: int, y: str, z: int) -> float:
         """
-        Krijg de waardes voor x, y, z van de expressie. Zorg dat in je output de x
-        en z waardes integers zijn en de y waarde een string die bestaat uit 1
-        karakter.
+        Bereken het resultaat van de operatie y toegepast op x en z.
+        De output is een float.
         """
 
-    def calculate(x: int, y: str, z: int) -> float:
+    def evaluate(formula: str) -> float:
         """
-        Bereken het resultaat van de expressie gebasseerd op de x, y, en z waardes.
-        Je output is een float.  
+        Bereken het resultaat van een formule die in een string staat.
+        De output is een float.
         """
 
     if __name__ == '__main__':
@@ -35,25 +34,24 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* De getallen in de expressie kunnen uit meerdere cijfers bestaan (bijvoorbeeld 135). Denk dus even na hoe je de expressie op zo'n manier splitst zodat je zowel honderdtallen als losse cijfers kan verwerken.
-* Je kan meerdere waardes uit een string uitpakken door met de split() functie de string op te splitsen bij een specifiek scheidingsteken; `a, b = "hello world!".split(" ")`. Let op dat de string nu bij elke 'spatie' wordt opgesplitst en dat het aantal variabelen waar je naar uitpakt gelijk moet zijn aan het resultaat van de opsplitsing.
+* Je kunt de split-methode gebruiken net als in de opdracht Etenstijd. Experimenteer even met split in Python zodat je je idee voor een oplossing kunt ontwikkelen.
 
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
-    $ python wiskunde_verwerker.py
+    $ python calculator.py
     1 + 1
     2.0
 
-    $ python wiskunde_verwerker.py
+    $ python calculator.py
     100 - 9
     81.0
 
-    $ python wiskunde_verwerker.py
+    $ python calculator.py
     4 * 6
     24.0
 
-    $ python wiskunde_verwerker.py
+    $ python calculator.py
     3 / 8
     0.325
