@@ -7,7 +7,7 @@ Zou het niet handig zijn als er een programma is dat ons vertelt, op basis van h
 
 Schrijf, in een bestand genaamd `etenstijd.py`, een programma dat de gebruiker vraagt hoe laat het is en vervolgens vertelt welke maaltijd er gegeten kan worden.
 
-* De output van het programma is of het tijd is voor ontbijt, lunch of avondeten. Als er geen maaltijd genuttigd hoeft te worden, geef dan geen output.
+* In de output van het programma staat of het tijd is voor ontbijt, lunch of avondeten. Als er geen maaltijd genuttigd hoeft te worden, geef dan geen output.
 * Je mag ervan uitgaan dat alle input die de gebruiker geeft van de vorm `X:XX` of `XX:XX` is en dat tijdstippen in een 24-uurs tijdsformaat worden ingevuld.
 * De tijden zijn *inclusief*, dus elk tijdstip vanaf 7:00 *tot en met* 8:00 is ontbijt.
 
@@ -51,11 +51,11 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Hoe laat is het? 18:53
     Het is tijd voor avondeten
 
-    $ python maaltijd.py
+    $ python etenstijd.py
     Hoe laat is het? 22:12
 
 De laatste geeft dus geen enkele uitvoer.
 
 ## Extra uitdaging
 
-Wil je voor een extra uitdaging gaan? Zorg dan dat de gebruiker ook tijden kan invullen van de vorm `X:XX AM`, `XX:XX AM`, `X:XX PM`, en `XX:XX PM`. Let op dit is niet verplicht, hier zijn dan ook geen checks voor in `checkpy`. Zorg wel dat alle bestaande checks blijven werken!
+Wil je voor een extra uitdaging gaan? Zorg dan dat de gebruiker ook tijden kan invullen van de vorm `X:XX AM`, `XX:XX AM`, `X:XX PM`, en `XX:XX PM`. Let op: dit is niet verplicht, hier zijn dan ook geen checks voor in `checkpy`. Zorg wel dat alle bestaande checks blijven werken!

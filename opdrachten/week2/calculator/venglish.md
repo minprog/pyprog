@@ -1,11 +1,11 @@
 # Calculator
 
-By now we have seen that Python understands mathematical formulas and can calculate their results for us. Let's use that computer power to quickly provide users with results from sums they think of themselves.
+By now we have seen that Python understands mathematical formulas and can calculate the results for us. Let's use that computer power to quickly provide users with results from calculations they think of themselves.
 To that end we'll write a program that prompts the user to input a formula, for which Python will compute the result.
 
-## Opdracht
+## Assignment
 
-Implement, in a file named `calculator.py`, a program that prompts the user to input a formula and then outputs the correct result for that formula.
+Implement, in a file named `calculator.py`, a program that prompts the user to provide a formula and then outputs the correct result for that formula.
 
 * The formula that is input by the user should be of the form `x y z` with a space between each of the `x`, `y`, and `z`.
 * `x` and `z` should be integers and `y` is one of the following operators: `+`, `-`, `*`, `/`.

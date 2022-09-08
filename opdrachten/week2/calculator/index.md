@@ -20,13 +20,13 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     def perform_operation(x: int, y: str, z: int) -> float:
         """
         Bereken het resultaat van de operatie y toegepast op x en z.
-        Je output is een float.
+        De output is een float.
         """
 
     def evaluate(formula: str) -> float:
         """
         Bereken het resultaat van een formule die in een string staat.
-        Je output is een float.
+        De output is een float.
         """
 
     if __name__ == '__main__':
