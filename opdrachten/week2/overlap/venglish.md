@@ -59,11 +59,11 @@ Ultimately, your program has to produce output like the examples below.
     What is the top right coordinate for rectangle 1? 4,4
     What is the bottom left coordinate for rectangle 2? 2,3
     What is the top right coordinate for rectangle 2? 5,8
-    There is overlap between the two rectangles
+    There is overlap between the two rectangles.
 
     $ python overlap.py
     What is the bottom left coordinate for rectangle 1? 1,2
     What is the top right coordinate for rectangle 1? 4,4
     What is the bottom left coordinate for rectangle 2? 5,3
     What is the top right coordinate for rectangle 2? 6,5    
-    There is no overlap between the two rectangles
+    There is no overlap between the two rectangles.
