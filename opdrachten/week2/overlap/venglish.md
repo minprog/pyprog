@@ -13,6 +13,12 @@ Using the coordinates can be a much faster and easier way of determining overlap
 Implement, in a file named `overlap.py`, a program that determines whether there is overlap between two rectangles based on their coordinates.
 Each rectangle is constructed with two pairs of x,y coordinates that are input by the user in the format of `x,y`. You may assume the user always inputs a valid bottom left coordinate followed by a valid top right coordinate.
 
+With the help of those coordinates you can then check whether the rectangles share any overlap. Such an overlap exists when both a coordinate of a rectangle on the x-axis lies between the coordinates of the other rectangle, and a coordinate of a rectangle on the y-axis lies between the coordinates of the other rectangle.
+
+This means you have to approach your checks from the perspectives of both rectangles; is one of the corners of rectangle a in between the corners of ractangle b, or is a corner of rectangle b in between the corners of rectangle a.
+
+Try and draw the different situation using pen and paper, in case you find it difficult to see the problem clearly!
+
 ## Code
 
 For this assignment you will have to implement three functions and prompt the user for 2 different x,y-pairs for 2 different rectangles. That means you have to prompt for 4 x,y-pairs.
@@ -40,6 +46,8 @@ Design your program as described below. As can be seen, there are two TODO's whe
 ## Tips
 
 * To unpack the `x,y` coordinates from the user input you can use the split the pair on the comma; `a, b = "3,5".split(",")`.
+* You can use logical operators to connect multiple conditions.
+* Test each check function individually before checking for complete overlap between the rectangles.
 * The `check_overlap()` function takes two booleans as input, what does that imply about the output of the other two functions?
 
 ## Examples
@@ -51,11 +59,11 @@ Ultimately, your program has to produce output like the examples below.
     What is the top right coordinate for rectangle 1? 4,4
     What is the bottom left coordinate for rectangle 2? 2,3
     What is the top right coordinate for rectangle 2? 5,8
-    There is overlap between the two rectangles
+    There is overlap between the two rectangles.
 
     $ python overlap.py
     What is the bottom left coordinate for rectangle 1? 1,2
     What is the top right coordinate for rectangle 1? 4,4
     What is the bottom left coordinate for rectangle 2? 5,3
     What is the top right coordinate for rectangle 2? 6,5    
-    There is no overlap between the two rectangles
+    There is no overlap between the two rectangles.

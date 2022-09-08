@@ -13,7 +13,7 @@ Implement, in a file named `wachtwoord.py`, a program that prompts the user for 
 
 ## Code
 
-The password should comply with the 3 earlier mentioned constraints. Implement an individual function to check for each constraint. Since the password has to comply with all three of the constraints, you will need to implement one additional function to tie everything together.
+The password should comply with the 3 constraints mentioned earlier. Implement an individual function to check for each constraint. Since the password has to comply with all three of the constraints, you will need to implement one additional function to tie everything together.
 
 Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
 
