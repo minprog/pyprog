@@ -1,33 +1,34 @@
-# Gelijke rechthoeken
+# Identical rectangles
 
 ![](rechthoeken.png){: width="415"}
 
-We gaan een programma schrijven om te bepalen of twee rechthoeken dezelfde afmetingen hebben.
-Als je naar het voorbeeld hierboven kijkt zie je dat de rechthoeken ongeveer even groot lijken.
-We kunnen dit precies bepalen als we de coördinaten van de rechthoeken hebben.
-In dit geval hebben we een aantal gegevens, zoals de positie van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
-Trek je deze van elkaar af, dan heb je één van de beide afmetingen van A.
-Met hulp van Ay1 en Ay2 kun je de andere afmeting berekenen. Daarna volgt rechthoek B.
+We will be writing a program to determine whether two rectangles are of identical dimensions.
+Looking at the example above, you can see that the rectangles do indeed seem to be identical.
+We can check this better if we have the exact coordinates of the rectangles.
+In this case we do have some data, like the position of the *left side* of A (Ax1) and the *right side* of A (Ax2).
+When we subtract these two, the result is one of the dimensions of A.
+Using Ay1 and Ay2 we can calculate the other dimension.
+Then we can calculate the sides of rectangle B.
 
-## Opdracht
+## Assignment
 
     $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7
-    Geef de y-coordinaten van A: 0,4
-    Geef de x-coordinaten van B: 6,13
-    Geef de y-coordinaten van B: 2,6
-    De rechthoeken zijn gelijk!
+    Provide the x coordinates of A: 0,7
+    Provide the y-coordinates of A: 0,4
+    Provide the x-coordinates of B: 6,13
+    Provide the y-coordinates of B: 2,6
+    The rectangles are identical!
 
-Schrijf, in een bestand genaamd `rechthoeken.py`, een programma dat op basis van de gegeven coördinaten bepaalt of twee rechthoeken dezelfde afmetingen hebben.
-Het is daarnaast mogelijk dat de rechthoeken ook vierkanten zijn van dezelfde afmetingen, en in dat geval moet dat ook gemeld worden.
-Mocht er helemaal niks interessants te melden zijn over de rechthoeken dan melden we dat maar.
-Je mag ervan uitgaan dat de gebruiker gehele getallen invoert per paar. Met bovenstaande invoer geeft de gebruiker aan dat Ax1 = 0 en Ax2 = 7.
+Write, in a file names `rechthoeken.py`, a program that calculates on the basis of the provided coordinates whether the rectangles have identical dimensions.
+In addition, it is possible that the rectangles are also *square* and of identical dimensions, and in that case it must also be noted in the output.
+If there's not much interesting going on with the rectangles, that fact is what is printed as a result.
+You may assume that the use inputs pairs of two integers. Given the example above, the user would mean that Ax1 = 0 and Ax2 = 7.
 
 ## Code
 
-Je schrijft een hoofdprogramma dat de invoer vraagt en netjes maakt. Daarnaast zijn er drie hulpfuncties die je vanuit je hoofdprogramma gebruikt.
+You will write a main program that asks for input and tidies it for further use. In addition there are three helper functions that you will use from the main program.
 
-Zoals je kan zien staan er twee TODO's in; hier moet je zelf bedenken wat het type van de functie moet zijn.
+As you can see, there are two TODOs in the code; here you must come up with the type of the function yourself.
 
     def gelijk(Ax: int, Ay: int, Bx: int, By: int) -> TODO:
         """
@@ -47,28 +48,32 @@ Zoals je kan zien staan er twee TODO's in; hier moet je zelf bedenken wat het ty
     if __name__ == '__main__':
         <Hoofdprogramma>
 
-## Voorbeelden
+## Hints
 
-Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+You can't perform calculations on strings, so one step of tidying your data is to convert the inputs into integers.
 
-    $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7
-    Geef de y-coordinaten van A: 0,4
-    Geef de x-coordinaten van B: 6,13
-    Geef de y-coordinaten van B: 2,6
-    De rechthoeken zijn gelijk!
+## Examples
+
+Ultimately, your program should work as demonstrated below.
 
     $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7       
-    Geef de y-coordinaten van A: 0,7
-    Geef de x-coordinaten van B: 6,13
-    Geef de y-coordinaten van B: 2,9
-    De rechthoeken zijn gelijk!
-    En ze zijn ook nog vierkant!
+    Provide the x coordinates of A: 0,7
+    Provide the y-coordinates of A: 0,4
+    Provide the x-coordinates of B: 6,13
+    Provide the y-coordinates of B: 2,6
+    The rectangles are identical!
 
     $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7
-    Geef de y-coordinaten van A: 0,7
-    Geef de x-coordinaten van B: 6,15
-    Geef de y-coordinaten van B: 2,9
-    Er is niks aan :(
+    Provide the x coordinates of A:0,7       
+    Provide the y-coordinates of A:0,7
+    Provide the x-coordinates of B:6,13
+    Provide the y-coordinates of B:2,9
+    The rectangles are identical!
+    And they're square, too!
+
+    $ python rechthoeken.py
+    Provide the x coordinates of A:0,7
+    Provide the y-coordinates of A:0,7
+    Provide the x-coordinates of B:6,15
+    Provide the y-coordinates of B:2,9
+    Nothing to report :(

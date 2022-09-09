@@ -47,6 +47,10 @@ Zoals je kan zien staan er twee TODO's in; hier moet je zelf bedenken wat het ty
     if __name__ == '__main__':
         <Hoofdprogramma>
 
+## Hints
+
+Je kunt geen berekeningen doen met strings, dus één stap van het netjes maken van de data is om de input te converteren naar integers.
+
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
