@@ -5,7 +5,8 @@
 We gaan een programma schrijven om te bepalen of twee rechthoeken dezelfde afmetingen hebben.
 Als je naar het voorbeeld hierboven kijkt zie je dat de rechthoeken ongeveer even groot lijken.
 We kunnen dit precies bepalen als we de coördinaten van de rechthoeken hebben.
-In dit geval hebben we een aantal gegevens, zoals de positie van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
+
+In dit geval hebben we ook de getallen staan, zoals de positie van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
 Trek je deze van elkaar af, dan heb je één van de beide afmetingen van A:
 
     Ax2 - Ax1 = 7

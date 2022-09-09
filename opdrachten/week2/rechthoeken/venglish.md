@@ -5,6 +5,7 @@
 We will be writing a program to determine whether two rectangles are of identical dimensions.
 Looking at the example above, you can see that the rectangles do indeed seem to be identical.
 We can check this better if we have the exact coordinates of the rectangles.
+
 In this case we do have some data, like the position of the *left side* of A (Ax1) and the *right side* of A (Ax2).
 When we subtract these two, the result is one of the dimensions of A.
 
