@@ -6,8 +6,11 @@ We gaan een programma schrijven om te bepalen of twee rechthoeken dezelfde afmet
 Als je naar het voorbeeld hierboven kijkt zie je dat de rechthoeken ongeveer even groot lijken.
 We kunnen dit precies bepalen als we de coördinaten van de rechthoeken hebben.
 In dit geval hebben we een aantal gegevens, zoals de positie van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
-Trek je deze van elkaar af, dan heb je één van de beide afmetingen van A.
-Met hulp van Ay1 en Ay2 kun je de andere afmeting berekenen. Daarna volgt rechthoek B.
+Trek je deze van elkaar af, dan heb je één van de beide afmetingen van A:
+
+    Ax2 - Ax1 = 7
+
+Met hulp van de coordinaten Ay1 en Ay2 kun je de andere zijde berekenen van die rechthoek. Daarna volgen de zijdes van rechthoek B. Zijn ze inderdaad gelijk?
 
 ## Opdracht
 

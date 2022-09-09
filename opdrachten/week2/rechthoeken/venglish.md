@@ -7,8 +7,11 @@ Looking at the example above, you can see that the rectangles do indeed seem to 
 We can check this better if we have the exact coordinates of the rectangles.
 In this case we do have some data, like the position of the *left side* of A (Ax1) and the *right side* of A (Ax2).
 When we subtract these two, the result is one of the dimensions of A.
-Using Ay1 and Ay2 we can calculate the other dimension.
-Then we can calculate the sides of rectangle B.
+
+    Ax2 - Ax1 = 7
+
+Using Ay1 and Ay2 we can calculate the other side of that rectangle.
+Then we can calculate the sides of rectangle B. Are the sides equal indeed?
 
 ## Assignment
 
