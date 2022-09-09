@@ -22,8 +22,8 @@ Week 2:
         Calculator: /opdrachten/week2/calculator
         Rechthoeken: /opdrachten/week2/rechthoeken
         Wachtwoord: /opdrachten/week2/wachtwoord
-    Weekly checkup:
-        Toetsje: /toetsjes/week2
+    # Weekly checkup:
+    #     Toetsje: /toetsjes/week2
 
 Week 3:
     Overzicht / Overview: /modules/herhalen
@@ -38,8 +38,8 @@ Week 3:
         Populatie: /opdrachten/week3/populatie
         Sjoelen: /opdrachten/week3/sjoelen
         Temperatuur: /opdrachten/week3/temperatuur
-    Weekly checkup:
-        Toetsje: /toetsjes/week3
+    # Weekly checkup:
+    #     Toetsje: /toetsjes/week3
 
 Week 4:
     Overzicht / Overview: /modules/problemen
