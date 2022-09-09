@@ -1,14 +1,14 @@
-name: overlap
+name: rechthoeken
 files:
   required:
-    - overlap.py
+    - rechthoeken.py
 check:
   tool: checkpy
   repo: minprog/python
-  args: overlap
+  args: rechthoeken
 plag:
   server: http://83.96.241.94/api/submission/
-  slug: pyprog/2022/overlap
+  slug: pyprog/2022/rechthoeken
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog/2022
   # archives:
