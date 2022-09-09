@@ -29,17 +29,17 @@ Je schrijft een hoofdprogramma dat de invoer vraagt en netjes maakt. Daarnaast z
 
 Zoals je kan zien staan er twee TODO's in; hier moet je zelf bedenken wat het type van de functie moet zijn.
 
-    def gelijk(Ax: int, Ay: int, Bx: int, By: int) -> TODO:
+    def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """
-        Controleert of de zijdes gelijk zijn
+        Controleert of de lengtes van de zijdes gelijk zijn
         """
 
-    def vierkant(Ax: int, Ay: int, Bx: int, By: int) -> TODO:
+    def is_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """
         Controleert of beide rechthoeken hetzelfde vierkant zijn
         """
 
-    def lengte(c1: int, c2: int) -> int:
+    def calculate_length(c1: int, c2: int) -> int:
         """
         Berekent de lengte van een zijde op basis van twee coördinaten
         """
@@ -49,7 +49,9 @@ Zoals je kan zien staan er twee TODO's in; hier moet je zelf bedenken wat het ty
 
 ## Hints
 
-Je kunt geen berekeningen doen met strings, dus één stap van het netjes maken van de data is om de input te converteren naar integers.
+- Je kunt geen berekeningen doen met strings, dus één stap van het netjes maken van de data is om de input te converteren naar integers.
+
+- Bij de functie `lengte` weet je niet welke coördinaat groter is (denk aan de case: c1 = 5, c2 = 3). Zorg dat de uitvoer van de functie wel altijd positief is. Je kunt het zelf een stukje code uitschrijven hiervoor, of een standaard Python-functie gebruiken.
 
 ## Voorbeelden
 

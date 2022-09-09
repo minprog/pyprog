@@ -30,27 +30,29 @@ You will write a main program that asks for input and tidies it for further use.
 
 As you can see, there are two TODOs in the code; here you must come up with the type of the function yourself.
 
-    def gelijk(Ax: int, Ay: int, Bx: int, By: int) -> TODO:
+    def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """
-        Controleert of de zijdes gelijk zijn
-        """
-
-    def vierkant(Ax: int, Ay: int, Bx: int, By: int) -> TODO:
-        """
-        Controleert of beide rechthoeken hetzelfde vierkant zijn
+        Checks whether the lengths of the sides are equal
         """
 
-    def lengte(c1: int, c2: int) -> int:
+    def is_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """
-        Berekent de lengte van een zijde op basis van twee coördinaten
+        Checks whether the rectangles are (identical) squares
+        """
+
+    def calculate_length(c1: int, c2: int) -> int:
+        """
+        Calculates the length of a side from two coordinates
         """
 
     if __name__ == '__main__':
-        <Hoofdprogramma>
+        <Main program>
 
 ## Hints
 
-You can't perform calculations on strings, so one step of tidying your data is to convert the inputs into integers.
+- You can't perform calculations on strings, so one step of tidying your data is to convert the inputs into integers.
+
+- For the function `calculate_length` you don't know in advance which coordinate is larger (think of the case: c1 = 5, c2 = 3). Ensure that the function's output is always positive. You can write some code for this yourself or make use of a standard Python-function.
 
 ## Examples
 
