@@ -1,12 +1,13 @@
 # Gelijke rechthoeken
 
-![](rechthoeken.png){: width="315"}
+![](rechthoeken.png){: width="415"}
 
 We gaan een programma schrijven om te bepalen of twee rechthoeken dezelfde afmetingen hebben.
 Als je naar het voorbeeld hierboven kijkt zie je dat de rechthoeken ongeveer even groot lijken.
 We kunnen dit precies bepalen als we de coördinaten van de rechthoeken hebben.
-In dit geval hebben we een aantal gegevens, zoals de x-waarden van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
+In dit geval hebben we een aantal gegevens, zoals de positie van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
 Trek je deze van elkaar af, dan heb je één van de beide afmetingen van A.
+Met hulp van Ay1 en Ay2 kun je de andere afmeting berekenen. Daarna volgt rechthoek B.
 
 ## Opdracht
 
@@ -17,9 +18,9 @@ Trek je deze van elkaar af, dan heb je één van de beide afmetingen van A.
     Geef de y-coordinaten van B: 2,6
     De rechthoeken zijn gelijk!
 
-Schrijf, in een bestand genaamd `afmetingen.py`, een programma dat op basis van de gegeven coördinaten bepaalt of twee rechthoeken dezelfde afmetingen hebben.
+Schrijf, in een bestand genaamd `rechthoeken.py`, een programma dat op basis van de gegeven coördinaten bepaalt of twee rechthoeken dezelfde afmetingen hebben.
 Het is daarnaast mogelijk dat de rechthoeken ook vierkanten zijn van dezelfde afmetingen, en in dat geval moet dat ook gemeld worden.
-Mocht er helemaal niks interessants te melden zijn over de rechthoeken dan meld je dat.
+Mocht er helemaal niks interessants te melden zijn over de rechthoeken dan melden we dat maar.
 Je mag ervan uitgaan dat de gebruiker gehele getallen invoert per paar. Met bovenstaande invoer geeft de gebruiker aan dat Ax1 = 0 en Ax2 = 7.
 
 ## Code

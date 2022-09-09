@@ -18,9 +18,9 @@ Met hulp van Ay1 en Ay2 kun je de andere afmeting berekenen. Daarna volgt rechth
     Geef de y-coordinaten van B: 2,6
     De rechthoeken zijn gelijk!
 
-Schrijf, in een bestand genaamd `afmetingen.py`, een programma dat op basis van de gegeven coördinaten bepaalt of twee rechthoeken dezelfde afmetingen hebben.
+Schrijf, in een bestand genaamd `rechthoeken.py`, een programma dat op basis van de gegeven coördinaten bepaalt of twee rechthoeken dezelfde afmetingen hebben.
 Het is daarnaast mogelijk dat de rechthoeken ook vierkanten zijn van dezelfde afmetingen, en in dat geval moet dat ook gemeld worden.
-Mocht er helemaal niks interessants te melden zijn over de rechthoeken dan meld je dat.
+Mocht er helemaal niks interessants te melden zijn over de rechthoeken dan melden we dat maar.
 Je mag ervan uitgaan dat de gebruiker gehele getallen invoert per paar. Met bovenstaande invoer geeft de gebruiker aan dat Ax1 = 0 en Ax2 = 7.
 
 ## Code
