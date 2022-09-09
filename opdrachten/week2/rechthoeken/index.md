@@ -1,12 +1,13 @@
 # Gelijke rechthoeken
 
-![](rechthoeken.png){: width="315"}
+![](rechthoeken.png){: width="415"}
 
 We gaan een programma schrijven om te bepalen of twee rechthoeken dezelfde afmetingen hebben.
 Als je naar het voorbeeld hierboven kijkt zie je dat de rechthoeken ongeveer even groot lijken.
 We kunnen dit precies bepalen als we de coördinaten van de rechthoeken hebben.
-In dit geval hebben we een aantal gegevens, zoals de x-waarden van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
+In dit geval hebben we een aantal gegevens, zoals de positie van de *linkerzijde* van A (Ax1) en *rechterzijde* van A (Ax2).
 Trek je deze van elkaar af, dan heb je één van de beide afmetingen van A.
+Met hulp van Ay1 en Ay2 kun je de andere afmeting berekenen. Daarna volgt rechthoek B.
 
 ## Opdracht
 
