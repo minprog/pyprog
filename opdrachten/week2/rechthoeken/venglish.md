@@ -1,6 +1,6 @@
 # Gelijke rechthoeken
 
-![](rechthoeken.png){: width="215"}
+![](rechthoeken.png){: width="315"}
 
 We gaan een programma schrijven om te bepalen of twee rechthoeken dezelfde afmetingen hebben.
 Als je naar het voorbeeld hierboven kijkt zie je dat de rechthoeken ongeveer even groot lijken.
