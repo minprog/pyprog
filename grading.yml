@@ -83,23 +83,23 @@ grades:
         automatic:
             done: -(correctness_score.floor/6)
 
-    calculator: *automatic
+    calculator:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-    etenstijd: *automatic
+    etenstijd:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-    orakel: *automatic
+    orakel:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-    rechthoeken: *automatic
+    rechthoeken:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-    wachtwoord: *automatic
+    wachtwoord:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/4)
