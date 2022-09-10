@@ -84,10 +84,25 @@ grades:
             done: -(correctness_score.floor/6)
 
     calculator: *automatic
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
     etenstijd: *automatic
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
     orakel: *automatic
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
     rechthoeken: *automatic
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
     wachtwoord: *automatic
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
 
     m2: *manual
     m3: *manual
