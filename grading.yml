@@ -74,8 +74,14 @@ grades:
     chapter_13: *check
     chapter_14: *check
 
-    cafeine: *automatic
+    cafeine:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/7)
     vakantie: *automatic
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
 
     calculator: *automatic
     etenstijd: *automatic
