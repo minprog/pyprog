@@ -78,7 +78,7 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
-    vakantie: *automatic
+    vakantie:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
