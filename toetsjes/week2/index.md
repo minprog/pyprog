@@ -1,4 +1,3 @@
 # Toetsje
 
-- Enkele oefeningen van kaliber "schrijf een functie die.." (FDR)
-- Gebruik makende van ifs, bools, ints, floats en strings
+Lever hier je uitwerking in. Geen probleem als het nog niet helemaal goed werkt na 20 minuten!

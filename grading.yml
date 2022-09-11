@@ -104,6 +104,8 @@ grades:
         automatic:
             done: -(correctness_score.floor/4)
 
+    toetsje_week_2: *check
+
     m2: *manual
     m3: *manual
     m4: *manual
