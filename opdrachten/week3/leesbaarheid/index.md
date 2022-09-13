@@ -9,7 +9,7 @@ De formule is als volgt:
 
 waarbij L het gemiddelde aantal letters per 100 woorden is en S het gemiddelde aantal zinnen per 100 woorden.
 
-Meer informatie over de Coleman-Liau index kan je vinden op de betreffende [Wikipedia-pagina](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index).
+Meer informatie over de Coleman-Liau index kan je vinden op de betreffende [Wikipedia-pagina](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index). Hier vind je ook uitleg over de manier waarop je het gemiddelde aantal letters en zinnen per 100 woorden kunt berekenen.
 
 ## Opdracht
 
@@ -21,32 +21,25 @@ Schrijf, in een bestand genaamd `leesbaarheid.py`, een programma dat de leesbaar
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def calculate_grade(words: int, sentences: int, letters: int) -> int:
         """
-        Bereken L en S gebasseerd op het aantal woorden en zinnen, bereken vervolgens de grade via de Coleman Liau functie.
+        Bereken eerst de waarden L en S gebasseerd op het aantal woorden en zinnen, 
+        en bereken vervolgens de grade.
         """
 
     def coleman_liau(L: int, S: int) -> int:
         """
-        Bereken de grade volgens de Coleman Liau functie.
+        Bereken de grade volgens de Coleman Liau-formule.
         """
-
-    def count_values(sentence: str):
-        """
-        Tel het aantal letters, woorden en zinnnen.
-        """
-        #TODO
-        return letters, words, sentences
 
     if __name__ == '__main__':
-        Prompt de gebruiker voor een tekst, bereken het aantal letters, woorden en zinnen, bereken en print de grade.
+        Prompt de gebruiker voor een tekst, tel het aantal letters, woorden en zinnen, bereken en print de grade.
 
 ## Tips
 
 * Je kan een alfabet string krijgen via de string module. Kijk bijvoorbeeld even naar de functie `string.ascii_lowercase`.
-* Bij count_values moet je drie waarden returnen het aantal letters, woorden en zinnen.
 
 ## Voorbeelden
 

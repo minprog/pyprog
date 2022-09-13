@@ -3,6 +3,7 @@
 Over het algemeen hebben jullie bij het programmeren gebruik gemaakt van snake_case. Waarbij er een `_` tussen de woorden staat. Er zijn echter ook mensen die de camelCase prefereren.
 Bij de camelCase begint de naam van de variabele of functie met een kleine letter maar hierbij begint elk nieuw woord met een hoofdletter zodat de verschillende woorden binnen de naam nog steeds goed te onderscheiden zijn.
 Zo kan je bijvoorbeeld de functie `check` hebben, maar wil je iets specifieks checken bijvoorbeeld de input krijg je bijvoorbeeld de naam `checkInput` of `checkInputFromUser`.
+In Python echter is het gebruikelijk om `snake_case` te gebruiken. Daarom schrijven we een programma dat onze namen kan omzetten naar dat formaat.
 
 ## Opdracht
 
@@ -10,7 +11,7 @@ Schrijf, in een bestand genaamd `camel.py`, een programma dat een naam in camelC
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def convert(name: str) -> str:
         """

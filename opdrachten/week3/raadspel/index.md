@@ -17,7 +17,7 @@ Schrijf, in een bestand genaamd `raadspel.py`, een programma dat de gebruiker vr
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def check_guess(guess: int, number: int) -> bool:
         """

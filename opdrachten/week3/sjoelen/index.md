@@ -5,7 +5,7 @@ Sjoelen is een oud Nederlands spel dat je zowel in je eentje als tegen anderen k
 De vier gleuven hebben een verschillend aantal punten: 2, 3, 4, en 1. Wanneer in elke gleuf een sjoelsteen is geschoven, levert dit 20 punten op. Alle overige stenen die geen deel uitmaken van zo'n 'kwartet' tellen voor de waarde van het bakje waarin ze zijn geschoven.
 Wanneer er bijvoorbeeld `[3, 4, 3, 5]` stenen in de verschillende bakken liggen, zijn er drie kwartetten die samen `3*20 = 60` punten opleveren. Daarna houdt je nog `[0, 1, 0, 2]` over in de bakken, dit samen is `0 * 1 + 1 * 3 + 0 * 4 + 2 * 1 = 5` punten. Bij elkaar resulteert dit in `60 + 5 = 65` punten.
 
-Om een sjoelspel te simuleren nemen we aan dat per geschoven steen de kans 25% is dat die in een van de vier gleuven komt.
+Om een sjoelspel te simuleren nemen we aan dat per geschoven steen de kans 25% is dat die in een van de vier gleuven komt (en 75% dat het mis is).
 Wanneer een steen in een bak komt is de kans 30% dat die in een bak met 1 punt komt, 30% voor 2 punten, 20% voor 3 punten, en 20% voor 4 punten.
 
 ## Opdracht
@@ -14,7 +14,7 @@ Schrijf, in een bestand genaamd `sjoelen.py`, een programma waarbij je drie rond
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def calculate_points(board: list) -> int:
         """

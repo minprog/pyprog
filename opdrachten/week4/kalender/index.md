@@ -49,7 +49,7 @@ Dit houdt in dat in `display_calendar` de functies `display_header` en `display_
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     START_1800 = 3
 

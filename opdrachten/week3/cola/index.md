@@ -16,7 +16,7 @@ Als er genoeg muntstukken zijn ingeworpen, moet het programma geven hoeveel wiss
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctest en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
 
     def check_coin(coin: int) -> bool:
