@@ -26,7 +26,8 @@ Design your program as described below. Complete the docstrings with doctests an
     def evaluate(formula: str) -> float:
         """
         Calculate the result of a formula that is found in a string.
-        The result is returned as a float.
+        This function prepares the calculation by getting the parts of 
+        the formula from the string. The result is returned as a float.
         """
 
     if __name__ == '__main__':
@@ -34,7 +35,9 @@ Design your program as described below. Complete the docstrings with doctests an
 
 ## Tips
 
-* You can use the split-method just like in the Meal-time assignment. Experiment a little using `split` in Python to develop your idea for a solution.
+* You can use the `split` method just like in the Mealtime assignment. Experiment a little using `split` in Python to develop your idea for a solution.
+
+* Should `main` call `evaluate` only, which in turn calls `perform_operation`? Or should `main` call both functions? Study the types of the functions to see what is possible.
 
 ## Examples
 

@@ -26,7 +26,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     def evaluate(formula: str) -> float:
         """
         Bereken het resultaat van een formule die in een string staat.
-        De output is een float.
+        Deze functie bereidt de berekening voor door de onderdelen van de
+        formule uit de string te halen. De output is een float.
         """
 
     if __name__ == '__main__':
@@ -34,7 +35,9 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* Je kunt de split-methode gebruiken net als in de opdracht Etenstijd. Experimenteer even met split in Python zodat je je idee voor een oplossing kunt ontwikkelen.
+* Je kunt de `split`-methode gebruiken net als in de opdracht Etenstijd. Experimenteer even met `split` in Python zodat je je idee voor een oplossing kunt ontwikkelen.
+
+* Moet `main` alleen `evaluate` aanroepen, die daarna `perform_operation` aanroept? Of moet `main` beide functies aanroepen? Bestudeer de types van (de argumenten van) de functies om te achterhalen welke optie past.
 
 ## Voorbeelden
 
