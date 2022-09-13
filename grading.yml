@@ -194,6 +194,11 @@ reviews:
         m5: 1
         m6: 1
 
+tests:
+    show_progress: true
+    submits:
+        toetsje_week_2: 0
+
 exam:
     show_progress: true
     required: true
