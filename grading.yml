@@ -82,7 +82,6 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-
     calculator:
         <<: *automatic
         automatic:
@@ -179,9 +178,9 @@ assignments:
         cafeine: 105
         vakantie: 105
 
-        calculator: 42
-        etenstijd: 42
         orakel: 42
+        etenstijd: 42
+        calculator: 42
         rechthoeken: 42
         wachtwoord: 42
 
