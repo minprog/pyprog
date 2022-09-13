@@ -31,7 +31,7 @@ Je mag ervan uitgaan dat de gebruiker gehele getallen invoert per paar. Met bove
 
 Je schrijft een hoofdprogramma dat de invoer vraagt en netjes maakt. Daarnaast zijn er drie hulpfuncties die je vanuit je hoofdprogramma gebruikt.
 
-Zoals je kan zien staan er twee TODO's in; hier moet je zelf bedenken wat het type van de functie moet zijn.
+Zoals je kan zien staan er twee TODO's in. De bedoeling is dat de functies één waarde teruggeven die vertelt of de controle gelukt is of niet (dus bijvoorbeeld vierkant of niet). Welk datatype is bij uitstek geschikt om te gebruiken voor het returnen van wel/niet-informatie?
 
     def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """

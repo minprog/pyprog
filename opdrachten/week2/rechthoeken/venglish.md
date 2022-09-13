@@ -32,7 +32,7 @@ You may assume that the use inputs pairs of two integers. Given the example abov
 
 You will write a main program that asks for input and tidies it for further use. In addition there are three helper functions that you will use from the main program.
 
-As you can see, there are two TODOs in the code; here you must come up with the type of the function yourself.
+As you can see, there are two TODOs in the code. The functions are supposed to return a single value that signifies whether the check passed or not (e.g. it is square, or it isn't). What datatype fits perfectly for returning pass/fail information?
 
     def is_same_rectangle(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """
