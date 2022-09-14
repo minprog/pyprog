@@ -8,7 +8,7 @@ De perfecte reden om een programma te schrijven waarmee je de drankautomaat kan 
 ## Opdracht
 
 Schrijf, in een bestand genaamd `cola.py`, een programma dat de gebruiker vraagt om een muntstuk in te voeren (een per keer) en dat het nog te betalen bedrag weergeeft.
-Als er genoeg muntstukken zijn ingeworpen, moet het programma geven hoeveel wisselgeld je terug krijgt.
+Als er genoeg muntstukken zijn ingeworpen, moet het programma geven hoeveel wisselgeld je terug krijgt zodat er 50 cent betaald is.
 
 * Je mag aannemen dat de gebruiker alleen maar integers invoert.
 * De automaat accepteert alleen maar muntstukken van 25, 10, en 5 cent, zorg dat andere muntstukken niet worden geaccepteerd.
@@ -40,7 +40,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* De gebruiker moet herhaadelijk nieuwe munten inwerpen en hiervoor geprompt worden. Dit is handig om te doen in een loop. We hebben een eindconditie, dus welk soort loop is handig om te gebruiken?
+* De gebruiker moet herhaaldelijk nieuwe munten inwerpen en hiervoor geprompt worden. Dit is handig om te doen in een loop. We hebben een eindconditie, dus welk soort loop is handig om te gebruiken?
 * Niet alle functies hoeven aangeroepen te worden in de `if __name__ == '__main__'`. De functie `check_coin` wordt alleen maar gebruikt in de andere twee functies.
 
 

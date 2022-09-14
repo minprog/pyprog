@@ -13,23 +13,23 @@ Meer informatie over de Coleman-Liau index kan je vinden op de betreffende [Wiki
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `leesbaarheid.py`, een programma dat de leesbaarheid van een tekst berekend op basis van de Coleman-Liau index.
+Schrijf, in een bestand genaamd `leesbaarheid.py`, een programma dat de leesbaarheid van een tekst berekent op basis van de Coleman-Liau index.
 
-* De output van het programma is van de vorm `Grade X` waar X de berekende grade is. Dit is een geheel getal, dus rond je output af.
-* Als de grade groter of gelijk is aan 16 geef dan `Grade 16+` als output. Als de grade kleiner is dan 1 print dan `Before Grade 1`.
+* De output van het programma is van de vorm `Grade X`, waar X de berekende grade is. Dit is een geheel getal, dus rond je output af.
+* Als de grade groter of gelijk is aan 16, geef dan `Grade 16+` als output. Print `Before Grade 1` als de grade kleiner is dan 1.
 
 
 ## Code
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def calculate_grade(words: int, sentences: int, letters: int) -> int:
+    def calculate_grade(words: int, sentences: int, letters: int) -> float:
         """
         Bereken eerst de waarden L en S gebasseerd op het aantal woorden en zinnen, 
         en bereken vervolgens de grade.
         """
 
-    def coleman_liau(L: int, S: int) -> int:
+    def coleman_liau(L: float, S: float) -> int:
         """
         Bereken de grade volgens de Coleman Liau-formule.
         """
@@ -40,6 +40,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 ## Tips
 
 * Je kan een alfabet string krijgen via de string module. Kijk bijvoorbeeld even naar de functie `string.ascii_lowercase`.
+
+* `You're` is 1 woord met 5 letters!
 
 ## Voorbeelden
 
@@ -55,7 +57,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python leesbaarheid.py
     Text: There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.
-    Grade 9
+    Grade 8
 
     $ python leesbaarheid.py
     Text: A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains.
