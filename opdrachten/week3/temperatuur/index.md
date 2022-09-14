@@ -13,7 +13,7 @@ Graden Celsius C en graden Fahrenheit F staan met elkaar in verband via `F = (18
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `conversion.py`, een programma dat de gebruiker vraagt om de eenheid van temperatuur: `C` van Celsius of `F` van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapgrootte. Daarna wordt een nette tabel uitgeprint, met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
+Schrijf, in een bestand genaamd `temperatuur.py`, een programma dat de gebruiker vraagt om de eenheid van temperatuur: `C` van Celsius of `F` van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapgrootte. Daarna wordt een nette tabel uitgeprint, met op iedere rij de gekozen temperatuur en de temperatuur in de andere eenheid.
 
 * Je programma moet hoofdletter ongevoelig zijn; dus zowel `c` als `C` moeten worden gezien als Celsius.
 * De eindtemperatuur moet groter zijn dan de begin temperatuur.
@@ -30,7 +30,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         Zet de temperatuur (old_temp) van het type old_type om naar de temperatuur van het nieuwe type.
         """
 
-    def  print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int):
+    def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int):
         """
         Print de omzet tabel.
         """

@@ -1,10 +1,11 @@
 # RNA-transcriptie
 
-Eiwitsynthese is het proces waarbij eiwitten worden gemaakt op basis van de informatie in het DNA. Simpel gezegd is eiwitsynthese het maken van een eiwit in een menselijke cel. De eerste stap van eiwitsynthese is de transcriptie van DNA naar RNA. (Je hoeft voorgaande niet te begrijpen.)
+Eiwitsynthese is het proces waarbij eiwitten worden gemaakt op basis van informatie in het DNA, wat onder andere gebeurt in menselijke cellen. Omdat de nieuwe eiwitten niet worden gemaakt op de plek waar het DNA is opgeslagen wordt er een kopie van het relevante stuk DNA gemaakt, en vervoerd naar de locatie waar de eiwitten geproduceerd worden. Dit stukje gekopieerde DNA heet RNA.
 
-DNA bestaat uit verschillende moleculen, waaronder 4 nucleotiden die de DNA-code vormen: Adenine (A), Guanine (G), Cytosine (C) en Thymine (T). RNA is een zogenaamde complementaire transcriptie van DNA. De complementaire nucleotide van Adenine is Uracil (U), van Guanine is Cytosine (C), van Cysotine is Guanine (G) en van Thymine is Adenine (A).
+DNA bestaat uit 2 lange ketens nucleotiden, die met elkaar verbonden zijn door middel van nucleotiden-paren, die samen de bekende dubbele helix vormen. Deze nucleotiden heten Adenine (A), Guanine (G), Cytosine (C) en Thymine (T). Deze nucleotiden kunnen in slechts 2 paren voorkomen: G-C en A-T. Dit betekent dat als de ene keten uit CTGAC bestaat, de andere keten GACTG moet zijn. De ketens zijn als het ware ‘gespiegeld’.
 
-Een complementaire RNA-keten kan dus volgens een vast patroon beredeneerd worden uit de DNA-keten. Zo geeft een DNA-keten `ATGC` altijd de RNA-keten `UACG` als je bovenstaande regels toepast.
+Alle informatie staat dus in 1 van de ketens, en om deze informatie te kopiëren is maar 1 van de ketens nodig. RNA bestaat dan ook uit een enkele keten nucleotiden, en wordt gevormd door passende nucleotiden tegen een van de ketens van DNA aan te leggen, om zo een gespiegelde kopie te maken. Het enige verschil is dat in RNA geen Thymine (T) maar Uracil (U) heeft. Een gekopieerde A wordt dus een U, en een RNA-keten gebaseerd op CTGAC wordt GACUG. Via dit patroon kan iedere DNA-keten worden omgeschreven naar RNA.
+
 
 ## Opdracht
 
@@ -42,6 +43,10 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     if __name__ == '__main__':
         Prompt de gebruiker voor dna, roep je functies aan, en print de gevonden rna string.
+
+## Tips
+
+* Gebruik ''.join() om een lijst met letters tot een enkele string te combineren.
 
 ## Voorbeelden
 

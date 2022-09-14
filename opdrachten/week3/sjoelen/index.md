@@ -21,9 +21,9 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         Bereken het aantal punten dat is behaald met sjoelen. De volgorde van de punten is [2, 3, 4, 1]. Wanneer er een kwartet tussen zit, telt dit voor 20 punten.
         """
 
-    def shuffle_round(board: list, stones: int):
+    def shuffle_round(board: list, stones: int) -> int:
         """
-        Simuleer een ronde sjoelen. Return het bord en het aantal stenen dat nog geschoven kan worden.
+        Simuleer een ronde sjoelen. Return het aantal stenen dat nog geschoven kan worden.
         """
 
     if __name__ == '__main__':
