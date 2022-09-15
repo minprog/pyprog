@@ -47,7 +47,7 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
 
 ## Tips
 
-* Gebruik ''.join(lijst) om een lijst met letters tot een enkele string te combineren.
+* Gebruik `''.join(lijst)` om een lijst met letters tot een enkele string te combineren.
 
 ## Voorbeelden
 
