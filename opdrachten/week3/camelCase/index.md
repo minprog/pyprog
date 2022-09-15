@@ -1,8 +1,8 @@
 # camelCase of snake_case?
 
-Over het algemeen wordt er bij programmeren in Python gebruik gemaakt van snake_case, waarbij er een `_` tussen de woorden staat. Er zijn echter ook mensen die de camelCase prefereren.
+Over het algemeen wordt er bij programmeren in Python gebruik gemaakt van snake_case, waarbij er een `_` tussen de woorden staat. Er zijn echter ook mensen die camelCase prefereren.
 Bij de camelCase begint de naam van de variabele of functie met een kleine letter, maar hierbij begint elk nieuw woord met een hoofdletter zodat de verschillende woorden binnen de naam nog steeds goed te onderscheiden zijn.
-Zo kan je bijvoorbeeld de functie `check` hebben, maar wil je iets specifieks checken bijvoorbeeld de input krijg je bijvoorbeeld de naam `checkInput` of `checkInputFromUser`.
+Zo krijg je namen als `check`, `convertInput` of `readFromFile`.
 In Python is het dus gebruikelijk om `snake_case` te gebruiken. Daarom schrijven we een programma dat onze namen kan omzetten naar dat formaat.
 
 ## Opdracht
@@ -30,9 +30,9 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     snake_case: check
 
     $ python camel.py
-    camelCase: checkInput
-    snake_case: check_input
+    camelCase: convertInput
+    snake_case: convert_input
 
     $ python camel.py
-    camelCase: checkInputFromUser
-    snake_case: check_input_from_user
+    camelCase: readFromFile
+    snake_case: read_from_file
