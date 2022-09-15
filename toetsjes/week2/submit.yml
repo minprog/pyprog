@@ -1,7 +1,7 @@
 name: toetsje_week_2
 files:
   required:
-    - programma.py
+    - toetsje2.py
 check:
   tool: checkpy
   repo: minprog/python
