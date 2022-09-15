@@ -1,6 +1,6 @@
 # Leesbaarheid
 
-De Coleman-Liau index is een leesbaarheidstest die de mate van leesbaarheid van een tekst meet. Dit is op basis van het Amerikaanse systeem waarin ze grades gebruiken.
+De Coleman-Liau index is een leesbaarheidstest die de mate van leesbaarheid van een tekst meet. Dit is op basis van het Amerikaanse systeem waarin ze 'grades' gebruiken.
 Deze index wordt onder andere berekend op basis van het aantal karakters per woord.
 
 De formule is als volgt:
@@ -16,7 +16,7 @@ Meer informatie over de Coleman-Liau index kan je vinden op de betreffende [Wiki
 Schrijf, in een bestand genaamd `leesbaarheid.py`, een programma dat de leesbaarheid van een tekst berekent op basis van de Coleman-Liau index.
 
 * De output van het programma is van de vorm `Grade X`, waar X de berekende grade is. Dit is een geheel getal, dus rond je output af.
-* Als de grade groter of gelijk is aan 16, geef dan `Grade 16+` als output. Print `Before Grade 1` als de grade kleiner is dan 1.
+* Als de grade groter of gelijk is aan 16, geef dan `Grade 16+` als output. Print `Below Grade 1` als de grade kleiner is dan 1.
 
 
 ## Code
@@ -49,7 +49,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python leesbaarheid.py
     Text: One fish. Two fish. Red fish. Blue fish.
-    Before Grade 1
+    Below Grade 1
 
     $ python leesbaarheid.py
     Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
