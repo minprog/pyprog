@@ -20,7 +20,7 @@ Schrijf, in een bestand genaamd `rna.py`, een programma dat een DNA-keten van wi
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook als je zelf bedenkt dat het op een andere manier kan, vragen we je om het op de voorgeshreven manier te implementeren.
+We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook als je zelf bedenkt dat het op een andere manier kan, vragen we je om het op de voorgeschreven manier te implementeren.
 
     def check_input(dna: str) -> bool:
         """
