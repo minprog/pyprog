@@ -7,8 +7,6 @@ Week 1:
     Opdrachten / Assignments:
         Cafeine (dinsdag af): /opdrachten/week1/cafeine
         Vakantie (donderdag af): /opdrachten/week1/vakantie
-    # Weekly checkup:
-    #     Toetsje: /toetsjes/week1
 
 Week 2:
     Overzicht / Overview: /modules/beslissingen
@@ -23,11 +21,10 @@ Week 2:
         Calculator: /opdrachten/week2/calculator
         Rechthoeken: /opdrachten/week2/rechthoeken
         Wachtwoord: /opdrachten/week2/wachtwoord
-    # Weekly checkup:
-    #     Toetsje: /toetsjes/week2
 
 Week 3:
     Overzicht / Overview: /modules/herhalen
+    Toetsje: /toetsjes/week3
     Lezen en oefenen / Reading and practice:
         "Chapter 8: Storing Collections using Lists": /boek/lists
         "Chapter 9: Repeating Code using Loops": /boek/loops
@@ -39,8 +36,6 @@ Week 3:
         Populatie: /opdrachten/week3/populatie
         Sjoelen: /opdrachten/week3/sjoelen
         Temperatuur: /opdrachten/week3/temperatuur
-    # Weekly checkup:
-    #     Toetsje: /toetsjes/week3
 
 Week 4:
     Overzicht / Overview: /modules/problemen

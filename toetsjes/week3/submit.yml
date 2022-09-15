@@ -1,8 +1,8 @@
-name: toetsje_week_2
+name: toetsje_week_3
 files:
   required:
     - programma.py
 check:
   tool: checkpy
   repo: minprog/python
-  args: toetsje2
+  args: toetsje3
