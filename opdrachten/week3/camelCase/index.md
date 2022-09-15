@@ -19,7 +19,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         """
 
     if __name__ == '__main__':
-        Vraag de gebruiker om input, roep je functie aan, en print het resultaat.
+        <Vraag de gebruiker om input, roep je functie aan, en print het resultaat>
 
 ## Voorbeelden
 
