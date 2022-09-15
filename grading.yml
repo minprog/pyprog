@@ -102,8 +102,37 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/4)
+    camelcase:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    rna:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    leesbaarheid:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    cola:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    populatie:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    sjoelen:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    temperatuur:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
 
     toetsje_week_2: *check
+    toetsje_week_3: *check
 
     m2: *manual
     m3: *manual
@@ -133,7 +162,7 @@ calculation:
     eindcijfer:
         practice: 10
         assignments: 20
-        reviews: 75
+        reviews: 70
         exam: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
@@ -184,6 +213,14 @@ assignments:
         rechthoeken: 42
         wachtwoord: 42
 
+        camelcase: 30
+        rna: 30
+        leesbaarheid: 30
+        cola: 30
+        populatie: 30
+        sjoelen: 30
+        temperatuur: 30
+
 reviews:
     show_progress: true
     submits:
@@ -197,6 +234,7 @@ tests:
     show_progress: true
     submits:
         toetsje_week_2: 0
+        toetsje_week_3: 0
 
 exam:
     show_progress: true
