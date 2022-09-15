@@ -1,6 +1,8 @@
 # Repetition and lists
 
-...
+Let's get started with **repetition** in code, using loops. Together with **sequence** and **conditions** we have all the ingredients we need to specify program logic. You will find these three elements in many programming languages, so once you get the hang of them, you will have come quite far already.
+
+Next to that we will consider **lists**. Lists afford you a place to store data of variable size. You are no longer obliged to create a name for each separate piece of information, but instead you can store a complete collection under a single name. Some code can even be expressed much more efficiently using lists and loops. But more on that later.
 
 ## Important topics for this week
 
