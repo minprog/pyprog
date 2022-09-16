@@ -29,7 +29,8 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
 
     def transcribe_dna_to_rna(dna_list: list) -> list:
         """
-        Schrijf een lijst met DNA-elementen om naar een lijst met RNA-elementen.
+        Schrijf een lijst met DNA-elementen om naar een lijst met
+        RNA-elementen.
         """
 
     def convert_to_list(dna: str) -> list:

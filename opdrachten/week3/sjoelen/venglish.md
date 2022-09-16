@@ -21,16 +21,21 @@ Design your program as described below. Complete the docstrings with doctests an
 
     def calculate_points(board: list) -> int:
         """
-        Calculate the amount of points that is scored. The sequence of points is [2, 3, 4, 1] for the different gates. Each quartet of discs counts for 20 points and those discs no longer count for other points.
+        Calculate the amount of points that is scored. The sequence
+        of points is [2, 3, 4, 1] for the different gates. Each
+        quartet of discs counts for 20 points and those discs no
+        longer count for other points.
         """
 
     def shuffle_round(board: list, discs: int) -> int:
         """
-        Simulate a single round of 'sjoelen'. Return the number of stones that can still be slid.
+        Simulate a single round of 'sjoelen'. Return the number of
+        discs that are left to be slid again.
         """
 
     if __name__ == '__main__':
-        <Setup the board and the number of discs, simulate three rounds and calculate the score>
+        <Setup the board and the number of discs, simulate three
+         rounds and calculate the score>
 
 ## Tips
 

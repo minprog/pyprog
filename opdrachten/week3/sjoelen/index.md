@@ -21,16 +21,20 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def calculate_points(board: list) -> int:
         """
-        Bereken het aantal punten dat is behaald met sjoelen. De volgorde van de punten is [2, 3, 4, 1]. Wanneer er een kwartet tussen zit, telt dit voor 20 punten.
+        Bereken het aantal punten dat is behaald met sjoelen. De
+        volgorde van de punten is [2, 3, 4, 1]. Wanneer er een
+        kwartet tussen zit, telt dit voor 20 punten.
         """
 
     def shuffle_round(board: list, discs: int) -> int:
         """
-        Simuleer een enkele ronde sjoelen. Return het aantal schijven dat nog geschoven kan worden.
+        Simuleer een enkele ronde sjoelen. Return het aantal schijven
+        dat nog over is om nog eens mee te schuiven.
         """
 
     if __name__ == '__main__':
-        <Zet het bord en het aantal schijven, simuleer drie rondes en bereken het aantal punten>
+        <Zet het bord en het aantal schijven, simuleer drie rondes en
+         bereken het aantal punten>
 
 ## Tips
 

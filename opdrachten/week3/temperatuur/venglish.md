@@ -27,7 +27,8 @@ Your program should work like the examples below.
 
     def convert_temperature(old_type: str, old_temp: str) -> int:
         """
-        Convert the temparture (old_temp) of old_type to a temperature in the new type.
+        Convert the temparture (old_temp) of old_type to a temperature
+        in the new type.
         """
 
     def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int):
