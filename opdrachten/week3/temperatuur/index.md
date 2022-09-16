@@ -40,7 +40,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* Voor het uitlijnen van de getallen zijn er verschillende technieken. Denk aan `str.format()` voor het omzetten van getallen naar strings of `str.rjust()`.
+* Voor het uitlijnen van de getallen zijn er verschillende technieken. Denk aan `str.format()` voor het omzetten van getallen naar strings, of `str.rjust()`. Ook kun je [f-strings gebruiken](https://peps.python.org/pep-0498/) om dit voor elkaar te krijgen.
 
 * We gaan ervan uit dat we geen temperaturen tegenkomen in de duizendtallen. Dit houdt in dat je ervan uit mag gaan dat er voor drie karakters ruimte moet zijn in de tabel, precies zoals in de voorbeelden hieronder.
 

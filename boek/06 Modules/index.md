@@ -20,3 +20,9 @@ Deze opdracht kun je zelf uitvoeren.
 Wat is de verbeterde versie van de code?
 
 <textarea name="form[q3]" rows="8" required></textarea>
+
+## Final
+
+How much time did you spend on these exercises?
+
+<input name="form[qTime]" type="text" required>

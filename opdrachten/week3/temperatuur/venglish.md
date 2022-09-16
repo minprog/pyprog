@@ -40,7 +40,8 @@ Your program should work like the examples below.
 
 ## Tips
 
-* To align numbers there are different techniques at your disposal. Think of `str.format()` to convert numbers to strings, or use `str.rjust()`.
+* To align numbers there are different techniques at your disposal. Think of `str.format()` to convert numbers to strings, or use `str.rjust()`. You can also [use f-strings](https://peps.python.org/pep-0498/) to accomplish this.
+
 * We assume that there are no temperatures that exceed 999 degrees. That means you only need to reserve room for 3 digits in the cells of your table, just like the examples below.
 
 ## Examples

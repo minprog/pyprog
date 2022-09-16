@@ -88,3 +88,9 @@ Bespreek je uitwerking met een medestudent.
 1. <textarea name="form[q11e]" rows="2" required></textarea>
 1. <textarea name="form[q11f]" rows="2" required></textarea>
 {: type="a"}
+
+## Final
+
+How much time did you spend on these exercises?
+
+<input name="form[qTime]" type="text" required>
