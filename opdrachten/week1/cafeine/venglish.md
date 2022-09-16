@@ -11,7 +11,7 @@ Following is a list of caffeine dosages for a variety of caffeinated beverages.
 ## Assignment
 
 Implement, in a file named `cafeine.py`, a program that prompts the user to indicate how many caffeinated drinks they drink, that then calculates the total caffeine intake of the user based on their input. 
-You may assume the user only enters numbers greater than zero and never inputs any incorrect values.
+You may assume the user only enters numbers greater than or equal to zero and never inputs any incorrect values.
 
 ## Code
 
@@ -24,7 +24,7 @@ Finally, write some code that asks for input and calls the function.
 
     def calculate_caffeine(coffee: int, tea: int, energy: int, cola: int) -> int:
         """
-        Calculates the amount of caffein based on the number of consumed beverages
+        Calculates the amount of caffeine based on the number of consumed beverages
           of either coffee, tea, energy, or cola.
         """
 

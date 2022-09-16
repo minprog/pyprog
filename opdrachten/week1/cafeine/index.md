@@ -11,7 +11,7 @@ Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillend
 ## Opdracht
 
 Schrijf, in een bestand genaamd `cafeine.py`, een programma dat de gebruiker vraagt hoeveel cafeïne houdende dranken die drinkt en vervolgens de totale cafeïne-inname berekent.
-Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan nul invult, en dus geen fouten maakt bij de invoer.
+Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan of gelijk aan nul invult, en dus geen fouten maakt bij de invoer.
 
 ## Code
 
