@@ -1,4 +1,4 @@
-Week 1:
+Module 1:
     Overzicht / Overview: /modules/variabelen
     Lezen en oefenen / Reading and practice:
         "Chapter 2: Hello, Python": /boek/hello
@@ -8,7 +8,7 @@ Week 1:
         Cafeine: /opdrachten/week1/cafeine
         Vakantie: /opdrachten/week1/vakantie
 
-Week 2:
+Module 2:
     Overzicht / Overview: /modules/beslissingen
     Toetsje: /toetsjes/week2
     Lezen en oefenen / Reading and practice:
@@ -22,7 +22,7 @@ Week 2:
         Rechthoeken: /opdrachten/week2/rechthoeken
         Wachtwoord: /opdrachten/week2/wachtwoord
 
-Week 3:
+Module 3:
     Overzicht / Overview: /modules/herhalen
     Toetsje: /toetsjes/week3
     Lezen en oefenen / Reading and practice:
@@ -37,14 +37,14 @@ Week 3:
         Sjoelen: /opdrachten/week3/sjoelen
         Temperatuur: /opdrachten/week3/temperatuur
 
-Week 4:
+Module 4:
     Overzicht / Overview: /modules/problemen
     Opdrachten / Assignments:
         Scrabble: /opdrachten/week4/scrabble
         Schuifpuzzel: /opdrachten/week4/schuifpuzzel
         Kalender: /opdrachten/week4/kalender
 
-Week 5:
+Module 5:
     Overzicht / Overview: /modules/dataverwerking
     Lezen en oefenen / Reading and practice:
         "Chapter 10: Reading and Writing Files": /boek/files
@@ -54,7 +54,7 @@ Week 5:
         Indexer: /opdrachten/week5/indexer
         Climate: /opdrachten/week5/climate
 
-Week 6:
+Module 6:
     Overzicht / Overview: /modules/algoritmen
     Lezen en oefenen / Reading and practice:
         "Chapter 12: Designing Algorithms": /boek/algorithms
@@ -65,7 +65,7 @@ Week 6:
         # Sort: /opdrachten/week6/sort
         Virus: /opdrachten/week6/virus
 
-Week 7:
+Module 7:
     Overzicht / Overview: /modules/classes
     Lezen en oefenen / Reading and practice:
         "Chapter 14: Object-oriented programming": /boek/objects
