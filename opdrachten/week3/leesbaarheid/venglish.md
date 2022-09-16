@@ -1,5 +1,6 @@
 # Readability
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
 
 The coleman-Liau index is a readability-test which determines the measure of readability of a text. This is based on the American system where 'grades' are used. This index is calculated with the amount of characters per word, and other such characteristics.
 

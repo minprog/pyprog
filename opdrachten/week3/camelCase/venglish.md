@@ -1,5 +1,7 @@
 # camelCase or snake_case?
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
+
 In general, snake_case is used for naming variables or functions in Python, where a `_` separates the individual words. Some people prefer using camelCase, where the very first letter is lower case, and the first letter of each new word is upper case. This ensures the words within the name are distinguishable.
 
 Camelcase would lead to names such as `check`, `convertInput`, or `readFromFile`. However in Python it is convention to use `snake_case`. That is why we are going to write a program to convert any name into that format.

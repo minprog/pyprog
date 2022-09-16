@@ -1,5 +1,7 @@
 # Population Growth
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
+
 Imagine a population of `n` llamas. Each year `n / 3` new llamas are born, but also each year `n / 4` llamas die off. 
 That means if we start with `n = 1200` llamas, in the first year `1200 / 3 = 400` new llamas are born and `1200 / 4 = 300` llamas die by the end of that year.
 Ultimately at the end of the year `1200 + 400 - 300 = 1300` llamas exist in the ecosystem, a growth of 100 llamas!

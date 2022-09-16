@@ -1,5 +1,7 @@
 # Sjoelen
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
+
 ![](sjoelbord.png)  
 <small>[Wikipedia CC BY](https://commons.wikimedia.org/wiki/Category:Table_shuffleboard#/media/File:슐런보드_경기용.jpg)</small>
 

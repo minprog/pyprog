@@ -1,5 +1,7 @@
 # Sjoelen
 
+> Let op: de checks voor deze opdracht komen uiterlijk woensdag beschikbaar. Lever je opdracht niet in voor die tijd.
+
 ![](sjoelbord.png)  
 <small>[Wikipedia CC BY](https://commons.wikimedia.org/wiki/Category:Table_shuffleboard#/media/File:슐런보드_경기용.jpg)</small>
 

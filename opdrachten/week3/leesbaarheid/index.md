@@ -1,5 +1,7 @@
 # Leesbaarheid
 
+> Let op: de checks voor deze opdracht komen uiterlijk woensdag beschikbaar. Lever je opdracht niet in voor die tijd.
+
 De Coleman-Liau index is een leesbaarheidstest die de mate van leesbaarheid van een tekst meet. Dit is op basis van het Amerikaanse systeem waarin ze 'grades' gebruiken.
 Deze index wordt onder andere berekend op basis van het aantal karakters per woord.
 

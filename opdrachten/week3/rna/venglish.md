@@ -1,5 +1,7 @@
 # RNA-transcription
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
+
 Protein synthesis is the process of creating proteins based on information from the DNA, which is a process that, for example, happens in human cells. Because new proteins are not created in the same place that the DNA is stored, a copy of the relevant piece of DNA is made, and transported to where it is needed to synthesize the proteins. This copied piece of DNA is called RNA.
 
 DNA consists of 2 large chains of necleotides, that are connected to each other through nucleotide-pairs, that together form the well known helix shape. These nucleotides are called Adenine (A), Guanine (G), Cystosine (C) and Thymine (T). These nucleotides can only exist in 2 pairs: G-C and A-T. This means that when one chain consists of CTGAC, the other chain has to be GACTG. The chains are in a sense 'mirrored'.
