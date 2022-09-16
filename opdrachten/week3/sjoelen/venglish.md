@@ -3,7 +3,7 @@
 ![](sjoelbord.png)  
 <small>[Wikipedia CC BY](https://commons.wikimedia.org/wiki/Category:Table_shuffleboard#/media/File:슐런보드_경기용.jpg)</small>
 
-`Sjoelen` is an old Dutch board game that can be played by yourself or against friends. Every player plays three rounds in which they try to slide 30 discs through 4 different gates at the end of the board.
+`Sjoelen` is an old Dutch board game that can be played by yourself or against friends. Every player plays three rounds, in which they try to slide 30 discs through 4 different gates at the end of the board. After each round, the discs that haven't entered one of the gates are gathered to be used in the next round. Invariably, at the end of the third round some of the 30 discs will still not have entered one of the gates.
 
 The four gates each provide a different number of points: 2, 3, 4, and 1. When a disc is slid through each of the gates, an total of 20 points is awarded. All remaining discs that do not are not part of such a 'quartet' count for the number of points of the gate they slid through. 
 When for example `[3, 4, 3, 5]` discs are present behind the 4 different gates, then there are three quartets that amount to `3 * 20 = 60` points. Then there are `[0, 1, 0, 2]` discs remaining behind the gates, they award `0 * 1 + 1 * 3 + 0 * 4 + 2 * 1 = 5` points. Together that makes for `60 + 5 = 65` points.
