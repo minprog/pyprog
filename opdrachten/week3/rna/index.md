@@ -24,23 +24,23 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
 
     def check_input(dna: str) -> bool:
         """
-        Controleer of de input een correcte DNA string is.
+        Controleert of de input een correcte DNA string is.
         """
 
     def transcribe_dna_to_rna(dna_list: list) -> list:
         """
-        Schrijf een lijst met DNA-elementen om naar een lijst met
+        Schrijft een lijst met DNA-elementen om naar een lijst met
         RNA-elementen.
         """
 
     def convert_to_list(dna: str) -> list:
         """
-        Converteer de DNA-string naar een lijst met nucleotiden.
+        Converteert de DNA-string naar een lijst met nucleotiden.
         """
 
     def convert_to_string(rna: list) -> str:
         """
-        Converteer de RNA-lijst naar string van nucleotiden.
+        Converteert de RNA-lijst naar string van nucleotiden.
         """
 
     if __name__ == '__main__':

@@ -25,13 +25,13 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def calculate_grade(words: int, sentences: int, letters: int) -> float:
         """
-        Bereken eerst de waarden L en S gebasseerd op het aantal 
-        woorden en zinnen, en bereken vervolgens de grade.
+        Berekent eerst de waarden L en S gebasseerd op het aantal 
+        woorden en zinnen. Returnt de grade op basis van deze gegevens.
         """
 
     def coleman_liau(L: float, S: float) -> int:
         """
-        Bereken de grade volgens de Coleman Liau-formule.
+        Berekent de grade volgens de Coleman Liau-formule.
         """
 
     if __name__ == '__main__':

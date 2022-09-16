@@ -25,13 +25,13 @@ Design your program as described below. Complete the docstrings with doctests an
 
     def calculate_grade(words: int, sentences: int, letters: int) -> float:
         """
-        First, calculate the values of L and S based on the amount
-        of words and sentences. Calculate the grade based on that.
+        First, calculates the values of L and S based on the amount
+        of words and sentences. Returns the grade based on these values.
         """
 
     def coleman_liau(L: float, S: float) -> int:
         """
-        Calculate the grade according to the Coleman-Liau formula.
+        Calculates the grade according to the Coleman-Liau formula.
         """
 
     if __name__ == '__main__':

@@ -25,7 +25,7 @@ Design your program as described below. Complete the docstrings with doctests an
 
     def calculate_years(start_size: int, end_size: int) -> int:
         """
-        Return the number of year it takes for the population to
+        Returns the number of year it takes for the population to
         reach end_size.
         """
 

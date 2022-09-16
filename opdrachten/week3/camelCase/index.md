@@ -15,7 +15,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def convert(name: str) -> str:
         """
-        Converteer een naam van camelCase naar snake_case
+        Converteert een naam van camelCase naar snake_case
         """
 
     if __name__ == '__main__':

@@ -24,22 +24,22 @@ For this assignment we want you to practice the use of lists, that means that ev
 
     def check_input(dna: str) -> bool:
         """
-        Check whether the input is a correct DNA string.
+        Checks whether the input is a correct DNA string.
         """
 
     def transcribe_dna_to_rna(dna_list: list) -> list:
         """
-        Write a list of DNA-elements into a list of RNA-elements.
+        Writes a list of DNA-elements into a list of RNA-elements.
         """
 
     def convert_to_list(dna: str) -> list:
         """
-        Convert the DNA-string into a list of nucleotides.
+        Converts the DNA-string into a list of nucleotides.
         """
 
     def convert_to_string(rna: list) -> str:
         """
-        Convert an RNA-list to a string of nucleotides.
+        Converts an RNA-list to a string of nucleotides.
         """
 
     if __name__ == '__main__':
