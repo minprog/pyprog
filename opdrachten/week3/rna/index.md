@@ -43,7 +43,7 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
         """
 
     if __name__ == '__main__':
-        <Vraag om DNA, roep je functies aan, en print RNA>
+        <Hoofdprogramma>
 
 ## Tips
 

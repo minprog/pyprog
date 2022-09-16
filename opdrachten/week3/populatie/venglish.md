@@ -29,7 +29,7 @@ Design your program as described below. Complete the docstrings with doctests an
         """
 
     if __name__ == '__main__':
-        <Prompt the user for a valid starting population and target population. Calculate and print the required years of growth.>
+        <Main program>
 
 ## Hint
 

@@ -43,7 +43,7 @@ For this assignment we want you to practice the use of lists, that means that ev
         """
 
     if __name__ == '__main__':
-        <Prompt for DNA, call your functions, and print the RNA>
+        <Main program>
 
 ## Tips
 

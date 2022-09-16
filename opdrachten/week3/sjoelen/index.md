@@ -27,7 +27,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         """
 
     if __name__ == '__main__':
-        Zet het bord en het aantal stenen, simuleer drie rondes en bereken het aantal punten.
+        <Zet het bord en het aantal stenen, simuleer drie rondes en bereken het aantal punten>
 
 ## Tips
 

@@ -19,7 +19,7 @@ Design your program as described below. Complete the docstrings with doctests an
         """
 
     if __name__ == '__main__':
-        Prompt the user for a name, call your function, and print the result.
+        <Main program>
 
 ## Examples
 

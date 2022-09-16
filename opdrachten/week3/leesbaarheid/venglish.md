@@ -34,7 +34,7 @@ Design your program as described below. Complete the docstrings with doctests an
         """
 
     if __name__ == '__main__':
-        Prompt the user for a text, count the number of letters, words and sentences, calculate and print the grade.
+        <Main program>
 
 ## Tips
 

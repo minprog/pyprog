@@ -35,7 +35,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         """
 
     if __name__ == '__main__':
-        Prompt de gebruiker voor een tekst, tel het aantal letters, woorden en zinnen, bereken en print de grade.
+        <Hoofdprogramma>
 
 ## Tips
 
