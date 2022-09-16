@@ -1,6 +1,6 @@
 # Sjoelen
 
-![](슐런보드_경기용.png)  
+![](sjoelbord.png)  
 <small>[Wikipedia CC BY](https://commons.wikimedia.org/wiki/Category:Table_shuffleboard#/media/File:슐런보드_경기용.jpg)</small>
 
 Sjoelen is een oud Nederlands spel dat je zowel in je eentje als tegen anderen kan spelen. Iedere speler speelt drie rondes waarbij die probeert 30 schijven in vier verschillende gleuven te krijgen.

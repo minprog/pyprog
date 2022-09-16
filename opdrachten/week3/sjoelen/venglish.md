@@ -1,6 +1,6 @@
 # Sjoelen
 
-![](슐런보드_경기용.png)  
+![](sjoelbord.png)  
 <small>[Wikipedia CC BY](https://commons.wikimedia.org/wiki/Category:Table_shuffleboard#/media/File:슐런보드_경기용.jpg)</small>
 
 `Sjoelen` is an old Dutch board game that can be played by yourself or against friends. Every player plays three rounds in which they try to slide 30 discs through 4 different gates at the end of the board.
