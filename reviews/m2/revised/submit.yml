@@ -1,0 +1,6 @@
+name: m2
+form: true
+files:
+    required:
+        - rechthoeken.py
+        - wachtwoord.py
