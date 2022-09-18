@@ -6,8 +6,4 @@ You will be performing code reviews with classmates, preferably a different pers
 
 After class you will take an hour or so to fully clean up the code using the feedback that you wrote down during the review. And then you can re-submit your programs one more time, after which they will be assessed by your teaching assistant.
 
-- [Code review: Caffeine](/modules/m2)
-- [Code review: Cypher](/modules/m3)
-- [Code review: Calendar](/modules/m4)
-- [Code review: Sort](/modules/m5)
-- [Code review: Filter](/modules/m6)
+- [Code review: Rechthoeken & Wachtwoord](/reviews/m2)
