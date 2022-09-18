@@ -33,9 +33,6 @@ So when you save your code with tab characters in it, it may actually look diffe
 You should be aware of this, and especially avoid **mixing** tabs and spaces (why?).
 To make it easier for yourself, we recommend that you check that your editor is set to indent using **four spaces**, even if you type a tab character.
 
-> You can check that your code is indented correctly using `style50`.
-> You can find instructions on using `style50` alongside the problem specifications.
-
 ## Spaces
 
 Consistent use of spaces makes expressions and statements easier to read.
