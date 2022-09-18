@@ -4,3 +4,7 @@ files:
     required:
         - rechthoeken.py
         - wachtwoord.py
+check:
+  tool: checkpy
+  repo: minprog/python
+  args: review2
