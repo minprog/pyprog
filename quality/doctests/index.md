@@ -4,7 +4,9 @@ For every assignment you will write doctests that show, to some extent, that you
 
 ## Minimum requirement
 
-Your doctests will be automatically checked upon submission. Every function needs to have an absolute minimum of 2 tests and the tests should work out OK. If your submission does not follow this requirement, it will be rejected. You can then resubmit until the deadline passes.
+Your doctests will be automatically checked upon submission. Every function needs to have an absolute minimum of 2 tests, and every test should work out OK. You can then resubmit until the deadline passes.
+
+Upon submission, the doctests will be automatically run. You can review the results on the Progress page of this website. However, it's much better to run the doctests yourself.
 
 ## Running your own doctests
 

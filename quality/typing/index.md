@@ -2,12 +2,14 @@
 
 In this course you are required to have types for all your functions: a single return type as well as a type for each of the function arguments. In many cases we have decided the types for you and specified these in the assignment.
 
-Your code will be automatically tested to check for any deviations from the types that are specified in the function headers. For example, when we have the following function:
+Your code can be automatically tested to check for any deviations from the types that are specified in the function headers. For example, when we have the following function:
 
     def is_zero(number: int) -> bool:
         return 0
 
-The actual return type of the function is `int`, not `bool`. In that case, your submission will be rejected automatically. 
+The actual return type of the function is `int`, not `bool`. This is a type error.
+
+Upon submission, a **type checker** called `mypy` will be automatically run. You can review the results on the Progress page of this website. However, it's much better to run `mypy` yourself.
 
 ## Checking types
 
