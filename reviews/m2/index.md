@@ -1,6 +1,6 @@
 # Code review: Rechthoeken & Wachtwoord
 
-Tijdens de code review ga je met een andere student naar elkaars code kijken en daarbij feedback en advies geven. We geven je hiervoor een aantal **aspecten** waarop je kunt concentreren. Deze aspecten worden ook gebruikt door de assistenten bij het nakijken van jouw definitieve programma's.
+De code review focust op een aantal **aspecten**. Deze aspecten worden ook gebruikt bij het nakijken van jouw definitieve programma's, dus het gebruik bij de code reviews helpt je om de juiste richting op te gaan. Maar let op: het nakijken beperkt zich niet tot alleen de aspecten. Je kunt zelf namelijk ook uitzoeken hoe je betere Python-programma's kunt schrijven en dat verwachten we van je als je heel hoog wilt scoren.
 
 Let op dat je niet naar andermans code kijkt als je het programma zelf nog niet af hebt, zeker als de deadline nog niet voorbij is (we hebben de cursus zó gemaakt dat dit onwaarschijnlijk is, door de code review ruim na de deadline te plannen).
 
@@ -8,7 +8,7 @@ Je reviewpartner wisselt per week. Je docent wijst tijdens de werkgroep de partn
 
 ## Aspecten
 
-Voor deze module gebruik je de volgende aspecten om code te reviewen en te verbeteren. Neem de tijd om de uitlegpagina helemaal te lezen en goed te begrijpen. Je kunt hier ook vragen over stellen aan de assistenten.
+Voor deze module gebruik je de volgende aspecten. Neem de tijd om de uitlegpagina helemaal te lezen en goed te begrijpen. Je kunt hier ook vragen over stellen aan de assistenten.
 
 - [Doctests](/quality/doctests)
 - [Typing](/quality/typing)

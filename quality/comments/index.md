@@ -38,7 +38,7 @@ Or this:
     # Compute one student's average.
     average = sum / QUIZZES + 0.5
 
-And as a general rule, you should not place comments on the same line as actual code:
+And as a general rule, you should **not** place comments on the same line as actual code:
 
     average = sum / QUIZZES + 0.5  # compute one student's average
 
@@ -57,9 +57,7 @@ The first way is just simply commenting every line with a hash (#):
     # - Says hello to the world.
     # - Demonstrates use of printf.
 
-Since Python will ignore string literals that are not assigned to a variable, 
-you can also add a multiline string in your code by using triple-quotes, and place your comment inside it.
-Note that using this method inside of functions can lead to errors!
+It is fairly common to use docstrings instead:
 
     """
      hello.py
@@ -94,8 +92,6 @@ Consider what David tends to do:
     print(f"{b} {s1} of beer,")
     print("Take one down, pass it around,")
     print(f"{b - 1} {s2} of beer on the wall.\n")
-
-This example is also nice because it demonstrates splitting up a function's code into three separate parts. The second and third part get their own summarizing comment that explains, in plain English, what the code will do when run.
 
 ## Commenting out code
 
