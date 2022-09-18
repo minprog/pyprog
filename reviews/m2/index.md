@@ -2,7 +2,7 @@
 
 Tijdens de code review ga je met een andere student naar elkaars code kijken en daarbij feedback en advies geven. We geven je hiervoor een aantal **aspecten** waarop je kunt concentreren. Deze aspecten worden ook gebruikt door de assistenten bij het nakijken van jouw definitieve programma's.
 
-Let op dat je de code review niet begint voordat jij en je partner helemaal klaar zijn en je oplossingen hebt ingestuurd op de opdrachtpagina. Pas als jullie allebei klaar zijn ga je de code review doen en op deze pagina's krijg je gelegenheid je opdracht nogmaals in te sturen.
+Let op dat je niet naar andermans code kijkt als je het programma zelf nog niet af hebt, zeker als de deadline nog niet voorbij is (we hebben de cursus zó gemaakt dat dit onwaarschijnlijk is, door de code review ruim na de deadline te plannen).
 
 Je reviewpartner wisselt per week. Je docent wijst tijdens de werkgroep de partners aan.
 
