@@ -1,4 +1,4 @@
-# Code review: Rechthoeken & Wachtwoord
+# Code review: Calculator & Rechthoeken
 
 Your code review will focus on a number of **aspects**. These aspects will also be used when assessing your programs for a grade, so using them for the code review may help you get a decent grade. But do note: assessment will not be exclusively done using the aspects below. You can also find external sources on how to write good Python programs and that's what we expect of you if you want to earn very high grades.
 
