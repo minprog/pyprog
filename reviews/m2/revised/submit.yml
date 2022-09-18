@@ -7,4 +7,4 @@ files:
 check:
   tool: checkpy
   repo: minprog/python
-  args: review2
+  args: rechthoeken wachtwoord
