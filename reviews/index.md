@@ -6,4 +6,4 @@ Je gaat code reviews doen met wisselende medestudenten. De reviews vinden plaats
 
 Na afloop van de werkgroep neem je nog een uurtje om je code helemaal netjes te maken op basis van de gekregen feedback. Dan lever je de uitwerkingen nog één keer in, zodat ze kunnen worden nagekeken door je studentassistent.
 
-- [Code review: Rechthoeken & Wachtwoord](/reviews/m2)
+- [Code review: Calculator & Rechthoeken](/reviews/m2)
