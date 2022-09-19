@@ -1,21 +1,21 @@
 Week 1:
-    Overzicht / Overview: /modules/variabelen
-    Lezen en oefenen / Reading and practice:
+    Overzicht: /modules/variabelen
+    Lezen en oefenen:
         "Chapter 2: Hello, Python": /boek/hello
         "Chapter 3: Designing functions": /boek/functions
         "Chapter 4: Working with text": /boek/text
-    Opdrachten / Assignments:
+    Opdrachten:
         Cafeine (dinsdag af): /opdrachten/week1/cafeine
         Vakantie (donderdag af): /opdrachten/week1/vakantie
 
 Week 2:
-    Overzicht / Overview: /modules/beslissingen
-    Toetsje: /toetsjes/week2
-    Lezen en oefenen / Reading and practice:
+    Overzicht: /modules/beslissingen
+    Tentamen-oefening: /toetsjes/week2
+    Lezen en oefenen:
         "Chapter 5: Making Choices": /boek/choices
         "Chapter 6: Modular Approach": /boek/modules
         "Chapter 7: Using Methods": /boek/methods
-    Opdrachten / Assignments:
+    Opdrachten:
         Orakel: /opdrachten/week2/orakel
         Etenstijd: /opdrachten/week2/etenstijd
         Calculator: /opdrachten/week2/calculator
@@ -23,12 +23,12 @@ Week 2:
         Wachtwoord: /opdrachten/week2/wachtwoord
 
 Week 3:
-    Overzicht / Overview: /modules/herhalen
-    Toetsje: /toetsjes/week3
-    Lezen en oefenen / Reading and practice:
+    Overzicht: /modules/herhalen
+    Tentamen-oefening: /toetsjes/week3
+    Lezen en oefenen:
         "Chapter 8: Storing Collections using Lists": /boek/lists
         "Chapter 9: Repeating Code using Loops": /boek/loops
-    Opdrachten / Assignments:
+    Opdrachten:
         camelCase: /opdrachten/week3/camelcase
         RNA: /opdrachten/week3/rna
         Leesbaarheid: /opdrachten/week3/leesbaarheid
@@ -38,37 +38,38 @@ Week 3:
         Temperatuur: /opdrachten/week3/temperatuur
 
 Week 4:
-    Overzicht / Overview: /modules/problemen
-    Opdrachten / Assignments:
+    Overzicht: /modules/problemen
+    Tentamen-oefening: /toetsjes/week4
+    Opdrachten:
         Scrabble: /opdrachten/week4/scrabble
         Schuifpuzzel: /opdrachten/week4/schuifpuzzel
         Kalender: /opdrachten/week4/kalender
 
 Week 5:
-    Overzicht / Overview: /modules/dataverwerking
-    Lezen en oefenen / Reading and practice:
+    Overzicht: /modules/dataverwerking
+    Lezen en oefenen:
         "Chapter 10: Reading and Writing Files": /boek/files
         "Chapter 11: Collection Types": /boek/collections
-    Opdrachten / Assignments:
+    Opdrachten:
         World Cup: /opdrachten/week5/worldcup
         Indexer: /opdrachten/week5/indexer
         Climate: /opdrachten/week5/climate
 
 Week 6:
-    Overzicht / Overview: /modules/algoritmen
-    Lezen en oefenen / Reading and practice:
+    Overzicht: /modules/algoritmen
+    Lezen en oefenen:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
-    Opdrachten / Assignments:
+    Opdrachten:
         Algorithms: /opdrachten/week6/algorithms
         # Measurements (TBD): /opdrachten/week1/measurements
         # Sort: /opdrachten/week6/sort
         Virus: /opdrachten/week6/virus
 
 Week 7:
-    Overzicht / Overview: /modules/classes
-    Lezen en oefenen / Reading and practice:
+    Overzicht: /modules/classes
+    Lezen en oefenen:
         "Chapter 14: Object-oriented programming": /boek/objects
-    Opdrachten / Assignments:
+    Opdrachten:
         Call Center: /opdrachten/week7/callcenter
         Adventure: /opdrachten/week7/adventure

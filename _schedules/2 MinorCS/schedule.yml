@@ -10,7 +10,7 @@ Week 1:
 
 Week 2:
     Overzicht / Overview: /modules/beslissingen
-    Toetsje: /toetsjes/week2
+    Tentamen-oefening / Exam exercise: /toetsjes/week2
     Lezen en oefenen / Reading and practice:
         "Chapter 5: Making Choices": /boek/choices
         "Chapter 6: Modular Approach": /boek/modules
@@ -24,7 +24,7 @@ Week 2:
 
 Week 3:
     Overzicht / Overview: /modules/herhalen
-    Toetsje: /toetsjes/week3
+    Tentamen-oefening / Exam exercise: /toetsjes/week3
     Lezen en oefenen / Reading and practice:
         "Chapter 8: Storing Collections using Lists": /boek/lists
         "Chapter 9: Repeating Code using Loops": /boek/loops
@@ -39,6 +39,7 @@ Week 3:
 
 Week 4:
     Overzicht / Overview: /modules/problemen
+    Tentamen-oefening / Exam exercise: /toetsjes/week4
     Opdrachten / Assignments:
         Scrabble: /opdrachten/week4/scrabble
         Schuifpuzzel: /opdrachten/week4/schuifpuzzel
