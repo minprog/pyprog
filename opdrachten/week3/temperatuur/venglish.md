@@ -21,7 +21,7 @@ Implement, in a file called `temperatuur.py`, a program that prompts the user fo
 * The final temperature has to be higher than the starting temperature.
 * The interval size has to be a positive whole number.
 * Align the numbers (and letters) to the right in each cell of the table.
-* All temperatures have to be rounded up to the nearest whole number.
+* All temperatures have to be rounded **up**.
 
 ## Code
 
