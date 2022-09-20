@@ -1,5 +1,7 @@
 # Populatie-verloop
 
+> Let op: de checks voor deze opdracht komen uiterlijk woensdag beschikbaar. Lever je opdracht niet in voor die tijd.
+
 Stel we hebben een populatie van `n` lama's. Elk jaar worden er `n / 3` nieuwe lama's geboren en sterven er `n / 4` lama's.
 Bijvoorbeeld, als we starten met `n = 1200` lama's, dan worden er tijdens het eerste jaar, `1200 / 3 = 400` nieuwe lama's geboren. Maar er zijn ook `1200 / 4 = 300` lama's die overlijden.
 Precies een jaar later zijn er dan `1200 + 400 - 300 = 1300` lama's, een groei van 100 lama's!
@@ -26,7 +28,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def calculate_years(start_size: int, end_size: int) -> int:
         """
-        Bereken het aantal jaar dat het duurt voor de populatie om 
+        Berekent het aantal jaar dat het duurt voor de populatie om 
         end_size te bereiken.
         """
 

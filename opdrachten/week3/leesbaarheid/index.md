@@ -1,5 +1,7 @@
 # Leesbaarheid
 
+> Let op: de checks voor deze opdracht komen uiterlijk woensdag beschikbaar. Lever je opdracht niet in voor die tijd.
+
 De Coleman-Liau index is een leesbaarheidstest die de mate van leesbaarheid van een tekst meet. Dit is op basis van het Amerikaanse systeem waarin ze 'grades' gebruiken.
 Deze index wordt onder andere berekend op basis van het aantal karakters per woord.
 
@@ -25,17 +27,17 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def calculate_grade(words: int, sentences: int, letters: int) -> float:
         """
-        Bereken eerst de waarden L en S gebasseerd op het aantal woorden en zinnen, 
-        en bereken vervolgens de grade.
+        Berekent eerst de waarden L en S gebasseerd op het aantal 
+        woorden en zinnen. Returnt de grade op basis van deze gegevens.
         """
 
     def coleman_liau(L: float, S: float) -> int:
         """
-        Bereken de grade volgens de Coleman Liau-formule.
+        Berekent de grade volgens de Coleman Liau-formule.
         """
 
     if __name__ == '__main__':
-        Prompt de gebruiker voor een tekst, tel het aantal letters, woorden en zinnen, bereken en print de grade.
+        <Hoofdprogramma>
 
 ## Tips
 

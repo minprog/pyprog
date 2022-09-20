@@ -1,5 +1,7 @@
 # Coke-machine
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
+
 Imagine that you are thirstier than you have ever been, and you would like to buy a bottle of coke from the vending machine. The machine in front of you sells bottles for 50ct a piece, and it only accepts coins of 25, 10 and 5 cents.
 You could just put some coins in the machine without giving it much thought, but you are way too thirsty to think straight and you want to be sure you get the right amount of change back.
 This is a perfect reason to write a program to mimic the vending machine, that will tell you which coins to insert into the machine, and how much change you should then be given back.

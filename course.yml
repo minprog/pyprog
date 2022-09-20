@@ -1,3 +1,5 @@
 long_name: Python Programming
 short_name: Python
 language: en
+links:
+    '[vector-pen] Reviews': /reviews

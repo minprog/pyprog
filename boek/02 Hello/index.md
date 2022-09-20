@@ -62,3 +62,9 @@ Yes/no
 4. <input name="form[q8d]" type="text" required>
 5. <input name="form[q8e]" type="text" required>
 {: type="a"}
+
+## Final
+
+How much time did you spend on these exercises?
+
+<input name="form[qTime]" type="text" required>

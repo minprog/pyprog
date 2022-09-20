@@ -1,5 +1,7 @@
 # Temperatuurtabellen
 
+> Let op: de checks voor deze opdracht komen uiterlijk woensdag beschikbaar. Lever je opdracht niet in voor die tijd.
+
 Graden Celsius en graden Fahrenheit staan met elkaar in verband via `F = (18C + 320) / 10` en andersom `C = (10F - 320) / 18`. Een conversietabel kan er als volgt uitzien. Deze is op basis van de temperatuur in Celcius, en loopt van 0° tot en met 20°, in stappen van 5 graden.
 
 |      C |   F|
@@ -27,7 +29,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def convert_temperature(old_type: str, old_temp: str) -> int:
         """
-        Zet de temperatuur (old_temp) van het type old_type om naar de temperatuur van het nieuwe type.
+        Zet de temperatuur (old_temp) van het type old_type om naar
+        de temperatuur van het nieuwe type.
         """
 
     def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int):
@@ -40,7 +43,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* Voor het uitlijnen van de getallen zijn er verschillende technieken. Denk aan `str.format()` voor het omzetten van getallen naar strings of `str.rjust()`.
+* Voor het uitlijnen van de getallen zijn er verschillende technieken. Denk aan `str.format()` voor het omzetten van getallen naar strings, of `str.rjust()`. Ook kun je [f-strings gebruiken](https://peps.python.org/pep-0498/) om dit voor elkaar te krijgen.
 
 * We gaan ervan uit dat we geen temperaturen tegenkomen in de duizendtallen. Dit houdt in dat je ervan uit mag gaan dat er voor drie karakters ruimte moet zijn in de tabel, precies zoals in de voorbeelden hieronder.
 

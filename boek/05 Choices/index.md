@@ -67,3 +67,9 @@ Enter your answers to the book exercises below. Write answers using your own wor
 ## 11
 
 <textarea name="form[q11]" rows="4" required></textarea>
+
+## Final
+
+How much time did you spend on these exercises?
+
+<input name="form[qTime]" type="text" required>

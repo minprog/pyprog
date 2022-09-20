@@ -1,5 +1,7 @@
 # RNA-transcription
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
+
 Protein synthesis is the process of creating proteins based on information from the DNA, which is a process that, for example, happens in human cells. Because new proteins are not created in the same place that the DNA is stored, a copy of the relevant piece of DNA is made, and transported to where it is needed to synthesize the proteins. This copied piece of DNA is called RNA.
 
 DNA consists of 2 large chains of necleotides, that are connected to each other through nucleotide-pairs, that together form the well known helix shape. These nucleotides are called Adenine (A), Guanine (G), Cystosine (C) and Thymine (T). These nucleotides can only exist in 2 pairs: G-C and A-T. This means that when one chain consists of CTGAC, the other chain has to be GACTG. The chains are in a sense 'mirrored'.
@@ -24,26 +26,26 @@ For this assignment we want you to practice the use of lists, that means that ev
 
     def check_input(dna: str) -> bool:
         """
-        Check whether the input is a correct DNA string.
+        Checks whether the input is a correct DNA string.
         """
 
     def transcribe_dna_to_rna(dna_list: list) -> list:
         """
-        Write a list of DNA-elements into a list of RNA-elements.
+        Writes a list of DNA-elements into a list of RNA-elements.
         """
 
     def convert_to_list(dna: str) -> list:
         """
-        Convert the DNA-string into a list of nucleotides.
+        Converts the DNA-string into a list of nucleotides.
         """
 
     def convert_to_string(rna: list) -> str:
         """
-        Convert an RNA-list to a string of nucleotides.
+        Converts an RNA-list to a string of nucleotides.
         """
 
     if __name__ == '__main__':
-        <Prompt for DNA, call your functions, and print the RNA>
+        <Main program>
 
 ## Tips
 

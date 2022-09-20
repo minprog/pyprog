@@ -1,5 +1,7 @@
 # Temperature Tables
 
+> Please note: the checks for this assignment will be available on Wednesday at the latest. Do not submit your solution before that time.
+
 Degrees Celsius and degrees Fahrenheit can be expressed as a function of each other like so `F = (18C + 320) / 10` or the other way around `C = (10F - 320) / 18`. A conversion table can be seen below. This one is based on the temperature in Celsius and goes from 0° through 20°, in intervals of 5 degrees.
 
 |      C |   F|
@@ -27,12 +29,13 @@ Your program should work like the examples below.
 
     def convert_temperature(old_type: str, old_temp: str) -> int:
         """
-        Convert the temparture (old_temp) of old_type to a temperature in the new type.
+        Converts the temparture (old_temp) of old_type to a temperature
+        in the new type.
         """
 
     def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int):
         """
-        Pretty print the conversion table.
+        Pretty prints the conversion table.
         """
 
     if __name__ == '__main__':
@@ -40,7 +43,8 @@ Your program should work like the examples below.
 
 ## Tips
 
-* To align numbers there are different techniques at your disposal. Think of `str.format()` to convert numbers to strings, or use `str.rjust()`.
+* To align numbers there are different techniques at your disposal. Think of `str.format()` to convert numbers to strings, or use `str.rjust()`. You can also [use f-strings](https://peps.python.org/pep-0498/) to accomplish this.
+
 * We assume that there are no temperatures that exceed 999 degrees. That means you only need to reserve room for 3 digits in the cells of your table, just like the examples below.
 
 ## Examples

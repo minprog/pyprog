@@ -1,5 +1,7 @@
 # RNA-transcriptie
 
+> Let op: de checks voor deze opdracht komen uiterlijk woensdag beschikbaar. Lever je opdracht niet in voor die tijd.
+
 Eiwitsynthese is het proces waarbij eiwitten worden gemaakt op basis van informatie in het DNA, wat onder andere gebeurt in menselijke cellen. Omdat de nieuwe eiwitten niet worden gemaakt op de plek waar het DNA is opgeslagen wordt er een kopie van het relevante stuk DNA gemaakt, en vervoerd naar de locatie waar de eiwitten geproduceerd worden. Dit stukje gekopieerde DNA heet RNA.
 
 DNA bestaat uit 2 lange ketens nucleotiden, die met elkaar verbonden zijn door middel van nucleotiden-paren, die samen de bekende dubbele helix vormen. Deze nucleotiden heten Adenine (A), Guanine (G), Cytosine (C) en Thymine (T). Deze nucleotiden kunnen in slechts 2 paren voorkomen: G-C en A-T. Dit betekent dat als de ene keten uit CTGAC bestaat, de andere keten GACTG moet zijn. De ketens zijn als het ware ‘gespiegeld’.
@@ -24,26 +26,27 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
 
     def check_input(dna: str) -> bool:
         """
-        Controleer of de input een correcte DNA string is.
+        Controleert of de input een correcte DNA string is.
         """
 
     def transcribe_dna_to_rna(dna_list: list) -> list:
         """
-        Schrijf een lijst met DNA-elementen om naar een lijst met RNA-elementen.
+        Schrijft een lijst met DNA-elementen om naar een lijst met
+        RNA-elementen.
         """
 
     def convert_to_list(dna: str) -> list:
         """
-        Converteer de DNA-string naar een lijst met nucleotiden.
+        Converteert de DNA-string naar een lijst met nucleotiden.
         """
 
     def convert_to_string(rna: list) -> str:
         """
-        Converteer de RNA-lijst naar string van nucleotiden.
+        Converteert de RNA-lijst naar string van nucleotiden.
         """
 
     if __name__ == '__main__':
-        <Vraag om DNA, roep je functies aan, en print RNA>
+        <Hoofdprogramma>
 
 ## Tips
 
