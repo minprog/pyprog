@@ -24,7 +24,7 @@ Design your program as described below. Complete the docstrings with doctests an
         Checks if a coin is accepted.
         """
 
-    def determine_due(due: int, coin: int) -> bool:
+    def determine_due(due: int, coin: int) -> int:
         """
         Determines the due ammount after a coin is inserted. Inserted
         coin must be valid.

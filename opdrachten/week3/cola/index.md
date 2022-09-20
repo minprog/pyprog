@@ -25,7 +25,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         Controleert of een munt wordt toegelaten.
         """
 
-    def determine_due(due: int, coin: int) -> bool:
+    def determine_due(due: int, coin: int) -> int:
         """
         Bepaalt hoeveel nog moet worden betaald nadat de eerste munt is
         ingeworpen. De ingeworpen munt moet valide zijn.
