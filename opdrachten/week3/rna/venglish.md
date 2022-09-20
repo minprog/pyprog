@@ -29,17 +29,17 @@ For this assignment we want you to practice the use of lists, that means that ev
         Checks whether the input is a correct DNA string.
         """
 
-    def transcribe_dna_to_rna(dna_list: list) -> list:
+    def transcribe_dna_to_rna(dna_list: list[str]) -> list[str]:
         """
         Writes a list of DNA-elements into a list of RNA-elements.
         """
 
-    def convert_to_list(dna: str) -> list:
+    def convert_to_list(dna: str) -> list[str]:
         """
         Converts the DNA-string into a list of nucleotides.
         """
 
-    def convert_to_string(rna: list) -> str:
+    def convert_to_string(rna: list[str]) -> str:
         """
         Converts an RNA-list to a string of nucleotides.
         """

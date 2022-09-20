@@ -29,18 +29,18 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
         Controleert of de input een correcte DNA string is.
         """
 
-    def transcribe_dna_to_rna(dna_list: list) -> list:
+    def transcribe_dna_to_rna(dna_list: list[str]) -> list[str]:
         """
         Schrijft een lijst met DNA-elementen om naar een lijst met
         RNA-elementen.
         """
 
-    def convert_to_list(dna: str) -> list:
+    def convert_to_list(dna: str) -> list[str]:
         """
         Converteert de DNA-string naar een lijst met nucleotiden.
         """
 
-    def convert_to_string(rna: list) -> str:
+    def convert_to_string(rna: list[str]) -> str:
         """
         Converteert de RNA-lijst naar string van nucleotiden.
         """
