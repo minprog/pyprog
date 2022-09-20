@@ -17,7 +17,7 @@ Meer informatie over de Coleman-Liau index kan je vinden op de betreffende [Wiki
 
 Schrijf, in een bestand genaamd `leesbaarheid.py`, een programma dat de leesbaarheid van een tekst berekent op basis van de Coleman-Liau index.
 
-* De output van het programma is van de vorm `Grade X`, waar X de berekende grade is. Dit is een geheel getal, dus rond je output af.
+* De output van het programma is van de vorm `Grade X`, waar X de berekende grade is. Dit is een geheel getal, dus rond de output van de coleman_liau functie af.
 * Als de grade groter of gelijk is aan 16, geef dan `Grade 16+` als output. Print `Below Grade 1` als de grade kleiner is dan 1.
 
 
@@ -25,7 +25,7 @@ Schrijf, in een bestand genaamd `leesbaarheid.py`, een programma dat de leesbaar
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def calculate_grade(words: int, sentences: int, letters: int) -> float:
+    def calculate_grade(words: int, sentences: int, letters: int) -> int:
         """
         Berekent eerst de waarden L en S gebasseerd op het aantal 
         woorden en zinnen. Returnt de grade op basis van deze gegevens.

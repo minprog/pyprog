@@ -17,14 +17,14 @@ More information on the Coleman-Liau index can be found on its [Wikipedia-page](
 
 Write, in a file named `leesbaarheid.py`, a program which calculates the readability of a text based on the Coleman-Liau index.
 
-* The output of the program is in the vorm of `Grade X`. where X is the calculated grade. This is a whole number, so round off the result.
+* The output of the program is in the vorm of `Grade X`. where X is the calculated grade. This is a whole number, so be sure to round off the result of your coleman_liau function.
 * If the grade is 16 or higher, give a grade of `Grade 16+` as output. Print `Below Grade 1` if the grade is less than 1.
 
 ## Code
 
 Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
 
-    def calculate_grade(words: int, sentences: int, letters: int) -> float:
+    def calculate_grade(words: int, sentences: int, letters: int) -> int:
         """
         First, calculates the values of L and S based on the amount
         of words and sentences. Returns the grade based on these values.
