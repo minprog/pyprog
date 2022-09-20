@@ -31,7 +31,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         woorden en zinnen. Returnt de grade op basis van deze gegevens.
         """
 
-    def coleman_liau(L: float, S: float) -> int:
+    def coleman_liau(L: float, S: float) -> float:
         """
         Berekent de grade volgens de Coleman Liau-formule.
         """
