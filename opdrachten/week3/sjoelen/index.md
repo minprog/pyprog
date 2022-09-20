@@ -21,14 +21,14 @@ Schrijf, in een bestand genaamd `sjoelen.py`, een programma waarbij je drie rond
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def calculate_points(board: list) -> int:
+    def calculate_points(board: list[int]) -> int:
         """
         Berekent het aantal punten dat is behaald met sjoelen. De
         volgorde van de punten is [2, 3, 4, 1]. Wanneer er een
         kwartet tussen zit, telt dit voor 20 punten.
         """
 
-    def shuffle_round(board: list, discs: int) -> int:
+    def shuffle_round(board: list[int], discs: int) -> int:
         """
         Simuleert een enkele ronde sjoelen. De variable `board` wordt
         aangepast als er een schijf in een gleuf terecht komt. Returnt

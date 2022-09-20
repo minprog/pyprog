@@ -21,7 +21,7 @@ Implement, in a file called `sjoelen.py`, a program that simulates three rounds 
 
 Design your program as described below. Complete the docstrings with doctests and any other explanation you deem necessary.
 
-    def calculate_points(board: list) -> int:
+    def calculate_points(board: list[int]) -> int:
         """
         Calculates the amount of points that is scored. The sequence
         of points is [2, 3, 4, 1] for the different gates. Each
@@ -29,7 +29,7 @@ Design your program as described below. Complete the docstrings with doctests an
         longer count for other points.
         """
 
-    def shuffle_round(board: list, discs: int) -> int:
+    def shuffle_round(board: list[int], discs: int) -> int:
         """
         Simulates a single round of 'sjoelen'. The variable `board`
         is changed as the dics hit gates. Returns the number of
