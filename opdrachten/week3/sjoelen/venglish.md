@@ -42,7 +42,7 @@ Design your program as described below. Complete the docstrings with doctests an
 
 ## Tips
 
-* This game is based on chances. There's different ways of simulating those. One of which is to generate a random number between 0 and 1. When comparing this generated number with a particular chosen number we can simulate a chance. For our program we have to simulate a chance of 25% that a gate passes any gate, so a random number `x` between 0 and one (generated through `random.uniform(0,1)`) can be compared with 0.25. If `x <= 0.25` then the disc successfully passes a gate, but for values of `x > 0.25` it does not.
+* This game is based on chances. There's different ways of simulating those. One of which is to generate a random number between 0 and 1. When comparing this generated number with a particular chosen number we can simulate a chance. For our program we have to simulate a chance of 25% that a disc passes any gate, so a random number `x` between 0 and one (generated through `random.uniform(0,1)`) can be compared with 0.25. If `x <= 0.25` then the disc successfully passes a gate, but for values of `x > 0.25` it does not.
 
 * When determining which gate a disc passes we have 4 different values that sum to 1 (0.3 + 0.2 + 0.2 + 0.3 = 1). Let's say a disc passes the gate with 2 points if `x <= 0.3`, than a disc will pass the gate with 3 points if `0.3 < x <= 0.5`.
 

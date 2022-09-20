@@ -58,7 +58,7 @@ Your program should work like the examples below.
 
     $ python leesbaarheid.py
     Text: There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.
-    Grade 8
+    Grade 9
 
     $ python leesbaarheid.py
     Text: A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains.
