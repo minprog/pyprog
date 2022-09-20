@@ -1,11 +1,11 @@
-# Riddle
+# The Guessing Game
 
 "Guess a number under ten" is perhaps one of the most played games by children to come to a choice. It is however a game that requires at least two people: the person who knows the number and the person who has to guess the number.
 Imagine you would like to play this game by yourself, then a computer is your perfect match! But why stop at 10? You could play this game for numbers under 100, or even 5843!
 
 ## Assignment
 
-Implement, in a file called `raadsel.py`, a program that prompts the user to guess a number between 1 and a number of their choice.
+Implement, in a file called `raadspel.py`, a program that prompts the user to guess a number between 1 and a number of their choice.
 Keep prompting for numbers until the user has chosen the correct number.
 
 * First prompt the user for a `level`, if a negative number is provided (or 0), prompt for a new value for the `level`.
