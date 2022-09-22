@@ -27,7 +27,7 @@ Implement, in a file called `temperatuur.py`, a program that prompts the user fo
 
 Your program should work like the examples below.
 
-    def convert_temperature(old_type: str, old_temp: str) -> int:
+    def convert_temperature(old_type: str, old_temp: int) -> int:
         """
         Converts the temparture (old_temp) of old_type to a temperature
         in the new type.

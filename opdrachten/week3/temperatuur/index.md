@@ -27,7 +27,7 @@ Schrijf, in een bestand genaamd `temperatuur.py`, een programma dat de gebruiker
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def convert_temperature(old_type: str, old_temp: str) -> int:
+    def convert_temperature(old_type: str, old_temp: int) -> int:
         """
         Zet de temperatuur (old_temp) van het type old_type om naar
         de temperatuur van het nieuwe type.
