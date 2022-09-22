@@ -33,7 +33,7 @@ Your program should work like the examples below.
         in the new type.
         """
 
-    def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int):
+    def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
         """
         Pretty prints the conversion table.
         """

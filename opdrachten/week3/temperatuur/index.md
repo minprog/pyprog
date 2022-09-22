@@ -33,7 +33,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         de temperatuur van het nieuwe type.
         """
 
-    def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int):
+    def print_table(old_type: str, begin_temp: int, end_temp: int, step_size: int) -> None:
         """
         Print de conversie-tabel.
         """
