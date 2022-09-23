@@ -2,95 +2,145 @@
 
 Implement a month calendar display, per the below:
 
-    $ ./calendar 2021 11
-              Nov 2021
+    $ python kalender.py
+    Year: 2022
+    Month: 9
+              Sep 2022
     ---------------------------
     Sun Mon Tue Wed Thu Fri Sat
-          1   2   3   4   5   6
-      7   8   9  10  11  12  13
-     14  15  16  17  18  19  20
-     21  22  23  24  25  26  27
-     28  29  30
+                      1   2   3
+      4   5   6   7   8   9  10
+     11  12  13  14  15  16  17
+     18  19  20  21  22  23  24
+     25  26  27  28  29  30
 
-## Background
+## Assignment
 
-Displaying a calendar grid is not a hugely difficult task. You can build on your experience with writing other programs that present multiple lines of similar information.
+Write, in a file named `kalender.py`, a program that displays a calendar as shown above, based on a given year and month.
 
-Algorithmically, there is a little bit of challenge to the task: the calendar also displays weekdays (Sun--Sat), and the day numbers have to match up to the right weekdays. To do that correctly, you will need to calculate on what weekday the month's first day falls (we'll show you how in just a second.)
+Algorithmically, this is a bit of a challenge, because the date must be shown aligned to the correct weekdays. To do this you need to know which weekday is the first of the month. And to determine that day, you will need to know the weekday of an arbitrary historical date. As it happens, we know that 1 January 1800 was a Wednesday.
 
-But more importantly, what we're going to do in this assignment is **decompose** the programming problem into manageable pieces. It's up to you then, to convert these pieces into functions in a C program, together with a `main` function that neatly ties everything together.
+Let's assign numbers to the weekdays. In the example calendar above we can see that Sunday is the first day and Saturday the last; accordingly, we assign Sunday an index of 0 and Saturday an index of 6. This makes Wednesday equivalent to 3 and we will define a constant named `START_DAY` with a value of 3 to indicate that this is the first known weekday.
 
-## Decomposition
+To then know on what weekday 1 September 2022 falls, we need to know:
 
-Let us take you on a tour through the program just as we break it up in smaller pieces. As with any program, we start in the `main` function. This programs's goal of *displaying calendars* can be broken up into two main tasks: retrieving the month and year from the command-line arguments, and displaying the calendar for that month.
+* how many days fall between 1 January 1800 and 1 September 2022 (`days_from_1800`), and
+* what day of the week 1 January 1800 is (`START_DAY`); together,
+* this yields a formula `(days_from_1800 + START_DAY) % 7` to calculate the index of the first day of the month.
 
-    main
-     |---- get year, month
-     \---- display calendar (f)
+Finally, we need to account for leap years. A year is a leap year if divisible by 4. Because of calendar reforms, years that are also divisible by 100 are actually not leap years, but years that are divisible by 400 are. It's complicated.
 
-*Getting the year and month* from the command-line arguments can be done in one line each. Just call `atoi` to convert the numbers from a string into an integer (remember how?). *Displaying the calendar*, that's quite a huge task. Let's decompose further. We can distinghuish two parts of the calendar in the sample output: displaying the header, and displaying the actual grid with day numbers.
+You may assume that the user enters a year `>= 1800` and valid month numbers.
 
-    display calendar
-     |---- display header (f)
-     \---- display grid (f)
+## Code
 
-*Displaying the header* consist of displaying the month and year, then a horizontal line (its width is always the same, so no problem to hard-code!). We'll leave it up to you if you'd like to implement these in separate functions. *Displaying the grid* is again quite a big task. You will need two crucial pieces of information: what weekday is the first day of the month, and how many days are in the month. When combined with the printing task, we can decompose into four tasks:
+Design your program as described below. Complete the docstrings with doctests and any other explanations about the approach that you chose. The main program has already been provided and should not be changed.
 
-    display grid
-     |---- get first day of month (f)
-     |---- get number of days in month (f)
-     |---- print spaces as padding
-     \---- print number grid
+For this assignment you are again encouraged to create additional functions to solve a small part of the problem. Those functions should then also have types and doctests.
 
-*Getting the first day of month* can be done using a straightforward algorithm if we pick a reasonable starting point. Let's take 1 January 1800 as that starting point. We can find out that it's a Wednesday, so we'll define a constant `START_1800` to be `3`. What we can then do is count the number of days between 1 January 1800, and then we can use this expression to calculate the first day of the month: `(number_of_days_from_1800 + START_1800) % 7`.
+    # 1 January 1800 is a Wednesday
+    START_DAY = 3
 
-    get first day of month
-     |---- count number of days from 1800 (f)
-     \---- calculate
+    def is_leap_year(year: int) -> bool:
+        """
+        Return True if `year` is a leap year.
+        """
 
-To count the *number of days from 1800*, you can first count the number of days from 1800 per year, until the requested calendar year. Then you can count the number of days from 1 January in the requested year up until the requested month. Add these two numbers to get your answer. But how do you find the number of days in one year or month? Well, for months we have a couple of fixed rules:
+    def days_from_1800(month: int, year: int) -> int:
+        """
+        Counts the days from 1800 until `month` of `year`.
+        The first day of `month` is not included.
+        Calls `days_from_1800_until_year`, `is_leap_year` and `days_until_month`.
+        """
 
-- 31 days for Jan, Mar, May, Jul, Aug, Oct, Dec.
-- 30 days for Apr, Jun, Sep, Nov.
-- February has 28 days, except in a leap year, where it has 29 days.
+    def days_from_1800_until_year(year: int) -> int:
+        """
+        Counts the days from 1800 until `year`.
+        1 January of the new year is not included.
+        """
 
-So for a whole year we have 365 days, except for leap years, which have 366 days. In conclusion, we need at least three more functions:
+    def days_until_month(month: int, year: int, is_leap_year: bool) -> int:
+        """
+        Counts the number of days from 1 January of `year` until `month` of `year`.
+        The days of `month` are not included.
+        """
 
-    count number of days from 1800
-     |---- count number of days from 1800 until year (f)
-     |---- count number of days from 1 Jan until month (f)
-     \---- check leap year (f)
+    def days_in_month(month: int, year: int) -> int:
+        """
+        Determines the number of days in `month` of `year`.
+        Uses `is_leap_year`.
+        """
 
-The above should provide you with enough information to implement the full program.
+    def display_calendar(month: int, year: int) -> None:
+        """
+        Prints the calendar.
+        Uses `display_header` and `display_grid`.
+        """
 
-Incidentally, did you notice that **decomposition** is more or less the same as **splitting up your problem**?
+    def display_header(month: int, year: int) -> None:
+        """
+        Prints the calendar header.
+        """
 
-## Specification
+    def display_grid(month: int, year: int) -> None:
+        """
+        Prints the calendar grid.
+        Uses `first_weekday_month` and `days_in_month`.
+        """
 
-Implement the calendar program, using *at least* the functions that are implied in the diagrams in the Decomposition section, above (marked with `(f)`). You may decompose problems further to your liking.
+    def first_weekday_month(month: int, year: int) -> int:
+        """
+        Determines the first weekday of `month`.
+        Uses `days_from_1800`.
+        """
 
-To get started, create a file called `calendar.c` and write a `main` function according to the specification. Then white the `display_calendar()` function that's used in `main`. And so on, until everything works. One or two functions will be a bit more of an algorithmical challenge, the rest of the functions will remain quite small.
+    if __name__ == '__main__':
+        year = int(input("Year: "))
+        month = int(input("Month: "))
+        display_calendar(month, year)
 
-Don't forget that you need to write function **prototypes** above main to be able to compile correctly, like so:
+## Hints
 
-    // prototype
-    void display_calendar(...);
+* Like in Tiles you can change `print` to <u>not</u> print a newline.
 
-    int main(void)
-    {
-        // use the function
-        display_calendar(...);
-    }
+* The header always has the same width and format, so you can freely hardcode this.
 
-    void display_calendar(...)
-    {
-        // actual implementation of this function
-    }
+## Examples
+
+Your program should eventually behave exactly like in the example below.
+
+    $ python kalender.py
+    Year: 2022
+    Month: 6
+              Jun 2022
+    ---------------------------
+    Sun Mon Tue Wed Thu Fri Sat
+                  1   2   3   4
+      5   6   7   8   9  10  11
+     12  13  14  15  16  17  18
+     19  20  21  22  23  24  25
+     26  27  28  29  30
+
+    $ python kalender.py
+    Year: 2022
+    Month: 2
+              Feb 2022
+    ---------------------------
+    Sun Mon Tue Wed Thu Fri Sat
+              1   2   3   4   5
+      6   7   8   9  10  11  12
+     13  14  15  16  17  18  19
+     20  21  22  23  24  25  26
+     27  28
 
 ## Testing
 
-You can use `check50` to find obvious mistakes, such as months starting on the wrong weekdate. But you should be able to easily test your program manually by `make`ing and running it.
+* Always start you testing with the start case: see if the calendar of January 1800 is displayed correctly (you know that 1 January is a Wednesday).
 
-    check50 -l minprog/programmeren-ki/2021/other/calendar
+* Then find another easy case: is February 1800 correct? That calendar should fit that of January in terms of weekdays.
 
-Before you hand in your solution, also check for obvious style mistakes using `style50`. But don't overdo it. You'll be doing a code review again next week.
+* Take a look at a more recent calendar to see if those are correct. There are quite a few leap years in between, so don't jump to the wrong conclusions, whether you see the correct calendar or not!
+
+* Find some leap years or reason which years should be leap years based on the rules stated earlier. Then you can check whether those are displayed correctly.
+
+* Don't forget that February should display the correct number of days in a leap year, and that March should also be correct.

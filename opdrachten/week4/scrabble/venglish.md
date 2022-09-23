@@ -16,7 +16,7 @@ Write in a file called `scrabble.py` a program that asks two players to enter a 
 
 Design your program as described below. Complete the docstrings with doctests and any other explanations about the approach that you chose.
 
-For this assignment you are encouraged to create additional functions to solve a small part of the problem. These functions should then also have types and doctests.
+For this assignment you are encouraged to create additional functions to solve a small part of the problem. Those functions should then also have types and doctests.
 
     POINTS = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
 

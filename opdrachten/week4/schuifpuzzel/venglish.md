@@ -27,7 +27,7 @@ Write, in a file called `schuifpuzzel.py`, a program that allows a player to sol
 
 Design your program as described below. Complete the docstrings with doctests and any other explanations about the approach that you chose. The main program has already been provided and should not be changed.
 
-For this assignment you are again encouraged to create additional functions to solve a small part of the problem. These functions should then also have types and doctests.
+For this assignment you are again encouraged to create additional functions to solve a small part of the problem. Those functions should then also have types and doctests.
 
     Board = list[list[int]]
 
