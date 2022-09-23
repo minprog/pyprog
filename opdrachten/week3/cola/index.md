@@ -1,7 +1,5 @@
 # Cola-automaat
 
-> Let op: de checks voor deze opdracht komen uiterlijk woensdag beschikbaar. Lever je opdracht niet in voor die tijd.
-
 Stel nou je hebt ontzettende dorst en je wil graag een flesje cola uit een drankautomaat halen.
 In de automaat waar je voor staat kost een flesje cola 50 cent en worden alleen muntstukken van 25, 10, en 5 cent geaccepteerd.
 In principe kan je gedachteloos muntjes in de automaat stoppen maar je hebt teveel dorst om goed na te denken en wil wel zeker weten dat je voldoende wisselgeld terug krijgt.
