@@ -22,7 +22,7 @@ For this assignment you are encouraged to create additional functions to solve a
 
     def compute_score(word: str) -> int:
         """
-        Bereken en return de score voor het woord.
+        Calculate and return the score for a word.
         """
 
     if __name__ == '__main__':
