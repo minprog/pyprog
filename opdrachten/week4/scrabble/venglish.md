@@ -46,12 +46,12 @@ Your programs must eventually behave exactly like the examples below.
     $ python scrabble.py
     Player 1: cat
     Player 2: dog
-    Gelijkspel!
+    It's a tie!
 
     $ python scrabble.py
     Player 1: Hardly?
     Player 2: Hardly!
-    Gelijkspel!
+    It's a tie!
 
     $ python scrabble.py
     Player 1: Hello
