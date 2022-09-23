@@ -1,22 +1,22 @@
 # Scrabble
 
-Bij het spel Scrabble, leggen de spelers woorden neer waar ze punten voor krijgen. Voor elke letter krijgen ze een bijbehorend aantal punten, te zien in onderstaande tabel, de som van alle letters is de score voor hun woord.
+Bij het spel Scrabble leggen de spelers woorden neer waar ze punten voor krijgen. De punten per letter zijn te zien in onderstaande tabel. De som van alle letterpunten is de score voor het gelegde woord.
 
 | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** | **I** | **J** | **K** | **L** | **M** | **N** | **O** | **P** | **Q** | **R** | **S** | **T** | **U** | **V** | **W** | **X** | **Y** | **Z** |
 |:-----:|:-----:|:-----:|:-----:|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 |   1   |   3   |   3   |   2   | 1     | 4     | 2     | 4     | 1     | 8     | 5     | 1     | 3     | 1     | 1     | 3     | 10    | 1     | 1     | 1     | 1     | 4     | 4     | 8     | 4     | 10    |
 
-Als we bijvoorbeeld naar het woord `Code` kijken, dan zien we uit de tabel dat in Scrabble het woord `3 + 1 + 2 + 1 = 7` zou krijgen.
+Als we bijvoorbeeld naar het woord `code` kijken, dan zien we dat de Scrabble-score `3 + 1 + 2 + 1 = 7` zou zijn.
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `scrabble.py`, een programma dat twee gebruikers vraagt een woord in te vullen. Vervolgens moet het programma laten weten wie volgens de scrabble regels heeft gewonnen: wie het woord met de meeste punten heeft ingevuld.
-
-* Zorg dat zowel hoofd als kleine letters worden geaccepteerd.
+Schrijf, in een bestand genaamd `scrabble.py`, een programma dat twee gebruikers vraagt een woord in te vullen. Vervolgens moet het programma laten weten welke speler heeft gewonnen: die gaf het woord met de meeste punten. Hoofd- en kleine letters mogen door elkaar worden gebruikt en hebben geen verdere invloed op de score. Let op dat ook tekens gebruikt zouden kunnen worden die geen letter zijn. Zorg dat je deze tekens negeert in de berekening.
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
+Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en verdere uitleg van de aanpak die je gekozen hebt.
+
+Het wordt bij deze opdracht aangemoedigd om extra functies te introduceren die een klein deel van het probleem oplossen. Die moeten dan ook types hebben en doctests.
 
     POINTS = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
 
@@ -26,13 +26,13 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         """
 
     if __name__ == '__main__':
-        Prompt beide spelers voor een woord, bereken de score van beide woorden. Print welke speler er heeft gewonnen.
-
-In de code zie je boven de functies een variabele in hoofdletters staan (`POINTS`). Dit is een globale variabele. Dit is om te voorkomen dat je deze overal opnieuw hoeft te definiëren. Globale variabelen worden ook gebruikt om het gebruik van zogenoemde 'magic numbers' tegen te gaan.
+        <Hoofdprogramma>
 
 ## Tips
 
-* Om makkelijk een string van het alfabet te genereren, kan je de module string gebruiken.
+* In de code zie je boven de functies een variabele in hoofdletters staan (`POINTS`). Dit is een globale variabele. Dit is om te voorkomen dat je deze overal opnieuw hoeft te definiëren.
+
+* Om makkelijk een string van het alfabet te genereren, kan je de module `string` gebruiken. Zie de [handleiding](https://docs.python.org/3/library/string.html).
 
 ## Voorbeelden
 
@@ -51,4 +51,9 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     $ python scrabble.py
     Speler 1: cat
     Speler 2: dog
+    Gelijkspel!
+
+    $ python scrabble.py
+    Speler 1: Hardly?
+    Speler 2: Hardly!
     Gelijkspel!
