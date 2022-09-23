@@ -31,26 +31,26 @@ For this assignment you are again encouraged to create additional functions to s
 
     Board = list[list[int]]
 
-    def is_won(board: list[int]) -> bool:
+    def is_won(board: Board) -> bool:
         """
         Checks whether the board is in a winning configuration. Returns True
         if so, and False otherwise.
         """
 
-    def move_tile(board: list[int], tile: int) -> bool:
+    def move_tile(board: Board, tile: int) -> bool:
         """
         If the tile is in a movable position: move the tile to the empty
         spot and return True. If the tile is not movable, do not change the 
         board and just return False.
         """
 
-    def print_board(board: list) -> None:
+    def print_board(board: Board) -> None:
         """
         Print all rows of the board. The format is like in the examples at 
         the bottom of the assignment.
         """
 
-    def create_board() -> list:
+    def create_board() -> Board:
         """
         Initialises a board of dimensions 4 x 4. Sorts the numbers in descending
         order, while exchanging the tiles 1 and 2.
