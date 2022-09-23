@@ -106,6 +106,8 @@ je geschreven; je hoeft dus alleen de andere functies aan te vullen.
 * Bij `is_won()` moet je checken of het bord in de goede configuratie staat. Doordat de volgorde
   oplopend is, is dit goed te tellen door middel van een teller in een dubbele `for`-loop.
 
+* Als je meerdere keren achter elkaar wil printen (op één regel) moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
+
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.

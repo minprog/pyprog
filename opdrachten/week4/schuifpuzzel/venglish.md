@@ -82,6 +82,8 @@ For this assignment you are again encouraged to create additional functions to s
 
 * For `is_won()` you will need to check whether the board is in the expected winning configuration. Because the orde must be ascending, you could use a counter variable and "walk through" the board using two `for`-loops.
 
+* When you would like to print multiple times after each other (on a single line) you need to change the behaviour of `print` to not add ENTER or newline at the end. You can do that like this: `print(number, end="")`. Adding `end=""` as an argument to `print` will eliminate the newline.
+
 ## Examples
 
 Your program should eventually behave exactly like in the example below.
