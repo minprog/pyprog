@@ -105,7 +105,7 @@ grades:
     camelcase:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/5)
     rna:
         <<: *automatic
         automatic:
@@ -113,11 +113,11 @@ grades:
     leesbaarheid:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/6)
     cola:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/5)
     populatie:
         <<: *automatic
         automatic:
@@ -125,14 +125,27 @@ grades:
     sjoelen:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/5)
     temperatuur:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/6)
+    scrabble:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+    schuifpuzzel:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+    kalender:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
 
     toetsje_week_2: *check
     toetsje_week_3: *check
+    toetsje_week_4: *check
 
     m2: *manual
     m3: *manual
@@ -221,6 +234,10 @@ assignments:
         sjoelen: 30
         temperatuur: 30
 
+        scrabble: 70
+        schuifpuzzel: 70
+        kalender: 70
+
 reviews:
     show_progress: true
     submits:
@@ -235,6 +252,7 @@ tests:
     submits:
         toetsje_week_2: 0
         toetsje_week_3: 0
+        toetsje_week_4: 0
 
 exam:
     show_progress: true
