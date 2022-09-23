@@ -1,6 +1,8 @@
 # Probleemoplossing
 
-...
+Deze week duiken we in het oplossen van programmeerproblemen. De opdrachten zijn wat groter dan eerder en bevatten meer onderdelen. Bestudeer ze om een goed beeld te krijgen van hoe je problemen (en oplossingen) kunt opdelen in kleine stukjes.
+
+De technische focus is daarmee op **functies**. Dit zijn bouwblokken van je programma die kunnen helpen om overzicht te houden. Elke functie moet een duidelijke naam krijgen in de context van het programma, waarmee je snel kunt heen-en-weer springen tussen de verschillende onderdelen, zonder de details van elke functie steeds te hoeven lezen. Je krijgt deze week ook de ruimte om extra functies te definiëren.
 
 ## Deze week belangrijk
 
@@ -11,8 +13,5 @@
 
 ## Aanpak
 
-1. Neem het boek goed door en markeer moeilijke delen
-2. Maak de oefeningen en gebruik ze om de tekst te begrijpen en andersom; dit kost veel tijd
-3. Ga naar het hoorcollege om goed te begrijpen wat van je verwacht wordt deze week
-4. Reserveer flink tijd om aan de programmeeropdrachten te werken
-5. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen
+1. Reserveer flink tijd om aan de programmeeropdrachten te werken
+2. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen
