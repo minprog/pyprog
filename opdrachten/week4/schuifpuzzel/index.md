@@ -76,19 +76,14 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
         """
 
     if __name__ == '__main__':
-
         print("Welkom bij de schuifpuzzel!")
-
         board = create_board()
-
         while not is_won(board):
             print_board(board)
-
             tile = input("Tegel die je wil schuiven: ")
             valid = move_tile(board, int(tile))
             if not valid:
                 print("Deze tegel kan je niet schuiven.")
-
         print("Gefeliciteerd, je hebt de schuifpuzzel opgelost!")
 
 ## Tips

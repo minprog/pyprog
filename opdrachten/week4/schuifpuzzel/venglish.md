@@ -57,19 +57,14 @@ For this assignment you are again encouraged to create additional functions to s
         """
 
     if __name__ == '__main__':
-
         print("Welcome to Tiles!")
-
         board = create_board()
-
         while not is_won(board):
             print_board(board)
-
             tile = input("Tile to move: ")
             valid = move_tile(board, int(tile))
             if not valid:
                 print("That tile can't be moved.")
-
         print("Congratulations, you have solved the puzzle!")
 
 ## Hint
