@@ -25,5 +25,5 @@ These are the aspects for this module. Take time to thoroughly read the explanat
     * Do not pass on a written list of suggested improvements, but really discuss everything.
 1.  Improve your solutions. Do not do a complete overhaul of your programs but try to make them incrementally better using small changes (30--60 minutes).
     * Do not copy your partner's solution design; this takes the "improvement" too far and may lead to suspicions of plagiarism.
-1.  [Submit your revised solutions here](/reviews/m2/revised).
+1.  [Submit your revised solutions here](/reviews/m3/revised).
 1.  Later, you will receive some written feedback from the teacher or assistants that help you focus your attention during the next code review.
