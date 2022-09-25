@@ -85,7 +85,7 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
             print_board(board)
 
             tile = input("Tegel die je wil schuiven: ")
-            board = move_tile(board, int(tile))
+            valid = move_tile(board, int(tile))
             if not valid:
                 print("Deze tegel kan je niet schuiven.")
 

@@ -39,7 +39,7 @@ As you can see, there are two TODOs in the code. The functions are supposed to r
         Checks whether the lengths of the sides are equal
         """
 
-    def is_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
+    def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """
         Checks whether the rectangles are (identical) squares
         """
