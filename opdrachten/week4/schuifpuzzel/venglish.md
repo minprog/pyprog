@@ -78,6 +78,8 @@ For this assignment you are again encouraged to create additional functions to s
 
     * Note: we use `list` with a lower case L. In the book you have seen that you should declare a "list of something" using `List[something]` but this is now considered "old" syntax. The advantage here is that it saves you an `import` statement.
 
+    * Do you use the old Python 3.7 of 3.8? Then use `Board = List[List[int]]` with capital L's.
+
 * For the board in this program this will be 4 lists of length 4. When you create the board it thus makes sense to create lists for each line of the board and put all of these into a list. The empty tile will be represented by the number 0.
 
 * For `move_tile()` you will need to know which row and column is occupied by the chosen tile, so you kan check if the tile might be moved to the north, south, west or east directions (or not at all). This means that the tile must either be in the same row or the same column as the empty tile. What else do you need to check?
