@@ -141,6 +141,6 @@ Your program should eventually behave exactly like in the example below.
 
 * Take a look at a more recent calendar to see if those are correct. There are quite a few leap years in between, so don't jump to the wrong conclusions, whether you see the correct calendar or not!
 
-* Find some leap years or reason which years should be leap years based on the rules stated earlier. Then you can check whether those are displayed correctly.
+* Find some leap years or reason which years should be leap years based on the rules stated earlier. Then you can check whether those are displayed correctly. And also the year after such a leap year.
 
 * Don't forget that February should display the correct number of days in a leap year, and that March should also be correct.
