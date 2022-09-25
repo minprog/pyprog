@@ -66,7 +66,7 @@ For this assignment you are again encouraged to create additional functions to s
             print_board(board)
 
             tile = input("Tile to move: ")
-            board = move_tile(board, int(tile))
+            valid = move_tile(board, int(tile))
             if not valid:
                 print("That tile can't be moved.")
 
