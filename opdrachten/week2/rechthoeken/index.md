@@ -38,7 +38,7 @@ Zoals je kan zien staan er twee TODO's in. De bedoeling is dat de functies één
         Controleert of de lengtes van de zijdes gelijk zijn
         """
 
-    def is_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
+    def is_same_square(ax_length: int, ay_length: int, bx_length: int, by_length: int) -> TODO:
         """
         Controleert of beide rechthoeken hetzelfde vierkant zijn
         """

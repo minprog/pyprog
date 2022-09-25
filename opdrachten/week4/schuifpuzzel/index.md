@@ -76,24 +76,23 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
         """
 
     if __name__ == '__main__':
-
         print("Welkom bij de schuifpuzzel!")
-
         board = create_board()
-
         while not is_won(board):
             print_board(board)
-
             tile = input("Tegel die je wil schuiven: ")
-            board = move_tile(board, int(tile))
+            valid = move_tile(board, int(tile))
             if not valid:
                 print("Deze tegel kan je niet schuiven.")
-
         print("Gefeliciteerd, je hebt de schuifpuzzel opgelost!")
 
 ## Tips
 
 * Bovenaan het programma declareren we een type genaamd `Board`. Je ziet dat dit eigenlijk een lijst van lijsten met daarin integers is.
+
+    * Tip: we gebruiken hier `list` met een kleine letter. In het boek laat men zien dat je een "list van iets" kunt declareren als `List[iets]` maar dit is inmiddels verouderd. Het voordeel is dat je geen `import` meer hoeft te doen hiervoor.
+    
+    * Heb je de verouderde Python 3.7 of 3.8? Gebruik dan `Board = List[List[int]]` met hoofdletters.
 
 * Voor het board in dit programma zijn dit 4 lijsten van
   lengte 4. Als je het bord gaat vullen, is het dus handig om hem rij voor rij in te vullen. De lege tegel wordt gerepresenteerd door het cijfer 0.

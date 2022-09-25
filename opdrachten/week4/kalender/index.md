@@ -137,10 +137,10 @@ Je programma moet uiteindelijk werken als in de voorbeelden hieronder.
 
 * Begin altijd bij het begin: kijk of de kalender van januari 1800 correct weergegeven wordt (je weet dat 1 januari op woensdag valt).
 
-* Kijk dan naar een makkelijk geval: gaat februari 1800 ook goed? Deze kalender moet aansluiten op die van februari.
+* Kijk dan naar een makkelijk geval: gaat februari 1800 ook goed? Deze kalender moet aansluiten op die van januari.
 
 * Kijk ook eens naar een recente kalender om te kijken of dat goed gaat. Hier zitten wel veel schrikkeljaren tussen, dus trek niet meteen de verkeerde conclusie, of je nu de juiste kalender ziet of niet.
 
-* Zoek op welke schrikkeljaren er zijn of beredeneer op basis van de regels hierboven. Dan kun je zien of die jaren ook kloppen.
+* Zoek op welke schrikkeljaren er zijn of beredeneer op basis van de regels hierboven. Dan kun je zien of die jaren ook kloppen. En het jaar ná een schrikkeljaar.
 
 * Vergeet niet dat februari ook echt het correcte aantal dagen moet aangeven in een schrikkeljaar, en dat maart hier correct op moet aansluiten.

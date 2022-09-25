@@ -57,24 +57,23 @@ For this assignment you are again encouraged to create additional functions to s
         """
 
     if __name__ == '__main__':
-
         print("Welcome to Tiles!")
-
         board = create_board()
-
         while not is_won(board):
             print_board(board)
-
             tile = input("Tile to move: ")
-            board = move_tile(board, int(tile))
+            valid = move_tile(board, int(tile))
             if not valid:
                 print("That tile can't be moved.")
-
         print("Congratulations, you have solved the puzzle!")
 
 ## Hint
 
 * Atop the program we declare a type named `Board`. Note that this is actually a list of lists with integers in them.
+
+    * Note: we use `list` with a lower case L. In the book you have seen that you should declare a "list of something" using `List[something]` but this is now considered "old" syntax. The advantage here is that it saves you an `import` statement.
+
+    * Do you use the old Python 3.7 of 3.8? Then use `Board = List[List[int]]` with capital L's.
 
 * For the board in this program this will be 4 lists of length 4. When you create the board it thus makes sense to create lists for each line of the board and put all of these into a list. The empty tile will be represented by the number 0.
 
