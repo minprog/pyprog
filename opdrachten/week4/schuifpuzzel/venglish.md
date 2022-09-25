@@ -11,7 +11,7 @@ Although other configurations are possible, we shall assume that this game begin
 
 ![start_config](tiles2.png){: style="width:20rem;"}
 
-## Opdracht
+## Assignment
 
 Write, in a file called `schuifpuzzel.py`, a program that allows a player to solve a tile game.
 
@@ -21,7 +21,7 @@ Write, in a file called `schuifpuzzel.py`, a program that allows a player to sol
 
 * Keep prompting the player to move another tile. Should the player choose a tile that can't be moved, let them choose another tile. You may assume that your player enters valid tile numbers.
 
-* The puzzle is solve when all tiles are sorted in ascending order like described above.
+* The puzzle is solved when all tiles are sorted in ascending order like described above.
 
 ## Code
 
@@ -40,13 +40,13 @@ For this assignment you are again encouraged to create additional functions to s
     def move_tile(board: Board, tile: int) -> bool:
         """
         If the tile is in a movable position: move the tile to the empty
-        spot and return True. If the tile is not movable, do not change the 
+        spot and return True. If the tile is not movable, do not change the
         board and just return False.
         """
 
     def print_board(board: Board) -> None:
         """
-        Print all rows of the board. The format is like in the examples at 
+        Print all rows of the board. The format is like in the examples at
         the bottom of the assignment.
         """
 
