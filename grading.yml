@@ -145,7 +145,10 @@ grades:
 
     toetsje_week_2: *automatic
     toetsje_week_3: *automatic
-    toetsje_week_4: *automatic
+    toetsje_week_4:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
 
     m2: *manual
     m3: *manual
