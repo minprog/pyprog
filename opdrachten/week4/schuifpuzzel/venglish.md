@@ -92,28 +92,28 @@ Your program should eventually behave exactly like in the example below.
      15 14 13 12
      11 10  9  8
       7  6  5  4
-      3  2  1  0
+      3  1  2  0
     Tile to move: 4
      15 14 13 12
      11 10  9  8
       7  6  5  0
-      3  2  1  4
+      3  1  2  4
     Tile to move: 5
      15 14 13 12
      11 10  9  8
       7  6  0  5
-      3  2  1  4
+      3  1  2  4
     Tile to move: 2
     That tile can't be moved.
      15 14 13 12
      11 10  9  8
       7  6  0  5
-      3  2  1  4
+      3  1  2  4
     Tile to move: 6
      15 14 13 12
      11 10  9  8
       7  0  6  5
-      3  2  1  4
+      3  1  2  4
     Tile to move:
     ...
     ...
