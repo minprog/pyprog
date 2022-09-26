@@ -103,7 +103,7 @@ Your program should eventually behave exactly like in the example below.
      11 10  9  8
       7  6  0  5
       3  1  2  4
-    Tile to move: 2
+    Tile to move: 1
     That tile can't be moved.
      15 14 13 12
      11 10  9  8
