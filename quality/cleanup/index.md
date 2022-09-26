@@ -1,18 +1,19 @@
 # Cleanup
 
 While programming you might (and you will!) stumble upon some unforeseen bugs and tricky edge cases.
-In such situations, you will have to rethink your design or approach.
-Chances are that you end up having some code that served a purpose once, but is no longer used or needed in your final design.
-We call this "dead code".
-Dead code obfuscates the final implementation of your programs and distracts the reader.
-Hence, it's good practice to remove anything that isn't directly used in your final design.
-Below you'll find some forms of dead code that can be cleaned up.
+In such situations, you will have to rethink your design or approach. It is quite likely that your code file still contains some remnants of your previous approach.
 
-The first example you have seen before; it's commented-out code:
+## Dead code
+
+One example is commented-out code or "dead code":
 
     # x = 8
     # if x > 7:
     #     print("hello!")
+
+This should be removed! If you really would like to keep it, save it in a separate file.
+
+## Unreachable code
 
 A bit more tricky is the condition that is never met, resulting in lines of code that will **never** be reached:
 
@@ -25,11 +26,23 @@ Or perhaps there is a function that you defined, but do not actually use:
     def why_dont_you_call_me_anymore():
         print("hello?")
 
-Finally, atop your files you may have imported some module that you once needed, but don't anymore:
+You should remove all of these.
+
+## Removing imports
+
+Atop your files you may have imported some module that you once needed, but don't anymore:
 
     import math
 
-For all of these examples, the solution is clear: delete the lines!
+The solution is clear: delete the unused imports!
+
+## Doctest
+
+You might have tested your programs by adding this line to your program:
+
+    doctest.testmod()
+
+However, this is just for you, for testing purposes. It is not part of the assignment and makes the program work differently. So before you hand in, always remove it, along with the associated `import doctest`!
 
 ## Learn more
 
