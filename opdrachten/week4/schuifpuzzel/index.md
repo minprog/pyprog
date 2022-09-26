@@ -144,9 +144,9 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     ...
       1  2  3  4
       5  6  7  8
-      9 10 11 12
-     13 14  0 15
-    Tegel die je wil schuiven: 15
+      9 10 11  0
+     13 14 15 12
+    Tegel die je wil schuiven: 12
     Gefeliciteerd, je hebt de schuifpuzzel opgelost!
 
 ## Testen

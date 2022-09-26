@@ -120,9 +120,9 @@ Your program should eventually behave exactly like in the example below.
     ...
       1  2  3  4
       5  6  7  8
-      9 10 11 12
-     13 14  0 15
-    Tile to move: 15
+      9 10 11  0
+     13 14 15 12
+    Tile to move: 12
     Congratulations, you have solved the puzzle!
 
 ## Testing
