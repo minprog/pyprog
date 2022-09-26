@@ -124,3 +124,12 @@ Your program should eventually behave exactly like in the example below.
      13 14  0 15
     Tile to move: 15
     Congratulations, you have solved the puzzle!
+
+## Testing
+
+You can check your solution using a [text file containing the puzzle's solution](solution.txt). You can pass the solution to your program using the following command:
+
+    python schuifpuzzel.py < solution.txt
+
+The files must be in the same directory for this to work!
+

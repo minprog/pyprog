@@ -148,3 +148,11 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
      13 14  0 15
     Tegel die je wil schuiven: 15
     Gefeliciteerd, je hebt de schuifpuzzel opgelost!
+
+## Testen
+
+Je kunt je oplossing testen met hulp van een [tekstbestand met de oplossing van de puzzel](solution.txt). Met het volgende commando kun je de inhoud van het tekstbestand doorgeven aan je programma:
+
+    python schuifpuzzel.py < solution.txt
+
+De bestanden moeten dan wel in dezelfde directory staan!
