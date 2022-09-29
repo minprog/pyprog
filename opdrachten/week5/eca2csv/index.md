@@ -2,7 +2,7 @@
 
 ![](temperature.png)
 
-Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die door de ECA (European Climate Assessment) [beschikbaar](https://www.ecad.eu/dailydata/predefinedseries.php) wordt gemaakt in grote data files. We beperken ons tot data die de maximumtemperatuur beschrijft voor elke dag in De Bilt sinds 1901.
+Laten we een steentje bijdragen aan de klimaatdiscussie en data analyseren die door de ECA (European Climate Assessment) [beschikbaar](https://www.ecad.eu/dailydata/predefinedseries.php) wordt gemaakt in grote databestanden. We beperken ons tot data die de maximumtemperatuur beschrijft voor elke dag in De Bilt sinds 1901.
 
 Werp eerst eens een blik op [`climate.txt`](climate.txt) en lees bovenin hoe de data gecodeerd is. Het bestand heeft geen standaard-formaat maar een door de Europese klimaatorganisatie bedachte indeling. Daarom moet er een voorbewerking (preprocessing) plaatsvinden voordat we er analyses mee kunnen doen.
 
