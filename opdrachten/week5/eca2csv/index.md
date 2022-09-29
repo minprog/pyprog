@@ -13,7 +13,7 @@ Het gewenste formaat van een CSV-bestand ziet er als volgt uit. De eerste regel 
 ![](telefoon.png)
 
 Let op: de operaties in deze opdracht lijken soms op de voorbeelden uit het boek, maar het zijn zeker geen copy-paste-opdrachten. Eén verschil is bijvoorbeeld dat je hieronder 4 functies moet schrijven die elk twee files openen en weer sluiten. In het het boek worden de files al geopend in de `main`. Dat is hier dus niet de bedoeling. Ook werken we niet met `StringIO` maar alleen maar met databestanden.
-​
+
 ## Header verwijderen
 
 Voordat we onze data definitef op kunnen slaan in als CSV, kijken we eerst zorgvuldig naar de data. Bestudeer hiervoor het bestand `climate.txt`. Wat meteen opvalt is dat het bestand begint met een header-tekstje. Dit tekstje komt van pas voor mensen die willen begrijpen hoe het bestand in elkaar steekt. Het bevat informatie over waar de data vandaan komt, maar ook over de betekenis van de variabelen in de data. Voor een computer is deze tekst verwarrend, in die zin dat begin en eind niet duidelijk zijn aangegeven. We besluiten daarom de header-tekst weg te halen, zodat het bestand voortaan begint met de kolomnamen en dan meteen de data.
