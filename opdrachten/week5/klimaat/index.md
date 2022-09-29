@@ -46,6 +46,8 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 ## Aanwijzingen
 
+- Gebruik als input de file `climate.csv` die je hebt gegenereerd in de vorige opdracht.
+
 - Het is toegestaan om alle data in te laden in een lijst of dictionary en zo te verwerken.
 
 - Het is niet toegestaan alle informatie in één lange functie te berekenen. Dit kan enigszins efficiënt zijn maar is funest voor de leesbaarheid van de code. Deel je code goed op.
