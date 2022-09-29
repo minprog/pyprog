@@ -1,7 +1,0 @@
-name: climate
-files:
-    required:
-        - climate.ipynb
-check:
-    tool: check50
-    slug: minprog/climate/2021/checks

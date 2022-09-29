@@ -1,0 +1,12 @@
+name: klimaat
+files:
+    required:
+        - klimaat.py
+check:
+  tool: checkpy
+  repo: minprog/python
+  args: klimaat
+plag:
+  server: http://83.96.241.94/api/submission/
+  slug: pyprog/2022/klimaat
+  course: pyprog2022
