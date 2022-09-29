@@ -59,11 +59,10 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
         1 januari van het nieuwe jaar is niet meegerekend.
         """
 
-    def days_until_month(month: int, year: int) -> int:
+    def days_until_month(month: int, year: int, is_leap_year: bool) -> int:
         """
         Telt het aantal dagen van 1 januari van `year` tot aan `month` van `year`.
         De dagen van `month` zitten hier dus niet bij.
-        Gebruikt `is_leap_year`.
         """
 
     def days_in_month(month: int, year: int) -> int:
