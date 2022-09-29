@@ -51,8 +51,9 @@ Module 5:
         "Chapter 10: Reading and Writing Files": /boek/files
         "Chapter 11: Collection Types": /boek/collections
     Opdrachten:
-        World Cup: /opdrachten/week5/worldcup
-        Indexer: /opdrachten/week5/indexer
+        Preprocessing: /opdrachten/week5/eca2csv
+        # World Cup: /opdrachten/week5/worldcup
+        # Indexer: /opdrachten/week5/indexer
         Climate: /opdrachten/week5/climate
 
 Module 6:
