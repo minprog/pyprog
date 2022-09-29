@@ -24,11 +24,7 @@ Voordat we onze data definitef op kunnen slaan in als CSV, kijken we eerst zorgv
 
 - Schrijf in een bestand genaamd `eca2csv.py` een functie die een **bron**bestand opent, de data inleest, de header overslaat, en het resultaat wegschrijft naar een **doel**bestand.
 
-- Parameters van de functie zijn de namen van bron- en doelbestand, en het aantal regels dat verwijderd moet worden.
-
-- De naam van de functie en de parameters kun je zelf verzinnen.
-
-- De eerste regels moeten hierbij worden verwijderd, en de parameter `number_of_lines` geeft aan hoeveel regels moeten worden verwijderd.
+- Parameters van de functie zijn de namen van bron- en doelbestand, en het aantal regels dat verwijderd moet worden. De naam van de functie en de parameters kun je zelf verzinnen.
 
 - Bij dataverwerking is het niet aan te raden om de complete data in te lezen in een variabele. Bij hele grote databestanden is het zelfs onmogelijk omdat deze groter zijn dan het werkgeheugen van de computer. Zorg dus dat je dit niet doet.
 
