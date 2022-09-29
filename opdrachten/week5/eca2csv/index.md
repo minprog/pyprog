@@ -24,11 +24,15 @@ Voordat we onze data definitef op kunnen slaan in als CSV, kijken we eerst zorgv
 
 - Schrijf in een bestand genaamd `eca2csv.py` een functie die een **bron**bestand opent, de data inleest, de header overslaat, en het resultaat wegschrijft naar een **doel**bestand.
 
+- Parameters van de functie zijn de namen van bron- en doelbestand, en het aantal regels dat verwijderd moet worden.
+
+- De naam van de functie en de parameters kun je zelf verzinnen.
+
 - De eerste regels moeten hierbij worden verwijderd, en de parameter `number_of_lines` geeft aan hoeveel regels moeten worden verwijderd.
 
 - Bij dataverwerking is het niet aan te raden om de complete data in te lezen in een variabele. Bij hele grote databestanden is het zelfs onmogelijk omdat deze groter zijn dan het werkgeheugen van de computer. Zorg dus dat je dit niet doet.
 
-- Start met de voorbeelden van de uitleg over File IO (hiermee heb je geoefend op de site). Om een regel te "verwijderen" moet je deze wél inlezen uit het ene bestand maar niet wegschrijven naar het andere.
+- Zorg dat je de voorbeelden uit het boek goed bestudeerd hebt. Gebruik een `with`-statement om de twee bestanden tegelijk te openen.
 
 - Schrijf in de `main` een stukje testcode dat de functie aanroept met als bron `climate.txt` en als doel `climate-noheader.txt`. Run je programma en inspecteer of het resultaat klopt.
 
@@ -37,6 +41,8 @@ Voordat we onze data definitef op kunnen slaan in als CSV, kijken we eerst zorgv
 Wie goed naar de bestanden kijkt ziet dat de data van het jaar 2020 niet compleet is. Als we dat jaar meenemen bij het berekenen van statistieken krijgen we mogelijk een vertekend beeld. Als je bijvoorbeeld de gemiddelde temperatuur berekent, dan zal 2020 naar verwachting flink koude uitvallen doordat alleen gegevens over de eerste 3 maanden bekend zijn. We gaan dus een functie schrijven die een deel van de data kan verwijderen (in onze tests is dat het jaar 2020).
 ​
 ![](step2.png)
+
+**Opdracht**
 
 - Schrijf een functie die een bestand inleest van het bovenstaande formaat en een nieuw bestand opslaat waar de gegevens uit een opgegeven jaartal verwijderd zijn. De functie die jij schrijft moet werken voor elk willekeurig jaartal, dus dat is een parameter van de functie.
 
@@ -56,6 +62,8 @@ De indicator voor een missing value verschilt per databestand; soms is dat een `
 
 ![](step3.png)
 
+**Opdracht**
+
 - Schrijf een functie die een bestand inleest van het bovenstaande formaat en een nieuw bestand opslaat waar de ontbrekende waarden zijn vervangen door het hierboven aangegeven gemiddelde.
 
 - De functie moet een parameter hebben om aan te geven welke waarde een "missing value" is. De functie kan dan worden aangeroepen met bijvoorbeeld `9999`.
@@ -69,6 +77,8 @@ De indicator voor een missing value verschilt per databestand; soms is dat een `
 ## Omzetten naar komma's
 
 Tot slot zijn de gegevens in het bestand niet afgescheiden door komma's (`,`) maar door puntkomma's (`;`). Dit is op zich geen groot probleem, maar wij willen specifiek komma's hebben.
+
+**Opdracht**
 
 - Schrijf een functie die een bestand inleest van het bovenstaande formaat en een nieuw bestand opslaat waar de puntkomma's zijn vervangen door komma's.
 
