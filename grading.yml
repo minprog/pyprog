@@ -141,7 +141,7 @@ grades:
     kalender:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/10)
 
     toetsje_week_2: *automatic
     toetsje_week_3: *automatic
