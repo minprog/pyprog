@@ -143,8 +143,14 @@ grades:
         automatic:
             done: -(correctness_score.floor/10)
 
-    toetsje_week_2: *automatic
-    toetsje_week_3: *automatic
+    toetsje_week_2:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/2)
+    toetsje_week_3:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/2)
     toetsje_week_4:
         <<: *automatic
         automatic:
