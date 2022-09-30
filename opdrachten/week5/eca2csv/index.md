@@ -68,9 +68,11 @@ De indicator voor een missing value verschilt per databestand; soms is dat een `
 
 Hints:
 
-- Dit is een wat ingewikkelder probleem dan de rest. Je kunt de "readline-technique" uit het boek gebruiken (pagina 181), maar om de missende waarde uit te rekenen heb je ook toegang nodig tot de *vorige* en *volgende* regel.
+- Dit is een wat ingewikkelder probleem dan de rest. Je kunt de "readline-technique" uit het boek gebruiken (pagina 181), maar om de missende waarden uit te rekenen heb je toegang nodig tot *drie achtereenvolgende regels*.
 
-- Dat betekent dat je steeds een regel verder moet lezen, maar dat je dan de 1-na-laatste regel gaat bekijken en zonodig aanpassen. 
+- Dat betekent dat je zoals gebruikelijk steeds één regel moet inlezen, maar dat je elke keer de één-na-laatste regel gaat bekijken en zonodig aanpassen. Ook de twee-na-laatste regel heb je hiervoor nodig.
+
+- Je kunt "oude" regels opslaan in variabelen elke keer als je een nieuwe regel inleest.
 
 - Ontwikkel je algoritme hiervoor op papier en analyseer goed of het zou moeten kloppen door te bedenken hoe het door een bestand van 6 regels zou lopen.
 
