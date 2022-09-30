@@ -27,12 +27,12 @@ When that index is loaded into memory, it allows us to quickly search the text w
 
 ## Getting started
 
-In the distro ([download](dist/indexer.zip)) you'll find a file and a directory:
+[Download](dist/indexer.zip) a zip file containing the data that you need for this assignment:
 
 - `stopwords.txt` contains a list of words that can be ignored by the indexing system. (So, we don't have to index a gazillion occurrences of, for example, the word "the".)
 - `texts` contains various text files for testing your implementation.
 
-The code revolves around a **word index** that contains for each word in the text the position where the word occurs. A "dictionary" in Python is well-suited to store such an index. You can build your dictionary like so, linking each word to a *list* of line numbers:
+The code revolves around a **word index** that contains for each word in the text the position where the word occurs. A dictionary in Python is well-suited to store such an index. You can build your dictionary like so, linking each word to a *list* of line numbers:
 
     {
         "dinner": [ 258, 289, 1096, ... ],
@@ -52,6 +52,8 @@ or if you use a somewhat older version of Python:
 
 
 ## Code structure
+
+Now add the following code to a file called `indexer.py`. Then the first thing to do is to add type hints to all of the functions. Read the descriptions well to find what types would work best, and also use the `Index` type alias that we provided above.
 
     # indexer.py: Find every occurence of a word in a text.
     # Usage: python indexer.py <text-file>
@@ -88,7 +90,7 @@ or if you use a somewhat older version of Python:
     def search_index(word, book_index):
         """
         Find the word in book_index. Returns a list of the line numbers where
-        word occurs.
+        word occurs. If the word does not occur, returns an empty list.
         """
 
     def show_search_results(line_numbers):
