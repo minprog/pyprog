@@ -1,6 +1,6 @@
 # Data processing
 
-...
+Let's get going with some typical applications. The assignments in this module focus on the use of data structures and data files. Data structures are using in programs for storing data in computer memory, in order to be able to efficiently process and retrieve those. Data files are used for permanent storage on harddisks or "in the cloud". Such files have all kinds of formats (ways of arranging data), some of which you will need to process manually because Python does not handle the format well.
 
 ## Important topics for this week
 
