@@ -82,6 +82,7 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+
     calculator:
         <<: *automatic
         automatic:
@@ -102,6 +103,7 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/4)
+
     camelcase:
         <<: *automatic
         automatic:
@@ -130,6 +132,7 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+
     scrabble:
         <<: *automatic
         automatic:
