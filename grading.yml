@@ -97,7 +97,7 @@ grades:
     rechthoeken:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/8)
     wachtwoord:
         <<: *automatic
         automatic:
