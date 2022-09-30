@@ -114,14 +114,14 @@ The code in `indexer.py` revolves around a **word index** that contains for each
         ...
     }
 
-This means that the **type** of your index is:
+This means that the **type** of your index can be declared like this:
 
-    dict[str, list[int]]
+    Index = dict[str, list[int]]
 
 or if you use a somewhat older version of Python:
 
     from typing import List, Dict
-    Dict[str, List[int]]
+    Index = Dict[str, List[int]]
 
 ### Implementation details
 
