@@ -43,7 +43,7 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - Schrijf doctests en zorg dat alle types op orde zijn.
 
-## Algorithmische tips
+## Algoritmische tips
 
 - Veel van deze opdracht gaat over het zoeken naar kleinste en grootste waarden in alle data of een deel daarvan. Het boek behandelt dit idee in de sectie "Processing Whitespace-Delimited Data" (p. 192).
 
