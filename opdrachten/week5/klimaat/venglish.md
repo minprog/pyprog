@@ -1,6 +1,6 @@
 # Klimaatanalyse
 
-> Deze opdracht wordt nog uitgebreid met algoritmische hints en tips.
+> This assignment will be augmented with an English version and hints and tips.
 
 ![](../eca2csv/temperature.png)
 
