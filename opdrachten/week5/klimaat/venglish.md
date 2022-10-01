@@ -37,7 +37,7 @@ Time to do real analysis. Write a program called `klimaat.py` that can read a fi
 
 - You must load all data into a variable for further processing.
 
-- It is not allowed to calculate all information in a single long function. This is slightly more efficient but disastrous for the readability of your code. Make sure that you perform each analysis in a separate functions.
+- It is not allowed to calculate all information in a single long function. This is slightly more efficient but disastrous for the readability of your code. So, make sure that you perform each analysis in a separate function.
 
 - Also think about how you could split up your code into functions even more.
 

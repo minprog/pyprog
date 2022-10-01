@@ -37,7 +37,7 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - Je moet alle data in een variabele inlezen voor verdere verwerking.
 
-- Het is niet toegestaan alle informatie in één lange functie te berekenen. Dit kan enigszins efficiënt zijn maar is funest voor de leesbaarheid van de code. Zorg dat je elke analyse in een aparte functie uitvoert.
+- Het is niet toegestaan alle informatie in één lange functie te berekenen. Dit kan enigszins efficiënt zijn maar is funest voor de leesbaarheid van de code. Zorg dus dat je elke analyse in een aparte functie uitvoert.
 
 - Bedenk welke delen je nog meer in aparte functies kunt zetten.
 
