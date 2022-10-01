@@ -1,7 +1,5 @@
 # Klimaatanalyse
 
-> Deze opdracht wordt nog uitgebreid met algoritmische hints en tips.
-
 ![](../eca2csv/temperature.png)
 
 Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `climate.csv` kan inlezen en de volgende analyse uitprinten:
@@ -16,45 +14,50 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
     Basisinformatie
     ---------------
-    Laagste temperatuur: -21,1° op 13-05-1967
-    Hoogste temperatuur: 34,5° op 13-10-1967
-    Gemiddelde temperatuur: 10,1°
+    Laagste temperatuur: -11.4° op 26-01-1942
+    Hoogste temperatuur: 37.5° op 25-07-2019
+    Gemiddelde temperatuur: 13.6°
 
     Extremen 2010-2019
     ------------------
-    In 2010 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2011 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2012 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2013 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2014 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2015 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2016 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2017 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2018 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
-    In 2019 varieerde de temperatuur tussen -0.8° op 04-02 en 30.3° op 22-08
+    In 2010 varieerde de temperatuur tussen -6.1° op 02-12 en 34.4° op 09-07
+    In 2011 varieerde de temperatuur tussen -0.1° op 31-01 en 32.2° op 28-06
+    In 2012 varieerde de temperatuur tussen -5.1° op 03-02 en 33.0° op 19-08
+    In 2013 varieerde de temperatuur tussen -2.8° op 17-01 en 34.0° op 02-08
+    In 2014 varieerde de temperatuur tussen 1.0° op 03-12 en 32.9° op 19-07
+    In 2015 varieerde de temperatuur tussen -1.3° op 23-01 en 33.1° op 01-07
+    In 2016 varieerde de temperatuur tussen -0.8° op 29-12 en 32.9° op 20-07
+    In 2017 varieerde de temperatuur tussen -1.9° op 18-01 en 31.9° op 27-05
+    In 2018 varieerde de temperatuur tussen -4.6° op 28-02 en 35.7° op 26-07
+    In 2019 varieerde de temperatuur tussen -1.1° op 24-01 en 37.5° op 25-07
 
     Langste hittegolven 2010-2019
     -----------------------------
-    2010: 7 dagen
-    2011: 5 dagen
-    2012: 5 dagen
-    2013: 5 dagen
-    2014: 5 dagen
-    2015: 5 dagen
-    2016: 5 dagen
-    2017: 5 dagen
-    2018: 5 dagen
-    2019: 5 dagen
+    2010: ? dagen
+    2011: ? dagen
+    2012: ? dagen
+    2013: ? dagen
+    2014: ? dagen
+    2015: ? dagen
+    2016: ? dagen
+    2017: ? dagen
+    2018: ? dagen
+    2019: ? dagen
 
 ## Aanwijzingen
 
 - Gebruik als input de file `climate.csv` die je hebt gegenereerd in de vorige opdracht.
 
-- Het is niet toegestaan alle informatie in één lange functie te berekenen. Dit kan enigszins efficiënt zijn maar is funest voor de leesbaarheid van de code. Deel je code goed op.
+- Je moet alle data in een variabele inlezen voor verdere verwerking.
 
-- Bedenk welke onderdelen je makkelijk in een aparte functie kunt zetten.
+- Het is niet toegestaan alle informatie in één lange functie te berekenen. Dit kan enigszins efficiënt zijn maar is funest voor de leesbaarheid van de code. Zorg dat je elke analyse in een aparte functie uitvoert.
+
+- Bedenk welke delen je nog meer in aparte functies kunt zetten.
 
 - Schrijf doctests en zorg dat alle types op orde zijn.
 
+## Algorithmische tips
 
-<!-- - Het is toegestaan om alle data in te laden in een lijst of dictionary en zo te verwerken. -->
+- Veel van deze opdracht gaat over het zoeken naar kleinste en grootste waarden in alle data of een deel daarvan. Het boek behandelt dit idee in de sectie "Processing Whitespace-Delimited Data" (p. 192).
+
+- Het is helemaal prima om lelijke trucjes te gebruiken voor het doorspitten van de data. Zorg eerst dat je het werkend krijgt en daarna kun je alles altijd nog netter maken.
