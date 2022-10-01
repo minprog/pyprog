@@ -32,7 +32,7 @@ So before we start processing the data, take another good look at the ECA file c
 
 - Write in `main` a line of test code that calls the new function with source file name `climate.txt` and target file name `climate-noheader.txt`. Run your program and inspect whether the results are as expected.
 
-## Data filteren
+## Filtering years
 ​
 In the data you may notice that the year 2020 data is incomplete. Using those data when calculating statistics would yield distorted numbers. For examples, when calculating average temperatues per year, 2020 would be very cold indeed, because we only have temperatures for the first three months. The same would hold for statistics over multiple years, etc. So the next goal is to be able to remove some parts of the data (in our data file this would be 2020).
 
