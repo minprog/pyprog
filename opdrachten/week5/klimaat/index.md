@@ -31,19 +31,6 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
     In 2018 varieerde de temperatuur tussen -4.6° op 28-02 en 35.7° op 26-07
     In 2019 varieerde de temperatuur tussen -1.1° op 24-01 en 37.5° op 25-07
 
-    Langste hittegolven 2010-2019
-    -----------------------------
-    2010: ? dagen
-    2011: ? dagen
-    2012: ? dagen
-    2013: ? dagen
-    2014: ? dagen
-    2015: ? dagen
-    2016: ? dagen
-    2017: ? dagen
-    2018: ? dagen
-    2019: ? dagen
-
 ## Aanwijzingen
 
 - Gebruik als input de file `climate.csv` die je hebt gegenereerd in de vorige opdracht.

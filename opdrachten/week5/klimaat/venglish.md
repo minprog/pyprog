@@ -31,19 +31,6 @@ Time to do real analysis. Write a program called `klimaat.py` that can read a fi
     In 2018 the temperature varied between -4.6° on 28-02 and 35.7° on 26-07
     In 2019 the temperature varied between -1.1° on 24-01 and 37.5° on 25-07
 
-    Longest heatwaves 2010-2019
-    -----------------------------
-    2010: ? days
-    2011: ? days
-    2012: ? days
-    2013: ? days
-    2014: ? days
-    2015: ? days
-    2016: ? days
-    2017: ? days
-    2018: ? days
-    2019: ? days
-
 ## Instructions
 
 - Use the file `climate.csv` that you generated in the previous assignment.
