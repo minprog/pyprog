@@ -60,6 +60,8 @@ De indicator voor een missing value verschilt per databestand; soms is dat een `
 
 - Schrijf een functie die een bestand inleest van het bovenstaande formaat en een nieuw bestand opslaat waar de ontbrekende waarden zijn vervangen door het hierboven aangegeven gemiddelde.
 
+- Je mag ervan uitgaan dat er altijd maar één missende waarde op een rij is, dus nooit twee achter elkaar.
+
 - De functie moet een parameter hebben om aan te geven welke waarde een "missing value" is. De functie kan dan worden aangeroepen met bijvoorbeeld `9999`.
 
 - De functie moet wederom zelf de nodige bestanden openen en weer sluiten.
@@ -74,7 +76,7 @@ Hints:
 
 - Je kunt "oude" regels opslaan in variabelen elke keer als je een nieuwe regel inleest.
 
-- Ontwikkel je algoritme hiervoor op papier en analyseer goed of het zou moeten kloppen door te bedenken hoe het door een bestand van 6 regels zou lopen.
+- Ontwikkel je algoritme hiervoor op papier en analyseer goed of het zou moeten kloppen door te bedenken hoe het door een bestand van 6 regels zou lopen. **Kom langs in het college om met ons aan het algoritme te werken. We zorgen dat je met een werkende strategie aan de slag kunt.**
 
 ## Omzetten naar komma's
 

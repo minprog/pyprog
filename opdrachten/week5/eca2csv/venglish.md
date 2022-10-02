@@ -60,6 +60,8 @@ The indicator for a missing value may differ between data files. Sometimes it wo
 
 - Write a function that reads a data file and saves a new data file where missing values are replace by the average value as described above.
 
+- You may assume that you will never find two days with a missing value in a row.
+
 - The function must have a parameter to indicate the value that is used as a "missing value".
 
 - The function must open and close the files as indicated by filenames provided in parameters.
@@ -72,7 +74,7 @@ Hints:
 
 - This means that you should read one line at a time, as usual, but that you will need to keep track of the two previous lines of data too. To achieve that, you can save "old" temperature values while reading the data.
 
-- Develop your algorithm on paper and thoroughly analyse its workings using an example dataset of just 6 lines.
+- Develop your algorithm on paper and thoroughly analyse its workings using an example dataset of just 6 lines. **Come to class to refine your algorithm for this one. We will think with you and help you find a working strategy.**
 
 ## Converting to commas
 
