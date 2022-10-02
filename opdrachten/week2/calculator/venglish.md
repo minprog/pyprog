@@ -26,7 +26,7 @@ Design your program as described below. Complete the docstrings with doctests an
     def evaluate(formula: str) -> float:
         """
         Calculate the result of a formula that is found in a string.
-        This function prepares the calculation by getting the parts of 
+        This function prepares the calculation by getting the parts of
         the formula from the string. The result is returned as a float.
         """
 
@@ -49,7 +49,7 @@ Ultimately, your program has to produce output like the examples below.
 
     $ python calculator.py
     100 - 9
-    81.0
+    91.0
 
     $ python calculator.py
     4 * 6
@@ -57,4 +57,4 @@ Ultimately, your program has to produce output like the examples below.
 
     $ python calculator.py
     3 / 8
-    0.325
+    0.375

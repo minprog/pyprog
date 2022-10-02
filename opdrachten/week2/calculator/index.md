@@ -49,7 +49,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python calculator.py
     100 - 9
-    81.0
+    91.0
 
     $ python calculator.py
     4 * 6
@@ -57,4 +57,4 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python calculator.py
     3 / 8
-    0.325
+    0.375
