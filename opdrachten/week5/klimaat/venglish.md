@@ -47,4 +47,6 @@ Time to do real analysis. Write a program called `klimaat.py` that can read a fi
 
 - A lot of this assignment is about finding largest and smallest values from all or parts of the data. The book provides some ideas about this in the section "Processing Whitespace-Delimited Data" (p. 192).
 
-- It's fine to use some of the ugliest tricks to dig trough the data. Make sure that you get everything working first and only then consider making your code tidier and simpler.
+- Writing loops to process parts of the data is a bit of a puzzle. You're advised to study and understand the code example on p. 182 of the book. Because of the file format, with a header above the data, the data itself is processed in two different ways. The *first* line of data is actually read *during* the skipping of the header (`data = hopedale_file.readline().strip()`) and the *remainder* of the data is read using a separate loop (`for data in hopedale_file`). In this way, all data lines are processed, but the code is not so clear: the readline technique is mashed up with the "for line in file" technique.
+
+- It's fine to use some of those ugly tricks to dig trough the data. Make sure that you get everything working first and only then consider making your code tidier and simpler.

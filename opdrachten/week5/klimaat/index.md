@@ -47,4 +47,6 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - Veel van deze opdracht gaat over het zoeken naar kleinste en grootste waarden in alle data of een deel daarvan. Het boek behandelt dit idee in de sectie "Processing Whitespace-Delimited Data" (p. 192).
 
-- Het is helemaal prima om lelijke trucjes te gebruiken voor het doorspitten van de data. Zorg eerst dat je het werkend krijgt en daarna kun je alles altijd nog netter maken.
+- Het schrijven van loops om delen van de data te verwerken is een beetje een puzzel. Het is goed om het code-voorbeeld op p. 182 van het boek goed te bestuderen en te begrijpen. Door het formaat van het bestand met een header, worden de data-regels inconsistent ingelezen. De *eerste* dataregel wordt al ingelezen *tijdens* het skippen van de header (`data = hopedale_file.readline().strip()`) en de *rest* van de data wordt in een eigen loop ingelezen (`for data in hopedale_file`). Zo worden alle dataregels wel gelezen, maar de code zelf is niet zo duidelijk: de readline-strategie wordt vermengd met de "for line in file"-strategie.
+
+- Het is helemaal prima om zulke lelijke trucjes te gebruiken voor het doorspitten van de data. Zorg eerst dat je het werkend krijgt en daarna kun je alles altijd nog netter maken.
