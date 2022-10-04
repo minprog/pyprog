@@ -146,6 +146,19 @@ grades:
         automatic:
             done: -(correctness_score.floor/10)
 
+    indexer:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+    eca2csv:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/3)
+    klimaat:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/3)
+
     toetsje_week_2:
         <<: *automatic
         automatic:
@@ -249,6 +262,10 @@ assignments:
         scrabble: 70
         schuifpuzzel: 70
         kalender: 70
+
+        indexer: 70
+        eca2csv: 70
+        klimaat: 70
 
 reviews:
     show_progress: true
