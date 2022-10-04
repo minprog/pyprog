@@ -33,6 +33,8 @@ Time to do real analysis. Write a program called `klimaat.py` that can read a fi
 
 ## Instructions
 
+- The checks are extremely strict: the output must be **exactly** as given.
+
 - Use the file `climate.csv` that you generated in the previous assignment.
 
 - You must load all data into a variable for further processing.

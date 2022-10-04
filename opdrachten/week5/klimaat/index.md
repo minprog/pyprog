@@ -33,6 +33,8 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 ## Aanwijzingen
 
+- De checks zijn extreem streng: de output moet **exact** zo zijn als hierboven.
+
 - Gebruik als input de file `climate.csv` die je hebt gegenereerd in de vorige opdracht.
 
 - Je moet alle data in een variabele inlezen voor verdere verwerking.
