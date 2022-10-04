@@ -25,7 +25,7 @@ Je hoeft overigens niet per se de waarde `i` te gebruiken bij het genereren van 
 
 #### Oefening
 
-Schrijf een list-comprehension die een lijst met vier random letters uit de opties 'A', 'B', 'C', 'D' genereert. Gebruik hiervoor `random.choice()`. Een volledig random uitkomst zou dus kunnen zijn ['A', 'C', 'A', 'A'].
+Schrijf een list-comprehension die een lijst met vier random letters uit de opties `'A', 'B', 'C', 'D'` genereert. Gebruik hiervoor `random.choice()`. Een volledig random uitkomst zou dus kunnen zijn `['A', 'C', 'A', 'A']`.
 
 <textarea name="form[q1]" rows="3" required></textarea>
 
@@ -46,7 +46,7 @@ Volledig equivalent is de uitgeschreven `for`-loop:
 
 #### Oefening
 
-Schrijf een list-comprehension die van 10 oneven getallen de waarde + 5 genereert. Dat zou dus tien getallen moeten opleveren die beginnen met [6, 8, 10, ...]. Let op dat je niet slechts 5 getallen genereert!
+Schrijf een list-comprehension die van 10 oneven getallen de waarde + 5 genereert. Dat zou dus tien getallen moeten opleveren die beginnen met `[6, 8, 10, ...]`. Let op dat je niet slechts 5 getallen genereert!
 
 <textarea name="form[q2]" rows="3" required></textarea>
 
@@ -88,4 +88,13 @@ Schrijf een list-comprehension die alle cijfers uit het wachtwoord `'mo4br99!'` 
 
 <textarea name="form[q4]" rows="3" required></textarea>
 
-Let op dat de basis van de comprehension weer een string is, maar de comprehension zal altijd een lijst geven.
+## Strings genereren
+
+Let op dat de basis van de comprehensions soms een string is, maar een comprehension zal altijd een *lijst* geven. Het genereren van strings met een comprehension is niet mogelijk in Python. Toch kun je met een kleine extra stap wel een string maken:
+
+    >>> ['a' for i in range(4)]
+    ['a', 'a', 'a', 'a']
+    >>> ''.join(['a' for i in range(4)])
+    'aaaa'
+
+Dit kan soms van pas komen!
