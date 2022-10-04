@@ -78,16 +78,6 @@ Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every
 
 ![](sort.PNG)
 
-## Merge sort
-
-> This algorithm is based on recursion, which is not part of the course. The merge sort algorithm will not be on any of the tests. However, merge sort is a great subject for practising recursion.
-
-![embed](https://www.youtube.com/embed/yF3hMKmCk1A)
-
-Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
-
-![](sort.PNG)
-
 ## Submit
 
-To submit, make photos of your solution tables and then create a PDF containing each of the photos (no other formats will be accepted, so if you need help creating a PDF, just ask!).
+To submit, make photos of your solution tables and then create a PDF containing each of the photos (no other formats will be accepted, so if you need help creating a PDF, just ask!). The PDF may not be larger than ~9MB, so best to convert your photos to black/white before converting to PDF.

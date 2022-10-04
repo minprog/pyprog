@@ -1,8 +1,7 @@
 name: virus
 files:
     required:
-        - analysis.pdf
-        - virus.ipynb
+        - virus.py
 check:
     tool: check50
     slug: minprog/virus/2020

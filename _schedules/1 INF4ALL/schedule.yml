@@ -62,8 +62,7 @@ Module 6:
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
         Algorithms: /opdrachten/week6/algorithms
-        # Measurements (TBD): /opdrachten/week1/measurements
-        # Sort: /opdrachten/week6/sort
+        Comprehensions: /opdrachten/week6/comprehensions
         Virus: /opdrachten/week6/virus
 
 Module 7:
