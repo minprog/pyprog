@@ -1,4 +1,4 @@
-name: eva2csv
+name: eca2csv
 files:
     required:
         - eca2csv.py
