@@ -175,8 +175,6 @@ Zodra het geneesmiddel wordt geintroduceerd, kunnen alle virussen behalve resist
 
 *   Een virus is enkel resistent als `AAA` achterelkaar voorkomt.
 
-*   Kijk eens naar de functie `string.find()`!
-
 ### Testen
 
 Test deze functie op verschillende virussen om te kijken of het de resistente virussen herkent, en de niet-resistente virussen ook.
