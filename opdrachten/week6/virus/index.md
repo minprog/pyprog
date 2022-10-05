@@ -51,8 +51,8 @@ Doctests schrijven voor een functie met random uitvoer werkt anders dan bij "det
 
 *   Je kunt **eigenschappen** van de uitvoer testen, bijvoorbeeld:
 
-    *   De lengte van de uitvoer: `len(generateVirus(3))` moet 3 zijn.
-    *   Het type van de uitvoer: `type(generateVirus(0))` moet `str` zijn.
+    *   De lengte van de uitvoer: `len(generate_virus(3))` moet 3 zijn.
+    *   Het type van de uitvoer: `type(generate_virus(0))` moet `str` zijn.
 
 *   Je kunt de `random`-module een ["seed"](https://docs.python.org/3/library/random.html#random.seed) meegeven waardoor de uitkomsten niet echt random meer zijn. Zo kun je de uitkomst van een functie toch testen. Zorg wel dat je de `random.seed` aanroep in de test, zodat de functie in normale situatie wel altijd random blijft werken. Een voorbeeld van een concrete doctest:
 
@@ -113,15 +113,15 @@ Virusdeeltjes kunnen afsterven. Ze sterven niet allemaal tegelijk, maar elke tij
 
 ### Aanwijzingen
 
-*   Schrijf een functie `kill(viruses, mortalityProb)`.
+*   Schrijf een functie `kill(viruses, mortality_prob)`.
 
     *   Deze functie accepteert het argument `viruses`, een lijst van virusgenomen.
 
-    *   En een argument `mortalityProb`, een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
+    *   En een argument `mortality_prob`, een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
 
 *   De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
 
-*   Let op: elk virusgenoom heeft een onafhankelijke kans om af te sterven. Dus bij een `mortalityProb` van 0.2 overleeft gemiddeld 80% van de viruspopulatie het, maar dit kan wel degelijk fluctueren per keer!
+*   Let op: elk virusgenoom heeft een onafhankelijke kans om af te sterven. Dus bij een `mortality_prob` van 0.2 overleeft gemiddeld 80% van de viruspopulatie het, maar dit kan wel degelijk fluctueren per keer!
 
 *   Je mag hier **één regel code** gebruiken.
 
@@ -140,17 +140,17 @@ Een virus heeft een kans zich voort te planten op elke tijdstap in de simulatie.
 Als een virus zich voortplant dan heeft het kind exact dezelfde DNA-string als de ouder.
 Er is wel een kans dat er een mutatie optreedt: dan is er één basepaar anders.
 
-*   Schrijf voor reproductie een functie `reproduce(viruses, mutationProb, reproductionProb)`.
+*   Schrijf voor reproductie een functie `reproduce(viruses, mutation_prob, reproduction_prob)`.
 
     * Deze functie accepteert `viruses`, een lijst van virusgenomen.
 
-    * En `mutationProb`, een float tussen 0 en 1 (inclusief) die de kans op mutatie bij het kind virusdeeltje representeert.
+    * En `mutation_prob`, een float tussen 0 en 1 (inclusief) die de kans op mutatie bij het kind virusdeeltje representeert.
 
-    * En ook `reproductionProb`, een float tussen 0 en 1 (inclusief) die de kans op reproductie per virusdeeltje representeert.
+    * En ook `reproduction_prob`, een float tussen 0 en 1 (inclusief) die de kans op reproductie per virusdeeltje representeert.
 
 *   De functìe moet de lijst van de gehele populatie van virusgenomen returnen. Dat is dus inclusief de ouders!
 
-*   Let op: elk virusgenoom heeft een individuele kans om te reproduceren. Dus bij een `reproductionProb` van 0.2 reproduceert gemiddeld 20% van de populatie, maar dit kan fluctueren!
+*   Let op: elk virusgenoom heeft een individuele kans om te reproduceren. Dus bij een `reproduction_prob` van 0.2 reproduceert gemiddeld 20% van de populatie, maar dit kan fluctueren!
 
 *   Geen regellimiet, maar als je jezelf wilt uitdagen: 2 regels is mogelijk.
 
@@ -169,7 +169,7 @@ Voor dat we kunnen gaan simuleren, voegen we een virusremmer toe aan onze simula
 Virussen kunnen resistent zijn tegen zo'n remmer; bij de reproductie kan een mutatie ervoor zorgen dat de resistentie ontstaat. Een resistent virus is (in deze simulatie) elk virus dat `AAA` in de DNA-streng heeft.
 Zodra het geneesmiddel wordt geintroduceerd, kunnen alle virussen behalve resistente virussen niet meer reproduceren.
 
-*   Schrijf een functie `isResistent(virus)`.
+*   Schrijf een functie `is_resistent(virus)`.
 
     *   Deze functie accepteert één argument, `virus`, dit is een virusgenoom.
 
@@ -192,8 +192,8 @@ Er is een negatief linear verband tussen het aantal virussen en de reproductieka
 De kans op reproductie is gelijk aan `(1 - (grootte_van_virus_populatie / maximaal_aantal_virussen)) * maximale_reproductie_kans`.
 De functie om de kans per individueel virusdeeltje in een populatie te berekenen vind je hieronder:
 
-    def reproductionProbability(viruses, maxReproductionProb, maxPopulation):
-        return (1 - (len(viruses) / maxPopulation)) * maxReproductionProb if maxPopulation > 0 else 0
+    def reproduction_probability(viruses, max_reproduction_prob, max_population):
+        return (1 - (len(viruses) / max_population)) * max_reproduction_prob if max_population > 0 else 0
 
 Neem deze functie over in je uitwerking en voorzie de definitie van de juiste types.
 
@@ -212,15 +212,15 @@ De simulatie werkt als volgt. Tijdens elke tijdstap:
 
 ### Aanwijzingen
 
-*   Schrijf een functie genaamd `simulate(viruses, mortalityProb, mutationProb, maxReproductionProb, maxPopulation, timesteps = 500)`.
+*   Schrijf een functie genaamd `simulate(viruses, mortality_prob, mutation_prob, max_reproduction_prob, max_population, timesteps = 500)`.
 
 *   Deze functie accepteert vijf argumenten, en één optioneel argument:
 
     *   `viruses` is een lijst van virusgenomen.
-    *   `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
-    *   `maxReproductionProb` is een float tussen 0 en 1 (inclusief) die de maximale kans op reproductie per virusdeeltje representeert.
-    *   `maxPopulation` is een integer voor de maximale populatiegrootte.
-    *   `mutationProb` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij reproductie representeert.
+    *   `mortality_prob` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
+    *   `max_reproduction_prob` is een float tussen 0 en 1 (inclusief) die de maximale kans op reproductie per virusdeeltje representeert.
+    *   `max_population` is een integer voor de maximale populatiegrootte.
+    *   `mutation_prob` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij reproductie representeert.
     *   `timesteps` is een integer en een optioneel argument die het aantal tijdstappen in de simulatie aangeeft.
 
 *   De functie moet een lijst returnen met daarin de populatiegrootte (een integer) op elke tijdstap.
@@ -247,7 +247,7 @@ Voor deze opdracht is het wellicht wat lastiger om zelf tests te bedenken. Daaro
 
 *   De eerste controleert of het resultaat uit `population_sizes` inderdaad bestaat uit precies 501 elementen (500 tijdstappen plus de beginsituatie).
 
-        >>> viruses = [generateVirus(4) for _ in range(100)]
+        >>> viruses = [generate_virus(4) for _ in range(100)]
         >>> len(simulate(viruses, 1, 0, 0, 0))
         501
 
@@ -256,7 +256,7 @@ Voor deze opdracht is het wellicht wat lastiger om zelf tests te bedenken. Daaro
         >>> sims = []
         >>> n = 100
         >>> for i in range(n):
-        >>>    viruses = [generateVirus(4) for _ in range(100)]
+        >>>    viruses = [generate_virus(4) for _ in range(100)]
         >>>    sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
         >>> average = sum(sims) / n
         >>> 25 < average < 30
