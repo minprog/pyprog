@@ -25,8 +25,9 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def determine_due(due: int, coin: int) -> int:
         """
-        Bepaalt hoeveel nog moet worden betaald nadat de eerste munt is
-        ingeworpen. De ingeworpen munt moet valide zijn.
+        Bepaalt hoeveel nog moet worden betaald nadat een munt is
+        ingeworpen. Uitkomst verandert alleen als coin één van de 
+        toegestane munten is.
         """
 
     def prompt_coin(due: int) -> int:
