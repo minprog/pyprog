@@ -236,7 +236,7 @@ Hieronder vind je de pseudocode voor de `simulate`-functie. Kijk er goed naar, w
      7              reproduce only viruses that are resistant, while keeping all other
      8          else
      9              reproduce any virus in the population
-    10         add resulting size of population to population_sizes
+    10          add resulting size of population to population_sizes
     11      return population_sizes
 
 ### Testen
