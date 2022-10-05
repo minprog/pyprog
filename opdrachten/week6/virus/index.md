@@ -2,185 +2,232 @@
 
 ![](virus.jpg)
 
-Voor beleidsmakers en de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen. Omdat vele factoren een rol spelen is het lastig om deze kans in een wiskunde formule te vatten, en daarom biedt het doen van simulaties een uitkomst. In deze opdracht ga je virusdeeltjes simuleren die kunnen reproduceren en sterven. We bouwen deze opdracht stap voor stap op tot een complete, maar versimpelde simulatie.
+Voor beleidsmakers en de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen. Omdat vele factoren een rol spelen is het lastig om deze kans in een wiskunde formule te vatten, en daarom biedt het doen van simulaties een uitkomst. In deze opdracht ga je virusdeeltjes **simuleren** die kunnen reproduceren en sterven. We bouwen deze opdracht stap voor stap op tot een complete, maar versimpelde simulatie.
 
-Bij deze opdracht focussen we niet alleen op het idee van simuleren, maar je gaat ook zorgvuldiger dan voorheen je code testen. Bij elke tussenstap vind je een codeblok met een functie die jij gaat implementeren. In de uitleg staat altijd een kopje "Controle", met aanwijzingen over hoe jij kan checken of je functie voldoet aan de verwachtingen. Deze aanwijzingen zijn niet compleet! Het kan zijn dat je tegen problemen aanloopt die hierdoor niet gecheckt worden. Je moet dus ook oefenen met het zelf nadenken over poteniële problemen. Het doel van tussentijdse checks is om te voorkomen dat fouten zich opstapelen. Als een fout zich pas op het allerlaatst vertoont, is het namelijk veel lastiger om de ware oorzaak te vinden.
+Bij deze opdracht focussen we niet alleen op het idee van simuleren, maar je gaat ook uitgebreider dan voorheen je code testen. Bij elke tussenstap vind je aanwijzingen voor een functie die jij gaat implementeren. In de uitleg staat altijd een kopje "Testen", met aanwijzingen over hoe jij kan checken of je functie voldoet aan de verwachtingen. Deze aanwijzingen zijn niet compleet! Het kan zijn dat je tegen problemen aanloopt die hierdoor niet gecheckt worden. Je moet dus ook oefenen met het zelf nadenken over potentiële problemen. Hou in ieder geval het doel in de gaten: voorkomen dat fouten zich **opstapelen**. Als een fout zich pas op het allerlaatst vertoont, is het namelijk veel lastiger om de ware oorzaak te vinden.
 
-Tot slot spelen "list comprehensions" bij deze opdracht een grote rol. Om extra motivatie te geven deze te gebruiken, staat bij voor opdrachten een limiet voor het aantal regels code dat gebruikt mag worden voor de oplossing. Lukt dat niet goed? Maak je oplossing dan (zo mogelijk) eerst werkend zonder list comprehensions en vraag hulp aan de assistenten met het omzetten naar list comprehensions.
+Doe deze opdracht dus echt stap voor stap, inclusief testen!
+
+Anderzijds spelen "list comprehensions" bij deze opdracht een grote rol. Om extra motivatie te geven deze te gebruiken, staat bij voor opdrachten een **limiet** voor het aantal regels code dat gebruikt mag worden voor de oplossing. Lukt dat niet goed? Maak je oplossing dan (zo mogelijk) eerst werkend zonder list comprehensions en vraag hulp aan de assistenten met het omzetten naar list comprehensions.
 
 ## Stap 1: Virusgenoom
 
-DNA is een streng van moleculen die nucleotiden worden genoemd. Elk DNA-molecuul bestaat in feite uit twee strengen van dergelijke nucleotiden, die bovendien bij elke nucleotide met elkaar verbonden zijn. De verbonden nucleotiden noemen we basenparen. Omdat deze paren altijd in vaste combinaties voorkomen kunnen we bij het typeren van een dubbele DNA-streng volstaan met het specificeren van de namen van de nucleotiden van één streng. De namen zijn: adenine (A), cytosine (C), guanine (G) en thymine (T). Bij elke menselijke cel bestaat de DNA-streng uit miljarden van zulke basenparen. Ook veel virussen zijn opgebouwd uit precies dezelfde typen cellen.
+DNA is een streng met daarin deeltjes die nucleotiden worden genoemd. Elk DNA-molecuul bestaat in feite uit twee strengen van dergelijke nucleotiden, die bovendien bij elke nucleotide met elkaar verbonden zijn. De verbonden nucleotiden noemen we basenparen. Omdat deze paren altijd in vaste combinaties voorkomen kunnen we bij het typeren van een dubbele DNA-streng volstaan met het specificeren van de namen van de nucleotiden van één streng. De namen zijn: adenine (A), cytosine (C), guanine (G) en thymine (T). Bij elke menselijke cel bestaat de DNA-streng uit miljarden van zulke basenparen. Ook veel virussen zijn opgebouwd uit precies dezelfde typen cellen.
 
 (Disclaimer: wij zijn geen biologen en coronavirussen zijn RNA-virussen en geen DNA-virussen :-))
 
-* Voeg deze regels toe bovenaan een bestand `virus.py`:
+### Aanwijzingen
+
+*   Voeg deze regels toe bovenaan een bestand `virus.py`:
 
         import random
         import string
 
-* Schrijf een functie `generateVirus(length)`.
-    
-    * Deze functie accepteert één argument, `length`, dat is een integer die de lengte van het virusgenoom representeerd.
-    * De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotides.
+*   Schrijf een functie `generate_virus(length)`.
 
-* Oh, one more thing: Je mag maar **twee regels code** gebruiken voor deze functie (dat is inclusief de regel `def generateVirus(length):`).
+    *   Deze functie accepteert één argument, `length`, en dat is een integer die de lengte van het virusgenoom representeert.
 
-    * Gebruik een list comprehension en de `"".join()` methode van een string.
+    *   De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotiden.
 
-    * Kijk eens naar de `random.choice()` functie.
+*   Oh, en one more thing: je mag maar **één regel code** gebruiken voor deze functie.
+
+*   Gebruik een list comprehension en de `"".join()` methode van een string.
+
+*   Kijk eens naar de `random.choice()` functie.
 
 ### Testen
 
-Maak en print virussen van verschillende lengtes om te kijken of deze kloppen. De uitkomst is natuurlijk willekeurig, dus kijk goed of de genomen inderdaad verschillen, en dat je over een paar keer draaien alle nucleotiden weleens voorbij ziet komen.
+Maak en print handmatig virussen van verschillende lengtes om te kijken of deze kloppen. Als je de functie hebt geschreven in een bestand `virus.py`, dan kun je Python **interactief** opstarten om te testen:
 
-len(generateVirus(3)) == 3
-type(generateVirus(0)) == str
+    $ python3 -i virus.py
+    >>> generate_virus(4)
+    'AATC'
+    >>> generate_virus(4)
+    'TCGT'
 
+De uitkomst is natuurlijk willekeurig, dus kijk goed of de gemaakte genomen inderdaad steeds verschillen. Controleer ook dat je over een paar keer draaien alle nucleotiden weleens voorbij ziet komen.
 
-Er zijn diverse manieren om te testen:
+Doctests schrijven voor een functie met random uitvoer werkt anders dan bij "deterministische" functies. Hier enkele ideeën:
 
-* Je kunt gewoon `generateVirus()` een paar keer aanroepen in de cel hieronder en de output bestuderen.
+*   Je kunt **eigenschappen** van de uitvoer testen, bijvoorbeeld:
 
-* Je kunt een loop schrijven die `generateVirus()` aanroept en de verschillen tussen de verschillende virussen bestuderen.
+    *   De lengte van de uitvoer: `len(generateVirus(3))` moet 3 zijn.
+    *   Het type van de uitvoer: `type(generateVirus(0))` moet `str` zijn.
 
-* Als je een "eigenschap" weet te formuleren van de uitkomst van `generateVirus()` dan kun je ook een `assert` schrijven. Deze checkt of iets werkt zoals verwacht. Hieronder staan al twee asserts waaraan je functie moet voldoen. Als er geen foutmelding verschijnt, dan is de assert "akkoord".
+*   Je kunt de `random`-module een ["seed"](https://docs.python.org/3/library/random.html#random.seed) meegeven waardoor de uitkomsten niet echt random meer zijn. Zo kun je de uitkomst van een functie toch testen. Zorg wel dat je de `random.seed` aanroep in de test, zodat de functie in normale situatie wel altijd random blijft werken. Een voorbeeld van een concrete doctest:
 
-* Combinaties van alle bovenstaande.
+        >>> random.seed(0)
+        >>> generate_virus(4)
+        'CCGA'
+
+*   Je kunt de functie **seriematig** testen door een list comprehension te gebruiken en dan te kijken of de uitvoer altijd een bepaalde eigenschap heeft:
+
+        >>> all([len(generate_virus(x)) == x for x in range(8)])
+        True
+
+    We gebruiken hier de Python-functie `all` die van een lijst controleert of deze overal `True` geeft.
 
 
 ## Stap 2: Muteren
 
 Zodra een virus wordt geboren heeft deze een kans te muteren.
 Muteren is het veranderen van één willekeurig nucleotide voor een willekeurige ander.
-Bijvoorbeeld van AGTC naar ATTC.
+Bijvoorbeeld van `AGTC` naar `ATTC`.
 
-* Schrijf een functie `mutate(virus)`.
-	* Deze functie accepteert één argument, `virus`, dat is een string van nucleotides.
-	* De functie moet een string returnen bestaande uit dezelfde nucleotides, waarvan er één is gemuteerd.
-* Geen regellimiet dit keer, maar als je jezelf wilt uitdagen: 3 (of minder) regels is mogelijk.
-* Een mutatie waarna het resultaat hetzelfde is, telt niet als mutatie.
+### Aanwijzingen
 
-### Tips
+*   Schrijf een functie `mutate(virus)`.
 
-* Kijk eens naar de `random.randrange()` functie!
-* Gebruik list slicing.
+    *   Deze functie accepteert één argument, `virus`, een string van nucleotiden.
 
-### Controle
+    *   De functie moet een string returnen bestaande uit dezelfde nucleotiden, waarvan er één is gemuteerd.
 
-* Controleer of de mutate functie altijd het virus veranderd. Je zou bijvoorbeeld een groot aantal (1000) virussen kunnen aanmaken en deze kunnen muteren. Is ieder virus anders na mutatie?"
-* Controleer of de lengte van het virus gelijk is gebleven na mutatie.
+*   Geen regellimiet dit keer, maar als je jezelf wilt uitdagen: 3 (of minder) regels is mogelijk.
+
+*   Een mutatie waarna het resultaat hetzelfde is, telt niet als mutatie.
+
+    *   Je mag dit probleem **niet** oplossen door random mutaties te doen tot er eentje lukt. De mutatie moet in één keer een valide uitkomst geven.
+
+*   Kijk eens naar de `random.randrange()` functie!
+
+*   Gebruik list slicing (zie je boek).
+
+### Testen
+
+*   Controleer of de `mutate`-functie altijd het virus verandert. Je zou bijvoorbeeld een groot aantal (1000) virussen kunnen aanmaken en deze kunnen muteren. Is ieder virus anders na de mutatie?
+
+*   Controleer of de lengte van het virus structureel gelijk is gebleven na mutatie.
+
+*   Nieuwe strategie: kijk bij dit soort functie ook naar de **randgevallen**. Wat gebeurt er als `mutate` wordt aangeroepen met een lege string? Test deze eigenschap ook.
+
 
 ## Stap 3: Afsterven
 
-De afgelopen twee tussenstappen hebben we met losse virussen gewerkt. Die hebben we weergegeven als een string. Voor onze toekomstige simulatie willen we alleen werken met een grote hoeveelheid virussen. Om zo'n populatie weer te geven, kunnen we een lijst maken van al die virussen. Dat zou er als volgt uit kunnen zien:
+Bij de vorige twee stappen hebben we met losse virussen gewerkt. Die hebben we weergegeven als een string. Voor onze simulatie gaan we werken met een grote hoeveelheid virussen. Om zo'n populatie weer te geven kunnen we een **lijst maken** van virussen. Dat zou er als volgt uit kunnen zien:
 
- ```['"ACTG", "AGAA", "ACCG", "GTCA"]``` 
+    ['ACTG', 'AGAA', 'ACCG', 'GTCA']
 
+Met deze structuur gaan we nu verder werken.
 
-Met deze structuur gaan we nu verder werken. Want virussen kunnen natuurlijk sterven. Ze sterven niet allemaal tegelijk, maar elke tijdstap heeft elke virus een kans om te sterven. Met de volgende functie gaan we het resultaat van één zo'n tijdstap weergeven.
+Virusdeeltjes kunnen afsterven. Ze sterven niet allemaal tegelijk, maar elke tijdstap heeft elk virus een kans om te sterven. Met de volgende functie gaan we deze gebeurtenis simuleren.
 
-* Schrijf een functie `kill(viruses, mortalityProb)`.
-	* Deze functie accepteert twee argumenten:
-		* `viruses` is een lijst van virusgenomen.
-		* `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
-	* De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
-* Let op, elk virusgenoom heeft een individuele kans om af te sterven. Dus bij een `mortalityProb` van 0.2 overleeft gemiddeld 80% van de viruspopulatie het, maar dit kan fluctueren!
-* Je mag hier **twee regels code** gebruiken (dat is inclusief de regel `def kill(viruses, mortalityProb):`).
+### Aanwijzingen
 
-### Tip
+*   Schrijf een functie `kill(viruses, mortalityProb)`.
 
-* Gebruik een list comprehension!
+    *   Deze functie accepteert het argument `viruses`, een lijst van virusgenomen.
 
+    *   En een argument `mortalityProb`, een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
 
-### Controle
+*   De functie moet een **nieuwe** lijst returnen met daarin de virusgenomen die het hebben overleefd.
 
-* Bedenk hoeveel virussen er gemiddeld over zouden moeten blijven na deze functie. Let op dat er veel willekeur in deze functie is, dus dat het niet gek is als het een klein beetje erboven of eronder zit.
-* Test je functie niet alleen met waarden in het midden, maar ga ook op zoek naar de uiterste. Klopt er wat er gebeurt als ik de sterftekans op 0 of 1 zet?
+*   Let op: elk virusgenoom heeft een onafhankelijke kans om af te sterven. Dus bij een `mortalityProb` van 0.2 overleeft gemiddeld 80% van de viruspopulatie het, maar dit kan wel degelijk fluctueren per keer!
+
+*   Je mag hier **één regel code** gebruiken.
+
+    *   Gebruik een list comprehension!
+
+### Testen
+
+*   Bedenk hoeveel virussen er gemiddeld over zouden moeten blijven na deze functie. Let op dat er veel willekeur in deze functie is, dus dat het niet gek is als het een klein beetje erboven of eronder zit. Test die eigenschap.
+
+*   Test je functie niet alleen met waarden in het midden, maar ga ook op zoek naar de randgevallen. Klopt er wat er gebeurt als ik de sterftekans op 0 of 1 zet?
 
 
 ## Stap 4: Reproductie
 
 Een virus heeft een kans zich voort te planten op elke tijdstap in de simulatie.
-Als een virus zich voortplant dan heeft het kind exact dezelfde DNA string als de ouder.
-Behalve als het kind muteert, dan is er één basepaar anders.
+Als een virus zich voortplant dan heeft het kind exact dezelfde DNA-string als de ouder.
+Er is wel een kans dat er een mutatie optreedt: dan is er één basepaar anders.
 
-* Schrijf voor reproductie een functie `reproduce(viruses, mutationProb, reproductionProb)`.
-	* Deze functie accepteert drie argumenten:
-		* `viruses` is een lijst van virusgenomen.
-		* `mutationProb` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij het kind virusdeeltje representeert.
-		* `reproductionProb` is een float tussen 0 en 1 (inclusief) die de kans op reproductie per virusdeeltje representeert.
-* De functìe moet de lijst van de totale populatie van virusgenomen returnen. Dat is dus inclusief de ouders!
-* Let op, elk virusgenoom heeft een individuele kans om te reproduceren. Dus bij een `reproductionProb` van 0.2 reproduceert gemiddeld 20% van de populatie, maar dit kan fluctueren!
-* Geen regellimiet dit keer, maar als je jezelf wilt uitdagen: 2 regels is mogelijk.
+*   Schrijf voor reproductie een functie `reproduce(viruses, mutationProb, reproductionProb)`.
 
-### Controle
+    * Deze functie accepteert `viruses`, een lijst van virusgenomen.
 
-* Controleer net als bij vorige functie of deze functie ongeveer het verwachte aantal virussen teruggeeft.
-* Controleer of er ook daadwerkelijk virussen gemuteerd zijn.
+    * En `mutationProb`, een float tussen 0 en 1 (inclusief) die de kans op mutatie bij het kind virusdeeltje representeert.
+
+    * En ook `reproductionProb`, een float tussen 0 en 1 (inclusief) die de kans op reproductie per virusdeeltje representeert.
+
+*   De functìe moet de lijst van de gehele populatie van virusgenomen returnen. Dat is dus inclusief de ouders!
+
+*   Let op: elk virusgenoom heeft een individuele kans om te reproduceren. Dus bij een `reproductionProb` van 0.2 reproduceert gemiddeld 20% van de populatie, maar dit kan fluctueren!
+
+*   Geen regellimiet, maar als je jezelf wilt uitdagen: 2 regels is mogelijk.
+
+### Testen
+
+*   Controleer net als bij vorige functie of deze functie ongeveer het verwachte aantal virussen teruggeeft.
+
+*   Controleer of er ook daadwerkelijk virussen gemuteerd zijn en of dit ongeveer met de juiste hoeveelheid kinderen gebeurt.
 
 
 ## Stap 5: Resistentie
 
 ![](medicine.png)
 
-Voor dat we kunnen gaan simuleren, voegen we een geneesmiddel toe aan onze simulatie.
-Virussen kunnen resistent zijn tegen zo'n geneesmiddel; bij de reproductie kan een mutatie ervoor zorgen dat de resistentie ontstaat. Een resistent virus is een virus dat `AAA` in de DNA-streng heeft.
+Voor dat we kunnen gaan simuleren, voegen we een virusremmer toe aan onze simulatie.
+Virussen kunnen resistent zijn tegen zo'n remmer; bij de reproductie kan een mutatie ervoor zorgen dat de resistentie ontstaat. Een resistent virus is (in deze simulatie) elk virus dat `AAA` in de DNA-streng heeft.
 Zodra het geneesmiddel wordt geintroduceerd, kunnen alle virussen behalve resistente virussen niet meer reproduceren.
 
-* Schrijf een functie `isResistent(virus)`.
-	* Deze functie accepteert één argument, `virus`, dit is een virusgenoom.
-	* De functie moet een boolean returnen welke aangeeft of het virus resistent is (`True`) of niet (`False`).
-* Een virus is enkel resistent als `AAA` achterelkaar voorkomt.
+*   Schrijf een functie `isResistent(virus)`.
 
-### Tip
+    *   Deze functie accepteert één argument, `virus`, dit is een virusgenoom.
 
-* Kijk eens naar de functie `string.find()`!
+    *   De functie moet een boolean returnen die aangeeft of het virus resistent is (`True`) of niet (`False`).
 
-### Controle
-* Test deze functie op verschillende virussen om te kijken of het de resistente virussen herkent.
+*   Een virus is enkel resistent als `AAA` achterelkaar voorkomt.
 
-## Reproductiekans als functie van de populatiegrootte
+*   Kijk eens naar de functie `string.find()`!
 
-Naarmate er meer virusdeeltjes aanwezig zijn, wordt de kans op reproductie kleiner.
-Er is simpelweg niet genoeg ruimte voor alle virusdeeltjes.
-Er is een negatief linear verband tussen het aantal virussen en de reproductie kans.
+### Testen
+
+Test deze functie op verschillende virussen om te kijken of het de resistente virussen herkent en de niet-resistente virussen ook.
+
+
+## Stap 6: Reproductiekans als functie van de populatiegrootte
+
+Naarmate er meer virusdeeltjes aanwezig zijn, wordt de kans op reproductie kleiner:
+er is simpelweg niet genoeg ruimte voor alle virusdeeltjes.
+Er is een negatief linear verband tussen het aantal virussen en de reproductiekans.
 De kans op reproductie is gelijk aan `(1 - (grootte_van_virus_populatie / maximaal_aantal_virussen)) * maximale_reproductie_kans`.
 De functie om de kans per individueel virusdeeltje in een populatie te berekenen vind je hieronder:
-
 
     def reproductionProbability(viruses, maxReproductionProb, maxPopulation):
         return (1 - (len(viruses) / maxPopulation)) * maxReproductionProb if maxPopulation > 0 else 0
 
+Neem deze functie over in je uitwerking en voorzie de definitie van de juiste types.
 
 
-## Stap 6: Simuleren met een geneesmiddel
+## Stap 7: Simuleren met een virusremmer
 
-Nu we een representatie hebben voor virussen, deze kunnen laten muteren, doen sterven, laten reproduceren en resistent kunnen laten zijn, kunnen we gaan simuleren.
+In de bovenstaande stappen hebben we gewerkt aan een **representatie** van virussen (als strings) en populaties (als lijsten). Nu we zo'n representatie hebben voor virussen, deze kunnen laten muteren, doen sterven, laten reproduceren, en resistent kunnen laten zijn, kunnen we gaan simuleren.
 
 De simulatie werkt als volgt. Tijdens elke tijdstap:
-* Laten we eerst virussen afsterven,
-* Daarna berekenen we de productiekans,
-* Daarna laten we ze reproduceren
 
-**Maar** vanaf de 100e tijdstap voegen we een geneesmiddel toe aan de simulatie, en kunnen enkel resistente virussen reproduceren.
+*   laten we eerst virussen afsterven,
+*   daarna berekenen we de productiekans, en
+*   daarna laten we ze reproduceren.
 
+**Maar** vanaf de 100e tijdstap voegen we een virusremmer toe aan de simulatie, en dan kunnen alleen nog resistente virussen reproduceren.
 
+### Aanwijzingen
 
-Dus:
-* Schrijf een functie genaamd `simulate(viruses, mortalityProb, mutationProb, maxReproductionProb, maxPopulation, timesteps = 500)`.
-	* Deze functie accepteert vijf argumenten, en één optioneel argument:
-		* `viruses` is een lijst van virusgenomen.
-		* `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
-		* `maxReproductionProb` is een float tussen 0 en 1 (inclusief) die de maximale kans op reproductie per virusdeeltje representeert.
-		* `maxPopulation` is een integer voor de maximale populatiegrootte.
-		* `mutationProb` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij reproductie representeert.
-		* `timesteps` is een integer en een optioneel argument die het aantal tijdstappen in de simulatie aangeeft.
-	* De functie moet een lijst returnen met daarin de populatiegrootte (een integer) op elke tijdstap.
+*   Schrijf een functie genaamd `simulate(viruses, mortalityProb, mutationProb, maxReproductionProb, maxPopulation, timesteps = 500)`.
+
+*   Deze functie accepteert vijf argumenten, en één optioneel argument:
+
+    *   `viruses` is een lijst van virusgenomen.
+    *   `mortalityProb` is een float tussen 0 en 1 (inclusief) die de kans op het afsterven per virusdeeltje representeert.
+    *   `maxReproductionProb` is een float tussen 0 en 1 (inclusief) die de maximale kans op reproductie per virusdeeltje representeert.
+    *   `maxPopulation` is een integer voor de maximale populatiegrootte.
+    *   `mutationProb` is een float tussen 0 en 1 (inclusief) die de kans op mutatie bij reproductie representeert.
+    *   `timesteps` is een integer en een optioneel argument die het aantal tijdstappen in de simulatie aangeeft.
+
+*   De functie moet een lijst returnen met daarin de populatiegrootte (een integer) op elke tijdstap.
 
 ### Pseudocode
-Hieronder vind je de pseudocode voor de simulate functie. Kijk er goed naar, want de volgorde van de verschillende stappen in de simulatie is belangrijk. Zo kunnen er andere resultaten uitkomen als de virussen bijvoorbeeld eerst reproduceren en dan pas afsterven. 
-Denk van te voren goed na over wat de stappen "reproduce with medicine" and "reproduce without medicine" precies inhouden. Wat het verschil is tussen de twee en hoe je dit kan implementeren
+
+Hieronder vind je de pseudocode voor de `simulate`-functie. Kijk er goed naar, want de volgorde van de verschillende stappen in de simulatie is belangrijk. Zo kunnen er andere resultaten uitkomen als de virussen bijvoorbeeld eerst reproduceren en dan pas afsterven.
 
     1  function simulate
     2     let population_sizes be a list
@@ -188,49 +235,48 @@ Denk van te voren goed na over wat de stappen "reproduce with medicine" and "rep
     4         kill viruses
     5         calculate reproduction probability
     6         if timstep t >= 100
-    7             reproduce with medicine
+    7             reproduce only viruses that are resistant, while keeping all other
     8         else
-    9             reproduce without medicine
-    10        add size of population to population_sizes
+    9             reproduce any virus in the population
+    10        add resulting size of population to population_sizes
     11    return population_sizes
-
-
-### Tips
-Voor deze opdracht is het wellicht wat lastiger om zelf tests te bedenken. Daarom hebben we er onder de functie al twee meegegeven. De eerste controleert of het resultaat inderdaad bestaat uit 501 lijsten (500 tijdstappen plus de beginsituatie). De tweede controleert of, gegeven die variabelen, de simulatie de juiste resultaten geeft.
-
-
-    def simulate(viruses, mortalityProb, mutationProb, maxReproductionProb, maxPopulation, timesteps = 500):
-
 
 ### Testen
 
-    # test 1
-    viruses = [generateVirus(4) for _ in range(100)]
-    assert 501 == len(simulate(viruses, 1, 0, 0, 0))
+Voor deze opdracht is het wellicht wat lastiger om zelf tests te bedenken. Daarom hebben we er al twee.
 
-    # test 2
-    sims = []
-    n = 100
-    for i in range(n):
-        viruses = [generateVirus(4) for _ in range(100)]
-        sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
-    average = sum(sims) / n
+*   De eerste controleert of het resultaat uit `population_sizes` inderdaad bestaat uit precies 501 elementen (500 tijdstappen plus de beginsituatie).
 
-    # note: this might fluctuate a little, so if needed you can enlarge the range of valid outcomes
-    assert 25 < average < 30
+        >>> viruses = [generateVirus(4) for _ in range(100)]
+        >>> len(simulate(viruses, 1, 0, 0, 0))
+        501
+
+*   De tweede controleert of, gegeven die variabelen, de simulatie de juiste resultaten geeft.
+
+        >>> sims = []
+        >>> n = 100
+        >>> for i in range(n):
+        >>>    viruses = [generateVirus(4) for _ in range(100)]
+        >>>    sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
+        >>> average = sum(sims) / n
+        >>> 25 < average < 30
+        True
 
 ## Afronding: grafieken
 
 Hieronder vind je code voor het maken van grafieken op basis van jouw zelfgeschreven functies. Je hoeft niks aan te passen aan de onderstaande code. Dit is natuurlijk de ultieme test: het zal alleen werken als alle bovenstaande functies precies volgens de specificatie geïmplementeerd zijn.
 
-Kijk eens door de code of je snapt wat er gebeurt. De functies van de `matplotlib`-library zijn eenvoudig, maar de meeste hebben een erg cryptische naam. Eventueel kun je in de documentatie van matplotlib kijken wat de functie doet. En als je geïnteresseerd bent en nog tijd hebt, probeer dan zelf nog onderaan een interessante grafiek toe te voegen!
+Maak een `if __name__ == '__main__'` voor je programma en plaats de volgende import erin:
 
     import matplotlib.pyplot as plt
 
+Kopier daarna één voor één de volgende stukken code in de main om te kijken wat er uit komt. Mocht `matplotlib` niet goed werken (foutmeldingen) dan kun je het beste even hulp vragen of de foutmelding opzoeken op internet.
+
+Kijk eens door de code of je snapt wat er gebeurt. De functies van de `matplotlib`-library zijn eenvoudig, maar de meeste hebben een erg cryptische naam. Eventueel kun je in de documentatie van matplotlib kijken wat de functie doet. En als je geïnteresseerd bent en nog tijd hebt, probeer dan zelf nog een interessante grafiek toe te voegen!
 
 ### Grafiek van één simulatie
 
-Hieronder een grafiek van één simulatie van jouw functie! :)
+Hieronder een grafiek van één simulatie van jouw functie! Deze grafiek laat het verloop zien van de simulatie in de tijd. Je kunt je programma meerdere keren starten om verschillende grafieken te bekijken.
 
     # uitkomst van de simulatie
     simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
@@ -250,10 +296,9 @@ Hieronder een grafiek van één simulatie van jouw functie! :)
 
     plt.show()
 
-
 ### Grafiek van meerdere simulaties
 
-Zoals je misschien opviel bij de bovenstaande grafiek, het resultaat wisselt nogal. In onderstaande kun je zien dat er hoofdzakelijk twee manieren zijn waarop het kan verlopen.
+Zoals je misschien opviel bij de bovenstaande grafiek: het resultaat wisselt nogal. We kunnen de simulatie ook meermaals runnen en alles in één grafiek plotten. Dan kun je zien dat er min of meer twee manieren zijn waarop de simulatie kan verlopen.
 
     fig = plt.figure(figsize=(15, 10))
     ax = plt.axes()
@@ -261,7 +306,7 @@ Zoals je misschien opviel bij de bovenstaande grafiek, het resultaat wisselt nog
     # uitvoeren van twintig simulaties
     for i in range(20):
         simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
-    
+
         # voeg het resultaat van een simulatie toe als lijn
         ax.plot(range(501), simulate_result)
 
@@ -274,9 +319,11 @@ Zoals je misschien opviel bij de bovenstaande grafiek, het resultaat wisselt nog
 
     plt.show()
 
+Dus in een groot deel van de simulaties krijgt het virus een flinke deuk door de virusremmer maar herstelt zich daarna en blijft op niveau tot het eind van de simulatie. In een kleiner aantal van de simulaties werkt de virusremmer zó goed dat het virus al gauw verdwijnt.
+
 ### Genezen/ongenezen
 
-Als laatste grafiek gaan we kijken in hoeveel gevallen het geneesmiddel succesvol is geweest.
+Als laatste grafiek gaan we kijken in hoeveel gevallen de virusremmer dan succesvol is geweest.
 
     cured = 0 # aantal genezen simulaties
     n_simulations = 100
@@ -287,7 +334,7 @@ Als laatste grafiek gaan we kijken in hoeveel gevallen het geneesmiddel succesvo
         # als de laatste tijdstap geen virussen bevat, is de persoon genezen
         if simulate_result[-1] == 0:
             cured += 1
-        
+
     labels = 'Cured', 'Not Cured'
     sizes = [cured, n_simulations - cured]
 
@@ -297,3 +344,5 @@ Als laatste grafiek gaan we kijken in hoeveel gevallen het geneesmiddel succesvo
     ax1.axis('equal')
     plt.title('Pie chart of cured and non cured simulations')
     plt.show()
+
+Tot zover **Virus**. Hopelijk heb je een leuke introductie gehad tot het maken van simulaties. Omdat je nooit de volledige situatie kunt simuleren is het de kunst om te zoeken naar een goede combinatie van factoren die je wél kunt meenemen. Daarom is het maken van goede simulaties een [vakgebied](https://uva.computationalscience.nl) op zich!
