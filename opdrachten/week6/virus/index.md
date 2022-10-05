@@ -123,9 +123,7 @@ Virusdeeltjes kunnen afsterven. Ze sterven niet allemaal tegelijk, maar elke tij
 
 *   Let op: elk virusgenoom heeft een onafhankelijke kans om af te sterven. Dus bij een `mortality_prob` van 0.2 overleeft gemiddeld 80% van de viruspopulatie het, maar dit kan wel degelijk fluctueren per keer!
 
-*   Je mag hier **één regel code** gebruiken.
-
-    *   Gebruik een list comprehension!
+*   Je mag hier **één regel code** gebruiken, dus gebruik een list comprehension!
 
 ### Testen
 
@@ -181,7 +179,7 @@ Zodra het geneesmiddel wordt geintroduceerd, kunnen alle virussen behalve resist
 
 ### Testen
 
-Test deze functie op verschillende virussen om te kijken of het de resistente virussen herkent en de niet-resistente virussen ook.
+Test deze functie op verschillende virussen om te kijken of het de resistente virussen herkent, en de niet-resistente virussen ook.
 
 
 ## Stap 6: Reproductiekans als functie van de populatiegrootte
@@ -229,17 +227,17 @@ De simulatie werkt als volgt. Tijdens elke tijdstap:
 
 Hieronder vind je de pseudocode voor de `simulate`-functie. Kijk er goed naar, want de volgorde van de verschillende stappen in de simulatie is belangrijk. Zo kunnen er andere resultaten uitkomen als de virussen bijvoorbeeld eerst reproduceren en dan pas afsterven.
 
-    1  function simulate
-    2     let population_sizes be a list
-    3     for every timestep t
-    4         kill viruses
-    5         calculate reproduction probability
-    6         if timstep t >= 100
-    7             reproduce only viruses that are resistant, while keeping all other
-    8         else
-    9             reproduce any virus in the population
-    10        add resulting size of population to population_sizes
-    11    return population_sizes
+     1  function simulate
+     2      let population_sizes be a list
+     3      for every timestep t
+     4          kill viruses
+     5          calculate reproduction probability
+     6          if timstep t >= 100
+     7              reproduce only viruses that are resistant, while keeping all other
+     8          else
+     9              reproduce any virus in the population
+    10         add resulting size of population to population_sizes
+    11      return population_sizes
 
 ### Testen
 
@@ -259,7 +257,7 @@ Voor deze opdracht is het wellicht wat lastiger om zelf tests te bedenken. Daaro
         >>>    viruses = [generate_virus(4) for _ in range(100)]
         >>>    sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
         >>> average = sum(sims) / n
-        >>> 25 < average < 30
+        >>> 23 < average < 32
         True
 
 ## Afronding: grafieken
@@ -270,7 +268,9 @@ Maak een `if __name__ == '__main__'` voor je programma en plaats de volgende imp
 
     import matplotlib.pyplot as plt
 
-Kopier daarna één voor één de volgende stukken code in de main om te kijken wat er uit komt. Mocht `matplotlib` niet goed werken (foutmeldingen) dan kun je het beste even hulp vragen of de foutmelding opzoeken op internet.
+Zet deze import dus **niet** bovenaan je programma omdat het alleen nodig is voor de plotjes die je maakt in de main.
+
+Kopieer daarna één voor één de volgende stukken code in de main om te kijken wat er uit komt. Mocht `matplotlib` niet goed werken (foutmeldingen) dan kun je het beste even hulp vragen of de foutmelding opzoeken op internet.
 
 Kijk eens door de code of je snapt wat er gebeurt. De functies van de `matplotlib`-library zijn eenvoudig, maar de meeste hebben een erg cryptische naam. Eventueel kun je in de documentatie van matplotlib kijken wat de functie doet. En als je geïnteresseerd bent en nog tijd hebt, probeer dan zelf nog een interessante grafiek toe te voegen!
 
@@ -344,5 +344,8 @@ Als laatste grafiek gaan we kijken in hoeveel gevallen de virusremmer dan succes
     ax1.axis('equal')
     plt.title('Pie chart of cured and non cured simulations')
     plt.show()
+
+
+## Afsluiter
 
 Tot zover **Virus**. Hopelijk heb je een leuke introductie gehad tot het maken van simulaties. Omdat je nooit de volledige situatie kunt simuleren is het de kunst om te zoeken naar een goede combinatie van factoren die je wél kunt meenemen. Daarom is het maken van goede simulaties een [vakgebied](https://uva.computationalscience.nl) op zich!
