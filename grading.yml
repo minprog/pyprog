@@ -149,7 +149,7 @@ grades:
     indexer:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/5)
     eca2csv:
         <<: *automatic
         automatic:
