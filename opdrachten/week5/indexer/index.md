@@ -145,6 +145,9 @@ If you don't know how to get started with the Terminal, please ask us in class o
 
 You should not need to know how the `sys.argv` works in the code above to be able to implement the program. All you need to know is that the function `create_index` receives the name of a file that you need to open and read to fill an index.
 
+## File versus filename
+
+In this program the function `create_index` receives a **filename** as a parameter. This is not the same as having a **file** as a parameter. In the book, passing an already-opened file as a parameter is done using the `TextIO` type. However, a filename is nothing more than a simple string, so do not confuse these two!
 
 ## Testing your program
 
