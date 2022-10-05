@@ -233,7 +233,7 @@ Hieronder vind je de pseudocode voor de `simulate`-functie. Kijk er goed naar, w
      4          kill viruses
      5          calculate reproduction probability
      6          if timestep t >= 100
-     7              reproduce only viruses that are resistant, while keeping all other
+     7              reproduce only viruses that are resistent, while keeping all other
      8          else
      9              reproduce any virus in the population
     10          add resulting size of population to population_sizes
