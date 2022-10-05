@@ -182,7 +182,7 @@ Zodra het geneesmiddel wordt geintroduceerd, kunnen alle virussen behalve resist
 Test deze functie op verschillende virussen om te kijken of het de resistente virussen herkent, en de niet-resistente virussen ook.
 
 
-## Stap 6: Reproductiekans als functie van de populatiegrootte
+## Stap 6: Reproductiekans
 
 Naarmate er meer virusdeeltjes aanwezig zijn, wordt de kans op reproductie kleiner:
 er is simpelweg niet genoeg ruimte voor alle virusdeeltjes.
@@ -232,7 +232,7 @@ Hieronder vind je de pseudocode voor de `simulate`-functie. Kijk er goed naar, w
      3      for every timestep t
      4          kill viruses
      5          calculate reproduction probability
-     6          if timstep t >= 100
+     6          if timestep t >= 100
      7              reproduce only viruses that are resistant, while keeping all other
      8          else
      9              reproduce any virus in the population
