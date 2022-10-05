@@ -1,13 +1,13 @@
 # Algoritmen
 
-...
+Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds ga je kijken naar de manier waarop je een algoritme kunt ontwikkelen en waar je dan op moet letten. Anderzijds ga je kennis maken met een aantal "standaard-algoritmen" voor sorteren en zoeken. Deze standaard-algoritmen zijn zo algemeen, dat we ze in pseudocode kunnen beschrijven en in een willekeurige programmeertaal vastleggen om echt te gebruiken. En welke programmeertaal dat ook is, de eigenschappen van de algoritmen zullen steeds hetzelfde zijn. Tot slot ga je kennismaken met comprehensions in Python, waarmee je bepaalde operaties zeer compact kunt opschrijven.
 
 ## Deze week belangrijk
 
 1. Zoekalgoritmen (2 soorten)
 2. Sorteeralgoritmen (4 soorten)
-3. Pseudocode naar echte code omzetten is het doel hier
-4. List comprehensions, generators (eigen uitleg, niet in boek)
+3. Pseudocode naar echte code omzetten
+4. List comprehensions voor het schrijven van compacte code
 
 ## Aanpak
 

@@ -1,13 +1,13 @@
 # Algorithms
 
-...
+This module is all about algorithms, and specifically two aspects. On one hand you will learn how to develop an algorithm and what you need to take into account when doing that. On the other hand you will get to know a couple of "standard algorithms" for sorting and searching. These standard algorithms are so generally applicable that we can write them in pseudocode and then implement each in a arbitrary programming language to use in the real world. And whichever programming language you choose, the algorithm's properties will be the same. Finally, you will take a good look at comprehensions in Python, which you can use to express some operations in a very compact fashion.
 
 ## Important topics for this week
 
 1. Getting to know 2 search algorithms
 2. Getting to know 4 sorting algorithms
 3. Implementing algorithms from pseudocode
-4. Using list comprehensions and generators to write compact code
+4. Using list comprehensions to write compact code
 
 ## How to study
 
