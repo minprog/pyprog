@@ -8,6 +8,7 @@ This module is all about algorithms, and specifically two aspects. On one hand y
 2. Getting to know 4 sorting algorithms
 3. Implementing algorithms from pseudocode
 4. Using list comprehensions to write compact code
+5. Testing strategies for random functions
 
 ## How to study
 

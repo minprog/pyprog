@@ -8,6 +8,7 @@ Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds g
 2. Sorteeralgoritmen (4 soorten)
 3. Pseudocode naar echte code omzetten
 4. List comprehensions voor het schrijven van compacte code
+5. Teststrategiën voor random functies
 
 ## Aanpak
 

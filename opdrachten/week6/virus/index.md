@@ -65,7 +65,8 @@ Doctests schrijven voor een functie met random uitvoer werkt anders dan bij "det
         >>> all([len(generate_virus(x)) == x for x in range(8)])
         True
 
-    We gebruiken hier de Python-functie `all` die van een lijst controleert of deze overal `True` geeft.
+    *   Met de list comprehesion testen we 8 keer de functie generate virus, en de lijst wordt gevuld met de resultaten van deze tests (True, False).
+    *   We gebruiken de Python-functie `all(...)` die van een lijst controleert of deze overal `True` geeft.
 
 
 ## Stap 2: Muteren
@@ -96,9 +97,9 @@ Bijvoorbeeld van `AGTC` naar `ATTC`.
 
 *   Controleer of de `mutate`-functie altijd het virus verandert. Je zou bijvoorbeeld een groot aantal (1000) virussen kunnen aanmaken en deze kunnen muteren. Is ieder virus anders na de mutatie?
 
-*   Controleer of de lengte van het virus structureel gelijk is gebleven na mutatie.
+*   Controleer of de lengte van het virus altijd gelijk blijft na mutatie.
 
-*   Nieuwe strategie: kijk bij dit soort functie ook naar de **randgevallen**. Wat gebeurt er als `mutate` wordt aangeroepen met een lege string? Test deze eigenschap ook.
+*   Nieuwe teststrategie: kijk bij dit soort functie ook naar de **randgevallen**. Wat gebeurt er als `mutate` wordt aangeroepen met een lege string? Test deze eigenschap ook.
 
 
 ## Stap 3: Afsterven
