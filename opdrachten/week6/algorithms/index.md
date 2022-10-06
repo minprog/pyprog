@@ -1,12 +1,12 @@
 # Exercise: Algorithms
 
-Get more comfortable with sorting algorithms. Each algorithm below intends to sort an array of integers into ascending order. Generally speaking, smaller elements in the array are moved to the "left" and larger elements are moved to the "right", until they are in order.
+Get more comfortable with sorting algorithms. Each algorithm below intends to sort a list of integers into ascending order. Generally speaking, smaller elements in the list are moved to the "left" and larger elements are moved to the "right", until they are in order.
 
 > Do the exercises on paper!
 
 ## Swapping
 
-In most of the sorting algorithms below, *swapping* is important. By swapping, we mean exchanging the values at two positions in an array.
+In most of the sorting algorithms below, *swapping* is important. By swapping, we mean exchanging the values at two positions in an list.
 
 ## Selection sort
 
@@ -18,18 +18,18 @@ The following pseudocode describes the selection sort algorithm.
     while i < n
         min_j = i; j = i
         while j < n:
-            if array[j] < array[min_j]
+            if numbers[j] < numbers[min_j]
                 min_j = j
             j = j + 1
 
-        tmp = array[min_j]
-        array[min_j] = array[i]
-        array[i] = tmp
+        tmp = numbers[min_j]
+        number[min_j] = numbers[i]
+        numbers[i] = tmp
 
-        print(array)
+        print(numbers)
         i = i + 1
 
-Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform the procedure on the list `[5, 1, 2, 8, 6]` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the list is sorted on every line by drawing a rectangle around the sorted part of the list.  
 
 ![](sort.PNG)
 
@@ -43,17 +43,17 @@ Consider the following pseudocode for bubble sort.
         counter = 0
         i = 0
         while i < n - 1
-            if array[i] > array[i + 1]
-                tmp = array[i]
-                array[i] = array[i + 1]
-                array[i + 1] = tmp
+            if numbers[i] > numbers[i + 1]
+                tmp = numbers[i]
+                numbers[i] = numbers[i + 1]
+                numbers[i + 1] = tmp
                 counter = counter + 1
             i = i + 1
 
-        print(array)
+        print(numbers)
     while counter > 0
 
-Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform the procedure on the list `[5, 1, 2, 8, 6]` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the list is sorted on every line by drawing a rectangle around the sorted part of the list.  
 
 ![](sort.PNG)
 
@@ -65,16 +65,16 @@ Consider the following pseudocode for insertion sort.
 
     i = 0
     while i < n
-        element = array[i]
+        element = numbers[i]
         j = i
-        while(j > 0 and array[j - 1] > element)
-            array[j] = array[j - 1]
+        while(j > 0 and numbers[j - 1] > element)
+            numbers[j] = numbers[j - 1]
             j = j - 1
-        array[j] = element
-        print(array)
+        numbers[j] = element
+        print(numbers)
         i = i + 1
 
-Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform the procedure on the list `[5, 1, 2, 8, 6]` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the list is sorted on every line by drawing a rectangle around the sorted part of the list.  
 
 ![](sort.PNG)
 
