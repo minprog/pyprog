@@ -111,7 +111,7 @@ grades:
     rna:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/6)
     leesbaarheid:
         <<: *automatic
         automatic:
