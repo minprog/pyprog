@@ -157,7 +157,7 @@ grades:
     klimaat:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/2)
+            done: -(correctness_score.floor/3)
 
     toetsje_week_2:
         <<: *automatic
