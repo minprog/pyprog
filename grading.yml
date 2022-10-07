@@ -153,11 +153,11 @@ grades:
     eca2csv:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/3)
+            done: -(correctness_score.floor/2)
     klimaat:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/3)
+            done: -(correctness_score.floor/2)
 
     toetsje_week_2:
         <<: *automatic
