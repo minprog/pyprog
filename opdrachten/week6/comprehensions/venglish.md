@@ -29,7 +29,7 @@ You do not necessarily have to use the value `i` when generating the result. In 
 
 Write a list comprehension that generates a list of four random letters from the options `'A', 'B', 'C', 'D'`. To do this, use `random.choice()`. So a completely random outcome could be `['A', 'C', 'A', 'A']`.
 
-<textarea name="form[q1]" rows="3" required></textarea>
+> Enter your answer in the Dutch version
 
 ## Conditions
 
@@ -50,7 +50,7 @@ Fully equivalent is the written `for` loop:
 
 Write a list comprehension that generates a "value + 5" from 10 odd numbers. So that should yield ten numbers that start with `[6, 8, 10, ...]`. Be careful not to generate just 5 numbers!
 
-<textarea name="form[q2]" rows="3" required></textarea>
+> Enter your answer in the Dutch version
 
 ## From list to list
 
@@ -67,7 +67,7 @@ Note that it is customary to make such a combination of singular ("vowel") and p
 
 Write a list comprehension that is not based on a list but on a *string*. We'll give you a password string `'mo4br99!'` to use as input. Give a list comprehension that, with the help of `isnumeric()`, indicates per character of the password whether it is a number. The result would start with `[False, False, True, ...]`.
 
-<textarea name="form[q3]" rows="3" required></textarea>
+> Enter your answer in the Dutch version
 
 ## Filter
 
@@ -88,7 +88,7 @@ Mind you, you can go very far. For example, you can write multidimensional list 
 
 Write a list comprehension that returns all digits in the password `'mo4br99!'`.
 
-<textarea name="form[q4]" rows="3" required></textarea>
+> Enter your answer in the Dutch version
 
 ## Generate Strings
 
