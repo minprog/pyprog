@@ -50,6 +50,8 @@ Manually create and print viruses of different lengths to verify that they are c
 
 The outcome is of course random, so check carefully whether the genomes that are made do indeed differ. Also check that after a few spins you can see all the nucleotides passing by.
 
+Testing interactively is great as a quick check, but as soon as the results seem reasonable you must get started writing doctests!
+
 Writing doctests for a function with random output works differently than for "deterministic" functions. Here are some ideas:
 
 *   You can test **properties** of the output, for example:
@@ -104,7 +106,7 @@ For example from `AGTC` to `ATTC`.
 
 * Check whether the length of the virus always remains the same after mutation.
 
-* New test strategy: also look at the **edge cases** for this type of function. What happens when `mutate` is called with an empty string? Test this property as well.
+* New test strategy: also look at the **edge cases** for this type of function. What happens when `mutate` is called with an empty string? Test this property as well. (An emtpy string is not really a virus of course, but at least you do not want an empty string to contain virus elements after mutating!)
 
 
 ## Step 3: Die off

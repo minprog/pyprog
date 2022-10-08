@@ -47,6 +47,8 @@ Maak en print handmatig virussen van verschillende lengtes om te kijken of deze 
 
 De uitkomst is natuurlijk willekeurig, dus kijk goed of de gemaakte genomen inderdaad steeds verschillen. Controleer ook dat je over een paar keer draaien alle nucleotiden weleens voorbij ziet komen.
 
+Bovenstaande manier van handmatig testen is snel te doen, maar als het redelijk lijkt moet je ook doctests gaan formuleren!
+
 Doctests schrijven voor een functie met random uitvoer werkt anders dan bij "deterministische" functies. Hier enkele ideeën:
 
 *   Je kunt **eigenschappen** van de uitvoer testen, bijvoorbeeld:
@@ -99,7 +101,7 @@ Bijvoorbeeld van `AGTC` naar `ATTC`.
 
 *   Controleer of de lengte van het virus altijd gelijk blijft na mutatie.
 
-*   Nieuwe teststrategie: kijk bij dit soort functie ook naar de **randgevallen**. Wat gebeurt er als `mutate` wordt aangeroepen met een lege string? Test deze eigenschap ook.
+*   Nieuwe teststrategie: kijk bij dit soort functie ook naar de **randgevallen**. Wat gebeurt er als `mutate` wordt aangeroepen met een lege string? Test deze eigenschap ook. (Een lege string is natuurlijk niet echt een virus, maar je wil in ieder geval niet dat een lege string na mutatie opeens virus-elementen bevat!)
 
 
 ## Stap 3: Afsterven
