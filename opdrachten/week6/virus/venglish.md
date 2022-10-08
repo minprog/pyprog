@@ -19,7 +19,7 @@ DNA is a strand containing particles called nucleotides. Each DNA molecule actua
 
 (Disclaimer: we are not biologists and coronaviruses are RNA viruses and not DNA viruses :-))
 
-### Clues
+### Hints
 
 *   Add these lines at the top of a `virus.py` file:
 
@@ -38,7 +38,7 @@ DNA is a strand containing particles called nucleotides. Each DNA molecule actua
 
 *   Take a look at the `random.choice()` function.
 
-### To test
+### Testing
 
 Manually create and print viruses of different lengths to verify that they are correct. If you wrote the function in a `virus.py` file, you can run Python **interactive** to test:
 
@@ -80,7 +80,7 @@ Once a virus is born, it has a chance to mutate.
 Mutation is changing one random nucleotide for another randomly.
 For example from `AGTC` to `ATTC`.
 
-### Clues
+### Hints
 
 * Write a function `mutate(virus)`.
 
@@ -98,7 +98,7 @@ For example from `AGTC` to `ATTC`.
 
 * Use list slicing (see your book).
 
-### To test
+### Testing
 
 * Check if the `mutate` function always changes the virus. For example, you could create a large number (1000) viruses and mutate them. Is every virus different after the mutation?
 
@@ -117,7 +117,7 @@ We will now continue to work with this structure.
 
 Virus particles can die. They don't all die at once, but every time step every virus has a chance to die. With the following function we are going to simulate this event.
 
-### Clues
+### Hints
 
 * Write a function `kill(viruses, mortality_prob)`.
 
@@ -131,7 +131,7 @@ Virus particles can die. They don't all die at once, but every time step every v
 
 * You are allowed to use **one line of code** here, so use a list comprehension!
 
-### To test
+### Testing
 
 * Consider how many viruses should be left on average after this feature. Note that there is a lot of randomness in this feature, so don't be surprised if it's a little bit above or below it. Test that property.
 
@@ -158,7 +158,7 @@ There is a chance that a mutation will occur: then one base pair is different.
 
 * No rule limit, but if you want to challenge yourself: 2 rules is possible.
 
-### To test
+### Testing
 
 * As with previous function, check that this function returns approximately the expected number of viruses.
 
@@ -181,7 +181,7 @@ Once the drug is introduced, all viruses except resistant viruses can no longer 
 
 * A virus is only resistant if `AAA` occurs consecutively.
 
-### To test
+### Testing
 
 Test this feature on different viruses to see if it recognizes the resistant viruses as well as the non-resistant ones.
 
@@ -212,7 +212,7 @@ The simulation works as follows. During each time step:
 
 **But** from the 100th time step we add a virus inhibitor to the simulation, and then only resistant viruses can reproduce.
 
-### Clues
+### Hints
 
 * Write a function called `simulate(viruses, mortality_prob, mutation_prob, max_reproduction_prob, max_population, timesteps = 500)`.
 
@@ -243,7 +243,7 @@ Below is the pseudocode for the `simulate` function. Look at it carefully, becau
     10 add resulting size of population to population_sizes
     11 return population_sizes
 
-### To test
+### Testing
 
 For this assignment it may be a bit more difficult to come up with tests yourself. That's why we already have two.
 
@@ -330,7 +330,8 @@ So in a large part of the simulations, the virus gets a big dent from the virus 
 
 As a final graph, we will look at how many cases the virus inhibitor has been successful in.
 
-    cured = 0 # number of cured simulations
+    cured = 0
+    # number of cured simulations
     n_simulations = 100
 
     # run the simulation 100 times, and keep track of how many of them are healed
