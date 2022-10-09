@@ -1,8 +1,15 @@
 # Simulate with viruses
 
-> This version has been automatically translated and will be reviewed for errors on Monday.
-
 ![](virus.jpg)
+
+> This week you will receive credit for successfully doing assignments:
+> 
+> - 1 point for the Algorithms assignment
+> - 1 point for steps 1, 2, 3, 4 and 5 (if limits are met)
+> - 2 points for a simulatie in step 7 that yields correct results
+> - 1 point for an insightful graph based on running simulations
+
+> This version has been automatically translated and will be reviewed for errors on Monday.
 
 It is important for policymakers and the pharmaceutical industry to determine the success rate of a drug. Because many factors play a role, it is difficult to capture this probability in a mathematical formula, which is why simulations offer a solution. In this assignment you will **simulate** virus particles that can reproduce and die. We build this assignment step by step into a complete, but simplified simulation.
 
@@ -281,49 +288,53 @@ Then copy the following pieces of code one by one into the main to see what come
 
 Look through the code to see if you understand what's happening. The functions of the `matplotlib` library are simple, but most of them have very cryptic names. Optionally, you can check the documentation of matplotlib to see what the function does. And if you're interested and still have time, try adding another interesting chart yourself!
 
-### Graph of one simulation
+### Graphing a single simulation
 
 Below is a graph of one simulation of your function! This graph shows the course of the simulation over time. You can start your program multiple times to view different graphs.
 
-    # outcome of the simulation
-    simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
+    # draai de simulatie
+    viruses = [generate_virus(4) for _ in range(100)]
+    result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
     fig = plt.figure(figsize=(15, 10))
-    ax = plt.axes()
+    axes = plt.axes()
 
-    # plotting the data
-    ax.plot(range(501), simulate_result)
+    # plotten van de data
+    axes.plot(range(501), result)
 
-    # layout of the chart
+    # opmaak van de grafiek
     plt.title('Simulation')
     plt.xlabel('Timestep')
     plt.ylabel('Number of viruses')
-    plt.ylim(0.110)
-    plt.xlim(0.500)
-
+    plt.ylim(0,110)
+    plt.xlim(0,500)
     plt.show()
 
-### Graph of multiple simulations
+### Graphing multiple simulations
 
 As you may have noticed from the graph above, the result varies quite a bit. We can also run the simulation several times and plot everything in one graph. Then you can see that there are more or less two ways in which the simulation can run.
 
+    # aantal te draaien simulaties
+    n_simulations = 20
+
+    # zet een figuur klaar voor het plotten van meerdere lines
     fig = plt.figure(figsize=(15, 10))
-    ax = plt.axes()
+    axes = plt.axes()
 
-    # run twenty simulations
-    for i in range(20):
-        simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
+    # uitvoeren van meerdere simulaties
+    for i in range(n_simulations):
+        viruses = [generate_virus(4) for _ in range(100)]
+        result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
-        # add the result of a simulation as a line
-        ax.plot(range(501), simulate_result)
+        # voeg het resultaat van een simulatie toe als lijn in de plot
+        axes.plot(range(501), result)
 
-    # layout of the chart
+    # opmaak van de multi-line chart
     plt.title('Simulations')
     plt.xlabel('Timestep')
     plt.ylabel('Number of viruses')
-    plt.ylim(0.110)
-    plt.xlim(0.500)
-
+    plt.ylim(0,110)
+    plt.xlim(0,500)
     plt.show()
 
 So in a large part of the simulations, the virus gets a big dent from the virus inhibitor, but then recovers and stays at the same level until the end of the simulation. In a smaller number of the simulations, the virus inhibitor works so well that the virus soon disappears.
@@ -332,27 +343,30 @@ So in a large part of the simulations, the virus gets a big dent from the virus 
 
 As a final graph, we will look at how many cases the virus inhibitor has been successful in.
 
-    cured = 0
-    # number of cured simulations
+    # aantal te draaien simulaties
     n_simulations = 100
 
-    # run the simulation 100 times, and keep track of how many of them are healed
+    # voor het bijhouden van aantal genezen
+    n_simulations_cured = 0
+
+    # voer de simulatie honderd keer uit, en hou bij hoeveel daarvan genezen zijn
     for i in range(n_simulations):
-        simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
-        # if the last time step does not contain viruses, the person is cured
-        if simulate_result[-1] == 0:
-            cured += 1
+        viruses = [generate_virus(4) for _ in range(100)]
+        result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
-    labels = 'Cured', 'Not Cured'
-    sizes = [cured, n_simulations - cured]
+        # als de laatste tijdstap geen virussen bevat, is de persoon genezen
+        if result[-1] == 0:
+            n_simulations_cured += 1
 
-    # making the pie chart
+    labels = ['Cured', 'Not Cured']
+    sizes = [n_simulations_cured, n_simulations - n_simulations_cured]
+
+    # opmaak van de pie chart
     fig1, ax1 = plt.subplots(figsize=(8, 8))
     ax1.pie(sizes, labels=labels, autopct='%1i%%',startangle=90)
     ax1.axis('equal')
     plt.title('Pie chart of cured and non cured simulations')
     plt.show()
-
 
 ## Valve
 

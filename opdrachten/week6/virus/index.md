@@ -2,6 +2,13 @@
 
 ![](virus.jpg)
 
+> Deze week krijg je punten voor de gemaakte opdrachten:
+> 
+> - 1 punt voor de opdracht Algorithms
+> - 1 punt voor stap 1, 2, 3, 4 en 5 (mits gehouden aan de limieten)
+> - 2 punten voor een goedwerkende simulatie in stap 7
+> - 1 punt voor een inzichtvolle eigen grafiek op basis van simulaties
+
 Voor beleidsmakers en de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen. Omdat vele factoren een rol spelen is het lastig om deze kans in een wiskunde formule te vatten, en daarom biedt het doen van simulaties een uitkomst. In deze opdracht ga je virusdeeltjes **simuleren** die kunnen reproduceren en sterven. We bouwen deze opdracht stap voor stap op tot een complete, maar versimpelde simulatie.
 
 Bij deze opdracht focussen we niet alleen op het idee van simuleren, maar je gaat ook uitgebreider dan voorheen je code testen. Bij elke tussenstap vind je aanwijzingen voor een functie die jij gaat implementeren. In de uitleg staat altijd een kopje "Testen", met aanwijzingen over hoe jij kan checken of je functie voldoet aan de verwachtingen. Deze aanwijzingen zijn niet compleet! Het kan zijn dat je tegen problemen aanloopt die hierdoor niet gecheckt worden. Je moet dus ook oefenen met het zelf nadenken over potentiële problemen. Hou in ieder geval het doel in de gaten: voorkomen dat fouten zich **opstapelen**. Als een fout zich pas op het allerlaatst vertoont, is het namelijk veel lastiger om de ware oorzaak te vinden.
@@ -253,12 +260,12 @@ Voor deze opdracht is het wellicht wat lastiger om zelf tests te bedenken. Daaro
 *   De tweede controleert of, gegeven die variabelen, de simulatie de juiste resultaten geeft.
 
         >>> sims = []
-        >>> n = 100
+        >>> n = 1000
         >>> for i in range(n):
         >>>    viruses = [generate_virus(4) for _ in range(100)]
         >>>    sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
         >>> average = sum(sims) / n
-        >>> 23 < average < 32
+        >>> 25 < average < 32
         True
 
 ## Afronding: grafieken
@@ -279,14 +286,15 @@ Kijk eens door de code of je snapt wat er gebeurt. De functies van de `matplotli
 
 Hieronder een grafiek van één simulatie van jouw functie! Deze grafiek laat het verloop zien van de simulatie in de tijd. Je kunt je programma meerdere keren starten om verschillende grafieken te bekijken.
 
-    # uitkomst van de simulatie
-    simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
+    # draai de simulatie
+    viruses = [generate_virus(4) for _ in range(100)]
+    result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
     fig = plt.figure(figsize=(15, 10))
-    ax = plt.axes()
+    axes = plt.axes()
 
     # plotten van de data
-    ax.plot(range(501), simulate_result)
+    axes.plot(range(501), result)
 
     # opmaak van de grafiek
     plt.title('Simulation')
@@ -294,30 +302,33 @@ Hieronder een grafiek van één simulatie van jouw functie! Deze grafiek laat he
     plt.ylabel('Number of viruses')
     plt.ylim(0,110)
     plt.xlim(0,500)
-
     plt.show()
 
 ### Grafiek van meerdere simulaties
 
 Zoals je misschien opviel bij de bovenstaande grafiek: het resultaat wisselt nogal. We kunnen de simulatie ook meermaals runnen en alles in één grafiek plotten. Dan kun je zien dat er min of meer twee manieren zijn waarop de simulatie kan verlopen.
 
+    # aantal te draaien simulaties
+    n_simulations = 20
+
+    # zet een figuur klaar voor het plotten van meerdere lines
     fig = plt.figure(figsize=(15, 10))
-    ax = plt.axes()
+    axes = plt.axes()
 
-    # uitvoeren van twintig simulaties
-    for i in range(20):
-        simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
+    # uitvoeren van meerdere simulaties
+    for i in range(n_simulations):
+        viruses = [generate_virus(4) for _ in range(100)]
+        result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
-        # voeg het resultaat van een simulatie toe als lijn
-        ax.plot(range(501), simulate_result)
+        # voeg het resultaat van een simulatie toe als lijn in de plot
+        axes.plot(range(501), result)
 
-    # opmaak van de grafiek
+    # opmaak van de multi-line chart
     plt.title('Simulations')
     plt.xlabel('Timestep')
     plt.ylabel('Number of viruses')
     plt.ylim(0,110)
     plt.xlim(0,500)
-
     plt.show()
 
 Dus in een groot deel van de simulaties krijgt het virus een flinke deuk door de virusremmer maar herstelt zich daarna en blijft op niveau tot het eind van de simulatie. In een kleiner aantal van de simulaties werkt de virusremmer zó goed dat het virus al gauw verdwijnt.
@@ -326,20 +337,25 @@ Dus in een groot deel van de simulaties krijgt het virus een flinke deuk door de
 
 Als laatste grafiek gaan we kijken in hoeveel gevallen de virusremmer dan succesvol is geweest.
 
-    cured = 0 # aantal genezen simulaties
+    # aantal te draaien simulaties
     n_simulations = 100
+
+    # voor het bijhouden van aantal genezen
+    n_simulations_cured = 0
 
     # voer de simulatie honderd keer uit, en hou bij hoeveel daarvan genezen zijn
     for i in range(n_simulations):
-        simulate_result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
+        viruses = [generate_virus(4) for _ in range(100)]
+        result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
+
         # als de laatste tijdstap geen virussen bevat, is de persoon genezen
-        if simulate_result[-1] == 0:
-            cured += 1
+        if result[-1] == 0:
+            n_simulations_cured += 1
 
-    labels = 'Cured', 'Not Cured'
-    sizes = [cured, n_simulations - cured]
+    labels = ['Cured', 'Not Cured']
+    sizes = [n_simulations_cured, n_simulations - n_simulations_cured]
 
-    # maken van de pie chart
+    # opmaak van de pie chart
     fig1, ax1 = plt.subplots(figsize=(8, 8))
     ax1.pie(sizes, labels=labels, autopct='%1i%%',startangle=90)
     ax1.axis('equal')
