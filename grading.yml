@@ -161,19 +161,13 @@ grades:
 
     algorithms: *check
     comprehensions: *check
-    virus:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/20)
+    virus: *manual
 
     callcenter:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/3)
-    adventure:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/3)
+    adventure: *manual
 
     toetsje_week_2:
         <<: *automatic
@@ -312,6 +306,6 @@ tests:
 
 exam:
     show_progress: true
-    required: true
+    attempt_required: true
     submits:
         exam_1: 1
