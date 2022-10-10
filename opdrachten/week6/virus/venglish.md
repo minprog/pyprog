@@ -9,20 +9,20 @@
 > - 2 points for a simulation in step 7 that yields correct results
 > - 1 point for an insightful graph based on running simulations
 
-> This version has been automatically translated and will be reviewed for errors on Monday.
+It is important for policymakers and the pharmaceutical industry to determine the success rate of a drug. Because many factors interact when trialling new drugs, it is difficult to capture the success rate in a mathematical formula. This is why simulations are used to model the effect of drugs in certain medical situations.
 
-It is important for policymakers and the pharmaceutical industry to determine the success rate of a drug. Because many factors play a role, it is difficult to capture this probability in a mathematical formula, which is why simulations offer a solution. In this assignment you will **simulate** virus particles that can reproduce and die. We build this assignment step by step into a complete, but simplified simulation.
+In this assignment you will **simulate** virus particles that can reproduce and die. We build this assignment step by step into a complete, but simplified simulation. We do not just focus on the idea of ​​simulation, but you will also test your code more extensively than before. At each intermediate step you will find instructions for a function that you are going to implement. The explanation always contains a heading "Testing", with instructions on how you can check whether your position meets the expectations.
 
-In this assignment we not only focus on the idea of ​​simulation, but you will also test your code more extensively than before. At each intermediate step you will find instructions for a function that you are going to implement. The explanation always contains a heading "Testing", with instructions on how you can check whether your position meets the expectations. These directions are not complete! It is possible that you run into problems that are not checked because of this. So you should also practice thinking about potential problems for yourself. In any case, keep an eye on the goal: to prevent mistakes from **piling up**. If an error only shows up at the very end, it is much more difficult to find the true cause.
+However, testing directions are not complete! It is possible that you run into problems that are not covered by the tests. So you should also practice thinking about potential problems for yourself. The most important thing is to keep an eye on the goal of testing in this assignment, which is to prevent mistakes from **piling up**. If an error only shows up at the very end, it is much more difficult to find the true cause.
 
 So do this assignment step by step, including testing!
 
-On the other hand, "list comprehensions" play a major role in this assignment. To give extra motivation to use these, there is a **limit** for the number of lines of code that may be used for the solution for assignments. Doesn't that work? First make your solution (if possible) working without list comprehensions and ask the assistants for help with converting to list comprehensions.
+As a final component, list comprehensions play a major role in this assignment. To give extra motivation to use these, there is a **limit** for the number of lines of code that may be used for the solution for assignments. Can't find out hwo? First create your solution without list comprehensions and then ask the teachers for help with the conversion.
 
 
 ## Step 1: Virus Genome
 
-DNA is a strand containing particles called nucleotides. Each DNA molecule actually consists of two strands of such nucleotides, which are additionally linked together at each nucleotide. The connected nucleotides are called base pairs. Because these pairs always occur in fixed combinations, it is sufficient to specify the names of the nucleotides of one strand when typing a DNA double strand. The names are: adenine (A), cytosine (C), guanine (G) and thymine (T). In any human cell, the DNA strand is made up of billions of such base pairs. Many viruses are also made up of exactly the same types of cells.
+A DNA helix consists of two strands of elements that are called nucleotides. Nucleotides from each strand are pairwise linked together, forming base pairs. Because these pairs always occur in fixed combinations, it is sufficient to specify the names of the nucleotides of a single strand when identifying DNA. These names are adenine (A), cytosine (C), guanine (G) and thymine (T). In any human cell, the DNA strands are made up of billions of such base pairs, and many viruses are also made up of exactly the same components.
 
 (Disclaimer: we are not biologists and coronaviruses are RNA viruses and not DNA viruses :-))
 
@@ -37,17 +37,13 @@ DNA is a strand containing particles called nucleotides. Each DNA molecule actua
 
     * This function takes one argument, `length`, which is an integer representing the length of the virus genome.
 
-    * The function must return a string consisting of an arbitrary sequence of nucleotides.
+    * The function must return a string consisting of an arbitrary sequence of nucleotides (A, C, G or T).
 
 *   Oh, and one more thing: you can only use **one line of code** for this function.
 
-*   Use a list comprehension and the `"".join()` method of a string.
-
-*   Take a look at the `random.choice()` function.
-
 ### Testing
 
-Manually create and print viruses of different lengths to verify that they are correct. If you wrote the function in a `virus.py` file, you can run Python **interactive** to test:
+Manually create and print viruses of different lengths to verify that the function works correctly. If you wrote the function in a `virus.py` file, you can run Python **interactively** to test:
 
     $ python3 -i virus.py
     >>> generate_virus(4)
@@ -55,11 +51,9 @@ Manually create and print viruses of different lengths to verify that they are c
     >>> generate_virus(4)
     'TCBT'
 
-The outcome is of course random, so check carefully whether the genomes that are made do indeed differ. Also check that after a few spins you can see all the nucleotides passing by.
+The function outcome is random, so check carefully whether the genomes that are generated are reasonably different each time. Also check that, after a few runs, you have seen all four kinds of nucleotides.
 
-Testing interactively is great as a quick check, but as soon as the results seem reasonable you must get started writing doctests!
-
-Writing doctests for a function with random output works differently than for "deterministic" functions. Here are some ideas:
+Now, testing interactively is great as a quick check, but as soon as the results seem reasonable you should get started writing doctests! Writing doctests for a function with random output works differently than for "deterministic" functions. Here are some ideas:
 
 *   You can test **properties** of the output, for example:
 
@@ -67,7 +61,7 @@ Writing doctests for a function with random output works differently than for "d
 
     *   The output type: `type(generate_virus(0))` must be `str`.
 
-*   You can give the `random` module a ["seed"](https://docs.python.org/3/library/random.html#random.seed) so that the results are no longer really random. This way you can still test the outcome of a function. Make sure you call the `random.seed` in the test, so that the function always works randomly in normal situation. An example of a concrete doctest:
+*   You can give the `random` module a ["seed"](https://docs.python.org/3/library/random.html#random.seed) so that the results are no longer really random. This way you can still test the outcome of a function. Make sure you call the `random.seed` only in the test code, so that the function always works randomly when used in the remainder of the assignment. An example of a concrete doctest:
 
         >>> random.seed(0)
         >>> generate_virus(4)
@@ -78,16 +72,16 @@ Writing doctests for a function with random output works differently than for "d
         >>> all([len(generate_virus(x)) == x for x in range(8)])
         true
 
-    *   With the list comprehesion we test the function generate virus 8 times, and the list is filled with the results of these tests (True, False).
+    *   Using this list comprehesion we have the function generate a virus 8 times, and the list is filled with the results of these tests (True, False).
 
-    *   We use the Python function `all(...)` which checks from a list whether it returns `True` everywhere.
+    *   We use the Python function `all(...)` that checks whether a list just contains `True` values.
 
 
 ## Step 2: Mutate
 
-Once a virus is born, it has a chance to mutate.
-Mutation is changing one random nucleotide for another randomly.
-For example from `AGTC` to `ATTC`.
+Once a virus is created, it has a chance to mutate.
+Mutation is changing one random nucleotide into a different type, randomly.
+For example, from `AGTC` to `ATTC`.
 
 ### Hints
 
@@ -97,9 +91,9 @@ For example from `AGTC` to `ATTC`.
 
     * The function must return a string consisting of the same nucleotides, one of which is mutated.
 
-* No rule limit this time, but if you want to challenge yourself: 3 (or less) rules is possible.
+* No limit on the number of lines this time, but if you want to challenge yourself: 3 lines is possible.
 
-* A change after which the result is the same does not count as a change.
+* A mutation resulting in exactly the same string does not count as a change.
 
     * You may **not** solve this problem by making random mutations until one succeeds. The mutation must give a valid result in one go.
 
@@ -109,49 +103,54 @@ For example from `AGTC` to `ATTC`.
 
 ### Testing
 
-* Check if the `mutate` function always changes the virus. For example, you could create a large number (1000) viruses and mutate them. Is every virus different after the mutation?
+* Check whether `mutate` always changes the virus. For example, you could create a large number (1000) viruses and mutate them. Is every virus different after the mutation?
 
 * Check whether the length of the virus always remains the same after mutation.
 
-* New test strategy: also look at the **edge cases** for this type of function. What happens when `mutate` is called with an empty string? Test this property as well. (An emtpy string is not really a virus of course, but at least you do not want an empty string to contain virus elements after mutating!)
+* New test strategy: also look at the **edge cases** for this type of function. What happens when `mutate` is called with an empty string? Test this property as well. (An emtpy string is not really a virus of course, but at the very least you do not want this function to convert an empty string to a string contain virus elements after mutating!)
+
+
+## Intermezzo: time steps
+
+Biological behaviour is generally chaotic. There is not a single point in time that cells in an organism suddenly die off. There is not a clock-like regularity in reproduction of cells. That is where we will take shortcuts in doing simulations: we define a simulation in terms of "time steps" where everything happens in a certain order. We will come back to this, but first let us define some more elementary things that can happen during the simulation.
 
 
 ## Step 3: Die off
 
-In the previous two steps, we worked with individual viruses. We have represented it as a string. For our simulation we will be working with a large amount of viruses. To represent such a population we can make a **list** of viruses. That could look like this:
+In the previous two steps, we worked with individual viruses, and we have represented these as strings. For the simulation we will be working with a large number of virus particles: a population. To represent such a population we can make a **list** of viruses. It could look like the following:
 
     ['ACTG', 'AGAA', 'ACCG', 'GTCA']
 
-We will now continue to work with this structure.
+We will now continue to work with full populations.
 
-Virus particles can die. They don't all die at once, but every time step every virus has a chance to die. With the following function we are going to simulate this event.
+Virus particles can die. They do not die all at once, but every step in time, every virus has a certain chance to die. With the following function we are going to simulate this event.
 
 ### Hints
 
 * Write a function `kill(viruses, mortality_prob)`.
 
-    * This function accepts the `viruses` argument, which is a list of virus genomes.
+    * This function accepts an argument `viruses`, which is a population of viruses.
 
-    * And an argument `mortality_prob`, a float between 0 and 1 (inclusive) that represents the probability of death per virus particle.
+    * And an argument `mortality_prob`, a `float` between 0 and 1 (inclusive) that represents the probability of death per virus particle.
 
 * The function should return a **new** list containing the virus genomes that survived.
 
-* Note: each virus genome has an independent chance of dying. So with a `mortality_prob` of 0.2 on average 80% of the virus population survives, but this can certainly fluctuate at a time!
+* Note: each virus genome has an independent chance of dying. So with a `mortality_prob` of 0.2 on average 80% of the virus population survives, but this can certainly fluctuate!
 
-* You are allowed to use **one line of code** here, so use a list comprehension!
+* You are allowed to use just **one line of code** here, so use a list comprehension.
 
 ### Testing
 
-* Consider how many viruses should be left on average after this feature. Note that there is a lot of randomness in this feature, so don't be surprised if it's a little bit above or below it. Test that property.
+* Because the function is random, consider how many viruses should be left, on average, each time you call the function. Test if that is the case for calling the function 100 times with a random virus population. Because of the randomness, the result will never be exact; so leave some room.
 
-* Don't just test your function with values ​​in the middle, but also look for the edge cases. Is what happens if I set the chance of death to 0 or 1?
+* Don't just test your function with "realistic" values, but also look for the edge cases. What happens when you set the chance of death to 0 or 1?
 
 
 ## Step 4: Reproduction
 
 A virus has a chance to propagate at any time step in the simulation.
 When a virus reproduces, the child has exactly the same DNA string as the parent.
-There is a chance that a mutation will occur: then one base pair is different.
+There is a chance that a mutation will occur: in that case one base pair is different.
 
 * For reproduction, write a function `reproduce(viruses, mutation_prob, reproduction_prob)`.
 

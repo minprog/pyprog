@@ -34,13 +34,9 @@ DNA is een streng met daarin deeltjes die nucleotiden worden genoemd. Elk DNA-mo
 
     *   Deze functie accepteert één argument, `length`, en dat is een integer die de lengte van het virusgenoom representeert.
 
-    *   De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotiden.
+    *   De functie moet een string returnen bestaande uit een willekeurige sequentie van nucleotiden (A, C, G of T).
 
 *   Oh, en one more thing: je mag maar **één regel code** gebruiken voor deze functie.
-
-*   Gebruik een list comprehension en de `"".join()` methode van een string.
-
-*   Kijk eens naar de `random.choice()` functie.
 
 ### Testen
 
@@ -109,6 +105,11 @@ Bijvoorbeeld van `AGTC` naar `ATTC`.
 *   Controleer of de lengte van het virus altijd gelijk blijft na mutatie.
 
 *   Nieuwe teststrategie: kijk bij dit soort functie ook naar de **randgevallen**. Wat gebeurt er als `mutate` wordt aangeroepen met een lege string? Test deze eigenschap ook. (Een lege string is natuurlijk niet echt een virus, maar je wil in ieder geval niet dat een lege string na mutatie opeens virus-elementen bevat!)
+
+
+## Intermezzo: tijdstappen
+
+Biologisch gedrag is over het algemeen chaotisch. Er is niet een vast moment in de tijd dat cellen in een organisme opeens sterven. Er is geen regelmaat in de tijden waarop cellen zich vermenigvuldigen. Dat is waar we simulaties vereenvoudigen: we definiëren een simulatie in termen van "tijdstappen" waar alles in een bepaalde volgorde gebeurt. We komen hier nog op terug, maar laten we eerst enkele elementaire onderdelen definiëren die tijdens een simulatie kunnen gebeuren.
 
 
 ## Stap 3: Afsterven
