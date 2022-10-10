@@ -164,7 +164,7 @@ grades:
     virus:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/3)
+            done: -(correctness_score.floor/20)
 
     callcenter:
         <<: *automatic
@@ -217,7 +217,7 @@ calculation:
         practice: 6
         assignments: 12
         reviews: 28
-        big_assignments: 14
+        final_assignments: 14
         exam: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
