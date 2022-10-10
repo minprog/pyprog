@@ -166,6 +166,15 @@ grades:
         automatic:
             done: -(correctness_score.floor/3)
 
+    callcenter:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/3)
+    adventure:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/3)
+
     toetsje_week_2:
         <<: *automatic
         automatic:
