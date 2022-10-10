@@ -159,6 +159,13 @@ grades:
         automatic:
             done: -(correctness_score.floor/3)
 
+    algorithms: *check
+    comprehensions: *check
+    virus:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/3)
+
     toetsje_week_2:
         <<: *automatic
         automatic:
@@ -198,9 +205,10 @@ grades:
 
 calculation:
     eindcijfer:
-        practice: 10
-        assignments: 20
-        reviews: 70
+        practice: 6
+        assignments: 12
+        reviews: 28
+        big_assignments: 14
         exam: 0
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
@@ -267,6 +275,11 @@ assignments:
         eca2csv: 70
         klimaat: 70
 
+        algorithms: 105
+        comprehensions: 105
+
+        callcenter: 210
+
 reviews:
     show_progress: true
     submits:
@@ -274,7 +287,12 @@ reviews:
         m3: 1
         m4: 1
         m5: 1
-        m6: 1
+
+final_assignments:
+    show_progress: true
+    submits:
+        virus: 1
+        adventure: 1
 
 tests:
     show_progress: true
@@ -288,4 +306,3 @@ exam:
     required: true
     submits:
         exam_1: 1
-
