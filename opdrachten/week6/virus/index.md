@@ -364,6 +364,6 @@ Als laatste grafiek gaan we kijken in hoeveel gevallen de virusremmer dan succes
     plt.show()
 
 
-## Afsluiter
+## Afsluiting
 
 Tot zover **Virus**. Hopelijk heb je een leuke introductie gehad tot het maken van simulaties. Omdat je nooit de volledige situatie kunt simuleren is het de kunst om te zoeken naar een goede combinatie van factoren die je wél kunt meenemen. Daarom is het maken van goede simulaties een [vakgebied](https://uva.computationalscience.nl) op zich!

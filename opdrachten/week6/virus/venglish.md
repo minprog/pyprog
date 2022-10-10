@@ -150,7 +150,7 @@ Virus particles can die. They do not die all at once, but every step in time, ev
 
 A virus has a chance to propagate at any time step in the simulation.
 When a virus reproduces, the child has exactly the same DNA string as the parent.
-There is a chance that a mutation will occur: in that case one base pair is different.
+There is also a chance that a mutation will occur: in that case one base pair is different.
 
 * For reproduction, write a function `reproduce(viruses, mutation_prob, reproduction_prob)`.
 
@@ -164,7 +164,7 @@ There is a chance that a mutation will occur: in that case one base pair is diff
 
 * Please note that each virus genome has an individual chance to reproduce. So at a `reproduction_prob` of 0.2 on average 20% of the population reproduces, but this can fluctuate!
 
-* No rule limit, but if you want to challenge yourself: 2 rules is possible.
+* No line limit, but if you want to challenge yourself: 2 lines is possible. However, keep it easy to understand!
 
 ### Testing
 
@@ -177,8 +177,8 @@ There is a chance that a mutation will occur: in that case one base pair is diff
 
 ![](medicine.png)
 
-Before we can start simulating, we add a virus inhibitor to our simulation.
-Viruses can be resistant to such an inhibitor; during reproduction a mutation can cause the resistance to develop. A resistant virus (in this simulation) is any virus that has `AAA` in the DNA strand.
+Before we can start simulating, we add antivirus medication to our simulation.
+Viruses can be resistant to such medication; mutations can cause the resistance to develop. A resistant virus (in this simulation) is any virus that has `AAA` in the DNA strand.
 Once the drug is introduced, all viruses except resistant viruses can no longer reproduce.
 
 * Write a function `is_resistant(virus)`.
@@ -191,40 +191,40 @@ Once the drug is introduced, all viruses except resistant viruses can no longer 
 
 ### Testing
 
-Test this feature on different viruses to see if it recognizes the resistant viruses as well as the non-resistant ones.
+Test this function on different viruses to see if it recognizes the resistant viruses as well as the non-resistant ones.
 
 
 ## Step 6: Reproduction Opportunity
 
-The more virus particles present, the smaller the chance of reproduction:
+The more virus particles there are, the smaller the chance of reproduction:
 there is simply not enough room for all the virus particles.
-There is a negative linear relationship between the number of viruses and the chance of reproduction.
+This means that there is a negative linear relationship between the number of viruses and the chance of reproduction.
 The probability of reproduction is equal to `(1 - (size_of_virus_population / maximum_number_viruses)) * maximum_reproduction_probability`.
 The function to calculate the probability per individual virus particle in a population can be found below:
 
     def reproduction_probability(viruses, max_reproduction_prob, max_population):
         return (1 - (len(viruses) / max_population)) * max_reproduction_prob if max_population > 0 else 0
 
-Include this function in your elaboration and provide the definition of the correct types.
+Include this function in your solution and provide the augment it with type hints.
 
 
 ## Step 7: Simulate with a virus inhibitor
 
-In the steps above, we worked on a **representation** of viruses (as strings) and populations (as lists). Now that we have such a representation for viruses, can make them mutate, die, reproduce, and be resistant, we can start simulating.
+In the steps above, we worked on a **representation** of viruses (as strings) and populations (as lists). Now that we have such a representation, and we can make viruses mutate, die, reproduce, and be resistant, we can start simulating.
 
 The simulation works as follows. During each time step:
 
-* let's kill viruses first,
+* viruses will die first,
 * then we calculate the production probability, and
-* then let's reproduce them.
+* then viruses reproduce.
 
-**But** from the 100th time step we add a virus inhibitor to the simulation, and then only resistant viruses can reproduce.
+**But** from the 100th time step we add an antiviral medicine to the simulation, which means that only resistant viruses can reproduce from that time step onwards.
 
 ### Hints
 
-* Write a function called `simulate(viruses, mortality_prob, mutation_prob, max_reproduction_prob, max_population, timesteps = 500)`.
+*   Write a function called `simulate(viruses, mortality_prob, mutation_prob, max_reproduction_prob, max_population, timesteps = 500)`.
 
-* This function takes five arguments, and one optional argument:
+*   This function takes five arguments, and one optional argument:
 
     * `viruses` is a list of virus genomes.
     * `mortality_prob` is a float between 0 and 1 (inclusive) that represents the probability of death per virus particle.
@@ -233,27 +233,27 @@ The simulation works as follows. During each time step:
     * `mutation_prob` is a float between 0 and 1 (inclusive) that represents the probability of mutation upon reproduction.
     * `timesteps` is an integer and an optional argument that specifies the number of timesteps in the simulation.
 
-* The function must return a list containing the population size (an integer) at each time step.
+*   The function must return a list containing the intermediate population sizes (integers) at each time step.
 
 ### Pseudocode
 
 Below is the pseudocode for the `simulate` function. Look at it carefully, because the order of the different steps in the simulation is important. For example, different results may be obtained if the viruses first reproduce and then die.
 
-     1 function simulate
-     2 let population_sizes be a list
-     3 for every timestep t
-     4 kill viruses
-     5 calculate reproduction probability
-     6 if timestep t >= 100
-     7 reproduce only viruses that are resistant, while keeping all other
-     8 else
-     9 reproduce any virus in the population
-    10 add resulting size of population to population_sizes
-    11 return population_sizes
+     1  function simulate
+     2      let population_sizes be a list
+     3      for every timestep t
+     4          kill viruses
+     5          calculate reproduction probability
+     6          if timestep t >= 100
+     7              reproduce only viruses that are resistent, while keeping all other
+     8          else
+     9              reproduce any virus in the population
+    10          add resulting size of population to population_sizes
+    11      return population_sizes
 
 ### Testing
 
-For this assignment it may be a bit more difficult to come up with tests yourself. That's why we already have two.
+For this assignment it may be a bit more difficult to come up with tests yourself. That's why we have provided two for you.
 
 *   The first checks whether the result from `population_sizes` indeed consists of exactly 501 elements (500 time steps plus the initial situation).
 
@@ -261,47 +261,47 @@ For this assignment it may be a bit more difficult to come up with tests yoursel
         >>> len(simulate(viruses, 1, 0, 0, 0))
         501
 
-*   The second checks whether, given those variables, the simulation gives the correct results.
+*   The second checks whether, given those variables, the simulation yields the correct results.
 
         >>> sims = []
-        >>> n = 100
+        >>> n = 1000
         >>> for i in range(n):
-        >>> viruses = [generate_virus(4) for _ in range(100)]
-        >>> sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
+        >>>    viruses = [generate_virus(4) for _ in range(100)]
+        >>>    sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
         >>> average = sum(sims) / n
-        >>> 23 < average < 32
-        true
+        >>> 25 < average < 32
+        True
 
 
 ## Final steps: graphs
 
-Below you will find code for creating graphs based on your self-written functions. You don't have to change anything in the code below. This is of course the ultimate test: it will only work if all the above functions are implemented exactly according to the specification.
+Below you will find code for creating graphs based on your simulation. You don't have to change anything in the code below. This is the ultimate test: it will only work if all the above functions are implemented exactly according to the specification.
 
-Create an `if __name__ == '__main__'` for your program and put the following import into it:
+Create an `if __name__ == '__main__'` for your program and put the following `import` into it:
 
     import matplotlib.pyplot as plt
 
-So **don't** put this import at the top of your program because it is only needed for the plots you make in the main.
+Note: **don't** put this import at the top of your program because it is only needed for the plots you make in the main.
 
 Then copy the following pieces of code one by one into the main to see what comes out. If `matplotlib` does not work properly (error messages), it is best to ask for help or look up the error message on the internet.
 
-Look through the code to see if you understand what's happening. The functions of the `matplotlib` library are simple, but most of them have very cryptic names. Optionally, you can check the documentation of matplotlib to see what the function does. And if you're interested and still have time, try adding another interesting chart yourself!
+Look through the code to see if you understand what's happening. The functions of the `matplotlib` library are simple, but most of them have very cryptic names. Optionally, you can check the documentation of `matplotlib` to see what the function does. And if you're interested and still have time, try adding another interesting graph yourself!
 
 ### Graphing a single simulation
 
-Below is a graph of one simulation of your function! This graph shows the course of the simulation over time. You can start your program multiple times to view different graphs.
+Below is a graph of one simulation of your function. This graph shows the course of the simulation over time. You can start your program multiple times to view different graphs.
 
-    # draai de simulatie
+    # run the simulation
     viruses = [generate_virus(4) for _ in range(100)]
     result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
     fig = plt.figure(figsize=(15, 10))
     axes = plt.axes()
 
-    # plotten van de data
+    # plot data for each step
     axes.plot(range(501), result)
 
-    # opmaak van de grafiek
+    # graph layout
     plt.title('Simulation')
     plt.xlabel('Timestep')
     plt.ylabel('Number of viruses')
@@ -311,24 +311,24 @@ Below is a graph of one simulation of your function! This graph shows the course
 
 ### Graphing multiple simulations
 
-As you may have noticed from the graph above, the result varies quite a bit. We can also run the simulation several times and plot everything in one graph. Then you can see that there are more or less two ways in which the simulation can run.
+As you may have noticed from the graph above, the result varies quite a bit. We can also run the simulation several times and plot everything in a single graph. That way you can see that there are more or less two outcomes of the simulation.
 
-    # aantal te draaien simulaties
+    # number of simulations to run
     n_simulations = 20
 
-    # zet een figuur klaar voor het plotten van meerdere lines
+    # create a figure for plotting multiple line graphs
     fig = plt.figure(figsize=(15, 10))
     axes = plt.axes()
 
-    # uitvoeren van meerdere simulaties
+    # run multiple simulations
     for i in range(n_simulations):
         viruses = [generate_virus(4) for _ in range(100)]
         result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
-        # voeg het resultaat van een simulatie toe als lijn in de plot
+        # add the single simulation result to the figure
         axes.plot(range(501), result)
 
-    # opmaak van de multi-line chart
+    # layout of the multi-line graph
     plt.title('Simulations')
     plt.xlabel('Timestep')
     plt.ylabel('Number of viruses')
@@ -336,37 +336,37 @@ As you may have noticed from the graph above, the result varies quite a bit. We 
     plt.xlim(0,500)
     plt.show()
 
-So in a large part of the simulations, the virus gets a big dent from the virus inhibitor, but then recovers and stays at the same level until the end of the simulation. In a smaller number of the simulations, the virus inhibitor works so well that the virus soon disappears.
+So in a large part of the simulations, the virus gets a big dent from the antiviral medicine, but then recovers and stays at the same level until the end of the simulation. In a smaller number of the simulations, the medicine works so well that the virus soon disappears.
 
-### Healed/unhealed
+### Cured/not cured
 
-As a final graph, we will look at how many cases the virus inhibitor has been successful in.
+As a final graph, we will look at the success rate of the antiviral medicine.
 
-    # aantal te draaien simulaties
+    # number of simulations to run
     n_simulations = 100
 
-    # voor het bijhouden van aantal genezen
+    # keep track of simulations that result in cure
     n_simulations_cured = 0
 
-    # voer de simulatie honderd keer uit, en hou bij hoeveel daarvan genezen zijn
+    # run the simulation multiple times, keeping track of cure rate
     for i in range(n_simulations):
         viruses = [generate_virus(4) for _ in range(100)]
         result = simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 500)
 
-        # als de laatste tijdstap geen virussen bevat, is de persoon genezen
+        # if the final time step has 0 viruses, person is cured
         if result[-1] == 0:
             n_simulations_cured += 1
 
     labels = ['Cured', 'Not Cured']
     sizes = [n_simulations_cured, n_simulations - n_simulations_cured]
 
-    # opmaak van de pie chart
+    # pie chart layout
     fig1, ax1 = plt.subplots(figsize=(8, 8))
     ax1.pie(sizes, labels=labels, autopct='%1i%%',startangle=90)
     ax1.axis('equal')
     plt.title('Pie chart of cured and non cured simulations')
     plt.show()
 
-## Valve
+## The end
 
-So much for **Virus**. Hopefully you had a nice introduction to making simulations. Because you can never simulate the complete situation, the trick is to look for a good combination of factors that you can take into account. That is why making good simulations is a [field](https://uva.computationalscience.nl) in itself!
+So much for **Virus**. Hopefully you had a nice introduction to making simulations. Because you can never simulate every aspect of a process, the trick is to look for a good combination of factors that you will be able to track and yields representative results. This is exactly why making good simulations is a [field](https://uva.computationalscience.nl) in itself!
