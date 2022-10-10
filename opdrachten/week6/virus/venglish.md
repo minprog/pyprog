@@ -4,9 +4,9 @@
 
 > This week you will receive credit for successfully doing assignments:
 > 
-> - 1 point for steps 1, 2 (if limits are met)
-> - 1 point for steps 3, 4 and 5 (if limits are met)
-> - 2 points for a simulatie in step 7 that yields correct results
+> - 1 point for steps 1 and 2 together (if limits are met)
+> - 2 points for steps 3, 4 and 5 together (if limits are met)
+> - 2 points for a simulation in step 7 that yields correct results
 > - 1 point for an insightful graph based on running simulations
 
 > This version has been automatically translated and will be reviewed for errors on Monday.
