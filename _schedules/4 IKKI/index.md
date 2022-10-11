@@ -2,11 +2,11 @@
 
 ## Studiewijzer<br><small>Herfst 2022</small>
 
-Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis, maar zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop wij programmeren!
+Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop wij programmeren!
 
 ## Docenten en assistenten
 
-De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>. Lodewijk van Keizerswaard is assistent en samen met Bas aanwezig bij alle bijeenkomsten. Bas en Lodewijk kijken ook het wekelijkse huiswerk na.
+De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Richard Both, Robin Langerak, Simon Pauw, Quinten van der Post en Bas Terwijn . Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <python@proglab.nl>. Voor elke groep zijn er naast één docent ook nog twee studentassistenten, die bovendien het huiswerk nakijken.
 
 ## Opdrachten en eindcijfer
 
@@ -16,11 +16,13 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 2. Insturen van oplossingen voor de programmeeropdrachten (20%). Voor het inleveren van correcte oplossingen voor de opdrachten staat ook een deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3. Beoordeling individuele programmeeropdrachten (70%). Bijna elke week is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit.
+3. Beoordeling verbeterde programmeeropdrachten (40%). In een aantal weken is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit.
 
-4. Beoordeling tentamen (0%). Het telt niet mee voor je eindcijfer, maar je moet een voldoende halen om het vak af te kunnen ronden.
+4. Beoordeling eindopdrachten (30%). Er zijn ook nog enkele grotere programmeeropdrachten die veel ruimte voor eigen initiatief bieden. Voor deze opdrachten kijken we in hoeverre je ze volgens de minimumeisen hebt gemaakt en of je nog verder bent gegaan dan dat.
 
-Om in aanmerking te komen voor een eindbeoordeling moet je minimaal alle programmeeropdrachten hebben ingeleverd die inhoudelijk beoordeeld worden (punt 3 hierboven). Je moet ook aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag één werkcollege missen). Daarnaast moet je het tentamen voldoende maken. Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages.
+5. Beoordeling tentamen (0%). Het telt niet mee voor je eindcijfer, maar je moet een voldoende halen om het vak af te kunnen ronden.
+
+Om in aanmerking te komen voor een eindbeoordeling moet je minimaal alle programmeeropdrachten hebben ingeleverd die inhoudelijk beoordeeld worden (punt 3 hierboven) ( **TODO** ). Je moet ook aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag één werkcollege missen). Daarnaast moet je het tentamen voldoende maken. Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages.
 
 ## Vragen stellen
 
@@ -28,17 +30,19 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 
 **Assistentie:** direct contact met een assistent of docent, voor hulp bij programmeren.
 
-* hulp op locatie (zie rooster)
+* hulp op locatie (zie je rooster in Datanose)
 * je weet niet waar te beginnen of een onvindbare bug, of alles loopt vast
 * moeite met verzinnen oplossing
+* je wilt meet weten over een programmeer-onderwerp
+* hulp met structureren van de opdracht
 
-**Spreekuur en e-mail:** contact met de docenten.
+**E-mail of afspraak:** contact met de docenten.
 
 * maken van persoonlijke planningsafspraken
 * meedenken over grote problemen met het vak
 * andere officiële zaken
 * administratie na afloop van het vak
-* mail <progbg@mprog.nl> of kom langs tijdens het spreekuur
+* mail <python@proglab.nl>
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -54,33 +58,37 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Er zijn twee deadlines voor de meeste modules.
 
-1. De deadline voor het **volledig maken** van de opdrachten en oefeningen. De oefeningen kun je zo goed mogelijk doen en dan inleveren. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Dan kun je (ook voor de deadline) je uitwerking nog verbeteren. Je hoeft de uitwerking nog helemaal niet netjes te maken, want daarvoor is de tweede deadline.
+1. De deadline voor het **volledig maken** van de opdrachten en oefeningen. De oefeningen kun je zo goed mogelijk doen en dan inleveren. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Dan kun je (ook voor de deadline) je uitwerking nog verbeteren.
 
 2. De deadline voor de **verbeterde** versie van één van de wekelijkse programma's. Tijdens het werkcollege zul je een code review doen met een medestudent, op basis waarvan je dat ene programma helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt.
 
 Dit is een overzicht van de deadlines per week:
 
-|             | deadline werkend | deadline verbeterd |
+|             | deadline werkend | deadline verbeterd* |
 |:------------|:-----------------|:-------------------|
-| Module 1    | vr  9 sep  17:59 | -                  |
-| Module 2    | vr 16 sep  17:59 | ma 19 sep  18:59   |
-| Module 3    | vr 23 sep  17:59 | ma 26 sep  18:59   |
-| Module 4    | vr 30 sep  17:59 | ma  3 okt  18:59   |
-| Module 5    | vr  7 okt  17:59 | ma 10 okt  18:59   |
-| Module 6    | vr 14 okt  17:59 | ma 17 okt  18:59   |
-| Module 7    | vr 21 okt  17:59 | -                  |
+| Module 1    | vr  4 nov  17:59 | -                  |
+| Module 2    | vr 11 nov  17:59 | ma 14 nov  17:59   |
+| Module 3    | vr 18 nov  17:59 | ma 21 nov  17:59   |
+| Module 4    | vr 25 nov  17:59 | ma 28 nov  17:59   |
+| Module 5    | vr  2 dec  17:59 | ma  5 dec  17:59   |
+| Module 6    | vr  9 dec  17:59 | ma 12 dec  17:59   |
+| Module 7    | vr 16 dec  17:59 | -                  |
 
-De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering. Eventuele wijzigingen worden na aanvang van de cursus doorgegeven.
+Er zijn géén uitzonderingen mogelijk op de deadlines voor de werkende versies van programma's. Of je nu ziek was of te laat was begonnen, de deadline is op vrijdag eind van de middag. Daarna kun je door aan de opdrachten van de volgende module, zodat je vanzelf weer op schema loopt. **Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!**
+
+De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering. Je groepsdocent zal aankondigen wat de exacte deadline is. In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Andere deadlines verschuiven niet mee!
 
 ### Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via e-mail. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:python@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en haal je deze opdracht tijdens het weekend in. Dit mag alleen als je de andere opdrachten al hebt ingeleverd.
+Over het algemeen zullen er geen uitzonderingen op de deadlines worden gegeven (zie boven), maar toch is het belangrijk om in de gaten te houden of je geen kennis mist door het overslaan van opdrachten. Daarom de volgende richtlijnen:
 
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en als je tijd hebt haal je deze opdracht tijdens het weekend in. Je kunt deze dan niet meer inleveren, maar de kennis kan van pas komen.
 
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met een docent (niet je mentor). Stuur maar een [mailtje](mailto:progbg@mprog.nl)!
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+
+- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:python@proglab.nl)!
 
 ## Opdrachtcijfers
 
