@@ -235,6 +235,7 @@ calculation:
 
 practice:
     show_progress: true
+    convert_passes_to_grade: true
     submits:
         chapter_02: 1
         chapter_03: 1
@@ -252,6 +253,7 @@ practice:
 
 assignments:
     show_progress: true
+    convert_passes_to_grade: true
     submits:
         cafeine: 105
         vakantie: 105
