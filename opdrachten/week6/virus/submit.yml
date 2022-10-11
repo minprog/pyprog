@@ -3,5 +3,10 @@ files:
     required:
         - virus.py
 check:
-    tool: check50
-    slug: minprog/virus/2020
+    tool: checkpy
+    repo: minprog/python
+    args: virus
+plag:
+    server: http://83.96.241.94/api/submission/
+    slug: pyprog/2022/virus
+    course: pyprog2022
