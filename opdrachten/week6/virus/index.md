@@ -178,7 +178,7 @@ Voor dat we kunnen gaan simuleren, voegen we een virusremmer toe aan onze simula
 Virussen kunnen resistent zijn tegen zo'n remmer; bij de reproductie kan een mutatie ervoor zorgen dat de resistentie ontstaat. Een resistent virus is (in deze simulatie) elk virus dat `AAA` in de DNA-streng heeft.
 Zodra het geneesmiddel wordt geintroduceerd, kunnen alle virussen behalve resistente virussen niet meer reproduceren.
 
-*   Schrijf een functie `is_resistent(virus)`.
+*   Schrijf een functie `is_resistant(virus)`.
 
     *   Deze functie accepteert één argument, `virus`, dit is een virusgenoom.
 
