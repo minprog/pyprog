@@ -8,11 +8,14 @@ Dit keer gebruiken we simulaties als onderwerp om te oefenen met objectgeoriënt
 
 Schrijf, in een map genaamd `callcenter.py`, een programma dat de inkomende telefoongesprekken bij een callcenter simuleert. In deze map krijg je de bestanden `event.py` en `simulatie.py`.
 
-Deze opdracht is opgesplits in twee delen:
+Deze opdracht is opgesplitst in twee delen:
+
 * Bij het eerste deel worden bellers niet in een wachtrij gezet als er geen telefonisten beschikbaar zijn, zij moeten dus op een later moment terugbellen.
+
 * Bij het tweede deel worden bellers in deze gevallen wel in een wachtrij geplaatst. We nemen hierbij aan dat bellers niet ophangen voordat ze zijn geholpen en dus in de wachtrij blijven.
 
 In beide gevallen is het voor de simulatie nodig om te weten:
+
 * hoeveel werknemers er beschikbaar zijn,
 * hoe lang de simulatie duurt,
 * wat de gemiddelde lengte van een gesprek is,
@@ -62,6 +65,7 @@ Daarnaast geldt dat bij elk inkomend gesprek (zowel bij opnemen en afwijzen) er 
 Dit houdt dus in dat je een verzameling evenementen krijgt die op chronologische volgorde moeten worden behandeld.
 
 Je simulatie moet stoppen wanneer:
+
 * er geen evenementen meer zijn die moeten plaatsvinden (dit zou niet mogen gebeuren),
 * de tijdlimiet is bereikt.
 
@@ -73,11 +77,13 @@ Zorg vervolgens dat de bellers in de wachtrij voorrang hebben op nieuwe bellers 
 
 ## Tips
 
-Deel 1
+**Deel 1**
+
 * Vergeet niet dat je argumenten kan toevoegen aan je simulatie, denk bijvoorbeeld aan een lijst van events of een waarde die bijhoudt hoeveel werknemers er wel/niet in gesprek zijn.
 * De duratie van een telefoongesprek kan bepaald worden op basis van de Poisson verdeling (`np.random.poisson(self.avg_length)`).
 
-Deel 2
+**Deel 2**
+
 * Zodra een beller uit de wachtrij komt, begint het gesprek. Zorg ervoor dat je de tijd van het events update naar de tijd van het gesprek (in plaats van het tijd van binnenkomen in de wachtrij).
 
 
