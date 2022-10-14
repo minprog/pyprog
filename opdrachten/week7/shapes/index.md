@@ -17,7 +17,7 @@ Sorteren in Python gaat meestal via de standaardfunctie `sorted()`. Je kunt deze
     >>> sorted(['z', 'a', 'b'])
     ['a', 'b', 'c']
 
-Dit werkt omdat voor integers en strings is bepaald hoe je ze met elkaar kunt vergelijken. Het enige dat hiervoor nodig is, is de less-than operator `<`. Deze wordt gebruikt door `sorted()` om de volgorde te bepalen. Ter illustratie zie je hier dat je `<` zo kunt gebruiken:
+Dit sorteren werkt niet zomaar vanzelf. Het werkt omdat voor integers en strings is bepaald hoe je ze met elkaar kunt *vergelijken*. Het enige dat hiervoor nodig is, is de less-than operator `<`. Deze wordt gebruikt door `sorted()` om de volgorde te bepalen. Ter illustratie zie je hier dat je `<` zo kunt gebruiken:
 
     >>> 1 < 3
     True
