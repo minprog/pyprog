@@ -70,7 +70,7 @@ Extra uitdaging: je hebt de operator less-than `__lt__` al gedefinieerd. Gebruik
 
 ## Posities
 
-Voeg voor de `Shape` class ook het idee van *posities* toe. Elke shape krijgt (x,y)-coördinaten die staat voor het centrum van de figuur.
+Voeg voor de `Shape` class ook het idee van *posities* toe. Elke shape krijgt (x,y)-coördinaten die staat voor het middenpunt van de figuur (omdat we de figuren niet op het scherm tekenen maakt het niet zoveel uit welk punt het is).
 
 *   Geef `Shape` een `__init__()` voor deze coördinaat en sla ze op als intance-variabelen.
 
