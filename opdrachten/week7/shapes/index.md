@@ -38,7 +38,7 @@ Werk de classes voor `Square`, `Rectangle` en `Circle` uit in een bestand genaam
 
 *   Er moet daarnaast een class `Shape` zijn waarvan alle figuur-classes afgeleid zijn (met inheritance). Deze class bevat nog geen methods en heeft ook geen `__init__()` nodig. Geef aan dat de andere classes hiervan zijn afgeleid.
 
-Je hebt nu vier classes en je kunt al testen door een instantie te maken en de oppervlakte op te vragen. Je kunt ook al doctests maken voor `area()`, zoals voorgedaan in het boek.
+Je hebt nu vier classes en je kunt al testen door een instantie te maken en de oppervlakte op te vragen. Je kunt ook al doctests maken voor `area()`, zoals voorgedaan in het boek op pagina 292.
 
 ## Sorteren
 
