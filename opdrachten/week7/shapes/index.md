@@ -67,3 +67,7 @@ Zoals aangegeven bij de [officiële documentatie](https://docs.python.org/3/libr
 Implementeer al deze operators voor de class `Shape`.
 
 Extra uitdaging: je hebt de operator less-than `__lt__` al gedefinieerd. Gebruik je kennis van logica om deze operators te definiëren in termen van die operator. Bijvoorbeeld: less-than-or-equal is gelijk aan `self.__lt__(other) or not other.__lt__(self)`.
+
+## Afronding
+
+Om het programma compleet te maken voeg je overal de juiste type hints toe en controleer je of je bij alle functies en methods voldoende doctests hebt geschreven.
