@@ -4,7 +4,7 @@ Een traditioneel onderwerp van objectgeorienteerd programmeren is het modelleren
 
 Zoals je wellicht weet worden oppervlaktes op verschillende manieren berekend, afhankelijk van de specifieke figuur. Zo kun je de oppervlaktes van een vierkant en een cirkel berekenen op basis van één maat: de zijde voor een vierkant, en de straal voor een cirkel. Je hebt alleen de juiste formules nodig.
 
-![](oppervlaktes.png)
+![](oppervlaktes.png){: style="width:60rem;"}
 
 Voor andere oppervlaktes zijn soms meerdere maten nodig.
 
@@ -53,12 +53,12 @@ Maak een hoofdprogramma waarin je diverse `Shape`-objecten instantieert. Stop el
 
 Zoals aangegeven bij de [officiële documentatie](https://docs.python.org/3/library/functions.html#sorted) van `sorted()` is het aan te bevelen om ook de andere "rich comparison" operators te definiëren. Dat zijn de volgende:
 
-    object.__lt__(self, other)
-    object.__le__(self, other)
-    object.__eq__(self, other)
-    object.__ne__(self, other)
-    object.__gt__(self, other)
-    object.__ge__(self, other)
+    object.__lt__(self, other)  #-> less than
+    object.__le__(self, other)  #-> less than or equal to
+    object.__eq__(self, other)  #-> equal to
+    object.__ne__(self, other)  #-> not equal to
+    object.__gt__(self, other)  #-> greater than
+    object.__ge__(self, other)  #-> greater than or equal to
 
 Implementeer al deze operators voor de class `Shape`.
 
