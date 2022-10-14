@@ -15,7 +15,7 @@ Sorteren in Python gaat meestal via de standaardfunctie `sorted()`. Je kunt deze
     >>> sorted([4, 2, 3, 1])
     [1, 2, 3, 4]
     >>> sorted(['z', 'a', 'b'])
-    ['a', 'b', 'c']
+    ['a', 'b', 'z']
 
 Dit sorteren werkt niet zomaar vanzelf. Het werkt omdat voor integers en strings is bepaald hoe je ze met elkaar kunt *vergelijken*. Het enige dat hiervoor nodig is, is de less-than operator `<`. Deze wordt gebruikt door `sorted()` om de volgorde te bepalen. Ter illustratie zie je hier dat je `<` zo kunt gebruiken:
 
@@ -42,7 +42,7 @@ Je hebt nu vier classes en je kunt al testen door een instantie te maken en de o
 
 ## Sorteren
 
-Om objecten van een class te kunnen sorteren, moet deze class de methode `__lt__()` implementeren. Dit is de functie die hoort bij de less-than operator `<`. De methode moet op basis van de beschikbare informatie bepalen of het object `self` kleiner is dan het object `other`:
+Om objecten van een class te kunnen sorteren, moet voor deze class de methode `__lt__()` geïmplementeerd worden. Dit is de functie die hoort bij de less-than operator `<`. De methode moet op basis van de beschikbare informatie bepalen of het object `self` kleiner is dan het object `other`:
 
     def __lt__(self, other):
         ...
