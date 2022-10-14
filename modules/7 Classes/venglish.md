@@ -1,6 +1,6 @@
 # Object-oriented programming
 
-...
+In this final module we will find out how object oriented programming might help to organise larger programs and how it can be used to provide custom object types that integrate well into Python's other classes. You can use classes to define **custom data structures** that go beyond the default functionality of lists, dicts and sets. To do this well you need a thorough understanding of **objects and classes**. 
 
 ## Important topics for this week
 
