@@ -68,6 +68,20 @@ Implementeer al deze operators voor de class `Shape`.
 
 Extra uitdaging: je hebt de operator less-than `__lt__` al gedefinieerd. Gebruik je kennis van logica om deze operators te definiëren in termen van die operator. Bijvoorbeeld: less-than-or-equal is gelijk aan `self.__lt__(other) or not other.__lt__(self)`.
 
+## Posities
+
+Voeg voor de `Shape` class ook het idee van *posities* toe. Elke shape krijgt (x,y)-coördinaten die staat voor het centrum van de figuur.
+
+*   Geef `Shape` een `__init__()` voor deze coördinaat en sla ze op als intance-variabelen.
+
+*   Definieer een methode `distance_to(self, other)` voor `Shape` die de afstand tussen twee figuren berekent met hulp van de stelling van Pythagoras:
+
+        math.sqrt((x1-x2)**2 + (y1-y2)**2)
+
+    Waarbij x1, x2, y2 en y2 zijn de respectievelijke coördinaten van de twee shapes waartussen de afstand berekend wordt. Vergeet niet om `math` te importeren!
+
+*   Pas de `__init__()` van de verschillende soorten shapes aan zodat deze ook de (x,y)-coördinaten accepteren en roep de `super().__init__()` aan zoals in de voorbeelden in het boek.
+
 ## Afronding
 
 Om het programma compleet te maken voeg je overal de juiste type hints toe en controleer je of je bij alle functies en methods voldoende doctests hebt geschreven.
