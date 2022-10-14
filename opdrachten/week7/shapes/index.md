@@ -21,8 +21,10 @@ Dit sorteren werkt niet zomaar vanzelf. Het werkt omdat voor integers en strings
 
     >>> 1 < 3
     True
-    <<< 'b' < 'a'
+    >>> 'b' < 'a'
     False
+
+Hoe je deze operator zelf definieert volgt in een latere stap.
 
 ## Voorbereiding
 
