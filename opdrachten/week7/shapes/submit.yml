@@ -1,14 +1,14 @@
-name: shapes
+name: figuren
 files:
   required:
-    - shapes.py
+    - figuren.py
 check:
   tool: checkpy
   repo: minprog/python
-  args: shapes
+  args: figuren
 plag:
   server: http://83.96.241.94/api/submission/
-  slug: pyprog/2022/shapes
+  slug: pyprog/2022/figuren
   # distro: https://raw.githubusercontent.com/uvaai/wcai/main/....
   course: pyprog2022
   # archives:

@@ -32,7 +32,7 @@ Bestudeer goed de uitleg in het boek over inheritance vanaf pagina 290. Je moet 
 
 ## Classes
 
-Werk de classes voor `Square`, `Rectangle` en `Circle` uit in een bestand genaamd `shapes.py`.
+Werk de classes voor `Square`, `Rectangle` en `Circle` uit in een bestand genaamd `figuren.py`.
 
 *   Elke class moet een `__init__` krijgen waarin de juiste parameters kunnen worden doorgegeven (denk dus aan de straal). En elke class moet een method `area()` definiëren die de juiste oppervlakte berekent en teruggeeft.
 

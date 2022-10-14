@@ -32,7 +32,7 @@ Thoroughly study the book's explanation about inheritance starting on page 290. 
 
 ## Classes
 
-Develop the classes for `Square`, `Rectangle`, and `Circle` in a file named `shapes.py`.
+Develop the classes for `Square`, `Rectangle`, and `Circle` in a file named `figuren.py`.
 
 *   Each class should have an `__init__()` that receives the parameters that are needed to represent a particular shape (e.g. radius for a circle). And each class should define a method `area()` that calculates and returns the correct surface area.
 
