@@ -72,13 +72,15 @@ Extra uitdaging: je hebt de operator less-than `__lt__` al gedefinieerd. Gebruik
 
 Voeg voor de `Shape` class ook het idee van *posities* toe. Elke shape krijgt (x,y)-coördinaten die staat voor het middenpunt van de figuur (omdat we de figuren niet op het scherm tekenen maakt het niet zoveel uit welk punt het is).
 
-*   Geef `Shape` een `__init__()` voor deze coördinaat en sla ze op als intance-variabelen.
+Zodra elke shape een positie heeft kunnen we bijvoorbeeld de afstand tussen twee van deze figuren uitrekenen.
+
+*   Geef `Shape` een `__init__()` voor deze coördinaten en sla ze op als instance-variabelen.
 
 *   Definieer een methode `distance_to(self, other)` voor `Shape` die de afstand tussen twee figuren berekent met hulp van de stelling van Pythagoras:
 
         math.sqrt((x1-x2)**2 + (y1-y2)**2)
 
-    Waarbij x1, x2, y2 en y2 zijn de respectievelijke coördinaten van de twee shapes waartussen de afstand berekend wordt. Vergeet niet om `math` te importeren!
+    Waarbij x1, x2, y1 en y2 zijn de respectievelijke coördinaten van de twee shapes waartussen de afstand berekend wordt. Vergeet niet om `math` te importeren!
 
 *   Pas de `__init__()` van de verschillende soorten shapes aan zodat deze ook de (x,y)-coördinaten accepteren en roep de `super().__init__()` aan zoals in de voorbeelden in het boek.
 
