@@ -1,6 +1,6 @@
 # Figuren
 
-Een traditioneel onderwerp van objectgeorienteerd programmeren is het modelleren van figuren. Je kunt classes maken voor rechthoeken, driehoeken, cirkels en daar instanties van maken. We gaan in deze opdracht een aantal classes ontwerpen en die gebruiken om willekeurige figuren te kunnen sorteren op oppervlakte.
+Een traditioneel onderwerp van objectgeorienteerd programmeren is het modelleren van figuren. Je kunt classes maken voor rechthoeken, driehoeken, cirkels en daar instanties van maken. We gaan in deze opdracht een aantal classes ontwerpen en die gebruiken om *willekeurige figuren te kunnen sorteren op oppervlakte*.
 
 Zoals je wellicht weet worden oppervlaktes op verschillende manieren berekend, afhankelijk van de specifieke figuur. Zo kun je de oppervlaktes van een vierkant en een cirkel berekenen op basis van één maat: de zijde voor een vierkant, en de straal voor een cirkel. Je hebt alleen de juiste formules nodig.
 
@@ -40,9 +40,9 @@ Werk de classes voor `Square`, `Rectangle` en `Circle` uit in een bestand genaam
 
 Je hebt nu vier classes en je kunt al testen door een instantie te maken en de oppervlakte op te vragen. Je kunt ook al doctests maken voor `area()`, zoals voorgedaan in het boek op pagina 292.
 
-## Sorteren
+## Implementatie van less-than
 
-Om objecten van een class te kunnen sorteren, moet voor deze class de methode `__lt__()` geïmplementeerd worden. Dit is de functie die hoort bij de less-than operator `<`. De methode moet op basis van de beschikbare informatie bepalen of het object `self` kleiner is dan het object `other`:
+Om objecten van een class te kunnen sorteren, moet voor deze class de methode `__lt__()` geïmplementeerd worden. Dit is de methode die hoort bij de less-than operator `<`. De methode moet op basis van de beschikbare informatie bepalen of het object `self` kleiner is dan het object `other`:
 
     def __lt__(self, other):
         ...
@@ -51,9 +51,25 @@ Zodra je deze methode hebt geïmplementeerd voor `Shape` is deze ook beschikbaar
 
 ## Testcode
 
-Maak een hoofdprogramma waarin je diverse `Shape`-objecten instantieert. Stop elk van deze objecten in een lijst. Print daarna de uitkomst van het aanroepen van de standaard Python-functie `sorted()` op deze lijst.
+Maak een hoofdprogramma waarin je diverse `Shape`-objecten instantieert. Stop elk van deze objecten in een lijst. Print daarna de uitkomst van het aanroepen van de standaard Python-functie `sorted()` op deze lijst. Ziet het er goed uit?
 
-## Andere vergelijkingen
+## Representatie
+
+De uitvoer van bovenstaande test is misschien niet zo duidelijk als gehoopt. Het zal er ongeveer zo uitzien:
+
+    [<__main__.Square object at 0x10451bbe0>, <__main__.Square object at 0x10451bfa0>]
+
+Dit is de nieuwe lijst die (hopelijk) gesorteerd is, maar als `print` de objecten van class `Square` ontvangt, print het een type en daarbij een geheugenadres. In plaats daarvan zouden we graag de relevante eigenschappen van het vierkant kunnen zien!
+
+Implementeer daarom een `__repr__()` method voor elk van je figuur-classes (behalve `Shape`). Een goede richtlijn is dat `__repr__()` precies geeft wat er nodig is om een object opnieuw aan te maken. Het zou dus zo moeten werken:
+
+    >>> squares = [Square(3), Square(2)]
+    >>> print(sorted(squares))
+    [Square(2), Square(3)]
+
+Experimenteer met het definiëren van `__repr__` tot het mooi klopt!
+
+## Andere vergelijkings-operators
 
 Zoals aangegeven bij de [officiële documentatie](https://docs.python.org/3/library/functions.html#sorted) van `sorted()` is het aan te bevelen om ook de andere "rich comparison" operators te definiëren. Dat zijn de volgende:
 
@@ -66,7 +82,7 @@ Zoals aangegeven bij de [officiële documentatie](https://docs.python.org/3/libr
 
 Implementeer al deze operators voor de class `Shape`.
 
-Extra uitdaging: je hebt de operator less-than `__lt__` al gedefinieerd. Gebruik je kennis van logica om deze operators te definiëren in termen van die operator. Bijvoorbeeld: less-than-or-equal is gelijk aan `self.__lt__(other) or not other.__lt__(self)`.
+Extra uitdaging: je hebt de operator less-than `__lt__` al gedefinieerd. Gebruik je kennis van logica om de resterende operators te definiëren in termen van less-than. Bijvoorbeeld: less-than-or-equal is gelijk aan `self.__lt__(other) or not other.__lt__(self)`.
 
 ## Posities
 
