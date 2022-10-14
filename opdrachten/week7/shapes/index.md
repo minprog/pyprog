@@ -8,6 +8,8 @@ Zoals je wellicht weet worden oppervlaktes op verschillende manieren berekend, a
 
 Voor andere oppervlaktes zijn soms meerdere maten nodig.
 
+## Sorteren
+
 Sorteren in Python gaat meestal via de standaardfunctie `sorted()`. Je kunt deze een lijst meegeven en de functie geeft dan een totaal nieuwe lijst terug met daarin dezelfde elementen, maar dan gesorteerd:
 
     >>> sorted([4, 2, 3, 1])
