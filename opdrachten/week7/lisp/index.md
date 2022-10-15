@@ -33,3 +33,7 @@ Voor het checken van de geldigheid kun je door de string heen gaan en bijhouden 
 ## Doctests
 
 Hierboven vind je al doctests. Deze testen het complete gebruik van de class, dus je zou ze in een docstring voor de `class` kunnen zetten, of in een docstring voor de `is_valid` methode. De doctests hierboven zijn niet de enige mogelijke tests.
+
+## Main
+
+Heeft dit programma een `if __name__ == '__main__'` nodig? Nee, dat is niet zo! Het mag wel, maar de class werkt ook zo en zou via een `import` in een ander programma gebruikt kunnen worden.

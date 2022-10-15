@@ -33,3 +33,7 @@ To check the validity of a program you can go through the string and keep track 
 ## Doctests
 
 Above you can find a few doctests. These test the complete usage of the class, including a call to `is_valid`. You could add them to a docstring for the `class`, or to a docstring for the `is_valid` method. The doctests above are not the only ones that you could use.
+
+## Main
+
+Does this program need an `if __name__ == '__main__'`? No, it does not! It is allowed, but the class works as is, and it could be used in another program by `import`ing the file.
