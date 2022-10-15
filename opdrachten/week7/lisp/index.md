@@ -32,4 +32,4 @@ Voor het checken van de geldigheid kun je door de string heen gaan en bijhouden 
 
 ## Doctests
 
-Hierboven vind je al doctests. Deze testen het complete gebruik van de class, dus je zou ze in een docstring voor de `class` kunnen zetten, of in een docstring voor de `is_valid` methode.
+Hierboven vind je al doctests. Deze testen het complete gebruik van de class, dus je zou ze in een docstring voor de `class` kunnen zetten, of in een docstring voor de `is_valid` methode. De doctests hierboven zijn niet de enige mogelijke tests.
