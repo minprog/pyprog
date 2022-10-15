@@ -22,35 +22,35 @@ uit het probleem-domein en geven die nuttige *instance variables* en
 `Item` en `Knapsack`.
 
 # Resources type
-We definieren eerst het nieuw type `Resources` als:
+We definieren eerst het nieuwe type `Resources` als:
 
     class Resources:
-    """ Holds the recources for a Knapsack problem. """
+        """ Holds the recources for a Knapsack problem. """
     
-    def __init__(self, weight, volume):
-        """ Creates a resources object with weight and volume. """
-        self.weight=weight
-        self.volume=volume
+        def __init__(self, weight, volume):
+            """ Creates a resources object with weight and volume. """
+            self.weight=weight
+            self.volume=volume
 
-    def __repr__(self):
-        """ Enables printing """
-        return f"weight:{self.weight} volume:{self.volume}"
+        def __repr__(self):
+            """ Enables printing """
+            return f"weight:{self.weight} volume:{self.volume}"
 
-    def __iadd__(self, other):
-        """ Implements '+=' operator. """
-        self.weight += other.weight
-        self.volume += other.volume
-        return self
+        def __iadd__(self, other):
+            """ Implements '+=' operator. """
+            self.weight += other.weight
+            self.volume += other.volume
+            return self
     
-    def __isub__(self, other):
-        """ Implements '-=' operator. """
-        self.weight -= other.weight
-        self.volume -= other.volume
-        return self
+        def __isub__(self, other):
+            """ Implements '-=' operator. """
+            self.weight -= other.weight
+            self.volume -= other.volume
+            return self
 
-    def __lt__(self, other):
-        """ Implements '<' operator. """
-        return self.weight < other.weight and self.volume < other.volume
+        def __lt__(self, other):
+            """ Implements '<' operator. """
+            return self.weight < other.weight and self.volume < other.volume
 
 Met dit type kunnen we nu resources optellen en vergelijken:
 
@@ -61,33 +61,33 @@ Met dit type kunnen we nu resources optellen en vergelijken:
     print(r2 < r1)
 
 # Item type
-Met type `Resources` maken we type `Item`. Dit type is alleen een
+Met type `Resources` maken we type `Item`. Dit type is alleen maar een
 container voor points en resources.
 
     class Item:
-    """ A Knapsack Item with points and resources. """
+        """ A Knapsack Item with points and resources. """
     
-    def __init__(self, points, resources):
-        """ Creates an item object with points and resources. """
-        pass
+        def __init__(self, points, resources):
+            """ Creates an item object with points and resources. """
+            pass
         
-    def __repr__(self):
-        """ Enables printing. """
-        return None
+        def __repr__(self):
+            """ Enables printing. """
+            return None
 
-    def get_points(self):
-        """ Returns the points. """
-        return None
+        def get_points(self):
+            """ Returns the points. """
+            return None
 
-    def get_resources(self):
-        """ Returns the resources. """
-        return None
+        def get_resources(self):
+            """ Returns the resources. """
+            return None
 
 Deze class werkt nog niet. Implementeer deze class zodat we een Item
 kunnen aanmaken, printen, en punten en resources kunnen opvragen:
 
     item = Item(20, Resources(100,200))
-    print(items)
+    print(item)
     print(item.get_points())
     print(item.get_resources())
 
@@ -95,38 +95,53 @@ kunnen aanmaken, printen, en punten en resources kunnen opvragen:
 Implemeteer ook type `Knapsack` op basis van de docstrings.
 
     class Knapsack:
-    """ Knapsack to which Items can be added. Keeps track of points and available resources."""
+        """ Knapsack to which Items can be added. Keeps track of points and available resources."""
 
-    def __init__(self,resources):
-        """ Creates an empty knapsack with resources. """
-        pass
+        def __init__(self,resources):
+            """ Creates an empty knapsack with resources. """
+            pass
         
-    def __repr__(self):
-        """ Enables printing. """
-        return None
+        def __repr__(self):
+            """ Enables printing. """
+            return None
 
-    def item_fits(self,item):
-        """ Returns True if item can still be add to the knapsack given 
-        the remaing resources, False otherwise. """
-        return None
+        def item_fits(self,item):
+            """ Returns True if item can still be add to the knapsack given 
+            the remaing resources, False otherwise. """
+            return None
     
-    def add_item(self,item):
-        """ Adds item to the knapsack and updates resources. """
-        pass
+        def add_item(self,item):
+            """ Adds item to the knapsack and updates resources. """
+            pass
         
-    def remove_random_item(self):
-        """ Removes and returns a random item from the knapsack. 
-        Returns None if the knapsack has no items. """
-        return None
+        def remove_random_item(self):
+            """ Removes and returns a random item from the knapsack. 
+            Returns None if the knapsack has no items. """
+            return None
 
-    def __len__(self):
-        """ Implements 'len(knapsack)' function where knapsack is of type Knapsack 
-        to return the number of items in knapsack. """
-        return None
+        def __len__(self):
+            """ Implements 'len(knapsack)' function where knapsack is of type Knapsack 
+            to return the number of items in knapsack. """
+            return None
 
-    def get_points(self):
-        """ Returns the points of all items in the knapsack. """
-        return None
+        def get_points(self):
+            """ Returns the points of all items in the knapsack. """
+            return None
+
+Hiermee zouden we items moeten kunnen inpakken in een knapsack:
+
+    knapsack = Knapsack(Resources(100, 200))
+    print( knapsack )
+    item1 = Item(10, Resources(40, 70))
+    knapsack.add_item( item1 )
+    item2 = Item(20, Resources(45, 90))
+    knapsack.add_item( item2 )
+    print( knapsack )
+    print( len(knapsack) ) 
+    print( knapsack.get_points() )
+    print( knapsack.item_fits(item2) )
+    item = knapsack.remove_random_item()
+    print( knapsack.item_fits(item2) )
 
 # Load a Knapsack problem
 Lees de data in de knapsack_small.csv file in. Hiervoor kan deze code
