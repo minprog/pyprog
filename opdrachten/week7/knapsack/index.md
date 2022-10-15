@@ -148,14 +148,15 @@ Lees de data in de knapsack_small.csv file in. Hiervoor kan deze code
 als startpunt gebruikt worden:
 
     def load_knapsack(filename):
-        with open(filename, 'r') as file:
+        with open(filename,'r') as file:
+            header = file.readline()
             for line in file:
                 splits = line.split(',')
-                if len(splits) > 6:
+                if len(splits)>3:
                     element = splits[0].strip()
-                    points = int(splits[2])
-                    weight = int(splits[4])
-                    volume = int(splits[6])
+                    points = int(splits[1])
+                    weight = int(splits[2])
+                    volume = int(splits[3])
                     print(f"element:{element} points:{points} weight:{weight} volume:{volume}")
 
 # Inpakken

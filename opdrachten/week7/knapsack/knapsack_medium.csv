@@ -1,51 +1,52 @@
-knapsack, points, 0, weight, 1050, volume, 2100
-item, points, 29, weight, 23, volume, 69
-item, points, 16, weight, 30, volume, 56
-item, points, 12, weight, 29, volume, 47
-item, points, 20, weight, 21, volume, 47
-item, points, 14, weight, 31, volume, 48
-item, points, 17, weight, 27, volume, 48
-item, points, 18, weight, 34, volume, 63
-item, points, 18, weight, 34, volume, 42
-item, points, 13, weight, 35, volume, 68
-item, points, 25, weight, 31, volume, 68
-item, points, 22, weight, 27, volume, 69
-item, points, 14, weight, 30, volume, 54
-item, points, 21, weight, 27, volume, 46
-item, points, 19, weight, 36, volume, 51
-item, points, 10, weight, 23, volume, 67
-item, points, 23, weight, 38, volume, 74
-item, points, 14, weight, 29, volume, 80
-item, points, 12, weight, 23, volume, 43
-item, points, 13, weight, 35, volume, 49
-item, points, 14, weight, 26, volume, 64
-item, points, 10, weight, 32, volume, 56
-item, points, 12, weight, 21, volume, 75
-item, points, 24, weight, 23, volume, 50
-item, points, 18, weight, 30, volume, 69
-item, points, 22, weight, 38, volume, 79
-item, points, 19, weight, 25, volume, 66
-item, points, 14, weight, 29, volume, 55
-item, points, 21, weight, 35, volume, 71
-item, points, 19, weight, 22, volume, 76
-item, points, 12, weight, 32, volume, 49
-item, points, 28, weight, 25, volume, 63
-item, points, 14, weight, 21, volume, 55
-item, points, 23, weight, 32, volume, 75
-item, points, 24, weight, 27, volume, 66
-item, points, 18, weight, 33, volume, 63
-item, points, 13, weight, 28, volume, 54
-item, points, 27, weight, 31, volume, 66
-item, points, 18, weight, 22, volume, 51
-item, points, 26, weight, 27, volume, 44
-item, points, 22, weight, 40, volume, 71
-item, points, 15, weight, 32, volume, 70
-item, points, 19, weight, 40, volume, 69
-item, points, 17, weight, 25, volume, 45
-item, points, 25, weight, 32, volume, 51
-item, points, 15, weight, 27, volume, 64
-item, points, 18, weight, 28, volume, 72
-item, points, 14, weight, 29, volume, 79
-item, points, 30, weight, 35, volume, 54
-item, points, 14, weight, 40, volume, 50
-item, points, 18, weight, 33, volume, 59
+name, points, weight, volume
+knapsack, 0, 1050, 2100
+item1, 29, 23, 69
+item2, 16, 30, 56
+item3, 12, 29, 47
+item4, 20, 21, 47
+item5, 14, 31, 48
+item6, 17, 27, 48
+item7, 18, 34, 63
+item8, 18, 34, 42
+item9, 13, 35, 68
+item10, 25, 31, 68
+item11, 22, 27, 69
+item12, 14, 30, 54
+item13, 21, 27, 46
+item14, 19, 36, 51
+item15, 10, 23, 67
+item16, 23, 38, 74
+item17, 14, 29, 80
+item18, 12, 23, 43
+item19, 13, 35, 49
+item20, 14, 26, 64
+item21, 10, 32, 56
+item22, 12, 21, 75
+item23, 24, 23, 50
+item24, 18, 30, 69
+item25, 22, 38, 79
+item26, 19, 25, 66
+item27, 14, 29, 55
+item28, 21, 35, 71
+item29, 19, 22, 76
+item30, 12, 32, 49
+item31, 28, 25, 63
+item32, 14, 21, 55
+item33, 23, 32, 75
+item34, 24, 27, 66
+item35, 18, 33, 63
+item36, 13, 28, 54
+item37, 27, 31, 66
+item38, 18, 22, 51
+item39, 26, 27, 44
+item40, 22, 40, 71
+item41, 15, 32, 70
+item42, 19, 40, 69
+item43, 17, 25, 45
+item44, 25, 32, 51
+item45, 15, 27, 64
+item46, 18, 28, 72
+item47, 14, 29, 79
+item48, 30, 35, 54
+item49, 14, 40, 50
+item50, 18, 33, 59
