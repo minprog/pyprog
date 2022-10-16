@@ -103,3 +103,7 @@ Zodra elke shape een positie heeft kunnen we bijvoorbeeld de afstand tussen twee
 ## Afronding
 
 Om het programma compleet te maken voeg je overal de juiste type hints toe en controleer je of je bij alle functies en methods voldoende doctests hebt geschreven.
+
+## Beoordeling
+
+Je programma wordt automatisch gecontroleerd op doctests en type hints. De werking van de code wordt na de deadline handmatig beoordeeld. Zorg ervoor dat je programma voldoet aan de bovenstaande eisen en gebruik maakt van de ideeën die in de opgave worden aangereikt.

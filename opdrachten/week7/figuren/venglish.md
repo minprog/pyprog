@@ -101,3 +101,7 @@ When you add a position to each shape it becomes possible to calculate the midpo
 ## Final steps
 
 To complete your program, add type hints everywhere and check whether you have written appropriate doctests for all functions and methods.
+
+## Beoordeling
+
+Your program will be automatically checked for doctests and type hints. The functionality of your solution will be manually assessed after the deadline. Make sure that your program adheres to the above requirements and that you make use of the ideas that set out in the assignment.
