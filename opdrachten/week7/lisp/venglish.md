@@ -32,7 +32,7 @@ To check the validity of a program you can go through the string and keep track 
 
 ## Doctests
 
-Above you can find a few doctests. These test the complete usage of the class, including a call to `is_valid`. You could add them to a docstring for the `class`, or to a docstring for the `is_valid` method. The doctests above are not the only ones that you could use.
+Above you can find a few doctests. These test the complete usage of the class, including a call to `is_valid`. You can add them to the docstring of `is_valid`. Do write some more tests, though!
 
 ## Main
 
