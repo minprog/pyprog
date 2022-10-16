@@ -289,7 +289,9 @@ assignments:
         algorithms: 105
         comprehensions: 105
 
-        callcenter: 210
+        lisp: 1
+        figuren: 1
+        # callcenter: 210
 
 reviews:
     show_progress: true
