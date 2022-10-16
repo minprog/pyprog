@@ -163,11 +163,15 @@ grades:
     comprehensions: *check
     virus: *manual
 
+    lisp:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    figuren: *manual
     callcenter:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/3)
-    adventure: *manual
 
     toetsje_week_2:
         <<: *automatic
