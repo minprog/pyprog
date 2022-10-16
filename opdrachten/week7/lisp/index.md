@@ -17,13 +17,13 @@ Deze haakjes hebben dus wel een doel, maar toch is het makkelijk om fouten te ma
 
 We vragen je hier specifiek om een validator in een class te bouwen. Deze class genaamd `LispValidator` heeft een constructor met één parameter: de inhoud van het programma (een string). Daarnaast is er een methode genaamd `is_valid()` die True of False teruggeeft.
 
-    >>> LispValidator("(defun factorial (())(] (loop))))").is_valid
+    >>> LispValidator("(defun factorial (())(] (loop))))").is_valid()
     False
 
-    >>> LispValidator("(write (factorial 3))").is_valid
+    >>> LispValidator("(write (factorial 3))").is_valid()
     True
 
-    >>> LispValidator("(defun gretting ((write-line \"let it snow\"))").is_valid
+    >>> LispValidator("(defun gretting ((write-line \"let it snow\"))").is_valid()
     False
 
 ## Algoritme

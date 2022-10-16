@@ -17,13 +17,13 @@ So the brackets serve a purpose, but it's still pretty easy to make a mistake. Y
 
 We ask you specifically to write a validator into a class. This class named `LispValidator` has an initializer with one parameter: the LISP program's content (a string). Next to the initializer there must be a method called `is_valid()` that returns True or False.
 
-    >>> LispValidator("(defun factorial (())(] (loop))))").is_valid
+    >>> LispValidator("(defun factorial (())(] (loop))))").is_valid()
     False
 
-    >>> LispValidator("(write (factorial 3))").is_valid
+    >>> LispValidator("(write (factorial 3))").is_valid()
     True
 
-    >>> LispValidator("(defun gretting ((write-line \"let it snow\"))").is_valid
+    >>> LispValidator("(defun gretting ((write-line \"let it snow\"))").is_valid()
     False
 
 ## Algorithm
