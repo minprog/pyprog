@@ -11,7 +11,7 @@ Those brackets do make it possible to write a full program on a single line, aft
 
     (defun factorial (n) (loop for i from 1 to n for fac = 1 then (* fac i) fi...
 
-Your task is to write a check for the validity of a given LISP program. The question here is simply whether the number of brackets matches: for each opening bracket there must be a closing bracket, and the other way around!
+So the brackets serve a purpose, but it's still pretty easy to make a mistake. Your task is to write a check for the validity of a given LISP program. The question here is simply whether the number of brackets matches: for each opening bracket there must be a closing bracket, and the other way around!
 
 ## Validator class
 

@@ -11,7 +11,7 @@ De haakjes maken het wel mogelijk om een programma op één regel te zetten, waa
 
     (defun factorial (n) (loop for i from 1 to n for fac = 1 then (* fac i) fi...
 
-Jouw taak is een check te schrijven of een LISP-programma geldig is. De vraag is daarbij of het aantal haakjes klopt: voor elk haakje openen moet er ook een haakje sluiten zijn, en andersom!
+Deze haakjes hebben dus wel een doel, maar toch is het makkelijk om fouten te maken. Jouw taak is een check te schrijven of een LISP-programma geldig is. De vraag is daarbij of het aantal haakjes klopt: voor elk haakje openen moet er ook een haakje sluiten zijn, en andersom!
 
 ## Validator class
 
