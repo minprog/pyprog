@@ -1,0 +1,6 @@
+name, points, weight, volume
+knapsack, 0, 110, 150
+item1, 30, 35, 80
+item2, 20, 30, 45
+item3, 15, 35, 40
+item4, 25, 40, 60
