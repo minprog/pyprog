@@ -303,7 +303,6 @@ final_assignments:
     show_progress: true
     submits:
         virus: 1
-        adventure: 1
 
 tests:
     show_progress: true
