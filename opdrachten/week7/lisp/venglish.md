@@ -23,7 +23,7 @@ We ask you specifically to write a validator into a class. This class named `Lis
     >>> LispValidator("(write (factorial 3))").is_valid()
     True
 
-    >>> LispValidator("(defun gretting ((write-line \"let it snow\"))").is_valid()
+    >>> LispValidator("(defun gretting ((write-line 'let it snow'))").is_valid()
     False
 
 ## Algorithm
