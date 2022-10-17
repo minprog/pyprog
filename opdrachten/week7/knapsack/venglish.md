@@ -14,14 +14,14 @@ is available in the files
 
 The computational goal is to pack a sack with as much value as possible, keeping in mind the constraints.
 
-# Object oriented orogramming
+## Object oriented orogramming
 
 Let's *model* this problem using object oriented programming.
 We will define new "types of things" from the problem domain, using classes.
 And we will assign the classes some useful instance variables and methods to build the functionality.
 The classes that we will use in this problem are `Resources`, `Item` and `Knapsack`.
 
-# Resources
+## Resources
 
 We first define the class `Resources` as:
 
@@ -65,7 +65,7 @@ Using this class as a type in some test code, it becomes possible to add and com
 
 **Assignment.** Copy the class definition and provide one doctest for each of the methods, showing that everything work as expected.
 
-# Items
+## Items
 
 The `Item` class is a container that connects points and resources.
 
@@ -97,7 +97,7 @@ This class is not implemented yet.
     print(item.get_points())
     print(item.get_resources())
 
-# Knapsack
+## Knapsack
 
 Now we can implement a `Knapsack` class.
 
@@ -150,7 +150,7 @@ Now we can implement a `Knapsack` class.
     item = knapsack.remove_random_item()
     print( knapsack.item_fits(item2) )
 
-# Loading a Knapsack problem
+## Loading a Knapsack problem
 
 **Assignment.** Create a function that can read Knapsack problem data from a CSV file. Use the following code as a starting point:
 
@@ -168,7 +168,7 @@ Now we can implement a `Knapsack` class.
 
 (Notice that this function is not part of a class, but like before, exists separately in the program.)
 
-# Packing
+## Packing
 
 **Assignment.** Write a Knapsack solver in a function like this:
 
@@ -189,21 +189,21 @@ Feel free to decompose the solution into further functions.
 
 Test your solution on the `knapsack_small.csv` problem first, and when satisfied with the results, tackle the larger `knapsack_medium.csv` problem.
 
-# Extra: packing better
+## Extra: packing better
 
 Come up with a better algorithm to determine the maximum score given a knapsack and some items. One example is to remove items from a knapsack and making space for different items.
 
 What is the highest score you are able to find using the `knapsack_large.csv` problem? Compare your results with those from other students.
 
-# Advantages of object oriented programming
+## Advantages of object oriented programming
 
 We could have solved the Knapsack problem without using any object oriented programming (so without classes). We might even have needed less code. So what would be the *advantages* of classes then?
 
-## Types from the problem domain
+### Types from the problem domain
 
 The types (classes) that we defined are closely linked to the problem domain, which makes it easier to reason about the code (this does certainly take some practice, so you might not have noticed this, yet!).
 
-## Encapsulation
+### Encapsulation
 
 *Encapsulation* means that a class hides implementation details in a particular part of the code. You've seen the same principle used with functions; we might use a function without seeing the code and how exactly it is implemented. We just need some documentation and the required types.
 But different from functions is that a class can also hide *instance variables*, which means that the object can keep track of things between various method calls (whereas with functions, it is very uncommon that a function "remembers" something from the last time it was called).
@@ -217,6 +217,6 @@ A programmer does not even need to know what the types of instance variables are
 *   In the `Knapsack` class you probably used a list to keep track of items. However, removing random items from a list can be very slow when the list gets long. This isn't helpful when we are trying to solve calculation-intensive problems like the above. For larger 
     knapsack problems it would be wise to use a set instead of a list. And it is perfectly possible to make this (implementation) change in `Knapsack` without changing any other code!
 
-# Finishing up
+## Finishing up
 
 Don't forget your doctests and add as many type hints as possible.

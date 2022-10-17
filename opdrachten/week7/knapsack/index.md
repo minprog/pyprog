@@ -16,7 +16,7 @@ knapsack-problemen is beschikbaar in files
 [knapsack_medium.csv](knapsack_medium.csv) en
 [knapsack_large.csv](knapsack_large.csv).
 
-# Object-Oriented Programming
+## Object-Oriented Programming
 
 We gaan met Object-Oriented Programming een knapsack inpakking
 proberen te vinden met zo hoog mogelijk aantal punten. Bij
@@ -25,7 +25,7 @@ uit het probleem-domein en geven die nuttige *instance variables* en
 *methods*. Nuttige types voor het knapsack-probleem zijn `Resources`,
 `Item` en `Knapsack`.
 
-# Resources type
+## Resources type
 
 We definieren eerst het nieuwe type `Resources` als:
 
@@ -69,7 +69,7 @@ Met dit type kunnen we nu resources optellen en vergelijken:
 
 **Opdracht.** Neem de definitie over en geef elke method minimaal één doctest die laat zien dat alles goed werkt.
 
-# Item type
+## Item type
 
 Met type `Resources` maken we type `Item`. Dit type is alleen maar een
 container voor points en resources.
@@ -103,7 +103,7 @@ kunnen aanmaken, printen, en punten en resources kunnen opvragen:
     print(item.get_points())
     print(item.get_resources())
 
-# Knapsack type
+## Knapsack type
 
 Implementeer ook type `Knapsack` op basis van de docstrings.
 
@@ -156,7 +156,7 @@ Hiermee zouden we items moeten kunnen inpakken in een knapsack:
     item = knapsack.remove_random_item()
     print( knapsack.item_fits(item2) )
 
-# Load a Knapsack problem
+## Load a Knapsack problem
 
 Lees de data in de knapsack_small.csv file in. Hiervoor kan deze code
 als startpunt gebruikt worden:
@@ -175,7 +175,7 @@ als startpunt gebruikt worden:
 
 (Let op dat deze functie dus niet in een class staat, maar eronder!)
 
-# Inpakken
+## Inpakken
 
 Schrijf de functie:
 
@@ -196,7 +196,7 @@ dit te doen is om:
 Test dit eerst met het `knapsack_small.csv` probleem en pas het daarna
 toe op het grotere `knapsack_medium.csv` probleem.
 
-# Optioneel: Beter inpakken
+## Optioneel: Beter inpakken
 
 Bedenk zelf een beter algoritme om het aantal punten van een knapsack
 te maximaliseren. Zo kun je misschien het aantal punten van een
@@ -206,7 +206,7 @@ halen.
 Wat is het hoogst aantal punten wat je kunt vinden voor het
 `knapsack_large.csv` probleem? Vergelijk je resultaat met andere.
 
-# Voordelen van Object-Oriented Programming 
+## Voordelen van Object-Oriented Programming 
 
 We hadden het Knapsack-probleem ook kunnen oplossen zonder gebruik van
 objectgeoriënteerd programmeren (dus zonder gebruik van classes). Dan
@@ -214,13 +214,13 @@ waren er mogelijk minder regels code nodig geweest. Welke voordelen
 kunnen we bedenken voor het gebruik van objectgeoriënteerd programmeren
 voor het Knapsack-probleem?
 
-## Types uit probleem-domein
+### Types uit probleem-domein
 
 De types komen overeen met concepten uit het probleem-domein waardoor
 het makkelijker is om over de code na te denken (dit vraagt wel enige 
 oefening natuurlijk).
 
-## Encapsulation
+### Encapsulation
 
 Met *encapsulation* wordt bedoelt dat een class implementatie-details
 verborgen houdt voor de gebruiker van een class. Eerder zagen we dit
@@ -251,6 +251,6 @@ opgedeeld. Enkele voorbeelden daarvan:
     class, zou deze vervanging alleen effect hebben op code in de
     Knapsack class.
 
-# Afronding
+## Afronding
 
 Vergeet je doctests niet en voeg zo veel mogelijk type hints toe als mogelijk is.
