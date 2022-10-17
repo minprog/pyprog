@@ -1,5 +1,7 @@
 # Shapes
 
+> Correctly implementing this assignment with decent doctests and type hints, and a good style, will yield 2 points for this module.
+
 A traditional subject of object oriented programming is modelling shapes. You might define classes for rectangles, triangles and circles, and then make individual instances. In this assignment we will design a couple of classes and use these to *sort various shape instances by surface area*.
 
 As you might know, the surface area is calculated in different ways depending on the specific shape. For example, the areas of squares and circles can be calculated using just a single measure: for a square this is the length of the side, and for a circle this is the radius. Having that information, you just need the right formula.

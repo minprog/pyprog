@@ -1,4 +1,7 @@
 # Knapsack
+
+> Deze opdracht correct uitwerken met nette doctests en type hints, en een goede stijl, levert je 3 punten op voor deze module.
+
 Bij een knapsack-probleem krijgen we punten voor elk item dat we
 inpakken in de knapsack. De knapsack heeft beperkte resources waardoor
 niet alle items kunnen worden ingepakt. Resources bestaan uit een
@@ -14,6 +17,7 @@ knapsack-problemen is beschikbaar in files
 [knapsack_large.csv](knapsack_large.csv).
 
 # Object-Oriented Programming
+
 We gaan met Object-Oriented Programming een knapsack inpakking
 proberen te vinden met zo hoog mogelijk aantal punten. Bij
 Object-Oriented Programming definieren we verschillemde nieuwe types
@@ -22,15 +26,18 @@ uit het probleem-domein en geven die nuttige *instance variables* en
 `Item` en `Knapsack`.
 
 # Resources type
+
 We definieren eerst het nieuwe type `Resources` als:
 
     class Resources:
-        """ Holds the recources for a Knapsack problem. """
+        """
+        Holds the recources for a Knapsack problem.
+        """
     
         def __init__(self, weight, volume):
             """ Creates a resources object with weight and volume. """
-            self.weight=weight
-            self.volume=volume
+            self.weight = weight
+            self.volume = volume
 
         def __repr__(self):
             """ Enables printing """
@@ -60,7 +67,10 @@ Met dit type kunnen we nu resources optellen en vergelijken:
     print(r1)
     print(r2 < r1)
 
+**Opdracht.** Neem de definitie over en geef elke method minimaal één doctest die laat zien dat alles goed werkt.
+
 # Item type
+
 Met type `Resources` maken we type `Item`. Dit type is alleen maar een
 container voor points en resources.
 
@@ -83,7 +93,9 @@ container voor points en resources.
             """ Returns the resources. """
             return None
 
-Deze class werkt nog niet. Implementeer deze class zodat we een Item
+Deze class werkt nog niet.
+
+Implementeer deze class zodat we een `Item`
 kunnen aanmaken, printen, en punten en resources kunnen opvragen:
 
     item = Item(20, Resources(100,200))
@@ -92,7 +104,8 @@ kunnen aanmaken, printen, en punten en resources kunnen opvragen:
     print(item.get_resources())
 
 # Knapsack type
-Implemeteer ook type `Knapsack` op basis van de docstrings.
+
+Implementeer ook type `Knapsack` op basis van de docstrings.
 
     class Knapsack:
         """ Knapsack to which Items can be added. Keeps track of points and available resources."""
@@ -144,6 +157,7 @@ Hiermee zouden we items moeten kunnen inpakken in een knapsack:
     print( knapsack.item_fits(item2) )
 
 # Load a Knapsack problem
+
 Lees de data in de knapsack_small.csv file in. Hiervoor kan deze code
 als startpunt gebruikt worden:
 
@@ -159,14 +173,17 @@ als startpunt gebruikt worden:
                     volume = int(splits[3])
                     print(f"element:{element} points:{points} weight:{weight} volume:{volume}")
 
+(Let op dat deze functie dus niet in een class staat, maar eronder!)
+
 # Inpakken
-Schrijf functie:
+
+Schrijf de functie:
 
     def solve_knapsack(filename):
         """ Return the highest number of points found when packing the knapsack in file 'filename' """
         return None
 
-en mogelijke helper-functies om het hoogst mogelijke aantal punten te
+en eventuele helper-functies om het hoogst mogelijke aantal punten te
 vinden voor het inpakken van de *knapsack*. Een eenvoudig algoritme om
 dit te doen is om:
 
@@ -176,30 +193,35 @@ dit te doen is om:
 
 *   dit heel vaak te doen en het hoogst gevonden aantal punten te onthouden
 
-Test dit eerst met het knapsack_small.csv probleem en pas het daarna
-toe op het grotere knapsack_medium.csv probleem.
+Test dit eerst met het `knapsack_small.csv` probleem en pas het daarna
+toe op het grotere `knapsack_medium.csv` probleem.
 
 # Optioneel: Beter inpakken
+
 Bedenk zelf een beter algoritme om het aantal punten van een knapsack
 te maximaliseren. Zo kun je misschien het aantal punten van een
 ingepakte *knapsack* verder verhogen door er eerst weer items uit te
 halen.
 
 Wat is het hoogst aantal punten wat je kunt vinden voor het
-knapsack_large.csv probleem? Vergelijk je resultaat met andere.
+`knapsack_large.csv` probleem? Vergelijk je resultaat met andere.
 
 # Voordelen van Object-Oriented Programming 
+
 We hadden het Knapsack-probleem ook kunnen oplossen zonder gebruik van
-Object-Oriented Programming (dus zonder gebruik van classes). Dan
+objectgeoriënteerd programmeren (dus zonder gebruik van classes). Dan
 waren er mogelijk minder regels code nodig geweest. Welke voordelen
-kunnen we bedenken voor het gebruik van Object-Oriented
-Programming voor het Knapsack-probleem?
+kunnen we bedenken voor het gebruik van objectgeoriënteerd programmeren
+voor het Knapsack-probleem?
 
 ## Types uit probleem-domein
+
 De types komen overeen met concepten uit het probleem-domein waardoor
-het makkelijker is om over de code na te denken.
+het makkelijker is om over de code na te denken (dit vraagt wel enige 
+oefening natuurlijk).
 
 ## Encapsulation
+
 Met *encapsulation* wordt bedoelt dat een class implementatie-details
 verborgen houdt voor de gebruiker van een class. Eerder zagen we dit
 bij functies, we kunnen een functie gebruiken zonder dat we hoeven te
@@ -214,13 +236,13 @@ effect heeft op andere delen van de code. Bij Object-Oriented
 Programming is code daardoor vaak beter in compartimenten
 opgedeeld. Enkele voorbeelden daarvan:
 
-*   class Resouces heeft nu alleen *instance variables* weight en
+*   De class `Resources` heeft nu alleen *instance variables* weight en
     volume, als daar nog meer variabelen bij zouden komen zouden deze
     relatief gemakkelijk in de Resouces class kunnen worden toegevoegd
     zonder dat veel code buiten de Resouces class aangepast hoeft te
     worden.
     
-*   In de Knapsack class heb je waarschijnlijk een *list* gebruikt om
+*   In de `Knapsack` class heb je waarschijnlijk een *list* gebruikt om
     alle items op te slaan, maar een random element uit een *list*
     verwijderen kan langzaam zijn als de *list* erg lang is. Bij hele
     grote knapsack-problemen zou een *set* of een andere implementatie
@@ -228,3 +250,7 @@ opgedeeld. Enkele voorbeelden daarvan:
     Knapsack class, en dus niet gebruikt wordt in code buiten deze
     class, zou deze vervanging alleen effect hebben op code in de
     Knapsack class.
+
+# Afronding
+
+Vergeet je doctests niet en voeg zo veel mogelijk type hints toe als mogelijk is.

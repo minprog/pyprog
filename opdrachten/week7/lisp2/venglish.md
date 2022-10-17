@@ -1,7 +1,5 @@
 # LISP
 
-> Correctly implementing this assignment with decent doctests and type hints, and a good style, will yield 1 point for this module.
-
 The programming language LISP is known for the many brackets that are needed to write a program.
 
     (defun factorial (n)
