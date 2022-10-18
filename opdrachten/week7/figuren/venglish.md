@@ -38,7 +38,7 @@ Develop the classes for `Square`, `Rectangle`, and `Circle` in a file named `fig
 
 *   Each class should have an `__init__()` that receives the parameters that are needed to represent a particular shape (e.g. radius for a circle). And each class should define a method `area()` that calculates and returns the correct surface area.
 
-*   In addition you should define  a `Shape` class that is the parent of the different shape-type classes (using inheritance). This particular class will not contain any methods yet, and does not need an `__init__()`. Make all other classes inherit from the `Shape` class.
+*   In addition you should define  a `Shape` class that is the parent of the different shape-type classes (using inheritance). This particular class will not contain any methods yet, and does not need an `__init__()`. Make all other classes inherit from the `Shape` class. Also add an *empty* method `area()` so it is clear that dependent classes require this method.
 
 At this point you will have four classes and you can test these by creating a few instances and requesting the area (by calling the `area()` method). You can even make doctests for `area()`, as demonstrated in the book on page 292.
 
