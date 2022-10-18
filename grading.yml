@@ -168,10 +168,7 @@ grades:
         automatic:
             done: -(correctness_score.floor/4)
     figuren: *manual
-    callcenter:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/3)
+    knapsack: *manual
 
     toetsje_week_2:
         <<: *automatic
@@ -289,10 +286,6 @@ assignments:
         algorithms: 105
         comprehensions: 105
 
-        lisp: 1
-        figuren: 1
-        # callcenter: 210
-
 reviews:
     show_progress: true
     submits:
@@ -304,7 +297,10 @@ reviews:
 final_assignments:
     show_progress: true
     submits:
-        virus: 1
+        virus: 6
+        lisp: 1
+        figuren: 2
+        knapsack: 3
 
 tests:
     show_progress: true
