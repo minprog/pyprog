@@ -163,10 +163,7 @@ grades:
     comprehensions: *check
     virus: *manual
 
-    lisp:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/4)
+    lisp: *manual
     figuren: *manual
     knapsack: *manual
 
