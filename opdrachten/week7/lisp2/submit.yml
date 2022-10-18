@@ -1,4 +1,4 @@
-name: lisp
+name: lisp2
 files:
   required:
     - lisp.py
