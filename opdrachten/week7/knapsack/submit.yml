@@ -1,0 +1,12 @@
+name: knapsack
+files:
+  required:
+    - knapsack.py
+check:
+  tool: checkpy
+  repo: minprog/python
+  args: knapsack
+plag:
+  server: http://83.96.241.94/api/submission/
+  slug: pyprog/2022/knapsack
+  course: pyprog2022
