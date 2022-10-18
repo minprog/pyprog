@@ -189,6 +189,7 @@ grades:
     m5: *manual
     m6: *manual
 
+    oefententamen: *automatic
     exam_1: *check
 
 # CALCULATIONS - define the final grades for the course and the weights between
@@ -308,6 +309,7 @@ tests:
         toetsje_week_2: 1
         toetsje_week_3: 1
         toetsje_week_4: 1
+        oefententamen: 1
 
 exam:
     show_progress: true
