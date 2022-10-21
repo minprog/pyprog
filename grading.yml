@@ -186,7 +186,10 @@ grades:
     m5: *manual
     m6: *manual
 
-    oefententamen: *automatic
+    oefententamen:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/2)
     exam_1: *check
 
 # CALCULATIONS - define the final grades for the course and the weights between
