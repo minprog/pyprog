@@ -50,19 +50,21 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
         """
         Telt de dagen vanaf 1800 tot aan `month` of `year`.
         De eerste dag van `month` zit hier dus niet bij.
-        Gebruikt `days_from_1800_until_year`, `is_leap_year` en `days_until_month`.
+        Gebruikt `days_from_1800_until_year` en `days_until_month`.
         """
 
     def days_from_1800_until_year(year: int) -> int:
         """
         Telt de dagen vanaf 1800 tot aan `year`.
         1 januari van het nieuwe jaar is niet meegerekend.
+        Gebruikt `is_leap_year`.
         """
 
-    def days_until_month(month: int, year: int, is_leap_year: bool) -> int:
+    def days_until_month(month: int, year: int) -> int:
         """
         Telt het aantal dagen van 1 januari van `year` tot aan `month` van `year`.
         De dagen van `month` zitten hier dus niet bij.
+        Gebruikt `is_leap_year`.
         """
 
     def days_in_month(month: int, year: int) -> int:

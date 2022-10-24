@@ -46,18 +46,7 @@ And as a general rule, you should **not** place comments on the same line as act
 
 Atop your `.py` file you should have multi-line comments
 that summarize what your program (or that particular file) does
-along with, perhaps, your name and that of the file. There are two ways of doing this.
-The first way is just simply commenting every line with a hash (#): 
-
-    # hello.py
-    #
-    # Computer Science 50
-    # David J. Malan
-    # 
-    # - Says hello to the world.
-    # - Demonstrates use of printf.
-
-It is fairly common to use docstrings instead:
+along with, perhaps, your name and that of the file.
 
     """
      hello.py
@@ -66,7 +55,7 @@ It is fairly common to use docstrings instead:
      David J. Malan
      
      - Says hello to the world.
-     - Demonstrates use of printf.
+     - Demonstrates use of print.
     """
 
 Atop each of your functions (except, perhaps, main) should be multi-line comments

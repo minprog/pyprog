@@ -163,9 +163,15 @@ grades:
     comprehensions: *check
     virus: *manual
 
-    lisp: *manual
-    figuren: *manual
-    knapsack: *manual
+    lisp:
+        <<: *manual
+        calculation: (points / 1.0 * 9 + 1).round(1)
+    figuren:
+        <<: *manual
+        calculation: (points / 2.0 * 9 + 1).round(1)
+    knapsack:
+        <<: *manual
+        calculation: (points / 3.0 * 9 + 1).round(1)
 
     toetsje_week_2:
         <<: *automatic

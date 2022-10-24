@@ -24,7 +24,7 @@ Time to do real analysis. Write a program called `klimaat.py` that can read a fi
     In 2011 the temperature varied between -0.1° on 31-01 and 32.2° on 28-06
     In 2012 the temperature varied between -5.1° on 03-02 and 33.0° on 19-08
     In 2013 the temperature varied between -2.8° on 17-01 and 34.0° on 02-08
-    In 2014 the temperature varied between 1.0° on 3-12 and 32.9° on 19-07
+    In 2014 the temperature varied between 1.0° on 03-12 and 32.9° on 19-07
     In 2015 the temperature varied between -1.3° on 23-01 and 33.1° on 01-07
     In 2016 the temperature varied between -0.8° on 29-12 and 32.9° on 20-07
     In 2017 the temperature varied between -1.9° on 18-01 and 31.9° on 27-05

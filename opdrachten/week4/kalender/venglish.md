@@ -50,19 +50,21 @@ For this assignment you are again encouraged to create additional functions to s
         """
         Counts the days from 1800 until `month` of `year`.
         The first day of `month` is not included.
-        Uses `days_from_1800_until_year`, `is_leap_year` and `days_until_month`.
+        Uses `days_from_1800_until_year` and `days_until_month`.
         """
 
     def days_from_1800_until_year(year: int) -> int:
         """
         Counts the days from 1800 until `year`.
         1 January of the new year is not included.
+        Uses `is_leap_year`.
         """
 
-    def days_until_month(month: int, year: int, is_leap_year: bool) -> int:
+    def days_until_month(month: int, year: int) -> int:
         """
         Counts the number of days from 1 January of `year` until `month` of `year`.
         The days of `month` are not included.
+        Uses `is_leap_year`.
         """
 
     def days_in_month(month: int, year: int) -> int:
