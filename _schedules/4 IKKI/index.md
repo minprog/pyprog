@@ -72,19 +72,19 @@ Er zijn twee deadlines voor de meeste modules.
 
 Dit is een overzicht van de deadlines per week:
 
-|             | deadline werkend | deadline verbeterd* |
+|             | deadline werkend | deadline verbeterd |
 |:------------|:-----------------|:--------------------|
 | Module 1    | vr  4 nov  17:59 | -                   |
-| Module 2    | vr 11 nov  17:59 | tijdens werkcollege |
-| Module 3    | vr 18 nov  17:59 | tijdens werkcollege |
-| Module 4    | vr 25 nov  17:59 | tijdens werkcollege |
-| Module 5    | vr  2 dec  17:59 | tijdens werkcollege |
-| Module 6    | vr  9 dec  17:59 | tijdens werkcollege |
+| Module 2    | vr 11 nov  17:59 | tijdens vaste werkcollege |
+| Module 3    | vr 18 nov  17:59 | tijdens vaste werkcollege |
+| Module 4    | vr 25 nov  17:59 | tijdens vaste werkcollege |
+| Module 5    | vr  2 dec  17:59 | tijdens vaste werkcollege |
+| Module 6    | vr  9 dec  17:59 | tijdens vaste werkcollege |
 | Module 7    | vr 16 dec  17:59 | -                   |
 
 Er zijn géén uitzonderingen mogelijk op de deadlines voor de werkende versies van programma's. Of je nu ziek was of te laat was begonnen, de deadline is op vrijdag eind van de middag. Daarna kun je door aan de opdrachten van de volgende module, zodat je vanzelf weer op schema loopt. **Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!**
 
-De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd. In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
+De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
 
 ### Ziekte en inhalen
 
@@ -94,7 +94,7 @@ Over het algemeen zullen er geen uitzonderingen op de deadlines worden gegeven (
 
 - Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en als je tijd hebt haal je deze opdracht tijdens het weekend in. Je kunt deze dan niet meer inleveren, maar de kennis kan van pas komen.
 
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is om bij te komen.
 
 - Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:python@proglab.nl)!
 
