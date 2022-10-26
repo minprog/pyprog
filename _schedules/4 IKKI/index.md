@@ -16,9 +16,9 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 2.  **Oplossen van de programmeeropdrachten.** Voor het inleveren van correcte oplossingen voor de opdrachten staat een groter deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-    - Je kunt deze punten alleen verkrijgen als je in de betreffende week aanwezig bent bij alle colleges. Dit geldt ook in geval van ziekte.
+    - Je kunt deze punten alleen verkrijgen als je in de betreffende week aanwezig bent bij alle colleges. Dit geldt ook in geval van ziekte. Vanwege de ruime puntentelling is het normaal geen enkel probleem om een week te missen --- maar je mist dan wel kennis om verder te gaan, dus overleg met je docent!
 
-3.  **Beoordeling verbeterde programmeeropdrachten.** Voor de eerste vier modules ga je je programma's na de eerste deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit.
+3.  **Beoordeling verbeterde programmeeropdrachten.** Voor de eerste vier modules ga je je programma's na de eerste deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit. Ook dit is een klein deel van je eindcijfer.
 
     - Je kunt deze punten alleen verkrijgen als je de in de betreffende (vorige) week tijdig en goedwerkend hebt ingeleverd, hoewel perfect niet nodig is. Zie verderop voor de specifieke eisen.
 
