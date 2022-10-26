@@ -10,12 +10,12 @@ Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillend
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `cafeine.py`, een programma dat de gebruiker vraagt hoeveel cafeïne houdende dranken die drinkt en vervolgens de totale cafeïne-inname berekent.
+Schrijf, in een bestand genaamd `cafeine.py`, een programma dat de gebruiker vraagt hoeveel cafeïnehoudende dranken die drinkt en vervolgens de totale cafeïne-inname berekent.
 Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan of gelijk aan nul invult, en dus geen fouten maakt bij de invoer.
 
 ## Code
 
-In deze opdracht bestaat je code uit een zelfgeschreven functie en het aanroepen van een aantal functies.
+In deze opdracht bestaat je code uit een zelfgeschreven functie en een hoofdprogramma.
 Je moet hier niet alleen je zelfgeschreven functie aanroepen maar ook een aantal functies die al implementeerd zijn in Python.
 
 Ontwerp je code zoals hieronder beschreven.
@@ -28,14 +28,14 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
           drankjes van het type koffie, thee, energie, en cola.
         """
 
-    <Schrijf op deze plek code voor de invoer en roep de functie aan>
+    if __name__ == '__main__':
+        <Schrijf op deze plek code voor de invoer en roep de functie aan>
 
 ## Tips
 
 * Voor deze opdracht moet je een functie schrijven, dus houd het functional design recipe (FDR) bij de hand.
-* We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen, welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
+* We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen; welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
 * Je ziet dat de naam van de functie en van de parameters in het Engels is, maar het commentaar is in het Nederlands. Dit is bewust zo gedaan, dus zorg dat je dit patroon ook blijft volgen.
-
 
 ## Voorbeelden
 
