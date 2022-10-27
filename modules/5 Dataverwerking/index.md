@@ -2,6 +2,13 @@
 
 Aan de slag met toepassingen. De opdrachten in deze module zijn praktische toepassingen van programmeren in Python met veel gebruik van datastructuren en databestanden. Datastructuren gebruik je in je programma's voor de opslag van data in het geheugen, zodat je allerlei bewerkingen efficiënt kunt uitvoeren. Databestanden zijn voor de vaste opslag van data op harddisk of "in de cloud". Deze bestanden hebben allerlei formaten (manieren om de data te organiseren) die je soms handmatig moet uitlezen omdat Python er niet standaard mee overweg kan.
 
+## Puntentelling
+
+|                | Deadline             | Punten                                                                                                      |
+|----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
+| **Oefeningen** | dinsdag 17:59        | Hoofdstuk 10, Files: 1 punt<br>Hoofdstuk 11, Collections: 2 punten                |
+| **Opdrachten** | vrijdag 17:59        | Indexer: 5 <br>Preprocessing: 5<br>Klimaat: 7<br>Geen deelpunten mogelijk        |
+
 ## Deze week belangrijk
 
 1. Files lezen en schrijven (boek)

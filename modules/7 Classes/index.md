@@ -2,6 +2,13 @@
 
 In de laatste module gaan we onderzoeken hoe object-georiënteerd programmeren kan helpen om grotere programma’s beter te organiseren, en hoe je het kunt gebruiken om aangepasts object-types te maken die mooi integreren met de door Python aangeboden classes. Je kunt classes gebruiken om **aangepaste datastructuren** te maken, die verder gaan dan de lists, dicts en sets die je eerder bent tegengekomen. Om dit te bereiken is het noodzakelijk om een goed begrip op te doen van **objecten en classes**.
 
+## Puntentelling
+
+|                | Deadline             | Punten                                                                                                      |
+|----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
+| **Oefeningen** | dinsdag 17:59        | 3 punten voor goede eigen uitwerkingen       |
+| **Opdrachten** | vrijdag 17:59        | Lisp: 3 <br>Figuren: 5<br>Knapsack: 9        |
+
 ## Deze week belangrijk
 
 1. Idee van classes

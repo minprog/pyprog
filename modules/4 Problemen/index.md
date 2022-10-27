@@ -4,6 +4,13 @@ Deze week duiken we in het oplossen van grotere programmeerproblemen. De opdrach
 
 De technische focus is daarmee op **functies**. Dit zijn bouwblokken van je programma die kunnen helpen om overzicht te houden. Elke functie moet een duidelijke naam krijgen in de context van het programma, waarmee je snel kunt heen-en-weer springen tussen de verschillende onderdelen, zonder de details van elke functie steeds te hoeven lezen. Je krijgt deze week ook de ruimte om extra functies te definiëren.
 
+## Puntentelling
+
+|                | Deadline             | Punten                                                                                                      |
+|----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
+| **Opdrachten** | vrijdag 17:59        | Scrabble: 2<br>Schuifpuzzel: 5<br>Kalender: 7<br>Geen deelpunten mogelijk        |
+| **Verbeterd**  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor Kalender de<br>vrijdagdeadline hebt gehaald |
+
 ## Deze week belangrijk
 
 1. Hoe je een programma opbouwt vanuit een idee
