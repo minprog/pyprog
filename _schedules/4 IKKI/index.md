@@ -6,7 +6,7 @@ Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We
 
 ## Docenten en assistenten
 
-De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Richard Both, Robin Langerak, Simon Pauw, Quinten van der Post en Bas Terwijn. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <python@proglab.nl>. Voor elke groep zijn er naast één docent ook nog twee studentassistenten, die bovendien het huiswerk nakijken.
+De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Richard Both, Simon Pauw, Pieter Pierrot, Quinten van der Post en Bas Terwijn. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <python@proglab.nl>. Voor elke groep zijn er naast één docent ook nog twee studentassistenten, die bovendien het huiswerk nakijken.
 
 ## Deadlines
 
@@ -14,7 +14,7 @@ Dit is een overzicht van de deadlines per week:
 
 | Deadline:   |  (1) oefeningen |  (2) opdrachten |         (3) verbetering |
 |-------------|----------------:|----------------:|------------------------:|
-| Module 1    |  di 1 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege wk2 |
+| Module 1    |  wo 2 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege wk2 |
 | Module 2    |  di 8 nov 17:59 | vr 11 nov 17:59 | tijdens werkcollege wk3 |
 | Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege wk4 |
 | Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege wk5 |
