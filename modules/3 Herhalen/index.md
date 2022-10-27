@@ -6,11 +6,11 @@ Daarnaast is er aandacht voor **lijsten**. Lijsten geven je een plek om data van
 
 ## Puntentelling
 
-|            | Deadline             | Punten                                                                                                      |
-|------------|----------------------|-------------------------------------------------------------------------------------------------------------|
-| Oefeningen | dinsdag 17:59        | 1 punt per goed uitgewerkt hoofdstuk, 2 punten voor hst 9                                                                      |
-| Opdrachten | vrijdag 17:59        | camelCase: 1<br>RNA: 1<br>Leesbaarheid: 2<br>Cola: 1<br>Populatie: 2<br>Sjoelen: 2<br>Temperatuur: 2        |
-| Verbeterd  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor 5 van de opdrachten de<br>vrijdagdeadline hebt gehaald |
+|                | Deadline             | Punten                                                                                                      |
+|----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
+| **Oefeningen** | dinsdag 17:59        | Hoofdstuk 8, Lists: 1 punt<br>Hoofdstuk 9, Loops: 2 punten                |
+| **Opdrachten** | vrijdag 17:59        | camelCase: 1<br>RNA: 1<br>Leesbaarheid: 2<br>Cola: 1<br>Populatie: 2<br>Sjoelen: 2<br>Temperatuur: 2        |
+| **Verbeterd**  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor 5 van de opdrachten de<br>vrijdagdeadline hebt gehaald |
 
 ## Deze week belangrijk
 
