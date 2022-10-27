@@ -3,4 +3,4 @@ short_name: Python
 language: nl
 links:
     '[vector-pen] Reviews': /reviews
-    '[patch-exclamation] Tentamen': /tentamen/tentamen1
+    # '[patch-exclamation] Tentamen': /tentamen/tentamen1
