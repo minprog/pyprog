@@ -8,7 +8,11 @@ Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We
 
 De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Richard Both, Robin Langerak, Simon Pauw, Quinten van der Post en Bas Terwijn. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <python@proglab.nl>. Voor elke groep zijn er naast één docent ook nog twee studentassistenten, die bovendien het huiswerk nakijken.
 
-## Opdrachten
+## Eindcijfer
+
+Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer. **Let op: het aandeel tentamen kan nog gereduceerd worden, zelfs naar 0%. In alle gevallen moet je het wél voldoende maken. De regeling wordt uiterlijk 7 november 2022 bekend gemaakt.**
+
+### Opdrachten
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
 
@@ -20,13 +24,9 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 Per module kun je 20 punten halen. Bij de opdrachten staat vermeld hoeveel punten dat zijn. Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
 
-## Tentamen
+### Tentamen
 
 Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je een oefententamen tijdens het werkcollege.
-
-## Eindcijfer
-
-Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer. **Let op: het aandeel tentamen kan nog gereduceerd worden, zelfs naar 0%. In alle gevallen moet je het wél voldoende maken. De regeling wordt uiterlijk 7 november 2022 bekend gemaakt.**
 
 ## Aanwezigheid
 
@@ -102,7 +102,7 @@ Over het algemeen zullen er geen uitzonderingen op de deadlines worden gegeven (
 
 ## Opdrachtcijfers
 
-De verbeterde opdrachten kunnen elk maximaal 6 punten opleveren. Per opdracht zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal is als volgt:
+Je verbeterde opdrachten kunnen per module maximaal 6 punten opleveren. Er zijn steeds diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal is als volgt:
 
 6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
 5. zeer goede kwaliteit, beperkt ruimte voor verbetering
