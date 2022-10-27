@@ -30,7 +30,10 @@ Het gaat om de volgende onderdelen:
 
 3.  **Verbeteren van je oplossingen.** Voor de eerste vier modules ga je je programma's na de deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit, en je krijgt feedback. Je kunt alleen de punten voor dit onderdeel krijgen als je een groot deel van de programma's voor (2) goedwerkend hebt ingeleverd.
 
-De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist. Daarvoor is voldoende ruimte ingebouwd.
+De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist. Daarvoor is voldoende ruimte ingebouwd. Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
+
+De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
+
 
 ## Eindcijfer
 
@@ -81,11 +84,6 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 - Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
 </details>
-
-
-Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
-
-De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
 
 ### Ziekte en inhalen
 
