@@ -4,6 +4,14 @@ Tijd om moeilijke belissingen te nemen; maar gelukkig kun je die overlaten aan d
 
 Tegelijk ga je aan de slag met het schrijven van kleine **tests** voor je functies, zodat je kunt laten zien dat de functies voor een deel correct werken. En tot slot is er aandacht voor de **methods** die bij Python bijgeleverd zitten. Op lange termijn schelen zulke methods je veel werk, maar nu je er voor het eerst mee aan de slag gaat zal het wel wat uitzoekwerk opleveren.
 
+## Puntentelling
+
+|            | Deadline             | Punten                                                                                                              |
+|------------|----------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Oefeningen** | dinsdag 17:59        | 1 punt per goed uitgewerkt hoofdstuk                                                                              |
+| **Opdrachten** | vrijdag 17:59        | 2 punten per correcte uitwerking, 3 voor <br>Wachtwoorden; geen deelpunten mogelijk                       |
+| **Verbeterd**  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor 4 van de 5 opdrachten <br>de vrijdagdeadline hebt gehaald |
+
 ## Deze week belangrijk
 
 1. Hoe je kunt werken met True en False

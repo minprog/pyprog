@@ -4,6 +4,14 @@ We gaan aan de slag met **herhaling** door gebruik te maken van loops. Samen met
 
 Daarnaast is er aandacht voor **lijsten**. Lijsten geven je een plek om data van variabele grootte op te slaan. Je hoeft niet meer elk gegeven een eigen naam te geven, maar je kunt een hele collectie onder één noemer kwijt. Sommige code kun je dan ook een stuk efficiënter schrijven met hulp van lijsten en loops. Maar daarover later meer.
 
+## Puntentelling
+
+|            | Deadline             | Punten                                                                                                      |
+|------------|----------------------|-------------------------------------------------------------------------------------------------------------|
+| Oefeningen | dinsdag 17:59        | 2 punten per goed uitgewerkt hoofdstuk                                                                      |
+| Opdrachten | vrijdag 17:59        | camelCase: 1<br>RNA: 1<br>Leesbaarheid: 2<br>Cola: 1<br>Populatie: 2<br>Sjoelen: 2<br>Temperatuur: 2        |
+| Verbeterd  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor 5 van de opdrachten de<br>vrijdagdeadline hebt gehaald |
+
 ## Deze week belangrijk
 
 1. Hoe je data op kunt slaan in lijsten
