@@ -16,7 +16,7 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 2.  **Oplossen van de programmeeropdrachten.** Voor het inleveren van correcte oplossingen voor de opdrachten staat een groter deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3.  **Beoordeling verbeterde programmeeropdrachten.** Voor de eerste vier modules ga je je programma's na de eerste deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit. Ook dit is een klein deel van je eindcijfer. Je kunt deze extra punten alleen krijgen als je voldoende werk hebt ingeleverd voor de eerste deadline.
+3.  **Verbeteren van je oplossingen.** Voor de eerste vier modules ga je je programma's na de eerste deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit. Ook dit is een klein deel van je eindcijfer. Je kunt deze extra punten alleen krijgen als je voldoende werk hebt ingeleverd voor de eerste deadline.
 
 Per module kun je 20 punten halen. Bij de opdrachten staat vermeld hoeveel punten dat zijn. Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
 
@@ -60,25 +60,27 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Er zijn twee deadlines voor de meeste modules.
+Er zijn drie soorten deadlines.
 
-1. De deadline voor het **volledig maken** van de opdrachten en oefeningen. De oefeningen kun je zo goed mogelijk doen en dan inleveren. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Dan kun je (ook voor de deadline) je uitwerking nog verbeteren.
+1. De deadline voor het **uitwerken** van de oefeningen uit het boek. De opdracht kun je zo goed mogelijk doen en dan inleveren. Ze worden nagekeken op zichtbare inzet.
 
-2. De deadline voor de **verbeterde** versie van één van de wekelijkse programma's. Tijdens het werkcollege zul je een code review doen met een medestudent, op basis waarvan je dat ene programma helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt.
+2. De deadline voor het **oplossen** van de opdrachten. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Dan kun je (ook voor de deadline) je uitwerking nog verbeteren.
+
+2. De deadline voor de **verbeterde** versie van de oplossingen. Tijdens het werkcollege zul je een code review doen met een medestudent, op basis waarvan je je programma's helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt.
 
 Dit is een overzicht van de deadlines per week:
 
-|             | deadline werkend | deadline verbeterd |
-|:------------|:-----------------|:--------------------|
-| Module 1    | vr  4 nov  17:59 | -                   |
-| Module 2    | vr 11 nov  17:59 | tijdens vaste werkcollege |
-| Module 3    | vr 18 nov  17:59 | tijdens vaste werkcollege |
-| Module 4    | vr 25 nov  17:59 | tijdens vaste werkcollege |
-| Module 5    | vr  2 dec  17:59 | tijdens vaste werkcollege |
-| Module 6    | vr  9 dec  17:59 | tijdens vaste werkcollege |
-| Module 7    | vr 16 dec  17:59 | -                   |
+| Deadline -> | uitwerken<br>oefeningen | oplossing<br>opdrachten | verbeteren<br>oplossingen* |
+|-------------|------------------------:|------------------------:|---------------------------:|
+| Module 1    |          di 1 nov 17:59 |         vr  4 nov 17:59 |        tijdens werkcollege |
+| Module 2    |          di 8 nov 17:59 |         vr 11 nov 17:59 |        tijdens werkcollege |
+| Module 3    |         di 15 nov 17:59 |         vr 18 nov 17:59 |        tijdens werkcollege |
+| Module 4    |                         |         vr 25 nov 17:59 |        tijdens werkcollege |
+| Module 5    |         di 29 nov 17:59 |         vr  2 dec 17:59 |                            |
+| Module 6    |          di 6 dec 17:59 |         vr  9 dec 17:59 |                            |
+| Module 7    |         di 13 dec 17:59 |         vr 16 dec 17:59 |                            |
 
-Er zijn géén uitzonderingen mogelijk op de deadlines voor de werkende versies van programma's. Of je nu ziek was of te laat was begonnen, de deadline is op vrijdag eind van de middag. Daarna kun je door aan de opdrachten van de volgende module, zodat je vanzelf weer op schema loopt. **Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!**
+Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
 
 De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
 
