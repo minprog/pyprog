@@ -115,14 +115,14 @@ De verbeterde opdrachten kunnen elk maximaal 6 punten opleveren. Per opdracht zi
 
 Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren. Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
 
-Om mee te mogen doen met de code review en deze punten te halen moet je een minimum-aantal opdrachten correct hebben ingeleverd op de vrijdag-deadline:
+Om mee te mogen doen met de code review en deze punten te halen moet je een minimumaantal opdrachten correct hebben ingeleverd op de vrijdagse deadline:
 
 | Week | Minimum correcte opdrachten |
 |-----:|----------------------------:|
-|    1 |    2 (alle) |
-|    2 |    4        |
-|    3 |    5        |
-|    4 |  Kalender   |
+|    1 |                  2 van de 2 |
+|    2 |                  4 van de 5 |
+|    3 |                  5 van de 7 |
+|    4 |                    Kalender |
 
 ## Boek
 
