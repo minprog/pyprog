@@ -8,25 +8,45 @@ Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We
 
 De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Richard Both, Robin Langerak, Simon Pauw, Quinten van der Post en Bas Terwijn. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <python@proglab.nl>. Voor elke groep zijn er naast één docent ook nog twee studentassistenten, die bovendien het huiswerk nakijken.
 
+## Deadlines
+
+Dit is een overzicht van de deadlines per week:
+
+| Deadline:   |  (1) oefeningen |  (2) opdrachten |         (3) verbetering |
+|-------------|----------------:|----------------:|------------------------:|
+| Module 1    |  di 1 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege wk2 |
+| Module 2    |  di 8 nov 17:59 | vr 11 nov 17:59 | tijdens werkcollege wk3 |
+| Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege wk4 |
+| Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege wk5 |
+| Module 5    | di 29 nov 17:59 | vr  2 dec 17:59 |                         |
+| Module 6    |  di 6 dec 17:59 | vr  9 dec 17:59 |                         |
+| Module 7    | di 13 dec 17:59 | vr 16 dec 17:59 |                         |
+
+Het gaat om de volgende onderdelen:
+
+1.  **Aftekenen van oefeningen uit het boek.** In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Het maken van de oefeningen levert je een klein deel van het eindcijfer op. Ze worden gecheckt op volledigheid van de antwoorden. Je krijgt voor deze oefeningen geen feedback, maar je mag (moet!) altijd vragen als je iets niet begrijpt.
+
+2.  **Oplossen van de programmeeropdrachten.** Voor het inleveren van correcte oplossingen voor de opdrachten staat een behoorlijk deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie. Deze controle wordt grotendeels automatisch gedaan via deze website.
+
+3.  **Verbeteren van je oplossingen.** Voor de eerste vier modules ga je je programma's na de deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit, en je krijgt feedback. Je kunt alleen de punten voor dit onderdeel krijgen als je een groot deel van de programma's voor (2) goedwerkend hebt ingeleverd.
+
+De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist. Daarvoor is voldoende ruimte ingebouwd.
+
 ## Eindcijfer
 
-Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer. **Let op: het aandeel tentamen kan nog gereduceerd worden, zelfs naar 0%. In alle gevallen moet je het wél voldoende maken. De regeling wordt uiterlijk 7 november 2022 bekend gemaakt.**
+Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per wekelijkse module. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
 
-### Opdrachten
+| Punten     | week1 | week2 | week3 | week4 | week5 | week6 | week7 |
+|------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Oefeningen |   6   |   3   |   3   |   -   |   3   |   3   |   3   |
+| Opdrachten |   8   |   11  |   11  |   14  |   17  |   17  |   17  |
+| Verbeterd  |   6   |   6   |   6   |   6   |   -   |   -   |   -   |
 
-Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
+Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
 
-1.  **Aftekenen van oefeningen uit het boek.** In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Het maken van de oefeningen levert je een klein deel van het eindcijfer op.
+Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer.
 
-2.  **Oplossen van de programmeeropdrachten.** Voor het inleveren van correcte oplossingen voor de opdrachten staat een groter deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
-
-3.  **Verbeteren van je oplossingen.** Voor de eerste vier modules ga je je programma's na de deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit. Ook dit is een klein deel van je eindcijfer.
-
-Per module kun je 20 punten halen. Bij de opdrachten staat vermeld hoeveel punten dat zijn. Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
-
-### Tentamen
-
-Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je een oefententamen tijdens het werkcollege.
+**Let op: het aandeel tentamen kan nog gereduceerd worden, zelfs naar 0%. In alle gevallen moet je het wél voldoende maken. De regeling wordt uiterlijk 7 november 2022 bekend gemaakt.**
 
 ## Aanwezigheid
 
@@ -62,27 +82,6 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 - Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
 </details>
 
-## Deadlines
-
-Dit is een overzicht van de deadlines per week:
-
-| Deadline -> |  (1) oefeningen |  (2) opdrachten |         (3) verbetering |
-|-------------|----------------:|----------------:|------------------------:|
-| Module 1    |  di 1 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege wk2 |
-| Module 2    |  di 8 nov 17:59 | vr 11 nov 17:59 | tijdens werkcollege wk3 |
-| Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege wk4 |
-| Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege wk5 |
-| Module 5    | di 29 nov 17:59 | vr  2 dec 17:59 |                         |
-| Module 6    |  di 6 dec 17:59 | vr  9 dec 17:59 |                         |
-| Module 7    | di 13 dec 17:59 | vr 16 dec 17:59 |                         |
-
-Er zijn drie soorten deadlines.
-
-1. De deadline voor het **uitwerken** van de oefeningen uit het boek. De opdracht kun je zo goed mogelijk doen en dan inleveren. Ze worden gecheckt op volledigheid van de antwoorden. Je krijgt voor deze oefeningen geen feedback, maar je mag (moet!) altijd vragen als je iets niet begrijpt.
-
-2. De deadline voor het **oplossen** van de opdrachten. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Met de resultaten van deze controle kun je (ook voor de deadline) je uitwerking nog verbeteren. De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist.
-
-2. De deadline voor de **verbeterde** versie van de oplossingen. Tijdens jouw ingeplande werkcollege zul je een code review doen met een medestudent, op basis waarvan je je programma's helemaal kunt verbeteren. Dat is de versie waarvoor je feedback krijgt. Je kunt alleen de punten voor dit onderdeel krijgen als je een groot deel van de programma's voor (2) goedwerkend hebt ingeleverd.
 
 Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
 
@@ -123,6 +122,10 @@ Om mee te mogen doen met de code review en deze punten te halen moet je een mini
 |    2 |                  4 van de 5 |
 |    3 |                  5 van de 7 |
 |    4 |                    Kalender |
+
+## Tentamen
+
+Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je een oefententamen tijdens het werkcollege.
 
 ## Boek
 
