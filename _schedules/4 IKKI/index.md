@@ -32,7 +32,7 @@ Het gaat om de volgende onderdelen:
 
 ### Uitzonderingen
 
-De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist. Daarvoor is voldoende ruimte ingebouwd. Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
+De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist (vraag wel om advies welke handig zijn om sowieso te doen). Daarvoor is voldoende ruimte ingebouwd. Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
 
 De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
 
