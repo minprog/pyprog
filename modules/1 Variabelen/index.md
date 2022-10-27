@@ -8,9 +8,9 @@ Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. En dat is
 
 |            | Deadline             | Punten                                                                                                              |
 |------------|----------------------|---------------------------------------------------------------------------------------------------------------------|
-| Oefeningen | dinsdag 17:59        | 2 punten per goed uitgewerkt hoofdstuk                                                                              |
-| Opdrachten | vrijdag 17:59        | 4 punten voor correcte uitwerking van Cafeine<br>en 4 voor Vakantie, geen deelpunten mogelijk                       |
-| Verbeterd  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor zowel Cafeine als Vakantie <br>de vrijdagdeadline hebt gehaald |
+| **Oefeningen** | dinsdag 17:59        | 2 punten per goed uitgewerkt hoofdstuk                                                                              |
+| **Opdrachten** | vrijdag 17:59        | 4 punten voor correcte uitwerking van Cafeine<br>en 4 voor Vakantie, geen deelpunten mogelijk                       |
+| **Verbeterd**  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor zowel Cafeine als Vakantie <br>de vrijdagdeadline hebt gehaald |
 
 ## Deze week belangrijk
 
