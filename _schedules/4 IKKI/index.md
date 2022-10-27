@@ -30,6 +30,8 @@ Het gaat om de volgende onderdelen:
 
 3.  **Verbeteren van je oplossingen.** Voor de eerste vier modules ga je je programma's na de deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit, en je krijgt feedback. Je kunt alleen de punten voor dit onderdeel krijgen als je een groot deel van de programma's voor (2) goedwerkend hebt ingeleverd.
 
+### Uitzonderingen
+
 De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist. Daarvoor is voldoende ruimte ingebouwd. Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
 
 De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
@@ -39,7 +41,7 @@ De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waari
 
 Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per wekelijkse module. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
 
-| **Punten** | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 |
+| Punten     | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 |
 |------------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | Oefeningen |    6   |    3   |    3   |    -   |    3   |    3   |    3   |
 | Opdrachten |    8   |   11   |   11   |   14   |   17   |   17   |   17   |
