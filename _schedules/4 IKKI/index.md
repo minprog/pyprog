@@ -16,11 +16,11 @@ Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 hal
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
 
-1.  **Aftekenen van oefeningen uit het boek.** In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Het maken van de oefeningen levert je een klein deel van het eindcijfer op. Ze worden gecheckt op volledigheid van de antwoorden.
+1.  **Aftekenen van oefeningen uit het boek.** In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Het maken van de oefeningen levert je een klein deel van het eindcijfer op.
 
 2.  **Oplossen van de programmeeropdrachten.** Voor het inleveren van correcte oplossingen voor de opdrachten staat een groter deel van het eindcijfer. Het gaat hier niet om een inhoudelijke beoordeling maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3.  **Verbeteren van je oplossingen.** Voor de eerste vier modules ga je je programma's na de eerste deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit. Ook dit is een klein deel van je eindcijfer. Je kunt deze extra punten alleen krijgen als je voldoende werk hebt ingeleverd voor de eerste deadline.
+3.  **Verbeteren van je oplossingen.** Voor de eerste vier modules ga je je programma's na de deadline nog eens uitgebreid nalopen met een medestudent en opnieuw inleveren. Die programma's worden dan nagekeken op inhoudelijke kwaliteit. Ook dit is een klein deel van je eindcijfer.
 
 Per module kun je 20 punten halen. Bij de opdrachten staat vermeld hoeveel punten dat zijn. Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
 
@@ -78,7 +78,7 @@ Dit is een overzicht van de deadlines per week:
 
 Er zijn drie soorten deadlines.
 
-1. De deadline voor het **uitwerken** van de oefeningen uit het boek. De opdracht kun je zo goed mogelijk doen en dan inleveren. Ze worden nagekeken op zichtbare inzet. Je krijgt voor deze oefeningen geen feedback, maar je mag (moet!) altijd vragen als je iets niet begrijpt.
+1. De deadline voor het **uitwerken** van de oefeningen uit het boek. De opdracht kun je zo goed mogelijk doen en dan inleveren. Ze worden gecheckt op volledigheid van de antwoorden. Je krijgt voor deze oefeningen geen feedback, maar je mag (moet!) altijd vragen als je iets niet begrijpt.
 
 2. De deadline voor het **oplossen** van de opdrachten. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Met de resultaten van deze controle kun je (ook voor de deadline) je uitwerking nog verbeteren. De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist.
 
