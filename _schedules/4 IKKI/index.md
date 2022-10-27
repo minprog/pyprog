@@ -55,7 +55,7 @@ Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 hal
 
 ## Aanwezigheid
 
-Voor dit vak is aanwezigheid verplicht bij alle werkcolleges en laptopcolleges in het rooster. Als je structureel je werk eerder af hebt dan overleg met de je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg dan kun je geen punten krijgen voor de module van de betreffende week.
+Voor dit vak is aanwezigheid verplicht bij alle werkcolleges en laptopcolleges in het rooster. Als je structureel je werk eerder af hebt, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg dan kun je geen punten krijgen voor de module van de betreffende week.
 
 ## Vragen stellen
 
@@ -87,7 +87,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 - Of ga oefenen in het basisboek, want dit staat helemaal los van de opdrachten.
 </details>
 
-### Ziekte en inhalen
+## Ziekte en inhalen
 
 Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:python@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
