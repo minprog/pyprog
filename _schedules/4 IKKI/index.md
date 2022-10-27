@@ -60,25 +60,25 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Er zijn drie soorten deadlines.
-
-1. De deadline voor het **uitwerken** van de oefeningen uit het boek. De opdracht kun je zo goed mogelijk doen en dan inleveren. Ze worden nagekeken op zichtbare inzet.
-
-2. De deadline voor het **oplossen** van de opdrachten. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Dan kun je (ook voor de deadline) je uitwerking nog verbeteren.
-
-2. De deadline voor de **verbeterde** versie van de oplossingen. Tijdens het werkcollege zul je een code review doen met een medestudent, op basis waarvan je je programma's helemaal kunt verbeteren. Dat is de versie waarvoor je punten en feedback krijgt.
-
 Dit is een overzicht van de deadlines per week:
 
-| Deadline -> | uitwerken<br>oefeningen | oplossing<br>opdrachten | verbeteren<br>oplossingen* |
-|-------------|------------------------:|------------------------:|---------------------------:|
-| Module 1    |          di 1 nov 17:59 |         vr  4 nov 17:59 |        tijdens werkcollege |
-| Module 2    |          di 8 nov 17:59 |         vr 11 nov 17:59 |        tijdens werkcollege |
-| Module 3    |         di 15 nov 17:59 |         vr 18 nov 17:59 |        tijdens werkcollege |
-| Module 4    |                         |         vr 25 nov 17:59 |        tijdens werkcollege |
-| Module 5    |         di 29 nov 17:59 |         vr  2 dec 17:59 |                            |
-| Module 6    |          di 6 dec 17:59 |         vr  9 dec 17:59 |                            |
-| Module 7    |         di 13 dec 17:59 |         vr 16 dec 17:59 |                            |
+| Deadline -> |  (1) oefeningen |  (2) opdrachten |     (3) verbetering |
+|-------------|----------------:|----------------:|--------------------:|
+| Module 1    |  di 1 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege |
+| Module 2    |  di 8 nov 17:59 | vr 11 nov 17:59 | tijdens werkcollege |
+| Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege |
+| Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege |
+| Module 5    | di 29 nov 17:59 | vr  2 dec 17:59 |                     |
+| Module 6    |  di 6 dec 17:59 | vr  9 dec 17:59 |                     |
+| Module 7    | di 13 dec 17:59 | vr 16 dec 17:59 |                     |
+
+Er zijn drie soorten deadlines.
+
+1. De deadline voor het **uitwerken** van de oefeningen uit het boek. De opdracht kun je zo goed mogelijk doen en dan inleveren. Ze worden nagekeken op zichtbare inzet. Je krijgt voor deze oefeningen geen feedback, maar je mag (moet!) altijd vragen als je iets niet begrijpt.
+
+2. De deadline voor het **oplossen** van de opdrachten. Voor de programmeeropdrachten voert de website een controle uit op de correcte werking. Met de resultaten van deze controle kun je (ook voor de deadline) je uitwerking nog verbeteren. De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist.
+
+2. De deadline voor de **verbeterde** versie van de oplossingen. Tijdens jouw ingeplande werkcollege zul je een code review doen met een medestudent, op basis waarvan je je programma's helemaal kunt verbeteren. Dat is de versie waarvoor je feedback krijgt. Je kunt alleen de punten voor dit onderdeel krijgen als je een groot deel van de programma's voor (2) goedwerkend hebt ingeleverd.
 
 Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
 
