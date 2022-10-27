@@ -39,7 +39,7 @@ De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waari
 
 ## Eindcijfer
 
-Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per wekelijkse module. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
+Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per week. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
 
 | Punten     | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 |
 |------------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
