@@ -6,9 +6,11 @@ Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. En dat is
 
 ## Puntentelling
 
-- 2 punten voor het goed uitwerken van de oefeningen uit elk van de hoofdstukken uit het boek.
-- 4 punten voor elk van de opdrachten Cafeïne en Vakantie (deze moeten helemaal correct zijn volgens de automatische checks om de punten te verdienen; er worden geen deelpunten gegeven).
-- Maximaal 6 punten voor de verbeterde versies die je bij het werkcollege in week 2 gaat maken en inleveren.
+|            | Deadline             | Punten                                                                                                              |
+|------------|----------------------|---------------------------------------------------------------------------------------------------------------------|
+| Oefeningen | dinsdag 17:59        | 2 punten per goed uitgewerkt hoofdstuk                                                                              |
+| Opdrachten | vrijdag 17:59        | 4 punten voor correcte uitwerking van Cafeine<br>en 4 voor Vakantie, geen deelpunten mogelijk                       |
+| Verbeterd  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor zowel Cafeine als Vakantie <br>de vrijdagdeadline hebt gehaald |
 
 ## Deze week belangrijk
 
