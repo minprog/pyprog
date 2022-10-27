@@ -4,6 +4,12 @@ Goed, tijd om te programmeren! We gaan dat doen aan de hand van het boek **Pract
 
 Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. En dat is ook wel zo: nog geen `if`, `while` of `for` toegestaan deze week. Maar let tegelijk goed op de specifieke **manier van programmeren** die we je willen aanleren. Dit is misschien anders dan je gewend bent. Ben je zeer ervaren, let dan vooral op het "Function Design Recipe" dat een belangrijke rol heeft in onze cursus en onze manier van programmeren.
 
+## Puntentelling
+
+- 2 punten voor het goed uitwerken van de oefeningen uit elk van de hoofdstukken uit het boek.
+- 4 punten voor elk van de opdrachten Cafeïne en Vakantie (deze moeten helemaal correct zijn volgens de automatische checks om de punten te verdienen; er worden geen deelpunten gegeven).
+- Maximaal 6 punten voor de verbeterde versies die je bij het werkcollege in week 2 gaat maken en inleveren.
+
 ## Deze week belangrijk
 
 1. Begrijpen hoe variabelen werken 
