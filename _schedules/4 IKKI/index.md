@@ -26,7 +26,11 @@ Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstuk
 
 ## Eindcijfer
 
-Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer. **Let op: het aandeel tentamen kan nog gereduceerd worden, zelfs naar 0%. Dit wordt uiterlijk 7 november 2022 bekend gemaakt.**
+Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer. **Let op: het aandeel tentamen kan nog gereduceerd worden, zelfs naar 0%. In alle gevallen moet je het wél voldoende maken. De regeling wordt uiterlijk 7 november 2022 bekend gemaakt.**
+
+## Aanwezigheid
+
+Voor dit vak is aanwezigheid verplicht bij alle werkcolleges en laptopcolleges in het rooster. Als je structureel je werk eerder af hebt dan overleg met de je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg dan kun je geen punten krijgen voor de module van de betreffende week.
 
 ## Vragen stellen
 
@@ -62,15 +66,15 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Dit is een overzicht van de deadlines per week:
 
-| Deadline -> |  (1) oefeningen |  (2) opdrachten |     (3) verbetering |
-|-------------|----------------:|----------------:|--------------------:|
-| Module 1    |  di 1 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege |
-| Module 2    |  di 8 nov 17:59 | vr 11 nov 17:59 | tijdens werkcollege |
-| Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege |
-| Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege |
-| Module 5    | di 29 nov 17:59 | vr  2 dec 17:59 |                     |
-| Module 6    |  di 6 dec 17:59 | vr  9 dec 17:59 |                     |
-| Module 7    | di 13 dec 17:59 | vr 16 dec 17:59 |                     |
+| Deadline -> |  (1) oefeningen |  (2) opdrachten |         (3) verbetering |
+|-------------|----------------:|----------------:|------------------------:|
+| Module 1    |  di 1 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege wk2 |
+| Module 2    |  di 8 nov 17:59 | vr 11 nov 17:59 | tijdens werkcollege wk3 |
+| Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege wk4 |
+| Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege wk5 |
+| Module 5    | di 29 nov 17:59 | vr  2 dec 17:59 |                         |
+| Module 6    |  di 6 dec 17:59 | vr  9 dec 17:59 |                         |
+| Module 7    | di 13 dec 17:59 | vr 16 dec 17:59 |                         |
 
 Er zijn drie soorten deadlines.
 
@@ -90,7 +94,7 @@ Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent 
 
 Over het algemeen zullen er geen uitzonderingen op de deadlines worden gegeven (zie boven), maar toch is het belangrijk om in de gaten te houden of je geen kennis mist door het overslaan van opdrachten. Daarom de volgende richtlijnen:
 
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en als je tijd hebt haal je deze opdracht tijdens het weekend in. Je kunt deze dan niet meer inleveren, maar de kennis kan van pas komen.
+- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadlines vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor. Je kunt je opdracht niet meer inleveren, maar de kennis kan van pas komen. Check daarom of het slim is deze toch nog voor een deel te maken.
 
 - Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is om bij te komen.
 
