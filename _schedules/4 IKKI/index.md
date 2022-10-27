@@ -39,11 +39,11 @@ De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waari
 
 Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per wekelijkse module. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
 
-| Punten     | week1 | week2 | week3 | week4 | week5 | week6 | week7 |
-|------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Oefeningen |   6   |   3   |   3   |   -   |   3   |   3   |   3   |
-| Opdrachten |   8   |   11  |   11  |   14  |   17  |   17  |   17  |
-| Verbeterd  |   6   |   6   |   6   |   6   |   -   |   -   |   -   |
+| **Punten** | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 |
+|------------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| Oefeningen |    6   |    3   |    3   |    -   |    3   |    3   |    3   |
+| Opdrachten |    8   |   11   |   11   |   14   |   17   |   17   |   17   |
+| Verbeterd  |    6   |    6   |    6   |    6   |    -   |    -   |    -   |
 
 Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
 
