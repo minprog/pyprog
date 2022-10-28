@@ -42,7 +42,8 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
 In het boek heb je kennis gemaakt met "voorbeeld-aanroepen". Deze noemen we ook wel **doctests**, voor tests die in de docstring staan. Zie hieronder weer het voorbeeld van de functie `days_difference` waarvoor drie voorbeelden ingevoegd zijn.
 
     >>> def days_difference(day1: int, day2: int) -> int:
-    ... """Return the number of days between day1 and day2, which are ... both in the range 1-365 (thus indicating the day of the
+    ... """Return the number of days between day1 and day2, which are
+    ... both in the range 1-365 (thus indicating the day of the
     ... year).
     ...
     ... >>> days_difference(200, 224)
