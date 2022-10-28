@@ -37,6 +37,25 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
 * We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen; welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
 * Je ziet dat de naam van de functie en van de parameters in het Engels is, maar het commentaar is in het Nederlands. Dit is bewust zo gedaan, dus zorg dat je dit patroon ook blijft volgen.
 
+## Doctests
+
+In het boek heb je kennis gemaakt met "voorbeeld-aanroepen". Deze noemen we ook wel **doctests**, voor tests die in de docstring staan. Zie hieronder weer het voorbeeld van de functie `days_difference` waarvoor drie voorbeelden ingevoegd zijn.
+
+    >>> def days_difference(day1: int, day2: int) -> int:
+    ... """Return the number of days between day1 and day2, which are ... both in the range 1-365 (thus indicating the day of the
+    ... year).
+    ...
+    ... >>> days_difference(200, 224)
+    ... 24
+    ... >>> days_difference(50, 50)
+    ... 0
+    ... >>> days_difference(100, 99)
+    ... -1
+    ... """
+    ... return day2 - day1
+
+Als je exact op die manier voorbeelden (doctests) bij jouw functie schrijft, dan worden deze automatisch getest als je je oplossing instuurt op deze website. Daarmee weten we of jouw oplossing consistent is met je zelfbedachte tests. Dat zijn overigens niet de enige tests die we doen! Want er worden ook nog tests gedaan om te controleren of jouw uitwerking ook klopt met de *opdracht*.
+
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
