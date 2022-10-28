@@ -8,8 +8,8 @@ ingepakt. De knapsack heeft beperkte resources waardoor niet alle
 items kunnen worden ingepakt. Resources bestaan uit een 'weight' en
 een 'volume'. Het totaal aan resources van de ingepakte items mag de
 resources van de knapsack niet overschrijden. Welke items in
-onderstaand figuur zou jij inpakken om het puntentotaal in de
-knapsack te maximaliseren?
+onderstaand figuur zou jij inpakken om een zo hoog mogelijk
+puntentotaal in de knapsack te krijgen?
 
 ![](knapsack.png){: style="width:40rem;"}
 
@@ -22,12 +22,13 @@ knapsack-problemen is beschikbaar in files
 ## Object-Oriented Programming
 
 We gaan met Object-Oriented Programming een knapsack inpakking
-proberen te vinden met zo hoog mogelijk aantal punten. Bij
-Object-Oriented Programming definiëren we verschillende nieuwe types
-uit het probleem-domein en geven die nuttige *instance variables* en
-*methods*. De nuttige types die we in deze opdracht voor het
-knapsack-probleem kiezen zijn `Resources`, `Item` en `Knapsack` (al
-zijn er ook andere manieren mogelijk om het probleem op te delen).
+proberen te vinden met een zo hoog mogelijk aantal punten. Bij
+Object-Oriented Programming definiëren we verschillende types die
+overeenkomen met de concepten in het probleem-domein en geven die
+nuttige *instance variables* en *methods*. De nuttige types die we in
+deze opdracht voor het knapsack-probleem kiezen zijn `Resources`,
+`Item` en `Knapsack` (al zijn er ook andere manieren mogelijk om het
+probleem op te delen).
 
 ## Resources type
 
@@ -112,9 +113,10 @@ bijvoorbeeld:
 
 ## Knapsack type
 
-Aan een object van onderstaande type Knapsack moeten we items kunnen
-toevoegen en verwijderen waarbij de overgebleven resources worden
-bijgehouden.
+Aan een object van type Knapsack moeten we items kunnen toevoegen en
+verwijderen waarbij de overgebleven resources worden bijgehouden. We
+willen kunnen vragen of een item nog mag worden toegevoegd, en wat het
+puntentotaal van de knapsack is.
 
 **Opdracht:** Verwijder de `pass` placeholders en implementeer type
 `Knapsack` op basis van de gegeven docstrings.
@@ -153,7 +155,7 @@ bijgehouden.
             """ Returns the total number of points of all items in the knapsack. """
             pass
 
-Een voorbeeld van het gebruik van dit type is:
+Een voorbeeld van het gebruik van type Knapsack is:
 
     knapsack = Knapsack(Resources(100, 200))
     print( knapsack )                          # (afhankelijk van jouw implementatie)
@@ -217,13 +219,13 @@ eenvoudig algoritme hiervoor is:
 
 *   start met een lege knapsack
 
-*   voeg de items in willekeurige volgorde toe aan de knapsack totdat er niks meer bij kan
+*   voeg de items in willekeurige volgorde aan de knapsack toe totdat er niks meer bij kan
 
 *   werk het tot-nu-toe-hoogste-aantal-gevonden-punten bij met het aantal punten van de knapsack
 
 *   haal alle items weer uit de knapsack
 
-*   herhaal dit process totdat het zelf-gekozen aantal iteraties op is (bv na enkele minuten)
+*   herhaal dit process een zelf-gekozen aantal keer (bv enkele minuten)
 
 Test dit eerst met het [knapsack_small.csv](knapsack_small.csv)
 probleem (tip: pas goed op dat er geen items verdwijnen of bijkomen)
