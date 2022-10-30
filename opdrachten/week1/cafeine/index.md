@@ -16,11 +16,12 @@ Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan of gelijk aan 
 ## Code
 
 In deze opdracht bestaat je code uit een zelfgeschreven functie en een hoofdprogramma.
-Je moet hier niet alleen je zelfgeschreven functie aanroepen maar ook een aantal functies die al implementeerd zijn in Python.
+Je moet hier niet alleen je zelfgeschreven functie aanroepen maar ook een aantal functies die al geïmplementeerd zijn in Python.
 
 Ontwerp je code zoals hieronder beschreven.
 Vul de docstrings aan met voorbeeld-aanroepen en de gewenste uitkomsten (stap 3 van het function design recipe), en eventueel verdere uitleg.
-Schrijf ook code om invoer te vragen en de functie aan te roepen.
+
+Schrijf ook code om invoer te vragen en de functie aan te roepen. Het is gebruikelijk (en in deze cursus verplicht) om de invoer en het uitprinten af te handelen in het `main`-deel, zoals hieronder aangegeven. De *berekening* vindt dan juist in een aparte functie plaats.
 
     def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
         """
