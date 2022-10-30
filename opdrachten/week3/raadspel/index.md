@@ -31,7 +31,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         """
 
     if __name__ == '__main__':
-        Prompt de gebruiker voor een (valide) level, kies een getal, laat de gebruiker gokken totdat de gok correct is.
+        <Vraag de gebruiker om een (valide) level, kies een getal, laat de gebruiker gokken totdat de gok correct is.>
 
 ## Tips
 
