@@ -34,7 +34,11 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
 
 -   Als je macOS gebruikt, dan is Textmate een goede optie. Installeer deze via de website <https://macromates.com>.
 
+    -   Heb je je programmeer-directory geopend in Textmate? Druk dan op ctrl-shift-O om een terminal te openen. Dan sta je direct op de juiste plek om je programma te runnen met `python3 programma.py`.
+
 -   Als je Windows gebruikt, dan is Notepad++ een goede optie. Installeer deze via de website <https://notepad-plus-plus.org>.
+
+Maak in alle gevallen een speciale directory om aan je Python-opdrachten te werken, liefst een directory die automatisch wordt gebackupt (Dropbox, Surfdrive, Onedrive, enz.). 
 
 ## Visual Studio Code
 
