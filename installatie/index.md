@@ -39,3 +39,5 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
 ## Visual Studio Code
 
 Heb je al programmeerervaring en weet je hoe je je eigen computer goed installeert en netjes houdt, dan is Visual Studio Code zeker een optie. Zorg ervoor dat VSCode niet zomaar allerlei plugins installeert die bijvoorbeeld `import`s toevoegen aan jouw code.
+
+Volg dan de stappen van [deze pagina](https://code.visualstudio.com/docs/python/python-tutorial) om VS Code goed in te stellen. Volg de stappen t/m Configure and Run the Debugger, en als het goed is kun je het installeren van Python overslaan omdat je dat hierboven al hebt gedaan!
