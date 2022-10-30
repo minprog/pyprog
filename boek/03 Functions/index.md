@@ -51,8 +51,8 @@ Function call <input name="form[q9d]" type="text" required>
 
 <textarea name="form[q10]" rows="8" required></textarea>
 
-## Final
+## Tot slot
 
-How much time did you spend on these exercises?
+Hoeveel tijd heb je gewerkt aan deze oefeningen?
 
 <input name="form[qTime]" type="text" required>
