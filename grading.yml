@@ -77,24 +77,24 @@ grades:
     cafeine:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/9)
     vakantie:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/8)
 
     calculator:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/8)
     etenstijd:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/6)
     orakel:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/8)
     rechthoeken:
         <<: *automatic
         automatic:
@@ -102,7 +102,7 @@ grades:
     wachtwoord:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/6)
 
     camelcase:
         <<: *automatic
@@ -136,7 +136,7 @@ grades:
     scrabble:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/7)
     schuifpuzzel:
         <<: *automatic
         automatic:
@@ -144,7 +144,7 @@ grades:
     kalender:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/10)
+            done: -(correctness_score.floor/11)
 
     indexer:
         <<: *automatic
