@@ -15,9 +15,9 @@ Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan vers
 
     Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
 
--   Als je met Windows werkt, dan heb je misschien al Python. Check dit door in de command prompt (`cmd.exe`) het commando `python3 -V` te geven. Misschien heb je Python 3.8 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
+-   Als je met Windows werkt, dan heb je misschien al Python. Check dit door in de command prompt (`cmd.exe`) het commando `python -V` te geven. Misschien heb je Python 3.8 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
 
-    Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
+    Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie. **Kies "Add python to PATH" tijdens de installatie. Mogelijk moet je hiervoor een "Advanced" install doen.**
 
 ## Een simpele editor
 
