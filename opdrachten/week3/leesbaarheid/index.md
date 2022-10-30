@@ -62,3 +62,13 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     $ python leesbaarheid.py
     Text: A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains.
     Grade 16+
+
+## Insturen
+
+Hoeveel tijd heb je gewerkt aan deze opdracht?
+
+<input name="form[qTime]" type="text" required>
+
+Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
+
+<textarea name="form[qVastlopers]">

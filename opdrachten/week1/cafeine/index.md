@@ -98,6 +98,6 @@ Hoeveel tijd heb je gewerkt aan deze opdracht?
 
 <input name="form[qTime]" type="text" required>
 
-Waren er nog dingen waar je op vastliep bij deze opdracht?
+Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
 
 <textarea name="form[qVastlopers]">

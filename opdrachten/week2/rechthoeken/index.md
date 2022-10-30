@@ -82,3 +82,13 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Geef de x-coordinaten van B: 6,15
     Geef de y-coordinaten van B: 2,9
     Er is niks aan :(
+
+## Insturen
+
+Hoeveel tijd heb je gewerkt aan deze opdracht?
+
+<input name="form[qTime]" type="text" required>
+
+Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
+
+<textarea name="form[qVastlopers]">

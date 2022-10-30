@@ -146,3 +146,13 @@ Je programma moet uiteindelijk werken als in de voorbeelden hieronder.
 * Zoek op welke schrikkeljaren er zijn of beredeneer op basis van de regels hierboven. Dan kun je zien of die jaren ook kloppen. En het jaar ná een schrikkeljaar.
 
 * Vergeet niet dat februari ook echt het correcte aantal dagen moet aangeven in een schrikkeljaar, en dat maart hier correct op moet aansluiten.
+
+## Insturen
+
+Hoeveel tijd heb je gewerkt aan deze opdracht?
+
+<input name="form[qTime]" type="text" required>
+
+Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
+
+<textarea name="form[qVastlopers]">

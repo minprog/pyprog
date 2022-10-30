@@ -156,3 +156,13 @@ Je kunt je oplossing testen met hulp van een [tekstbestand met de oplossing van 
     python schuifpuzzel.py < solution.txt
 
 De bestanden moeten dan wel in dezelfde directory staan!
+
+## Insturen
+
+Hoeveel tijd heb je gewerkt aan deze opdracht?
+
+<input name="form[qTime]" type="text" required>
+
+Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
+
+<textarea name="form[qVastlopers]">

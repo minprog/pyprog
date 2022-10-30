@@ -47,7 +47,6 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 * Let op: je wil de lijst met je eindconfiguratie nog een keer printen. Zorg dus dat je de lijst niet veranderd bij het berekenen van je punten.
 
-
 ## Voorbeelden
 
     $ python sjoelen.py
@@ -61,3 +60,13 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     $ python sjoelen.py
     Je bent geëindigd op deze configurate: [6, 2, 3, 7]
     Dat zijn 57 punten!
+
+## Insturen
+
+Hoeveel tijd heb je gewerkt aan deze opdracht?
+
+<input name="form[qTime]" type="text" required>
+
+Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
+
+<textarea name="form[qVastlopers]">
