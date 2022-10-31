@@ -81,7 +81,7 @@ grades:
     vakantie:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/8)
 
     calculator:
         <<: *automatic
