@@ -77,11 +77,11 @@ grades:
     cafeine:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/9)
+            done: -(correctness_score.floor/8)
     vakantie:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/8)
+            done: -(correctness_score.floor/7)
 
     calculator:
         <<: *automatic
