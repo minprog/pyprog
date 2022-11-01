@@ -94,7 +94,7 @@ grades:
     orakel:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/8)
+            done: -(correctness_score.floor/7)
     rechthoeken:
         <<: *automatic
         automatic:
