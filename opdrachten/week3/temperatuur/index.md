@@ -50,16 +50,17 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         "Hierbij de som van 1 en 1: 2"
 
     Je kunt elke expressie opnemen, dus ook een expressie met variabelen erin:
-    
+
         >>> credits = 10.5
-        >>> print(f"Your credits are {debt}")
+        >>> print(f"Your credits are {credits}")
         Your credits are 10.5
 
     En tot slot kun je de waarde *formatten* (vandaar de naam f-string):
-    
-        >>> f"{'a':10}"
+
+        >>> letter = 'a'
+        >>> f"{letter:10}"
         'a         '
-        >>> f"{'a':>10}"
+        >>> f"{letter:>10}"
         '         a'
 
     Bestudeer goed dit laatste voorbeeld want het gaat je helpen de tabel mooi uit te printen, exact volgens de voorbeelden hieronder!
