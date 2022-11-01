@@ -90,7 +90,7 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 * Bovenaan het programma declareren we een type genaamd `Board`. Je ziet dat dit eigenlijk een lijst van lijsten met daarin integers is.
 
-    * Tip: we gebruiken hier `list` met een kleine letter. In het boek laat men zien dat je een "list van iets" kunt declareren als `List[iets]` maar dit is inmiddels verouderd. Het voordeel is dat je geen `import` meer hoeft te doen hiervoor.
+    * Tip: we gebruiken hier `list` met een kleine letter. In het boek laat men zien dat je een "list van iets" kunt declareren als `List[iets]` maar dit is inmiddels verouderd.
     
     * Heb je de verouderde Python 3.7 of 3.8? Gebruik dan `Board = List[List[int]]` met hoofdletters.
 
@@ -106,6 +106,8 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
   oplopend is, is dit goed te tellen door middel van een teller in een dubbele `for`-loop.
 
 * Als je meerdere keren achter elkaar wil printen (op één regel) moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
+
+* Net als in Temperatuurtabellen kun je f-strings gebruiken om netjes te printen.
 
 ## Voorbeelden
 

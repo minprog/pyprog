@@ -41,9 +41,30 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* Voor het uitlijnen van de getallen zijn er verschillende technieken. Denk aan `str.format()` voor het omzetten van getallen naar strings, of `str.rjust()`. Ook kun je [f-strings gebruiken](https://peps.python.org/pep-0498/) om dit voor elkaar te krijgen.
+*   Voor het uitlijnen van de getallen zijn er verschillende technieken. Moderne Python-programma's maken gebruik van f-strings. Hiermee kun je expressies in een string opnemen:
 
-* We gaan ervan uit dat we geen temperaturen tegenkomen in de duizendtallen. Dit houdt in dat je ervan uit mag gaan dat er voor drie karakters ruimte moet zijn in de tabel, precies zoals in de voorbeelden hieronder.
+        f"Hierbij de som van 1 en 1: {1+1}"
+
+    Elke expressie tussen accolades `{}` wordt geëvalueerd bij het maken van de string. Bovenstaande string is dus in dit geval gelijk aan:
+
+        "Hierbij de som van 1 en 1: 2"
+
+    Je kunt elke expressie opnemen, dus ook een expressie met variabelen erin:
+    
+        >>> credits = 10.5
+        >>> print(f"Your credits are {debt}")
+        Your credits are 10.5
+
+    En tot slot kun je de waarde *formatten* (vandaar de naam f-string):
+    
+        >>> f"{'a':10}"
+        'a         '
+        >>> f"{'a':>10}"
+        '         a'
+
+    Bestudeer goed dit laatste voorbeeld want het gaat je helpen de tabel mooi uit te printen, exact volgens de voorbeelden hieronder!
+
+*   We gaan ervan uit dat we geen temperaturen tegenkomen in de duizendtallen. Dit houdt in dat je ervan uit mag gaan dat er voor drie karakters ruimte moet zijn in de tabel, precies zoals in de voorbeelden hieronder.
 
 ## Voorbeelden
 

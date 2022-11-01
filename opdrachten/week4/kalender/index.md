@@ -103,7 +103,9 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 ## Tips
 
-* Net als in Tiles kun je `print` aanpassen om <u>geen</u> newline te printen.
+* Net als in Schuifpuzzel kun je `print` aanpassen om <u>geen</u> newline te printen.
+
+* Net als in Temperatuurtabellen kun je f-strings gebruiken om netjes te printen.
 
 * De header heeft altijd dezelfde breedte, en je mag deze gerust hardcoden.
 
