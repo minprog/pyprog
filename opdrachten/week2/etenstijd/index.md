@@ -28,10 +28,12 @@ In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals 
 
 *   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `help@mprog.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
 
-        email = "help@mprog.nl"
+        email = "python@proglab.nl"
         user, domain = email.split("@")
 
     Daarna heb je twee losse variabelen `user` en `domain` met daarin informatie uit de originele string `email`. Probeer zelf nog even uit hoe dit werkt in Python en of je de informatie uit de `user`-variabele kunt printen!
+
+    Bedenk zelf hoe je hiermee de uren en minuten uit kunt pakken en deze verder gebruiken.
 
 *   In de `main` moet je zorgen dat er echt helemaal niets wordt geprint als het nog geen etenstijd is. Zie de voorbeelden hieronder.
 
