@@ -12,7 +12,10 @@ Voor deze module gebruik je de volgende aspecten. Neem de tijd om de uitlegpagin
 
 - [Doctests](/quality/doctests)
 - [Typing](/quality/typing)
+- [Formatting](/quality/formatting)
 - [Comments](/quality/comments)
+- [Naming](/quality/naming)
+- [Cleanup](/quality/cleanup)
 
 ## Stappenplan
 
@@ -20,7 +23,7 @@ Voor deze module gebruik je de volgende aspecten. Neem de tijd om de uitlegpagin
 1.  Neem de code van je partner zelfstandig door, zonder al de discussie aan te gaan (10 minuten).
 1.  Deel mondeling je feedback en bespreek manieren om de code beter te maken. Bedenk hoe jij jouw code gaat verbeteren (10 minuten per uitwerking).
     * Geef geen geschreven lijstje verbeterpunten aan je partner, maar ga echt het gesprek aan.
-1.  Verbeter je oplossing en stuur de definitieve oplossing in zodat deze kan worden nagekeken door je mentor. Gooi je oplossing niet helemaal overhoop maar probeer deze met kleine aanpassingen beter te maken (30--60 minuten).
+1.  Verbeter je oplossing en stuur de definitieve oplossing in zodat deze kan worden nagekeken door je mentor. Gooi je oplossing niet helemaal overhoop maar probeer deze met kleine aanpassingen beter te maken (30 minuten).
     * Neem niet het ontwerp van je partner over; dan ga je veel te ver en het kan ook leiden tot plagiaatverdenking.
-1.  [Stuur je herziene oplossingen hier in](/reviews/m2/revised).
+1.  [Stuur je herziene oplossingen hier in](/reviews/m1/revised).
 1.  Later krijg je korte schriftelijke feedback van je docent of assistent waarmee je de volgende review je voordeel kunt doen.
