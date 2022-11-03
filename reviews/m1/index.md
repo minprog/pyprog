@@ -10,12 +10,12 @@ Je reviewpartner wisselt per week. Je docent wijst tijdens de werkgroep de partn
 
 Voor deze module gebruik je de volgende aspecten. Neem de tijd om de uitlegpagina helemaal te lezen en goed te begrijpen. Je kunt hier ook vragen over stellen aan de assistenten.
 
-- [Doctests](/quality/doctests)
-- [Typing](/quality/typing)
 - [Formatting](/quality/formatting)
 - [Comments](/quality/comments)
 - [Naming](/quality/naming)
 - [Cleanup](/quality/cleanup)
+
+Let op dat (goedwerkende) doctests en types verplicht aanwezig moeten zijn, ook bij de verbeterde versies van je programma's.
 
 ## Stappenplan
 
