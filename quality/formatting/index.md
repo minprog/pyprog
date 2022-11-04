@@ -55,7 +55,7 @@ As you write longer code, you will encounter many options for grouping parts of 
 For now, you should at least use blank lines to **separate** `for`, `while`, `if` and other statements that contain blocks of code.
 On the other hand, you can omit the blank line to keep an `if` and its related `elif` and `else` statements together.
 
-So don't do this:
+So don't do this (no blank lines):
 
     x = 5
     for i in range(4):
@@ -63,7 +63,7 @@ So don't do this:
     if (x > 10):
         x /= 2
 
-And don't do this:
+And don't do this (way too many blank lines):
 
     x = 5
 
@@ -72,7 +72,7 @@ And don't do this:
     if x > 10:
         x /= 2
 
-    else
+    else:
         y *= 2
 
 But do this, i.e. grouping related statements:
@@ -92,23 +92,27 @@ But do this, i.e. grouping related statements:
     if y == 7:
         y = 0
 
+For example, `if` and `else` statements belong together and should normally be grouped as such.
+
 ## Line length
 
 Placing spaces around each operator and using good variable names may result in lines of code that have become pretty long. Generally speaking, we'd like to keep lines of code under 100 characters. It's pretty easy to split long comments into multiple lines, but for long expressions it's a bit harder. Consider this long expression:
 
     average_temperature = (sum_of_minima + sum_of_maxima) / num_measurements / 2
 
-This is not extremely long but you can see where this is going. Now, how do you break up such an expression? The first way is to split it up after the assignment operator:
+This is not extremely long but you can see where this is going. Now, how do you break up such an expression? Put the expression between brackets: `()`
 
-    average_temperature =
-        (sum_of_minima + sum_of_maxima) / num_measurements / 2
+The first way is to split it up after the assignment operator:
+
+    average_temperature = (
+        (sum_of_minima + sum_of_maxima) / num_measurements / 2)
 
 For this expression it suffices. Note the additional indentation of the second line, which helps the reader to immediately identify the line as being a continuation.
 
 Alternatively, you could do something like this:
 
-    average_temperature = (sum_of_minima + sum_of_maxima) /
-                              num_measurements / 2
+    average_temperature = ( (sum_of_minima + sum_of_maxima) /
+                            num_measurements / 2 )
 
 In many cases it doesn't quite matter where you break the line, because Python can infer that the lines belong together. Do remember that you're doing this to make your code more readable! So try to find a way that focuses the code reader's eye and makes your code easy to read.
 
