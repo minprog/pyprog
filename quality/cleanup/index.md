@@ -3,15 +3,15 @@
 While programming you might (and you will!) stumble upon some unforeseen bugs and tricky edge cases.
 In such situations, you will have to rethink your design or approach. It is quite likely that your code file still contains some remnants of your previous approach.
 
-## Dead code
+## Commented-out code
 
-One example is commented-out code or "dead code":
+You might be tempted to "keep" some old code in comments. For example, if you have written a few lines of code, but you can't use them yet, you might put comment marks around those lines (often, your editor has a shortcut for this).
 
     # x = 8
     # if x > 7:
     #     print("hello!")
 
-This should be removed! If you really would like to keep it, save it in a separate file.
+This is called commented-out code. When experimenting, this is a great system, because you can easily revert it. However, be sure to clean up your code from such comments. Your job is to design a nice solution to a problem, and when you design something, you have to make choices. So as soon as you feel you're done, you will need to remove any old parts that you don't need anymore.
 
 ## Unreachable code
 

@@ -40,47 +40,7 @@ Above, you have seen several examples of variable names that are formatted consi
 
 ## Constants
 
-In Python, constants are usually declared and assigned in a module. Here, the module is a new file containing variables, functions, etc which is imported to the main file. Inside the module, constants are written in **all-caps** with underscores separating the words.
-
-We have two files: **constant.py** and **main.py**
-
-In **constant.py**
-
-    PI = 3.14
-    GRAVITY = 9.8
-
-In **main.py**
-
-    import constant
-
-    print(constant.PI)
-    print(constant.GRAVITY)
-
-It might be tempting to just write the literal value in your code somewhere and not use a constant name. This is commonly called a **magic number**, because without diving deep into the code it would often be very hard to understand what that number means. That’s why we expect (almost) every magic number to be defined as a constant.
-
-## Loops
-
-Loops are a special case. Sometimes it's clear from a comment what the loop is supposed to do, but it's hard to think of a name for the **loop counter**. In that case, it is conventional to use the name `i`, then `j`, then `k`.
-
-    for i in range(LIMIT):
-        for j in range(LIMIT):
-            for k in range(LIMIT):
-                # do something
-
-However, it is quite uncommon that no valid names can be found for the loop counters.
-In all cases, make sure that from the combination of names and comments it is very clear what the purpose of the loop is and what the role of each variable is.
-Also, if you need more than two or three nested loops, it might be time to rethink your approach.
-
-
-## Python specifics
-
-When assigning values to multiple variables at once, it's fine to declare them together, as in:
-
-    a, b = 100, 100
-
-You can also assign them different variables. Moreover, it is also possible to assign to different types:
-
-    a, b, c = 0.1, 100, 'string'
+It might be tempting to just write the literal value in your code somewhere and not use a constant name. This is commonly called a **magic number**, because without diving deep into the code it would often be very hard to understand what that number means. That’s why we expect (almost) every magic number to be defined as a constant. Put such constants a the top of your code, so it is clear that these are unchangeable facts (for your program).
 
 
 ## Learn more

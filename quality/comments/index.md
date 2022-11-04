@@ -82,10 +82,6 @@ Consider what David tends to do:
     print("Take one down, pass it around,")
     print(f"{b - 1} {s2} of beer on the wall.\n")
 
-## Commenting out code
-
-Apart from writing notes, you might be tempted to "keep" some old code in comments. For example, if you have written a few lines of code, but you can't use them yet, you might put comment marks around those lines (often, your editor has a shortcut for this). This is called **commented-out code**. When experimenting, this is a great system, because you can easily revert it. However, be sure to clean up your code from such comments. Your job is to design a nice solution to a problem, and when you design something, you have to make choices. So as soon as you feel you're done, you will need to remove any old parts that you don't need anymore.
-
 ## Learn more
 
 Want to know more about writing good comments? Have a look at these chapters:
