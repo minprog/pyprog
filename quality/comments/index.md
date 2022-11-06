@@ -65,8 +65,12 @@ quickly assess its purpose.
     def chorus(bottles: int) -> str:
         """
         Sings about a number of bottles.
-        """
+        
+        >>> chorus(1)
         ...
+        >>> chorus(2)
+        ...
+        """
 
 ## Learn more
 
