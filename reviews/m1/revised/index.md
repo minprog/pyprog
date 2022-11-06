@@ -12,7 +12,7 @@ Beantwoord de volgende vragen om te laten zien dat je je programma's gestructure
 
     <textarea name="form[changes_adhoc]" rows="8" required></textarea>
 
-4.  Dit is een reflectievraag. Welke *soorten* wijzigingen heb je nou wel en niet toegepast? Zie je een patroon in wat je alsnog wilde aanpassen?
+4.  Dit is een reflectievraag. Welke *soorten* wijzigingen heb je nou wel en niet toegepast? Zie je een patroon in wat je alsnog wilde aanpassen? Dit zegt wellicht iets over waar je volgende keer op kunt letten.
 
     <textarea name="form[not_changed]" rows="3" required></textarea>
 
