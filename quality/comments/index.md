@@ -49,38 +49,24 @@ that summarize what your program (or that particular file) does
 along with, perhaps, your name and that of the file.
 
     """
-     hello.py
-     
-     Computer Science 50
-     David J. Malan
-     
-     - Says hello to the world.
-     - Demonstrates use of print.
+    hello.py
+
+    UvA Programmeren in Python
+    Martijn Stegeman
+
+    - Zegt hallo tegen iedereen.
+    - Laat zien hoe printen werkt.
     """
 
 Atop each of your functions (except, perhaps, main) should be multi-line comments
-that summarize what your function does along with, perhaps, its signature.
-Consider what David tends to do:
+that summarize what your function does along with doctests and other information to
+quickly assess its purpose.
 
-    def chorus(b):
+    def chorus(bottles: int) -> str:
         """
-         Sings about a number, b, of bottles.
+        Sings about a number of bottles.
         """
-    
-        s1 = "bottles"
-        s2 = "bottles"
-
-        # use singular form if needed
-        if b == 1:
-            s1 = "bottle"
-        if b == 2:
-            s2 = "bottle"
-
-    # sing verses
-    print(f"{b} {s1} of beer on the wall,")
-    print(f"{b} {s1} of beer,")
-    print("Take one down, pass it around,")
-    print(f"{b - 1} {s2} of beer on the wall.\n")
+        ...
 
 ## Learn more
 
