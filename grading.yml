@@ -186,6 +186,7 @@ grades:
         automatic:
             done: -(correctness_score.floor/6)
 
+    m1: *manual
     m2: *manual
     m3: *manual
     m4: *manual
@@ -296,6 +297,7 @@ assignments:
 reviews:
     show_progress: true
     submits:
+        m1: 1
         m2: 1
         m3: 1
         m4: 1
