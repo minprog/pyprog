@@ -53,8 +53,6 @@ Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (pun
 
 Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer.
 
-**Let op: het aandeel tentamen kan nog gereduceerd worden, zelfs naar 0%. In alle gevallen moet je het wél voldoende maken. De regeling wordt uiterlijk 7 november 2022 bekend gemaakt.**
-
 ## Aanwezigheid
 
 Voor dit vak is aanwezigheid verplicht bij alle werkcolleges en laptopcolleges in het rooster. Als je structureel je werk eerder af hebt, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg dan kun je geen punten krijgen voor de module van de betreffende week.
