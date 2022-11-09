@@ -61,6 +61,10 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     $ python rna.py
     DNA: atGcAgtAttGCA
     RNA: UACGUCAUAACGU
+    
+    $ python rna.py
+    DNA: hello
+    That is not a valid DNA string
 
 ## Insturen
 
