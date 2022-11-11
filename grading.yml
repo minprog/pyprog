@@ -297,7 +297,7 @@ assignments:
 reviews:
     show_progress: true
     submits:
-        m1: 1
+        # m1: 1
         m2: 1
         m3: 1
         m4: 1
@@ -311,13 +311,13 @@ final_assignments:
         figuren: 2
         knapsack: 3
 
-tests:
-    show_progress: true
-    submits:
-        toetsje_week_2: 1
-        toetsje_week_3: 1
-        toetsje_week_4: 1
-        oefententamen: 1
+# tests:
+#     show_progress: true
+#     submits:
+#         toetsje_week_2: 1
+#         toetsje_week_3: 1
+#         toetsje_week_4: 1
+#         oefententamen: 1
 
 exam:
     show_progress: true
