@@ -3,10 +3,13 @@
 > Deze opdracht correct uitwerken met nette doctests en type hints, en een goede stijl, levert je 3 punten op voor deze module.
 
 Bij een knapsack-probleem krijgen we punten voor elk item dat we
-inpakken in de knapsack. De knapsack heeft beperkte resources waardoor
-niet alle items kunnen worden ingepakt. Resources bestaan uit een
-weight en een volume. Het totaal aan resources van de ingepakte items
-mag de resources van de knapsack niet overschrijden.
+inpakken in de knapsack. Elk item mag maar één keer worden
+ingepakt. De knapsack heeft beperkte resources waardoor niet alle
+items kunnen worden ingepakt. Resources bestaan uit een 'weight' en
+een 'volume'. Het totaal aan resources van de ingepakte items mag de
+resources van de knapsack niet overschrijden. Welke items in
+onderstaand figuur zou jij inpakken om een zo hoog mogelijk
+puntentotaal in de knapsack te krijgen?
 
 ![](knapsack.png){: style="width:40rem;"}
 
@@ -19,29 +22,29 @@ knapsack-problemen is beschikbaar in files
 ## Object-Oriented Programming
 
 We gaan met Object-Oriented Programming een knapsack inpakking
-proberen te vinden met zo hoog mogelijk aantal punten. Bij
-Object-Oriented Programming definieren we verschillemde nieuwe types
-uit het probleem-domein en geven die nuttige *instance variables* en
-*methods*. Nuttige types voor het knapsack-probleem zijn `Resources`,
-`Item` en `Knapsack`.
+proberen te vinden met een zo hoog mogelijk aantal punten. Bij
+Object-Oriented Programming definiëren we verschillende types die
+overeenkomen met de concepten in het probleem-domein en geven die
+nuttige *instance variables* en *methods*. De nuttige types die we in
+deze opdracht voor het knapsack-probleem kiezen zijn `Resources`,
+`Item` en `Knapsack` (al zijn er ook andere manieren mogelijk om het
+probleem op te delen).
 
 ## Resources type
 
-We definieren eerst het nieuwe type `Resources` als:
+We definiëren eerst het nieuwe type `Resources` als:
 
     class Resources:
-        """
-        Holds the recources for a Knapsack problem.
-        """
+        """ Holds the recources for a Knapsack problem. """
     
         def __init__(self, weight, volume):
             """ Creates a resources object with weight and volume. """
-            self.weight = weight
-            self.volume = volume
+            self.weight=weight
+            self.volume=volume
 
         def __repr__(self):
-            """ Enables printing """
-            return f"weight:{self.weight} volume:{self.volume}"
+            """ Prints the instance variables of this class. """
+            return f"Resources(weight:{self.weight} volume:{self.volume})"
 
         def __iadd__(self, other):
             """ Implements '+=' operator. """
@@ -58,21 +61,26 @@ We definieren eerst het nieuwe type `Resources` als:
         def __lt__(self, other):
             """ Implements '<' operator. """
             return self.weight < other.weight and self.volume < other.volume
-
-Met dit type kunnen we nu resources optellen en vergelijken:
+            
+Met dit type kunnen we nu gemakkelijk resources op en aftellen en vergelijken, bijvoorbeeld:
 
     r1 = Resources(100, 200)
     r2 = Resources(25, 50)
     r1 += r2
-    print(r1)
-    print(r2 < r1)
+    print(r1)        # Resources(weight:125 volume:250)
+    print(r2 < r1)   # True
+    print(r1 < r2)   # False
+    r1 -= r2
+    print(r1)        # Resources(weight:100 volume:200)
 
-**Opdracht.** Neem de definitie over en geef elke method minimaal één doctest die laat zien dat alles goed werkt.
+**Opdracht:** Neem deze definitie over en voeg doctests toe die testen of dit type goed werkt.
 
 ## Item type
 
 Met type `Resources` maken we type `Item`. Dit type is alleen maar een
-container voor points en resources.
+container om points en resources in op te slaan en heeft verder geen
+functionaliteit, desondanks is dit een nuttig type waarmee we een item
+(zoals beschreven in het Knapsack probleem-domein) kunnen representeren.
 
     class Item:
         """ A Knapsack Item with points and resources. """
@@ -82,84 +90,102 @@ container voor points en resources.
             pass
         
         def __repr__(self):
-            """ Enables printing. """
-            return None
+            """ Prints the instance variables of this class. """
+            pass
 
         def get_points(self):
             """ Returns the points. """
-            return None
+            pass
 
         def get_resources(self):
             """ Returns the resources. """
-            return None
+            pass
 
-Deze class werkt nog niet.
+**Opdracht:** Deze class werkt nog niet. Verwijder de `pass`
+placeholders en implementeer deze class zodat we een `Item` kunnen
+aanmaken, printen, en punten en resources kunnen opvragen,
+bijvoorbeeld:
 
-Implementeer deze class zodat we een `Item`
-kunnen aanmaken, printen, en punten en resources kunnen opvragen:
-
-    item = Item(20, Resources(100,200))
-    print(item)
-    print(item.get_points())
-    print(item.get_resources())
+    item = Item(20, Resources(100, 200))
+    print(item)                   # Item(points:20 resources:Resources(weight:100 volume:200))
+    print(item.get_points())      # 20
+    print(item.get_resources())   # Resources(weight:100 volume:200)
 
 ## Knapsack type
 
-Implementeer ook type `Knapsack` op basis van de docstrings.
+Aan een object van type Knapsack moeten we items kunnen toevoegen en
+verwijderen waarbij de overgebleven resources worden bijgehouden. We
+willen kunnen vragen of een item nog mag worden toegevoegd, en wat het
+puntentotaal van de knapsack is.
+
+**Opdracht:** Verwijder de `pass` placeholders en implementeer type
+`Knapsack` op basis van de gegeven docstrings.
 
     class Knapsack:
         """ Knapsack to which Items can be added. Keeps track of points and available resources."""
 
-        def __init__(self,resources):
+        def __init__(self, resources):
             """ Creates an empty knapsack with resources. """
             pass
         
         def __repr__(self):
-            """ Enables printing. """
-            return None
+            """ Prints the instance variables of this class. """
+            pass
 
-        def item_fits(self,item):
+        def item_fits(self, item):
             """ Returns True if item can still be add to the knapsack given 
-            the remaing resources, False otherwise. """
-            return None
+            the remaining resources, False otherwise. """
+            pass
     
-        def add_item(self,item):
+        def add_item(self, item):
             """ Adds item to the knapsack and updates resources. """
             pass
         
-        def remove_random_item(self):
-            """ Removes and returns a random item from the knapsack. 
+        def remove_last_item(self):
+            """ Removes and returns the last item from the knapsack and updates resources. 
             Returns None if the knapsack has no items. """
-            return None
+            pass
 
         def __len__(self):
-            """ Implements 'len(knapsack)' function where knapsack is of type Knapsack 
-            to return the number of items in knapsack. """
-            return None
+            """ Implements 'len(knapsack)' function, where knapsack is of type Knapsack,
+            to return the number of items in the knapsack. """
+            pass
 
         def get_points(self):
-            """ Returns the points of all items in the knapsack. """
-            return None
+            """ Returns the total number of points of all items in the knapsack. """
+            pass
 
-Hiermee zouden we items moeten kunnen inpakken in een knapsack:
+Een voorbeeld van het gebruik van type Knapsack is:
 
     knapsack = Knapsack(Resources(100, 200))
-    print( knapsack )
+    print( knapsack )                          # (afhankelijk van jouw implementatie)
+    print( len(knapsack) )                     # 0
+    print( knapsack.get_points() )             # 0
     item1 = Item(10, Resources(40, 70))
     knapsack.add_item( item1 )
+    print( knapsack )                          # (afhankelijk van jouw implementatie)
+    print( len(knapsack) )                     # 1
+    print( knapsack.get_points() )             # 10
     item2 = Item(20, Resources(45, 90))
     knapsack.add_item( item2 )
-    print( knapsack )
-    print( len(knapsack) ) 
-    print( knapsack.get_points() )
-    print( knapsack.item_fits(item2) )
-    item = knapsack.remove_random_item()
-    print( knapsack.item_fits(item2) )
-
+    print( knapsack )                          # (afhankelijk van jouw implementatie)
+    print( len(knapsack) )                     # 2
+    print( knapsack.get_points() )             # 30
+    print( knapsack.item_fits(item2) )         # False
+    item = knapsack.remove_last_item()
+    print( knapsack.item_fits(item2) )         # True
+    print( knapsack )                          # (afhankelijk van jouw implementatie)
+    print( len(knapsack) )                     # 1
+    print( knapsack.get_points() )             # 10
+    item = knapsack.remove_last_item()
+    print( knapsack )                          # (afhankelijk van jouw implementatie)
+    print( len(knapsack) )                     # 0
+    print( knapsack.get_points() )             # 0
+    
 ## Load a Knapsack problem
 
-Lees de data in de knapsack_small.csv file in. Hiervoor kan deze code
-als startpunt gebruikt worden:
+**Opdracht:** Lees de data in de [knapsack_small.csv](knapsack_small.csv) file in. Hiervoor
+kan deze functie als startpunt gebruikt worden:
 
     def load_knapsack(filename):
         with open(filename,'r') as file:
@@ -173,68 +199,80 @@ als startpunt gebruikt worden:
                     volume = int(splits[3])
                     print(f"element:{element} points:{points} weight:{weight} volume:{volume}")
 
-(Let op dat deze functie dus niet in een class staat, maar eronder!)
+Deze en onderstaande functies zijn functies en geen *methods*, deze
+hoeven dus niet in een class komen te staan. Voeg deze functies toe
+onder de classes zodat de classes al gedefinieerd zijn wanneer deze
+functies door python worden gelezen.
 
 ## Inpakken
 
-Schrijf de functie:
+**Opdracht:** Schrijf de functie:
 
     def solve_knapsack(filename):
-        """ Return the highest number of points found when packing the knapsack in file 'filename' """
-        return None
+        """ Returns the highest number of points found while trying different ways of
+        packing the knapsack in file 'filename' """
+        pass
 
-en eventuele helper-functies om het hoogst mogelijke aantal punten te
-vinden voor het inpakken van de *knapsack*. Een eenvoudig algoritme om
-dit te doen is om:
+en eventuele helper-functies om een zo hoog mogelijk aantal punten te
+vinden voor het inpakken van de knapsack. Een voorbeeld van een
+eenvoudig algoritme hiervoor is:
 
-*   alle items in een *all_items* knapsack te stoppen
+*   start met een lege knapsack
 
-*   in random volgorder elk item in *all_items* naar *knapsack* te verplaatsen zolang het item nog past
+*   voeg de items in willekeurige volgorde aan de knapsack toe totdat er niks meer bij kan
 
-*   dit heel vaak te doen en het hoogst gevonden aantal punten te onthouden
+*   werk het tot-nu-toe-hoogste-aantal-gevonden-punten bij met het aantal punten van de knapsack
 
-Test dit eerst met het `knapsack_small.csv` probleem en pas het daarna
-toe op het grotere `knapsack_medium.csv` probleem.
+*   haal alle items weer uit de knapsack
+
+*   herhaal dit process een zelf-gekozen aantal keer (bv enkele minuten)
+
+Test dit eerst met het [knapsack_small.csv](knapsack_small.csv)
+probleem (tip: pas goed op dat er geen items verdwijnen of bijkomen)
+en pas het daarna toe op het grotere
+[knapsack_medium.csv](knapsack_medium.csv) probleem.
 
 ## Optioneel: Beter inpakken
 
-Bedenk zelf een beter algoritme om het aantal punten van een knapsack
-te maximaliseren. Zo kun je misschien het aantal punten van een
-ingepakte *knapsack* verder verhogen door er eerst weer items uit te
-halen.
+Bedenk zelf een beter algoritme om een zo hoog mogelijk aantal punten
+voor de knapsack te vinden. Zo kun je misschien het aantal punten van
+een ingepakte knapsack verder verhogen door er eerst weer wat items
+uit te halen. Tip: Begin simpel en test steeds je algoritme goed
+voordat je deze slimmer/ingewikkelder maakt.
 
 Wat is het hoogst aantal punten wat je kunt vinden voor het
-`knapsack_large.csv` probleem? Vergelijk je resultaat met andere.
+[knapsack_large.csv](knapsack_large.csv) probleem? Vergelijk je
+resultaat met andere.
 
 ## Voordelen van Object-Oriented Programming 
 
 We hadden het Knapsack-probleem ook kunnen oplossen zonder gebruik van
-objectgeoriënteerd programmeren (dus zonder gebruik van classes). Dan
+object-georiënteerd programmeren (dus zonder gebruik van classes). Dan
 waren er mogelijk minder regels code nodig geweest. Welke voordelen
-kunnen we bedenken voor het gebruik van objectgeoriënteerd programmeren
-voor het Knapsack-probleem?
+zijn er dan toch waardoor we hier kiezen voor het object-georiënteerd
+programmeren van het Knapsack-probleem?
 
-### Types uit probleem-domein
+### 1 Types uit probleem-domein
 
 De types komen overeen met concepten uit het probleem-domein waardoor
 het makkelijker is om over de code na te denken (dit vraagt wel enige 
 oefening natuurlijk).
 
-### Encapsulation
+### 2 Encapsulation
 
-Met *encapsulation* wordt bedoelt dat een class implementatie-details
+Met *encapsulation* wordt bedoeld dat een class implementatie-details
 verborgen houdt voor de gebruiker van een class. Eerder zagen we dit
 bij functies, we kunnen een functie gebruiken zonder dat we hoeven te
-weten hoe deze functie is geimplementeerd. Maar anders dan functies
+weten hoe deze functie is geïmplementeerd. Maar anders dan functies
 kan een class ook *instance variables* verbergen zodat we nu dus ook
 waarden (ook wel *state* genoemd) kunnen verbergen.
 
 Een gebruiker van een class hoeft dus bij het aanroepen van *methods*
-niks te weten over hoe waarden in een class zijn geimplementeerd. De
-implementatie kan daardoor makkelijker veranderen zonder dat dat
-effect heeft op andere delen van de code. Bij Object-Oriented
-Programming is code daardoor vaak beter in compartimenten
-opgedeeld. Enkele voorbeelden daarvan:
+dus niks te weten over hoe waarden in een class zijn
+geïmplementeerd. De implementatie van een class kan daardoor
+makkelijker veranderen zonder dat dat effect heeft op andere delen van
+de code. Bij Object-Oriented Programming is code daardoor vaak beter
+in compartimenten opgedeeld. Enkele voorbeelden hiervan:
 
 *   De class `Resources` heeft nu alleen *instance variables* weight en
     volume, als daar nog meer variabelen bij zouden komen zouden deze
@@ -248,9 +286,10 @@ opgedeeld. Enkele voorbeelden daarvan:
     grote knapsack-problemen zou een *set* of een andere implementatie
     waarschijnlijk sneller zijn. Omdat deze *list* is verborgen in de
     Knapsack class, en dus niet gebruikt wordt in code buiten deze
-    class, zou deze vervanging alleen effect hebben op code in de
+    class, zal deze aanpassing geen effect hebben op code buiten de
     Knapsack class.
 
 ## Afronding
 
-Vergeet je doctests niet en voeg zo veel mogelijk type hints toe als mogelijk is.
+Voeg doctests toe die testen of je code goed werkt en voeg zo veel
+mogelijk type hints toe als mogelijk is.
