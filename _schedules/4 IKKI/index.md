@@ -106,7 +106,7 @@ Je verbeterde opdrachten kunnen per module maximaal 6 punten opleveren. Er zijn 
 6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
 5. zeer goede kwaliteit, beperkt ruimte voor verbetering
 4. degelijke kwaliteit op alle genoemde aspecten, met ruimte voor verbetering
-3. net voldoende aandacht voor alle genoemde aspecten, erg veel ruimte voor verbetering
+3. net voldoende aandacht voor bijna alle genoemde aspecten, erg veel ruimte voor verbetering
 2. enige zichtbare aandacht voor een beperkt aantal aspecten
 1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
 0. geen review ingeleverd of onvoldoende opdrachten gedaan vóór de review
