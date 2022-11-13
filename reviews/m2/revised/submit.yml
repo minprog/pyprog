@@ -4,7 +4,8 @@ files:
     required:
         - review_rechthoeken.py
         - review_calculator.py
+        - review_wachtwoord.py
 check:
   tool: checkpy
   repo: minprog/python
-  args: review_rechthoeken review_calculator
+  args: review_rechthoeken review_calculator review_wachtwoord
