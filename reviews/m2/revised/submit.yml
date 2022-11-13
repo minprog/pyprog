@@ -1,7 +1,7 @@
 name: m2
 form: true
 files:
-    required:
+    twee_of_drie:
         - review_rechthoeken.py
         - review_calculator.py
         - review_wachtwoord.py
