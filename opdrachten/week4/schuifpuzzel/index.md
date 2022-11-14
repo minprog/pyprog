@@ -92,7 +92,7 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
     * Tip: we gebruiken hier `list` met een kleine letter. In het boek laat men zien dat je een "list van iets" kunt declareren als `List[iets]` maar dit is inmiddels verouderd.
     
-    * Heb je de verouderde Python 3.7 of 3.8? Gebruik dan `Board = List[List[int]]` met hoofdletters.
+    * Heb je de verouderde Python 3.7 of 3.8? Gebruik dan `Board = List[List[int]]` met hoofdletters. Je moet (alleen dan!) ook `from typing import List` toevoegen.
 
 * Voor het board in dit programma zijn dit 4 lijsten van
   lengte 4. Als je het bord gaat vullen, is het dus handig om hem rij voor rij in te vullen. De lege tegel wordt gerepresenteerd door het cijfer 0.
@@ -104,6 +104,12 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 * Bij `is_won()` moet je checken of het bord in de goede configuratie staat. Doordat de volgorde
   oplopend is, is dit goed te tellen door middel van een teller in een dubbele `for`-loop.
+
+* Je zult bij de functies `is_won()`, `move_tile()` en `print_board()` langs alle tiles willen lopen. Je kunt zo een "dubbele loop" maken die je alle combinaties van coordinaten geeft:
+
+        for i in range(4):
+            for j in range(4):
+                ...
 
 * Als je meerdere keren achter elkaar wil printen (op één regel) moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
 
@@ -157,7 +163,7 @@ Je kunt je oplossing testen met hulp van een [tekstbestand met de oplossing van 
 
     python schuifpuzzel.py < solution.txt
 
-De bestanden moeten dan wel in dezelfde directory staan!
+De bestanden moeten dan wel in dezelfde directory staan! (Dit commando werkt niet in Windows Powershell, gebruik dan `cmd.exe` of Linux.)
 
 ## Insturen
 
