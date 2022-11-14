@@ -16,7 +16,7 @@ Graden Celsius en graden Fahrenheit staan met elkaar in verband via `F = (18C + 
 Schrijf, in een bestand genaamd `temperatuur.py`, een programma dat de gebruiker vraagt om de eenheid van temperatuur: `C` van Celsius of `F` van Fahrenheit. Vervolgens vraagt het programma om de begintemperatuur, de eindtemperatuur en de stapgrootte. Daarna wordt een nette tabel uitgeprint, met op iedere rij een temperatuur in de gekozen eenheid en daarbij de omgerekende temperatuur.
 
 * Je programma moet niet gevoelig zijn voor hoofdletters: zowel `c` als `C` moeten worden gezien als Celsius.
-* De eindtemperatuur moet groter zijn dan de begintemperatuur.
+* De eindtemperatuur moet groter zijn dan de begintemperatuur (als dit niet zo is wordt een "lege tabel" uitgeprint, zie voorbeelden hieronder).
 * De stapgrootte moet een positief geheel getal zijn.
 * Je moet de getallen (en letters) rechts uitlijnen.
 * Alle temperaturen worden op gehele graden naar *boven* afgerond.
