@@ -136,7 +136,7 @@ grades:
     scrabble:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/6)
     schuifpuzzel:
         <<: *automatic
         automatic:
