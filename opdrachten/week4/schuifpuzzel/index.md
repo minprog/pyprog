@@ -23,8 +23,7 @@ met zijden van 4 velden is weergegeven in het voorbeeld hieronder.
 
 ![start_config](tiles2.png){: style="width:20rem;"}
 
-Er bestaan schuifpuzzels van verschillende groottes (voor deze opdracht,
-moeten de zijden minstens 3 velden en maximaal 9 velden lang zijn). Belangrijk
+Er bestaan schuifpuzzels van verschillende groottes; belangrijk
 om te weten is, is dat wanneer een zijde een even aantal velden heeft (en er dus
 een oneven aantal tegels zijn) de tegels 1 & 2 moeten worden omgewisseld.
 Dit is nodig zodat de puzzel oplosbaar is, en dat zie je dus ook terug in het voorbeeld hierboven.

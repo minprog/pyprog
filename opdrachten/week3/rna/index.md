@@ -13,6 +13,11 @@ Bovenstaande hoef je niet te begrijpen om de opdracht te maken!
 Schrijf, in een bestand genaamd `rna.py`, een programma dat een DNA-keten van willekeurige lengte omschrijft naar een RNA-keten.
 
 * Zowel de input als de output van het programma zijn strings.
+* Je schrijft als volgt om:
+    * A -> U
+    * G -> C
+    * C -> G
+    * T -> A
 * Wanneer de ingevoerde DNA-keten niet valide is dan print je een foutmelding zoals hieronder.
 * Je programma moet zowel kleine als hoofdletters accepteren.
 
