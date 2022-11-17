@@ -43,7 +43,6 @@ Week 4:
     Overzicht: /modules/problemen
     Opdrachten:
         Scrabble: /opdrachten/week4/scrabble
-        # Schuifpuzzel: /opdrachten/week4/schuifpuzzel
         Kalender: /opdrachten/week4/kalender
 
 Week 5:
@@ -65,6 +64,7 @@ Week 6:
         Algorithms: /opdrachten/week6/algorithms
         Comprehensions: /opdrachten/week6/comprehensions
         Virus: /opdrachten/week6/virus
+        Schuifpuzzel: /opdrachten/week4/schuifpuzzel
 
 Week 7:
     Overzicht: /modules/classes

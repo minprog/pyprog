@@ -8,7 +8,7 @@ De technische focus is daarmee op **functies**. Dit zijn bouwblokken van je prog
 
 |                | Deadline             | Punten                                                                                                      |
 |----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
-| **Opdrachten** | vrijdag 17:59        | Scrabble: 2<br>Schuifpuzzel: 5<br>Kalender: 7<br>Geen deelpunten mogelijk        |
+| **Opdrachten** | vrijdag 17:59        | Scrabble: 4 (geen deelpunten mogelijk)<br>Kalender: 10 (1 punt per check)        |
 | **Verbeterd**  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor Kalender de<br>vrijdagdeadline hebt gehaald |
 
 ## Deze week belangrijk
