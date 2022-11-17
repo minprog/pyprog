@@ -18,7 +18,7 @@ templates:
             points: integer
         automatic:
             points: correctness_score
-        calculation: (punten / 6.0 * 9 + 1).round(1)
+        calculation: (points / 6.0 * 9 + 1).round(1)
         auto_publish: true
         hide_calculated: true
     2: &manual
@@ -152,7 +152,7 @@ grades:
             done: -(correctness_score.floor/6)
     kalender:
         <<: *autopoints
-        calculation: (punten / 11.0 * 9 + 1).round(1)
+        calculation: (points / 11.0 * 9 + 1).round(1)
 
     indexer:
         <<: *automatic
