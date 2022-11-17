@@ -12,6 +12,15 @@ templates:
         calculation: done
         auto_publish: true
         hide_calculated: true
+    4: &autopoints
+        type: float
+        subgrades:
+            points: boolean
+        automatic:
+            points: correctness_score
+        calculation: (punten / 6.0 * 9 + 1).round(1)
+        auto_publish: true
+        hide_calculated: true
     2: &manual
         type: float
         subgrades:
@@ -142,9 +151,8 @@ grades:
         automatic:
             done: -(correctness_score.floor/6)
     kalender:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/11)
+        <<: *autopoints
+        calculation: (punten / 11.0 * 9 + 1).round(1)
 
     indexer:
         <<: *automatic
