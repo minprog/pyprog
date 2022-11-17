@@ -12,7 +12,7 @@ Voor deze opdrachten is het een stuk makkelijker om te controleren op plagiaat. 
 
 |                | Deadline             | Punten                                                                                                      |
 |----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
-| **Opdrachten** | vrijdag 17:59        | Scrabble: 4 (geen deelpunten mogelijk)<br>Kalender: 10 (1 punt per check)        |
+| **Opdrachten** | vrijdag 17:59        | Scrabble: 3 (geen deelpunten mogelijk)<br>Kalender: 11 (1 punt per check)        |
 | **Verbeterd**  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor Kalender de<br>vrijdagdeadline hebt gehaald |
 
 ## Deze week belangrijk
