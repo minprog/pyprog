@@ -19,7 +19,7 @@ templates:
         automatic:
             points: correctness_score
         calculation: (points / 6.0 * 9 + 1).round(1)
-        auto_publish: true
+        # auto_publish: true
         hide_calculated: true
     2: &manual
         type: float
