@@ -15,7 +15,7 @@ templates:
     4: &autopoints
         type: float
         subgrades:
-            points: boolean
+            points: integer
         automatic:
             points: correctness_score
         calculation: (punten / 6.0 * 9 + 1).round(1)
