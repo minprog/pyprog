@@ -292,15 +292,15 @@ assignments:
         temperatuur: 30
 
         scrabble: 70
-        # schuifpuzzel: 70
+        schuifpuzzel: 70
         kalender: 70
 
-        # indexer: 70
-        # eca2csv: 70
-        # klimaat: 70
-        #
-        # algorithms: 105
-        # comprehensions: 105
+        indexer: 70
+        eca2csv: 70
+        klimaat: 70
+
+        algorithms: 105
+        comprehensions: 105
 
 reviews:
     show_progress: true
