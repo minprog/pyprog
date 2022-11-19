@@ -64,7 +64,7 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
         """
         Telt het aantal dagen van 1 januari van `year` tot aan `month` van `year`.
         De dagen van `month` zitten hier dus niet bij.
-        Gebruikt `is_leap_year`.
+        Gebruikt `days_in_month`.
         """
 
     def days_in_month(month: int, year: int) -> int:
