@@ -151,6 +151,14 @@ Je programma moet uiteindelijk werken als in de voorbeelden hieronder.
 
 * Vergeet niet dat februari ook echt het correcte aantal dagen moet aangeven in een schrikkeljaar, en dat maart hier correct op moet aansluiten.
 
+In het algemeen geldt: werkt je programma niet goed? Schrijf dan doctests en probeer ze uit met het volgende python-commando. Je krijgt dan ook aanwijzingen over welke doctest niet goedgekeurd wordt.
+
+    python3 -m doctest -v programma.py
+
+Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+
+    mypy --strict --ignore-missing-imports programma.py
+
 ## Insturen
 
 Hoeveel tijd heb je gewerkt aan deze opdracht?

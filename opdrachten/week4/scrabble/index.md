@@ -58,6 +58,16 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Speler 2: Hardly!
     Gelijkspel!
 
+## Testen
+
+Werkt je programma niet goed? Schrijf dan doctests en probeer ze uit met het volgende python-commando. Je krijgt dan ook aanwijzingen over welke doctest niet goedgekeurd wordt.
+
+    python3 -m doctest -v programma.py
+
+Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+
+    mypy --strict --ignore-missing-imports programma.py
+
 ## Insturen
 
 Hoeveel tijd heb je gewerkt aan deze opdracht?
