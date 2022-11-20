@@ -103,7 +103,9 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 ## Tips
 
-* Net als in Schuifpuzzel kun je `print` aanpassen om <u>geen</u> newline te printen.
+* Als je meerdere keren achter elkaar wil printen op één regel moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
+
+    * Als je dit niet begrijpt maak dan een python-file waarin je 3x zo'n print als hierboven neerzet waarin je bijvoorbeeld 1, 2 en 3 print. Bekijk het resultaat door het programma te runnen.
 
 * Net als in Temperatuurtabellen kun je f-strings gebruiken om netjes te printen.
 
