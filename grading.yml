@@ -146,18 +146,14 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-    schuifpuzzel:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
     kalender:
         <<: *autopoints
         calculation: (points / 11.0 * 9 + 1).round(1)
 
-    indexer:
+    schuifpuzzel:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/6)
     eca2csv:
         <<: *automatic
         automatic:
@@ -167,9 +163,15 @@ grades:
         automatic:
             done: -(correctness_score.floor/3)
 
-    algorithms: *check
+    indexer:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
     comprehensions: *check
     virus: *manual
+
+    # oud
+    algorithms: *check
 
     lisp:
         <<: *manual
@@ -292,15 +294,24 @@ assignments:
         temperatuur: 30
 
         scrabble: 70
-        schuifpuzzel: 70
         kalender: 70
 
-        indexer: 70
+        schuifpuzzel: 70
         eca2csv: 70
         klimaat: 70
 
-        algorithms: 105
+        indexer: 70
         comprehensions: 105
+        
+        # algorithms: 105
+
+final_assignments:
+    show_progress: true
+    submits:
+        virus: 6
+        lisp: 1
+        figuren: 2
+        knapsack: 3
 
 reviews:
     show_progress: true
@@ -310,14 +321,6 @@ reviews:
         m3: 1
         m4: 1
         m5: 1
-
-final_assignments:
-    show_progress: true
-    submits:
-        virus: 6
-        lisp: 1
-        figuren: 2
-        knapsack: 3
 
 # tests:
 #     show_progress: true
