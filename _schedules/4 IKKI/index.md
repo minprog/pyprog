@@ -46,7 +46,7 @@ Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind
 | Punten     | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 |
 |------------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | Oefeningen |    6   |    3   |    3   |    -   |    1   |    2   |    3   |
-| Opdrachten |    8   |   11   |   11   |   14   |   17   |   17   |   17   |
+| Opdrachten |    8   |   11   |   11   |   14   |   19   |   18   |   17   |
 | Verbeterd  |    6   |    6   |    6   |    6   |    -   |    -   |    -   |
 
 Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
