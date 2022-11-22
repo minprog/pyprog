@@ -6,8 +6,10 @@ Aan de slag met toepassingen. De opdrachten in deze module zijn praktische toepa
 
 |                | Deadline             | Punten                                                                                                      |
 |----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
-| **Oefeningen** | dinsdag 17:59        | Hoofdstuk 10, Files: 1 punt<br>Hoofdstuk 11, Collections: 2 punten                |
-| **Opdrachten** | vrijdag 17:59        | Indexer: 5 <br>Preprocessing: 5<br>Klimaat: 7<br>Geen deelpunten mogelijk        |
+| **Oefeningen** | dinsdag 17:59        | Hoofdstuk 10, Files: 1 punt                |
+| **Opdrachten** | vrijdag 17:59        | Schuifpuzzel: 6<br>Preprocessing: 6<br>Klimaat: 7<br>Geen deelpunten mogelijk        |
+
+Er is vanaf deze week geen code review meer!
 
 ## Deze week belangrijk
 

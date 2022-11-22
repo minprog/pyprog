@@ -1,10 +1,12 @@
 # Chapter 10: Reading and Writing Files
 
-You may skip "Files over the Internet".
+Aanwijzingen bij het lezen:
+
+- Sla "Files over the Internet" geheel over.
+- Sla "Writing example calls using StringIO". Wij gebruiken géén doctests voor files inlezen.
+- Sla alles vanaf "Writing algorithms that use the file-reading techniques" over.
 
 Geef hieronder je antwoorden voor de oefeningen. Schrijf de antwoorden altijd in je eigen woorden. Je kunt de goede antwoorden bekijken maar het is belangrijk om te beseffen of je ze echt begrijpt. Zo niet, dan spreek je even een medestudent of assistent aan om het antwoord door te spreken. Na insturen worden de antwoorden nagekeken, en eventueel moet je ze nog verbeteren. Schrijf je antwoorden in het Nederlands (of in Python!).
-
-Enter your answers to the book exercises below. Write answers using your own words. You could look up the correct answers online but it's important to get a feeling of whether you understand everything well. If not, talk to another student or to a teaching assistant to talk through your answer. Your answers will be checked after submission and in some cases you are required to correct and re-submit.
 
 ## 1
 
@@ -13,19 +15,3 @@ Enter your answers to the book exercises below. Write answers using your own wor
 ## 2
 
 <textarea name="form[q2]" rows="8" required></textarea>
-
-## 3
-
-Skip.
-
-## 4
-
-<textarea name="form[q4]" rows="8" required></textarea>
-
-## 5
-
-<textarea name="form[q5]" rows="8" required></textarea>
-
-## 6
-
-<textarea name="form[q6]" rows="8" required></textarea>

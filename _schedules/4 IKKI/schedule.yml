@@ -49,22 +49,19 @@ Week 5:
     Overzicht: /modules/dataverwerking
     Lezen en oefenen (weekend):
         "Chapter 10: Reading and Writing Files": /boek/files
-        "Chapter 11: Collection Types": /boek/collections
     Opdrachten:
-        Indexer: /opdrachten/week5/indexer
+        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Preprocessing: /opdrachten/week5/eca2csv
         Klimaat: /opdrachten/week5/klimaat
 
 Week 6:
     Overzicht: /modules/algoritmen
     Lezen en oefenen (weekend):
-        "Chapter 12: Designing Algorithms": /boek/algorithms
-        "Chapter 13: Search and Sorting": /boek/searching
+        "Chapter 11: Collection Types": /boek/collections
     Opdrachten:
-        Algorithms: /opdrachten/week6/algorithms
+        Indexer: /opdrachten/week6/indexer
         Comprehensions: /opdrachten/week6/comprehensions
         Virus: /opdrachten/week6/virus
-        Schuifpuzzel: /opdrachten/week4/schuifpuzzel
 
 Week 7:
     Overzicht: /modules/classes
