@@ -11,8 +11,8 @@ Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds g
 
 ## Deze week belangrijk
 
-1. Zoekalgoritmen (2 soorten)
-2. Sorteeralgoritmen (4 soorten)
+1. Collection types
+2. Wat kun je bouwen met deze types (list in dict?)
 3. Pseudocode naar echte code omzetten
 4. List comprehensions voor het schrijven van compacte code
 5. Teststrategiën voor random functies

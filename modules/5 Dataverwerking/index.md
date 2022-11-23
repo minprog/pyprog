@@ -13,10 +13,9 @@ Er is vanaf deze week geen code review meer!
 
 ## Deze week belangrijk
 
-1. Files lezen en schrijven (boek)
-2. Collection types
-3. Wat kun je bouwen met deze types (list in dict?)
-4. Het CSV-formaat
+1. Werken met lijsten in lijsten
+2. Files lezen en schrijven (boek)
+3. Het CSV-formaat
 
 ## Aanpak
 
