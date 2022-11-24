@@ -237,14 +237,16 @@ en pas het daarna toe op het grotere
 Bedenk zelf een beter algoritme om een zo hoog mogelijk aantal punten
 voor de knapsack te vinden. Zo kun je misschien het aantal punten van
 een ingepakte knapsack verder verhogen door er eerst weer wat items
-uit te halen. Tip: Begin simpel en test steeds je algoritme goed
-voordat je deze slimmer/ingewikkelder maakt.
+uit te halen. Voeg eventueel hiervoor eigen methods toe aan de
+classes, bv "remove_random_item()" aan class Knapsack. Tip: Begin simpel
+en test steeds je algoritme goed voordat je deze slimmer/ingewikkelder
+maakt.
 
 Wat is het hoogst aantal punten wat je kunt vinden voor het
 [knapsack_large.csv](knapsack_large.csv) probleem? Vergelijk je
 resultaat met andere.
 
-## Voordelen van Object-Oriented Programming 
+## Theorie: Voordelen van Object-Oriented Programming 
 
 We hadden het Knapsack-probleem ook kunnen oplossen zonder gebruik van
 object-georiënteerd programmeren (dus zonder gebruik van classes). Dan
@@ -267,18 +269,19 @@ weten hoe deze functie is geïmplementeerd. Maar anders dan functies
 kan een class ook *instance variables* verbergen zodat we nu dus ook
 waarden (ook wel *state* genoemd) kunnen verbergen.
 
-Een gebruiker van een class hoeft dus bij het aanroepen van *methods*
-dus niks te weten over hoe waarden in een class zijn
-geïmplementeerd. De implementatie van een class kan daardoor
-makkelijker veranderen zonder dat dat effect heeft op andere delen van
-de code. Bij Object-Oriented Programming is code daardoor vaak beter
-in compartimenten opgedeeld. Enkele voorbeelden hiervan:
+Een gebruiker van een class hoeft bij het aanroepen van *methods* dus
+niks te weten over hoe waarden in een class zijn geïmplementeerd. De
+implementatie van een class kan daardoor makkelijker veranderen zonder
+dat dat effect heeft op andere delen van de code. Bij Object-Oriented
+Programming is code daardoor vaak beter in compartimenten opgedeeld
+waarbij veranderingen in één compartimenten minder snel leiden tot
+verandering in een ander. Enkele voorbeelden hiervan:
 
-*   De class `Resources` heeft nu alleen *instance variables* weight en
-    volume, als daar nog meer variabelen bij zouden komen zouden deze
-    relatief gemakkelijk in de Resouces class kunnen worden toegevoegd
-    zonder dat veel code buiten de Resouces class aangepast hoeft te
-    worden.
+*   De class `Resources` heeft nu alleen *instance variables* weight
+    en volume, als daar nog meer variabelen bij zouden komen (bv
+    price) zouden deze relatief gemakkelijk in de Resouces class
+    kunnen worden toegevoegd zonder dat veel code buiten de Resouces
+    class aangepast hoeft te worden.
     
 *   In de `Knapsack` class heb je waarschijnlijk een *list* gebruikt om
     alle items op te slaan, maar een random element uit een *list*
