@@ -42,7 +42,7 @@ Week 4:
     Tentamen-oefening: /toetsjes/week4
     Opdrachten:
         Scrabble: /opdrachten/week4/scrabble
-        Schuifpuzzel: /opdrachten/week4/schuifpuzzel
+        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Kalender: /opdrachten/week4/kalender
 
 Week 5:
@@ -51,7 +51,7 @@ Week 5:
         "Chapter 10: Reading and Writing Files": /boek/files
         "Chapter 11: Collection Types": /boek/collections
     Opdrachten:
-        Indexer: /opdrachten/week5/indexer
+        Indexer: /opdrachten/week6/indexer
         Preprocessing: /opdrachten/week5/eca2csv
         Klimaat: /opdrachten/week5/klimaat
 
@@ -61,7 +61,7 @@ Week 6:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
-        Algorithms: /opdrachten/week6/algorithms
+        # Algorithms: /opdrachten/week6/algorithms
         Comprehensions: /opdrachten/week6/comprehensions
         Virus: /opdrachten/week6/virus
 
