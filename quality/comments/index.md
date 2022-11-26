@@ -42,6 +42,22 @@ And as a general rule, you should **not** place comments on the same line as act
 
     average = sum / QUIZZES + 0.5  # compute one student's average
 
+## How many comments is enough?
+
+Well, ideally, your code is expressed in small functions, with good names, each having only a few variables, again with good names, resulting in code that hardly needs any comment, except for maybe some technical explanations in cases where the code uses a smart trick that is a little bit hard to understand.
+
+However, it is not for the faint of heart to write code that is already so easy to understand that it hardly needs any documentation. So in general, we would recommend that you divide your functions into **blocks** of a few lines of code, each block introduced by a small comment that divulges its purpose. For example:
+
+    # collects and sums all house numbers
+    house_numbers = []
+    sum_of_nos = 0
+    for person in persons:
+        house_numbers.append(person.address_no)
+        sum_of_nos += person.address_no
+
+    # calculates average of all house numbers
+    average_house_no = sum_of_nos / len(house_numbers)
+
 ## Summaries
 
 Atop your `.py` file you should have multi-line comments
@@ -58,7 +74,7 @@ along with, perhaps, your name and that of the file.
     - Laat zien hoe printen werkt.
     """
 
-Atop each of your functions (except, perhaps, main) should be multi-line comments
+Atop each of your function should be multi-line comments
 that summarize what your function does along with doctests and other information to
 quickly assess its purpose.
 
