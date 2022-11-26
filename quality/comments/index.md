@@ -42,7 +42,7 @@ And as a general rule, you should **not** place comments on the same line as act
 
     average = sum / QUIZZES + 0.5  # compute one student's average
 
-## How many comments is enough?
+## How many comments are enough?
 
 Well, ideally, your code is expressed in small functions, with good names, each having only a few variables, again with good names, resulting in code that hardly needs any comment, except for maybe some technical explanations in cases where the code uses a smart trick that is a little bit hard to understand.
 
