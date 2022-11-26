@@ -60,7 +60,7 @@ De indicator voor een missing value verschilt per databestand; soms is dat een `
 
 - Schrijf een functie die een bestand inleest van het bovenstaande formaat en een nieuw bestand opslaat waar de ontbrekende waarden zijn vervangen door het hierboven aangegeven gemiddelde.
 
-- Je mag ervan uitgaan dat er altijd maar één missende waarde op een rij is, dus nooit twee achter elkaar.
+- **Hou het "simpel"!** Je mag ervan uitgaan dat er altijd maar één missende waarde op een rij is, dus nooit twee achter elkaar. Ook zal eerste waarde in de file of de laatste nooit een missende waarde zijn. Je hoeft dus niet na te denken over hoe je dat oplost.
 
 - De functie moet een parameter hebben om aan te geven welke waarde een "missing value" is. De functie kan dan worden aangeroepen met bijvoorbeeld `9999`.
 
