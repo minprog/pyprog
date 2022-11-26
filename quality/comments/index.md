@@ -58,6 +58,8 @@ However, it is not for the faint of heart to write code that is already so easy 
     # calculates average of all house numbers
     average_house_no = sum_of_nos / len(house_numbers)
 
+Obvious candidates for adding a comment are any separate `for` and `while` loops, as well as `if` blocks that make decisions. Like above with the `for` loop, you might group it with some of the variables that you need to use inside the loop and then add a comment describing the purpose of the whole block.
+
 ## Summaries
 
 Atop your `.py` file you should have multi-line comments
