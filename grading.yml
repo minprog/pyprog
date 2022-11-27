@@ -69,19 +69,41 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
-    chapter_02: *check
-    chapter_03: *check
-    chapter_04: *check
-    chapter_05: *check
-    chapter_06: *check
-    chapter_07: *check
-    chapter_08: *check
-    chapter_09: *check
-    chapter_10: *check
-    chapter_11: *check
+    chapter_02:
+        <<: *check
+        calculation: -done * 2
+    chapter_03:
+        <<: *check
+        calculation: -done * 2
+    chapter_04:
+        <<: *check
+        calculation: -done * 2
+    chapter_05:
+        <<: *check
+        calculation: -done * 1
+    chapter_06:
+        <<: *check
+        calculation: -done * 1
+    chapter_07:
+        <<: *check
+        calculation: -done * 1
+    chapter_08:
+        <<: *check
+        calculation: -done * 1
+    chapter_09:
+        <<: *check
+        calculation: -done * 2
+    chapter_10:
+        <<: *check
+        calculation: -done * 1
+    chapter_11:
+        <<: *check
+        calculation: -done * 2
     chapter_12: *check
     chapter_13: *check
-    chapter_14: *check
+    chapter_14:
+        <<: *check
+        calculation: -done * 3
 
     cafeine:
         <<: *automatic
@@ -253,6 +275,7 @@ calculation:
 # You can leave these out if unused in the `calculation` section.
 
 practice:
+    type: points
     show_progress: true
     convert_passes_to_grade: true
     fill_missing: 0
