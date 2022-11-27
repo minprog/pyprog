@@ -109,10 +109,12 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        calculation: -done * 4
     vakantie:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        calculation: -done * 4
 
     calculator:
         <<: *automatic
@@ -273,6 +275,17 @@ calculation:
 # is at least the specified minimum
 #
 # You can leave these out if unused in the `calculation` section.
+
+module_1:
+    type: points
+    show_progress: true
+    submits:
+        chapter_02: 1
+        chapter_03: 1
+        chapter_04: 1
+        cafeine: 1
+        vakantie: 1
+
 
 practice:
     type: points
