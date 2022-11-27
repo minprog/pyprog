@@ -11,7 +11,7 @@ templates:
             done: -(correctness_score.floor)
         calculation: done
         auto_publish: true
-        hide_subgrades: true
+        hide_calculated: true
     4: &autopoints
         type: float
         subgrades:
@@ -32,7 +32,7 @@ templates:
         subgrades:
             done: boolean
         calculation: done
-        hide_calculated: true
+        hide_subgrades: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
