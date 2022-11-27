@@ -25,8 +25,8 @@ templates:
         type: float
         subgrades:
             points: integer
-        calculation: (points / 6.0 * 9 + 1).round(1)
-        hide_calculated: true
+        calculation: points
+        hide_subgrades: true
     3: &check
         type: pass
         subgrades:
@@ -285,7 +285,7 @@ module_1:
         chapter_04: 1
         cafeine: 1
         vakantie: 1
-
+        m1: 1
 
 practice:
     type: points
