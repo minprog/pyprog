@@ -120,72 +120,88 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        calculation: -done * 2
     etenstijd:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        calculation: -done * 2
     orakel:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
+        calculation: -done * 2
     rechthoeken:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        calculation: -done * 2
     wachtwoord:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        calculation: -done * 3
 
     camelcase:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
+        calculation: -done * 1
     rna:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        calculation: -done * 1
     leesbaarheid:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        calculation: -done * 2
     cola:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
+        calculation: -done * 1
     populatie:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/4)
+        calculation: -done * 2
     sjoelen:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
+        calculation: -done * 2
     temperatuur:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        calculation: -done * 2
 
     scrabble:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        calculation: -done * 3
     kalender:
         <<: *autopoints
-        calculation: (points / 11.0 * 9 + 1).round(1)
+        calculation: points
 
     schuifpuzzel:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        calculation: -done * 6
     eca2csv:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/2)
+        calculation: -done * 6
     klimaat:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/3)
+        calculation: -done * 7
 
     indexer:
         <<: *automatic
@@ -286,6 +302,52 @@ module_1:
         cafeine: 1
         vakantie: 1
         m1: 1
+
+module_2:
+    type: points
+    show_progress: true
+    submits:
+        chapter_05: 1
+        chapter_06: 1
+        chapter_07: 1
+        orakel: 1
+        etenstijd: 1
+        calculator: 1
+        rechthoeken: 1
+        wachtwoord: 1
+        m2: 1
+
+module_3:
+    type: points
+    show_progress: true
+    submits:
+        chapter_08: 1
+        chapter_09: 1
+        camelcase: 1
+        rna: 1
+        leesbaarheid: 1
+        cola: 1
+        populatie: 1
+        sjoelen: 1
+        temperatuur: 1
+        m3: 1
+
+module_4:
+    type: points
+    show_progress: true
+    submits:
+        scrabble: 1
+        kalender: 1
+        m4: 1
+
+module_5:
+    type: points
+    show_progress: true
+    submits:
+        chapter_10: 1
+        schuifpuzzel: 1
+        eca2csv: 1
+        klimaat: 1
 
 practice:
     type: points
