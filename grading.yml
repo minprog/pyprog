@@ -20,7 +20,7 @@ templates:
             points: correctness_score
         calculation: (points / 6.0 * 9 + 1).round(1)
         # auto_publish: true
-        hide_calculated: true
+        hide_subgrades: true
     2: &manual
         type: float
         subgrades:
