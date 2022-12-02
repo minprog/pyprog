@@ -19,6 +19,8 @@ Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds g
 
 ## Aanpak
 
+Deze week: boek hoort bij de laatste opdracht, dus ga het boek niet lezen vóór je Comprehensions en Virus afhebt!
+
 1. Neem het boek goed door en markeer moeilijke delen
 2. Maak de oefeningen en gebruik ze om de tekst te begrijpen en andersom; dit kost veel tijd
 3. Ga naar het werkcollege om goed te begrijpen wat van je verwacht wordt deze week
