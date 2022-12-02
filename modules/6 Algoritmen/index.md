@@ -6,8 +6,8 @@ Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds g
 
 |                | Deadline             | Punten                                                                                                      |
 |----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
-| **Oefeningen** | dinsdag 17:59        | Hoofdstuk 11, Collections: 2 punten             |
-| **Opdrachten** | vrijdag 17:59        | Indexer: 6<br>Comprehensions: 3<br>Virus: 9 (deelpunten staan bij opdracht)        |
+| **Comprehensions** | vrijdag 17:59        | Comprehensions: 3<br>Virus: 12 (deelpunten staan bij opdracht)        |
+| **Collections** | vrijdag 17:59        | Hoofdstuk 11, Collections: 2 punten<br>Indexer: 3 (wel moeilijk)             |
 
 ## Deze week belangrijk
 

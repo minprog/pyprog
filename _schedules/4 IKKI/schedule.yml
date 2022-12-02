@@ -56,12 +56,13 @@ Week 5:
 
 Week 6:
     Overzicht: /modules/algoritmen
-    Lezen en oefenen (weekend):
-        "Chapter 11: Collection Types": /boek/collections
-    Opdrachten:
-        Indexer: /opdrachten/week6/indexer
+    Comprehensions:
         Comprehensions: /opdrachten/week6/comprehensions
         Virus: /opdrachten/week6/virus
+    Collections:
+        "Chapter 11: Collection Types": /boek/collections
+        Indexer: /opdrachten/week6/indexer
+
 
 Week 7:
     Overzicht: /modules/classes
