@@ -349,6 +349,24 @@ module_5:
         eca2csv: 1
         klimaat: 1
 
+module_6:
+    type: points
+    show_progress: true
+    submits:
+        comprehensions: 1
+        virus: 1
+        chapter_11: 1
+        indexer: 1
+
+module_7:
+    type: points
+    show_progress: true
+    submits:
+        chapter_14: 1
+        lisp: 1
+        figuren: 1
+        knapsack: 1
+
 practice:
     type: points
     show_progress: true
@@ -407,9 +425,6 @@ final_assignments:
     show_progress: true
     submits:
         virus: 6
-        lisp: 1
-        figuren: 2
-        knapsack: 3
 
 reviews:
     show_progress: true
