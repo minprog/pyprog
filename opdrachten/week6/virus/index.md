@@ -236,6 +236,9 @@ De simulatie werkt als volgt. Tijdens elke tijdstap:
 
 *   De functie moet een lijst returnen met daarin de populatiegrootte (een integer) op elke tijdstap.
 
+*   Deze functie mag niet op één regel worden geschreven, omdat dit de leesbaarheid zeker
+    niet ten goede komt. Zorg dat de code goed leesbaar blijft.
+
 ### Pseudocode
 
 Hieronder vind je de pseudocode voor de `simulate`-functie. Kijk er goed naar, want de volgorde van de verschillende stappen in de simulatie is belangrijk. Zo kunnen er andere resultaten uitkomen als de virussen bijvoorbeeld eerst reproduceren en dan pas afsterven.
