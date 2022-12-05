@@ -267,8 +267,8 @@ Voor deze opdracht is het wellicht wat lastiger om zelf tests te bedenken. Daaro
         >>> sims = []
         >>> n = 1000
         >>> for i in range(n):
-        >>>    viruses = [generate_virus(4) for _ in range(100)]
-        >>>    sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
+        ...     viruses = [generate_virus(4) for _ in range(100)]
+        ...     sims.append(simulate(viruses, 0.1, 0.1, 0.5, 100, timesteps = 1000)[-1])
         >>> average = sum(sims) / n
         >>> 25 < average < 32
         True
