@@ -1,17 +1,27 @@
-# Tentamen
+# Oefententamen
 
-Het doel van dit tentamen is dat je kunt laten zien hoe breed en diep je kennis over programmeren in Python gaat. We kijken daarbij naar alle onderwerpen die zijn langsgekomen, maar vooral naar:
+**Doe de eerste stappen van dit oefententamen tijdens het werkcollege en niet thuis. Het werkcollege is sowieso verplicht, tenzij je een hele bijzondere reden hebt.**
 
-- Sterke functionele decompositie (opdeling) in samenspel met goede namen voor functies
-- Goed gebruik van variabelen en parameters om informatie door te geven binnen het programma
-- Gebruik van type hints om vast te leggen wat de intentie is van het programma
-- Gebruik van doctests om zo scherp mogelijk te controleren of de code werkt
-- Gebruik van ingebouwde Python-collections zoals list, dict, set, tuple
-- Zorgvuldig inlezen en verwerken van databestanden en manipulatie van strings
-- Gebruik van list comprehensions om bewerkingen van lijsten te doen in weinig code
-- Code opdelen in classes, met een duidelijke taak, die goed onderling samenwerken
+Het doel van dit tentamen is dat je kunt laten zien hoe breed en diep je kennis over programmeren in Python gaat. We kijken daarbij naar alle onderwerpen die zijn langsgekomen, maar zeker naar:
 
-Je hoeft zeker niet alles "perfect" toe te passen om een voldoende te halen voor het tentamen. Het moet vooral duidelijk worden dat je over voldoende niveau beschikt om binnen redelijke tijd werkende code te schrijven en dat je de juiste basiskennis hebt opgebouwd over Python-onderdelen. Zo kun je goed verder met de volgende vakken waarin geprogrammeerd wordt.
+- Goed gebruik van type hints om vast te leggen wat de intentie is van het programma (week 1)
+- Uitgebreid gebruik van doctests om zo scherp mogelijk te controleren of de code werkt (week 1)
+- Sterke functionele decompositie (opdeling), in samenspel met goede namen voor functies (week 2)
+- Goed gebruik van parameters om informatie door te geven binnen het programma (week 2)
+- Zorgvuldig inlezen en verwerken van databestanden, en manipulatie van strings (week 5)
+- Gebruik van ingebouwde Python-collections zoals list, dict, set, tuple (week 6)
+- Gebruik van list comprehensions om bewerkingen van lijsten te doen in weinig code (week 6)
+- Code opdelen in classes, met een duidelijke taak, die goed onderling samenwerken (week 7)
+- Netheid van de code, naamgeving, layout, alles wat je bij code review geleerd hebt (week 1)
+
+Het is aan jou om in je code te laten zien welke delen van het programmeren je beheerst. Daarvoor wordt alle **werkende** code die je hebt in z'n totaal beoordeeld. Je scoort een voldoende als je voldoende code werkend hebt gekregen en voldoende laat zien Python-constructies te beheersen.
+
+Als voorbeeld: als je wil laten zien dat je list comprehensions beheerst, dan hoef je zeker niet in elke opdracht list comprehensions te gebruiken. Sommige opdrachten lenen zich beter voor gebruik van list comprehensions dan andere.
+
+Een ander voorbeeld: je kunt Python goed beheersen zonder de stof van week 7 (classes) goed te kennen. Red je het niet om die stof tot je te nemen, dan kun je nog steeds zeer goede oplossingen schrijven voor de meeste (of zelfs alle) opdrachten.
+
+Uitgangspunt is altijd dat wat je inlevert ook werkt, en dat types en doctests worden goedgekeurd in de automatische check. Wat je niet werkend krijgt moet je uitcommenten zodat de werkende code goed getest kan worden.
+
 
 ## Hulp krijgen in Python
 
@@ -22,19 +32,83 @@ Bij dit tentamen gebruik je geen externe bronnen zoals websites, het boek of je 
 - Heb je hulp nodig met een ingebouwde methode zoals `str.startswith`? Tik dan in `help(str.startswith)`
 - Wil je weten welke methodes worden ondersteund door een (ingebouwde) class zoals `dict`? Tik dan in `help(dict)`
 
-## Checks
+
+## Niet gebruiken
+
+Zorg dat je alleen constructies gebruikt die expliciet zijn behandeld in de cursus. Wat je op internet hebt gevonden is niet zomaar toegestaan. In ieder geval moet je geen reguliere expressies gebruiken en de meeste `import` libraries zijn off-limits (`import string` is prima).
+
+Als je wil weten of iets mag, dan moet je dit niet vragen tijdens de les maar een mail sturen naar <python@proglab.nl> voor een officieel antwoord. Anders telt het niet.
+
+
+## Controleren van je eigen werk
+
+Het allerbelangrijkste is dat je met hulp van doctests aantoont dat je geschreven functies en classes goed werken. Alleen dan kan er een beoordeling plaatsvinden.
 
 - Een typecheck kun je starten met `mypy --strict --ignore-missing-imports programma.py`.
-- Doctests kun je starten met `python -m doctest -v programma.py`.
+- Doctests kun je starten met `python3 -m doctest -v programma.py`.
+
+Zorg dat je deze tools geinstalleerd hebt en weet hoe je ze moet runnen. Zorg ook dat je je computer niet upgrade vlak voor het tentamen! :-)
+
+Je mag ook testcode schrijven naast de doctests, maar deze testcode **moet** in `if __name__ == '__main__'` staan. Bij de beoordeling baseren we ons op de doctests.
+
 
 ## Submit in één bestand
 
 Je moet alle code in één bestand zetten. Zorg dat je de verschillende uitwerkingen markeert met het volgende comment, waarbij je een korte name/samenvatting van het probleem invult:
 
     # -------------------------------------------------------------------------
-    # Problem: <naam van probleem>
+    # Opdracht: <naam van opdracht(en)>
+
+
+## Opdrachten
+
+De opdrachten hieronder zijn enigszins los beschreven. Je kunt daarom soms zelf kiezen hoe je een opdracht interpreteert, als je maar voldoende interessante code kunt schrijven om het probleem op te lossen.
+
+
+## Vakantie
+
+*Minimale ingrediënten: expressies en ifs (deze opdracht is echt om even in te komen, want je kunt er maar heel weinig Python-kennis mee demonstreren)*
+
+Je wil in je eentje op vakantie naar een mooie accommodatie in Frankrijk. De kosten van de reis naar het verblijf zijn afhankelijk van het gebruikte vervoersmiddel. Met het vliegtuig kost het je 250 euro, met de trein kost het 100 euro, en met de auto kost het 150 euro. Het verblijf zelf kost 60 euro per nacht. Bovendien betaal je nog 3% servicekosten over de totale kosten (dus vermenigvuldig totaal met 0.03), afhankelijk dus van hoeveel nachten je verblijft. De servicekosten worden wel naar **beneden** afgerond op hele euro's vóórdat ze bij het totaalbedrag worden opgeteld!
+
+Schrijf een functie die berekent hoeveel je vakantie kost op basis van het aantal dagen dat je op vakantie gaat en met welk vervoersmiddel je gaat. Voor het vervoersmiddel kun je een string accepteren, bijvoorbeeld 'vliegtuig' of afgekort 'v'.
+
+Als voorbeeld: 1 nacht, reizen met vliegtuig is 319 euro. 10 nachten, reizen met trein is 721 euro.
+
+
+## Hoofdletters
+
+*Minimale ingrediënten: loops, ifs, string indexing, string-functies (deze opdracht is echt om even in te komen, want je kunt er vrij weinig Python-kennis mee demonstreren)*
+
+Tekstanalyse is een veelgebruikte toepassing. Hoewel dit vaak gebeurt op basis van technieken uit de AI, kunnen eenvoudige statistieken soms heel verhelderend zijn.
+
+Schrijf een functie die telt hoeveel woorden in een tekst met een hoofdletter beginnen. De functie returnt het aantal als een `int`.
+
+- "Er zijn geen goede schrijvers." -> 1 woord begint met een hoofdletter
+- "Obi-Wan Kenobi nam zijn taak vrij serieus" -> 2 woorden beginnen met een hoofdletter
+- "bell hooks wrote on race, feminism and class." -> geen woorden beginnen met een hoofdletter
+
+
+## Email-validator
+
+*Minimale ingrediënten: loops, ifs, string indexing en/of slicing, string-functies (met deze opdracht heb je al meer mogelijkheden om je Python-kennis te demonsteren)*
+
+Mensen hebben nogal eens de neiging om een niet-bestaande waarde in te voeren in de computer, bijvoorbeeld als om hun mailadres gevraagd wordt. Of ze begrijpen het gewoon niet.
+
+Daarom gebruiken websites vaak een email-validator om te controleren of de invoer **redelijk OK** is. Zo'n validator is niet gegarandeerd compleet, maar voorkomt een aantal fouten.
+
+Schrijf een email-validator-functie, ten minste op basis van de volgende regels:
+
+- Er moet een `@` in zitten
+- Vóór de `@` moet minstens één letter staan (A-Z of a-z)
+- Na de `@` moet tenminste één `.` staan.
+
+Test ook met vreemdere fouten (is `@` een geldig mailadres? nee).
+
 
 ## Strings & Files
+
+*Minimale ingrediënten: loops, ifs, string indexing en/of slicing, string-functies, files*
 
 -   Schrijf een functie die bepaalt of argument `string1` een prefix is van argument `string2`. Gebruik geen bestaande string-functies of -methoden behalve de mogelijkheid om te indexeren.
 
@@ -55,19 +129,30 @@ Je moet alle code in één bestand zetten. Zorg dat je de verschillende uitwerki
         8,863
         9,891
 
-    Schrijf enkele functies die 1) een lijst van meetwaardes kunnen geven 2) het gemiddelde van de meetwaardes kan geven 3) het uur van de grootste stijging in meetwaarde kan geven. Een beter alternatief voor losse functies is om een class te implementeren die al deze mogelijkheden biedt.
+    Schrijf enkele functies die 1) een lijst van meetwaardes kunnen geven 2) het gemiddelde van de meetwaardes kan geven 3) het uur van de grootste stijging in meetwaarde kan geven.
+
+    Een mogelijk beter alternatief voor losse functies is om een class te implementeren die al deze mogelijkheden biedt.
+
 
 ## Classes
 
+*Minimale ingrediënten: loops, ifs, string-functies, classes, lijsten (oefen deze opdracht pas als je week 7 af hebt)*
+
 -   Maak een class `SecretMessage` waarvan de initializer een geheime code en een geheime boodschap meekrijgt. Maak ook de methoden `open` (waarmee het met de juiste code geopend kan worden en de boodschap teruggeeft) en `changeCode` (waarmee de code aangepast kan worden; natuurlijk alleen als de juiste originele code wordt opgegeven).
 
--   Maak een class `Student`, waarin worden opgeslagen: naam, studentnummer en status. Status is het studiejaar van de student: mogelijkheden 1 t/m 4 (of hoger). Schrijf code om automatisch 20 studenten te genereren (genaamd "Student1" enzovoort) met random studentnummer en status. Schrijf vervolgens code om alleen de eerstejaars hiervan uit te printen.
+-   Maak een class `Student`, waarin worden opgeslagen: naam, studentnummer en status. Status is het studiejaar van de student: mogelijkheden 1 t/m 4 (of hoger). Schrijf code om automatisch 20 studenten te genereren (genaamd "Student1" enzovoort) met random studentnummer en status (opslaan in een lijst!). Schrijf vervolgens code om alleen de eerstejaars hiervan uit te printen.
+
 
 ## Comprehensions
 
+*Minimale ingrediënten: string-functies, lijsten, comprehensions (oefen deze opdracht pas als je week 6 af hebt)*
+
 -   Gegeven een list met daarin integers, schrijf een functie die deze omzet in een string met alle getallen en daartussen komma's. De lijst `[1, 2, 3]` wordt de string `"1,2,3"`. Gebruik hiervoor een list comprehension.
 
+
 ## Types & Collections
+
+*Minimale ingrediënten: string-functies, lijsten, comprehensions (oefen deze opdracht pas als je week 6 af hebt)*
 
 -   Wat wordt er geprint na het uitvoeren van dit stukje code?
 
@@ -80,14 +165,10 @@ Je moet alle code in één bestand zetten. Zorg dat je de verschillende uitwerki
                 x[datum] = 1
         print(x)
 
--   Het volgende stukje code geeft een error. Hoe kan je ervoor zorgen dat in variabele `S` de door de gebruiker ingevoerde string komt te staan, met als eerste letter een "C"?
 
-        >>> S = input("What is your name?")
-        Jasper
-        >>> S[0] = "C"
-        TypeError: ’str’ object does not support item assignment
+## Users
 
-## Case study
+*Minimale ingrediënten: string-functies, files, collections (oefen deze opdracht pas als je week 6 af hebt)*
 
 Gegeven het volgende bestand `passwd` waarin gebruikersgegevens van een UNIX-systeem worden opgeslagen:
 
@@ -126,6 +207,12 @@ Uitbreidingsmogelijkheden:
 
 3. Gebruik een `User` class en maak ook een `UserList` class waarin alle `User`-instanties worden opgeslagen. Alle hierboven geschreven functies moeten worden geïmplementeerd als methods van die classes, in plaats van als losse functies.
 
+
 ## Afronding
 
-Vergeet niet je doctests zo goed mogelijk te schrijven en alle relevante type hints te plaatsen! 
+Vergeet niet je doctests goed te schrijven zodat zichtbaar is dat alles werkt, en vergeet niet om alle relevante type hints te plaatsen zodat `mypy` tevreden is!
+
+
+## Meer oefenen
+
+Heb je meer oefening nodig? Dan zijn er wellicht oude opdrachten die je eerder niet af hebt gekregen. Die kunnen nuttig zijn om nog uit te werken.
