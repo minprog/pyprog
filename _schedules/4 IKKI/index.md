@@ -21,7 +21,7 @@ Dit is een overzicht van de deadlines per week:
 | Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege wk4 |
 | Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege wk5 |
 | Module 5    | di 29 nov 17:59 | vr  2 dec 17:59 |                         |
-| Module 6    |  di 6 dec 17:59 | vr  9 dec 17:59 |                         |
+| Module 6    | vr  9 dec 17:59 | vr  9 dec 17:59 |                         |
 | Module 7    | di 13 dec 17:59 | vr 16 dec 17:59 |                         |
 
 Het gaat om de volgende onderdelen:
