@@ -1,6 +1,6 @@
 # Oefententamen
 
-**Doe de eerste stappen van dit oefententamen tijdens het werkcollege en niet thuis. Het werkcollege is sowieso verplicht, tenzij je een hele bijzondere reden hebt. Mocht je je hebben ziekgemeld: het is niet per de bedoeling dat je deze toets doet vóórdat je de opdrachten gaat maken. De opdrachten hebben gewoon een deadline, het oefententamen niet.**
+**Doe de eerste stappen van dit oefententamen tijdens het werkcollege en niet thuis. Het werkcollege is sowieso verplicht, tenzij je een hele bijzondere reden hebt. Mocht je je hebben ziekgemeld: het is niet per se de bedoeling dat je deze toets doet vóórdat je de opdrachten gaat maken. De opdrachten hebben gewoon een deadline, het oefententamen niet.**
 
 Het doel van dit tentamen is dat je kunt laten zien hoe breed en diep je kennis over programmeren in Python gaat. We kijken daarbij naar alle onderwerpen die zijn langsgekomen, maar zeker naar:
 
