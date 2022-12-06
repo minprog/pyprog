@@ -2,16 +2,15 @@
 
 ![](virus.jpg)
 
-<!--
-
-> Deze week krijg je punten voor de gemaakte opdrachten:
+> Je krijgt punten voor de gemaakte deelopdrachten:
 > 
-> - 1 punt voor stap 1, 2 samen (mits gehouden aan de limieten)
-> - 2 punten voor stap 3, 4 en 5 samen (mits gehouden aan de limieten)
-> - 2 punten voor een goedwerkende simulatie in stap 7
-> - 1 punt voor een inzichtvolle eigen grafiek op basis van simulaties
-
--->
+> - 1 punt voor stap 1 (mits gehouden aan de limiet)
+> - 1 punt voor stap 2
+> - 1 punt voor stap 3 (mits gehouden aan de limiet)
+> - 2 punten voor stap 4
+> - 1 punt voor stap 5 (mits gehouden aan de limiet)
+> - 4 punten voor een goedwerkende simulatie in stap 7
+> - 2 punten voor een inzichtvolle eigen grafiek op basis van simulaties
 
 Voor beleidsmakers en de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen. Omdat vele factoren een rol spelen is het lastig om deze kans in een wiskunde formule te vatten, en daarom biedt het doen van simulaties een uitkomst. In deze opdracht ga je virusdeeltjes **simuleren** die kunnen reproduceren en sterven. We bouwen deze opdracht stap voor stap op tot een complete, maar versimpelde simulatie.
 
