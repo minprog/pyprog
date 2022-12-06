@@ -8,7 +8,7 @@
 > - 1 punt voor stap 2
 > - 1 punt voor stap 3 (mits gehouden aan de limiet)
 > - 2 punten voor stap 4
-> - 1 punt voor stap 5 (mits gehouden aan de limiet)
+> - 1 punt voor stap 5
 > - 4 punten voor een goedwerkende simulatie in stap 7
 > - 2 punten voor een inzichtvolle eigen grafiek op basis van simulaties
 
