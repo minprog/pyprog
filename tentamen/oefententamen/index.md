@@ -112,7 +112,7 @@ Test ook met vreemdere fouten (is `@` een geldig mailadres? nee).
 
 -   Schrijf een functie die bepaalt of argument `string1` een prefix is van argument `string2`. Gebruik geen bestaande string-functies of -methoden behalve de mogelijkheid om te indexeren.
 
--   Schrijf een functie die voor een willekeurig opgegeven bestand de *checksum* berekent. De checksum is de optelsom van alle characters in het bestand. Gebruik de ingebouwde Python-functie `ord(a)` om de waarde van een letter te berekenen; zo is `ord('B')` gelijk aan `66`.
+-   Schrijf een functie die voor een willekeurig opgegeven bestand de *checksum* berekent. De checksum is de optelsom van alle characters in het bestand. Gebruik de ingebouwde Python-functie `ord()` om de waarde van een letter te berekenen; zo is `ord('B')` gelijk aan `66`.
 
 -   Schrijf een functie die het aantal tekens, woorden en regels in een opgegeven file telt en teruggeeft.
 
