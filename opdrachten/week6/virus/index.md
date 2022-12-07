@@ -18,7 +18,7 @@ Bij deze opdracht focussen we niet alleen op het idee van simuleren, maar je gaa
 
 Doe deze opdracht dus echt stap voor stap, inclusief testen!
 
-Anderzijds spelen "list comprehensions" bij deze opdracht een grote rol. Om extra motivatie te geven deze te gebruiken, staat bij voor opdrachten een **limiet** voor het aantal regels code dat gebruikt mag worden voor de oplossing. Lukt dat niet goed? Maak je oplossing dan (zo mogelijk) eerst werkend zonder list comprehensions en vraag hulp aan de assistenten met het omzetten naar list comprehensions.
+Anderzijds spelen "list comprehensions" bij deze opdracht een grote rol. Om extra motivatie te geven deze te gebruiken, staat bij enkele opdrachten een **limiet** voor het aantal regels code dat gebruikt mag worden voor de oplossing. Lukt dat niet goed? Maak je oplossing dan (zo mogelijk) eerst werkend zonder list comprehensions en vraag hulp aan de assistenten met het omzetten naar list comprehensions.
 
 ## Stap 1: Virusgenoom
 
