@@ -99,7 +99,9 @@ grades:
     chapter_11:
         <<: *check
         calculation: -done * 2
-    chapter_12: *check
+    chapter_12:
+        <<: *check
+        calculation: -done * 2
     chapter_13: *check
     chapter_14:
         <<: *check
@@ -203,12 +205,15 @@ grades:
             done: -(correctness_score.floor/3)
         calculation: -done * 7
 
+    comprehensions:
+        <<: *check
+        calculation: -done * 3
+    virus: *manual
     indexer:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
-    comprehensions: *check
-    virus: *manual
+        calculation: -done * 3
 
     # oud
     algorithms: *check
