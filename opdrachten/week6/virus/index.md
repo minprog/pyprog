@@ -218,7 +218,9 @@ De simulatie werkt als volgt. Tijdens elke tijdstap:
 *   daarna berekenen we de productiekans, en
 *   daarna laten we ze reproduceren.
 
-**Maar** vanaf de 100e tijdstap voegen we een virusremmer toe aan de simulatie, en dan kunnen alleen nog resistente virussen reproduceren.
+Vanaf de 100e tijdstap voegen we een virusremmer toe aan de simulatie, en dan kunnen alleen nog resistente virussen reproduceren.
+
+**Hou dit goed in de gaten: je hebt een viruspopulatie (een lijst van virussen) en die wordt elke stap op een aantal manieren aangepast.**
 
 ### Aanwijzingen
 
