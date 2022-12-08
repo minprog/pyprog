@@ -20,7 +20,7 @@ Als voorbeeld: als je wil laten zien dat je list comprehensions beheerst, dan ho
 
 Een ander voorbeeld: je kunt Python goed beheersen zonder de stof van week 7 (classes) goed te kennen. Red je het niet om die stof tot je te nemen, dan kun je nog steeds zeer goede oplossingen schrijven voor de meeste (of zelfs alle) opdrachten.
 
-Uitgangspunt is altijd dat wat je inlevert ook werkt, en dat types en doctests worden goedgekeurd in de automatische check. Wat je niet werkend krijgt moet je uitcommenten zodat de werkende code goed getest kan worden.
+Uitgangspunt is altijd dat wat je inlevert ook werkt, en dat types en doctests worden goedgekeurd in de automatische check. Alle code die je maakt moet getest worden. Wat je niet werkend krijgt moet je uitcommenten zodat de code die wél werkt goed getest kan worden.
 
 
 ## Hulp krijgen in Python
