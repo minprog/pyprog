@@ -133,7 +133,6 @@ Test ook met vreemdere fouten (is `@` een geldig mailadres? nee).
 
     Een mogelijk beter alternatief voor losse functies is om een class te implementeren die al deze mogelijkheden biedt.
 
-
 ## Classes
 
 *Minimale ingrediënten: loops, ifs, string-functies, classes, lijsten (oefen deze opdracht pas als je week 7 af hebt)*
@@ -148,22 +147,6 @@ Test ook met vreemdere fouten (is `@` een geldig mailadres? nee).
 *Minimale ingrediënten: string-functies, lijsten, comprehensions (oefen deze opdracht pas als je week 6 af hebt)*
 
 -   Gegeven een list met daarin integers, schrijf een functie die deze omzet in een string met alle getallen en daartussen komma's. De lijst `[1, 2, 3]` wordt de string `"1,2,3"`. Gebruik hiervoor een list comprehension.
-
-
-## Types & Collections
-
-*Minimale ingrediënten: string-functies, lijsten, comprehensions (oefen deze opdracht pas als je week 6 af hebt)*
-
--   Wat wordt er geprint na het uitvoeren van dit stukje code?
-
-        data = [1,2,3,1,2,1,2,3]
-        x = {}
-        for datum in data:
-            if datum in x:
-                x[datum] += 1
-            else:
-                x[datum] = 1
-        print(x)
 
 
 ## Users
