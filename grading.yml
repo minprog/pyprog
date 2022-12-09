@@ -208,9 +208,8 @@ grades:
     comprehensions:
         type: float
         subgrades:
-            done: boolean
             points: integer
-        calculation: done && (points || 3) || points
+        calculation: points
         hide_subgrades: true
     virus: *manual
     indexer:
