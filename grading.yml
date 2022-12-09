@@ -206,8 +206,12 @@ grades:
         calculation: -done * 7
 
     comprehensions:
-        <<: *check
-        calculation: -done * 3
+        type: float
+        subgrades:
+            done: boolean
+            points: integer
+        calculation: done && (points || 3) || points
+        hide_subgrades: true
     virus: *manual
     indexer:
         <<: *automatic
