@@ -1,7 +1,5 @@
 # LISP
 
-> Deze opdracht correct uitwerken met nette doctests en type hints, en een goede stijl, levert je 1 punt op voor deze module.
-
 De programmeertaal LISP staat bekend om de vele haakjes die nodig zijn om een programma te schrijven.
 
     (defun factorial (n)

@@ -1,7 +1,5 @@
 # Figuren
 
-> Deze opdracht correct uitwerken met nette doctests en type hints, en een goede stijl, levert je 2 punten op voor deze module.
-
 Een traditioneel onderwerp van objectgeorienteerd programmeren is het modelleren van figuren. Je kunt classes maken voor rechthoeken, driehoeken, cirkels en daar instanties van maken. We gaan in deze opdracht een aantal classes ontwerpen en die gebruiken om *willekeurige figuren te kunnen sorteren op oppervlakte*.
 
 Zoals je wellicht weet worden oppervlaktes op verschillende manieren berekend, afhankelijk van de specifieke figuur. Zo kun je de oppervlaktes van een vierkant en een cirkel berekenen op basis van één maat: de zijde voor een vierkant, en de straal voor een cirkel. Je hebt alleen de juiste formules nodig.
