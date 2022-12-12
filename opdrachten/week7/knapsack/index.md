@@ -7,6 +7,8 @@
 > - 5: Een werkende inzending die problemen heeft die ernstig genoeg zijn om niet aan de vereisten voor de opdracht te voldoen. Werking is aangetoond door doctests.
 > - 3: Een werkende inzending die zeer ernstige problemen heeft, maar toch enige inspanning en begrip toont. Werking van onderdelen is aangetoond door doctests.
 > - 0: Een inzending die weinig inspanning toont en niet duidelijk maakt dat er begrip is.
+>
+> **Let op: het is altijd noodzakelijk om een main toe te voegen waarin de code wordt "gestart".**
 
 Bij een knapsack-probleem krijgen we punten voor elk item dat we
 inpakken in de knapsack. Elk item mag maar één keer worden
