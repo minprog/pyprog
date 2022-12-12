@@ -7,7 +7,7 @@ In de laatste module gaan we onderzoeken hoe object-georiënteerd programmeren k
 |                | Deadline             | Punten                                                                                                      |
 |----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
 | **Oefeningen** | dinsdag 17:59        | 3 punten voor goede eigen uitwerkingen       |
-| **Opdrachten** | vrijdag 17:59        | Lisp: 3, mits goede stijl en goede doctests<br>Figuren: 4p = goede stijl en goede doctests<br>5p = ook types perfect (moeilijk!)<br>Knapsack: 9, puntentelling bij opdracht<br>        |
+| **Opdrachten** | vrijdag 17:59        | Lisp: 3, mits goede stijl en goede doctests<br>Figuren: 4p = goede stijl en goede doctests<br>... of 5p = ook types perfect (moeilijk!)<br>Knapsack: 9, puntentelling bij opdracht<br>        |
 
 ## Deze week belangrijk
 
