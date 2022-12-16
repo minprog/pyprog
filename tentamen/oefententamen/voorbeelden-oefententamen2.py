@@ -185,7 +185,7 @@ def list_to_string(input_list: list) -> str:
 # Over de inhoud van de opdracht: je kende waarschijnlijk niet het fenomeen
 # van een passwd-file. Probeer daarom scherp te lezen welke informatie
 # je hebt uit de opdracht. Als je iets niet begrijpt, maak dan zelf een keuze
-# hoe je het implementeert. Het is niet echt als het een beetje anders is
+# hoe je het implementeert. Het is niet erg als het een beetje anders is
 # dan wij in gedachten hadden. Als het maar interessante en correcte code 
 # oplevert waarvan jij met doctests aantoont dat het werkt.
 
