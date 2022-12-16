@@ -248,7 +248,7 @@ def is_prefix(string1: str, string2: str) -> bool:
     return True
 
 # -------------------------------------------------------------------------
-# Opdracht: String & Files PREFIX
+# Opdracht: String & Files CHECKSUM
 
 def checksum(file_name: str) -> int:
     """
