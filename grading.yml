@@ -392,7 +392,7 @@ module_7:
         knapsack: 1
 
 practice:
-    type: points
+    # type: points
     show_progress: true
     convert_passes_to_grade: true
     fill_missing: 0
