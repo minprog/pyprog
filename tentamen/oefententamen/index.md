@@ -1,7 +1,5 @@
 # Oefententamen
 
-**Doe de eerste stappen van dit oefententamen tijdens het werkcollege en niet thuis. Het werkcollege is sowieso verplicht, tenzij je een hele bijzondere reden hebt. Mocht je je hebben ziekgemeld: het is niet per se de bedoeling dat je deze toets doet vóórdat je de opdrachten gaat maken. De opdrachten hebben gewoon een deadline, het oefententamen niet.**
-
 Het doel van dit tentamen is dat je kunt laten zien hoe breed en diep je kennis over programmeren in Python gaat. We kijken daarbij naar alle onderwerpen die zijn langsgekomen, maar zeker naar:
 
 - Goed gebruik van type hints om vast te leggen wat de intentie is van het programma (week 1)
@@ -62,7 +60,7 @@ Je moet alle code in één bestand zetten. Zorg dat je de verschillende uitwerki
 
 ## Opdrachten
 
-De opdrachten hieronder zijn enigszins los beschreven. Je kunt daarom soms zelf kiezen hoe je een opdracht interpreteert, als je maar voldoende interessante code kunt schrijven om het probleem op te lossen.
+De opdrachten hieronder zijn enigszins los beschreven. Je kunt daarom soms zelf kiezen hoe je een zin in een opdracht interpreteert, als je maar voldoende interessante code kunt schrijven om het probleem op te lossen.
 
 
 ## Vakantie
@@ -182,7 +180,7 @@ De volgende opdrachten zijn gebaseerd op zo'n wachtwoorden-bestand.
 
 5. Schrijf een functie `chsh()` die de user dict meekrijgt, een username en een nieuwe shell. De shell van de user wordt veranderd naar de opgegeven waarde. Er moet wel eerst gecontroleerd worden of de nieuwe shell voorkomt in een lijst van toegestane shells (deze lijst kun je zelf definiëren gebaseerd op de voorbeelden in het bestand hierboven).
 
-Uitbreidingsmogelijkheden:
+Uitbreidingsmogelijkheden (met deze uitbreidingen kun je laten zien dat je een bepaald deel van Python beheerst, zoals het gebruik van classes; het zijn maar ideeën):
 
 1. Gebruik een dict met de username als key, en daarbij als value ook weer een dict met de overige gegevens van de gebruiker.
 
@@ -194,6 +192,14 @@ Uitbreidingsmogelijkheden:
 ## Afronding
 
 Vergeet niet je doctests goed te schrijven zodat zichtbaar is dat alles werkt, en vergeet niet om alle relevante type hints te plaatsen zodat `mypy` tevreden is!
+
+
+## Nakijken en analyseren
+
+Als je zelf de opdrachten hebt geprobeerd (en nog eens geprobeerd) dan kun je je uitwerkingen vergelijking met de van ons. Maar er zijn vele uitwerkingen mogelijk! Ga dus niet leren dat je een vraag precies op onze manier (bijv. met dictionaries) moet doen. Analyseer de verschillen, kijk wat je goed begrijpt en bedenk welke oplossingsstrategiën voor jou persoonlijk handig zijn bij het tentamen.
+
+- [Uitwerkingen deel 1](https://raw.githubusercontent.com/minprog/pyprog/2022/tentamen/oefententamen/voorbeelden-oefententamen1.py)
+- [Uitwerkingen deel 2](https://raw.githubusercontent.com/minprog/pyprog/2022/tentamen/oefententamen/voorbeelden-oefententamen2.py)
 
 
 ## Meer oefenen
