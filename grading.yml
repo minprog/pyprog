@@ -280,6 +280,15 @@ calculation:
         reviews: 28
         final_assignments: 14
         exam: 0
+    eindcijfer_ikki:
+        module_1: 1
+        module_2: 1
+        module_3: 1
+        module_4: 1
+        module_5: 1
+        module_6: 1
+        module_7: 1
+        # exam: 7
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -302,6 +311,7 @@ calculation:
 
 module_1:
     type: points
+    total_points: 20
     show_progress: true
     submits:
         chapter_02: 1
@@ -313,6 +323,7 @@ module_1:
 
 module_2:
     type: points
+    total_points: 20
     show_progress: true
     submits:
         chapter_05: 1
@@ -327,6 +338,7 @@ module_2:
 
 module_3:
     type: points
+    total_points: 20
     show_progress: true
     submits:
         chapter_08: 1
@@ -342,6 +354,7 @@ module_3:
 
 module_4:
     type: points
+    total_points: 20
     show_progress: true
     submits:
         scrabble: 1
@@ -350,6 +363,7 @@ module_4:
 
 module_5:
     type: points
+    total_points: 20
     show_progress: true
     submits:
         chapter_10: 1
@@ -359,6 +373,7 @@ module_5:
 
 module_6:
     type: points
+    total_points: 20
     show_progress: true
     submits:
         comprehensions: 1
@@ -368,6 +383,7 @@ module_6:
 
 module_7:
     type: points
+    total_points: 20
     show_progress: true
     submits:
         chapter_14: 1
