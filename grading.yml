@@ -223,13 +223,13 @@ grades:
 
     lisp:
         <<: *manual
-        calculation: (points / 1.0 * 9 + 1).round(1)
+        calculation: points
     figuren:
         <<: *manual
-        calculation: (points / 2.0 * 9 + 1).round(1)
+        calculation: points
     knapsack:
         <<: *manual
-        calculation: (points / 3.0 * 9 + 1).round(1)
+        calculation: points
 
     toetsje_week_2:
         <<: *automatic
