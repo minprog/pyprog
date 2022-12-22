@@ -1,6 +1,7 @@
 long_name: Python Programming
 short_name: Python
 language: nl
-# links:
+links:
+    '[people] Tentamen': /tentamen/tentamen2
 #     '[vector-pen] Reviews': /reviews
 #     '[patch-exclamation] Tentamen': /tentamen/tentamen1
