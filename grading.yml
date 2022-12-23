@@ -256,6 +256,8 @@ grades:
         automatic:
             done: -(correctness_score.floor/2)
     exam_1: *check
+    exam_2:
+        type: float
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -288,7 +290,7 @@ calculation:
         module_5: 1
         module_6: 1
         module_7: 1
-        # exam: 7
+        exam_ikki: 7
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -472,3 +474,8 @@ exam:
     attempt_required: true
     submits:
         exam_1: 1
+
+exam_ikki:
+    minimum: 5.5
+    submits:
+        exam_2: 1
