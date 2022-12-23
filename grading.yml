@@ -258,6 +258,12 @@ grades:
     exam_1: *check
     exam_2:
         type: float
+        subgrades:
+            done: boolean
+    exam_3:
+        type: float
+        subgrades:
+            done: boolean
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -290,7 +296,16 @@ calculation:
         module_5: 1
         module_6: 1
         module_7: 1
-        exam_ikki: 7
+        exam_ki: 7
+    eindcijfer_ik:
+        module_1: 1
+        module_2: 1
+        module_3: 1
+        module_4: 1
+        module_5: 1
+        module_6: 1
+        module_7: 1
+        exam_ik: 7
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -475,8 +490,14 @@ exam:
     submits:
         exam_1: 1
 
-exam_ikki:
-    # show_progress: true
+exam_ki:
+    show_progress: true
     minimum: 5.5
     submits:
         exam_2: 1
+
+exam_ik:
+    show_progress: true
+    minimum: 5.5
+    submits:
+        exam_3: 1
