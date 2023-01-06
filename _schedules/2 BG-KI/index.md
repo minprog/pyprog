@@ -71,7 +71,7 @@ Dit is een overzicht van de deadlines per week:
 | Module 3    | vr 23 sep  17:59 | ma 26 sep  18:59   |
 | Module 4    | vr 30 sep  17:59 | ma  3 okt  18:59   |
 | Module 5    | vr  7 okt  17:59 | ma 10 okt  18:59   |
-| Module 6    | vr 14 okt  17:59 | ma 17 okt  18:59   |
+| Module 6    | vr 14 okt  17:59 | -                  |
 | Module 7    | vr 21 okt  17:59 | -                  |
 
 De deadline voor de verbeterde versie is afhankelijk van de werkgroeproostering. Eventuele wijzigingen worden na aanvang van de cursus doorgegeven.
@@ -101,6 +101,19 @@ De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. Voor elke opdra
 Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
 
 Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
+
+Voor de opdracht **Virus** geldt de volgende puntenverdeling:
+
+- 1 punt voor stap 1 en 2 (mits gehouden aan de genoemde regel-limieten)
+- 2 punten voor stap 3, 4 en 5 (mits gehouden aan de genoemde regel-limieten)
+- 2 punten voor een werkende simulatie
+- 1 punt voor een interessante eigen grafiek
+
+Voor de opdrachten van module 7 geldt de volgende puntenverdeling:
+
+- 1 punt voor de opdracht **Lisp** mits goede doctests en aanwezige type hints
+- 2 punten voor de opdracht **Figuren** mits goede doctests en aanwezige type hints
+- 3 punten voor de opdracht **Knapsack** mits goede doctests en aanwezige type hints
 
 ## Boek
 

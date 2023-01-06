@@ -14,9 +14,9 @@ Learning to programming is done through lots of practice. Almost all of the work
 
 1. Book exercises (10%). The book contains exercises you may do to support your understanding of the reading materials. Making and submitting exercises will be part of your final grade. Your answers are checked for completeness and correctness.
 
-2. Programming assignment solutions (10%). Your solutions for the assignments are part of the final grade. The assignments will be assessed on correctness, not on other qualities. Submitting correct assignments automatically yields points for this part of the grade.
+2. Programming assignment solutions (20%). Your solutions for the assignments are part of the final grade. The assignments will be assessed on correctness, not on other qualities. Submitting correct assignments automatically yields points for this part of the grade.
 
-3. Individual assignment quality (80%). Every week you will take one or two correct programs of the previous week and thoroughly review it with another student. You can then make it even better and re-submit it. These programs will be assessed on quality (you will receive detailed instructions).
+3. Individual assignment quality (70%). Every week you will take one or two correct programs of the previous week and thoroughly review it with another student. You can then make it even better and re-submit it. These programs will be assessed on quality (you will receive detailed instructions).
 
 4. Exam (0%). The exam will not count in your final grade but you must pass it to be able to pass the course.
 
@@ -82,7 +82,7 @@ For most weeks there are two deadlines.
 | Module 3    | Fri 23 Sep  17:59   | Tue 27 Sep  18:59    |
 | Module 4    | Fri 30 Sep  17:59   | Tue  4 Okt  18:59    |
 | Module 5    | Fri  7 Okt  17:59   | Tue 11 Okt  18:59    |
-| Module 6    | Fri 14 Okt  17:59   | Tue 18 Okt  18:59    |
+| Module 6    | Fri 14 Okt  17:59   | -                    |
 | Module 7    | Fri 21 Okt  17:59   | -                    |
 
 ### Illness and getting back on track
@@ -113,6 +113,19 @@ These aspects concern *code quality*, about which you'll learn more during the c
 Want to do well (4 points)? Study the aspects that we provide and actively participate in the code review. This should yield a lot of input for improving your programs.
 
 Want to score very high (6 points)? In that case you'll need to study not only our materials but find external sources about writing good Python code and make a very good design that fits the solution in particular.
+
+For the **Virus** assignment points are assigned as follows:
+
+- 1 punt voor stap 1 en 2 (mits gehouden aan de genoemde regel-limieten)
+- 2 punten voor stap 3, 4 en 5 (mits gehouden aan de genoemde regel-limieten)
+- 2 punten voor een werkende simulatie
+- 1 punt voor een interessante eigen grafiek
+
+For the assignments in module 7 points are assigned as follows:
+
+- 1 punt voor de opdracht **Lisp** mits goede doctests en aanwezige type hints
+- 2 punten voor de opdracht **Figuren** mits goede doctests en aanwezige type hints
+- 3 punten voor de opdracht **Knapsack** mits goede doctests en aanwezige type hints
 
 ## Book
 
