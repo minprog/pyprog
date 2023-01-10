@@ -131,7 +131,7 @@ Dit beoordelingsmodel is de basis voor het geven van cijfers voor het tentamen. 
 
 **6**
 
-- er is een behoorlijke hoeveelheid werkende code
+- er is een redelijke hoeveelheid werkende code
 - algoritmen in de werkende functies bestaan uit gevarieerde combinaties van for, while, if
 - de algoritmen maken onder andere zinvol gebruik van strings en/of lists (indexing, methods)
 - sommige van de functies hebben parameters, waarvan de waarde zinvol gebruikt wordt in de functie
