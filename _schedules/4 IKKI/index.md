@@ -38,55 +38,6 @@ De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt 
 
 De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
 
-## Beoordelingsmodel tentamen
-
-Dit beoordelingsmodel is de basis voor het geven van cijfers voor het tentamen. Er zijn altijd onvoorziene situaties waarin het model niet voorziet; in dat geval neemt de docent een gemotiveerde beslissing over het toe te kennen cijfer.
-
-**Basiseis**
-
-- alleen werkende code in functies wordt meegenomen in de beoordeling; het schrijven van code zonder gebruik van functies is onvoldoende
-- al deze functies zijn voorzien van enkele doctests die aantonen dat de functie werkt voor een aantal verschillende testgevallen; code zonder werkende en zinvolle tests wordt in principe niet in aanmerking genomen
-- als niet aan de basiseis wordt voldaan dan geldt het resultaat NAV (niet aan de voorwaarden voldaan) voor het vak
-
-**6**
-
-- er is een behoorlijke hoeveelheid werkende code
-- algoritmen in de werkende functies bestaan uit gevarieerde combinaties van for, while, if
-- de algoritmen maken onder andere zinvol gebruik van strings en/of lists (indexing)
-- sommige van de functies hebben parameters, waarvan de waarde zinvol gebruikt wordt in de functie
-
-**7**
-
-- aan alle eisen voor een 6 moet worden voldaan
-- er is een flinke hoeveelheid werkende code
-- de functies zijn voor een behoorlijk deel voorzien van correcte type hints
-
-**8**
-
-- aan alle eisen voor een 7 moet worden voldaan
-- de code gebruikt een aantal onderdelen van Python die in de cursus voorbij zijn gekomen; dat kunnen de volgende middelen zijn die in meer of mindere mate worden toegepast:
-    - gebruik van dicts, sets of tuples om data op een logische manier te ordenen (bijna niemand)
-    - gebruik van list comprehensions op een zinvolle manier 
-    - gebruik van classes op een zinvolle manier, met logisch gebruik van instance variables 
-    - gebruik van veel hulpfuncties waardoor sommige oplossingen opgedeeld zijn in meerdere functies 
-    - gebruik van doctest met random.seed
-- er wordt succesvol data ingelezen in een variabele, uit een bestand, en verder verwerkt
-- type hints zijn helemaal goedgekeurd
-
-**9**
-
-- aan alle eisen voor een 8 moet worden voldaan
-- er zijn sterkere eisen aan het gebruik van de verschillende Python-mogelijkheden; zo moet nu aan alle van de volgende eisen voldaan worden: 
-    - dicts, sets, of tuples zijn op diverse plekken zinvol gebruikt 
-    - list comprehensions zijn enkele keren zinvol gebruikt 
-    - zinvol classes gebruikt waarin meerdere methoden dezelfde instance variabele gebruiken 
-- doctests hebben enige systematiek, bijv. testen van edge cases
-
-**10**
-
-- aan alle eisen voor een 9 moet worden voldaan
-- er is een bijzondere eigen insteek gekozen bij het oplossen van alle opdrachten, die zeer grote flexibiliteit in het gebruik van Python aantoont door de creatieve aanpak van de verschillende onderdelen; met dien verstande dat leesbaarheid en begrijpelijkheid van de oplossing een belangrijke randvoorwaarde blijft (het veelvuldig zonder uitleg op internet voorkomen van bepaalde technieken maakt ze niet automatisch leesbaar of begrijpelijk!)
-
 ## Eindcijfer
 
 Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per week. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
@@ -167,6 +118,55 @@ Om mee te mogen doen met de code review en deze punten te halen moet je een mini
 ## Tentamen
 
 Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je een oefententamen tijdens het werkcollege.
+
+## Beoordelingsmodel tentamen
+
+Dit beoordelingsmodel is de basis voor het geven van cijfers voor het tentamen. Er zijn altijd onvoorziene situaties waarin het model niet voorziet; in dat geval neemt de docent een gemotiveerde beslissing over het toe te kennen cijfer.
+
+**Basiseis**
+
+- alleen werkende code in functies wordt meegenomen in de beoordeling; het schrijven van code zonder gebruik van functies is onvoldoende
+- al deze functies zijn voorzien van enkele doctests die aantonen dat de functie werkt voor een aantal verschillende testgevallen; code zonder werkende en zinvolle tests wordt in principe niet in aanmerking genomen
+- als niet aan de basiseis wordt voldaan dan geldt het resultaat NAV (niet aan de voorwaarden voldaan) voor het vak
+
+**6**
+
+- er is een behoorlijke hoeveelheid werkende code
+- algoritmen in de werkende functies bestaan uit gevarieerde combinaties van for, while, if
+- de algoritmen maken onder andere zinvol gebruik van strings en/of lists (indexing)
+- sommige van de functies hebben parameters, waarvan de waarde zinvol gebruikt wordt in de functie
+
+**7**
+
+- aan alle eisen voor een 6 moet worden voldaan
+- er is een flinke hoeveelheid werkende code
+- de functies zijn voor een behoorlijk deel voorzien van correcte type hints
+
+**8**
+
+- aan alle eisen voor een 7 moet worden voldaan
+- de code gebruikt een aantal onderdelen van Python die in de cursus voorbij zijn gekomen; dat kunnen de volgende middelen zijn die in meer of mindere mate worden toegepast:
+    - gebruik van dicts, sets of tuples om data op een logische manier te ordenen (bijna niemand)
+    - gebruik van list comprehensions op een zinvolle manier 
+    - gebruik van classes op een zinvolle manier, met logisch gebruik van instance variables 
+    - gebruik van veel hulpfuncties waardoor sommige oplossingen opgedeeld zijn in meerdere functies 
+    - gebruik van doctest met random.seed
+- er wordt succesvol data ingelezen in een variabele, uit een bestand, en verder verwerkt
+- type hints zijn helemaal goedgekeurd
+
+**9**
+
+- aan alle eisen voor een 8 moet worden voldaan
+- er zijn sterkere eisen aan het gebruik van de verschillende Python-mogelijkheden; zo moet nu aan alle van de volgende eisen voldaan worden: 
+    - dicts, sets, of tuples zijn op diverse plekken zinvol gebruikt 
+    - list comprehensions zijn enkele keren zinvol gebruikt 
+    - zinvol classes gebruikt waarin meerdere methoden dezelfde instance variabele gebruiken 
+- doctests hebben enige systematiek, bijv. testen van edge cases
+
+**10**
+
+- aan alle eisen voor een 9 moet worden voldaan
+- er is een bijzondere eigen insteek gekozen bij het oplossen van alle opdrachten, die zeer grote flexibiliteit in het gebruik van Python aantoont door de creatieve aanpak van de verschillende onderdelen; met dien verstande dat leesbaarheid en begrijpelijkheid van de oplossing een belangrijke randvoorwaarde blijft (het veelvuldig zonder uitleg op internet voorkomen van bepaalde technieken maakt ze niet automatisch leesbaar of begrijpelijk!)
 
 ## Boek
 
