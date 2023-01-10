@@ -121,7 +121,7 @@ Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstuk
 
 ## Beoordelingsmodel tentamen
 
-Dit beoordelingsmodel is de basis voor het geven van cijfers voor het tentamen. Er zijn altijd onvoorziene situaties waarin het model niet voorziet; in dat geval neemt de docent een gemotiveerde beslissing over het toe te kennen cijfer.
+Dit beoordelingsmodel is de basis voor het geven van cijfers voor het tentamen. Er zijn altijd situaties waarin het model niet voorziet; in dat geval neemt de docent een gemotiveerde beslissing over het toe te kennen cijfer.
 
 **Basiseis**
 
