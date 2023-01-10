@@ -485,19 +485,19 @@ reviews:
 #         oefententamen: 1
 
 exam:
-    show_progress: true
+    # show_progress: true
     attempt_required: true
     submits:
         exam_1: 1
 
 exam_ki:
-    show_progress: true
+    # show_progress: true
     minimum: 5.5
     submits:
         exam_2: 1
 
 exam_ik:
-    show_progress: true
+    # show_progress: true
     minimum: 5.5
     submits:
         exam_3: 1
