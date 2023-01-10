@@ -258,12 +258,12 @@ grades:
     exam_1: *check
     exam_2:
         type: float
-        subgrades:
-            done: boolean
+        # subgrades:
+        #     done: boolean
     exam_3:
         type: float
-        subgrades:
-            done: boolean
+        # subgrades:
+        #     done: boolean
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
