@@ -468,7 +468,7 @@ final_assignments:
         virus: 6
 
 reviews:
-    show_progress: true
+    # show_progress: true
     submits:
         m1: 1
         m2: 1
