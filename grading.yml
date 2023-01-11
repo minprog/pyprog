@@ -485,7 +485,7 @@ reviews:
 #         oefententamen: 1
 
 exam:
-    # show_progress: true
+    show_progress: true
     attempt_required: true
     submits:
         exam_1: 1
