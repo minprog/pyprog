@@ -491,7 +491,7 @@ exam:
         exam_1: 1
 
 exam_ki:
-    # show_progress: true
+    show_progress: true
     minimum: 5.5
     submits:
         exam_2: 1
