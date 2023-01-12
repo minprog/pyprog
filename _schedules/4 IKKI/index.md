@@ -146,7 +146,7 @@ Dit beoordelingsmodel is de basis voor het geven van cijfers voor het tentamen. 
 
 - aan alle eisen voor een 7 moet worden voldaan
 - de code gebruikt een aantal onderdelen van Python die in de cursus voorbij zijn gekomen; dat kunnen de volgende middelen zijn die in meer of mindere mate worden toegepast:
-    - gebruik van dicts, sets of tuples om data op een logische manier te ordenen (bijna niemand)
+    - gebruik van dicts, sets of tuples om data op een logische manier te ordenen
     - gebruik van list comprehensions op een zinvolle manier 
     - gebruik van classes op een zinvolle manier, met logisch gebruik van instance variables 
     - gebruik van veel hulpfuncties waardoor sommige oplossingen opgedeeld zijn in meerdere functies 
