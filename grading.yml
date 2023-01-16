@@ -451,24 +451,26 @@ assignments:
         temperatuur: 30
 
         scrabble: 70
+        schuifpuzzel: 70
         kalender: 70
 
-        schuifpuzzel: 70
+        indexer: 70
         eca2csv: 70
         klimaat: 70
 
-        indexer: 70
+        algorithms: 105
         comprehensions: 105
-        
-        # algorithms: 105
 
 final_assignments:
     # show_progress: true
     submits:
         virus: 6
+        lisp: 1
+        figuren: 2
+        knapsack: 3
 
 reviews:
-    show_progress: true
+    # show_progress: true
     submits:
         # m1: 1
         m2: 1
