@@ -499,6 +499,7 @@ reviews:
         m3: 1
         m4: 1
         m5: 1
+        m6: 1
 
 exam:
     # show_progress: true
