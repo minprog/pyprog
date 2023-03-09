@@ -289,7 +289,7 @@ calculation:
     eindcijfer:
         practice: 6
         assignments: 12
-        reviews: 28
+        old_reviews: 28
         final_assignments: 14
         exam: 0
     eindcijfer_ki:
@@ -490,6 +490,13 @@ final_assignments:
         lisp: 1
         figuren: 2
         knapsack: 3
+
+old_reviews:
+    submits:
+        m2: 1
+        m3: 1
+        m4: 1
+        m5: 1
 
 reviews:
     show_progress: true
