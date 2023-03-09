@@ -291,7 +291,7 @@ calculation:
         assignments: 12
         old_reviews: 28
         final_assignments: 14
-        exam: 0
+        # exam: 0
     eindcijfer_ki:
         module_1: 1
         module_2: 1
