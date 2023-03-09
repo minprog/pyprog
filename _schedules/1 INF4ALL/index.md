@@ -105,6 +105,18 @@ Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van P
 
 Tijdens het tentamen ga je aan de slag met een selectie van kleine programmeerproblemen. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je wekelijkse oefeningen in de werkcollelges en er is natuurlijk ook een oefententamen.
 
+**Basiseisen**
+
+- alleen werkende code in functies wordt meegenomen in de beoordeling; het schrijven van code zonder gebruik van functies is onvoldoende
+- al deze functies zijn voorzien van enkele doctests die aantonen dat de functie werkt voor een aantal verschillende testgevallen; code zonder werkende en zinvolle tests wordt in principe niet in aanmerking genomen
+
+**Eisen voor een voldoende**
+
+- er is een redelijke hoeveelheid werkende code (echt te weinig code is al afgekeurd in principe)
+- algoritmen in de werkende functies bestaan uit verschillende combinaties van for, while, if
+- de algoritmen maken onder andere zinvol gebruik van strings en/of lists (indexing)
+- sommige van de functies hebben parameters, waarvan de waarde zinvol gebruikt wordt in de functie
+
 ## Samenwerken
 
 De basis van alles wat je inlevert moet jouw eigen intellectuele werk zijn, behalve waar het gaat om samenwerkopdrachten waar dit expliciet vermeld is.
