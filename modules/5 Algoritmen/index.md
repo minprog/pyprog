@@ -1,0 +1,32 @@
+# Algoritmen
+
+<!-- Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds ga je kijken naar de manier waarop je een algoritme kunt ontwikkelen en waar je dan op moet letten. Anderzijds ga je kennis maken met een aantal "standaard-algoritmen" voor sorteren en zoeken. Deze standaard-algoritmen zijn zo algemeen, dat we ze in pseudocode kunnen beschrijven en in een willekeurige programmeertaal vastleggen om echt te gebruiken. En welke programmeertaal dat ook is, de eigenschappen van de algoritmen zullen steeds hetzelfde zijn.  -->
+
+Je gaat deze week kennismaken met comprehensions in Python, waarmee je bepaalde operaties zeer compact kunt opschrijven. Je gaat oefenen met comprehensions in een grotere opdracht "Virus", waar je ook leert hoe je een simulatie kunt bouwen in Python.
+
+Daarnaast ga je aan de slag met een aantal types die in Python zijn ingebouwd maar die je nog niet hebt gezien. Belangrijkste hier zijn de oefeningen uit het boek, en als je nog tijd over hebt kun je de opdracht Indexer maken.
+
+## Puntentelling
+
+|                | Deadline             | Punten                                                                                                      |
+|----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
+| **Comprehensions** | vrijdag 17:59        | Comprehensions: 3<br>Virus: 12 (deelpunten staan binnenkort bij opdracht)        |
+| **Collections** | vrijdag 17:59        | Hoofdstuk 11, Collections: 2 punten<br>Indexer: 3 (wel moeilijk)             |
+
+## Deze week belangrijk
+
+1. Collection types
+2. Wat kun je bouwen met deze types (list in dict?)
+3. Pseudocode naar echte code omzetten
+4. List comprehensions voor het schrijven van compacte code
+5. Teststrategiën voor random functies
+
+## Aanpak
+
+Deze week: boek hoort bij de laatste opdracht, dus ga het boek niet lezen vóór je Comprehensions en Virus afhebt!
+
+1. Neem het boek goed door en markeer moeilijke delen
+2. Maak de oefeningen en gebruik ze om de tekst te begrijpen en andersom; dit kost veel tijd
+3. Ga naar het werkcollege om goed te begrijpen wat van je verwacht wordt deze week
+4. Reserveer flink tijd om aan de programmeeropdrachten te werken
+5. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen
