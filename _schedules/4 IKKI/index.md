@@ -44,6 +44,7 @@ De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waari
 > Misschien nog een echt klein deel voor "huiswerk", bijvoorbeeld 10%.
 > Voor indicatie beoordeling opdrachten en tentamen zie onder, dit zal op een vergelijkbare manier gedaan blijven worden.
 
+<!-- 
 Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per week. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
 
 | Punten     | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 |
@@ -53,6 +54,7 @@ Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind
 | Verbeterd  |    6   |    6   |    6   |    6   |    -   |    -   |    -   |
 
 Je praktische deelcijfer kun je uitrekenen door de punten te tellen; daarna (punten / 140) * 9 + 1 voor het cijfer.
+-->
 
 Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger. De praktische opdrachten en het tentamen tellen elk voor 50% van het eindcijfer.
 
