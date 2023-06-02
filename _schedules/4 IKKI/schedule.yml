@@ -55,9 +55,9 @@ Module 5:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
-        Algorithms: /opdrachten/week6/algorithms
-        Indexer: /opdrachten/week5/indexer
-        Schuifpuzzel: /opdrachten/week4/schuifpuzzel
+        Algorithms: '' # werkt nog niet /opdrachten/week6/algorithms
+        Indexer: /opdrachten/week6/indexer
+        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
 
 Module 6:
     Overzicht: /modules/classes
