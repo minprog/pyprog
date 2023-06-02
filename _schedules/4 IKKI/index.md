@@ -1,6 +1,6 @@
 # Programmeren voor IK en KI
 
-## Studiewijzer<br><small>Herfst 2022</small>
+## Studiewijzer<br><small>Herfst 2023 (proefversie)</small>
 
 Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop wij programmeren!
 
@@ -16,12 +16,12 @@ Dit is een overzicht van de deadlines per week:
 
 | Deadline:   |  (1) oefeningen |  (2) opdrachten |         (3) verbetering |
 |-------------|----------------:|----------------:|------------------------:|
-| Module 1    |  wo 2 nov 17:59 | vr  4 nov 17:59 | tijdens werkcollege wk2 |
+| Module 1    |  wo 2 nov 17:59 | vr  4 nov 17:59 |                         |
 | Module 2    |  di 8 nov 17:59 | vr 11 nov 17:59 | tijdens werkcollege wk3 |
-| Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 | tijdens werkcollege wk4 |
+| Module 3    | di 15 nov 17:59 | vr 18 nov 17:59 |                         |
 | Module 4    |                 | vr 25 nov 17:59 | tijdens werkcollege wk5 |
 | Module 5    | di 29 nov 17:59 | vr  2 dec 17:59 |                         |
-| Module 6    | vr  9 dec 17:59 | vr  9 dec 17:59 |                         |
+| Module 6    | vr  9 dec 17:59 | vr  9 dec 17:59 | tijdens werkcollege wk7 |
 | Module 7    | di 13 dec 17:59 | vr 16 dec 17:59 |                         |
 
 Het gaat om de volgende onderdelen:
@@ -39,6 +39,10 @@ De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt 
 De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
 
 ## Eindcijfer
+
+> Wordt aangepast: 75% zal tentamen zijn en 25% punten voor de verbeterde opdrachten + schriftelijke motivatie van alle verbeteringen.
+> Misschien nog een echt klein deel voor "huiswerk", bijvoorbeeld 10%.
+> Voor indicatie beoordeling opdrachten en tentamen zie onder, dit zal op een vergelijkbare manier gedaan blijven worden.
 
 Voor de praktische opdrachten zijn per module 20 punten te halen. Hieronder vind je de verdeling per week. Op deze website vind je bij elke module nog meer informatie over de puntentelling.
 
