@@ -4,54 +4,57 @@ Week 1:
         "Chapter 2: Hello, Python": /boek/hello
         "Chapter 3: Designing functions": /boek/functions
         "Chapter 4: Working with text": /boek/text
+        "Chapter 5: Making Choices": /boek/choices
+        "Chapter 6: Modular Approach": /boek/modules
+        "Chapter 7: Using Methods": /boek/methods
+        "Chapter 8: Storing Collections using Lists": /boek/lists
+        "Chapter 9: Repeating Code using Loops": /boek/loops
     Opdrachten:
-        Cafeine (dinsdag af): /opdrachten/week1/cafeine
-        Vakantie (donderdag af): /opdrachten/week1/vakantie
+        # Cafeine (dinsdag af): /opdrachten/week1/cafeine
+        # Vakantie (donderdag af): /opdrachten/week1/vakantie
+        Calculator: /opdrachten/week2/calculator
+        Wachtwoord: /opdrachten/week2/wachtwoord
+        Cola: /opdrachten/week3/cola
+        Sjoelen: /opdrachten/week3/sjoelen
+        Temperatuur: /opdrachten/week3/temperatuur
+        # Orakel: /opdrachten/week2/orakel
+        # Etenstijd: /opdrachten/week2/etenstijd
+        # Rechthoeken: /opdrachten/week2/rechthoeken
+        # camelCase: /opdrachten/week3/camelcase
+        # RNA: /opdrachten/week3/rna
+        # Leesbaarheid: /opdrachten/week3/leesbaarheid
 
 Week 2:
     Overzicht: /modules/beslissingen
     Tentamen-oefening: /toetsjes/week2
     Lezen en oefenen:
-        "Chapter 5: Making Choices": /boek/choices
-        "Chapter 6: Modular Approach": /boek/modules
-        "Chapter 7: Using Methods": /boek/methods
-    Opdrachten:
-        Orakel: /opdrachten/week2/orakel
-        Etenstijd: /opdrachten/week2/etenstijd
-        Calculator: /opdrachten/week2/calculator
-        Rechthoeken: /opdrachten/week2/rechthoeken
-        Wachtwoord: /opdrachten/week2/wachtwoord
-
-Week 3:
-    Overzicht: /modules/herhalen
-    Tentamen-oefening: /toetsjes/week3
-    Lezen en oefenen:
-        "Chapter 8: Storing Collections using Lists": /boek/lists
-        "Chapter 9: Repeating Code using Loops": /boek/loops
-    Opdrachten:
-        camelCase: /opdrachten/week3/camelcase
-        RNA: /opdrachten/week3/rna
-        Leesbaarheid: /opdrachten/week3/leesbaarheid
-        Cola: /opdrachten/week3/cola
-        Populatie: /opdrachten/week3/populatie
-        Sjoelen: /opdrachten/week3/sjoelen
-        Temperatuur: /opdrachten/week3/temperatuur
-
-Week 4:
-    Overzicht: /modules/problemen
-    Tentamen-oefening: /toetsjes/week4
+        # "Chapter 10: Reading and Writing Files": /boek/files
     Opdrachten:
         Scrabble: /opdrachten/week4/scrabble
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Kalender: /opdrachten/week4/kalender
 
-Week 5:
-    Overzicht: /modules/dataverwerking
+Week 3:
+    Overzicht: /modules/herhalen
+    Tentamen-oefening: /toetsjes/week3
     Lezen en oefenen:
-        "Chapter 10: Reading and Writing Files": /boek/files
         "Chapter 11: Collection Types": /boek/collections
     Opdrachten:
         Indexer: /opdrachten/week6/indexer
+
+Week 4:
+    Overzicht: /modules/problemen
+    Tentamen-oefening: /toetsjes/week4
+    Opdrachten:
+        Populatie: /opdrachten/week3/populatie
+        Comprehensions: /opdrachten/week6/comprehensions
+        Virus: /opdrachten/week6/virus
+
+Week 5:
+    Overzicht: /modules/dataverwerking
+    Lezen en oefenen:
+        "Chapter 14: Object-oriented programming": /boek/objects
+    Opdrachten:
         Preprocessing: /opdrachten/week5/eca2csv
         Klimaat: /opdrachten/week5/klimaat
 
@@ -62,13 +65,10 @@ Week 6:
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
         # Algorithms: /opdrachten/week6/algorithms
-        Comprehensions: /opdrachten/week6/comprehensions
-        Virus: /opdrachten/week6/virus
 
 Week 7:
     Overzicht: /modules/classes
     Lezen en oefenen:
-        "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
         Lisp: /opdrachten/week7/lisp
         Figuren: /opdrachten/week7/figuren

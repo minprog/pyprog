@@ -39,7 +39,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* Je kan een alfabet string krijgen via de string module. Kijk bijvoorbeeld even naar de functie `string.ascii_lowercase`.
+* Je kan een alfabet string krijgen via de string module. Kijk bijvoorbeeld even naar de variabele `string.ascii_lowercase`.
 
 * `You're` is 1 woord met 5 letters!
 
