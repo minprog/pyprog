@@ -1,9 +1,9 @@
 # Debug Oefening
 
 Iedere programmeur maakt fouten. Een goede programmeur kan zijn/haar
-fouten snel ontdekken en goed oplossen. We gaan naar enkele techieken
+fouten snel ontdekken en oplossen. We gaan naar enkele techieken
 hiervoor kijken die we toepassen op een voorbeeldprogramma. Het is de
-bedoeling dat je echt even mee met de techieken oefent zodat je deze
+bedoeling dat je echt even mee met deze techieken oefent zodat je deze
 zelf in latere opdrachten kunt gebruiken. Dit kan veel tijd besparen.
 
 # Voorbeeldprogramma
@@ -154,7 +154,7 @@ meer details te zien:
     3 passed and 0 failed.
     Test passed.
 
-## Doctest
+## Meer Doctests
 
 Alle doctest slagen maar er zit nog wel een bug in het programma. Voeg
 meer doctest toe om te proberen te ontdekken of
@@ -167,36 +167,37 @@ meer vind er een overgang plaats, voor 1000euro kan ik 100 bijetten
 van 10euro gebruiken.
 
 Als je met een doctest een bug ontdekt, is het nuttig om de test te
-proberen te versimpelen op zo een manier dat de bug behouden
-blijft. Het voorbeeld van 999euro is niet erg simpel omdat het zo'n
-groot begrag is, probeer een lagere waarde te vinden met behoud van
-bug. Bij simpelere test is het namelijke makkelijker om de oorzaak te
+proberen te versimpelen op zo'n manier dat de bug behouden blijft. Het
+voorbeeld van 999euro is niet erg simpel omdat het zo'n groot begrag
+is, probeer een lagere waarde te vinden met behoud van de bug. Bij
+simpelere tests is het namelijke makkelijker om de oorzaak te
 ontdekken.
 
 ## Prints
 
 Als het goed is heb je met doctests ontdekt dat er een bug zit in de
-`compute_denomination_amount()` functie, zo niet probeer het nu echt
-eerst zelf even.
+`compute_denomination_amount()` functie. Zo niet, probeer het dan echt
+eerst zelf voor je verder leest.
 
 Dit is de meeste simpele doctest die ik kon vinden met behoud
-van bug:
+van de bug:
 
     >>> compute_denomination_amount(6, 10)
     0
-    
+
 Voor een bedrag van 6euro heb ik '0' biljetten van 10euro nodig, maar
 de functie geeft foutief het aantal '1'.
 
 Om beter te begrijpen wat in deze functie gebeurt kunnen we
-print-statements toevoegen voor waarde die interesant lijken. Voeg bij
-print-statements voor het overzicht ook toe welke waarde je print, dus
+print-statements toevoegen voor variabelen en expressies die
+interesant lijken. Voeg bij print-statements voor een goed overzicht
+ook de naam van de variabele toe die je print, dus:
 
-    print("waarde:", waarde)
+    print("variabele:", variabele)
 
 in plaats van alleen:
 
-    print(waarde)
+    print(variabele)
 
 Voor `compute_denomination_amount()` zou dat er zo uit kunnen zien:
 
@@ -210,7 +211,7 @@ Voor `compute_denomination_amount()` zou dat er zo uit kunnen zien:
 
 en als we in main de functie zelf aanroepen met de testwaarden:
 
-    compute_denomination_amount(6,10)
+    compute_denomination_amount(6, 10)
     
 resulteert dat in deze prints:
     
@@ -220,9 +221,9 @@ resulteert dat in deze prints:
 
 ## PythonTutor
 
-Soms is het duidelijker om tijdens de uitvoer stapsgewijs door de code
-te kunnen lopen om dingen beter te begrijpen dan met print-statements
-alleen. Dat kan bijvoorbeeld met
+Soms is het duidelijker om stapsgewijs door de code te kunnen lopen
+terwijl deze wordt uitgevoerd om dingen beter te begrijpen dan met
+print-statements alleen. Dat kan bijvoorbeeld met
 [PythonTutor](https://pythontutor.com/). Klik daar op 'Python',
 kopieer het hele programma in het invoerveld, en druk op 'Visualize
 Execution':
@@ -242,14 +243,19 @@ statements worden uitgevoerd, klik om 'Prev' om terug te stappen.
 
 ![PythonTutor_watch](watch.png){: style="width:20rem;"}
 
+PythonTutor kan in het begin wat ingewikkeld lijken, maar is kan erg
+helpen dus experimenteer er enige tijd mee om er aan te wennen. Het is
+een nuttig stuk gereedschap wat we later nog nodig zullen hebben.
+
 ## Oplossing
 
-Heb je kunnen ontdekken hoe we de bug kunnen oplossen?
+Heb je kunnen ontdekken hoe we de bug kunnen oplossen? zo niet,
+probeer het dan echt eerst zelf voor je verder leest.
 
 Na enig denkwerk zouden we met alle informatie tot de conclusie moeten
 kunnen komen dat 0.6 naar beneden moet worden afgerond voor het juiste
-aantal bankbiljetten en niet naar de dichtsbijzijnde integer
-waarde. Dit kan na `import math` toevoegen met:
+aantal bankbiljetten en niet naar het dichtsbijzijnde gehele getal. Dit
+kan na `import math` toevoegen met:
 
     amount = math.floor(due / denomination)
 
@@ -263,26 +269,94 @@ Verwijder dan de print-statements uit deze functie.
 ## Nog een bug
 
 Er zit ook een bug in de `compute_change()` functie. Gebruik dezelfde
-technieken als hieroven om daar ook de bug te vinden en te verwijderen.
+technieken als hierboven om daar ook de bug te vinden en te verwijderen.
 
-De enige doctest slaagt: 
+De enige doctest die er nu al staat, slaagt: 
 
     >>> compute_change(1, [50, 20, 10, 5, 2, 1])
     [0, 0, 0, 0, 0, 1]
 
 we kunnen namelijk '1'euro betalen met:
 
-0 biljetten van 50 euro
-0 biljetten van 20 euro
-0 biljetten van 10 euro
-0 biljetten van  5 euro
-0 munten van     2 euro
-1 munten van     1 euro
+- 0 biljetten van 50 euro
+- 0 biljetten van 20 euro
+- 0 biljetten van 10 euro
+- 0 biljetten van  5 euro
+- 0 munten van     2 euro
+- 1 munten van     1 euro
 
-Met welke simpele doctests kunnen we aantonen dat deze functie een bug heeft? 
+Welke simpele doctests kunnen we toevoegen om aan te tonen dat deze
+functie een bug heeft?
 
-Welke print-statement is nuttig om beter te begrijpen wat er gebeurt in deze functie? misschien:
+Welke print-statement is nuttig om beter te begrijpen wat er gebeurt
+in deze functie? misschien zoiets als?
 
-    print("due:",due,"denominations:",denominations,"change:",change)
+    print("due:", due, "denominations:", denominations, "change:", change)
     
 Helpt PythonTutor om te begrijpen wat er mis gaat?
+
+Welke code-aanpassing kunnen we tenslotte doen zodat het programma wel
+goed werkt voor alle (positieve en hele euro) bedragen?
+
+## Moeilijk
+
+Het kan best moeilijk zijn om bugs te vinden en op te lossen. Het kost
+soms veel tijd/energie/frustratie om te begrijpen wat er in code moet
+gebeuren en wat er mis gaat. Toch is dit een van de belangrijkste
+programmeervaardigheden. Met oefening wordt je hier vanzelf beter in
+en wordt dit ook makkelijker. Wat helpt is precies werken en
+regelmaltig testen en debuggen. Dus test steeds na maar een paar
+nieuwe regels code geschreven te hebben. Dat kost over het algemeen
+minder tijd dan pas achteraf veel regels tegelijk testen zoals in het
+bovenstaande programmma.
+
+## Correctheid
+
+Met tests kunnen we alleen aantonen dat er nog een bug in code zit,
+maar we kunnen niet zeker weten dat een programma helemaal bug vrij
+is. Misschien zijn we namelijke een belangrijke test vergeten voor een
+speciaal geval.
+
+Om meer zekerheid te krijgen kunnen we in veel gevallen wel code
+schrijven die automatisch veel test uitvoert. Hieronder voorbeeld-code
+die van een 'change'-lijst het 'due' bedrag terug-berekent. Deze
+waarde zou natuurlijk gelijk moeten zijn aan het originele 'due'
+bedrag van de 'change'-lijst. We kunnen dit vervolgens testen voor
+bijvoorbeeld 100000 verschillende random gekozen waarden voor
+'due'. Als het voor al die waarden goed werkt kunnen we toch een hoge
+mate van vertrouwen krijgen dat de code correct is, maar helemaal
+zeker weten doen we dat in het algmeen niet, zeker niet voor grote
+complexe programma's.
+
+    import random
+
+    def compute_change_total(change: list, denominations: list) -> int:
+        """
+        Berekent het totaal van alle change.
+        """
+        total = 0
+        for i in range(len(denominations)):
+            total += change[i] * denominations[i]
+        return round(total)
+    
+    
+    def test_change_total_for_due(due: int, denominations: list) -> bool:
+        """
+        Test of 'due' gelijk is aan het totaal van de berekende 'change' van 'due'.
+        """
+        change = compute_change(due, denominations)
+        total = compute_change_total(change, denominations)
+        return total == due
+    
+    
+    def test_change_total_for_n_random_dues(n: int, denominations: list) -> bool:
+        """
+        Voert 'n' test_change_for_due() tests voor random 'due' waarden.
+        """
+        for i in range(n):
+            due = round(random.random() * 1000)
+            if not test_change_total_for_due(due, denominations):
+                return False
+            return True
+
+    print("All test succeed: ", test_change_total_for_n_random_dues(100000, [50, 20, 10, 5, 2, 1]))
