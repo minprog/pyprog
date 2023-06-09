@@ -1,12 +1,12 @@
 # Cijfers
 
-Gegeven zijn onderstaande twee files, ieder met het cijfers van 10
-studenten in vaste volgorde, voor deeltentamen1 en deeltentamen2. We
-gaan de eindcijfers voor het vak berekenen waarbij deeltentamen1 een
-wegingsfactor van 3 heeft en deeltentamen2 een wegingsfactor van 1
-heeft.
+Gegeven zijn onderstaande twee bestanden (files), ieder met het
+cijfers van 10 studenten in vaste volgorde voor deeltentamen1 en
+deeltentamen2. We gaan de eindcijfers voor het vak berekenen waarbij
+deeltentamen1 een wegingsfactor van 3 heeft en deeltentamen2 een
+wegingsfactor van 1 heeft.
 
-[deeltentamen1.txt](deeltentamen1.txt)
+bestand [deeltentamen1.txt](deeltentamen1.txt):
 
     5.8
     7.3
@@ -19,7 +19,7 @@ heeft.
     8.9
     6.2
     
-[deeltentamen2.txt](deeltentamen2.txt)
+bestand [deeltentamen2.txt](deeltentamen2.txt):
     
     7.8
     8.3
@@ -32,10 +32,9 @@ heeft.
     8.6
     5.1
 
-
 ## Code
 
-Voor dit doel is de code in [multiply_file.py](multiply_file.py) al beschikbaar:
+Voor dit doel is programma [multiply_file.py](multiply_file.py) al beschikbaar:
 
     import sys
 
@@ -59,15 +58,17 @@ Voor dit doel is de code in [multiply_file.py](multiply_file.py) al beschikbaar:
             output_filename=sys.argv[3]
             multiply_file(input_filename,multiplier,output_filename)
 
-Bij het uitvoeren van deze code kunnen command-line-arguments worden
-meegegeven waarmee je informatie aan een programma kan geven anders
-dan met de `input()` functie. Dit voorbeeld laat zien hoe we alle
-waarden in 'deeltentamen1.txt' kunnen inlezen, vermenigvuldingen met
-'100.0', en wegschrijven naar 'voorbeeld.txt':
+Bij het uitvoeren van dit programma kunnen [command line
+arguments](https://www.tutorialspoint.com/python/python_command_line_arguments.htm)
+worden meegegeven waarmee je informatie aan een programma kan geven,
+anders dan met de `input()` functie. Dit voorbeeld laat zien hoe we
+alle waarden in invoerbestand 'deeltentamen1.txt' kunnen inlezen,
+vermenigvuldingen met '100.0', en wegschrijven naar uitvoerbestand
+'voorbeeld.txt':
 
     python multiply_file.py deeltentamen1.txt 100.0 voorbeeld.txt
     
-Als we hierna file 'voorbeeld.txt' openen zien we het resultaat:
+Als we hierna uitvoerbestand 'voorbeeld.txt' openen zien we het resultaat:
 
     580.0
     730.0
@@ -80,23 +81,24 @@ Als we hierna file 'voorbeeld.txt' openen zien we het resultaat:
     890.0
     620.0
 
-
 ## Opdracht
 
-Gebruik het code-voorbeeld in 'multiply_file.py' om zelf programma
+Gebruik het voorbeeld-programma 'multiply_file.py' om zelf programma
 'add_files.py' te schrijven waarmee we cijfers in twee verschillende
-files bij elkaar op kunnen tellen.
+invoerbestanden bij elkaar op kunnen tellen en naar een uitvoerbestand
+kunnen schrijven.
 
 Gebruik vervolgens 'multiply_file.py' en 'add_files.py' om de
 eindcijfers van het vak te berekenen. Houd daarbij rekening met de
-wegingsfactoren. Zorg dat de eindcijfers in bestand 'eindcijfers.txt'
-komen te staan.
+wegingsfactoren. Zorg dat de 10 eindcijfers op volgorde onder elkaar
+in bestand 'eindcijfers.txt' komen te staan.
 
 ## Programma Opdeling
 
-Soms is het handig om niet 1 programma te schrijven wat een probleem
-oplost maar om verschillende programma's te schrijven die ieder een
-apart deelprobleem oplossen en in samenwerking tot de oplossing te
-komen. Files kunnen daarbij goed gebruikt worden om tussenresultaten
-in op te slaan en door te geven aan het volgende programma. Deze
+Soms is het handig om niet 1 programma te schrijven om een probleem op
+te lossen, maar om verschillende programma's te schrijven die ieder
+een apart deelprobleem oplossen en zo in samenwerking tot de
+eindoplossing komen. Bestanden kunnen daarbij goed gebruikt worden om
+tussenresultaten in op te slaan en 'command line argument' om
+tussenresultaten door te geven aan het volgende programma. Deze
 opdracht is daar een eenvoudig voorbeeld van.
