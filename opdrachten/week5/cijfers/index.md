@@ -83,7 +83,7 @@ Als we hierna uitvoerbestand 'voorbeeld.txt' openen zien we het resultaat:
 
 ## Opdracht
 
-Gebruik het voorbeeld-programma 'multiply_file.py' om zelf programma
+Gebruik het voorbeeldprogramma 'multiply_file.py' om zelf programma
 'add_files.py' te schrijven waarmee we cijfers in twee verschillende
 invoerbestanden bij elkaar op kunnen tellen en naar een uitvoerbestand
 kunnen schrijven.
