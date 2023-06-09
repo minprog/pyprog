@@ -239,11 +239,12 @@ statement aan wat zal worden uitgevoerd.
 Na een aantal keer klikken komen we in de
 `compute_denomination_amount()` functie waar de precies kunnen zien
 welke variabelen er zijn en hoe hun waarden veranderen als de
-statements worden uitgevoerd, klik om 'Prev' om terug te stappen.
+verschillende statements worden uitgevoerd. Klik op 'Prev' om terug te
+stappen.
 
 ![PythonTutor_watch](watch.png){: style="width:20rem;"}
 
-PythonTutor kan in het begin wat ingewikkeld lijken, maar is kan erg
+PythonTutor kan in het begin wat ingewikkeld lijken, maar het kan erg
 helpen dus experimenteer er enige tijd mee om er aan te wennen. Het is
 een nuttig stuk gereedschap wat we later nog nodig zullen hebben.
 
