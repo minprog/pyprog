@@ -10,16 +10,16 @@ zelf in latere opdrachten kunt gebruiken. Dit kan veel tijd besparen.
 
 We gaan de technieken toepassen op een programma wat berekent in welke
 denominaties een bedrag kan worden betaald. Een bedrag van
-bijvoorbeeld 46euro kan met biljetten en munten (denominaties) van
-50euro, 20euro, 10 euro, 5euro, 2euro en 1euro worden betaald als:
+bijvoorbeeld 46€ kan met biljetten en munten (denominaties) van
+50€, 20€, 10€, 5€, 2€ en 1€ worden betaald als:
 
     Denomination:   Amount
              20:        2
               5:        1
               1:        1
               
-dus 2 biljetten van 20, 1 biljet van 5 en 1 munt van 1 euro zorgt voor
-een total van 46.
+dus 2 biljetten van 20€, 1 biljet van 5€ en 1 munt van 1€ euro zorgt voor
+een total van 46€.
 
 Het is de bedoeling dat programma
 [compute_change.py](compute_change.py) dit voor elke bedrag kan
@@ -85,7 +85,7 @@ vooral op de filename (`compute_change.py`) en het regelnummer (`line
 voordoet. Soms krijg je meerdere regels met filenames en regelnummers,
 begin dan onderdaan.
 
-**Opdracht1** Los deze Syntax Error op.
+**Opdracht1:** Los deze Syntax Error op.
 
 ## Logic Error
 
@@ -163,7 +163,7 @@ meer details te zien:
 
 Alle doctest slagen maar er zit nog wel een bug in het programma. 
 
-**Opdracht2** Voeg meer doctest toe om te proberen te ontdekken of
+**Opdracht2:** Voeg meer doctest toe om te proberen te ontdekken of
 `compute_denomination_amount()` een bug heeft.
 
 Daarbij is het belangrijk om vooral de randgevallen te testen, dus
@@ -234,7 +234,7 @@ hopelijk een beter idee krijgen van wat de functie doet:
     amount: 1
     amount: 1
 
-**Opdracht3** Voeg de print-statements toe en pas de main aan zodat je
+**Opdracht3:** Voeg de print-statements toe en pas de main aan zodat je
 deze ouput krijgt. Zie al waarom het verkeerde aantal biljetten wordt
 teruggegeven door de functie?
 
@@ -268,7 +268,7 @@ PythonTutor kan in het begin wat ingewikkeld lijken, maar investeer nu
 wat tijd om er bekend mee te reken want dat kan veel tijd besparen bij
 het vinden en verwijderen van bugs.
 
-**Opdracht4** Experimenteer met
+**Opdracht4:** Experimenteer met
 [PythonTutor](https://pythontutor.com/) want is een nuttig stuk
 gereedschap wat we later nog nodig zullen hebben.
 
@@ -284,7 +284,7 @@ kan na `import math` toevoegen met:
 
     amount = math.floor(due / denomination)
 
-**Opdracht5** 
+**Opdracht5:** 
 - Slagen alle doctests nu wel?
 - Hebben we genoeg randgevallen getest zodat we vrij zeker zijn dat er
 geen bugs meer zitten in `compute_denomination_amount()`?
@@ -343,7 +343,7 @@ Helpt PythonTutor om te begrijpen wat er hier mis gaat?
 Welke code-aanpassing kunnen we tenslotte doen zodat het programma wel
 goed werkt voor alle (positieve en hele euro) bedragen?
 
-**Opdracht6** Gebruik bovenstaande technieken om de bug te vinden en
+**Opdracht6:** Gebruik bovenstaande technieken om de bug te vinden en
 te verwijderen.
 
 ## Moeilijk
