@@ -218,7 +218,7 @@ oorzaak van de bug te ontdekken.
 
 ## Prints
 
-Als het goed is heb je met simpele doctests ontdekt dat er een bug zit
+Als het goed is heb je met doctests kunnen ontdekken dat er een bug zit
 in de `compute_denomination_amount()` functie. Zo niet, probeer het
 dan echt eerst zelf voor je verder leest.
 
@@ -232,9 +232,9 @@ Voor een bedrag van 6€ heb ik 0 biljetten van 10€ nodig, maar
 de functie geeft foutief het aantal '1'.
 
 Om beter te begrijpen wat in deze functie gebeurt kunnen we
-print-statements toevoegen voor variabelen en expressies die
-interesant lijken. Voeg bij print-statements ook de naam van de
-variabele toe die je print voor een beter overzicht, dus:
+print-statements toevoegen voor variabelen en expressies. Voeg bij
+print-statements voor een goed overzicht ook de naam van de variabele
+toe die je print, dus:
 
     print("variabele:", variabele)
 
@@ -390,11 +390,12 @@ soms veel tijd/energie/frustratie om te begrijpen wat er in code moet
 gebeuren, wat er mis gaat, en hoe kan worden opgelost. Toch is dit een
 van de belangrijkste programmeervaardigheden. Met oefening wordt je
 hier vanzelf beter in en wordt dit ook makkelijker. Wat helpt is
-precies werken zodat je bugs voorkomt en regelmaltig testen. Test
-steeds met print-statements of je programma nog doet wat je wil na
-maar een klein aantal nieuwe regels code toe te hebben gevoegd. Dan
-kost testen over het algemeen minder tijd dan pas achteraf veel regels
-tegelijk testen (zoals in het bovenstaande programmma).
+precies werken zodat je bugs voorkomt en regelmatig testen. Test
+steeds met print-statements of je programma doet wat je denkt dat het
+doet, na maar een klein aantal nieuwe regels code toe te hebben
+gevoegd. Dan kost testen over het algemeen minder tijd dan pas
+achteraf veel regels tegelijk testen (zoals in het bovenstaande
+programmma).
 
 ## Correctheid
 
@@ -406,12 +407,13 @@ speciaal geval.
 Om toch meer zekerheid te krijgen kunnen we in veel gevallen wel code
 schrijven die automatisch veel test uitvoert. Hieronder voorbeeld-code
 die van een 'change'-lijst het 'due' bedrag terug-berekent. Deze
-waarde zou natuurlijk gelijk moeten zijn aan het originele 'due'. We
-kunnen dit vervolgens testen voor bijvoorbeeld 100000 verschillende
-random gekozen waarden voor 'due'. Als het voor al die waarden goed
-werkt kunnen we toch een hoge mate van vertrouwen krijgen dat de code
-bug-vrij is, maar helemaal zeker weten doen we dat in het algmeen
-niet, zeker niet voor grote complexe programma's.
+waarde zou natuurlijk gelijk moeten zijn aan het originele 'due'
+bedrag van de 'change'-lijst. We kunnen dit vervolgens testen voor
+bijvoorbeeld 100000 verschillende random gekozen waarden voor
+'due'. Als het voor al die waarden goed werkt kunnen we toch een hoge
+mate van vertrouwen krijgen dat de code bug-vrij is, maar helemaal
+zeker weten doen we dat in het algmeen niet, zeker niet voor grote
+complexe programma's.
 
     import random
 
