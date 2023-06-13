@@ -17,6 +17,9 @@ bijvoorbeeld 46euro kan met biljetten en munten (denominaties) van
              20:        2
               5:        1
               1:        1
+              
+dus 2 biljetten van 20, 1 biljet van 5 en 1 munt van 1 euro zorgt voor
+een total van 46.
 
 Het is de bedoeling dat programma
 [compute_change.py](compute_change.py) dit voor elke bedrag kan
@@ -75,13 +78,14 @@ Als we het bovenstaande programma uitvoeren:
     SyntaxError: '[' was never closed
     
 krijgen we een 'SyntaxError' die probeert uit te leggen wat er mis
-is. Soms helpt het om een websearch te doen als je de uitleg niet
-helemaal begrijpt. Let bij een error vooral op de filename
-("compute_change.py") en het regelnummer ("line 37") om snel de plek
-in de code te vinden waar de error zich voordoet. Soms krijg je
-meerdere regels met filenames en regelnummers, begin dan onderdaan.
+is. Soms helpt het om een websearch (`SyntaxError [ was never closed`)
+te doen als je de uitleg niet helemaal begrijpt. Let bij een error
+vooral op de filename (`compute_change.py`) en het regelnummer (`line
+37`) om snel de plek in de code te vinden waar de error zich
+voordoet. Soms krijg je meerdere regels met filenames en regelnummers,
+begin dan onderdaan.
 
-Los deze Syntax Error op.
+**Opdracht1** Los deze Syntax Error op.
 
 ## Logic Error
 
@@ -99,29 +103,30 @@ uitvoeren en er wordt gevraagd om een bedrag, kies daar '46':
                1:       15
 
 Het programma werkt maar het is duidelijke dat de
-denominatie-aantallen niet kloppen, er zit dus een logische fout (bug) in
-het pogramma. Maar deze fout kan overal zitten. Doctests kunnen helpen
-te bepalen welke functie wel en welke functie nog een bug bevatten.
+denominatie-aantallen niet kloppen want het totaal is hoger dan 46, er
+zit dus een logische fout (bug) in het pogramma. Maar deze fout kan
+overal zitten. Doctests kunnen helpen te bepalen welke functies nog
+een bug bevatten.
 
 ## Doctest
 
-De `compute_denomination_amount()` functie:
+We beginnen bij de eenvoudigste functie `compute_denomination_amount()`:
 
     def compute_denomination_amount(due: int, denomination: int) -> int:
         """
         Berekent hoeveel van de 'denomination' we betalen om het 'due' bedrag te betalen.
         """
         
-heeft al 2 doctest:
+deze heeft al 2 doctest:
 
     >>> compute_denomination_amount(1, 10)
     0
     >>> compute_denomination_amount(24, 10)
     2
     
-De eerst controlleert dat we bij het betalen van '1'euro '0'
-biljetten van 10euro gebruiken en de twee dat we voor '24'euro '2'
-biljetten van 10euro gebruiken. We kunnen alle doctest runnen met:
+De eerst controlleert dat we bij het betalen van 1€ 0
+biljetten van 10€ gebruiken en de twee dat we voor 24€ 2
+biljetten van 10€ gebruiken. We kunnen alle doctest runnen met:
 
     $ python -m doctest compute_change.py
     
@@ -156,22 +161,25 @@ meer details te zien:
 
 ## Meer Doctests
 
-Alle doctest slagen maar er zit nog wel een bug in het programma. Voeg
-meer doctest toe om te proberen te ontdekken of
-`compute_denomination_amount()` een bug heeft. Daarbij is het
-belangrijk om vooral de randgevallen te testen, dus waarden die aan
-beide kanten van een waardeovergang liggen, bijvoorbeeld:
+Alle doctest slagen maar er zit nog wel een bug in het programma. 
 
-Voor 999euro kan ik 99 biljetten van 10euro gebruiken, maar bij 1euro
-meer vind er een overgang plaats, voor 1000euro kan ik 100 bijetten
-van 10euro gebruiken.
+**Opdracht2** Voeg meer doctest toe om te proberen te ontdekken of
+`compute_denomination_amount()` een bug heeft.
+
+Daarbij is het belangrijk om vooral de randgevallen te testen, dus
+waarden die aan beide kanten van een waardeovergang liggen,
+bijvoorbeeld:
+
+Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€
+meer vind er een overgang plaats, voor 1000€ kan ik 100 bijetten
+van 10€ gebruiken.
 
 Als je met een doctest een bug ontdekt, is het nuttig om de test te
 proberen te versimpelen op zo'n manier dat de bug behouden blijft. Het
-voorbeeld van 999euro is niet erg simpel omdat het zo'n groot begrag
+voorbeeld van 999€ is niet erg simpel omdat het zo'n groot begrag
 is, probeer een lagere waarde te vinden met behoud van de bug. Bij
-simpelere tests is het namelijke makkelijker om de oorzaak te
-ontdekken.
+simpelere tests is het namelijke makkelijker om bij een fout de
+oorzaak te ontdekken.
 
 ## Prints
 
@@ -185,12 +193,12 @@ van de bug:
     >>> compute_denomination_amount(6, 10)
     0
 
-Voor een bedrag van 6euro heb ik '0' biljetten van 10euro nodig, maar
+Voor een bedrag van 6€ heb ik 0 biljetten van 10€ nodig, maar
 de functie geeft foutief het aantal '1'.
 
 Om beter te begrijpen wat in deze functie gebeurt kunnen we
 print-statements toevoegen voor variabelen en expressies die
-interesant lijken. Voeg bij print-statements voor een goed overzicht
+interesant lijken. Voeg bij print-statements voor een beter overzicht
 ook de naam van de variabele toe die je print, dus:
 
     print("variabele:", variabele)
@@ -209,44 +217,60 @@ Voor `compute_denomination_amount()` zou dat er zo uit kunnen zien:
         print("amount:", amount)
         return amount
 
-en als we in main de functie zelf aanroepen met de testwaarden:
+in de main willen we nu alleen deze functie aanroepen daarom commenten
+we de andere code tijdelijk uit:
 
-    compute_denomination_amount(6, 10)
+    if __name__ == '__main__':
+        compute_denomination_amount(6, 10)
+        #denominations = [50, 20, 10, 5, 2, 1]
+        #due = int(input("Welk bedrag moet je betalen? "))
+        #change = compute_change(due, denominations)
+        #print_change(change, denominations)
     
-resulteert dat in deze prints:
+het runnen van het programma resulteert dan in deze prints waardoor we
+hopelijk een beter idee krijgen van wat de functie doet:
     
     due / denomination: 0.6
     amount: 1
     amount: 1
 
+**Opdracht3** Voeg de print-statements toe en pas de main aan zodat je
+deze ouput krijgt. Zie al waarom het verkeerde aantal biljetten wordt
+teruggegeven door de functie?
+
 ## PythonTutor
 
-Soms is het duidelijker om stapsgewijs door de code te kunnen lopen
-terwijl deze wordt uitgevoerd om dingen beter te begrijpen dan met
-print-statements alleen. Dat kan bijvoorbeeld met
-[PythonTutor](https://pythontutor.com/). Klik daar op 'Python',
-kopieer het hele programma in het invoerveld, en druk op 'Visualize
-Execution':
+Soms begrijp je code beter door stapsgewijs door de code te lopen
+terwijl deze wordt uitgevoerd dan door alleen print-statements
+te toevoegen. Dat kan bijvoorbeeld met
+[PythonTutor](https://pythontutor.com/). Klik op deze webpagina op
+'Python', kopieer het hele programma in het invoerveld, en druk op
+'Visualize Execution':
 
 ![PythonTutor_visualize](visualize.png){: style="width:20rem;"}
 
-Vervolgens kunnen zien wat er gebeurt als het programma wordt
-uitgevoerd, klik enkele keren op 'Next'. De rode pijl geeft het volgende
-statement aan wat zal worden uitgevoerd.
+Elke keer als we op 'Next' drukken drukken, wordt de volgende regel
+(waar de rode pijl naar wijst) van het programma uitgevoerd.
 
 ![PythonTutor_next](next.png){: style="width:20rem;"}
 
-Na een aantal keer klikken komen we in de
-`compute_denomination_amount()` functie waar de precies kunnen zien
-welke variabelen er zijn en hoe hun waarden veranderen als de
-verschillende statements worden uitgevoerd. Klik op 'Prev' om terug te
+Na een aantal keer 'Next' klikken komen we in de
+`compute_denomination_amount()` functie waar we precies kunnen zien
+welke variabelen er zijn en hoe hun waarden veranderen bij het
+uitvoeren van de regels. Dit geeft meer inzicht dan alleen
+print-statements en kan helpen om te begrijpen waarom de functie een
+verkeerde waarde terug geeft. Klik ook op 'Prev' om een regel terug te
 stappen.
 
 ![PythonTutor_watch](watch.png){: style="width:20rem;"}
 
-PythonTutor kan in het begin wat ingewikkeld lijken, maar het kan erg
-helpen dus experimenteer er enige tijd mee om er aan te wennen. Het is
-een nuttig stuk gereedschap wat we later nog nodig zullen hebben.
+PythonTutor kan in het begin wat ingewikkeld lijken, maar investeer nu
+wat tijd om er bekend mee te reken want dat kan veel tijd besparen bij
+het vinden en verwijderen van bugs.
+
+**Opdracht4** Experimenteer met
+[PythonTutor](https://pythontutor.com/) want is een nuttig stuk
+gereedschap wat we later nog nodig zullen hebben.
 
 ## Oplossing
 
@@ -260,44 +284,67 @@ kan na `import math` toevoegen met:
 
     amount = math.floor(due / denomination)
 
-Slagen alle doctests nu wel?
-
-Hebben we genoeg randgevallen getest zodat we vrij zeker zijn dat er
+**Opdracht5** 
+- Slagen alle doctests nu wel?
+- Hebben we genoeg randgevallen getest zodat we vrij zeker zijn dat er
 geen bugs meer zitten in `compute_denomination_amount()`?
-
-Verwijder dan de print-statements uit deze functie.
+- Zo ja, verwijder dan de print-statements uit deze functie en
+  un-commenten de code in main.
 
 ## Nog een bug
 
-Er zit ook een bug in de `compute_change()` functie. Gebruik dezelfde
-technieken als hierboven om daar ook de bug te vinden en te verwijderen.
+Er zit ook een bug in de `compute_change()` functie. 
 
 De enige doctest die er nu al staat, slaagt: 
 
     >>> compute_change(1, [50, 20, 10, 5, 2, 1])
     [0, 0, 0, 0, 0, 1]
 
-we kunnen namelijk '1'euro betalen met:
+we kunnen namelijk 1€ betalen met:
 
-- 0 biljetten van 50 euro
-- 0 biljetten van 20 euro
-- 0 biljetten van 10 euro
-- 0 biljetten van  5 euro
-- 0 munten van     2 euro
-- 1 munten van     1 euro
+- 0 biljetten van 50€
+- 0 biljetten van 20€
+- 0 biljetten van 10€
+- 0 biljetten van  5€
+- 0 munten van     2€
+- 1 munten van     1€
 
 Welke simpele doctests kunnen we toevoegen om aan te tonen dat deze
 functie een bug heeft?
 
-Welke print-statement is nuttig om beter te begrijpen wat er gebeurt
-in deze functie? misschien zoiets als?
+Welke print-statements zijn nuttig om beter te begrijpen wat er gebeurt
+in deze functie? 
 
-    print("due:", due, "denominations:", denominations, "change:", change)
-    
-Helpt PythonTutor om te begrijpen wat er mis gaat?
+Deze print-statement in de for-loop hielp mij om een beter begrip van
+de functie te krijgen:
+
+    for denomination in denominations:
+        print("due:", due, "denominations:", denominations, "change:", change)
+        
+Wat voor 46€ deze output geeft, maar voeg zelf vooral print-statements
+die helpen voor jouw eigen begrip:
+        
+    Welk bedrag moet je betalen? 46
+    due: 46 denominations: [50, 20, 10, 5, 2, 1] change: []
+    due: 46 denominations: [50, 20, 10, 5, 2, 1] change: [0]
+    due: 44 denominations: [50, 20, 10, 5, 2, 1] change: [0, 2]
+    due: 40 denominations: [50, 20, 10, 5, 2, 1] change: [0, 2, 4]
+    due: 32 denominations: [50, 20, 10, 5, 2, 1] change: [0, 2, 4, 8]
+    due: 16 denominations: [50, 20, 10, 5, 2, 1] change: [0, 2, 4, 8, 16]
+    Denomination:   Amount
+              20:        2
+              10:        4
+               5:        8
+               2:       16
+               1:       16
+
+Helpt PythonTutor om te begrijpen wat er hier mis gaat?
 
 Welke code-aanpassing kunnen we tenslotte doen zodat het programma wel
 goed werkt voor alle (positieve en hele euro) bedragen?
+
+**Opdracht6** Gebruik bovenstaande technieken om de bug te vinden en
+te verwijderen.
 
 ## Moeilijk
 
@@ -308,8 +355,8 @@ programmeervaardigheden. Met oefening wordt je hier vanzelf beter in
 en wordt dit ook makkelijker. Wat helpt is precies werken en
 regelmaltig testen en debuggen. Dus test steeds na maar een paar
 nieuwe regels code geschreven te hebben. Dat kost over het algemeen
-minder tijd dan pas achteraf veel regels tegelijk testen zoals in het
-bovenstaande programmma.
+minder tijd dan pas achteraf veel regels tegelijk testen (zoals in het
+bovenstaande programmma).
 
 ## Correctheid
 
