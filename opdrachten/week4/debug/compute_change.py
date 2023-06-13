@@ -11,7 +11,7 @@ def compute_denomination_amount(due: int, denomination: int) -> int:
     amount = max(amount, 0)            # amount may not be negative
     return amount
 
-def compute_change(due: int, denominations: list) -> list:
+def compute_change(due: int, denominations: list[int]) -> list[int]:
     """
     Berekent hoeveel van de verschillende 'denominations' we betalen om het 'due' bedrag te betalen.
     >>> compute_change(1, [50, 20, 10, 5, 2, 1])
@@ -24,7 +24,7 @@ def compute_change(due: int, denominations: list) -> list:
         due -= amount                                           # update the 'due' value
     return change
 
-def print_change(change: list, denominations: list):
+def print_change(change: list[int], denominations: list[int]) -> None:
     """
     Print elke denomination in 'change'
     """
