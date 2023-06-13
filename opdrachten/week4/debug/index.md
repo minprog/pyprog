@@ -265,7 +265,7 @@ stappen.
 ![PythonTutor_watch](watch.png){: style="width:20rem;"}
 
 PythonTutor kan in het begin wat ingewikkeld lijken, maar investeer nu
-wat tijd om er bekend mee te reken want dat kan veel tijd besparen bij
+wat tijd om er bekend mee te raken want dat kan veel tijd besparen bij
 het vinden en verwijderen van bugs.
 
 **Opdracht4:** Experimenteer met
@@ -321,7 +321,7 @@ de functie te krijgen:
     for denomination in denominations:
         print("due:", due, "denominations:", denominations, "change:", change)
         
-Wat voor 46€ deze output geeft, maar voeg zelf vooral print-statements
+Wat voor 46€ deze output geeft, maar voeg zelf vooral print-statements toe
 die helpen voor jouw eigen begrip:
         
     Welk bedrag moet je betalen? 46
@@ -353,8 +353,8 @@ soms veel tijd/energie/frustratie om te begrijpen wat er in code moet
 gebeuren en wat er mis gaat. Toch is dit een van de belangrijkste
 programmeervaardigheden. Met oefening wordt je hier vanzelf beter in
 en wordt dit ook makkelijker. Wat helpt is precies werken en
-regelmaltig testen en debuggen. Dus test steeds na maar een paar
-nieuwe regels code geschreven te hebben. Dat kost over het algemeen
+regelmaltig testen en debuggen. Test steeds na maar een paar nieuwe
+regels code geschreven te hebben. Dan kost testen over het algemeen
 minder tijd dan pas achteraf veel regels tegelijk testen (zoals in het
 bovenstaande programmma).
 
@@ -368,13 +368,12 @@ speciaal geval.
 Om meer zekerheid te krijgen kunnen we in veel gevallen wel code
 schrijven die automatisch veel test uitvoert. Hieronder voorbeeld-code
 die van een 'change'-lijst het 'due' bedrag terug-berekent. Deze
-waarde zou natuurlijk gelijk moeten zijn aan het originele 'due'
-bedrag van de 'change'-lijst. We kunnen dit vervolgens testen voor
-bijvoorbeeld 100000 verschillende random gekozen waarden voor
-'due'. Als het voor al die waarden goed werkt kunnen we toch een hoge
-mate van vertrouwen krijgen dat de code correct is, maar helemaal
-zeker weten doen we dat in het algmeen niet, zeker niet voor grote
-complexe programma's.
+waarde zou natuurlijk gelijk moeten zijn aan het originele 'due'. We
+kunnen dit vervolgens testen voor bijvoorbeeld 100000 verschillende
+random gekozen waarden voor 'due'. Als het voor al die waarden goed
+werkt kunnen we toch een hoge mate van vertrouwen krijgen dat de code
+bug-vrij is, maar helemaal zeker weten doen we dat in het algmeen
+niet, zeker niet voor grote complexe programma's.
 
     import random
 
@@ -408,3 +407,28 @@ complexe programma's.
             return True
 
     print("All test succeed: ", test_change_total_for_n_random_dues(100000, [50, 20, 10, 5, 2, 1]))
+
+**Opdracht7:** Voeg toe en run deze test code om meer vertrouwen te
+krijgen dat alle bugs zijn verwijderd.
+
+## Plan van Aanpak
+
+    while code_problems:
+        if error:
+            open 'file' and go to 'line number', and fix the error (after websearch on error message)
+        else: # we think we might have a bug
+            if all_doctests_pass:
+                add more doctests to functions that might have a bug
+            else: # we know we have a bug
+                  add print-statements and/or use pythontutor to understand what goes wrong
+                  then fix the bug
+    optionally add more test code to be more sure no bugs remain
+
+## TODO
+
+pip install checkpy
+checkpy -download https://github.com/minprog/python
+checkpy <program.py>
+
+pip install mypy
+mypy --strict <program.py>
