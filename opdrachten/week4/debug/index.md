@@ -25,7 +25,7 @@ Het is de bedoeling dat programma
 [compute_change.py](compute_change.py) dit voor elke bedrag kan
 uitrekenen:
 
-    def compute_denomination_amount(due: int, denomination: int) -> int:
+    def compute_denomination_amount(due, denomination: int) -> int:
         """
         Berekent hoeveel van de 'denomination' we betalen om het 'due' bedrag te betalen.
         >>> compute_denomination_amount(1, 10)
@@ -103,30 +103,65 @@ uitvoeren en er wordt gevraagd om een bedrag, kies daar '46':
                1:       15
 
 Het programma werkt maar het is duidelijke dat de
-denominatie-aantallen niet kloppen want het totaal is hoger dan 46, er
-zit dus een logische fout (bug) in het pogramma. Maar deze fout kan
-overal zitten. Doctests kunnen helpen te bepalen welke functies nog
-een bug bevatten.
+denominatie-aantallen niet kloppen want het totaal voor de
+verschillende denominatie-anntallen is hoger dan 46, er zit dus een
+logische fout in het pogramma, een **bug**. Maar deze bug kan overal
+zitten, hoe vinden we nu waar de bug zit?
+
+## Type Checking
+
+'Type checks' kunnen helpen te bepalen waar er nog een bug in het
+programma zit door te controleren op type fouten. We kunnen
+bijvoorbeeld functie:
+
+    def double_the_value(value: int) -> int:
+        return value * 2
+
+zonder fouten aanroepen met een string:
+
+    print( double_the_value("Hello World") )
+
+met als resultaat:
+
+    Hello WorldHello World
+    
+Maar in de functie staat met `: int` aangegeven dat deze eigenlijk
+alleen voor integers bedoeld is. Deze functie per ongeluk aanroepen met
+een string zou daarom wel eens tot een bug kunnen leiden. Met 'type
+checks' kunnen we dit soort type fouten automatisch vinden. Installeer
+daarvoor eerst 'mypy':
+
+    pip install mypy
+    
+en run daarmee 'type checks' op een programma met:
+
+    mypy --strict compute_change.py
+
+Dit vindt automatisch deze type fouten en geeft ook het
+regelnummer.
+
+    compute_change.py:2: error: Function is missing a type annotation for one or more arguments  [no-untyped-def]
+    compute_change.py:12: error: Returning Any from function declared to return "int"  [no-any-return]
+    Found 2 errors in 1 file (checked 1 source file)
+
+**Opdracht2:** Los deze type fouten op.
 
 ## Doctest
 
-We beginnen bij de eenvoudigste functie `compute_denomination_amount()`:
-
-    def compute_denomination_amount(due: int, denomination: int) -> int:
-        """
-        Berekent hoeveel van de 'denomination' we betalen om het 'due' bedrag te betalen.
-        """
-        
-deze heeft al 2 doctest:
+Ook doctests kunnen helpen te bepalen waar er nog een bug in het
+programma zit door te controleren of de functie doet wat in de
+voorbeelden staat. Zo heeft de functie `compute_denomination_amount()`
+al 2 voorbeelden in de vorm van doctest:
 
     >>> compute_denomination_amount(1, 10)
     0
     >>> compute_denomination_amount(24, 10)
     2
     
-De eerst controlleert dat we bij het betalen van 1€ 0
-biljetten van 10€ gebruiken en de twee dat we voor 24€ 2
-biljetten van 10€ gebruiken. We kunnen alle doctest runnen met:
+Het eerste voorbeeld geeft aan dat we voor een gedrag van 1€ 0
+biljetten van 10€ gebruiken en het tweede dat we voor een bedrag van
+24€ 2 biljetten van 10€ gebruiken. We kunnen alle doctest in het
+programma runnen met:
 
     $ python -m doctest compute_change.py
     
@@ -163,29 +198,29 @@ meer details te zien:
 
 Alle doctest slagen maar er zit nog wel een bug in het programma. 
 
-**Opdracht2:** Voeg meer doctest toe om te proberen te ontdekken of
+**Opdracht3:** Voeg meer doctest toe om te proberen te ontdekken of
 `compute_denomination_amount()` een bug heeft.
 
 Daarbij is het belangrijk om vooral de randgevallen te testen, dus
 waarden die aan beide kanten van een waardeovergang liggen,
 bijvoorbeeld:
 
-Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€
-meer vind er een overgang plaats, voor 1000€ kan ik 100 bijetten
-van 10€ gebruiken.
+Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€ meer vind
+er een overgang plaats, voor 1000€ kan ik namelijk 100 bijetten van
+10€ gebruiken.
 
 Als je met een doctest een bug ontdekt, is het nuttig om de test te
 proberen te versimpelen op zo'n manier dat de bug behouden blijft. Het
 voorbeeld van 999€ is niet erg simpel omdat het zo'n groot begrag
 is, probeer een lagere waarde te vinden met behoud van de bug. Bij
-simpelere tests is het namelijke makkelijker om bij een fout de
-oorzaak te ontdekken.
+simpelere tests is het namelijke makkelijker om de
+oorzaak van de bug te ontdekken.
 
 ## Prints
 
-Als het goed is heb je met doctests ontdekt dat er een bug zit in de
-`compute_denomination_amount()` functie. Zo niet, probeer het dan echt
-eerst zelf voor je verder leest.
+Als het goed is heb je met simpele doctests ontdekt dat er een bug zit
+in de `compute_denomination_amount()` functie. Zo niet, probeer het
+dan echt eerst zelf voor je verder leest.
 
 Dit is de meeste simpele doctest die ik kon vinden met behoud
 van de bug:
@@ -198,8 +233,8 @@ de functie geeft foutief het aantal '1'.
 
 Om beter te begrijpen wat in deze functie gebeurt kunnen we
 print-statements toevoegen voor variabelen en expressies die
-interesant lijken. Voeg bij print-statements voor een beter overzicht
-ook de naam van de variabele toe die je print, dus:
+interesant lijken. Voeg bij print-statements ook de naam van de
+variabele toe die je print voor een beter overzicht, dus:
 
     print("variabele:", variabele)
 
@@ -217,7 +252,8 @@ Voor `compute_denomination_amount()` zou dat er zo uit kunnen zien:
         print("amount:", amount)
         return amount
 
-in de main willen we nu alleen deze functie aanroepen daarom commenten
+in de main willen we nu de `compute_denomination_amount()` functie
+aanroepen en ons concentreren op alleen deze functie, daarom commenten
 we de andere code tijdelijk uit:
 
     if __name__ == '__main__':
@@ -228,15 +264,16 @@ we de andere code tijdelijk uit:
         #print_change(change, denominations)
     
 het runnen van het programma resulteert dan in deze prints waardoor we
-hopelijk een beter idee krijgen van wat de functie doet:
+hopelijk een beter idee krijgen van wat de functie doet, wat er fout
+gaat, en hoe we dat kunnen verbeteren:
     
     due / denomination: 0.6
     amount: 1
     amount: 1
 
-**Opdracht3:** Voeg de print-statements toe en pas de main aan zodat je
-deze ouput krijgt. Zie al waarom het verkeerde aantal biljetten wordt
-teruggegeven door de functie?
+**Opdracht4:** Voeg de print-statements toe en pas de main aan zodat
+je deze ouput krijgt. Zie je al waarom het verkeerde aantal biljetten
+wordt teruggegeven door de functie?
 
 ## PythonTutor
 
@@ -257,10 +294,10 @@ Elke keer als we op 'Next' drukken drukken, wordt de volgende regel
 Na een aantal keer 'Next' klikken komen we in de
 `compute_denomination_amount()` functie waar we precies kunnen zien
 welke variabelen er zijn en hoe hun waarden veranderen bij het
-uitvoeren van de regels. Dit geeft meer inzicht dan alleen
-print-statements en kan helpen om te begrijpen waarom de functie een
-verkeerde waarde terug geeft. Klik ook op 'Prev' om een regel terug te
-stappen.
+uitvoeren van de regels. Dit geeft meer details dan alleen
+print-statements en kan helpen om beter te begrijpen waarom de functie
+een verkeerde waarde terug geeft. Klik ook op 'Prev' om een regel
+terug te stappen.
 
 ![PythonTutor_watch](watch.png){: style="width:20rem;"}
 
@@ -268,14 +305,14 @@ PythonTutor kan in het begin wat ingewikkeld lijken, maar investeer nu
 wat tijd om er bekend mee te raken want dat kan veel tijd besparen bij
 het vinden en verwijderen van bugs.
 
-**Opdracht4:** Experimenteer met
+**Opdracht5:** Experimenteer met
 [PythonTutor](https://pythontutor.com/) want is een nuttig stuk
 gereedschap wat we later nog nodig zullen hebben.
 
 ## Oplossing
 
 Heb je kunnen ontdekken hoe we de bug kunnen oplossen? zo niet,
-probeer het dan echt eerst zelf voor je verder leest.
+probeer het dan echt eerst zelf te ontdekken voor je verder leest.
 
 Na enig denkwerk zouden we met alle informatie tot de conclusie moeten
 kunnen komen dat 0.6 naar beneden moet worden afgerond voor het juiste
@@ -284,18 +321,17 @@ kan na `import math` toevoegen met:
 
     amount = math.floor(due / denomination)
 
-**Opdracht5:** 
-- Slagen alle doctests nu wel?
+**Opdracht6:** 
+- Slagen alle doctests na deze aanpassing nu wel?
 - Hebben we genoeg randgevallen getest zodat we vrij zeker zijn dat er
 geen bugs meer zitten in `compute_denomination_amount()`?
 - Zo ja, verwijder dan de print-statements uit deze functie en
-  un-commenten de code in main.
+  un-comment de code in main.
 
 ## Nog een bug
 
-Er zit ook een bug in de `compute_change()` functie. 
-
-De enige doctest die er nu al staat, slaagt: 
+Er zit ook een bug in de `compute_change()` functie. De enige doctest
+die er nu al staat, slaagt wel:
 
     >>> compute_change(1, [50, 20, 10, 5, 2, 1])
     [0, 0, 0, 0, 0, 1]
@@ -315,8 +351,8 @@ functie een bug heeft?
 Welke print-statements zijn nuttig om beter te begrijpen wat er gebeurt
 in deze functie? 
 
-Deze print-statement in de for-loop hielp mij om een beter begrip van
-de functie te krijgen:
+Deze print-statement in de for-loop hielp mij bijvoorbeeld om een
+beter begrip van de functie te krijgen:
 
     for denomination in denominations:
         print("due:", due, "denominations:", denominations, "change:", change)
@@ -340,23 +376,25 @@ die helpen voor jouw eigen begrip:
 
 Helpt PythonTutor om te begrijpen wat er hier mis gaat?
 
-Welke code-aanpassing kunnen we tenslotte doen zodat het programma wel
-goed werkt voor alle (positieve en hele euro) bedragen?
+Welke code-aanpassing kunnen we tenslotte doen om de bug te
+verwijderen zodat het programma wel goed werkt voor alle (positieve en
+hele euro) bedragen?
 
-**Opdracht6:** Gebruik bovenstaande technieken om de bug te vinden en
+**Opdracht7:** Gebruik bovenstaande technieken om de bug te vinden en
 te verwijderen.
 
 ## Moeilijk
 
 Het kan best moeilijk zijn om bugs te vinden en op te lossen. Het kost
 soms veel tijd/energie/frustratie om te begrijpen wat er in code moet
-gebeuren en wat er mis gaat. Toch is dit een van de belangrijkste
-programmeervaardigheden. Met oefening wordt je hier vanzelf beter in
-en wordt dit ook makkelijker. Wat helpt is precies werken en
-regelmaltig testen en debuggen. Test steeds na maar een paar nieuwe
-regels code geschreven te hebben. Dan kost testen over het algemeen
-minder tijd dan pas achteraf veel regels tegelijk testen (zoals in het
-bovenstaande programmma).
+gebeuren, wat er mis gaat, en hoe kan worden opgelost. Toch is dit een
+van de belangrijkste programmeervaardigheden. Met oefening wordt je
+hier vanzelf beter in en wordt dit ook makkelijker. Wat helpt is
+precies werken zodat je bugs voorkomt en regelmaltig testen. Test
+steeds met print-statements of je programma nog doet wat je wil na
+maar een klein aantal nieuwe regels code toe te hebben gevoegd. Dan
+kost testen over het algemeen minder tijd dan pas achteraf veel regels
+tegelijk testen (zoals in het bovenstaande programmma).
 
 ## Correctheid
 
@@ -365,7 +403,7 @@ maar we kunnen niet zeker weten dat een programma helemaal bug vrij
 is. Misschien zijn we namelijke een belangrijke test vergeten voor een
 speciaal geval.
 
-Om meer zekerheid te krijgen kunnen we in veel gevallen wel code
+Om toch meer zekerheid te krijgen kunnen we in veel gevallen wel code
 schrijven die automatisch veel test uitvoert. Hieronder voorbeeld-code
 die van een 'change'-lijst het 'due' bedrag terug-berekent. Deze
 waarde zou natuurlijk gelijk moeten zijn aan het originele 'due'. We
@@ -408,8 +446,32 @@ niet, zeker niet voor grote complexe programma's.
 
     print("All test succeed: ", test_change_total_for_n_random_dues(100000, [50, 20, 10, 5, 2, 1]))
 
-**Opdracht7:** Voeg toe en run deze test code om meer vertrouwen te
+**Opdracht8:** Voeg toe en run deze test code om meer vertrouwen te
 krijgen dat alle bugs zijn verwijderd.
+
+## Checkpy
+
+In dit vak hoef je niet zelf alle test code te schrijven om te
+controleren of je programma bug-vrij is. Bij het inleveren wordt je
+code bij de meeste opdrachten automatisch getest met `checkpy`. Je
+kunt deze tests ook zelf uitvoeren na installeren en configureren
+van checkpy met:
+
+    pip install checkpy
+    checkpy -download https://github.com/minprog/python
+
+Om bijvoorbeeld de tests uit te voeren op de het `cafeine.py` programma van de
+eerste opdracht:
+
+    checkpy cafeine.py
+    
+Bij deze tests worden meestal ook de 'type checks' en doctests
+uitgevoerd, maar het is duidelijker om die van te voeren zelf een voor
+een uit te voeren omdat je dan meer feedback krijgt, dus:
+
+    mypy --strict cafeine.py
+    python -m doctest cafeine.py -v
+    checkpy cafeine.py
 
 ## Plan van Aanpak
 
@@ -417,18 +479,11 @@ krijgen dat alle bugs zijn verwijderd.
         if error:
             open 'file' and go to 'line number', and fix the error (after websearch on error message)
         else: # we think we might have a bug
-            if all_doctests_pass:
+            if some_type_checks_fail:
+                fix type errors
+            elif some_doctests_fail:
+                add print-statements and/or use pythontutor to understand what goes wrong
+                then fix the bug
+            else:
                 add more doctests to functions that might have a bug
-            else: # we know we have a bug
-                  add print-statements and/or use pythontutor to understand what goes wrong
-                  then fix the bug
     optionally add more test code to be more sure no bugs remain
-
-## TODO
-
-pip install checkpy
-checkpy -download https://github.com/minprog/python
-checkpy <program.py>
-
-pip install mypy
-mypy --strict <program.py>

@@ -1,5 +1,5 @@
 
-def compute_denomination_amount(due: int, denomination: int) -> int:
+def compute_denomination_amount(due, denomination: int) -> int:
     """
     Berekent hoeveel van de 'denomination' we betalen om het 'due' bedrag te betalen.
     >>> compute_denomination_amount(1, 10)
