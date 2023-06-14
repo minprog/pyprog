@@ -100,7 +100,8 @@ Bij het printen op regel 4 zien we dan ook dat variable `a` en
 ## Kopieeren
 
 Als we willen dat `a` en `b` wel ieder hun eigen waarde hebben dan
-moeten we expliciet een kopie maken met functie `copy.copy()`.
+moeten we expliciet een kopie maken met functie `copy.copy()` vooraf
+aan de aanpassing van `a`.
 
     import copy
 
@@ -115,7 +116,7 @@ moeten we expliciet een kopie maken met functie `copy.copy()`.
 
 Een rede waarom er geen kopie van een 'mutable' type wordt gemaakt
 vooraf aan een aanpassing is om te voorkomen dat bijvoorbeeld een
-grote lijst bij elke kleine aanpassing eerst helemaal gekopieerd moet
+grote lijst bij elke kleine aanpassing steeds helemaal gekopieerd moet
 worden, want dat zou een programma heel traag maken. De 'immutable'
 types zijn meestal klein waardoor het kopieeren wel snel kan.
 
@@ -165,7 +166,7 @@ PythonTutor. Bij 'immutable' types is dat niet nodig, omdat toch
 altijd eerst een kopie wordt gemaakt kan een aanpassing geen ongewenst
 effect hebben op andere variabelen.
 
-Het is goed om de 'immutable' uit je hoofd te leren, alle andere
+Het is goed om de 'immutable' types uit je hoofd te leren, alle andere
 types zijn dan 'mutable'.
 
 immutable types: `bool`, `int`, `float`, `str`, `tuple`, enkele andere types
@@ -190,8 +191,8 @@ Na regel 3 wordt de geneste lijst `a` aangemaakt:
 
 ![](mm_deepcopy2.png){: style="width:20rem;"}
 
-Op regel 4 wordt `b` een verwijzing naar `a`, ze delen dus dezelfde
-waarde:
+Op regel 4 wordt `b` een verwijzing naar `a`, ze delen dus alle
+waarden:
 
 ![](mm_deepcopy3.png){: style="width:20rem;"}
 
@@ -199,12 +200,14 @@ Op regel 5 wordt `c` een 'shallow copy' van `a`. Bij een 'shallow
 copy' wordt alleen de eerste lijst gekopieerd. De onderliggende
 lijsten zijn wel nog steeds gedeeld. Het statement `c = a.copy()`
 geeft precies hetzelfde resultaat voor sommige types (`list`, `dict`),
-maar de `copy.copy()` functie is voor meer types te gebruiken.
+maar de `copy.copy()` functie is voor meer verschillende types te
+gebruiken.
 
 ![](mm_deepcopy4.png){: style="width:20rem;"}
 
-Op regel 6 wordt `d` een 'deep copy' van `a`. Bij een 'deep
-copy' wordt de lijst met alle onderliggende waarden gekopieerd.
+Op regel 6 wordt `d` een 'deep copy' van `a`. Bij een 'deep copy'
+wordt de lijst met alle onderliggende waarden gekopieerd zodat er geen
+waarden meer gedeeld worden.
 
 ![](mm_deepcopy5.png){: style="width:20rem;"}
 
