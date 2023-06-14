@@ -387,7 +387,7 @@ te verwijderen.
 
 Het kan best moeilijk zijn om bugs te vinden en op te lossen. Het kost
 soms veel tijd/energie/frustratie om te begrijpen wat er in code moet
-gebeuren, wat er mis gaat, en hoe kan worden opgelost. Toch is dit een
+gebeuren, wat er mis gaat, en hoe dit kan worden opgelost. Toch is dit een
 van de belangrijkste programmeervaardigheden. Met oefening wordt je
 hier vanzelf beter in en wordt dit ook makkelijker. Wat helpt is
 precies werken zodat je bugs voorkomt en regelmatig testen. Test
@@ -468,8 +468,8 @@ eerste opdracht:
     checkpy cafeine.py
     
 Bij deze tests worden meestal ook de 'type checks' en doctests
-uitgevoerd, maar het is duidelijker om die van te voeren zelf een voor
-een uit te voeren omdat je dan meer feedback krijgt, dus:
+uitgevoerd, maar het is duidelijker om die van te voeren zelf uit te
+voeren omdat je dan meer feedback krijgt, dus:
 
     mypy --strict cafeine.py
     python -m doctest cafeine.py -v
@@ -477,15 +477,8 @@ een uit te voeren omdat je dan meer feedback krijgt, dus:
 
 ## Plan van Aanpak
 
-    while code_problems:
-        if error:
-            open 'file' and go to 'line number', and fix the error (after websearch on error message)
-        else: # we think we might have a bug
-            if some_type_checks_fail:
-                fix type errors
-            elif some_doctests_fail:
-                add print-statements and/or use pythontutor to understand what goes wrong
-                then fix the bug
-            else:
-                add more doctests to functions that might have a bug
-    optionally add more test code to be more sure no bugs remain
+Je wil voor jezelf een bepaalde test- en debugstrategie
+ontwikkelen. Iedereen doet dit misschien net iets anders maar denk
+bijvoorbeeld aan deze strategie:
+
+![PythonTutor_next](debug.png){: style="width:20rem;"}
