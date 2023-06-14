@@ -73,9 +73,9 @@ anders.
     a = [1, 2, 3]
     b = a
     a += [100]
-    print(f"a: '{a}' b: '{b}'")
-
-Na uitvoeren van regel 1 verwijst variable `a` naar een lijst
+    print("a:", a, "b:", b)
+    
+Na uitvoeren van regel 1 verwijst variable `a` naar de lijst
 `[1, 2, 3]`.
 
 ![](mm_list2.png){: style="width:20rem;"}
@@ -108,7 +108,7 @@ aan de aanpassing van `a`.
     a = [1, 2, 3]
     b = copy.copy(a)
     a += [100]
-    print(f"a: '{a}' b: '{b}'")
+    print("a:", a, "b:", b)
 
 ![](mm_list_copy5.png){: style="width:20rem;"}
 
