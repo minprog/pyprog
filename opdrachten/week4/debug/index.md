@@ -468,7 +468,7 @@ eerste opdracht:
     checkpy cafeine.py
     
 Bij deze tests worden meestal ook de 'type checks' en doctests
-uitgevoerd, maar het is duidelijker om die van te voeren zelf uit te
+uitgevoerd, maar het is duidelijker om die van te voren zelf uit te
 voeren omdat je dan meer feedback krijgt, dus:
 
     mypy --strict cafeine.py
