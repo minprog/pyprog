@@ -40,7 +40,9 @@ Object-Oriented Programming definiëren we verschillende types die
 overeenkomen met de concepten in het probleem-domein en geven die
 nuttige *instance variables* en *methods*. De nuttige types die we in
 deze opdracht voor het knapsack-probleem kiezen zijn `Resources`,
-`Item` en `Knapsack`.
+`Item` en `Knapsack`. Een UML class diagram geeft hun relatie aan:
+
+![](umletino.png){: style="width:40rem;"}
 
 ## Resources type
 
