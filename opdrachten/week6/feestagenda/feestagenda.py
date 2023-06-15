@@ -1,4 +1,4 @@
-def print_agenda(agenda) -> None:
+def print_agenda(agenda):
     """ Print de agenda """
     print("==== AGENDA ====")
     for month, bands in agenda.items():
@@ -6,7 +6,7 @@ def print_agenda(agenda) -> None:
         for index, band in enumerate(bands):
             print(f"  week{index+1} {band}")
 
-def opdracht1(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht1(agenda, the_rockets, the_dragonflies):
     """ Voeg 'the_rockets' toe in januari week1.
         Voeg 'the_dragonflies' toe in januari week2.
         kan in 2 regels
@@ -14,7 +14,7 @@ def opdracht1(agenda, the_rockets, the_dragonflies) -> None:
     agenda['januari'].append(the_rockets)
     agenda['januari'].append(the_dragonflies)
 
-def opdracht2(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht2(agenda, the_rockets, the_dragonflies):
     """ Voeg 'the_rockets' toe in januari week3.
         Voeg 'the_dragonflies' toe in januari week4.
         Voeg 'the_rockets' toe in januari week5.
@@ -22,31 +22,31 @@ def opdracht2(agenda, the_rockets, the_dragonflies) -> None:
     """
     pass
 
-def opdracht3(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht3(agenda, the_rockets, the_dragonflies):
     """ 'Lisa' verandert haar artiestennaam naar 'LiZA' in alle optredens.
         kan in 1 regel
     """
     pass
     
-def opdracht4(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht4(agenda, the_rockets, the_dragonflies):
     """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3.
         kan in 2 regels
     """
     pass
 
-def opdracht5(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht5(agenda, the_rockets, the_dragonflies):
     """ In 'februari' roosteren we dezelfde bands als in januari.
         kan in 1 regel
     """
     pass
 
-def opdracht6(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht6(agenda, the_rockets, the_dragonflies):
     """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in februari maar niet in januari.
         kan in 2 regels
     """
     pass
 
-def opdracht7(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht7(agenda, the_rockets, the_dragonflies):
     """ In 'maart' roosteren we dezelfde bands als in januari, maar in elk optreden voegen we gastartiest 'Maya' toe. 
         kan in 4 regels
     """
