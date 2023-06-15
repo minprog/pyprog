@@ -39,8 +39,8 @@ proberen te vinden met een zo hoog mogelijk aantal punten. Bij
 Object-Oriented Programming definiëren we verschillende types die
 overeenkomen met de concepten in het probleem-domein en geven die
 nuttige *instance variables* en *methods*. De nuttige types die we in
-deze opdracht voor het knapsack-probleem kiezen zijn `Knapsack` `Item`
-en `Resources`. Een UML class diagram geeft hun relatie aan:
+deze opdracht voor het knapsack-probleem kiezen zijn `Knapsack`,
+`Item` en `Resources`. Een UML class diagram geeft hun relatie weer:
 
 ![](umletino.png){: style="width:40rem;"}
 
@@ -192,10 +192,11 @@ Een voorbeeld van het gebruik van type Knapsack is:
         print( len(knapsack) )                     # 0
         print( knapsack.get_points() )             # 0
     
-## Load a Knapsack probleem
+## Laad een Knapsack probleem
 
-**Opdracht4:** Lees de data in de [knapsack_small.csv](knapsack_small.csv) file in. Hiervoor
-kan deze functie als startpunt gebruikt worden:
+**Opdracht4:** Lees de data in de
+[knapsack_small.csv](knapsack_small.csv) file in. Hiervoor kan deze
+functie als startpunt gebruikt worden:
 
     def load_knapsack(filename):
         with open(filename,'r') as file:
