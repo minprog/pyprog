@@ -39,8 +39,8 @@ proberen te vinden met een zo hoog mogelijk aantal punten. Bij
 Object-Oriented Programming definiëren we verschillende types die
 overeenkomen met de concepten in het probleem-domein en geven die
 nuttige *instance variables* en *methods*. De nuttige types die we in
-deze opdracht voor het knapsack-probleem kiezen zijn `Resources`,
-`Item` en `Knapsack`. Een UML class diagram geeft hun relatie aan:
+deze opdracht voor het knapsack-probleem kiezen zijn `Knapsack` `Item`
+en `Resources`. Een UML class diagram geeft hun relatie aan:
 
 ![](umletino.png){: style="width:40rem;"}
 
@@ -192,7 +192,7 @@ Een voorbeeld van het gebruik van type Knapsack is:
         print( len(knapsack) )                     # 0
         print( knapsack.get_points() )             # 0
     
-## Load a Knapsack problem
+## Load a Knapsack probleem
 
 **Opdracht4:** Lees de data in de [knapsack_small.csv](knapsack_small.csv) file in. Hiervoor
 kan deze functie als startpunt gebruikt worden:
@@ -240,8 +240,8 @@ Test dit eerst met het [knapsack_small.csv](knapsack_small.csv)
 probleem en pas het daarna toe op het grotere
 [knapsack_medium.csv](knapsack_medium.csv) probleem.
 
-Tip: Pas goed op dat er geen items verdwijnen of bijkomen en dat je
-geen items dubbel inpakt.
+Tip: Pas goed op dat je geen items dubbel inpakt en dat er geen items
+verdwijnen of bijkomen.
 
 ## Optioneel: Beter inpakken
 
@@ -264,7 +264,7 @@ We hadden het Knapsack-probleem ook kunnen oplossen zonder gebruik van
 object-georiënteerd programmeren (dus zonder gebruik van classes). Dan
 waren er mogelijk minder regels code nodig geweest. Welke voordelen
 zijn er dan waardoor we hier toch kiezen voor Object-Oriented
-Programming bij het Knapsack-probleem?
+Programming?
 
 ### 1 Types uit probleem-domein
 
@@ -280,16 +280,16 @@ Met *encapsulation* wordt bedoeld dat een class implementatie-details
 verborgen houdt voor de gebruiker van een class. Eerder zagen we dit
 bij functies, we kunnen een functie gebruiken zonder dat we hoeven te
 weten hoe deze functie is geïmplementeerd. Maar anders dan functies
-kan een class ook *instance variables* verbergen zodat we nu dus ook
-waarden (ook wel *state* genoemd) kunnen verbergen.
+kan een class ook waarden (ook wel *state* genoemd) in de vorm van
+*instance variables* verbergen.
 
 Een gebruiker van een class hoeft bij het aanroepen van *methods* dus
 niks te weten over hoe waarden in een class zijn opgeslagen. De
 implementatie van een class kan daardoor makkelijker veranderen zonder
 dat dat effect heeft op andere delen van de code. Bij Object-Oriented
 Programming is code daardoor vaak beter in compartimenten opgedeeld
-waarbij veranderingen in één compartimenten minder snel leiden tot
-verandering in een ander. Enkele voorbeelden hiervan:
+waarbij veranderingen in één compartiment minder snel leiden tot
+verandering in een ander compartiment. Enkele voorbeelden hiervan:
 
 *   De class `Resources` heeft nu alleen *instance variables* weight
     en volume, als daar nog meer variabelen bij zouden komen (bv
@@ -300,11 +300,11 @@ verandering in een ander. Enkele voorbeelden hiervan:
 *   In de `Knapsack` class heb je waarschijnlijk een *list* gebruikt
     om alle items op te slaan, maar een random element uit een *list*
     verwijderen kan langzaam zijn als de *list* erg lang is. Bij hele
-    grote knapsack-problemen zou een *set* of een andere implementatie
-    waarschijnlijk sneller zijn. Omdat deze *list* is verborgen in de
-    Knapsack class, en dus niet gebruikt wordt in code buiten deze
-    class, zal de aanpassing naar *set* geen effect hebben op code
-    buiten de Knapsack class.
+    grote knapsack-problemen kan een *set* of een andere implementatie
+    sneller zijn. Omdat deze *list* is verborgen in de Knapsack class,
+    en dus niet gebruikt wordt in code buiten deze class, zal de
+    aanpassing naar *set* geen effect hebben op code buiten de
+    Knapsack class.
 
 ## Afronding
 
