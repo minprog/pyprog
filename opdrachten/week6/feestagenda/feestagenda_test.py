@@ -1,7 +1,7 @@
-import bands
+import feestagenda
 import io
 
-# de bands:
+# de feestagenda:
 the_rockets     = ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
 the_dragonflies = ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
 # het agenda:
@@ -22,7 +22,8 @@ maand: januari
   week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
   week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-maand: februari""")
+maand: februari
+""")
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
@@ -30,7 +31,8 @@ maand: januari
   week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-maand: februari""")
+maand: februari
+""")
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
@@ -38,7 +40,8 @@ maand: januari
   week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-maand: februari""")
+maand: februari
+""")
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
@@ -51,7 +54,8 @@ maand: februari
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']""")
+  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+""")
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
@@ -63,7 +67,8 @@ maand: februari
   week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']""")
+  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+""")
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
@@ -81,13 +86,14 @@ maand: maart
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas', 'Maya']
   week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas', 'Maya']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas', 'Maya']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Maya']""")
+  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Maya']
+""")
 
 def print_agenda(agenda, strbuf) -> None:
     print("==== AGENDA ====",file=strbuf)
-    for month, bands in agenda.items():
+    for month, feestagenda in agenda.items():
         print("maand:", month, file=strbuf)
-        for index, band in enumerate(bands):
+        for index, band in enumerate(feestagenda):
             print(f"  week{index+1} {band}", file=strbuf)
 
 def is_equal(opdracht, strbuf1, strbuf2) -> bool:
@@ -126,13 +132,13 @@ def test_opdracht(opdracht, fun, answer) -> bool:
     return is_equal(opdracht, strbuf, strbuf_correct)
 
 if __name__ == "__main__":
-    functions = [bands.opdracht1,
-                 bands.opdracht2,
-                 bands.opdracht3,
-                 bands.opdracht4,
-                 bands.opdracht5,
-                 bands.opdracht6,
-                 bands.opdracht7]
+    functions = [feestagenda.opdracht1,
+                 feestagenda.opdracht2,
+                 feestagenda.opdracht3,
+                 feestagenda.opdracht4,
+                 feestagenda.opdracht5,
+                 feestagenda.opdracht6,
+                 feestagenda.opdracht7]
     for i in range(len(functions)):
         if not test_opdracht(f"opdracht{i+1}", functions[i], answers[i]):
             exit(1)
