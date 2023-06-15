@@ -1,7 +1,7 @@
 # Memory Model
 
 Python maakt onderscheid tussen 'mutable' en 'immutable' types. Een
-waarde van een immutable type kan niet worden aangepast zonder dat er
+waarde van een immutable type kan **niet** worden aangepast zonder dat er
 een kopie van gemaakt wordt. Een waarde van een mutable type kan wel
 worden aangepast zonder een kopie te maken.
 
@@ -187,7 +187,7 @@ kunt kiezen. In het onderstaande programma is `a` een geneste lijst
     c = copy.copy(a)
     d = copy.deepcopy(a)
 
-Na regel 3 wordt de geneste lijst `a` aangemaakt:
+Na regel 3 wordt is `a` een verwijzing naar de geneste lijst:
 
 ![](mm_deepcopy2.png){: style="width:20rem;"}
 
@@ -199,14 +199,14 @@ waarden:
 Op regel 5 wordt `c` een 'shallow copy' van `a`. Bij een 'shallow
 copy' wordt alleen de eerste lijst gekopieerd. De onderliggende
 lijsten zijn wel nog steeds gedeeld. Het statement `c = a.copy()`
-geeft precies hetzelfde resultaat voor sommige types (`list`, `dict`),
-maar de `copy.copy()` functie is voor meer verschillende types te
-gebruiken.
+geeft precies hetzelfde resultaat voor sommige types (`list`, `set`,
+`dict`), maar de `copy.copy()` functie is voor meer verschillende
+types te gebruiken.
 
 ![](mm_deepcopy4.png){: style="width:20rem;"}
 
 Op regel 6 wordt `d` een 'deep copy' van `a`. Bij een 'deep copy'
-wordt de lijst met alle onderliggende waarden gekopieerd zodat er geen
+wordt de lijst en alle onderliggende waarden gekopieerd zodat er geen
 waarden meer gedeeld worden.
 
 ![](mm_deepcopy5.png){: style="width:20rem;"}
