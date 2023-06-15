@@ -219,7 +219,6 @@ functies door python worden gelezen.
     def solve_knapsack(filename):
         """ Returns the highest number of points found while trying different ways of
         packing the knapsack in file 'filename' """
-        pass
 
 en eventuele helper-functies om een zo hoog mogelijk aantal punten te
 vinden voor het inpakken van de knapsack. Een voorbeeld van een
@@ -283,7 +282,7 @@ kan een class ook *instance variables* verbergen zodat we nu dus ook
 waarden (ook wel *state* genoemd) kunnen verbergen.
 
 Een gebruiker van een class hoeft bij het aanroepen van *methods* dus
-niks te weten over hoe waarden in een class zijn geïmplementeerd. De
+niks te weten over hoe waarden in een class zijn opgeslagen. De
 implementatie van een class kan daardoor makkelijker veranderen zonder
 dat dat effect heeft op andere delen van de code. Bij Object-Oriented
 Programming is code daardoor vaak beter in compartimenten opgedeeld
