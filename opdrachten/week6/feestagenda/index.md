@@ -28,45 +28,39 @@ houden.
         """
         agenda['januari'].append(the_rockets)
         agenda['januari'].append(the_dragonflies)
-    
+
     def opdracht2(agenda, the_rockets, the_dragonflies):
         """ Voeg 'the_rockets' toe in januari week3.
             Voeg 'the_dragonflies' toe in januari week4.
             Voeg 'the_rockets' toe in januari week5.
             kan in 3 regels
         """
-        pass
     
     def opdracht3(agenda, the_rockets, the_dragonflies):
         """ 'Lisa' verandert haar artiestennaam naar 'LiZA' in alle optredens.
             kan in 1 regel
         """
-        pass
 
     def opdracht4(agenda, the_rockets, the_dragonflies):
         """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3.
             kan in 2 regels
         """
-        pass
 
     def opdracht5(agenda, the_rockets, the_dragonflies):
-        """ In 'februari' roosteren we dezelfde bands als in januari.
+        """ In 'februari' roosteren we dezelfde bands als in 'januari'.
             kan in 1 regel
         """
-        pass
-    
+
     def opdracht6(agenda, the_rockets, the_dragonflies):
-        """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in februari maar niet in januari.
+        """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in 'februari' maar niet in 'januari'.
             kan in 2 regels
         """
-        pass
-    
+
     def opdracht7(agenda, the_rockets, the_dragonflies):
-        """ In 'maart' roosteren we dezelfde bands als in januari, maar in elk optreden voegen we gastartiest 'Maya' toe. 
+        """ In 'maart' roosteren we dezelfde bands als in 'januari', maar in elk optreden voegen we gastartiest 'Maya' toe. 
             kan in 4 regels
         """
-        pass
-    
+
     if __name__ == "__main__":
         agenda = {'januari': [], 'februari': []} # lege agenda met 'januari' en 'februari'
         print_agenda(agenda)
@@ -140,7 +134,7 @@ op een regelnummer klikt wordt deze rood en verschijnt er een rood
 streepje in de timeline zodat je snel naar deze regel kan springen
 zonder herhaaldelijk op 'Next' te hoeven drukken:
 
-![PythonTutor](pythontutor.png)
+![PythonTutor](pythontutor.png){: style="width:20rem;"}
 
 ## Geen Type Hints
 
