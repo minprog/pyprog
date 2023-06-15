@@ -36,8 +36,8 @@ def resources_example() -> None:
     r2 = Resources(25, 50)
     r1 += r2
     print(r1)                # Resources(weight:125 volume:250)
-    print(r2.can_fit(r1))    # True
-    print(r1.can_fit(r2))    # False
+    print(r2.can_fit(r1))    # True   (item with resources r1 would     fit in a knapsack with resources r2)
+    print(r1.can_fit(r2))    # False  (item with resources r2 would not fit in a knapsack with resources r1)
     r1 -= r2
     print(r1)                # Resources(weight:100 volume:200)
     
