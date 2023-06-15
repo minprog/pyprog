@@ -34,12 +34,12 @@ knapsack-problemen is beschikbaar in files
 
 ## Object-Oriented Programming
 
-We gaan met Object-Oriented Programming een knapsack inpakking
+We gaan met Object-Oriented Programming een knapsack-inpakking
 proberen te vinden met een zo hoog mogelijk aantal punten. Bij
 Object-Oriented Programming definiëren we verschillende types die
 overeenkomen met de concepten in het probleem-domein en geven die
 nuttige *instance variables* en *methods*. De nuttige types die we in
-deze opdracht voor het knapsack-probleem kiezen zijn `Knapsack`,
+deze opdracht voor het knapsackprobleem kiezen zijn `Knapsack`,
 `Item` en `Resources`. Een UML class diagram geeft hun relatie weer:
 
 ![](umletino.png){: style="width:40rem;"}
@@ -100,7 +100,7 @@ testen of dit type goed werkt.
 Met dit type `Resources` maken we type `Item`. 'Item' type is alleen maar
 een container om points en resources in op te slaan en heeft verder
 geen functionaliteit, desondanks is dit een nuttig type waarmee we een
-item (zoals beschreven in het Knapsack probleem-domein) kunnen
+item (zoals beschreven in het Knapsack probleemdomein) kunnen
 representeren.
 
     class Item:
@@ -223,7 +223,7 @@ functies door python worden gelezen.
         """ Returns the highest number of points found while trying different ways of
         packing the knapsack in file 'filename' """
 
-en eventuele helper-functies om een zo hoog mogelijk aantal punten te
+en eventuele helperfuncties om een zo hoog mogelijk aantal punten te
 vinden voor het inpakken van de knapsack. Een voorbeeld van een
 eenvoudig algoritme hiervoor is:
 
@@ -235,7 +235,7 @@ eenvoudig algoritme hiervoor is:
 
 *   haal alle items weer uit de knapsack
 
-*   herhaal dit process een zelf-gekozen aantal keer (bv enkele minuten)
+*   herhaal dit process een zelfgekozen aantal keer (bv enkele minuten)
 
 Test dit eerst met het [knapsack_small.csv](knapsack_small.csv)
 probleem en pas het daarna toe op het grotere
@@ -267,9 +267,9 @@ waren er mogelijk minder regels code nodig geweest. Welke voordelen
 zijn er dan waardoor we hier toch kiezen voor Object-Oriented
 Programming?
 
-### 1 Types uit probleem-domein
+### 1 Types uit probleemdomein
 
-De types komen overeen met concepten uit het probleem-domein waardoor
+De types komen overeen met concepten uit het probleemdomein waardoor
 het makkelijker is om over de code na te denken. Het vraagt wel enige
 oefening om voor een probleem de juiste types te kiezen, let daarbij
 op de zelfstandignaamwoorden in de probleembeschrijving voor *classes*
@@ -277,7 +277,7 @@ en *instance variables* en op werkwoorden voor de *methods*.
 
 ### 2 Encapsulation
 
-Met *encapsulation* wordt bedoeld dat een class implementatie-details
+Met *encapsulation* wordt bedoeld dat een class implementatiedetails
 verborgen houdt voor de gebruiker van een class. Eerder zagen we dit
 bij functies, we kunnen een functie gebruiken zonder dat we hoeven te
 weten hoe deze functie is geïmplementeerd. Maar anders dan functies
@@ -301,7 +301,7 @@ verandering in een ander compartiment. Enkele voorbeelden hiervan:
 *   In de `Knapsack` class heb je waarschijnlijk een *list* gebruikt
     om alle items op te slaan, maar een random element uit een *list*
     verwijderen kan langzaam zijn als de *list* erg lang is. Bij hele
-    grote knapsack-problemen kan een *set* of een andere implementatie
+    grote knapsackproblemen kan een *set* of een andere implementatie
     sneller zijn. Omdat deze *list* is verborgen in de Knapsack class,
     en dus niet gebruikt wordt in code buiten deze class, zal de
     aanpassing naar *set* geen effect hebben op code buiten de
