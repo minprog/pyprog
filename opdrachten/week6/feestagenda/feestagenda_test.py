@@ -105,8 +105,7 @@ def is_equal(opdracht, strbuf1, strbuf2) -> bool:
     if len(lines1) != len(lines2):
         strbuf1.seek(0)
         strbuf2.seek(0)
-        print()
-        print("ERROR, wrong number of lines")
+        print("\nERROR, wrong number of lines")
         print("-------- your result:")
         print('"',strbuf1.getvalue(),'"',sep='')
         print("-------- should be:")
@@ -115,10 +114,10 @@ def is_equal(opdracht, strbuf1, strbuf2) -> bool:
     for i in range(len(lines1)):
         l1 = lines1[i].strip()
         l2 = lines2[i].strip()
+        linenr=str(i+1)
         if l1 != l2:
-            print()
-            print(f'ERROR  your line: "{l1}"')
-            print(f'       should be: "{l2}"')
+            print(f'\nERROR your line{linenr}: "{l1}"')
+            print(f'      should be{" "*len(linenr)}: "{l2}"')
             return False
     print(" correct")
     return True

@@ -39,13 +39,13 @@ houden.
     
     def opdracht3(agenda, the_rockets, the_dragonflies) -> None:
         """ 'Lisa' verandert haar artiestennaam naar 'LiZA' in alle optredens.
-        kan in 1 regel
+            kan in 1 regel
         """
         pass
 
     def opdracht4(agenda, the_rockets, the_dragonflies) -> None:
         """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3.
-        kan in 2 regels
+            kan in 2 regels
         """
         pass
 
