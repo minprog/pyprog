@@ -1,10 +1,42 @@
 import copy
 
-# de bands:
-the_rockets     = ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-the_dragonflies = ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
-# het agenda:
-agenda = { 'januari':[], 'februari':[]  } # lege agenda met 'januari' en 'februari'
+def main():
+    agenda = {'januari': [], 'februari': []} # lege agenda met 'januari' en 'februari'
+    print_agenda(agenda)
+    
+    # de bands:
+    the_rockets     = ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+    the_dragonflies = ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
+
+    # we vullen de agenda in
+    print("opdracht1:")
+    opdracht1(agenda, the_rockets, the_dragonflies)
+    print_agenda(agenda)
+
+    print("opdracht2:")
+    opdracht2(agenda, the_rockets, the_dragonflies)
+    print_agenda(agenda)
+
+    print("opdracht3:")
+    opdracht3(agenda, the_rockets, the_dragonflies)
+    print_agenda(agenda)
+
+    print("opdracht4:")
+    opdracht4(agenda, the_rockets, the_dragonflies)
+    print_agenda(agenda)
+
+    print("opdracht5:")
+    opdracht5(agenda, the_rockets, the_dragonflies)
+    print_agenda(agenda)
+
+    print("opdracht6:")
+    opdracht6(agenda, the_rockets, the_dragonflies)
+    print_agenda(agenda)
+
+    print("opdracht7:")
+    opdracht7(agenda, the_rockets, the_dragonflies)
+    print_agenda(agenda)
+
 
 def print_agenda(agenda) -> None:
     """ Print de agenda """
@@ -62,27 +94,5 @@ def opdracht7(agenda, the_rockets, the_dragonflies) -> None:
     agenda['maart'][2].append('Maya')
 
 if __name__ == "__main__":
-    print_agenda(agenda) # lege agenda
-
-    # we vullen de agenda in
-    opdracht1(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
-    
-    opdracht2(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
-    
-    opdracht3(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
-    
-    opdracht4(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
-    
-    opdracht5(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
-    
-    opdracht6(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
-
-    opdracht7(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
+    main()
 

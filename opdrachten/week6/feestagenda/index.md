@@ -3,9 +3,9 @@
 In deze opdracht oefenen we met het memory model, we gaan een
 feestagenda invullen.
 
-In de main van programma [feestagenda.py](feestagenda.py) wordt een
-lege feestagenda gemaakt die we gaan vullen met bands. In de functies
-`opdracht1()` t/m `opdracht7()` gaan we steeds de agenda iets
+In de main van onderstaande programma [feestagenda.py](feestagenda.py)
+wordt een lege feestagenda gemaakt die we gaan vullen met bands. In de
+functies `opdracht1()` t/m `opdracht7()` gaan we steeds de agenda iets
 aanpassen. Lees de docstring documentatie van ieder opdracht-functie
 om te zien wat er moet gebeuren. Functie `opdracht1()` werkt nu al
 correct. Bij elke opdracht-functie is ook aangegeven in hoeveel regels
@@ -13,55 +13,7 @@ deze kan worden geimplementeerd. Met een slimme aanpak zijn er maar
 weinig regels nodig. Probeer de opdracht-functies zo kort mogelijk te
 houden.
 
-    def print_agenda(agenda):
-        """ Print de agenda """
-        print("==== AGENDA ====")
-        for month, bands in agenda.items():
-            print("maand:", month)
-            for index, band in enumerate(bands):
-                print(f"  week{index+1} {band}")
-    
-    def opdracht1(agenda, the_rockets, the_dragonflies):
-        """ Voeg 'the_rockets' toe in januari week1.
-            Voeg 'the_dragonflies' toe in januari week2.
-            kan in 2 regels
-        """
-        agenda['januari'].append(the_rockets)
-        agenda['januari'].append(the_dragonflies)
-
-    def opdracht2(agenda, the_rockets, the_dragonflies):
-        """ Voeg 'the_rockets' toe in januari week3.
-            Voeg 'the_dragonflies' toe in januari week4.
-            Voeg 'the_rockets' toe in januari week5.
-            kan in 3 regels
-        """
-    
-    def opdracht3(agenda, the_rockets, the_dragonflies):
-        """ 'Lisa' verandert haar artiestennaam naar 'LiZA' in alle optredens.
-            kan in 1 regel
-        """
-
-    def opdracht4(agenda, the_rockets, the_dragonflies):
-        """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3.
-            kan in 2 regels
-        """
-
-    def opdracht5(agenda, the_rockets, the_dragonflies):
-        """ In 'februari' roosteren we dezelfde bands als in 'januari'.
-            kan in 1 regel
-        """
-
-    def opdracht6(agenda, the_rockets, the_dragonflies):
-        """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in 'februari' maar niet in 'januari'.
-            kan in 2 regels
-        """
-
-    def opdracht7(agenda, the_rockets, the_dragonflies):
-        """ In 'maart' roosteren we dezelfde bands als in 'januari', maar in elk optreden voegen we gastartiest 'Maya' toe. 
-            kan in 4 regels
-        """
-
-    if __name__ == "__main__":
+    def main():
         agenda = {'januari': [], 'februari': []} # lege agenda met 'januari' en 'februari'
         print_agenda(agenda)
         
@@ -96,6 +48,57 @@ houden.
         print("opdracht7:")
         opdracht7(agenda, the_rockets, the_dragonflies)
         print_agenda(agenda)
+    
+    def print_agenda(agenda):
+        """ Print de agenda """
+        print("==== AGENDA ====")
+        for month, bands in agenda.items():
+            print("maand:", month)
+            for index, band in enumerate(bands):
+                print(f"  week{index+1} {band}")
+    
+    def opdracht1(agenda, the_rockets, the_dragonflies):
+        """ Voeg 'the_rockets' toe in januari week1.
+            Voeg 'the_dragonflies' toe in januari week2.
+            kan in 2 regels
+        """
+        agenda['januari'].append(the_rockets)
+        agenda['januari'].append(the_dragonflies)
+    
+    def opdracht2(agenda, the_rockets, the_dragonflies):
+        """ Voeg 'the_rockets' toe in januari week3.
+            Voeg 'the_dragonflies' toe in januari week4.
+            Voeg 'the_rockets' toe in januari week5.
+            kan in 3 regels
+        """
+    
+    def opdracht3(agenda, the_rockets, the_dragonflies):
+        """ 'Lisa' verandert haar artiestennaam naar 'LiZA' in alle optredens.
+            kan in 1 regel
+        """
+        
+    def opdracht4(agenda, the_rockets, the_dragonflies):
+        """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3.
+            kan in 2 regels
+        """
+    
+    def opdracht5(agenda, the_rockets, the_dragonflies):
+        """ In 'februari' roosteren we dezelfde bands als in 'januari'.
+            kan in 1 regel
+        """
+    
+    def opdracht6(agenda, the_rockets, the_dragonflies):
+        """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in 'februari' maar niet in 'januari'.
+            kan in 2 regels
+        """
+    
+    def opdracht7(agenda, the_rockets, the_dragonflies):
+        """ In 'maart' roosteren we dezelfde bands als in 'januari', maar in elk optreden voegen we gastartiest 'Maya' toe. 
+            kan in 4 regels
+        """
+
+if __name__ == "__main__":
+    main()
 
 ## Testen
 

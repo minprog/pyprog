@@ -187,7 +187,7 @@ kunt kiezen. In het onderstaande programma is `a` een geneste lijst
     c = copy.copy(a)
     d = copy.deepcopy(a)
 
-Na regel 3 wordt is `a` een verwijzing naar de geneste lijst:
+Na regel 3 is `a` een verwijzing naar de geneste lijst:
 
 ![](mm_deepcopy2.png){: style="width:20rem;"}
 

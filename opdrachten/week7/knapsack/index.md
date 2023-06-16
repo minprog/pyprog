@@ -44,7 +44,7 @@ deze opdracht voor het knapsackprobleem kiezen zijn `Knapsack`,
 
 ![](umletino.png){: style="width:40rem;"}
 
-## Resources type
+## Resources Type
 
 We definiëren eerst het nieuwe type `Resources` als:
 
@@ -95,7 +95,7 @@ testen of resources in andere resources passen zoals in dit voorbeeld:
 **Opdracht1:** Neem deze definitie over en voeg doctests toe die
 testen of dit type goed werkt.
 
-## Item type
+## Item Type
 
 Met dit type `Resources` maken we type `Item`. 'Item' type is alleen maar
 een container om points en resources in op te slaan en heeft verder
@@ -128,7 +128,7 @@ gedaan in dit voorbeelden:
         print(item.get_points())      # 20
         print(item.get_resources())   # Resources(weight:100 volume:200)
 
-## Knapsack type
+## Knapsack Type
 
 Aan een object van type Knapsack moeten we items kunnen toevoegen en
 verwijderen waarbij de overgebleven resources worden bijgehouden. We
@@ -192,7 +192,7 @@ Een voorbeeld van het gebruik van type Knapsack is:
         print( len(knapsack) )                     # 0
         print( knapsack.get_points() )             # 0
     
-## Laad een Knapsack probleem
+## Laad een Knapsackprobleem
 
 **Opdracht4:** Lees de data in de
 [knapsack_small.csv](knapsack_small.csv) file in. Hiervoor kan deze
@@ -244,7 +244,7 @@ probleem en pas het daarna toe op het grotere
 Tip: Pas goed op dat je geen items dubbel inpakt en dat er geen items
 verdwijnen of bijkomen.
 
-## Optioneel: Beter inpakken
+## Optioneel: Beter Inpakken
 
 **Opdracht6:** Bedenk zelf een beter algoritme om een zo hoog mogelijk
 aantal punten voor de knapsack te vinden. Zo kun je misschien het
@@ -267,7 +267,7 @@ waren er mogelijk minder regels code nodig geweest. Welke voordelen
 zijn er dan waardoor we hier toch kiezen voor Object-Oriented
 Programming?
 
-### 1 Types uit probleemdomein
+### 1 Types uit Probleemdomein
 
 De types komen overeen met concepten uit het probleemdomein waardoor
 het makkelijker is om over de code na te denken. Het vraagt wel enige
