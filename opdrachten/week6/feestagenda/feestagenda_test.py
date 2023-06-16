@@ -44,49 +44,58 @@ maand: februari
 """)
 answers.append("""==== AGENDA ====
 maand: januari
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 maand: februari
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
 """)
 answers.append("""==== AGENDA ====
 maand: januari
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 maand: februari
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
+  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
+""")
+answers.append("""==== AGENDA ====
+maand: januari
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
+  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
+  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
+maand: februari
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
+  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
 """)
 answers.append("""==== AGENDA ====
 maand: januari
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 maand: februari
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
 maand: maart
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Maya']
+  week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Maya']
   week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas', 'Maya']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas', 'Maya']
+  week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas', 'Maya']
   week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas', 'Maya']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Maya']
+  week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Maya']
 """)
 
 def print_agenda(agenda, strbuf) -> None:
@@ -137,7 +146,8 @@ if __name__ == "__main__":
                  feestagenda.opdracht4,
                  feestagenda.opdracht5,
                  feestagenda.opdracht6,
-                 feestagenda.opdracht7]
+                 feestagenda.opdracht7,
+                 feestagenda.opdracht8]
     for i in range(len(functions)):
         if not test_opdracht(f"opdracht{i+1}", functions[i], answers[i]):
             exit(1)
