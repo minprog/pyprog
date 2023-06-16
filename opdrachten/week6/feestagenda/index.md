@@ -97,8 +97,8 @@ houden.
             kan in 4 regels
         """
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 
 ## Testen
 

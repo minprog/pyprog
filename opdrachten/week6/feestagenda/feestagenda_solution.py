@@ -95,4 +95,3 @@ def opdracht7(agenda, the_rockets, the_dragonflies) -> None:
 
 if __name__ == "__main__":
     main()
-
