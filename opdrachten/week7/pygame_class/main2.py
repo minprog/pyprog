@@ -1,5 +1,7 @@
 import pygame
 import Player
+import Alien
+import random
 
 def main():
     pygame.init()
@@ -10,6 +12,9 @@ def main():
 
     surface=pygame.display.get_surface()
     player = Player.Player(surface)
+    aliens = []
+    new_alien_chance = 0.01
+    max_nr_aliens = 20
     
     running = True
     while running:
@@ -25,6 +30,13 @@ def main():
         player.step()
         player.stay_on_screen(surface)
         player.draw(surface)
+
+        if len(aliens)<max_nr_aliens and random.random()<new_alien_chance:
+            aliens.append( Alien.Alien(surface) )
+        for alien in aliens:
+            alien.step()
+            alien.stay_on_screen(surface)
+            alien.draw(surface)
         
         pygame.display.flip()
         clock.tick(60) # run at 60 frames per second
