@@ -1,6 +1,7 @@
 import pygame
 
 def main():
+    pygame.init()
     screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
     pygame.display.set_caption('drawing')
     clock = pygame.time.Clock()
