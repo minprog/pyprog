@@ -35,10 +35,6 @@ def main():
     opdracht7(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-    print("opdracht8:")
-    opdracht7(agenda, the_rockets, the_dragonflies)
-    print_agenda(agenda)
-
 def print_agenda(agenda):
     """ Print de agenda """
     print("==== AGENDA ====")
@@ -54,7 +50,7 @@ def opdracht1(agenda, the_rockets, the_dragonflies):
     """
     agenda['januari'].append(the_rockets)
     agenda['januari'].append(the_dragonflies)
-
+    
 def opdracht2(agenda, the_rockets, the_dragonflies):
     """ Voeg 'the_rockets' toe in januari week3.
         Voeg 'the_dragonflies' toe in januari week4.
@@ -63,31 +59,26 @@ def opdracht2(agenda, the_rockets, the_dragonflies):
     """
 
 def opdracht3(agenda, the_rockets, the_dragonflies):
-    """ 'Lisa' verandert haar artiestennaam in 'LiZA' in alle optredens.
-        kan in 1 regel
-    """
-
-def opdracht4(agenda, the_rockets, the_dragonflies):
     """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3.
         kan in 2 regels
     """
 
-def opdracht5(agenda, the_rockets, the_dragonflies):
+def opdracht4(agenda, the_rockets, the_dragonflies):
     """ 'Jim' verandert zijn artiestennaam in 'Jimmi' in alle optredens.
         kan in 2 regels
     """
 
-def opdracht6(agenda, the_rockets, the_dragonflies):
+def opdracht5(agenda, the_rockets, the_dragonflies):
     """ In 'februari' roosteren we dezelfde bands als in januari.
         kan in 1 regel
     """
 
-def opdracht7(agenda, the_rockets, the_dragonflies):
+def opdracht6(agenda, the_rockets, the_dragonflies):
     """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in februari maar niet in januari.
         kan in 2 regels
     """
 
-def opdracht8(agenda, the_rockets, the_dragonflies):
+def opdracht7(agenda, the_rockets, the_dragonflies):
     """ In 'maart' roosteren we dezelfde bands als in januari, maar in elk optreden voegen we gastartiest 'Maya' toe.
         kan in 4 regels
     """

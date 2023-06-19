@@ -27,74 +27,65 @@ maand: februari
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
-  week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-maand: februari
-""")
-answers.append("""==== AGENDA ====
-maand: januari
-  week1 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
 maand: februari
 """)
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 maand: februari
 """)
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 maand: februari
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 """)
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 maand: februari
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
 """)
 answers.append("""==== AGENDA ====
 maand: januari
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
 maand: februari
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
 maand: maart
   week1 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Maya']
-  week2 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas', 'Maya']
+  week2 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas', 'Maya']
   week3 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Thomas', 'Maya']
-  week4 ['The Dragonflies:', 'LiZa', 'Alexander', 'Lucas', 'Maya']
+  week4 ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas', 'Maya']
   week5 ['The Rockets:', 'Jimmi', 'Charlotte', 'Emma', 'Maya']
 """)
 
@@ -128,7 +119,7 @@ def is_equal(opdracht, strbuf1, strbuf2) -> bool:
             print(f'\nERROR your line{linenr}: "{l1}"')
             print(f'      should be{" "*len(linenr)}: "{l2}"')
             return False
-    print(" correct")
+    print(" CORRECT")
     return True
         
 def test_opdracht(opdracht, fun, answer) -> bool:
@@ -146,8 +137,7 @@ if __name__ == "__main__":
                  feestagenda.opdracht4,
                  feestagenda.opdracht5,
                  feestagenda.opdracht6,
-                 feestagenda.opdracht7,
-                 feestagenda.opdracht8]
+                 feestagenda.opdracht7]
     for i in range(len(functions)):
         if not test_opdracht(f"opdracht{i+1}", functions[i], answers[i]):
             exit(1)
