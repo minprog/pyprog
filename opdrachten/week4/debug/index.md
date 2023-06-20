@@ -316,10 +316,10 @@ probeer het dan echt eerst zelf te ontdekken voor je verder leest.
 
 Na enig denkwerk zouden we met alle informatie tot de conclusie moeten
 kunnen komen dat 0.6 naar beneden moet worden afgerond voor het juiste
-aantal bankbiljetten en niet naar het dichtsbijzijnde gehele getal. Dit
-kan na `import math` toevoegen met:
+aantal bankbiljetten en niet naar het dichtsbijzijnde gehele
+getal. Dit kan met:
 
-    amount = math.floor(due / denomination)
+    amount = due // denomination
 
 **Opdracht6:** 
 - Slagen alle doctests na deze aanpassing nu wel?
@@ -444,7 +444,7 @@ complexe programma's.
             due = round(random.random() * 1000)
             if not test_change_total_for_due(due, denominations):
                 return False
-            return True
+        return True
 
     print("All test succeed: ", test_change_total_for_n_random_dues(100000, [50, 20, 10, 5, 2, 1]))
 
