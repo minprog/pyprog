@@ -1,17 +1,15 @@
 import pygame
-import random
 
-class Alien:
+class Unit:
 
     def __init__(self,surface):
         width, height = surface.get_size()
         self.position = pygame.Vector2(width//2,height//2)
-        speed=4
-        sx = random.random()*2*speed - speed
-        sy = random.random()*2*speed - speed
-        self.speed = pygame.Vector2(sx,sy)
-        self.radius = 10
-        self.color = (0,255,0)
+        self.speed = pygame.Vector2(0,0)
+        self.radius = 20
+        self.color = (255,255,255)
+        self.line_width = 4
+        self.alive=True
 
     def step(self):
         self.position += self.speed
@@ -32,4 +30,4 @@ class Alien:
             self.speed.y =- self.speed.y
 
     def draw(self,surface):
-        pygame.draw.circle(surface, self.color, self.position, self.radius)
+        pygame.draw.circle(surface, self.color, self.position, self.radius, self.line_width)
