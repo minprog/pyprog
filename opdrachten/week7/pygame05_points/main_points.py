@@ -8,6 +8,7 @@ from Alien import Alien
 from Alien_Seeker import Alien_Seeker
 from Points import Points
 from Pill import Pill
+from Bullet import Bullet
 
 def main():
     pygame.init()
@@ -23,7 +24,6 @@ def main():
     max_nr_units = 20
     
     running = True
-    frame_count=0
     while running:
         screen.fill(background_colour)
         surface=pygame.display.get_surface()
@@ -33,7 +33,7 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
 
-        player.keyboard() # keyboard 
+        player.keyboard(units) # keyboard 
 
         spawn_units(units, surface, player)
             
@@ -46,14 +46,11 @@ def main():
             for i2 in range(i1+1,len(units)):
                 if units[i1].has_collision(units[i2]):
                     handle_collision(units[i1],units[i2])
-
+        
         units = [u for u in units if u.is_alive()]
             
         pygame.display.flip()
         clock.tick(60) # run at 60 frames per second
-        frame_count+=1
-        if frame_count%100==0:
-            print("Alien.remaining:",Alien.remaining)
 
 def spawn_units(units, surface, player):
     if Alien.remaining>0 and random.random()<Alien.spawn_chance:
@@ -89,12 +86,25 @@ def handle_collision(unit2: Points,unit1: Player):
 def handle_collision(unit1: Player,unit2: Pill):
     unit2.set_alive(False)
     unit1.set_pill()
-    
 @multimethod
 def handle_collision(unit2: Pill,unit1: Player):
     handle_collision(unit1,unit2)
+
+@multimethod
+def handle_collision(unit1: Player,unit2: Bullet):
+    pass # do nothing
+@multimethod
+def handle_collision(unit2: Bullet,unit1: Player):
+    handle_collision(unit1,unit2)
+
+@multimethod
+def handle_collision(unit1: Alien,unit2: Bullet):
+    unit1.set_alive(False)
+    unit2.set_alive(False)
+@multimethod
+def handle_collision(unit2: Bullet,unit1: Alien):
+    handle_collision(unit1,unit2)
+
     
-
-
 if __name__ == "__main__":
     main()

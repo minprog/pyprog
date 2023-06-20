@@ -8,7 +8,7 @@ class Pill(Unit):
     remaining=1
     
     def __init__(self,surface):
-        super().__init__(surface)
+        super().__init__()
         self.set_random_position(surface)
         self.set_random_speed(2)
         self.radius = 15
@@ -17,6 +17,7 @@ class Pill(Unit):
 
     def __del__(self):
         Pill.remaining+=1
+        super().__del__()
         
     def draw(self,surface):
         pygame.draw.circle(surface, self.color, self.position, self.radius)

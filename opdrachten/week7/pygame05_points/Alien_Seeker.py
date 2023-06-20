@@ -18,7 +18,8 @@ class Alien_Seeker(Alien):
 
     def __del__(self):
         Alien_Seeker.remaining+=1
-
+        super().__del__()
+        
     def step(self):
         diff = self.seek_unit.position - self.position
         diff.normalize_ip()

@@ -1,15 +1,19 @@
 import pygame
 import time
 
-import Unit
+from Unit import Unit
+from Bullet import Bullet
 
-class Player(Unit.Unit):
+class Player(Unit):
     
     def __init__(self,surface):
-        super().__init__(surface)
+        super().__init__()
+        width, height = surface.get_size()
+        self.position = pygame.Vector2(width//2,height//2)
         self.pill_time=0
+        self.bullet_time=0
         
-    def keyboard(self):
+    def keyboard(self,units):
         accel=0.5
         keys = pygame.key.get_pressed() # https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed
         if keys[pygame.K_LEFT] or keys[pygame.K_a]:
@@ -20,6 +24,13 @@ class Player(Unit.Unit):
             self.speed.y -= accel
         if keys[pygame.K_DOWN] or keys[pygame.K_s]:
             self.speed.y += accel
+        if keys[pygame.K_SPACE ] and time.time()-self.bullet_time > 0.2:
+            self.bullet_time = time.time()
+            bullet_speed=self.speed*2
+            if bullet_speed.length()>10:
+                bullet_speed=bullet_speed.normalize()*10
+            units.append( Bullet(self.position.copy(),
+                                 bullet_speed) )
         self.speed *= 0.99
 
     def set_pill(self):
