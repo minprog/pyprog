@@ -11,6 +11,7 @@ def main(name, port, host):
     socket = context.socket(zmq.REQ)
     socket.connect(f"tcp://{host}:{port}")
     print(f"Connecting to port '{port}' of host '{host}'.")
+
     # start pygame
     pygame.init()
     screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
@@ -19,6 +20,7 @@ def main(name, port, host):
     clock = pygame.time.Clock()
     background_color = (0,0,0)
     name_textures = Name_Textures()
+    game_state = None
     
     running = True
     while running:
@@ -29,16 +31,17 @@ def main(name, port, host):
                 running = False
         
         socket.send_pyobj(get_action(name, pygame.key.get_pressed())) # send action
+        if game_state:
+            game_state.draw(name,surface,name_textures) # draw while waiting for answer
         game_state = socket.recv_pyobj() # receive game_state
-        #print("game_state:",game_state)
-        game_state.draw(name,surface,name_textures)
+        #print("game_state:",game_state)        
         
         pygame.display.flip()
         clock.tick(60) # run at 60 frames per second
 
 def get_action(name,keys):
     acceleration=pygame.Vector2(0,0)
-    accel=0.2
+    accel=0.5
     if keys[pygame.K_LEFT] or keys[pygame.K_a]:
         acceleration.x -= accel
     if keys[pygame.K_RIGHT] or keys[pygame.K_d]:

@@ -19,7 +19,7 @@ class Player:
     
     def accelerate(self,acceleration):
         self.speed += acceleration
-        self.speed *= 0.99
+        self.speed *= 0.95
         
     def step(self):
         self.position += self.speed
