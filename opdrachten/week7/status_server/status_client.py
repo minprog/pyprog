@@ -14,12 +14,11 @@ def main(name, port, host):
             line = input(f"{name}: ") # blocks
             socket.send_string(f"{name}: {line}") # send state
         else:
+            time.sleep(2) # every 2 seconds
             socket.send_string("_:") # request state
         states = socket.recv_string()
         print("-----------------",count)
         print(states)
-        if name=="_":
-            time.sleep(2)
         count+=1
     
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ def main(port, host):
         line = socket.recv_string()
         name,status = split(line)
         if name!='_':
-            print("received name: '{name}' status: '{status}'")
+            print(f"received name: '{name}' status: '{status}'")
             states[name]=status
         socket.send_string(states_to_string(states))
             
