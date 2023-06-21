@@ -15,7 +15,7 @@ def main(port, host):
     context = zmq.Context()
     socket = context.socket(zmq.REP)
     socket.bind(f"tcp://{host}:{port}")
-    print(f"Waiting for clients on server '{host}' on port '{port}'.")
+    print(f"Waiting for clients on port '{port}' on host '{host}'.")
     states={}
     while True:
         line = socket.recv_string()

@@ -7,7 +7,7 @@ def main(name, port, host):
     context = zmq.Context()
     socket = context.socket(zmq.REQ)
     socket.connect(f"tcp://{host}:{port}")
-    print(f"Connecting as '{name}' to server '{host}' on port '{port}'.")
+    print(f"Connecting to port '{port}' of host '{host}'.")
     count=0
     while True:
         if name!="_":
