@@ -1,5 +1,4 @@
 import sys
-import traceback
 import zmq
 import time
 
