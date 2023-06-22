@@ -25,7 +25,7 @@ def main(port, host):
             time.sleep(0.0005) # wait a bit
         current_time = time.time()
         elapsed_time = current_time - prev_time
-        if elapsed_time > 1/game_fps:             # check for frame rate
+        if elapsed_time > 1/game_fps: # when enough time has passed
             prev_time = current_time
             update_game_state(game_state,actions)
 

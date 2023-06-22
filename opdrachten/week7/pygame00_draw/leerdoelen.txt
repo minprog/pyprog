@@ -1,0 +1,21 @@
+
+- reuse
+class Vector2
+help(pygame.Vector2)
+
+- abstraction
+make player class (hide position, speed, color, ...)
+
+- inheritance (code duplicate)
+share position, speed, ... with Alien
+share functions
+
+- polymorphism
+list of different units
+more unit types
+
+- type hierarchy
+get_hit_points()
+use methods not isinstance()
+use single-dispatch for functions
+use double-dispatch (@multimethod)

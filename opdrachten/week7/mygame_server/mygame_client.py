@@ -25,7 +25,6 @@ def main(name, port, host):
     running = True
     while running:
         screen.fill(background_color)
-
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
