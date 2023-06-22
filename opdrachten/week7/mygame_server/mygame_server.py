@@ -11,7 +11,7 @@ def main(port, host):
     socket = context.socket(zmq.REP)
     socket.bind(f"tcp://{host}:{port}")
     print(f"Waiting for clients on port '{port}' on host '{host}'.")
-    start_time = time.time()
+    prev_time = time.time()
     game_fps = 60
     actions = {}
     game_state = Game_State(pygame.Vector2(800,600))
@@ -22,11 +22,12 @@ def main(port, host):
             actions[action.get_name()] = action
             socket.send_pyobj(game_state)
         except zmq.ZMQError as e:
-            time.sleep(0.0001) # wait a bit
-        elapsed_time = time.time() - start_time
-        if elapsed_time > 1/game_fps:           # check for frame rate 
+            time.sleep(0.0005) # wait a bit
+        current_time = time.time()
+        elapsed_time = current_time - prev_time
+        if elapsed_time > 1/game_fps:             # check for frame rate
+            prev_time = current_time
             update_game_state(game_state,actions)
-            actions.clear()
 
 def update_game_state(game_state, actions):
     for name, action in actions.items():
