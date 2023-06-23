@@ -20,11 +20,11 @@ class Alien_Seeker(Alien):
         Alien_Seeker.remaining+=1
         super().__del__()
         
-    def step(self):
+    def step(self,surface):
         diff = self.seek_unit.position - self.position
         diff.normalize_ip()
         self.speed += diff*0.05
-        self.position += self.speed
+        super().step(surface)
         
     def draw(self,surface):
         pygame.draw.circle(surface, self.color, self.position, self.radius, self.line_width)

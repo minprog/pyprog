@@ -2,6 +2,7 @@ import pygame
 import random
 from multimethod import multimethod
 
+from Static_Unit import Static_Unit
 from Unit import Unit
 from Player import Player
 from Alien import Alien
@@ -38,8 +39,8 @@ def main():
         spawn_units(units, surface, player)
             
         for unit in units:
-            unit.step()
-            unit.stay_on_screen(surface)
+            unit.step(surface)
+            #unit.stay_on_screen(surface)
             unit.draw(surface)
 
         for i1 in range(len(units)):
@@ -62,6 +63,13 @@ def spawn_units(units, surface, player):
     if Pill.remaining>0 and random.random()<Pill.spawn_chance:
         units.append( Pill(surface) )
 
+@multimethod
+def handle_collision(unit1: Unit,unit2: Static_Unit):
+    unit1.speed=-unit1.speed
+@multimethod
+def handle_collision(unit2: Static_Unit,unit1: Unit):
+    handle_collision(unit1,unit2)
+        
 @multimethod
 def handle_collision(unit1: Unit,unit2: Unit):
     unit1.speed, unit2.speed = unit2.speed, unit1.speed
