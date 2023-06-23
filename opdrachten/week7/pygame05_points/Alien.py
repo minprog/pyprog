@@ -5,7 +5,7 @@ from Unit import Unit
 
 class Alien(Unit):
     spawn_chance=0.01
-    remaining=10
+    remaining=12
     
     def __init__(self,surface):
         super().__init__()

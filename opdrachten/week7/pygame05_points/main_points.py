@@ -40,13 +40,10 @@ def main():
             
         for unit in units:
             unit.step(surface)
-            #unit.stay_on_screen(surface)
+            for unit2 in units:
+                if unit is not unit2 and unit.has_collision(unit2):
+                    handle_collision(unit,unit2)
             unit.draw(surface)
-
-        for i1 in range(len(units)):
-            for i2 in range(i1+1,len(units)):
-                if units[i1].has_collision(units[i2]):
-                    handle_collision(units[i1],units[i2])
         
         units = [u for u in units if u.is_alive()]
             
@@ -63,8 +60,14 @@ def spawn_units(units, surface, player):
     if Pill.remaining>0 and random.random()<Pill.spawn_chance:
         units.append( Pill(surface) )
 
+def bounce(unit1: Unit,unit2: Unit):
+    unit1.speed, unit2.speed = unit2.speed, unit1.speed
+    unit1.step_to_previous()
+    unit2.step_to_previous()
+        
 @multimethod
 def handle_collision(unit1: Unit,unit2: Static_Unit):
+    unit1.step_to_previous()
     unit1.speed=-unit1.speed
 @multimethod
 def handle_collision(unit2: Static_Unit,unit1: Unit):
@@ -72,13 +75,14 @@ def handle_collision(unit2: Static_Unit,unit1: Unit):
         
 @multimethod
 def handle_collision(unit1: Unit,unit2: Unit):
-    unit1.speed, unit2.speed = unit2.speed, unit1.speed
-        
+    bounce(unit1,unit2)
+    
 @multimethod
 def handle_collision(unit1: Player,unit2: Alien):
-    unit1.speed, unit2.speed = unit2.speed, unit1.speed
+    bounce(unit1,unit2)
     if unit1.is_pill_active():
         unit2.set_alive(False)
+        unit1.add_points(unit2.get_points())
 @multimethod
 def handle_collision(unit2: Alien,unit1: Player):
     handle_collision(unit1,unit2)
@@ -86,6 +90,7 @@ def handle_collision(unit2: Alien,unit1: Player):
 @multimethod
 def handle_collision(unit1: Player,unit2: Points):
     unit2.set_alive(False)
+    unit1.add_points(unit2.get_points())
 @multimethod
 def handle_collision(unit2: Points,unit1: Player):
     handle_collision(unit1,unit2)
@@ -94,6 +99,7 @@ def handle_collision(unit2: Points,unit1: Player):
 def handle_collision(unit1: Player,unit2: Pill):
     unit2.set_alive(False)
     unit1.set_pill()
+    unit1.add_points(unit2.get_points())
 @multimethod
 def handle_collision(unit2: Pill,unit1: Player):
     handle_collision(unit1,unit2)

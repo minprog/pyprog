@@ -34,3 +34,6 @@ class Static_Unit:
     def has_collision(self,other):
         position_difference = self.position - other.position
         return position_difference.length() < self.radius + other.radius
+
+    def get_points(self):
+        return 1

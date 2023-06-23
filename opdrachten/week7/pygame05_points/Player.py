@@ -12,6 +12,7 @@ class Player(Unit):
         self.position = pygame.Vector2(width//2,height//2)
         self.pill_time=0
         self.bullet_time=0
+        self.total_points = 0
         
     def keyboard(self,units):
         accel=0.5
@@ -49,3 +50,18 @@ class Player(Unit):
             if self.is_pill_ending():
                 color=(155,0,0)
         pygame.draw.circle(surface, color, self.position, self.radius, self.line_width)
+        border = 2
+        offset = 8
+        rect = pygame.Rect(offset, offset, border+self.total_points*4, 10)
+        red = (255,0,0)
+        pygame.draw.rect(surface, red, rect)
+        rect = pygame.Rect(offset, offset, border*2+400, 10)
+        white = (255,255,255)
+        pygame.draw.rect(surface, white, rect, border)
+
+    def add_points(self,points):
+        self.total_points += points
+        print("total_points:",self.total_points)
+
+    def get_total_points(self):
+        return self.total_points

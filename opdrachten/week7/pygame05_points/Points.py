@@ -20,3 +20,6 @@ class Points(Unit):
         
     def draw(self,surface):
         pygame.draw.circle(surface, self.color, self.position, self.radius)
+
+    def get_points(self):
+        return 2

@@ -1,5 +1,6 @@
 import pygame
 import random
+import copy
 
 from Static_Unit import Static_Unit
 
@@ -8,16 +9,21 @@ class Unit(Static_Unit):
     def __init__(self):
         super().__init__()
         self.speed = pygame.Vector2(0,0)
-
+        self.previous_position = self.position
+        
     def set_random_speed(self,speed):
         sx = random.random()*2*speed - speed
         sy = random.random()*2*speed - speed
         self.speed = pygame.Vector2(sx,sy)
 
     def step(self,surface):
+        self.previous_position = self.position.copy() # copy
         self.position += self.speed
         self.stay_on_screen(surface)
 
+    def step_to_previous(self):
+        self.position = self.previous_position
+        
     def stay_on_screen(self,surface):
         hit_wall = False
         width, height = surface.get_size()
