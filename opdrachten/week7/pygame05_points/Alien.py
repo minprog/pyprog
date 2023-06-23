@@ -17,7 +17,6 @@ class Alien(Unit):
 
     def __del__(self):
         Alien.remaining+=1
-        super().__del__()
         
     def draw(self,surface):
         pygame.draw.circle(surface, self.color, self.position, self.radius)

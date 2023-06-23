@@ -1,21 +1,38 @@
 
-- reuse
-class Vector2
-help(pygame.Vector2)
+- draw
 
 - abstraction
+move player with keyboard
+class Vector2, operators, help(pygame.Vector2)
 make player class (hide position, speed, color, ...)
 
 - inheritance (code duplicate)
-share position, speed, ... with Alien
-share functions
+share variables: position, speed, ... with Alien
+share functions: step, ...
+__init__, super()
 
 - polymorphism
 list of different units
-more unit types
+another unit type
+
+- (static) class variables
+color, radius, ...
+local, class, instance variables
+spawn chance
+counting different units: __del__, super()
+
+- operators/function of Vector2
+bounce
+bounce bug, prev_pos
+non-collisoin spawn?
 
 - type hierarchy
 get_hit_points()
-use methods not isinstance()
+use methods not isinstanceof()
 use single-dispatch for functions
 use double-dispatch (@multimethod)
+
+
+angle
+bullets
+mouse clicks
