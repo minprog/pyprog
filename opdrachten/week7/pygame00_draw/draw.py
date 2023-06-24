@@ -2,42 +2,28 @@ import pygame
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
+    screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)  # create a display window
     pygame.display.set_caption('drawing')
     clock = pygame.time.Clock()
-    background_colour = (0,0,0) # Red,Green,Blue (black)
-    
+    background_colour = (0, 0, 0)  # set background_color Red,Green,Blue components (black)
+
     running = True
-    while running:
-        screen.fill(background_colour)
+    while running: # keep looping 
+        screen.fill(background_colour)  # fill diplay with background_colour
+        
         for event in pygame.event.get():
-            if event.type == pygame.QUIT:
+            if event.type == pygame.QUIT:  # stop loop if diplay window is closed
                 running = False
 
-        surface=pygame.display.get_surface()
-        width, height = surface.get_size()
+        surface = pygame.display.get_surface()
+        width, height = surface.get_size()  # get size of display
 
-        red = (255,0,0)
-        rect = pygame.Rect(0, 0, width/3, height/2)
-        pygame.draw.rect(surface, red, rect)
-        rect = pygame.Rect(0, height/2, width/3, height/2)
-        pygame.draw.rect(surface, red, rect, 1)
-        
-        green = (0,255,0)
-        ellipse = (width/3, 0, width/3, height/2)
-        pygame.draw.ellipse(surface, green, ellipse)
-        ellipse = (width/3, height/2, width/3, height/2)
-        pygame.draw.ellipse(surface, green, ellipse, 1)
-        
-        blue = (0,0,255)
-        start_pos = (width*2/3 , 0)
-        end_pos = (width, height/2)
-        pygame.draw.aaline(surface, blue, start_pos, end_pos)
-        points = [ (width*2/3 , height/2), (width, height), (width,height/2), (width*2/3,height) ]
-        pygame.draw.aalines(surface, blue, False, points)
-        
-        pygame.display.flip()
-        clock.tick(60) # run at 60 frames per second
+        red = (255, 0, 0)  # color
+        rect = pygame.Rect(0, 0, width / 2, height / 2)  # create a rectangle
+        pygame.draw.rect(surface, red, rect, 4)  # draw rectangle with line_width 4
+
+        pygame.display.flip()  # update display with drawings
+        clock.tick(60)  # run loop at 60 frames per second
 
 if __name__ == "__main__":
     main()

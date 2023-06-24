@@ -19,7 +19,7 @@ def main():
         width, height = surface.get_size()
 
         line_thickness=4
-        n=8
+        n=5
         rect_width=width/n
         rect_height=height/n
         white=(255,255,255)
