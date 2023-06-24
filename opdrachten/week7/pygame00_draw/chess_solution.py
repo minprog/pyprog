@@ -3,14 +3,14 @@ import math
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
+    display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
     pygame.display.set_caption('chessboard')
     clock = pygame.time.Clock()
     background_colour = (0,0,0) # Red,Green,Blue (black)
     
     running = True
     while running:
-        screen.fill(background_colour)
+        display.fill(background_colour)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False

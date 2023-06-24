@@ -2,14 +2,14 @@ import pygame
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)  # create a display window
+    display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)  # create a display window
     pygame.display.set_caption('drawing')
     clock = pygame.time.Clock()
     background_colour = (0, 0, 0)  # set background_color Red,Green,Blue components (black)
 
     running = True
     while running: # keep looping 
-        screen.fill(background_colour)  # fill diplay with background_colour
+        display.fill(background_colour)  # fill diplay with background_colour
         
         for event in pygame.event.get():
             if event.type == pygame.QUIT:  # stop loop if diplay window is closed

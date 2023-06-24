@@ -14,7 +14,7 @@ def main(name, port, host):
 
     # start pygame
     pygame.init()
-    screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
+    display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
     pygame.display.set_caption('mygame')
     surface = pygame.display.get_surface()
     clock = pygame.time.Clock()
@@ -24,7 +24,7 @@ def main(name, port, host):
     
     running = True
     while running:
-        screen.fill(background_color)
+        display.fill(background_color)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False

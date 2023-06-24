@@ -13,7 +13,7 @@ from Bullet import Bullet
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
+    display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
     pygame.display.set_caption('player')
     clock = pygame.time.Clock()
     background_colour = (0,0,0) # Red,Green,Blue (black)
@@ -26,7 +26,7 @@ def main():
     
     running = True
     while running:
-        screen.fill(background_colour)
+        display.fill(background_colour)
         surface=pygame.display.get_surface()
         width, height = surface.get_size()
         
