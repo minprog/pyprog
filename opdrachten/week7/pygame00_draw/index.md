@@ -1,4 +1,4 @@
-# Pygame drawing
+# Pygame Drawing
 
 We gaan ons eigen computerspel maken met gebruik van de `pygame`
 module. Installeer `pygame` met:
