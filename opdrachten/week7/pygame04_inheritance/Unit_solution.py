@@ -2,20 +2,22 @@ import pygame
 
 class Unit:
 
-    def __init__(self,surface):
-        width, height = surface.get_size()
-        self.position = pygame.Vector2(width//2,height//2)
-        self.speed = pygame.Vector2(0,0)
-        self.radius = 20
-        self.color = (255,255,255)
-        self.line_width = 4
-        self.alive=True
+    def __init__(self, position, speed, radius=20, line_width=4, color=(255,255,255)):
+        """ Initializes a player in the middle of 'size'. """
+        self.position = position
+        self.speed = speed
+        self.radius = radius
+        self.line_width = line_width
+        self.color = color
 
-    def step(self):
+    def step(self, size):
+        """ Changes the position of player based on its speed. """
         self.position += self.speed
-
-    def stay_on_screen(self,surface):
-        width, height = surface.get_size()
+        self.stay_on_window(size)
+        
+    def stay_on_window(self, size):
+        """ Makes sure the players stays on the window with 'size'. """
+        width, height = size
         if self.position.x<self.radius:
             self.position.x = self.radius
             self.speed.x =- self.speed.x
@@ -29,5 +31,6 @@ class Unit:
             self.position.y=height-self.radius
             self.speed.y =- self.speed.y
 
-    def draw(self,surface):
+    def draw(self, surface):
+        """ Draws the player on the 'surface'. """
         pygame.draw.circle(surface, self.color, self.position, self.radius, self.line_width)
