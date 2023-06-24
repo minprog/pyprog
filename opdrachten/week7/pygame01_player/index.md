@@ -3,7 +3,9 @@
 Programma [player.py](player.py) laat zien hoe we een speler kunnen
 besturen met het toetsenbord. Als we dit programma uitvoeren zien we
 een witte cirkel die we kunnen bewegen met de cursor toetsen of met
-toetsen 'W','A','S','D'.
+toetsen 'W','A','S','D'. Lees de
+[key.html](https://www.pygame.org/docs/ref/key.html) pagina van pygame
+voor meer informatie over het lezen van toetsenbord.
 
 Voor de representatie van de positie van de speler gebruiken we class
 `pygame.Vector2` welke een X,Y coordinaat representeert. Met deze
