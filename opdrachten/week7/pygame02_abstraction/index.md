@@ -23,10 +23,12 @@ Programming door details in een class verbergen. Waarden worden
 'instance variabelen' van de class en de code gaat naar 'methoden' van
 de class.
 
+![Player.png](Player.png)
+
 Verberg de details van player in class `Player` in bestand
 [Player.py](Player.py) zodat we daarna deze class in de `main()`
-functie in [main.py](main.py) kunnen gebruiken. Vergelijk het
-abstractieniveau van deze `main()` met de `main()` in het vorige
-'player.py' programma.
+functie van [main.py](main.py) kunnen gebruiken. Vergelijk het
+abstractieniveau van deze `main()` functie met de `main()` in het
+vorige 'player.py' programma.
 
 ![player.gif](../pygame01_player/player.gif)
