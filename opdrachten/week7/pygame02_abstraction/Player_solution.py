@@ -3,6 +3,7 @@ import pygame
 class Player:
 
     def __init__(self, size):
+        """ Initializes a player in the middle of 'size'. """
         width, height = size
         self.position = pygame.Vector2(width//2,height//2)
         self.speed = pygame.Vector2(0,0)
@@ -11,6 +12,10 @@ class Player:
         self.color = (255,255,255)
     
     def move(self, keys):
+        """ 
+        Moves the player by changing its speed based on keyboard 'keys' pressed. 
+        Limits the speed by multipling it by '0.95'.
+        """
         acceleration = 0.5
         if keys[pygame.K_LEFT] or keys[pygame.K_a]:
             self.speed.x -= acceleration
@@ -23,10 +28,12 @@ class Player:
         self.speed *= 0.95
 
     def step(self, size):
+        """ Changes the position of player based on its speed. """
         self.position += self.speed
         self.stay_on_window(size)
         
     def stay_on_window(self, size):
+        """ Draws the player on the 'surface'. """
         width, height = size
         if self.position.x<self.radius:
             self.position.x = self.radius
