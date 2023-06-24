@@ -11,22 +11,22 @@ class Player:
         self.color = (255,255,255)
     
     def move(self, keys):
-        accel = 0.5
+        acceleration = 0.5
         if keys[pygame.K_LEFT] or keys[pygame.K_a]:
-            self.speed.x -= accel
+            self.speed.x -= acceleration
         if keys[pygame.K_RIGHT] or keys[pygame.K_d]:
-            self.speed.x += accel
+            self.speed.x += acceleration
         if keys[pygame.K_UP] or keys[pygame.K_w]:
-            self.speed.y -= accel
+            self.speed.y -= acceleration
         if keys[pygame.K_DOWN] or keys[pygame.K_s]:
-            self.speed.y += accel
+            self.speed.y += acceleration
         self.speed *= 0.95
 
     def step(self, size):
         self.position += self.speed
-        self.stay_in_window(size)
+        self.stay_on_window(size)
         
-    def stay_in_window(self, size):
+    def stay_on_window(self, size):
         width, height = size
         if self.position.x<self.radius:
             self.position.x = self.radius

@@ -10,7 +10,7 @@ def main():
     background_colour = (0, 0, 0)
 
     surface = pygame.display.get_surface()
-    player = Player(surface.get_size())
+    player = Player(surface.get_size())  # create a player object
 
     running = True
     while running:
@@ -21,9 +21,9 @@ def main():
                 running = False
 
         keys = pygame.key.get_pressed()
-        player.move(keys)
-        player.step(surface.get_size())
-        player.draw(surface)
+        player.move(keys)                # use the keyboard to change the speed of player
+        player.step(surface.get_size())  # move the player based on its speed, stay in the window
+        player.draw(surface)             # draw the player
         
         pygame.display.flip()
         clock.tick(60)
