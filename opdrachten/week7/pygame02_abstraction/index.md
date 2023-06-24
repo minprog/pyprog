@@ -28,3 +28,5 @@ Verberg de details van player in class `Player` in bestand
 functie in [main.py](main.py) kunnen gebruiken. Vergelijk het
 abstractieniveau van deze `main()` met de `main()` in het vorige
 'player.py' programma.
+
+![player.gif](../pygame01_player/player.gif)
