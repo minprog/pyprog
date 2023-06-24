@@ -15,8 +15,10 @@ class kunnen we makkelijk rekenen met coordinaten, bijvoorbeeld:
     print(v3) # [11, 22]
     print(v3 * 10) # [110, 220]
 
-Lees de [math.html][https://www.pygame.org/docs/ref/math.html] pagina
-van pygame voor meer informatie over deze Vector2 class.
+Lees de [math.html](https://www.pygame.org/docs/ref/math.html) pagina
+van pygame voor meer informatie over deze Vector2 class en de
+verschillende operatoren en functie die we kunnen gebruiken op deze
+class.
 
 
 ## Op het window blijven
@@ -26,10 +28,10 @@ van het window af kan bewegen:
 
 ![player.png](player.png)
 
-Pas het programma aan zodat de speler niet meer van het window af kan
-bewegen door de positie (Vector2) aan te passen als de waarde van het
-X of het Y te groot of te klein wordt. Zorg dat het ook goed werkt als
-het window een andere grootte krijgt:
+Pas het programma aan zodat de speler niet meer gedeeltelijk van het
+window af kan bewegen door de positie (Vector2) aan te passen als de
+waarde van het X of het Y te groot of te klein wordt. Zorg dat het ook
+goed werkt als het window een andere grootte krijgt:
 
 ![player_in_window.png](player_in_window.png)
 
@@ -61,11 +63,13 @@ maximale snelheid te zorgen:
     speed *= 0.95
     
 Keer ook de snelheid om als de speler van het window af beweegt om de
-speler tegen de rand te laten "stuiteren":
+speler tegen de rand van het window te laten "stuiteren":
 
     if position.x < radius:
         position.x = radius
         speed.x = -speed.x
     ...
-    
+
+Het resultaat zou er ongeveer zo uit moeten zien:
+
 ![player.gif](player.gif)
