@@ -68,8 +68,8 @@ kosten voor de brandstof bij op.
         self.fuel_per_kilometer = fuel_per_kilometer
     
     def cost_per_kilometer(self):
-        fuel_cost_per_kilometer = 2
-        return super().cost_per_kilometer() + self.fuel_per_kilometer * fuel_cost_per_kilometer
+        fuel_cost = 2
+        return super().cost_per_kilometer() + self.fuel_per_kilometer * fuel_cost
 
 Met deze class kunnen we nu de reiskosten vergelijken tussen twee
 auto's met verschillende kosten en brandstofverbruik:
@@ -99,5 +99,22 @@ Na nog eens 100000 kilometer is de duurdere auto met lager brandstofverbruik goe
     print("my_car1", my_car1) # my_car1 price: 10000 total_kilometers: 200000 cost_per_kilometer: 0.2
     print("my_car2", my_car2) # my_car2 price: 15000 total_kilometers: 200000 cost_per_kilometer: 0.175
 
+Dit voorbeeld laat zien dat inheritance code duplicatie kan helpen
+voorkomen doordat `Bicycle` en `Car` code overerven van
+`Vehicle`. Deze inheritance relaties wordt in een UML class diagram
+weergegeven als:
 
-![aliens.gif](aliens.gif)
+![Vehicle.png](Vehicle.png)
+
+
+## Inheritance Unit
+
+Schrijf een eigen `Unit` class in bestand 'Unit.py' waar de `Player`
+en de `Alien` class van overerven om zo veel mogelijk code duplicatie
+in ons spel te voorkomen.
+
+![Unit.png](Unit.png)
+
+Zorg dat het spel daarna nog goed werkt.
+
+![aliens.gif](../pygame03_aliens/aliens.gif)

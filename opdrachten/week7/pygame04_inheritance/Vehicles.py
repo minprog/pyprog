@@ -26,8 +26,8 @@ class Car(Vehicle):
         self.fuel_per_kilometer = fuel_per_kilometer
     
     def cost_per_kilometer(self):
-        fuel_cost_per_kilometer = 2
-        return super().cost_per_kilometer() + self.fuel_per_kilometer * fuel_cost_per_kilometer
+        fuel_cost = 2
+        return super().cost_per_kilometer() + self.fuel_per_kilometer * fuel_cost
 
 my_bicycle = Bicycle(200)
 my_car1 = Car(10000, 0.075)
