@@ -40,6 +40,8 @@ class Unit:
 
     def has_collision(self, other):
         """ Returns True if 'self' is in collision with 'other'. """
+        if other is self: # 'self' does not collide with 'self'
+            return False
         position_difference = self.position - other.position
         return position_difference.length() < self.radius + other.radius
 

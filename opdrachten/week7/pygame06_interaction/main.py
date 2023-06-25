@@ -34,7 +34,7 @@ def main():
         for unit in units:                 # for each unit
             unit.step(surface.get_size())  # move the unit based on its speed, stay in the window
             for other in units:
-                if unit is not other and unit.has_collision(other): # check for collision
+                if unit.has_collision(other): # check for collision
                     handle_collision(unit, other)
             unit.draw(surface)             # draw the unit
             
