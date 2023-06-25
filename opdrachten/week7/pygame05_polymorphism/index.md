@@ -28,7 +28,7 @@ waarde bij zichzelf optellen.
         data[index] += data[index]
     print(data) # [2, 4, 'oneone', 'twotwo']
 
-Dit geeft mogelijk voor verschillende types een ander effect.
+Dit geeft mogelijk voor verschillende types een verschillend effect.
 
 # Polymorphism, units list
 
