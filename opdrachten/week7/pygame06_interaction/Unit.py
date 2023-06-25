@@ -39,9 +39,15 @@ class Unit:
         pygame.draw.circle(surface, self.color, self.position, self.radius, self.line_width)
 
     def has_collision(self, other):
+        """ Returns True if 'self' is in collision with 'other'. """
         position_difference = self.position - other.position
         return position_difference.length() < self.radius + other.radius
 
+    def swap_speed(self, other):
+        """ Swaps the the speed of 'unit' and 'other'. """
+        self.speed, other.speed = other.speed, self.speed
+    
     def step_to_previous(self):
+        """ Step to previous position that so there is no collision. """
         self.position = self.previous_position
     

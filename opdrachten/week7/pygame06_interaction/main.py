@@ -41,10 +41,10 @@ def main():
         pygame.display.flip()
         clock.tick(60)
 
-def handle_collision(unit1, unit2):
-    unit1.speed, unit2.speed = unit2.speed, unit1.speed
-    unit1.step_to_previous()
-    unit2.step_to_previous()
+def handle_collision(unit, other):
+    unit.swap_speed(other)
+    unit.step_to_previous()
+    other.step_to_previous()
     
 if __name__ == "__main__":
     main()
