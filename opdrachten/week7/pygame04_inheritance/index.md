@@ -107,7 +107,7 @@ weergegeven als:
 ![Vehicle.png](Vehicle.png)
 
 
-## Inheritance Unit
+## Inheritance, Unit class
 
 Schrijf een eigen `Unit` class in bestand 'Unit.py' waar de `Player`
 en de `Alien` class van overerven om zo veel mogelijk code duplicatie
