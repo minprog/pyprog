@@ -40,13 +40,23 @@ Schrijf ook de `swap_speed()` methode in bestand [Unit.py](Unit.py) om
 de `speed` van twee units om te wisselen (nadat een botsing is
 gedetecteerd).
 
+
+## Het Resultaat
+
+Deze methoden zouden moeten resulteren in 'stuiterende' units.
+
+![interaction.gif](interaction.gif)
+
+
+## Meer Realistisch Stuiteren
+
 Het omwisselen van de snelheid is niet de meest realitische simulatie
 van twee stuiterende cirkels. Voor een meer realitische simulatie is
-wat wiskunde nodig voor het berekenen van hoeken, bijvoorbeeld:
+wat wiskunde nodig voor het berekenen van hoeken:
 
 ![realistic_bounce.png](realistic_bounce.png)
 
 Deze wiskunde is niet erg moeilijk, maar omdat de focus in dit vak op
 programmeren en niet op wiskunde ligt, houden we het bij het simpelweg
 omwisselen van de snelheid. Als je het leuk vindt kun je zelf een meer
-realitische simulatie schrijven.
+realitische botsingsimulatie schrijven.

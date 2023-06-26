@@ -44,8 +44,8 @@ def main():
 def handle_collision(unit, other):
     """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
     unit.swap_speed(other)
-    unit.step_to_previous()
-    other.step_to_previous()
+    unit.step_to_previous_position()
+    other.step_to_previous_position()
     
 if __name__ == "__main__":
     main()

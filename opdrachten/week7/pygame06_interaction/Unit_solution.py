@@ -49,7 +49,7 @@ class Unit:
         """ Swaps the the speed of 'unit' and 'other'. """
         self.speed, other.speed = other.speed, self.speed
     
-    def step_to_previous(self):
+    def step_to_previous_position(self):
         """ Step to previous position that so there is no collision. """
         self.position = self.previous_position
     
