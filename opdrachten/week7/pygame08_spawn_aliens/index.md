@@ -61,7 +61,7 @@ geleidelijk toevoegen van aliens:
             units.append( Alien(size) ) # spawn Alien
             
 Pas de `Alien` class aan zodat er in elke tijdstap met een kans van
-0.01 een Alien wordt toegevoegd, maar dat er nooit meer dan 10 aliens
+0.01 een Alien wordt toegevoegd, maar zorg dat er nooit meer dan 10 aliens
 in het spel zijn:
 
     class Alien(Unit):
@@ -69,4 +69,4 @@ in het spel zijn:
         spawn_chance = 0.01 # chance that we add an Alien in each time step
         ...
 
-![spawn.gif](spwan.gif)
+![spawn.gif](spawn.gif)
