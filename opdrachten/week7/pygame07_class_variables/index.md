@@ -34,10 +34,11 @@ class en wordt pas ge-delete als het hele programma wordt afgesloten
 (of als de 'class definition' wordt ge-delete wat zelden
 voorkomt). Een 'class variable' is in alle methoden van de class
 beschikbaar en wordt gedeeld door alle objecten van een class. Bij een
-'class variable' schrijven we in een methode de naam van de class als
-voorvoegsel:
+'class variable' schrijven we in een methode de naam van de class of
+'self.' als voorvoegsel:
 
     Example.b
+    self.b
 
 ## Instance Variable
 
