@@ -6,7 +6,7 @@ class Example:
         self.c = 300        # instance variable
 
     def __str__(self):
-        return f"b:{Example.b} c:{self.c}" # 'Example.b' and 'self.c' are available in each method
+        return f"b:{self.b} c:{self.c}" # 'self.b' and 'self.c' are available in each method
 
 def main():
     print("Example.b:", Example.b) # 'Example.b' is already available after the class is defined 
@@ -22,4 +22,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print("Example.b:", Example.b) # 'Example.b' is still available
+    print("Example.b:", Example.b) # however, 'Example.b' is still available

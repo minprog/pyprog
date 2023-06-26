@@ -2,9 +2,9 @@
 
 In een class komen drie verschillende categorieen van variabelen voor:
 
-- local variable
-- class variable
-- instance variable
+- local variables
+- class variables
+- instance variables
 
 Programma [Example.py](Example.py) geeft een voorbeeld van elke categorie:
 
@@ -16,7 +16,7 @@ Programma [Example.py](Example.py) geeft een voorbeeld van elke categorie:
             self.c = 300        # instance variable
 
         def __str__(self):
-            return f"b:{Example.b} c:{self.c}"  # 'Example.b' and 'self.c' are available in each method
+            return f"b:{self.b} c:{self.c}"  # 'self.b' and 'self.c' are available in each method
 
 ## Local Variable
 
@@ -42,11 +42,12 @@ beschikbaar en wordt gedeeld door alle objecten van een class. Bij een
 
 ## Instance Variable
 
-Een 'instance variable' (c) wordt aangemaakt voor ieder object (of
-'instance') van een class en wordt ge-delete als een object "out of
-scope" gaat. Een 'instance variable' is in alle methoden van de class
-beschikbaar en ieder object heeft haar eigen 'instance variables'. Bij
-een 'instance variable' schrijven we 'self.' als voorvoegsel:
+Een 'instance variable' (c) wordt aangemaakt voor ieder object (ook
+wel 'instance' genoemd) van een class en wordt ge-delete als een
+object "out of scope" gaat. Een 'instance variable' is in alle
+methoden van de class beschikbaar en ieder object heeft haar eigen
+'instance variables'. Bij een 'instance variable' schrijven we in een
+methode 'self.' als voorvoegsel:
 
     self.c
 
@@ -68,7 +69,7 @@ we `Example` class gebruiken in deze code:
 
     if __name__ == "__main__":
         main()
-        print("Example.b:", Example.b) # 'Example.b' is still available
+        print("Example.b:", Example.b) # however, 'Example.b' is still available
 
 wat tot deze output leidt:
 
@@ -80,7 +81,8 @@ wat tot deze output leidt:
 
 ## Kies de Juiste Categorie
 
-Als we een variable aan een class willen toevoegen moeten we de juiste categorie kiezen.
+Als we een variable aan een class willen toevoegen moeten we de juiste
+categorie kiezen.
 
 - kies in eerste instantie voor 'local variable'
 - behalve als dezelfde variable in meerdere methoden nodig is, kies dan voor 'class variable'
@@ -92,19 +94,26 @@ De `Alien` class van ons spel erft de `radius`, `line_width` en
 `color` variabelen van de `Unit` class als 'instance variables', maar
 omdat elk `Alien` object dezelfde waarden voor deze variabelen
 gebruikt is het beter deze waarden te delen zodat er minder variabelen
-(miner geheugen) nodig zijn. Vervang daarom deze 'instance variables'
+(minder geheugen) nodig zijn. Vervang daarom deze 'instance variables'
 in de `Unit` class door 'class variables' in de `Alien` class.
 
 Doordat deze 'instance variables' verdwijnen uit de `Unit` class en
-dus niet mee door de inheritance relatie worden ge-erft door de
-`Player` class moet ook de `Player` class dezelfde 'class variables'
-krijgen als de `Alien` class.
+dus niet meer worden ge-erft door de `Player` class moet ook de
+`Player` class dezelfde 'class variables' krijgen als de `Alien`
+class.
 
-Omdat iedere `Unit` wel haar eigen waarden voor de `position` en
-`speed` variabelen nodig heeft, blijven dat wel 'instance variables'.
+Omdat iedere unit wel haar eigen waarden voor de `position` en
+`speed` variabelen nodig heeft, blijven dat wel 'instance variables'
+in de Unit class.
 
 ## UML Class Diagram
 
 In een UML class diagram worden `class variables` onderstreept:
 
 ![class_variables.uxf](class_variables.png)
+
+## Interactie
+
+Zorg dat de interactie tussen units onverandert blijft.
+
+![interaction.gif](../pygame06_interaction/interaction.gif)
