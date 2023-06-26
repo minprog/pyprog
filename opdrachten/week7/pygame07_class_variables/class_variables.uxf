@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>340</x><y>320</y><w>150</w><h>130</h></coordinates><panel_attributes>Player
+--
+_radius: int_
+_line_width: int_
+_color: tuple_
+--
+Player(size: tuple)
+move(keys: dict)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>320</y><w>160</w><h>110</h></coordinates><panel_attributes>Alien
+--
+_radius: int_
+_line_width: int_
+_color: tuple_
+--
+Alien(size: tuple)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>90</y><w>280</w><h>160</h></coordinates><panel_attributes>Unit
+--
+position: Vector2
+speed: Vector2
+--
+Unit(position, speed, radius, line_width, color)
+step(size: tuple)
+stay_on_window(size: tuple)
+draw(surface: Surface)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>240</y><w>140</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>120;10;120;50;10;50;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>240</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;130;50;130;80</additional_attributes></element></diagram>
