@@ -44,7 +44,7 @@ Het omwisselen van de snelheid is niet de meest realitische simulatie
 van twee stuiterende cirkels. Voor een meer realitische simulatie is
 wat wiskunde nodig voor het berekenen van hoeken, bijvoorbeeld:
 
-[realistic_bounce.png](realistic_bounce.png)
+![realistic_bounce.png](realistic_bounce.png)
 
 Deze wiskunde is niet erg moeilijk, maar omdat de focus in dit vak op
 programmeren en niet op wiskunde ligt, houden we het bij het simpelweg
