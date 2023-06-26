@@ -88,7 +88,7 @@ categorie kiezen.
 - behalve als dezelfde variable in meerdere methoden nodig is, kies dan voor 'class variable'
 - behalve als ieder object haar eigen variabele nodig heeft, kies dan voor 'instance variable'
 
-## Alien class
+## Opdracht: Alien class
 
 De `Alien` class van ons spel erft de `radius`, `line_width` en
 `color` variabelen van de `Unit` class als 'instance variables', maar

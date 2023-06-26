@@ -13,7 +13,7 @@ kleiner maken.
 ![draw.png](draw.png)
 
 
-## Chess
+## Opdracht: Chess
 
 Schrijf zelf programma `chess.py` wat een 8x8 schaakbord tekent met rode
 ellipsen en blauwe lijnen:

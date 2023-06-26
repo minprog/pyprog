@@ -25,6 +25,8 @@ de class.
 
 ![Player.png](Player.png)
 
+## Opdracht: Player class
+
 Verberg de details van player in class `Player` in bestand
 [Player.py](Player.py) zodat we daarna deze class in de `main()`
 functie van [main.py](main.py) kunnen gebruiken. Vergelijk het

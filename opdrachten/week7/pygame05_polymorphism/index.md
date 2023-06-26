@@ -30,7 +30,7 @@ waarde bij zichzelf optellen.
 
 Dit geeft mogelijk voor verschillende types een verschillend effect.
 
-# Polymorphism, units list
+# Opdracht: Polymorphism, units list
 
 Voorkom code duplicatie in ons spel met gebruik van Polymorphism door
 een lijst van 'units' (in plaats van 'aliens') te maken waarin zowel

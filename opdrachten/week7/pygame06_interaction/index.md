@@ -17,7 +17,7 @@ toe om te detecteren of een stap van een unit tot een botsing leidt en
         """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
         unit.swap_speed(other)
         
-## Unit.has_collision()
+## Opdracht: Unit.has_collision()
 
 Schrijf de `has_collision()` methode in bestand [Unit.py](Unit.py) om
 een botsing tussen twee units the dectecteren. Of er een botsing is,
@@ -34,7 +34,7 @@ om te zorgen dat dit niet kan:
     if other is self: # 'self' does not collide with 'self'
         return False
 
-## Unit.swap_speed()
+## Opdracht: Unit.swap_speed()
 
 Schrijf ook de `swap_speed()` methode in bestand [Unit.py](Unit.py) om
 de `speed` van twee units om te wisselen (nadat een botsing is

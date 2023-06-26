@@ -23,7 +23,7 @@ verschillende operatoren en functie die we kunnen gebruiken op deze
 class.
 
 
-## Op het window blijven
+## Opdracht: Op het window blijven
 
 Een probleem in het [player.py](player.py) programma is dat de speler
 van het window af kan bewegen:
@@ -38,7 +38,7 @@ goed werkt als het window een andere grootte krijgt:
 ![player_in_window.png](player_in_window.png)
 
 
-## Acceleratie
+## Opdracht: Acceleratie
 
 Met toetsen passen we nu direct the positie van de speler aan, maar
 het spel is leuker als we de snelheid moeten aanpassen in plaats van

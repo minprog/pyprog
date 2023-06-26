@@ -1,8 +1,11 @@
 # Aliens
 
-In ons spel hebben we ook tegenspelers nodig, Aliens! Schrijf class
-Alien in bestand [Alien.py](Alien.py) zodat we in de `main()` van
-bestand [main.py](main.py) 5 aliens kunnen aanmaken.
+In ons spel hebben we ook tegenspelers nodig, Aliens! 
+
+## Opdracht: Alien class
+
+Schrijf class Alien in bestand [Alien.py](Alien.py) zodat we in de
+`main()` van bestand [main.py](main.py) 5 aliens kunnen aanmaken.
 
 ![aliens.gif](aliens.gif)
 
