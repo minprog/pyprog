@@ -62,7 +62,7 @@ Het verschil tussen deze catergorieen wordt duidelijker als
 we de `Student` class gebruiken in deze voorbeeldcode:
 
     def main():
-        print("Student.passing_grade:", Student.passing_grade) # 'passing_grade' is already available after the class definition
+        print("passing_grade:", Student.passing_grade) # 'passing_grade' is already available after the class definition
         
         s1 = Student()
         s1.add_grade(5)
@@ -80,7 +80,7 @@ we de `Student` class gebruiken in deze voorbeeldcode:
     
     if __name__ == "__main__":
         main()
-        print("Student.passing_grade:", Student.passing_grade) # 'passing_grade' remains available
+        print("passing_grade:", Student.passing_grade) # 'passing_grade' remains available
 
 wat tot deze uitvoer leidt:
 
