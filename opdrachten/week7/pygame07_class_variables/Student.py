@@ -15,7 +15,7 @@ class Student:
         return average >= type(self).passing_grade
 
 def main():
-    print("Student.passing_grade:", Student.passing_grade) # 'passing_grade' is available after the class definition
+    print("passing_grade:", Student.passing_grade) # 'passing_grade' is available after the class definition
     
     s1 = Student()
     s1.add_grade(5)
@@ -33,4 +33,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print("Student.passing_grade:", Student.passing_grade) # 'Student.passing_grade' remains available
+    print("passing_grade:", Student.passing_grade) # 'Student.passing_grade' remains available
