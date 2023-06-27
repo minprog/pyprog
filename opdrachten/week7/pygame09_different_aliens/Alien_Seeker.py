@@ -14,14 +14,14 @@ class Alien_Seeker(Alien):
         """ Initializes an Alien at a random position within 'size' and
         random speed between (-3,-3) and (+3,+3).
         """
-        super().__init__(size, c=0)
+        super().__init__(size, r=0)
         Alien_Seeker.remaining -= 1
         self.seek_unit = seek_unit
-
+        
     def __del__(self):
         """ Increases 'remaining' when an objects gets deleted. """
         Alien_Seeker.remaining += 1
-        super().__del__(size, c=0)
+        super().__del__(r=0)
         
     def step(self, size):
         """ Changes 'speed' to move to 'seek_unit' and changes the 'position' 
