@@ -106,9 +106,10 @@ om de juiste categorie te kiezen:
 De `Alien` class van ons spel erft de `radius`, `line_width` en
 `color` variabelen van de `Unit` class als 'instance variables', maar
 omdat elk `Alien` object dezelfde waarden voor deze variabelen
-gebruikt is het beter deze waarden te delen zodat er minder variabelen
-(minder geheugen) nodig zijn. Vervang daarom deze 'instance variables'
-in de `Unit` class door 'class variables' in de `Alien` class.
+gebruikt is het beter deze variabelen te delen zodat er minder variabelen
+nodig zijn en de intentie van de code duidelijker is. Vervang daarom
+deze 'instance variables' in de `Unit` class door 'class variables' in
+de `Alien` class.
 
 Doordat deze 'instance variables' verdwijnen uit de `Unit` class en
 dus niet meer worden ge-erft door de `Player` class moet ook de
