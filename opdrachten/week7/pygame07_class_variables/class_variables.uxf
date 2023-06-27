@@ -17,12 +17,12 @@ _color: tuple_
 Alien(size: tuple)
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>90</y><w>280</w><h>160</h></coordinates><panel_attributes>Unit
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>90</y><w>180</w><h>160</h></coordinates><panel_attributes>Unit
 --
 position: Vector2
 speed: Vector2
 --
-Unit(position, speed, radius, line_width, color)
+Unit(position, speed)
 step(size: tuple)
 stay_on_window(size: tuple)
 draw(surface: Surface)
