@@ -4,6 +4,8 @@ import random
 from Player import Player
 from Alien import Alien
 from Alien_Seeker import Alien_Seeker
+from Alien_Bouncer import Alien_Bouncer
+
 
 def main():
     pygame.init()
@@ -51,6 +53,8 @@ def spawn_aliens(units, size, player):
         units.append( Alien(size) )
     if Alien_Seeker.remaining > 0 and random.random() < Alien_Seeker.spawn_chance: # Alien_Seeker spawn condition
         units.append( Alien_Seeker(size, player) ) # spawn Alien_Seeker
+    if Alien_Bouncer.remaining > 0 and random.random() < Alien_Bouncer.spawn_chance: # Alien_Bouncer spawn condition
+        units.append( Alien_Bouncer(size) ) # spawn Alien_Seeker
         
 if __name__ == "__main__":
     main()
