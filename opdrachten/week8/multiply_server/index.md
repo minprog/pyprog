@@ -3,7 +3,7 @@
 Om verschillende Python programma's met elkaar te laten communiceren
 kunnen we zmq sockets gebruiken. Installeer zmq met:
 
-    `pip install zmq`
+    pip install zmq
     
 Programma [multiply_server.py](multiply_server.py) is een 'server' die
 een vermenigvuldig-service aanbiedt. Het 'bind' een zmq socket op een
@@ -113,7 +113,7 @@ verzoeken van meerdere clients.
 ## Meedere Servers
 
 Als we tegelijkertijd meerdere servers willen starten moeten we elke
-server een eigen 'port' geven. Poorten onder de 2000 zijn gereserveerd
+server een eigen poort geven. Poorten onder de 2000 zijn gereserveerd
 dus die zullen we niet gebruiken. Onze server gebruikt bij default
 multiplier 2 en poort 2345, maar met command-line-arguments kunnen we
 dat aanpassen. Gebruik bijvoorbeeld dit om een server die met 5
