@@ -13,13 +13,13 @@ class Alien_Bouncer(Alien):
         """ Initializes an Alien at a random position within 'size' and
         random speed between (-3,-3) and (+3,+3).
         """
-        super().__init__(size, r=0)
+        super().__init__(size)
         Alien_Bouncer.remaining -= 1
         
     def __del__(self):
         """ Increases 'remaining' when an objects gets deleted. """
         Alien_Bouncer.remaining += 1
-        super().__del__(r=0)
+        super().__del__()
         
     def step(self, size):
         """ Changes 'speed' to move to 'seek_unit' and changes the 'position' 
