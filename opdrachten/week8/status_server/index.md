@@ -2,7 +2,7 @@
 
 We passen de server iets aan zodat het de status van verschillende
 gebruikers kan doorgeven. Programma
-[status_server.py](status_server.py) is een 'server' die van
+[status_server.py](status_server.py) is een server die van
 verschillende gebruikers in een string de naam en status krijgt en
 deze doorgeeft aan andere gebruikers.
 
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     main(port, host)
 ```
 
-Programma [status_client.py](status_client.py) is een 'client' waarmee
+Programma [status_client.py](status_client.py) is een client waarmee
 een gebruiker haar status kan doorgeven en de status van alle
 gebruikers ontvangt.
 
@@ -110,7 +110,7 @@ status doorgeven:
 <td>
   
 ```console
-python status_client.py Jackson 
+$ python status_client.py Jackson 
 Connecting to port '2345' of host '127.0.0.1'.
 Jackson: I'm BAD 
 ----------------- 0
@@ -163,10 +163,10 @@ Connecting to port '2345' of host '127.0.0.1'.
 ## Protocol
 
 De client en server wisselen simpelweg strings uit. Een client stuurt
-haar naam en status als string. De server leest deze string en stop
-van elke gebruiker de laatst status op naam in een dictionary. Als
-antwoord stuurt de server steeds een string met alle informatie in de
-dictionary.
+haar naam en status als string gescheiden door ":". De server leest
+deze string en stopt van elke gebruiker de laatst status op naam in
+een dictionary. Als antwoord stuurt de server steeds een string met
+alle informatie in deze dictionary.
 
 ![status_server.png](status_server.png)
 
