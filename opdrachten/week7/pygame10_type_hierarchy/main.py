@@ -12,7 +12,7 @@ from Pill import Pill
 def main():
     pygame.init()
     display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
-    pygame.display.set_caption('pill')
+    pygame.display.set_caption('type hierarchy')
     clock = pygame.time.Clock()
     background_colour = (0, 0, 0)
 

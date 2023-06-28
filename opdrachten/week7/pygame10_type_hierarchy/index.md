@@ -65,11 +65,13 @@ code duplicatie te voorkomen:
 Voeg zelf `handle_collision()` functies toe zodat:
 
 - De `Player` 2 punten krijgt als het rood is en met een `Alien`
-  botst, de `Alien` verdwijnt na zo'n botsing.
+  botst, de `Alien` verdwijnt dan na zo'n botsing. Maar als de speler
+  niet rood is gaan we 5 punten af en stuiteren de units.
 
 - De 'speed' van een `Alien` omdraait als het met een `Pill` botst, de
   `Pill` behoudt zijn 'positions' na zo'n botsing.
   
 - Een `Pill` verdwijnt als een `Alien_Bouncer` er tegenaan botst, de
-  `Alien_Bouncer` behoud zijn 'speed' na zo'n botsing.
-  
+  `Alien_Bouncer` behoudt zijn 'speed' na zo'n botsing.
+
+![type_hierarchy.gif](type_hierarchy.gif)
