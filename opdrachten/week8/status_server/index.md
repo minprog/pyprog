@@ -6,82 +6,86 @@ gebruikers kan doorgeven. Programma
 verschillende gebruikers in een string de naam en status krijgt en
 deze doorgeeft aan andere gebruikers.
 
-    import sys
-    import zmq
+```python
+import sys
+import zmq
     
-    def split(line):
-        index = line.find(':')
-        return line[:index], line[index:]
+def split(line):
+    index = line.find(':')
+    return line[:index], line[index:]
     
-    def states_to_string(states):
-        s = ""
-        for name, state in states.items():
-            s += "- " + name + state + '\n'
-        return s
+def states_to_string(states):
+    s = ""
+    for name, state in states.items():
+        s += "- " + name + state + '\n'
+    return s
     
-    def main(port, host):
-        context = zmq.Context()
-        socket = context.socket(zmq.REP)
-        socket.bind(f"tcp://{host}:{port}")
-        print(f"Waiting for clients on port '{port}' on host '{host}'.")
-        states = {}
-        while True:
-            line = socket.recv_string()
-            name, status = split(line)
-            if name != '_':
-                print(f"received name: '{name}' status: '{status}'")
-                states[name] = status
-            socket.send_string(states_to_string(states))
+def main(port, host):
+    context = zmq.Context()
+    socket = context.socket(zmq.REP)
+    socket.bind(f"tcp://{host}:{port}")
+    print(f"Waiting for clients on port '{port}' on host '{host}'.")
+    states = {}
+    while True:
+        line = socket.recv_string()
+        name, status = split(line)
+        if name != '_':
+            print(f"received name: '{name}' status: '{status}'")
+            states[name] = status
+        socket.send_string(states_to_string(states))
     
     
-    if __name__ == "__main__":
-        port = 2345
-        host = "127.0.0.1"
-        if len(sys.argv) > 1:
-            port = int(sys.argv[1])
-        if len(sys.argv) > 2:
-            host = sys.argv[2]
-        main(port, host)
+if __name__ == "__main__":
+    port = 2345
+    host = "127.0.0.1"
+    if len(sys.argv) > 1:
+        port = int(sys.argv[1])
+    if len(sys.argv) > 2:
+        host = sys.argv[2]
+    main(port, host)
+```
 
 Programma [status_client.py](status_client.py) is een 'client' waarmee
 een gebruiker haar status kan doorgeven en de status van alle
 gebruikers ontvangt.
 
-    import sys
-    import zmq
-    import time
+```python
+import sys
+import zmq
+import time
     
-    def main(name, port, host):
-        context = zmq.Context()
-        socket = context.socket(zmq.REQ)
-        socket.connect(f"tcp://{host}:{port}")
-        print(f"Connecting to port '{port}' of host '{host}'.")
-        count = 0
-        while True:
-            if name != "_":
-                line = input(f"{name}: ")  # blocks
-                socket.send_string(f"{name}: {line}")  # send state
-            else:
-                time.sleep(2)  # every 2 seconds
-                socket.send_string("_:")  # request state
-            states = socket.recv_string() # receive answer
-            print("-----------------", count)
-            print(states)
-            count += 1
+def main(name, port, host):
+    context = zmq.Context()
+    socket = context.socket(zmq.REQ)
+    socket.connect(f"tcp://{host}:{port}")
+    print(f"Connecting to port '{port}' of host '{host}'.")
+    count = 0
+    while True:
+        if name != "_":
+            line = input(f"{name}: ")  # blocks
+            socket.send_string(f"{name}: {line}")  # send state
+        else:
+            time.sleep(2)  # every 2 seconds
+            socket.send_string("_:")  # request state
+        states = socket.recv_string() # receive answer
+        print("-----------------", count)
+        print(states)
+        count += 1
 
 
-    if __name__ == "__main__":
-        name = "_"
-        port = 2345
-        host = "127.0.0.1"
-        if len(sys.argv) > 1:
-            name = sys.argv[1]
-        if len(sys.argv) > 2:
-            port = int(sys.argv[2])
-        if len(sys.argv) > 3:
-            host = sys.argv[3]
-        main(name, port, host)
-    
+if __name__ == "__main__":
+    name = "_"
+    port = 2345
+    host = "127.0.0.1"
+    if len(sys.argv) > 1:
+        name = sys.argv[1]
+    if len(sys.argv) > 2:
+        port = int(sys.argv[2])
+    if len(sys.argv) > 3:
+        host = sys.argv[3]
+    main(name, port, host)
+```
+
 ## Client en Server Starten
 
 We starten eerst de status_server met:
@@ -155,3 +159,17 @@ Connecting to port '2345' of host '127.0.0.1'.
 - Jackson: I'm BAD
 - Madonna: I am a material girl
 ```
+
+## Protocol
+
+De client en server wisselen simpelweg strings uit. Een client stuurt
+haar naam en status als string. De server leest deze string en stop
+van elke gebruiker de laatst status op naam in een dictionary. Als
+antwoord stuurt de server steeds een string met alle informatie in de
+dictionary.
+
+![status_server.png](status_server.png)
+
+## Opdracht: Spelen
+
+Lees de code en speel even met clients en servers.
