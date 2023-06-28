@@ -4,7 +4,7 @@ from Alien import Alien
 
 class Alien_Seeker(Alien):
     remaining = 2
-    spawn_chance = 0.005 # chance that we add an Alien in each time step
+    spawn_chance = 0.005 # chance that we add an Alien_Seeker in each time step
     radius = 12
     line_width = 0
     color = (255,255,0) # red+green color

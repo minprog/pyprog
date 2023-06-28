@@ -51,7 +51,7 @@ variable' `player` welke gebruikt wordt om een `Alien_Seeker` object
 naar aan te trekken. Dit wordt gedaan door in `step()` methode de
 `speed` van een `Alien_Seeker` object steeds een beetje aan te passen
 zodat het naar de speler toe beweegt. In de `draw()` methode wordt tot
-slot nog een rechthoekje getekend om groter een visueel verschil te
+slot nog een rechthoekje getekend om een groter visueel verschil te
 maken.
 
 Bestand [main.py](main.py) is aangepast zodat nu ook objecten van type
@@ -59,11 +59,12 @@ Alien_Seeker gespawned worden.
 
 ## Opdracht: Alien_Bouncer
 
-Voeg zelf een `Alien_Bouncer` class toe en pas bestand
+Voeg zelf nog een een `Alien_Bouncer` class toe en pas bestand
 [main.py](main.py) aan zodat er maximiaal 3 objecten van dit type
 Alien gespawned worden. Een `Alien_Bouncer` wordt niet aangetrokken
 tot de speler maar tot de grond en heeft een plus-teken in plaats van
-een rechthoek.
+een rechthoekje.
 
 ![Alien_Bouncer.png](Alien_Bouncer.png)
 
+![bouncer.gif](bouncer.gif)

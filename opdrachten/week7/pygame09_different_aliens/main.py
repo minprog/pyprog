@@ -8,7 +8,7 @@ from Alien_Seeker import Alien_Seeker
 def main():
     pygame.init()
     display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
-    pygame.display.set_caption('interaction')
+    pygame.display.set_caption('bouncer')
     clock = pygame.time.Clock()
     background_colour = (0, 0, 0)
 

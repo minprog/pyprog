@@ -6,11 +6,10 @@ from Alien import Alien
 from Alien_Seeker import Alien_Seeker
 from Alien_Bouncer import Alien_Bouncer
 
-
 def main():
     pygame.init()
     display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
-    pygame.display.set_caption('interaction')
+    pygame.display.set_caption('bouncher')
     clock = pygame.time.Clock()
     background_colour = (0, 0, 0)
 

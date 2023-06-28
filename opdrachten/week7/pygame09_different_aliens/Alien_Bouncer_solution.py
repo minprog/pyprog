@@ -3,8 +3,8 @@ import pygame
 from Alien import Alien
 
 class Alien_Bouncer(Alien):
-    remaining = 4
-    spawn_chance = 0.008 # chance that we add an Alien in each time step
+    remaining = 3
+    spawn_chance = 0.008 # chance that we add an Alien_Bouncer in each time step
     radius = 14
     line_width = 0
     color = (0,255,255) # green+blue color
