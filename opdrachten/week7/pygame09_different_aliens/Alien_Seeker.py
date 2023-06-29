@@ -29,11 +29,11 @@ class Alien_Seeker(Alien):
         super().step(size) # call 'step()' method of parent
         difference = self.player.position - self.position # difference between 'player' and 'self'
         difference.normalize_ip() # scale difference to length 1
-        self.speed += difference*0.05 # change speed a bit in direction of 'unit'
+        self.speed += difference * 0.05 # change speed a bit in direction of 'player'
 
     def draw(self, surface):
         super().draw(surface) # call 'draw()' method of parent
-        size = pygame.Vector2(Alien_Seeker.radius*1.2, Alien_Seeker.radius*1.2)
-        rect = pygame.Rect(self.position-size/2, size)
+        size = pygame.Vector2(Alien_Seeker.radius * 1.2, Alien_Seeker.radius * 1.2)
+        rect = pygame.Rect(self.position-size / 2, size)
         black = (0,0,0)
         pygame.draw.rect(surface, black, rect, 3) # draw a rectangle on top

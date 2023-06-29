@@ -38,12 +38,12 @@ class Alien_Seeker(Alien):
         super().step(size) # call 'step()' method of parent
         difference = self.player.position - self.position # difference between 'player' and 'self'
         difference.normalize_ip() # scale difference to length 1
-        self.speed += difference*0.05 # change speed a bit in direction of 'unit'
+        self.speed += difference * 0.05 # change speed a bit in direction of 'player'
 
     def draw(self, surface):
         super().draw(surface) # call 'draw()' method of parent
-        size = pygame.Vector2(Alien_Seeker.radius*1.2, Alien_Seeker.radius*1.2)
-        rect = pygame.Rect(self.position-size/2, size)
+        size = pygame.Vector2(Alien_Seeker.radius * 1.2, Alien_Seeker.radius * 1.2)
+        rect = pygame.Rect(self.position-size / 2, size)
         black = (0,0,0)
         pygame.draw.rect(surface, black, rect, 3) # draw a rectangle on top
 ```
@@ -61,11 +61,12 @@ Alien_Seeker gespawned worden.
 
 ## Opdracht: Alien_Bouncer
 
-Voeg zelf nog een een `Alien_Bouncer` class toe en pas bestand
+Voeg zelf nog een `Alien_Bouncer` class toe en pas bestand
 [main.py](main.py) aan zodat er maximiaal 3 objecten van dit type
 Alien gespawned worden. Een `Alien_Bouncer` wordt niet aangetrokken
-tot de speler maar tot de grond en heeft een plus-teken in plaats van
-een rechthoekje.
+tot de speler maar tot de grond (hint: `self.speed.y += 0.05`). Het
+heeft een `(0,255,255)` kleur, een `radius` van 14 en plus-teken in
+plaats van een rechthoekje.
 
 ![Alien_Bouncer.png](Alien_Bouncer.png)
 
