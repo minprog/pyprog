@@ -3,7 +3,7 @@
 Met 'command line arguments' kunnen we informatie aan een programma
 geven zonder dat we de `input()` functie gebruiken. Programma
 [command_line_arguments.py](command_line_arguments.py) laat zien hoe
-dit kan. Dit programma import eerst `sys` en print vervolgens de lijst
+dit werkt. Dit programma import eerst `sys` en print vervolgens de lijst
 `sys.argv` welke alle 'command line arguments' bevat:
 
 ```python
@@ -20,13 +20,13 @@ $ python command_line_arguments.py aap noot mies
 ['command_line_arguments.py', 'aap', 'noot', 'mies']
 ```
 
-dan wordt in het programmma de lijst ['command_line_arguments.py',
-'aap', 'noot', 'mies'] geprint. Het eerste element in de `sys.argv`
-lijst is de naam van het programma gevolgd door wat we daar achter als
-argumenten meegeven. Op deze manier kunnen we dus vooraf bij de start
-van het programma al informatie meegeven zodat in veel gevallen in het
-programma geen `input()` functie meer nodig om informatie aan de
-gebruiker te vragen.
+dan wordt in het programmma de lijst met strings
+['command_line_arguments.py', 'aap', 'noot', 'mies'] geprint. Het
+eerste element in de `sys.argv` lijst is de naam van het programma
+gevolgd door wat we daar achter als argumenten meegeven. Op deze
+manier kunnen we dus vooraf bij de start van het programma al
+informatie meegeven zodat in veel gevallen in het programma geen
+`input()` functie meer nodig om informatie aan de gebruiker te vragen.
 
 ## Gemiddelde Cijfers Berekenen
 
