@@ -36,3 +36,13 @@ use double-dispatch (@multimethod)
 angle
 bullets
 mouse clicks
+
+
+-----------------
+Feedback Simon:
+
+- uitleg "command line arguments" bij cijfers
+- Vector="Coordinaat", en benoem de x en y in speed beschrijving, bij 
+- noem het "automatisch vertragen", player speed
+- expliciet noemen speed.y aanpassen in elke tijdstap bij Alien_Bouncer
+- geen "class variables" concept
