@@ -11,7 +11,7 @@ class Alien(Unit):
         """
         width, height = size
         position = pygame.Vector2(random.random()*width,
-                                       random.random()*height)
+                                  random.random()*height)
         speed = 3
         speed = pygame.Vector2(random.random()*speed*2-speed,
                                random.random()*speed*2-speed)

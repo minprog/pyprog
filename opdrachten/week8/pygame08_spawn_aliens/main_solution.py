@@ -45,7 +45,12 @@ def handle_collision(unit, other):
     unit.swap_speed(other)
 
 def spawn_aliens(units, size):
-    """ Spawns Alies in 'units' list. """
+    """ Spawns Alies in 'units' list based on its 'spawn_chance' and 'remaining' count. """
+    max_nr_units = 15
+    alien_spawn_chance = 0.01
+    if len(units) < max_nr_units:
+        if random.random() < alien_spawn_chance:
+            units.append( Alien(size) ) # spawn Alien
     
 if __name__ == "__main__":
     main()
