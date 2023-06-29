@@ -17,10 +17,12 @@ mutable types: `list`, `set`, `dictionary`, alle andere types
 In dit voorbeeldprogrammma verwijzen variabelen `a` en `b` naar een
 waarde van het type `int` welke immutable is.
 
-    a = 1
-    b = a
-    a += 100
-    print("a:", a, "b:", b)
+```python
+a = 1
+b = a
+a += 100
+print("a:", a, "b:", b)
+```
 
 Als we dit programma uitvoeren in
 [PythonTutor](https://pythontutor.com/) met de optie "render all
@@ -50,11 +52,13 @@ verschillende waarden hebben.
 
 In dit voorbeeldprogramma verwijzen `a` en `b` naar een waarde van het type `str`. 
 
-    a = "hello"
-    b = a
-    a += " world"
-    print(f"a: '{a}' b: '{b}'")
-    
+```python
+a = "hello"
+b = a
+a += " world"
+print(f"a: '{a}' b: '{b}'")
+```
+
 Omdat een `str` net als een `int` 'immutable' is, gebeurt hier
 hetzelfde en zien we na het printen dat `a` en `b` hier ook twee
 verschillende waarden hebben.
@@ -70,11 +74,13 @@ Maar in dit voorbeeldprogramma verwijzen `a` en `b` naar een waarde
 van het type `list` wat een `mutable` type is. Het resultaat is nu
 anders.
 
-    a = [1, 2, 3]
-    b = a
-    a += [100]
-    print("a:", a, "b:", b)
-    
+```python
+a = [1, 2, 3]
+b = a
+a += [100]
+print("a:", a, "b:", b)
+```
+
 Na uitvoeren van regel 1 verwijst variable `a` naar de lijst
 `[1, 2, 3]`.
 
@@ -103,12 +109,14 @@ Als we willen dat `a` en `b` wel ieder hun eigen waarde hebben dan
 moeten we expliciet een kopie maken met functie `copy.copy()` vooraf
 aan de aanpassing van `a`.
 
-    import copy
+```python
+import copy
 
-    a = [1, 2, 3]
-    b = copy.copy(a)
-    a += [100]
-    print("a:", a, "b:", b)
+a = [1, 2, 3]
+b = copy.copy(a)
+a += [100]
+print("a:", a, "b:", b)
+```
 
 ![](mm_list_copy5.png){: style="width:20rem;"}
 
@@ -128,16 +136,18 @@ voor een verschil bij het aanroepen van functies. In het onderstaande
 voorbeeldprogramma roepen we functie `add_100()` aan met een waarde van
 een 'immutable' en 'mutable' type.
 
-    def add_100(immu: int, mu: list) -> None:
-        immu +=  100
-        mu   += [100]
-        print("2) immu:", immu, "mu:", mu)
+```python
+def add_100(immu: int, mu: list) -> None:
+    immu +=  100
+    mu   += [100]
+    print("2) immu:", immu, "mu:", mu)
     
-    immutable =  1
-    mutable   = [1, 2, 3]
-    print("1) immutable:", immutable, "mutable:", mutable)
-    add_100(immutable, mutable)
-    print("3) immutable:", immutable, "mutable:", mutable)
+immutable =  1
+mutable   = [1, 2, 3]
+print("1) immutable:", immutable, "mutable:", mutable)
+add_100(immutable, mutable)
+print("3) immutable:", immutable, "mutable:", mutable)
+```
 
 Vooraf aan de functieaanroep worden de waarden geprint als:
 
@@ -180,12 +190,14 @@ Bij geneste mutable types zijn er meerdere kopieer-opties waar je uit
 kunt kiezen. In het onderstaande programma is `a` een geneste lijst
 (lijst van lijsten van ...) welke we gaan "kopieeren".
 
-    import copy
+```python
+import copy
 
-    a = [[1, 2], [3, [4]]]
-    b = a
-    c = copy.copy(a)
-    d = copy.deepcopy(a)
+a = [[1, 2], [3, [4]]]
+b = a
+c = copy.copy(a)
+d = copy.deepcopy(a)
+```
 
 Na regel 3 is `a` een verwijzing naar de geneste lijst:
 
