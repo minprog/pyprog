@@ -4,27 +4,29 @@ Een praktische toepassing van 'class variables' is om bij te houden
 hoeveel objecten er van een bepaald type in gebruik zijn. Programma
 [Counter.py](Counter.py) geeft een voorbeeld:
 
-    class Counter:
-        count = 0                      # class variable
-    
-        def __init__(self):            # gets called when a Counter object is created
-            Counter.count += 1
-            print("count up:",Counter.count)
-            
-        def __del__(self):             # gets called when a Counter object is deleted
-            Counter.count -= 1
-            print("count down:",Counter.count)
-    
-    def main():
-        my_list = []
-        for i in range(3): # adds 3 Counter objects
-            my_list.append( Counter() )
-        # my_list goes "out of scope" and gets deleted together with objects
-    
-    if __name__ == "__main__":
-        print("count:", Counter.count) # count: 0
-        main()
-        print("count:", Counter.count) # count: 0
+```python
+class Counter:
+    count = 0                      # class variable
+
+    def __init__(self):            # gets called when a Counter object is created
+        Counter.count += 1
+        print("count up:",Counter.count)
+
+    def __del__(self):             # gets called when a Counter object is deleted
+        Counter.count -= 1
+        print("count down:",Counter.count)
+
+def main():
+    my_list = []
+    for i in range(3): # adds 3 Counter objects
+        my_list.append( Counter() )
+    # my_list goes "out of scope" and gets deleted together with objects
+
+if __name__ == "__main__":
+    print("count:", Counter.count) # count: 0
+    main()
+    print("count:", Counter.count) # count: 0
+```
 
 Bij de start van het programma heeft `Counter.count` de waarde 0. Elke
 keer als een `Counter` object wordt aangemaakt wordt de `__init__()`
@@ -55,18 +57,22 @@ wordt nu vooraf aan de loop alleen de `player` toegevoegd, en het
 roept in de loop een nieuwe `spawn_aliens()` functie aan voor het
 geleidelijk toevoegen van aliens:
 
-    def spawn_aliens(units, size):
-        """ Spawns Alies in 'units' list based on its 'spawn_chance' and 'remaining' count. """
-        if Alien.remaining > 0 and random.random() < Alien.spawn_chance: # Alien spawn condition
-            units.append( Alien(size) ) # spawn Alien
-            
+```python
+def spawn_aliens(units, size):
+    """ Spawns Alies in 'units' list based on its 'spawn_chance' and 'remaining' count. """
+    if Alien.remaining > 0 and random.random() < Alien.spawn_chance: # Alien spawn condition
+        units.append( Alien(size) ) # spawn Alien
+```
+
 Pas de `Alien` class aan zodat er in elke tijdstap met een kans van
 0.01 een Alien wordt toegevoegd, maar zorg dat er nooit meer dan 10 aliens
 in het spel zijn:
 
-    class Alien(Unit):
-        remaining = 10      # number of Aliens that remain to be added to game
-        spawn_chance = 0.01 # chance that we add an Alien in each time step
-        ...
+```python
+class Alien(Unit):
+    remaining = 10      # number of Aliens that remain to be added to game
+    spawn_chance = 0.01 # chance that we add an Alien in each time step
+    ...
+```
 
 ![spawn.gif](spawn.gif)

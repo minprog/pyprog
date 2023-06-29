@@ -6,17 +6,19 @@ Ons spel heeft interactie nodig tussen de units. We gaan units laten
 toe om te detecteren of een stap van een unit tot een botsing leidt en
 `handle_collision()` om deze botsing vervolgens af te handelen.
 
-    for unit in units:                        # for each unit
-        unit.step(surface.get_size())         # move the unit based on its speed, stay in the window
-        for other in units:
-            if unit.has_collision(other):     # check for collision with other units
-                handle_collision(unit, other) # handle the collision
-        unit.draw(surface)                    # draw the unit
-        
-    def handle_collision(unit, other):
-        """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
-        unit.swap_speed(other)
-        
+```python
+for unit in units:                        # for each unit
+    unit.step(surface.get_size())         # move the unit based on its speed, stay in the window
+    for other in units:
+        if unit.has_collision(other):     # check for collision with other units
+            handle_collision(unit, other) # handle the collision
+    unit.draw(surface)                    # draw the unit
+
+def handle_collision(unit, other):
+    """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
+    unit.swap_speed(other)
+```
+
 ## Opdracht: Unit.has_collision()
 
 Schrijf de `has_collision()` methode in bestand [Unit.py](Unit.py) om
@@ -31,8 +33,10 @@ dan 3 regels, het kan zelfs met 1 regel.
 Omdat een unit niet met zichzelf mag botsen is er al code toegevoegd
 om te zorgen dat dit niet kan:
 
-    if other is self: # 'self' does not collide with 'self'
-        return False
+```python
+if other is self: # 'self' does not collide with 'self'
+    return False
+```
 
 ## Opdracht: Unit.swap_speed()
 

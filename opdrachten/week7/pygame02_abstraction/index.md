@@ -4,12 +4,14 @@ De `main()` functie in het vorige 'player.py' programma is al behoorlijk
 lang geworden doordat het alle low-level details van player bevat. De
 details van player bestaan uit waarden/eigenschappen:
 
-    position = pygame.Vector2(width // 2, height // 2)
-    speed = pygame.Vector2(0, 0)
-    radius = 20
-    line_width = 4
-    color = (255, 255, 255)
-    
+```python
+position = pygame.Vector2(width // 2, height // 2)
+speed = pygame.Vector2(0, 0)
+radius = 20
+line_width = 4
+color = (255, 255, 255)
+```
+
 en uit code die deze waarden manipuleren en gebruiken. Object-Oriented
 Programming stelt ons in staat om deze details te verbergen zodat we
 een player kunnen gebruiken zonder over alle details te hoeven

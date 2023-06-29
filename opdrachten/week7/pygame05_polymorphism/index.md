@@ -5,14 +5,17 @@ In de `main()` functie in bestand
 duplicatie. Eerst worden namelijk de `step()` en `draw()` functie van
 the Player object aangeroepen:
 
-    player.step(surface.get_size())
-    player.draw(surface)
-    
+```python
+player.step(surface.get_size())
+player.draw(surface)
+```
+
 en later die van de Alien objecten:
 
-    alien.step(surface.get_size())
-    alien.draw(surface)
-    
+```python
+alien.step(surface.get_size())
+alien.draw(surface)
+```
 Deze code duplicatie kunnen we voorkomen door gebruik van
 'Polymorphism'. Met gebruik van Polymorphism kunnen we code
 schrijven die werkt op verschillende types.
@@ -23,10 +26,12 @@ Een simpel voorbeeld van Polymorphism is deze code waar we over een
 lijst met waarden van verschillende types (`int` en `str`) lopen en elke
 waarde bij zichzelf optellen.
 
-    data = [1, 2, "one", "two"]
-    for index in range(len(data)):
-        data[index] += data[index]
-    print(data) # [2, 4, 'oneone', 'twotwo']
+```python
+data = [1, 2, "one", "two"]
+for index in range(len(data)):
+    data[index] += data[index]
+print(data) # [2, 4, 'oneone', 'twotwo']
+```
 
 Dit geeft mogelijk voor verschillende types een verschillend effect.
 
