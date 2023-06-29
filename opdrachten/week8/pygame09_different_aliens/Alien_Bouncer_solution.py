@@ -3,26 +3,17 @@ import pygame
 from Alien import Alien
 
 class Alien_Bouncer(Alien):
-    remaining = 3
-    spawn_chance = 0.008 # chance that we add an Alien_Bouncer in each time step
-    radius = 14
-    line_width = 0
-    color = (0,255,255) # green+blue color
     
     def __init__(self, size):
-        """ Initializes an Alien at a random position within 'size' and
-        random speed between (-3,-3) and (+3,+3).
+        """ Initializes an Alien_Seeker at a random position within 'size' and
+        random speed between (-3,-3) and (+3,+3). This alien seeks the 'player' unit
         """
         super().__init__(size)
-        Alien_Bouncer.remaining -= 1
-        
-    def __del__(self):
-        """ Increases 'remaining' when an objects gets deleted. """
-        Alien_Bouncer.remaining += 1
-        super().__del__()
+        self.radius = 14
+        self.color = (0,255,255) # green+blue color
         
     def step(self, size):
-        """ Changes 'speed' to move to 'seek_unit' and changes the 'position' 
+        """ Changes 'speed' to move to 'player' and changes the 'position' 
         based on its 'speed'.
         """
         super().step(size) # call 'step()' method of parent
