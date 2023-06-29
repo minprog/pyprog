@@ -1,10 +1,41 @@
 # Cijfers
 
-Gegeven zijn onderstaande twee bestanden (files), ieder met het
-cijfers van 10 studenten in vaste volgorde voor deeltentamen1 en
-deeltentamen2. We gaan de eindcijfers voor het vak berekenen waarbij
-deeltentamen1 een wegingsfactor van 3 heeft en deeltentamen2 een
-wegingsfactor van 1 heeft.
+Met 'command line arguments' kunnen we informatie aan een programma
+geven zonder dat we de `input()` functie gebruiken. Programma
+[command_line_arguments.py](command_line_arguments.py) laat zien hoe
+dit kan. Dit programma import eerst `sys` en print vervolgens de lijst
+`sys.argv` welke alle 'command line arguments' bevat:
+
+```python
+import sys
+
+print( sys.argv )
+```
+
+Als we dit programma nu (in de 'command line' of 'shell') starten en
+daarachter bijvoorbeeld "aap noot mies" als argumenten meegeven:
+
+```console
+$ python command_line_arguments.py aap noot mies
+['command_line_arguments.py', 'aap', 'noot', 'mies']
+```
+
+dan wordt in het programmma de lijst ['command_line_arguments.py',
+'aap', 'noot', 'mies'] geprint. Het eerste element in de `sys.argv`
+lijst is de naam van het programma gevolgd door wat we daar achter als
+argumenten meegeven. Op deze manier kunnen we dus vooraf bij de start
+van het programma al informatie meegeven zodat in veel gevallen in het
+programma geen `input()` functie meer nodig om informatie aan de
+gebruiker te vragen.
+
+## Gemiddelde Cijfers Berekenen
+
+We gaan 'command line arugments' gebruiken om gemiddelde cijfers van
+studenten te berekenen. Gegeven zijn onderstaande twee bestanden,
+ieder met het cijfers van 10 studenten in vaste volgorde voor
+respectievelijk deeltentamen1 en deeltentamen2. De cijfers van
+deeltentamen1 hebben een wegingsfactor van 3 terwijl en cijfers van
+deeltentamen2 een wegingsfactor van 1 hebben.
 
 bestand [deeltentamen1.txt](deeltentamen1.txt):
 
@@ -34,7 +65,8 @@ bestand [deeltentamen2.txt](deeltentamen2.txt):
 
 ## Code
 
-Voor dit doel is programma [multiply_file.py](multiply_file.py) al beschikbaar:
+Voor dit doel is programma [multiply_file.py](multiply_file.py) al
+beschikbaar:
 
 ```python
 import sys
@@ -44,35 +76,32 @@ def multiply_file(input_filename: str, multiplier: float, output_filename: str):
         with open(input_filename, "r") as input_file:
             for line in input_file:
                 value = float(line) * multiplier
-                value = round(value, 2) # round to 2 decimals
+                value = round(value, 2)  # round to 2 decimals
                 output_file.write(str(value) + '\n')
 
 if __name__ == '__main__':
-    # print( sys.argv ) # uncomment to print all command line arguments
-    if len(sys.argv) <= 3:
-        print("Too few arguments.")
+    if len(sys.argv) <= 3: # not enough command line arguments given
+        print("Too few command line arguments.")
         print("usage:", sys.argv[0], "<input_filename> <multiplier> <output_filename>")
         print("Multiplies all values in <input_filename> with <multiplier> and writes the result to <output_filename>.")
     else:
-        input_filename=sys.argv[1]
-        multiplier=float(sys.argv[2])
-        output_filename=sys.argv[3]
-        multiply_file(input_filename,multiplier,output_filename)
+        input_filename = sys.argv[1]    # read 'input_filename' from the command line arguments
+        multiplier = float(sys.argv[2]) # read 'multiplier' from the command line arguments
+        output_filename = sys.argv[3]   # read 'output_filename' from the command line arguments
+        multiply_file(input_filename, multiplier, output_filename)
 ```
 
-Bij het uitvoeren van dit programma kunnen [command line
-arguments](https://www.tutorialspoint.com/python/python_command_line_arguments.htm)
-worden meegegeven waarmee je informatie aan een programma kan geven,
-anders dan met de `input()` functie. Dit voorbeeld laat zien hoe we
-alle waarden in invoerbestand 'deeltentamen1.txt' kunnen inlezen,
-vermenigvuldingen met '100.0', en wegschrijven naar uitvoerbestand
-'voorbeeld.txt':
+Bij het uitvoeren van dit programma kunnen we met 'command line
+arguments' de `input_filename`, `multiplier` en `output_filename`
+meegeven als argumenten. Dit voorbeeld laat zien hoe we alle waarden
+in `input_filename` 'deeltentamen1.txt' kunnen inlezen, vermenigvuldingen
+met `multiplier` '100.0', en wegschrijven naar `output_filename` 'voorbeeld.txt':
 
 ```console
-    $ python multiply_file.py deeltentamen1.txt 100.0 voorbeeld.txt
+$ python multiply_file.py deeltentamen1.txt 100.0 voorbeeld.txt
 ```
 
-Als we hierna uitvoerbestand 'voorbeeld.txt' openen zien we het resultaat:
+Als we hierna de bestand 'voorbeeld.txt' openen zien we het resultaat:
 
     580.0
     730.0
@@ -102,7 +131,7 @@ in bestand 'eindcijfers.txt' komen te staan.
 Soms is het handig om niet 1 programma te schrijven om een probleem op
 te lossen, maar om verschillende programma's te schrijven die ieder
 een apart deelprobleem oplossen en zo in samenwerking tot de
-eindoplossing komen. Bestanden kunnen daarbij goed gebruikt worden om
-tussenresultaten in op te slaan en 'command line argument' om
-tussenresultaten door te geven aan het volgende programma. Deze
+eindoplossing komen. Bestanden kunnen daarbij gebruikt worden om
+tussenresultaten op te slaan en 'command line arguments' om de namen
+van deze bestanden door te geven aan volgende programma's. Deze
 opdracht is daar een eenvoudig voorbeeld van.
