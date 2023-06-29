@@ -7,7 +7,7 @@ def add_files(input_filename1: str, input_filename2: str, output_filename: str):
                 for line1 in input_file1:
                     line2 = input_file2.readline()
                     value = float(line1) + float(line2)
-                    value = round(value, 2)  # round to 2 decimals
+                    value = round(value, 2)  # round to max 2 decimals
                     output_file.write(str(value) + '\n')
 
 if __name__ == '__main__':

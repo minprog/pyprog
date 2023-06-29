@@ -5,7 +5,7 @@ def multiply_file(input_filename: str, multiplier: float, output_filename: str):
         with open(input_filename, "r") as input_file:
             for line in input_file:
                 value = float(line) * multiplier
-                value = round(value, 2)  # round to 2 decimals
+                value = round(value, 2)  # round to max 2 decimals
                 output_file.write(str(value) + '\n')
 
 if __name__ == '__main__':
