@@ -36,27 +36,29 @@ bestand [deeltentamen2.txt](deeltentamen2.txt):
 
 Voor dit doel is programma [multiply_file.py](multiply_file.py) al beschikbaar:
 
-    import sys
+```python
+import sys
 
-    def multiply_file(input_filename: str, multiplier: float, output_filename: str):
-        with open(output_filename, "w") as output_file:
-            with open(input_filename, "r") as input_file:
-                for line in input_file:
-                    value = float(line) * multiplier
-                    value = round(value, 2) # round to 2 decimals
-                    output_file.write(str(value) + '\n')
-            
-    if __name__ == '__main__':
-        # print( sys.argv ) # uncomment to print all command line arguments
-        if len(sys.argv) <= 3:
-            print("Too few arguments.")
-            print("usage:", sys.argv[0], "<input_filename> <multiplier> <output_filename>")
-            print("Multiplies all values in <input_filename> with <multiplier> and writes the result to <output_filename>.")
-        else:
-            input_filename=sys.argv[1]
-            multiplier=float(sys.argv[2])
-            output_filename=sys.argv[3]
-            multiply_file(input_filename,multiplier,output_filename)
+def multiply_file(input_filename: str, multiplier: float, output_filename: str):
+    with open(output_filename, "w") as output_file:
+        with open(input_filename, "r") as input_file:
+            for line in input_file:
+                value = float(line) * multiplier
+                value = round(value, 2) # round to 2 decimals
+                output_file.write(str(value) + '\n')
+
+if __name__ == '__main__':
+    # print( sys.argv ) # uncomment to print all command line arguments
+    if len(sys.argv) <= 3:
+        print("Too few arguments.")
+        print("usage:", sys.argv[0], "<input_filename> <multiplier> <output_filename>")
+        print("Multiplies all values in <input_filename> with <multiplier> and writes the result to <output_filename>.")
+    else:
+        input_filename=sys.argv[1]
+        multiplier=float(sys.argv[2])
+        output_filename=sys.argv[3]
+        multiply_file(input_filename,multiplier,output_filename)
+```
 
 Bij het uitvoeren van dit programma kunnen [command line
 arguments](https://www.tutorialspoint.com/python/python_command_line_arguments.htm)
@@ -66,8 +68,10 @@ alle waarden in invoerbestand 'deeltentamen1.txt' kunnen inlezen,
 vermenigvuldingen met '100.0', en wegschrijven naar uitvoerbestand
 'voorbeeld.txt':
 
-    python multiply_file.py deeltentamen1.txt 100.0 voorbeeld.txt
-    
+```console
+    $ python multiply_file.py deeltentamen1.txt 100.0 voorbeeld.txt
+```
+
 Als we hierna uitvoerbestand 'voorbeeld.txt' openen zien we het resultaat:
 
     580.0
