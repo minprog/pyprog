@@ -3,15 +3,15 @@
 We gaan ons eigen computerspel maken met gebruik van de `pygame`
 module. Installeer `pygame` met:
 
-    pip install pygame
-    
+```console
+$ pip install pygame
+```
 Programma [draw.py](draw.py) laat zien hoe we kunnen tekening met
 pygame. Als we dit programma uitvoeren zien we een window met een rode
 rechthoek die de helft van het window vult, ook als we het window
 kleiner maken.
 
 ![draw.png](draw.png)
-
 
 ## Opdracht: Chess
 
