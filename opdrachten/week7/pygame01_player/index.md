@@ -7,22 +7,25 @@ toetsen 'W','A','S','D'. Lees de
 [key.html](https://www.pygame.org/docs/ref/key.html) pagina van pygame
 voor meer informatie over het lezen van toetsenbord.
 
-Voor de representatie van de positie van de speler gebruiken we class
-`pygame.Vector2` welke een X,Y coordinaat representeert. Met deze
-class kunnen we makkelijk rekenen met coordinaten, bijvoorbeeld:
+Voor de positie van de speler gebruiken we class `pygame.Vector2`
+welke een X,Y coordinaat representeert. Met deze class kunnen we
+makkelijk rekenen met coordinaten, bijvoorbeeld:
 
 ```python
-v1 = pygame.Vector2(1, 2)
-v2 = pygame.Vector2(10, 20)
-v3 = v1 + v2
-print(v3) # [11, 22]
-print(v3 * 10) # [110, 220]
+import pygame
+
+v1 = pygame.Vector2(1, 2)   # create a coordinate
+v2 = pygame.Vector2(10, 20) # create a coordinate
+v3 = v1 + v2                # add two coordinates together
+print(v3)                   # prints: [11, 22]
+v3 = v3 * 10                # multiply coordinate by 10
+print(v3)                   # prints: [110, 220]
 ```
 
 Lees de [math.html](https://www.pygame.org/docs/ref/math.html) pagina
 van pygame voor meer informatie over deze Vector2 class en de
-verschillende operatoren en functie die we kunnen gebruiken op deze
-class.
+verschillende operatoren en functie die we kunnen gebruiken op
+objecten van deze class.
 
 
 ## Opdracht: Op het window blijven
@@ -42,47 +45,53 @@ goed werkt als het window een andere grootte krijgt:
 
 ## Opdracht: Acceleratie
 
-Met toetsen passen we nu direct the positie van de speler aan, maar
-het spel is leuker als we de snelheid moeten aanpassen in plaats van
-de positie. Zet de snelheid van de speler initieel op 0,0 met:
+Met toetsen passen we nu direct de positie van de speler aan, maar het
+spel is leuker als we de snelheid kunnen aanpassen in plaats van de
+positie. De snelheid heeft vervolgens in elke tijdstap weer een effect
+op de positie. Om dit voor elkaar te krijgen zetten we eerst de
+snelheid van de speler initieel op 0,0 met:
 
 ```python
 speed = pygame.Vector2(0, 0)
 ```
 
-Pas in plaats van de positie deze snelheid aan bij het indrukken van
-de toetsen:
+Pas dan bij het indrukken van de toetsen deze snelheid aan, in plaats
+van de positie:
 
 ```python
 acceleration = 0.5
 if keys[pygame.K_LEFT] or keys[pygame.K_a]:
-        speed.x -= acceleration
-...
+        speed.x -= acceleration  # accelerate to the left
+# do the same for other keys
 ```
 
 Tel in iedere iteratie van de loop deze snelheid op bij de huidige
-positie van de speler:
+positie van de speler zodat de speler beweegt op basis van haar
+snelheid:
 
 ```python
 position += speed
 ```
 
-Vermenigvuldig in iedere iteratie de snelheid met '0.95' om voor een
-maximale snelheid te zorgen:
+Vermenigvuldig in iedere iteratie de snelheid met '0.95' zodat de
+speler automatisch vertraagd en na enige tijd stil komt te staan
+als er geen toetsen meer worden ingedrukt:
 
 ```python
 speed *= 0.95
 ```
 
-Keer ook de snelheid om als de speler van het window af beweegt om de
-speler tegen de rand van het window te laten "stuiteren":
+Keer ook de richting van de snelheid om als de speler van het window
+af beweegt om zo de speler tegen de rand van het window te laten
+"stuiteren":
 
 ```python
 if position.x < radius:
     position.x = radius
     speed.x = -speed.x
-...
+# so the same for other window borders
 ```
-Het resultaat zou er ongeveer zo uit moeten zien:
+
+Het resultaat zou er zo uit moeten zien:
 
 ![player.gif](player.gif)
