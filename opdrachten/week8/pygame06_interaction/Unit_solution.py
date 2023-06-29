@@ -11,7 +11,6 @@ class Unit:
         self.line_width = line_width
         self.color = color
         
-        
     def step(self, size):
         """ Changes the position of player based on its speed. """
         self.previous_position = self.position.copy()
