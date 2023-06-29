@@ -36,7 +36,7 @@ if __name__ == "__main__":
     port = 2345
     host = "127.0.0.1"
     if len(sys.argv)>1:
-    multiplier = int(sys.argv[1])
+        multiplier = int(sys.argv[1])
     if len(sys.argv)>2:
         port = int(sys.argv[2])
     if len(sys.argv)>3:
