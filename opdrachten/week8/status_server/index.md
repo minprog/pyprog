@@ -141,7 +141,7 @@ Omdat de client moet wachten op invoer van de gebruiker moet een
 gebruiker wel steeds een nieuwe status intypen voordat het de nieuwe
 status van andere gebruikers kan ontvangen. Daarom kan je ook in de
 client de naam "_" opgeven. Met deze naam wordt niet op invoer van de
-gebruiker gewacht. In plaats daarvan wordt alleen elke twee seconden
+gebruiker gewacht, in plaats daarvan wordt elke twee seconden
 de status van alle gebruikers bij de server opgevraagd:
 
 ```console
