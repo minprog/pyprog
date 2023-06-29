@@ -3,8 +3,8 @@
 _radius: int_
 _line_width: int_
 _color: tuple_
-pill_time
-total_points = 0
+pill_time : float
+total_points : int
 --
 Player(size: tuple)
 move(keys: dict)
