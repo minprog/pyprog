@@ -105,7 +105,7 @@ uitvoeren en er wordt gevraagd om een bedrag, kies daar '46':
 
 Het programma werkt maar het is duidelijke dat de
 denominatie-aantallen niet kloppen want het totaal voor de
-verschillende denominatie-anntallen is hoger dan 46, er zit dus een
+verschillende denominatie-aantallen is hoger dan 46, er zit dus een
 logische fout in het pogramma, een **bug**. Maar deze bug kan overal
 zitten, hoe vinden we nu waar de bug zit?
 

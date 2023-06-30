@@ -2,8 +2,7 @@
 
 Het spel heeft meer soorten Aliens nodig. In bestand
 [Alien_Seeker.py](Alien_Seeker.py) is een Alien_Seeker class
-gedefinieerd welke inherit van `Alien`. De radius van dit Alien type
-is 12, en de kleur is (255,255,0):
+gedefinieerd welke inherit van `Alien`: 
 
 ```python
 import pygame
@@ -38,24 +37,25 @@ class Alien_Seeker(Alien):
         pygame.draw.rect(surface, black, rect, 3)  # draw a rectangle on top
 ```
 
-Objecten van class `Alien_Seeker` krijgen in `__init__()` een
-'instance variable' `player` waar dit type alien tot aangetrokken
-wordt. Dit aantrekken wordt gedaan door in `step()` methode de `speed`
-steeds een beetje aan te passen zodat het naar de `player` toe
-beweegt. In de `draw()` methode wordt tot slot nog een rechthoekje
-getekend om een groter visueel verschil te maken.
+Objecten van dit type krijgen in `__init__()` methode een radius van
+`12`, de kleur `(255,255,0)`, en een 'instance variable' `player` waar dit
+type alien tot aangetrokken wordt. Dit aantrekken wordt gedaan door in
+de `step()` methode de `speed` steeds een beetje aan te passen zodat
+objecten van dit type naar de `player` toe bewegen. In de `draw()`
+methode wordt tot slot nog een rechthoekje getekend om een groter
+visueel verschil te maken.
 
 Bestand [main.py](main.py) is aangepast zodat nu ook objecten van type
-Alien_Seeker gespawned worden met een kans van 0.003.
+Alien_Seeker gespawned worden met een kans van `0.003`.
 
 ## Opdracht: Alien_Bouncer
 
 Voeg zelf nog een `Alien_Bouncer` class toe. Een `Alien_Bouncer` wordt
 niet aangetrokken tot de speler maar tot de grond (hint: `self.speed.y
-+= 0.05`). Het heeft een `(0,255,255)` kleur, een `radius` van 14 en
-plus-teken in plaats van een rechthoekje. Pas ook bestand
-[main.py](main.py) aan zodat objecten van type Alien_Bouncer gespawned
-worden met een kans van 0.003.
++= 0.05`). Het heeft een `radius` van 14, de kleur `(0,255,255)`, en
+er wordt een plus-teken getekend in plaats van een rechthoekje. Pas
+ook bestand [main.py](main.py) aan zodat er ook objecten van type
+Alien_Bouncer gespawned worden met een kans van `0.003`.
 
 ![Alien_Bouncer.png](Alien_Bouncer.png)
 
