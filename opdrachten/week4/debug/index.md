@@ -79,12 +79,12 @@ Als we het bovenstaande programma uitvoeren:
     SyntaxError: '[' was never closed
     
 krijgen we een 'SyntaxError' die probeert uit te leggen wat er mis
-is. Soms helpt het om een websearch (`SyntaxError [ was never closed`)
-te doen als je de uitleg niet helemaal begrijpt. Let bij een error
-vooral op de filename (`compute_change.py`) en het regelnummer (`line
-37`) om snel de plek in de code te vinden waar de error zich
-voordoet. Soms krijg je meerdere regels met filenames en regelnummers,
-begin dan onderdaan.
+is. Soms helpt het om een websearch (op "SyntaxError [ was never
+closed") te doen als je de uitleg niet helemaal begrijpt. Let bij een
+error vooral op de filename (hier "compute_change.py") en het
+regelnummer (hier "line 37") om snel de plek in de code te vinden waar
+de error zich voordoet. Soms krijg je meerdere regels met filenames en
+regelnummers, begin dan onderaan.
 
 **Opdracht1:** Los deze Syntax Error op.
 
