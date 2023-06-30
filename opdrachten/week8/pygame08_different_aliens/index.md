@@ -1,8 +1,8 @@
 # Different Aliens
 
 Het spel heeft meer soorten Aliens nodig. In bestand
-[Alien_Seeker.py](Alien_Seeker.py) is een Alien_Seeker class
-gedefinieerd welke inherit van `Alien`: 
+[Alien_Seeker.py](Alien_Seeker.py) is een nieuwe Alien_Seeker class
+gedefinieerd welke inherit van `Alien`:
 
 ```python
 import pygame

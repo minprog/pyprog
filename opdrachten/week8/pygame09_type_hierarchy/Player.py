@@ -4,15 +4,13 @@ import time
 from Unit import Unit
 
 class Player(Unit):
-    radius = 20
-    line_width = 4
-    color = (255,255,255)
 
     def __init__(self, size):
         """ Initializes a player in the middle of 'size'. """
         width, height = size
-        super().__init__( pygame.Vector2(width//2,height//2),
-                          pygame.Vector2(0,0) )
+        position = pygame.Vector2(width//2,height//2)
+        speed = pygame.Vector2(0,0)
+        super().__init__(position, speed)
         self.pill_time = 0
         self.total_points = 0
         
@@ -33,21 +31,25 @@ class Player(Unit):
         self.speed *= 0.95
 
     def eat_pill(self):
-        self.pill_time = time.time() # record time we eat the pill
+        """ Records the time that we last ate a pill. """
+        self.pill_time = time.time()
 
     def has_pill(self):
+        """ Returns True if we ate a pill less than 7 seconds ago. """
         time_since_eat_pill = time.time() - self.pill_time
         return time_since_eat_pill < 7
 
     def add_points(self,points):
+        """ Adds 'points' to the 'total_points'. """
         self.total_points += points
         self.total_points = max(self.total_points, 0)
 
     def get_total_points(self):
+        """ Returns the 'total_points'. """
         return self.total_points
     
     def draw(self, surface):
-        """ Draws the player on the 'surface'. """
+        """ Draws the player on the 'surface' and a bar with the 'total_points'. """
         c = self.color
         r = self.radius
         lw = self.line_width

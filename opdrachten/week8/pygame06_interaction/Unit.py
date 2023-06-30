@@ -3,7 +3,7 @@ import pygame
 class Unit:
 
     def __init__(self, position, speed, radius=20, line_width=4, color=(255,255,255)):
-        """ Initializes a player in the middle of 'size'. """
+        """ Initializes a Unit. """
         self.position = position
         self.speed = speed
         self.radius = radius
@@ -11,12 +11,12 @@ class Unit:
         self.color = color
         
     def step(self, size):
-        """ Changes the position of player based on its speed. """
+        """ Changes the position of Unit based on its speed. """
         self.position += self.speed
         self.stay_on_window(size)
         
     def stay_on_window(self, size):
-        """ Makes sure the players stays on the window with 'size'. """
+        """ Makes sure the Unit stays on the window with 'size'. """
         width, height = size
         if self.position.x<self.radius:
             self.position.x = self.radius
@@ -32,7 +32,7 @@ class Unit:
             self.speed.y =- self.speed.y
 
     def draw(self, surface):
-        """ Draws the player on the 'surface'. """
+        """ Draws the Unit on the 'surface'. """
         pygame.draw.circle(surface, self.color, self.position, self.radius, self.line_width)
 
     def has_collision(self, other):

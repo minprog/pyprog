@@ -33,7 +33,7 @@ def main():
         keys = pygame.key.get_pressed()
         player.move(keys)
 
-        spawn_aliens(units, surface.get_size(), player) # now also add player for Alien_Seekers to lock on to
+        spawn_aliens(units, surface.get_size(), player) # spawn aliens in the units list
         
         for unit in units:
             unit.step(surface.get_size())
@@ -60,17 +60,49 @@ def handle_collision(unit1: Player, unit2: Pill):
 @multimethod    
 def handle_collision(unit2: Pill, unit1: Player):
     handle_collision(unit1, unit2)
-    
+
+@multimethod    
+def handle_collision(unit1: Player, unit2: Alien):
+    if unit1.has_pill():
+        unit2.set_alive(False)
+        unit1.add_points(2)
+    else:
+        unit1.swap_speed(unit2)
+        unit1.add_points(-5)
+@multimethod    
+def handle_collision(unit2: Alien, unit1: Player):
+    handle_collision(unit1, unit2)
+
+@multimethod    
+def handle_collision(unit1: Alien, unit2: Pill):
+    unit1.speed = -unit1.speed
+@multimethod    
+def handle_collision(unit2: Pill, unit1: Alien):
+    pass
+
+@multimethod    
+def handle_collision(unit1: Alien_Bouncer, unit2: Pill):
+    unit2.set_alive(False)
+@multimethod    
+def handle_collision(unit2: Pill, unit1: Alien_Bouncer):
+    pass
+
 def spawn_aliens(units, size, player):
     """ Spawns Alies in 'units' list based on its 'spawn_chance' and 'remaining' count. """
-    if Alien.remaining > 0 and random.random() < Alien.spawn_chance:
-        units.append( Alien(size) )
-    if Alien_Seeker.remaining > 0 and random.random() < Alien_Seeker.spawn_chance:
-        units.append( Alien_Seeker(size, player) )
-    if Alien_Bouncer.remaining > 0 and random.random() < Alien_Bouncer.spawn_chance:
-        units.append( Alien_Bouncer(size) )
-    if Pill.remaining > 0 and random.random() < Pill.spawn_chance:
-        units.append( Pill(size) )
-        
+    max_nr_units = 15
+    alien_spawn_chance = 0.01
+    alien_seeker_spawn_chance = 0.003
+    alien_bouncer_spawn_chance = 0.003
+    pill_spawn_chance = 0.002
+    if len(units) < max_nr_units:
+        if random.random() < alien_spawn_chance:
+            units.append( Alien(size) ) # spawn Alien
+        if random.random() < alien_seeker_spawn_chance:
+            units.append( Alien_Seeker(size, player) ) # spawn Alien_Seeker
+        if random.random() < alien_bouncer_spawn_chance:
+            units.append( Alien_Bouncer(size) ) # spawn Alien_Bouncer
+        if random.random() < pill_spawn_chance:
+            units.append( Pill(size) ) # spawn Alien_Bouncer
+            
 if __name__ == "__main__":
     main()
