@@ -93,7 +93,7 @@ def spawn_aliens(units, size, player):
     alien_spawn_chance = 0.01
     alien_seeker_spawn_chance = 0.003
     alien_bouncer_spawn_chance = 0.003
-    pill_spawn_chance = 0.002
+    pill_spawn_chance = 0.01
     if len(units) < max_nr_units:
         if random.random() < alien_spawn_chance:
             units.append( Alien(size) ) # spawn Alien
@@ -101,8 +101,8 @@ def spawn_aliens(units, size, player):
             units.append( Alien_Seeker(size, player) ) # spawn Alien_Seeker
         if random.random() < alien_bouncer_spawn_chance:
             units.append( Alien_Bouncer(size) ) # spawn Alien_Bouncer
-        if random.random() < pill_spawn_chance:
-            units.append( Pill(size) ) # spawn Alien_Bouncer
+    if Pill.count<1 and random.random() < pill_spawn_chance:
+        units.append( Pill(size) ) # spawn Alien_Bouncer
             
 if __name__ == "__main__":
     main()
