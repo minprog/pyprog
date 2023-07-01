@@ -3,7 +3,7 @@ import random
 def prisoner_search(boxes, prisoner):
     box = prisoner
     nr_tries = len(boxes) // 2 
-    for tries in range(nr_tries):
+    for _ in range(nr_tries):
         slip = boxes[box]
         if slip == prisoner:
             return True
