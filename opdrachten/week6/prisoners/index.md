@@ -6,7 +6,7 @@ puzzel met 100 gevangenen die ieder hun eigen nummer moeten vinden in
 100 dozen met ieder maar 50 zoekpogingen. De verassende
 oplossings-stragegie van de puzzel wordt ook uitgelegd.
 
-![prisoners.png](prisoners.png)
+[![prisoners.png](prisoners.png)](https://youtu.be/iSNsgj1OCLA)
 
 Schrijf een programma dat controleert of deze strategie inderdaad
 werkt. Voer 1000 keer de strategie uit met 100 gevangenen en 100 dozen
