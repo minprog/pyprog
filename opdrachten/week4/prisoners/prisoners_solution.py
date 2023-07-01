@@ -1,14 +1,13 @@
 import random
 
-def prisoner_search(boxes,prisoner):
-    i = prisoner
+def prisoner_search(boxes, prisoner):
+    box = prisoner
     nr_tries = len(boxes) // 2 
     for tries in range(nr_tries):
-        box = i
         slip = boxes[box]
         if slip == prisoner:
             return True
-        i = slip
+        box = slip
     return False
 
 def all_prisoners_search(boxes):
@@ -26,6 +25,7 @@ def runs(n):
         success = all_prisoners_search(boxes)
         if success:
             success_count += 1
-    print(success_count/n)
+    print(success_count / n)
 
-runs(1000)
+if __name__ == "__main__":
+    runs(1000)
