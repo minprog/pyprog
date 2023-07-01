@@ -23,7 +23,7 @@ functie:
 ```python
 import random
 
-boxes = [0,1,2,3,4]
+boxes = [0, 1, 2, 3, 4]
 random.shuffle(boxes)
 print(boxes)
 ```
