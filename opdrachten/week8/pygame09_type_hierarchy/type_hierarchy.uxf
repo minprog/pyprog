@@ -1,65 +1,49 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>320</y><w>160</w><h>230</h></coordinates><panel_attributes>Player
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>370</x><y>320</y><w>150</w><h>90</h></coordinates><panel_attributes>Player
 --
-_radius: int_
-_line_width: int_
-_color: tuple_
-pill_time : float
-total_points : int
+
 --
 Player(size: tuple)
 move(keys: dict)
-eat_pill()
-has_pill()
-add_points(points: int)
-get_total_points()
-draw(surface: Surface)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>320</y><w>160</w><h>130</h></coordinates><panel_attributes>Alien
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>320</y><w>160</w><h>90</h></coordinates><panel_attributes>Alien
 --
-_remaining: int_
-_spawn_chance: float_
-_radius: int_
-_line_width: int_
-_color: tuple_
+
 --
 Alien(size: tuple)
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>90</y><w>190</w><h>160</h></coordinates><panel_attributes>Unit
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>40</y><w>210</w><h>210</h></coordinates><panel_attributes>Unit
 --
 position: Vector2
 speed: Vector2
+radius: int
+line_width: int
+color: tuple
 --
 Unit(position, speed)
 step(size: tuple)
 stay_on_window(size: tuple)
 draw(surface: Surface)
-
-
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>240</y><w>100</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;80;50;10;50;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>240</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;130;50;130;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>600</y><w>230</w><h>170</h></coordinates><panel_attributes>Alien_Seeker
+has_collision(other: Unit) -&gt; bool
+swap_speed(other: Unit)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>240</y><w>100</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;80;50;10;50;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>240</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;130;50;130;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>480</y><w>230</w><h>110</h></coordinates><panel_attributes>Alien_Seeker
 --
-_remaining: int_
-_spawn_chance: float_
-_radius: int_
-_line_width: int_
-_color: tuple_
+player: Unit
 --
 Alien_Seeker(size: tuple, player: Unit)
 step(size: tuple)
-draw(surface: Surface)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>670</x><y>600</y><w>170</w><h>170</h></coordinates><panel_attributes>Alien_Bouncer
+draw(surface: Surface)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>670</x><y>480</y><w>170</w><h>110</h></coordinates><panel_attributes>Alien_Bouncer
 --
-_remaining: int_
-_spawn_chance: float_
-_radius: int_
-_line_width: int_
-_color: tuple_
+
 --
 Alien_Bouncer(size: tuple)
 step(size: tuple)
-draw(surface: Surface)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>440</y><w>150</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130;130;130;130;160</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>440</y><w>150</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;130;130;10;130;10;160</additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>320</y><w>150</w><h>130</h></coordinates><panel_attributes>Pill
+draw(surface: Surface)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>400</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;130;50;130;80</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>400</y><w>150</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;130;50;10;50;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>320</y><w>150</w><h>90</h></coordinates><panel_attributes>Pill
 --
-_radius: int_
-_line_width: int_
-_color: tuple_
+_count: int_
 --
 Pill(size: tuple)
+
+
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>240</y><w>280</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>260;10;260;50;10;50;10;80</additional_attributes></element></diagram>
