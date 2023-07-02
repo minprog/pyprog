@@ -64,7 +64,7 @@ $ python Student.py
 students: [student_nr:1001 identifier:1003, student_nr:1002 identifier:1003, student_nr:1003 identifier:1003]
 ```
 
-## __del__ dunder method
+## `__del__` dunder method
 
 De `__init__()` methode wordt aangeroepen bij het aanmaken van een
 nieuwe object, maar soms is het ook handig om te weten wanneer een
@@ -132,5 +132,8 @@ def spawn_aliens(units, size, player):
         if random.random() < alien_bouncer_spawn_chance:
             units.append( Alien_Bouncer(size) ) # spawn Alien_Bouncer
 ```
+
+In een UML class diagram worden 'class variables' onderstreept
+weergegeven.
 
 ![Pill.png](Pill.png)
