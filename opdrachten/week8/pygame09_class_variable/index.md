@@ -26,7 +26,7 @@ een class gebruik maken van een 'class variable'.
 
 ## Class Variable
 Een 'class variable' behoort tot een class en omdat een class maar 1
-keer voorkomt in een programma, komt een class variable ook maar 1
+keer voorkomt in een programma, komt een 'class variable' ook maar 1
 keer voor. Dit is anders voor een 'instance variable' want een 'instance
 variable' behoort tot een object en omdat er meedere objecten van een
 class kunnen voorkomen bij het uitvoeren van een programma, kan elk
@@ -70,10 +70,10 @@ als voorvoegsel voor een 'class variable'.
 
 ## `__del__` dunder method
 
-De `__init__()` methode wordt aangeroepen bij het aanmaken van een
+De `__init__()` method wordt aangeroepen bij het aanmaken van een
 nieuwe object, maar soms is het ook handig om te weten wanneer een
 object weer gedelete wordt als het "out of scope" gaat. Hiervoor
-kunnen we gebruik maken van de `__del__` methode. In programma
+kunnen we gebruik maken van de `__del__` method. In programma
 [Greeting.py](Greeting.py) zien we een voorbeeld:
 
 ```python
@@ -94,7 +94,7 @@ def main():
 main()
 ```
 
-Bij een aanmaken van een `Greeting` object in de `__init__()` method
+Bij het aanmaken van een `Greeting` object in de `__init__()` method
 wordt "Hello" geprint en bij het deleten van een object wordt in de
 `__del__` method "Goodbey" geprint. De uitvoer van dit programma is
 dan ook:
@@ -111,9 +111,9 @@ Goodbey
 
 ## Opdracht: Count Pill Objects
 
-Voeg een 'class variable' en een `__del__()` method aan class `Pill`
-toe om bij te houden hoeveel `Pill` objecten er in het spel aanwezig
-zijn. Zorg dat we daarna met deze `spawn_aliens()` functie in
+Voeg 'class variable' `count` en een `__del__()` method aan class
+`Pill` toe om bij te houden hoeveel `Pill` objecten er in het spel
+aanwezig zijn. Zorg dat we daarna met deze `spawn_aliens()` functie in
 [main.py](main.py) units kunnen spawnen waarbij wordt gezorgd dat er
 maar maximaal 1 `Pill` object in het spel aanwezig kan zijn:
 
