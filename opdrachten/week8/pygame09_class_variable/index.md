@@ -64,6 +64,10 @@ $ python Student.py
 students: [student_nr:1001 identifier:1003, student_nr:1002 identifier:1003, student_nr:1003 identifier:1003]
 ```
 
+Voor een 'instance variable' schrijven we als voorvoegsel `self.`
+terwijl we de naam van de class, in dit geval `Student.`, schrijven
+als voorvoegsel voor een 'class variable'.
+
 ## `__del__` dunder method
 
 De `__init__()` methode wordt aangeroepen bij het aanmaken van een
@@ -82,11 +86,10 @@ class Greeting:
         print("Goodbey")
 
 def main():
-    greetings = []
     print("Creating two Greeting objects:")
-    greetings.append( Greeting() )
-    greetings.append( Greeting() )
-    print("List with two Greeting objects goes out of scope and get deleted:")
+    g1 = Greeting()
+    g2 = Greeting()
+    print("The two Greeting objects go out of scope and get deleted:")
     
 main()
 ```
@@ -98,19 +101,19 @@ dan ook:
 
 ```console
 $ python Greeting.py 
-Creatings two Greeting objects:
+Creating two Greeting objects:
 Hello
 Hello
-List with two Greeting objects goes out of scope and get deleted:
+List with two Greeting objects goes out of scope and gets deleted:
 Goodbey
 Goodbey
 ```
 
-## Opdracht: Count Pill Object
+## Opdracht: Count Pill Objects
 
 Voeg een 'class variable' en een `__del__()` method aan class `Pill`
 toe om bij te houden hoeveel `Pill` objecten er in het spel aanwezig
-zijn. Zorg dat we met deze `spawn_aliens()` functie in
+zijn. Zorg dat we daarna met deze `spawn_aliens()` functie in
 [main.py](main.py) units kunnen spawnen waarbij wordt gezorgd dat er
 maar maximaal 1 `Pill` object in het spel aanwezig kan zijn:
 
@@ -122,15 +125,15 @@ def spawn_aliens(units, size, player):
     alien_seeker_spawn_chance = 0.003
     alien_bouncer_spawn_chance = 0.003
     pill_spawn_chance = 0.01
-    if Pill.count < 1 and random.random() < pill_spawn_chance:
-        units.append( Pill(size) ) # spawn Alien_Bouncer
+    if Pill.count < 1 and random.random() < pill_spawn_chance:  # make sure there is not more than 1 Pill in game
+        units.append( Pill(size) )  # spawn Pill
     if len(units) < max_nr_units:
         if random.random() < alien_spawn_chance:
-            units.append( Alien(size) ) # spawn Alien
+            units.append( Alien(size) )
         if random.random() < alien_seeker_spawn_chance:
-            units.append( Alien_Seeker(size, player) ) # spawn Alien_Seeker
+            units.append( Alien_Seeker(size, player) )
         if random.random() < alien_bouncer_spawn_chance:
-            units.append( Alien_Bouncer(size) ) # spawn Alien_Bouncer
+            units.append( Alien_Bouncer(size) )
 ```
 
 In een UML class diagram worden 'class variables' onderstreept
