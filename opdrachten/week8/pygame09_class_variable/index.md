@@ -28,7 +28,7 @@ een class gebruik maken van een 'class variable'.
 Een 'class variable' behoort tot een class en omdat een class maar 1
 keer voorkomt in een programma, komt een 'class variable' ook maar 1
 keer voor. Dit is anders voor een 'instance variable' want een 'instance
-variable' behoort tot een object en omdat er meedere objecten van een
+variable' behoort tot een object en omdat er meerdere objecten van een
 class kunnen voorkomen bij het uitvoeren van een programma, kan elk
 object haar eigen 'instance variables' hebben.
 
