@@ -6,17 +6,18 @@ module. Installeer `pygame` met:
 ```console
 $ pip install pygame
 ```
+
 Programma [draw.py](draw.py) laat zien hoe we kunnen tekening met
-pygame. Als we dit programma uitvoeren zien we een window met een rode
-rechthoek die de helft van het window vult, ook als we het window
-kleiner maken.
+pygame. Als we dit programma uitvoeren zien we een window met witte
+rechthoeken, een rode ellips, en een blauwe lijn die ieder een kwart
+van het window beslaan, ook als we het window van grootte veranderen.
 
 ![draw.png](draw.png)
 
 ## Opdracht: Chess
 
-Schrijf zelf programma `chess.py` wat een 8x8 schaakbord tekent met rode
-ellipsen en blauwe lijnen:
+Schrijf zelf programma `chess.py` wat een 8x8 schaakbord tekent zoals
+weergeven in dit plaatje:
 
 ![chess8.png](chess8.png)
 
@@ -29,4 +30,3 @@ als het window een andere grootte krijgt:
 Bekijk hiervoor de [draw.html](https://www.pygame.org/docs/ref/draw.html)
 pagina van de pygame documentatie voor het tekenen van verschillende
 vormen.
-
