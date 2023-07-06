@@ -46,21 +46,21 @@ def main():
         pygame.display.flip()
         clock.tick(60)
 
-def handle_collision(unit1, unit2):
-    """ Handles the collision of 'unit1' and 'unit2'. """ 
-    if isinstance(unit2, Pill):          # if there is a collision with an instance of Pill 
-        if isinstance(unit1, Player):    #    if a Player instance collides with Pill, eat the pill
-            unit1.eat_pill()
-            unit1.add_points(1)
-            unit2.set_alive(False)       
+def handle_collision(unit, other):
+    """ Handles the collision of 'unit' and 'other'. """ 
+    if isinstance(other, Pill):          # if there is a collision with an instance of Pill 
+        if isinstance(unit, Player):    #    if a Player instance collides with Pill, eat the pill
+            unit.eat_pill()
+            unit.add_points(1)
+            other.set_alive(False)       
         else:                            #    else (another instance collides with Pill), reverse the speed
-            unit1.speed = -unit1.speed   # **************************************** move to method
-            unit1.step_back()
-    elif isinstance(unit1, Pill):
+            unit.speed = -unit.speed   # **************************************** move to method
+            unit.step_back()
+    elif isinstance(unit, Pill):
         pass
     else:                                # else (deal with all other collisions), swap the speed
-        unit1.swap_speed(unit2)
-        unit1.step_back()
+        unit.swap_speed(other)
+        unit.step_back()
 
 def spawn_aliens(units, size, player):
     """ Spawns Alies in 'units' list based on its 'spawn_chance'. """
