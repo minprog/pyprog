@@ -6,7 +6,7 @@ from Alien import Alien
 def main():
     pygame.init()
     display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
-    pygame.display.set_caption('aliens')
+    pygame.display.set_caption('sticky units')
     clock = pygame.time.Clock()
     background_colour = (0, 0, 0)
 
@@ -44,8 +44,7 @@ def main():
 def handle_collision(unit, other):
     """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
     unit.swap_speed(other)
-    unit.step_to_previous_position()
-    other.step_to_previous_position()
+    unit.step_back()
     
 if __name__ == "__main__":
     main()
