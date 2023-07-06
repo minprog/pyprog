@@ -45,7 +45,8 @@ def main():
 def handle_collision(unit, other):
     """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
     unit.swap_speed(other)
-
+    unit.step_back()
+    
 def spawn_aliens(units, size, player):
     """ Spawns Alies in 'units' list based on its 'spawn_chance' and 'remaining' count. """
     max_nr_units = 15
