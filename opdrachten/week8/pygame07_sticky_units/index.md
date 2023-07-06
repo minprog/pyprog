@@ -16,7 +16,7 @@ automatisch af te remmmen). De units blijven dan botsen in de
 daaropvolgende tijdstappen zodat het lijkt dat ze aan elkaar
 vastplakken.
 
-[sticky_units.png](sticky_units.png)
+![sticky_units.png](sticky_units.png)
 
 # Oplossing
 
