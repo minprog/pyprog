@@ -43,6 +43,7 @@ def main():
 def handle_collision(unit, other):
     """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
     unit.swap_speed(other)
+    unit.step_back()
 
 def spawn_aliens(units, size):
     """ Spawns Alies in 'units' list. """

@@ -55,10 +55,12 @@ def handle_collision(unit1, unit2):
             unit2.set_alive(False)       
         else:                            #    else (another instance collides with Pill), reverse the speed
             unit1.speed = -unit1.speed   # **************************************** move to method
+            unit1.step_back()
     elif isinstance(unit1, Pill):
         pass
     else:                                # else (deal with all other collisions), swap the speed
         unit1.swap_speed(unit2)
+        unit1.step_back()
 
 def spawn_aliens(units, size, player):
     """ Spawns Alies in 'units' list based on its 'spawn_chance'. """
