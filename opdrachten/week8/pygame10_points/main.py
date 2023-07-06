@@ -11,7 +11,7 @@ from Pill import Pill
 def main():
     pygame.init()
     display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
-    pygame.display.set_caption('type hierarchy')
+    pygame.display.set_caption('points')
     clock = pygame.time.Clock()
     background_colour = (0, 0, 0)
 
@@ -41,19 +41,23 @@ def main():
                     handle_collision(unit, other)
             unit.draw(surface)
 
+        units = [unit for unit in units if unit.is_alive()]  # only keep alive units for the next time step
+            
         pygame.display.flip()
         clock.tick(60)
 
 def handle_collision(unit1, unit2):
-    """ Handles the collision of 'unit' and 'unit2'. """ 
-    if isinstance(unit1, Pill):
-        if isinstance(unit2, Player):
-            unit2.eat_pill()
-            unit2.add_points(1)
-        unit2.speed = -unit2.speed
-    elif isinstance(unit2, Pill):
-        pass # do nothing
-    else:
+    """ Handles the collision of 'unit1' and 'unit2'. """ 
+    if isinstance(unit2, Pill):          # if there is a collision with an instance of Pill 
+        if isinstance(unit1, Player):    #    if a Player instance collides with Pill, eat the pill
+            unit1.eat_pill()
+            unit1.add_points(1)
+            unit2.set_alive(False)       
+        else:                            #    else (another instance collides with Pill), reverse the speed
+            unit1.speed = -unit1.speed   # **************************************** move to method
+    elif isinstance(unit1, Pill):
+        pass
+    else:                                # else (deal with all other collisions), swap the speed
         unit1.swap_speed(unit2)
 
 def spawn_aliens(units, size, player):
@@ -63,8 +67,8 @@ def spawn_aliens(units, size, player):
     alien_seeker_spawn_chance = 0.003
     alien_bouncer_spawn_chance = 0.003
     pill_spawn_chance = 0.01
-    if Pill.count<1 and random.random() < pill_spawn_chance: # make sure there is not more than 1 Pill in game
-        units.append( Pill(size) ) # spawn Pill
+    if Pill.count<1 and random.random() < pill_spawn_chance:
+        units.append( Pill(size) )
     if len(units) < max_nr_units:
         if random.random() < alien_spawn_chance:
             units.append( Alien(size) )
