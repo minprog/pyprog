@@ -16,7 +16,7 @@ draw(surface: Surface)
 Alien(size: tuple)
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>40</y><w>210</w><h>210</h></coordinates><panel_attributes>Unit
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>20</y><w>210</w><h>230</h></coordinates><panel_attributes>Unit
 --
 position: Vector2
 speed: Vector2
@@ -26,6 +26,7 @@ color: tuple
 --
 Unit(position, speed)
 step(size: tuple)
+step_back()
 stay_on_window(size: tuple)
 draw(surface: Surface)
 has_collision(other: Unit) -&gt; bool

@@ -44,13 +44,13 @@ Schrijf ook de `swap_speed()` methode in bestand [Unit.py](Unit.py) om
 de `speed` van twee units om te wisselen (nadat een botsing is
 gedetecteerd).
 
+![interaction.png](interaction.png)
 
 ## Het Resultaat
 
 Deze methoden zouden moeten resulteren in 'stuiterende' units.
 
 ![interaction.gif](interaction.gif)
-
 
 ## Meer Realistisch Stuiteren
 

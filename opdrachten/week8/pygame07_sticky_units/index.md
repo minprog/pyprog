@@ -16,7 +16,7 @@ automatisch af te remmmen). De units blijven dan botsen in de
 daaropvolgende tijdstappen zodat het lijkt dat ze aan elkaar
 vastplakken.
 
-![sticky_units.png](sticky_units.png)
+![sticky_units_figure.png](sticky_units_figure.png)
 
 # Oplossing
 
@@ -47,6 +47,8 @@ er een botsing plaatsvindt:
     def step_back(self):
         self.position = self.previous_position
 ```
+
+![sticky_units.png](sticky_units.png)
 
 # Opdracht: Mutable
 

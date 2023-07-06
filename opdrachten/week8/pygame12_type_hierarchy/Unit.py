@@ -13,8 +13,13 @@ class Unit:
         
     def step(self, size):
         """ Changes the position of Unit based on its speed. """
+        self.previous_position = self.position.copy()
         self.position += self.speed
         self.stay_on_window(size)
+
+    def step_back(self):
+        """ Steps back to `previous_position`. """
+        self.position = self.previous_position
         
     def stay_on_window(self, size):
         """ Makes sure the Unit stays on the window with 'size'. """
