@@ -1,6 +1,6 @@
 # Sticky Units
 
-Heel soms stuiteren units niet goed, maar lijken aan elkaar vast te
+Soms stuiteren units niet goed, maar lijken aan elkaar vast te
 plakken. Dat is een lastige bug om te begrijpen en op te lossen. Als
 je dat eerst zelf wil proberen lees dan nog niet verder.
 
@@ -21,8 +21,9 @@ vastplakken.
 # Oplossing
 
 Om dit probleem op te lossen kunnen we in de `handle_collision()`
-functie in [main.py](main.py) naast `swap_speed()` ook de
-`step_back()` functie aanroepen om de botsing direct op te heffen.
+functie in [main.py](main.py) naast `unit.swap_speed(other)` ook de
+`unti.step_back()` functie aanroepen om de botsing direct op te
+heffen:
 
 ```python
 def handle_collision(unit, other):
@@ -34,7 +35,7 @@ def handle_collision(unit, other):
 We maken daarvoor in de `step()` functie in [Unit.py](Unit.py) steeds
 een kopie van de `position` voordat we deze aanpassen zodat we kunnen
 terugstappen naar de vorige positie met de `step_back()` functie als
-er een botsing plaatsvindt.
+er een botsing plaatsvindt:
 
 ```python
     def step(self, size):

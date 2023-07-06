@@ -17,6 +17,7 @@ class Unit:
         self.stay_on_window(size)
 
     def step_back(self):
+        """ Steps back to `previous_position`. """
         self.position = self.previous_position
         
     def stay_on_window(self, size):
