@@ -13,7 +13,7 @@ move(keys: dict)
 Alien(size: tuple)
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>60</y><w>280</w><h>190</h></coordinates><panel_attributes>Unit
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>40</y><w>280</w><h>210</h></coordinates><panel_attributes>Unit
 --
 position: Vector2
 speed: Vector2
