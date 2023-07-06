@@ -48,17 +48,17 @@ def main():
 
 def handle_collision(unit, other):
     """ Handles the collision of 'unit' and 'other'. """ 
-    if isinstance(other, Pill):          # if there is a collision with an instance of Pill 
+    if isinstance(other, Pill):         # if there is a collision with an instance of Pill 
         if isinstance(unit, Player):    #    if a Player instance collides with Pill, eat the pill
             unit.eat_pill()
             unit.add_points(1)
             other.set_alive(False)       
-        else:                            #    else (another instance collides with Pill), reverse the speed
-            unit.speed = -unit.speed   # **************************************** move to method
+        else:                           #    else (another instance collides with Pill), reverse the speed
+            unit.speed = -unit.speed    # **************************************** move to method
             unit.step_back()
     elif isinstance(unit, Pill):
         pass
-    else:                                # else (deal with all other collisions), swap the speed
+    else:                               # else (deal with all other collisions), swap the speed
         unit.swap_speed(other)
         unit.step_back()
 
