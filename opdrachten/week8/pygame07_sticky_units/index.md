@@ -50,20 +50,29 @@ er een botsing plaatsvindt:
 
 ![sticky_units.png](sticky_units.png)
 
-# Opdracht: Mutable
+# Mutable
 
 Er gaat nog één ding mis in deze oplossing van het plakprobleem. Het
 type van een `position` is namelijk `pygame.Vector2`, en dat is een
-'class'. Een 'class' is net zoals een 'list' een 'mutable'
-type en zoals we eerder zagen is het gebruik van alleen een assignment:
+'class'. Een 'class' is net zoals een 'list' een 'mutable' type en
+zoals we eerder zagen is het gebruik van alleen een assignment niet
+voldoende om een onafhankelijke kopie te maken van een 'mutable' type,
+zoals ook blijkt uit dit voorbeeld:
 
 ```python
-self.previous_position = self.position
+import pygame
+
+position = pygame.Vector2(10, 10)
+previous_position = position                   # assignment
+position += pygame.Vector2(100, 100)           # change 'position' not 'previous_position'
+print("         position:",          position) # [110, 110]
+print("previous_position:", previous_position) # [110, 110]  (but both are changed)
 ```
 
-niet voldoende om een onafhankelijke kopie te maken van een 'mutable'
-type. Pas de code aan zodat `self.previous_position` wel een
-onafhankelijke kopie is van `self.position` (dus zodat
+# Opdracht:
+
+Pas de code in [Unit.py](Unit.py) aan zodat `self.previous_position`
+wel een onafhankelijke kopie is van `self.position` (dus zodat
 `self.previous_position` niet meeverandert als `self.position`
 verandert wordt). Denk aan de pijltjes in PythonTutor. Test daarna of
 units nog aan elkaar vastplakken.
