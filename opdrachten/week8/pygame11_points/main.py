@@ -47,7 +47,9 @@ def main():
         clock.tick(60)
 
 def handle_collision(unit, other):
-    """ Handles the collision of 'unit' and 'other'. """ 
+    """ Handles the collision of 'unit' stepping into 'other' by swapping their speed 
+        and stepping 'unit' back. 
+    """
     if isinstance(other, Pill):         # if there is a collision with an instance of Pill 
         if isinstance(unit, Player):    #    if a Player instance collides with Pill, eat the pill
             unit.eat_pill()

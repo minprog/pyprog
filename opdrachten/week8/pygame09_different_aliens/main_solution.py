@@ -43,7 +43,9 @@ def main():
         clock.tick(60)
 
 def handle_collision(unit, other):
-    """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
+    """ Handles the collision of 'unit' stepping into 'other' by swapping their speed 
+        and stepping 'unit' back. 
+    """
     unit.swap_speed(other)
     unit.step_back()
     
