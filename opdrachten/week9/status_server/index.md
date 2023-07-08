@@ -86,7 +86,7 @@ if __name__ == "__main__":
     main(name, port, host)
 ```
 
-## Client en Server Starten
+## Server en Clients Starten
 
 We starten eerst de status_server met:
 
