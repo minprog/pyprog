@@ -22,7 +22,7 @@ vastplakken.
 
 Om dit probleem op te lossen kunnen we in de `handle_collision()`
 functie in [main.py](main.py) beter naast de `speed` wisselen met
-methodw `unit.swap_speed(other)`, ook de unit die de botsing
+methode `unit.swap_speed(other)`, ook de unit die de botsing
 veroorzaakt een stap terugzetten met methode `unit.step_back()`:
 
 ```python
