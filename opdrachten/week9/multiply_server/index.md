@@ -75,7 +75,7 @@ if __name__ == "__main__":
     main(port, host)
 ```
 
-## Client en Server Starten
+## Server en Client Starten
 
 Als we de twee programma's allebei starten en de client wat getallen
 geven zien we bijvoorbeeld:
