@@ -3,13 +3,14 @@
 Programma [player.py](player.py) laat zien hoe we een speler kunnen
 besturen met het toetsenbord. Als we dit programma uitvoeren zien we
 een witte cirkel die we kunnen bewegen met de cursor toetsen of met
-toetsen 'W','A','S','D'. Lees de
+toetsen 'W','A','S','D'. Lees eventueel de
 [key.html](https://www.pygame.org/docs/ref/key.html) pagina van pygame
 voor meer informatie over het lezen van toetsenbord.
 
 Voor de positie van de speler gebruiken we class `pygame.Vector2`
-welke een X,Y coordinaat representeert. Met deze class kunnen we
-makkelijk rekenen met coordinaten, bijvoorbeeld:
+welke een (X,Y) coordinaat representeert. Met deze class kunnen we
+makkelijk coordinaten manipuleren, bijvoorbeeld optellen en
+vermenigvuldigen:
 
 ```python
 import pygame
@@ -74,8 +75,8 @@ position += speed
 ```
 
 Vermenigvuldig in iedere iteratie de snelheid met '0.95' zodat de
-speler automatisch vertraagd en na enige tijd stil komt te staan
-als er geen toetsen meer worden ingedrukt:
+speler automatisch afremt en na enige tijd stil komt te staan als er
+geen toetsen meer worden ingedrukt:
 
 ```python
 speed *= 0.95
@@ -89,7 +90,7 @@ af beweegt om zo de speler tegen de rand van het window te laten
 if position.x < radius:
     position.x = radius
     speed.x = -speed.x
-# so the same for other window borders
+# do the same for other window borders
 ```
 
 Het resultaat zou er zo uit moeten zien:
