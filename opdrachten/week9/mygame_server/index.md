@@ -3,7 +3,7 @@
 We kunnen ook zmq sockets gebruiken om een multiplayer computerspel te
 schrijven.
 
-## All Files
+## Alle Bestanden
 
 - [mygame_client.py](mygame_client.py)
 - [mygame_server.py](mygame_server.py)
@@ -24,7 +24,7 @@ alle spelers gezamelijk hetzelfde spel spelen.
 
 ![mygame_server.png](mygame_server.png)
 
-## mygame_client
+## mygame_client.py
 
 Bestand [mygame_client.py](mygame_client.py) is een aanpasssing van
 'status_client.py' en laat zien hoe elke tijdstap een `Action` object
@@ -111,7 +111,7 @@ if __name__ == "__main__":
     main(name, port, host)
 ```
 
-## mygame_server
+## mygame_server.py
 
 Bestand [mygame_server.py](mygame_server.py) is een aanpasssing van
 'status_server.py' en laat zien hoe elke tijdstap de `Action` objecten
