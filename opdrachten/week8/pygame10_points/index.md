@@ -59,8 +59,9 @@ print( isinstance(a, Player) ) # False, 'a' is NOT a subclass of Player
 
 ## Player class
 
-Om het puntentotaal bij te houden en te tekenen is ook de `Player`
-class in [Player.py](Player.py) uitgebreid met methoden:
+Om het puntentotaal bij te houden en te tekenen als een rode balk
+boven in het window, is ook de `Player` class in
+[Player.py](Player.py) uitgebreid met methoden:
 
 ```python
     def add_points(self,points):
@@ -95,9 +96,9 @@ de implementatie voor methoden:
 - `is_alive()`
 
 in de `Unit` class in [Unit.py](Unit.py) zodat bijgehouden wordt welke
-aliens dood en levend zijn. Aliens die dood zijn worden in de `main()`
-functie niet meer meegenomen naar de volgende tijdstap door toedoen
-van regel:
+aliens dood en levend zijn. Aliens die dood zijn worden aan het einde
+van de loop in de `main()` functie niet meer meegenomen naar de
+volgende tijdstap door toedoen van regel:
 
 ```python
 units = [unit for unit in units if unit.is_alive()]  # only keep alive units for the next time step
