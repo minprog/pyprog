@@ -201,7 +201,3 @@ Connecting to port '2345' of host '127.0.0.1'.
 </table>
 
 ![mygame.gif](mygame.gif)
-
-## Opdracht: Spelen
-
-Lees de code en speel even met clients en servers.
