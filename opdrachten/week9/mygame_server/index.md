@@ -10,8 +10,9 @@ de acties die een gebruiker in het spel maakt naar de server in een
 `Action` object. De server ontvangt de acties van alle spelers,
 berekent de staat van het spel in de volgende tijdstap, en stuurt de
 staat van het spel terug naar elke client in een `Game_State`
-object. Elke client tekent vervolgens deze staat waarin dus de acties
-van elke speler zit zodat zij gezamelijk hetzelfde spel spelen.
+object. Elke client ontvangt een `Game_State` object en tekent
+vervolgens deze staat waarin dus de acties van elke speler zit zodat
+alle spelers gezamelijk hetzelfde spel spelen.
 
 ![mygame_server.png](mygame_server.png)
 
@@ -19,8 +20,9 @@ van elke speler zit zodat zij gezamelijk hetzelfde spel spelen.
 
 Bestand [mygame_client.py](mygame_client.py) is een aanpasssing van
 'status_client.py' en laat zien hoe elke tijdstap een `Action` object
-naar de server wordt gestuurd met de actie van de gebruiker en het
-daaropvolgende `Game_State` antwoord wordt getekend.
+naar de server wordt gestuurd met de actie van de gebruiker. Als
+antwoord ontvangt het een `Game_State` object van de server met de
+huidige staat van het spel wat wordt getekend.
 
 ```python
 import sys
@@ -106,7 +108,10 @@ if __name__ == "__main__":
 Bestand [mygame_server.py](mygame_server.py) is een aanpasssing van
 'status_server.py' en laat zien hoe elke tijdstap de `Action` objecten
 van de clients worden ontvangen, de `Game_State` wordt bijgewerkt en
-teruggestuurd naar elke client.
+teruggestuurd naar elke client. Dit bestand hoeft
+niet te worden aangepast, dus het is niet nodig om alle details te
+begrijpen.
+
 
 ```python
 import sys
@@ -204,9 +209,10 @@ Connecting to port '2345' of host '127.0.0.1'.
 
 ## Spelelement
 
-Het spel heeft nog geen spelelement. Om dat toe te voegen kan de
+Het spel heeft nu nog geen spelelement. Om dat toe te voegen kan de
 [Action.py](Action.py) class worden aangepast zodat een gebruiker
-naast haar acceleratie ook nog andere acties kan sturen:
+naast haar acceleratie ook nog andere acties kan sturen naar de
+server:
 
 ```python
 class Action:
@@ -225,8 +231,12 @@ class Action:
         return self.acceleration
 ```
 
-Pas de [Game_State.py](Game_state.py) class aan om meer units toe te
-voegen. De units worden op naam in een dictionary opgeslagen.
+De server kan in de [Game_State.py](Game_state.py) class ook andere
+units aan de `units` list toevoegen. In deze `units` list worden alle
+units van het spel opgeslagen. Nu heeft het nog alleen `Player`
+objecten. Deze `Player` objecten worden ook in dictionary `players`
+opgeslagen, dat is omdat we een `Player` snel op naam willen
+kunnen zoeken.
 
 ```python
 import pygame
@@ -237,31 +247,37 @@ class Game_State:
 
     def __init__(self, world_size):
         self.world_size = world_size
-        self.units = {}
+        self.players = {}
+        self.units = []
 
     def __repr__(self):
         return f"world_size: {self.world_size}\nunits: {self.units}"
 
     def update(self, action):
         name = action.get_name()
-        if not name in self.units:
-            self.units[name] = Player(self.world_size)
-        player = self.units[name]
+        if not name in self.players: # if the name is not seen before
+            player = Player(self.world_size, name) # create a new player
+            self.units.append(player)              # add to units
+            self.players[name] = player            # add to players too for fast lookup by name 
+        player = self.players[name]
         player.accelerate(action.get_acceleration())
         player.step()
         player.stay_on_screen(self.world_size)
 
+    def spawn_units(self):
+        pass
+        
     def draw(self, name, surface, name_textures):
         rect = pygame.Rect(pygame.Vector2(0, 0), self.world_size)
         white = (255, 255, 255)
         pygame.draw.rect(surface, white, rect, 2)
-        for name, unit in self.units.items():
-            name_texture = name_textures.get_texture(name)
-            unit.draw(surface, name_texture)
+        for unit in self.units:
+            unit.draw(surface, name_textures)
 ```
 
-De enige unit type van dit spel is nu nog de [Player.py](Player.py)
-class die we al gezien hebben:
+Het enige unit type van dit spel is nu nog de [Player.py](Player.py)
+class die we al eerder gezien hebben, maar nu wordt de naam van de
+gebruiker erboven getekend in de `draw()` methode:
 
 ```python
 import pygame
@@ -271,7 +287,8 @@ class Player:
     line_width = 4
     color = (255,255,255)
         
-    def __init__(self,world_size):
+    def __init__(self, world_size, name):
+        self.name = name
         self.position = pygame.Vector2(world_size.x//2, world_size.y//2)
         self.speed = pygame.Vector2(0,0)
         self.line_width = 4
@@ -304,8 +321,9 @@ class Player:
             self.position.y = world_size.y -Player.radius
             self.speed.y =- self.speed.y
 
-    def draw(self, surface, name_texture):
+    def draw(self, surface, name_textures):
         pygame.draw.circle(surface, Player.color, self.position, Player.radius, Player.line_width)
+        name_texture = name_textures.get_texture(self.name)
         text_offset = pygame.Vector2( name_texture.get_size() )
         text_offset.x /= 2
         text_offset.y += Player.radius

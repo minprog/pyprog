@@ -5,7 +5,8 @@ class Player:
     line_width = 4
     color = (255,255,255)
         
-    def __init__(self,world_size):
+    def __init__(self, world_size, name):
+        self.name = name
         self.position = pygame.Vector2(world_size.x//2, world_size.y//2)
         self.speed = pygame.Vector2(0,0)
         self.line_width = 4
@@ -38,8 +39,9 @@ class Player:
             self.position.y = world_size.y -Player.radius
             self.speed.y =- self.speed.y
 
-    def draw(self, surface, name_texture):
+    def draw(self, surface, name_textures):
         pygame.draw.circle(surface, Player.color, self.position, Player.radius, Player.line_width)
+        name_texture = name_textures.get_texture(self.name)
         text_offset = pygame.Vector2( name_texture.get_size() )
         text_offset.x /= 2
         text_offset.y += Player.radius

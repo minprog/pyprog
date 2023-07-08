@@ -31,8 +31,9 @@ def main(port, host):
 
 def update_game_state(game_state, actions):
     for name, action in actions.items():
-        if name != '_':
+        if name != '_': # ignore user '_'
             game_state.update(action)
+    game_state.spawn_units()
             
 if __name__ == "__main__":
     port = 2345
