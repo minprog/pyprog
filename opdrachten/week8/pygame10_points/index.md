@@ -63,6 +63,7 @@ Om het puntentotaal bij te houden en te tekenen als een rode balk
 boven in het window, is ook de `Player` class in
 [Player.py](Player.py) uitgebreid met methoden:
 
+
 ```python
     def add_points(self,points):
         """ Adds 'points' to the 'total_points'. """
@@ -107,7 +108,7 @@ en verdwijnen daardoor uit het spel.
 
 ## Opdracht: Alien_Seeker dood Alien
 
-Pas de `handle_collision()` aan zodat een `Alien` object dood gaat als
+Pas de `handle_collision()` functie aan zodat een `Alien` object dood gaat als
 het botst met een `Alien_Seeker` object.
 
 ## Opdracht: Verwijder oude aliens
