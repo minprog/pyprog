@@ -182,7 +182,7 @@ spel acties uitvoeren:
 ```console
 $ python mygame_client.py Jackson 
 pygame 2.4.0 (SDL 2.26.4, Python 3.10.6)
-Hello from the pygame community. https://www.pygame.org/contribute.html
+Hello from the pygame community.
 Connecting to port '2345' of host '127.0.0.1'.
 ```
 
@@ -192,7 +192,7 @@ Connecting to port '2345' of host '127.0.0.1'.
 ```console
 $ python mygame_client.py Madonna
 pygame 2.4.0 (SDL 2.26.4, Python 3.10.6)
-Hello from the pygame community. https://www.pygame.org/contribute.html
+Hello from the pygame community.
 Connecting to port '2345' of host '127.0.0.1'.
 ```
 
