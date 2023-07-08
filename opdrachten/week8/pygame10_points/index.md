@@ -130,3 +130,5 @@ print( time.time() )
 Voeg vervolgens code aan de `main()` functie toe zodat alle aliens die
 langer dan 10 seconden in het spel zijn, dood gaan en uit het spel
 verwijderd worden.
+
+![points.gif](points.gif)

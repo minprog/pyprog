@@ -81,8 +81,8 @@ def spawn_aliens(units, size, player):
     """ Spawns Alies in 'units' list based on its 'spawn_chance' and 'remaining' count. """
     max_nr_units = 15
     alien_spawn_chance = 0.01
-    alien_seeker_spawn_chance = 0.003
-    alien_bouncer_spawn_chance = 0.003
+    alien_seeker_spawn_chance = 0.006
+    alien_bouncer_spawn_chance = 0.006
     if len(units) < max_nr_units:
         if random.random() < alien_spawn_chance:
             units.append( Alien(size) )
