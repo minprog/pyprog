@@ -201,3 +201,113 @@ Connecting to port '2345' of host '127.0.0.1'.
 </table>
 
 ![mygame.gif](mygame.gif)
+
+## Spelelement
+
+Het spel heeft nog geen spelelement. Om dat toe te voegen kan de
+[Action.py](Action.py) class worden aangepast zodat een gebruiker
+naast haar acceleratie ook nog andere acties kan sturen:
+
+```python
+class Action:
+
+    def __init__(self, name, acceleration):
+        self.name = name
+        self.acceleration = acceleration
+
+    def __repr__(self):
+        return f"name: {self.name} acceleration:{self.acceleration}"
+
+    def get_name(self):
+        return self.name
+
+    def get_acceleration(self):
+        return self.acceleration
+```
+
+Pas de [Game_State.py](Game_state.py) class aan om meer units toe te
+voegen. De units worden op naam in een dictionary opgeslagen.
+
+```python
+import pygame
+
+from Player import Player
+
+class Game_State:
+
+    def __init__(self, world_size):
+        self.world_size = world_size
+        self.units = {}
+
+    def __repr__(self):
+        return f"world_size: {self.world_size}\nunits: {self.units}"
+
+    def update(self, action):
+        name = action.get_name()
+        if not name in self.units:
+            self.units[name] = Player(self.world_size)
+        player = self.units[name]
+        player.accelerate(action.get_acceleration())
+        player.step()
+        player.stay_on_screen(self.world_size)
+
+    def draw(self, name, surface, name_textures):
+        rect = pygame.Rect(pygame.Vector2(0, 0), self.world_size)
+        white = (255, 255, 255)
+        pygame.draw.rect(surface, white, rect, 2)
+        for name, unit in self.units.items():
+            name_texture = name_textures.get_texture(name)
+            unit.draw(surface, name_texture)
+```
+
+De enige unit type van dit spel is nu nog de [Player.py](Player.py)
+class die we al gezien hebben:
+
+```python
+import pygame
+
+class Player:
+    radius = 20
+    line_width = 4
+    color = (255,255,255)
+        
+    def __init__(self,world_size):
+        self.position = pygame.Vector2(world_size.x//2, world_size.y//2)
+        self.speed = pygame.Vector2(0,0)
+        self.line_width = 4
+        self.color = (255,255,255)
+
+    def __repr__(self):
+        return f"position: {self.position} speed: {self.speed}"
+
+    def get_position(self):
+        return self.position
+    
+    def accelerate(self,acceleration):
+        self.speed += acceleration
+        self.speed *= 0.95
+        
+    def step(self):
+        self.position += self.speed
+
+    def stay_on_screen(self,world_size):
+        if self.position.x<Player.radius:
+            self.position.x = Player.radius
+            self.speed.x =- self.speed.x
+        if self.position.y<Player.radius:
+            self.position.y=Player.radius
+            self.speed.y =- self.speed.y
+        if self.position.x > world_size.x - Player.radius:
+            self.position.x = world_size.x -Player.radius
+            self.speed.x =- self.speed.x
+        if self.position.y > world_size.y - Player.radius:
+            self.position.y = world_size.y -Player.radius
+            self.speed.y =- self.speed.y
+
+    def draw(self, surface, name_texture):
+        pygame.draw.circle(surface, Player.color, self.position, Player.radius, Player.line_width)
+        text_offset = pygame.Vector2( name_texture.get_size() )
+        text_offset.x /= 2
+        text_offset.y += Player.radius
+        surface.blit(name_texture, self.position - text_offset )
+```
