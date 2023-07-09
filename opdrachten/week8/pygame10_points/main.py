@@ -68,7 +68,7 @@ def handle_collision(unit, other):
 
     
 def spawn_aliens(units, size, player):
-    """ Spawns Alies in 'units' list based on its 'spawn_chance' and 'remaining' count. """
+    """ Spawns Alies in 'units' list based on its 'spawn_chance' and. """
     max_nr_units = 15
     alien_spawn_chance = 0.01
     alien_seeker_spawn_chance = 0.003
