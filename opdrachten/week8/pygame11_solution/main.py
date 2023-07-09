@@ -18,6 +18,8 @@ def main():
 
     units = []
     units.append(player)
+
+    #units.append(Alien(surface.get_size()))
     
     running = True
     while running:
@@ -58,7 +60,7 @@ def handle_collision(unit, other):
     if (type(unit) is Player and type(other) is Alien_Bouncer):
         unit.add_points(1)
         other.set_alive(False)
-    elif (type(unit) is Alien_Bouncer and type(other) is Player):
+    elif (type(unit) is Alien_Bouncer and type(other) is Player): # reverse
         other.add_points(1)
         unit.set_alive(False)
 
@@ -66,14 +68,14 @@ def handle_collision(unit, other):
     elif (type(unit) is Player and isinstance(other, Alien)):
         unit.add_points(-2)
         other.set_alive(False)
-    elif (isinstance(unit, Alien) and type(unit) is Player):
+    elif (isinstance(unit, Alien) and type(other) is Player): # reverse
         other.add_points(-2)
         unit.set_alive(False)
         
     # When Alien_Seeker hits an Alien the Alien dies
     elif (type(unit) is Alien and type(other) is Alien_Seeker):
         unit.set_alive(False)
-    elif (type(unit) is Alien_Seeker and type(other) is Alien):
+    elif (type(unit) is Alien_Seeker and type(other) is Alien): # reverse
         other.set_alive(False)
     
     
