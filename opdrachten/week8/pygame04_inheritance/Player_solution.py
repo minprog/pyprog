@@ -9,7 +9,7 @@ class Player(Unit):
         width, height = size
         position = pygame.Vector2(width//2,height//2)
         speed = pygame.Vector2(0,0)
-        super().__init__(position, speed)
+        super().__init__(position, speed, radius=20, line_width=4, color=(255, 255 ,255)
     
     def move(self, keys):
         """ 
