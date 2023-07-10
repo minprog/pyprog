@@ -113,7 +113,7 @@ give a number to multiply:
 </table>
 
 Een server kan verzoeken van meerdere clients afhandelen. Stuur zelf
-verzoeken van meerdere clients.
+verzoeken van meerdere clients naar dezelfde server.
 
 
 ## Meedere Servers
@@ -123,8 +123,8 @@ server een eigen poort geven. Poorten onder de 2000 zijn gereserveerd
 dus die zullen we niet gebruiken. Onze server gebruikt bij default
 multiplier 2 en poort 2345, maar met command-line-arguments kunnen we
 dat aanpassen. Gebruik bijvoorbeeld dit om een server die met 5
-vermenigvuldigd te starten op poort 2500, en een client die daarmee
-verbindt:
+vermenigvuldigt te starten op poort 2500 samen met een client die
+daarmee verbindt:
 
 <table>
 <tr>
