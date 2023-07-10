@@ -218,9 +218,9 @@ Connecting to port '2345' of host '127.0.0.1'.
 ## Spelelement
 
 Het spel heeft nu nog geen spelelement. Om dat toe te voegen kan de
-[Action.py](Action.py) class worden aangepast zodat een gebruiker
-naast haar acceleratie ook nog andere acties kan sturen naar de
-server:
+`Action` class in [Action.py](Action.py) worden aangepast zodat een
+gebruiker naast haar acceleratie ook nog evenuteel andere acties kan
+sturen naar de server:
 
 ```python
 class Action:
@@ -239,12 +239,12 @@ class Action:
         return self.acceleration
 ```
 
-De server kan in de [Game_State.py](Game_state.py) class ook andere
-units aan de `units` list toevoegen. In deze `units` list worden alle
-units van het spel opgeslagen. Nu heeft het nog alleen `Player`
-objecten. Deze `Player` objecten worden ook in dictionary `players`
-opgeslagen, dat is omdat we een `Player` snel op naam willen
-kunnen zoeken.
+De server kan in de `Game_State` class in
+[Game_State.py](Game_state.py) ook andere units aan de `units` list
+toevoegen. In deze `units` list worden alle units van het spel
+opgeslagen. Nu heeft het nog alleen `Player` objecten. Deze `Player`
+objecten worden ook in dictionary `players` opgeslagen, dat is omdat
+we een `Player` snel op naam willen kunnen zoeken.
 
 ```python
 import pygame
@@ -283,9 +283,10 @@ class Game_State:
             unit.draw(surface, name_textures)
 ```
 
-Het enige unit type van dit spel is nu nog de [Player.py](Player.py)
-class die we al eerder gezien hebben, maar nu wordt de naam van de
-gebruiker erboven getekend in de `draw()` methode:
+Het enige unit type van dit spel is nu nog de `Player` class in
+[Player.py](Player.py) die we al eerder gezien hebben, maar nu wordt
+ook de naam van de gebruiker boven een `Player` getekend in de
+`draw()` methode:
 
 ```python
 import pygame
