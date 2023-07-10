@@ -14,13 +14,13 @@ schrijven.
 ## Protocol
 
 In ons multiplayer computerspel stuurt een client in de elke tijstap
-de acties die een gebruiker in het spel maakt naar de server in een
-`Action` object. De server ontvangt de acties van alle spelers,
-berekent de staat van het spel in de volgende tijdstap, en stuurt de
-staat van het spel terug naar elke client in een `Game_State`
-object. Elke client ontvangt een `Game_State` object en tekent
-vervolgens deze staat waarin dus de acties van elke speler zit zodat
-alle spelers gezamelijk hetzelfde spel spelen.
+de naam en de actie die een speler in het spel maakt naar de server in
+een `Action` object. De server ontvangt de acties van elke speler,
+berekent de staat van het spel in de volgende tijdstap, en stuurt deze
+staat terug naar elke client in een `Game_State` object. Elke client
+ontvangt een `Game_State` object en tekent vervolgens deze staat
+waarin dus de acties van elke speler zit zodat alle spelers gezamelijk
+hetzelfde spel spelen.
 
 ![mygame_server.png](mygame_server.png)
 
