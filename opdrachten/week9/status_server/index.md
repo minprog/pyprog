@@ -1,10 +1,11 @@
 # Status Server
 
 We passen de server iets aan zodat het de status van verschillende
-gebruikers kan doorgeven. Programma
-[status_server.py](status_server.py) is een server die van
-verschillende gebruikers in een string de naam en status krijgt en
-deze doorgeeft aan andere gebruikers.
+gebruikers kan doorgeven. Gebruikers kunnen hierdoor via de server met
+elkaar communiceren. Programma [status_server.py](status_server.py) is
+een server die van elke client een string met een gebruikersnaam en
+status krijgt. De server onthoudt alle strings in een dictionary, en
+stuurt deze als antwoord naar elke client.
 
 ```python
 import sys
@@ -46,8 +47,8 @@ if __name__ == "__main__":
 ```
 
 Programma [status_client.py](status_client.py) is een client waarmee
-een gebruiker haar status kan doorgeven en de status van alle
-gebruikers ontvangt.
+een gebruiker haar status kan doorgeven en daarna de status van alle
+gebruikers ontvangt en print.
 
 ```python
 import sys
@@ -140,9 +141,9 @@ Madonna:
 Omdat de client moet wachten op invoer van de gebruiker moet een
 gebruiker wel steeds een nieuwe status intypen voordat het de nieuwe
 status van andere gebruikers kan ontvangen. Daarom kan je ook in de
-client de naam "_" opgeven. Met deze naam wordt niet op invoer van de
-gebruiker gewacht, in plaats daarvan wordt elke twee seconden
-de status van alle gebruikers bij de server opgevraagd:
+client de speciale naam "_" opgeven. Met deze naam wordt niet op
+invoer van de gebruiker gewacht, in plaats daarvan wordt elke twee
+seconden de status van alle gebruikers bij de server opgevraagd:
 
 ```console
 $ python status_client.py _
@@ -163,10 +164,9 @@ Connecting to port '2345' of host '127.0.0.1'.
 ## Protocol
 
 De client en server wisselen simpelweg strings uit. Een client stuurt
-haar naam en status als string gescheiden door ":". De server leest
-deze string en stopt van elke gebruiker de laatst status op naam in
-een dictionary. Als antwoord stuurt de server steeds een string met
-alle informatie in deze dictionary.
+haar naam en status als string gescheiden door ":". De server stuurt
+als antwoord een string met de naam en de laatse status van elke
+client.
 
 ![status_server.png](status_server.png)
 
