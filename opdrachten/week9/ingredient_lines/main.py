@@ -84,13 +84,15 @@ class Unit:
 
     def has_collision(self, other):
         """ Returns True if 'self' is in collision with 'other'. """
-        if other is self: # 'self' does not collide with 'self'
-            return False
-        for l1 in self.lines:
-            for l2 in other.lines:
-                if (l1+self.position).does_intersect(l2+other.position):
-                    l1.set_collision(True) # set collision state
-                    l2.set_collision(True) # set collision state
+        collision = False
+        if not other is self:
+            for l1 in self.lines:
+                for l2 in other.lines:
+                    if (l1+self.position).does_intersect(l2+other.position):
+                        l1.set_collision(True) # set collision state
+                        l2.set_collision(True) # set collision state
+                        collision = True
+        return collision
             
 class Player(Unit):
 
