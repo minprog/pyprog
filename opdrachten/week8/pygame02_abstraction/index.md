@@ -15,7 +15,7 @@ color = (255, 255, 255)
 en uit code die deze waarden manipuleren en gebruiken. Object-Oriented
 Programming stelt ons in staat om deze details te verbergen zodat we
 een player kunnen gebruiken zonder over alle details te hoeven
-nadenken. Hierdoor wordt de code korter en duidelijker en het stelt
+nadenken. Hierdoor wordt de code duidelijker en het stelt
 ons in staat om op een hoger abstractieniveau over code na te
 denken. Dit wordt steeds belangrijker naar mate een programma groter
 en complexer wordt. 
@@ -31,8 +31,15 @@ de class.
 
 Verberg de details van player in class `Player` in bestand
 [Player.py](Player.py) zodat we daarna deze class in de `main()`
-functie van [main.py](main.py) kunnen gebruiken. Vergelijk het
-abstractieniveau van deze `main()` functie met de `main()` in het
-vorige 'player.py' programma.
+functie van [main.py](main.py) kunnen gebruiken nadat we uit bestand
+`Player.py` de `Player` class ge-import hebben met:
+
+```python
+from Player import Player
+```
+
+Vergelijk daarna het abstractieniveau van deze `main()` functie met de
+`main()` in het vorige 'player.py' programma. Er zijn alleen dingen
+verplaatst maar de code is als het goed is veel leesbaarder geworden.
 
 ![player.gif](../pygame01_player/player.gif)
