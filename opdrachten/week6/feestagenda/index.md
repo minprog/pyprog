@@ -23,31 +23,31 @@ def main():
     the_dragonflies = ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
 
     # we vullen de agenda in
-    print("opdracht1:")
+    print("\nopdracht1:")
     opdracht1(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-    print("opdracht2:")
+    print("\nopdracht2:")
     opdracht2(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-    print("opdracht3:")
+    print("\nopdracht3:")
     opdracht3(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-    print("opdracht4:")
+    print("\nopdracht4:")
     opdracht4(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-    print("opdracht5:")
+    print("\nopdracht5:")
     opdracht5(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-    print("opdracht6:")
+    print("\nopdracht6:")
     opdracht6(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-    print("opdracht7:")
+    print("\nopdracht7:")
     opdracht7(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
