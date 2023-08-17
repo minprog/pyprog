@@ -130,10 +130,10 @@ gedaan in dit voorbeelden:
 
 ## Knapsack Type
 
-Aan een object van type Knapsack moeten we items kunnen toevoegen en
-verwijderen waarbij de overgebleven resources worden bijgehouden. We
-willen kunnen vragen of een item nog mag worden toegevoegd, en wat het
-puntentotaal van de knapsack is.
+Aan een object van type `Knapsack` moeten we items kunnen toevoegen en
+verwijderen waarbij steeds de resources die overblijven goed moeten worden
+bijgehouden. We willen ook kunnen vragen of een item nog mag worden
+toegevoegd, en wat het puntentotaal van de knapsack is.
 
 **Opdracht3:** Implementeer type `Knapsack` op basis van de gegeven docstrings.
 
@@ -164,7 +164,7 @@ puntentotaal van de knapsack is.
         def get_points(self) -> int:
             """ Returns the total number of points of all items in the knapsack. """
 
-Een voorbeeld van het gebruik van type Knapsack is:
+Een voorbeeld van het gebruik van type `Knapsack` is:
 
     def knapsack_example() -> None:
         knapsack = Knapsack(Resources(100, 200))
@@ -196,7 +196,8 @@ Een voorbeeld van het gebruik van type Knapsack is:
 
 **Opdracht4:** Lees de data in de
 [knapsack_small.csv](knapsack_small.csv) file in. Hiervoor kan deze
-functie als startpunt gebruikt worden:
+functie als startpunt gebruikt worden. Breid deze functie uit en
+return de knapsack en items bv met gebruik van lijst en/of tuple:
 
     def load_knapsack(filename):
         with open(filename,'r') as file:
@@ -221,7 +222,7 @@ functies door python worden gelezen.
 
     def solve_knapsack(filename):
         """ Returns the highest number of points found while trying different ways of
-        packing the knapsack in file 'filename' """
+        packing the knapsack with items as described in file 'filename' """
 
 en eventuele helperfuncties om een zo hoog mogelijk aantal punten te
 vinden voor het inpakken van de knapsack. Een voorbeeld van een
@@ -267,15 +268,16 @@ waren er mogelijk minder regels code nodig geweest. Welke voordelen
 zijn er dan waardoor we hier toch kiezen voor Object-Oriented
 Programming?
 
-### 1 Types uit Probleemdomein
+### 1) Types uit Probleemdomein
 
-De types komen overeen met concepten uit het probleemdomein waardoor
-het makkelijker is om over de code na te denken. Het vraagt wel enige
-oefening om voor een probleem de juiste types te kiezen, let daarbij
-op de zelfstandignaamwoorden in de probleembeschrijving voor *classes*
-en *instance variables* en op werkwoorden voor de *methods*.
+De gekozen types `Resources`, `Knapsack` en `Item` komen overeen met
+concepten uit het probleemdomein waardoor het makkelijker is om over
+de code na te denken. Het vraagt wel enige oefening om voor een
+probleem de juiste types te kiezen, let daarbij op de
+zelfstandignaamwoorden in de probleembeschrijving voor *classes* en
+*instance variables* en op werkwoorden voor de *methods*.
 
-### 2 Encapsulation
+### 2) Encapsulation
 
 Met *encapsulation* wordt bedoeld dat een class implementatiedetails
 verborgen houdt voor de gebruiker van een class. Eerder zagen we dit
@@ -288,9 +290,10 @@ Een gebruiker van een class hoeft bij het aanroepen van *methods* dus
 niks te weten over hoe waarden in een class zijn opgeslagen. De
 implementatie van een class kan daardoor makkelijker veranderen zonder
 dat dat effect heeft op andere delen van de code. Bij Object-Oriented
-Programming is code daardoor vaak beter in compartimenten opgedeeld
-waarbij veranderingen in één compartiment minder snel leiden tot
-verandering in een ander compartiment. Enkele voorbeelden hiervan:
+Programming is een groot programma daardoor vaak beter in
+compartimenten opgedeeld waarbij veranderingen in één compartiment
+minder snel leiden tot verandering in een ander compartiment. Enkele
+voorbeelden hiervan:
 
 *   De class `Resources` heeft nu alleen *instance variables* weight
     en volume, als daar nog meer variabelen bij zouden komen (bv
