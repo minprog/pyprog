@@ -12,10 +12,9 @@ van de puzzel wordt ook uitgelegd.
 
 Schrijf een programma dat controleert of deze strategie inderdaad
 werkt. Voer 1000 keer de strategie uit met 100 gevangenen en 100 dozen
-en houd bij hoe vaak het elke gevangene lukt om zijn of haar eigen
-nummer te vinden. Geef daarmee een schatting van de kans dat met deze
-strategie alle gevangen vrijkomen en print deze kans (waarde tussen 0
-en 1).
+en houd bij hoe vaak het alle gevangene lukt om hun eigen nummer te
+vinden. Geef daarmee een schatting van de kans dat met deze strategie
+alle gevangen vrijkomen en print deze kans (waarde tussen 0 en 1).
 
 Nummer de dozen en gevangenen van 0 t/m 99 in plaats van 1 t/m 100
 omdat dat de Python code simpeler houdt. Verdeel de nummers van
