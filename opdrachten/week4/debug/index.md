@@ -22,7 +22,7 @@ dus 2 biljetten van 20€, 1 biljet van 5€ en 1 munt van 1€ euro zorgt voor
 een total van 46€.
 
 Het is de bedoeling dat programma
-[compute_change.py](compute_change.py) dit voor elke bedrag kan
+[compute_change.py](compute_change.py) dit voor elk bedrag kan
 uitrekenen:
 
 ```python
@@ -78,10 +78,10 @@ Als we het bovenstaande programma uitvoeren:
                     ^
     SyntaxError: '[' was never closed
     
-krijgen we een 'SyntaxError' die probeert uit te leggen wat er mis
-is. Soms helpt het om een websearch (op "SyntaxError [ was never
-closed") te doen als je de uitleg niet helemaal begrijpt. Let bij een
-error vooral op de filename (hier "compute_change.py") en het
+krijgen we een 'SyntaxError' met een foutmelding die probeert uit te
+leggen wat er mis is. Soms helpt het om een websearch op de
+foutmelding te doen als je de uitleg niet helemaal begrijpt. Let bij
+een foutmelding vooral op de filename (hier "compute_change.py") en het
 regelnummer (hier "line 37") om snel de plek in de code te vinden waar
 de error zich voordoet. Soms krijg je meerdere regels met filenames en
 regelnummers, begin dan onderaan.
@@ -103,16 +103,16 @@ uitvoeren en er wordt gevraagd om een bedrag, kies daar '46':
                2:       16
                1:       15
 
-Het programma werkt maar het is duidelijke dat de
-denominatie-aantallen niet kloppen want het totaal voor de
-verschillende denominatie-aantallen is hoger dan 46, er zit dus een
-logische fout in het pogramma, een **bug**. Maar deze bug kan overal
-zitten, hoe vinden we nu waar de bug zit?
+Het programma werkt maar het is duidelijk dat de denominatie-aantallen
+nog niet kloppen want het totaal voor de verschillende
+denominatie-aantallen is hoger dan 46, er zit dus nog een logische
+fout in het pogramma, een **bug**. Maar deze bug kan overal zitten,
+hoe vinden we nu waar de bug zit?
 
 ## Type Checking
 
 'Type checks' kunnen helpen te bepalen waar er nog een bug in het
-programma zit door te controleren op type fouten. We kunnen
+programma zit door te controleren op type-fouten. We kunnen
 bijvoorbeeld functie:
 
 ```python
@@ -129,24 +129,24 @@ met als resultaat:
 
     Hello WorldHello World
     
-Maar in de functie staat met `: int` aangegeven dat deze eigenlijk
+Maar in deze functie staat met `: int` aangegeven dat deze eigenlijk
 alleen voor integers bedoeld is. Deze functie per ongeluk aanroepen met
 een string zou daarom wel eens tot een bug kunnen leiden. Met 'type
 checks' kunnen we dit soort type fouten automatisch vinden. Installeer
-daarvoor eerst 'mypy':
+hiervoor eerst 'mypy':
 
 ```console                                  
 $ pip install mypy
 ```
                                      
-en run daarmee 'type checks' op een programma met:
+en run daarmee 'type checks' op het denominaties voorbeeldprogramma met:
 
 ```console
 $ mypy --strict compute_change.py
 ```
                                      
-Dit vindt automatisch deze type fouten en geeft ook het
-regelnummer.
+Dit vindt automatisch deze type-fouten, zodat we ze niet zelf hoeven
+op te sporen, en geeft ook de regelnummers:
                                      
 ```console
 $ mypy --strict compute_change.py
@@ -159,8 +159,8 @@ Found 2 errors in 1 file (checked 1 source file)
 
 ## Doctest
 
-Ook doctests kunnen helpen te bepalen waar er nog een bug in het
-programma zit door te controleren of de functie doet wat in de
+Ook doctests kunnen helpen te bepalen waar er nog een bug in een
+programma zit door te controleren of een functie doet wat in de
 voorbeelden staat. Zo heeft de functie `compute_denomination_amount()`
 al 2 voorbeelden in de vorm van doctest:
 
@@ -173,8 +173,9 @@ al 2 voorbeelden in de vorm van doctest:
     
 Het eerste voorbeeld geeft aan dat we voor een gedrag van 1€ 0
 biljetten van 10€ gebruiken en het tweede dat we voor een bedrag van
-24€ 2 biljetten van 10€ gebruiken. We kunnen alle doctest in het
-programma runnen met:
+24€ 2 biljetten van 10€ gebruiken. We kunnen automatisch controleren
+of elke functie het juiste resultaat geeft wat in bijbehorende
+voorbeelden is genoemd door de doctests te runnen met:
                                      
 ```console
 $ python -m doctest compute_change.py
@@ -216,7 +217,7 @@ Test passed.
 Alle doctest slagen maar er zit nog wel een bug in het programma. 
 
 **Opdracht3:** Voeg meer doctest toe om te proberen te ontdekken of
-`compute_denomination_amount()` een bug heeft.
+`compute_denomination_amount()` nog een bug heeft.
 
 Daarbij is het belangrijk om vooral de randgevallen te testen, dus
 waarden die aan beide kanten van een waardeovergang liggen,
@@ -224,14 +225,15 @@ bijvoorbeeld:
 
 Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€ meer vind
 er een overgang plaats, voor 1000€ kan ik namelijk 100 bijetten van
-10€ gebruiken.
+10€ gebruiken. Dat maakt 999 en 1000 randgevallen die nuttig zijn voor
+een test.
 
 Als je met een doctest een bug ontdekt, is het nuttig om de test te
 proberen te versimpelen op zo'n manier dat de bug behouden blijft. Het
-voorbeeld van 999€ is niet erg simpel omdat het zo'n groot begrag
-is, probeer een lagere waarde te vinden met behoud van de bug. Bij
-simpelere tests is het namelijke makkelijker om de
-oorzaak van de bug te ontdekken.
+voorbeeld van 999€ is niet erg simpel omdat het zo'n groot bedrag is,
+probeer een lagere waarde te vinden waarbij wel de bug behouden
+blijft. Bij simpelere tests is het namelijke makkelijker om de oorzaak
+van de bug te ontdekken.
 
 ## Prints
 
@@ -251,9 +253,10 @@ Voor een bedrag van 6€ heb ik 0 biljetten van 10€ nodig, maar
 de functie geeft foutief het aantal '1'.
 
 Om beter te begrijpen wat in deze functie gebeurt kunnen we
-print-statements toevoegen voor variabelen en expressies. Voeg bij
-print-statements voor een goed overzicht ook de naam van de variabele
-toe die je print, dus:
+print-statements toevoegen die de waarde van variabelen en expressies
+weergeven. Voeg bij print-statements voor een goed overzicht ook
+steeds de naam van de variabele/expressie toe die je print, dus iets
+van:
 
 ```python
 print("variabele:", variabele)
@@ -266,7 +269,7 @@ print(variabele)
 ```
                                      
 Voor `compute_denomination_amount()` zou dat er zo uit kunnen zien:
-                                     
+
 ```python
 def compute_denomination_amount(due: int, denomination: int) -> int:
     print("due / denomination:", due / denomination)
@@ -323,8 +326,8 @@ Na een aantal keer 'Next' klikken komen we in de
 welke variabelen er zijn en hoe hun waarden veranderen bij het
 uitvoeren van de regels. Dit geeft meer details dan alleen
 print-statements en kan helpen om beter te begrijpen waarom de functie
-een verkeerde waarde terug geeft. Klik ook op 'Prev' om een regel
-terug te stappen.
+een verkeerde waarde terug geeft. Klik op 'Prev' om ook een regel
+terug in de tijd te stappen.
 
 ![PythonTutor_watch](watch.png){: style="width:20rem;"}
 
@@ -344,7 +347,7 @@ probeer het dan echt eerst zelf te ontdekken voor je verder leest.
 Na enig denkwerk zouden we met alle informatie tot de conclusie moeten
 kunnen komen dat 0.6 naar beneden moet worden afgerond voor het juiste
 aantal bankbiljetten en niet naar het dichtsbijzijnde gehele
-getal. Dit kan met:
+getal. Dit kan bijvoorbeeld met:
 
 ```python
 amount = due // denomination
@@ -390,7 +393,7 @@ for denomination in denominations:
     print("due:", due, "denominations:", denominations, "change:", change)
 ```
 
-Wat voor 46€ deze output geeft, maar voeg zelf vooral print-statements toe
+welke voor 46€ deze output geeft, maar voeg zelf vooral print-statements toe
 die helpen voor jouw eigen begrip:
         
     Welk bedrag moet je betalen? 46
@@ -420,15 +423,15 @@ te verwijderen.
 
 Het kan best moeilijk zijn om bugs te vinden en op te lossen. Het kost
 soms veel tijd/energie/frustratie om te begrijpen wat er in code moet
-gebeuren, wat er mis gaat, en hoe dit kan worden opgelost. Toch is dit een
-van de belangrijkste programmeervaardigheden. Met oefening wordt je
-hier vanzelf beter in en wordt dit ook makkelijker. Wat helpt is
+gebeuren, wat er mis gaat, en hoe dit kan worden opgelost. Toch is dit
+een van de belangrijkste programmeervaardigheden. Met oefening wordt
+je hier vanzelf beter in en wordt dit ook makkelijker. Wat helpt is
 precies werken zodat je bugs voorkomt en regelmatig testen. Test
-steeds met print-statements of je programma doet wat je denkt dat het
-doet, na maar een klein aantal nieuwe regels code toe te hebben
-gevoegd. Dan kost testen over het algemeen minder tijd dan pas
-achteraf veel regels tegelijk testen (zoals in het bovenstaande
-programmma).
+steeds met doctests/print-statements/PythonTutor of je programma doet
+wat je denkt dat het doet, na maar een klein aantal nieuwe regels code
+toe te hebben gevoegd. Dan kost testen over het algemeen minder tijd
+dan pas achteraf veel regels tegelijk testen (zoals in het
+bovenstaande programmma).
 
 ## Correctheid
 
@@ -437,16 +440,16 @@ maar we kunnen niet zeker weten dat een programma helemaal bug vrij
 is. Misschien zijn we namelijke een belangrijke test vergeten voor een
 speciaal geval.
 
-Om toch meer zekerheid te krijgen kunnen we in veel gevallen wel code
-schrijven die automatisch veel test uitvoert. Hieronder voorbeeld-code
-die van een 'change'-lijst het 'due' bedrag terug-berekent. Deze
-waarde zou natuurlijk gelijk moeten zijn aan het originele 'due'
-bedrag van de 'change'-lijst. We kunnen dit vervolgens testen voor
-bijvoorbeeld 100000 verschillende random gekozen waarden voor
-'due'. Als het voor al die waarden goed werkt kunnen we toch een hoge
-mate van vertrouwen krijgen dat de code bug-vrij is, maar helemaal
-zeker weten doen we dat in het algmeen niet, zeker niet voor grote
-complexe programma's.
+Om toch meer zekerheid te krijgen kunnen we in sommige gevallen wel
+code schrijven die automatisch veel test uitvoert. Hieronder
+voorbeeld-code die van een 'change'-lijst het 'due' bedrag
+terug-berekent. Deze waarde zou natuurlijk gelijk moeten zijn aan het
+originele 'due' bedrag van de 'change'-lijst. We kunnen dit vervolgens
+testen voor bijvoorbeeld 100000 verschillende random gekozen waarden
+voor 'due'. Als het voor al die waarden goed werkt kunnen we toch een
+hoge mate van vertrouwen krijgen dat de code bug-vrij is, maar
+helemaal zeker weten doen we dat in het algmeen niet, zeker niet voor
+grote complexe programma's.
 
 ```python
 import random
@@ -488,19 +491,19 @@ krijgen dat alle bugs zijn verwijderd.
 
 ## Checkpy
 
-In dit vak hoef je niet zelf alle test code te schrijven om te
+In dit vak hoef je niet zelf alle testcode te schrijven om te
 controleren of je programma bug-vrij is. Bij het inleveren wordt je
-code bij de meeste opdrachten automatisch getest met `checkpy`. Je
-kunt deze tests ook zelf uitvoeren na installeren en configureren
-van checkpy met:
+code bij de meeste opdrachten namelijk al automatisch getest met
+`checkpy`. Je kunt deze tests ook zelf uitvoeren na installeren en
+configureren van checkpy met:
 
 ```console
 pip install checkpy
 checkpy -download https://github.com/minprog/python
 ```
 
-Om bijvoorbeeld de tests uit te voeren op de het `cafeine.py` programma van de
-eerste opdracht:
+Run daarna bijvoorbeeld dit om de checkpy tests uit te voeren op het
+`cafeine.py` programma van de eerste opdracht:
 
 ```console
 checkpy cafeine.py
@@ -508,7 +511,7 @@ checkpy cafeine.py
 
 Bij deze tests worden meestal ook de 'type checks' en doctests
 uitgevoerd, maar het is duidelijker om die van te voren zelf uit te
-voeren omdat je dan meer feedback krijgt, dus:
+voeren omdat je dan meer feedback krijgt, dit kan met:
 
 ```console
 mypy --strict cafeine.py
