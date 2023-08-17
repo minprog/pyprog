@@ -1,6 +1,6 @@
 # Feestagenda
 
-In deze opdracht oefenen we met het memory model, we gaan een
+In deze opdracht oefenen we met het Python memory model, we gaan een
 feestagenda invullen.
 
 In de main van onderstaande programma [feestagenda.py](feestagenda.py)
@@ -152,10 +152,14 @@ sommige type hints niet. Daarom gebruiken we geen type hints en geen
 
 ## Alternatief Ontwerp
 
-Tot slot, het ontwerp van de feestagenda in deze opdracht zorgt dat
-soms dezelfde naam op meerdere plekken aangepast moet worden, zoals de
-naam 'Jim' in opdracht4. Om dit te voorkomen zouden we zelf nog een
-extra verwijzing naar namen kunnen toevoegen zoals bijvoorbeeld met:
+Schrijf nu eerst de verschillende functie van de feestagenda opdracht en
+lees achteraf hier nog even over een mogelijk alternatief ontwerp. 
+
+Het ontwerp van de feestagenda in deze opdracht zorgt dat soms dezelfde
+naam op meerdere plekken aangepast moet worden, zoals de naam 'Jim' in
+opdracht4. Dit dubbel opslaan kan tot fouten leiden en om dit te
+voorkomen zouden we zelf nog een extra verwijzing naar namen kunnen
+toevoegen zoals bijvoorbeeld met:
 
 ```python
 names = ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 
@@ -170,9 +174,9 @@ naar de namen in de 'names' lijst. Elke naam hoeft nu maar een keer
 voor te komen in deze 'names' lijst terwijl we daar wel meerdere keren
 naar kunnen verwijzen met een index. Maar, omdat we in deze oefening
 vooral met het memory model wilde oefenen, is er niet gekozen voor dit
-misschien eigenlijk wel betere ontwerp. Een 'relationele database'
-gebruikt een soortgelijke techniek om het dubbel opslaan van data te
-voorkomen. Als je heel veel data met relaties hebt, is het soms beter
-om in Python een relationele database te gebruiken in plaats van zelf
-code te schrijven voor het opslaan en opvragen van data, maar dat is
-een onderwerp voor een later vak.
+misschien wel betere maar ingewikkeldere ontwerp. Een 'relationele
+database' gebruikt een soortgelijke techniek om het dubbel opslaan van
+data te voorkomen. Als je veel data met relaties hebt, is het
+soms beter om in Python een relationele database te gebruiken in
+plaats van zelf code te schrijven voor het opslaan en opvragen van
+data, maar dat is een onderwerp voor een later vak.
