@@ -7,11 +7,11 @@ In de main van onderstaande programma [feestagenda.py](feestagenda.py)
 wordt een lege feestagenda gemaakt die we gaan vullen met bands. In de
 functies `opdracht1()` t/m `opdracht7()` gaan we steeds de agenda iets
 aanpassen. Lees de docstring documentatie van ieder opdracht-functie
-om te zien wat er moet gebeuren. Functie `opdracht1()` werkt nu al
-correct. Bij elke opdracht-functie is ook aangegeven in hoeveel regels
-deze kan worden geimplementeerd. Met een slimme aanpak zijn er maar
-weinig regels nodig. Probeer de opdracht-functies zo kort mogelijk te
-houden.
+om te zien wat er moet gebeuren. Als je het programma runt zie je dat
+functie `opdracht1()` nu al correct werkt. Bij elke opdracht-functie
+is ook aangegeven in hoeveel regels deze kan worden
+geimplementeerd. Met een slimme aanpak zijn er maar weinig regels
+nodig. Probeer de opdracht-functies zo kort mogelijk te houden.
 
 ```python
 def main():
@@ -170,7 +170,7 @@ the_dragonflies = [4, 5, 6, 7]
 ```
 
 De band 'the_rockets' is nu dus een lijst met indices die verwijst
-naar de namen in de 'names' lijst. Elke naam hoeft nu maar een keer
+naar de namen in de 'names' lijst. Elke naam hoeft nu maar één keer
 voor te komen in deze 'names' lijst terwijl we daar wel meerdere keren
 naar kunnen verwijzen met een index. Maar, omdat we in deze oefening
 vooral met het memory model wilde oefenen, is er niet gekozen voor dit
