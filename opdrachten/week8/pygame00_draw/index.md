@@ -10,9 +10,9 @@ $ pip install pygame
 
 Programma [draw.py](draw.py) laat zien hoe we kunnen tekening met
 pygame. In het programma wordt eerst een window aangemaakt met naam
-'drawing'. Vervolgens starten we een loop waarin we steeds het window
-vullen met de kleur zwart om vervolgens steeds witte 'rectangles', een
-rode 'ellipse' en blauwe 'line' te tekenen. 
+'drawing'. Vervolgens starten we een while-loop waarin we steeds het
+window vullen met de kleur zwart om vervolgens steeds witte
+'rectangles', een rode 'ellipse' en blauwe 'line' te tekenen.
 
 In het programma wordt daarnaast een 'clock' object gebruikt om te
 zorgen dat de loop niet meer dan 60 keer per seconden wordt
@@ -78,24 +78,27 @@ van het window beslaan, ook als we het window van grootte veranderen.
 In het assenstelsel van `pygame` bevindt de oorsprong, het punt (0,0),
 zich in de linker bovenhoek. De X-as is horizontaal en de Y-as
 vertikaal. Het punt in de rechter benedenhoek is het coordinaat
-(width,height) waar 'width' en 'height' de huidige breedte en hoogte
-van het window zijn die initieel op 800 en 600 worden gezet.
+(width,height) waarbij 'width' en 'height' de huidige breedte en hoogte
+van het window zijn die initieel op 800 en 600 worden gezet, maar
+kunnen veranderen.
 
 ![coordinate_system.png](coordinate_system.png)
 
 ## Opdracht: Chess
 
-Schrijf zelf programma `chess.py` wat een 8x8 schaakbord tekent zoals
+Schrijf nu zelf programma `chess.py` wat een 8x8 schaakbord tekent zoals
 weergeven in dit plaatje:
 
 ![chess8.png](chess8.png)
 
 Schrijf het programma zodat het makkelijk aangepast kan worden om
-bijvoorbeeld een 5x5 schaakbord te tekenen en dat het ook goed werkt
-als het window een andere grootte krijgt:
+bijvoorbeeld een 5x5 schaakbord te tekenen (tip: maak gebruik van
+loops) en dat het ook goed werkt als het window een andere grootte
+krijgt:
 
 ![chess5.png](chess5.png)
 
-Bekijk hiervoor de [draw.html](https://www.pygame.org/docs/ref/draw.html)
-pagina van de pygame documentatie voor het tekenen van verschillende
-vormen.
+Bekijk eventueel de
+[draw.html](https://www.pygame.org/docs/ref/draw.html) pagina van de
+pygame documentatie voor meer informatie over het tekenen van
+verschillende vormen.
