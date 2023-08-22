@@ -57,13 +57,3 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     $ python orakel.py
     Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? drieëntachtig
     Nee
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">

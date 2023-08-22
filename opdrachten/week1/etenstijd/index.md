@@ -61,13 +61,3 @@ De laatste geeft dus geen enkele uitvoer.
 ## Extra uitdaging
 
 Wil je voor een extra uitdaging gaan? Zorg dan dat de gebruiker ook tijden kan invullen van de vorm `X:XX AM`, `XX:XX AM`, `X:XX PM`, en `XX:XX PM`. Let op: dit is niet verplicht, dus het wordt niet gecontroleerd bij inzenden. Zorg wel dat alle bestaande checks blijven werken!
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">
