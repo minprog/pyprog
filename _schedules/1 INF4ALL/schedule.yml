@@ -8,9 +8,9 @@ Module 1:
     Opdrachten:
         Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
         Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
-        Orakel: /opdrachten/week2/orakel           # 1 func, main, if
-        Etenstijd: /opdrachten/week2/etenstijd     # 1 func, main, if, str.split
-        Calculator: /opdrachten/week2/calculator   # 2 func, main, if, str.split (fix decomp!)
+        Orakel: /opdrachten/week1/orakel           # 1 func, main, if
+        Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
+        Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split (fix decomp!)
 
 Module 2:
     Overzicht: /modules/herhaling
