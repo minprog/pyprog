@@ -18,6 +18,8 @@ Tegelijk ga je aan de slag met het schrijven van kleine **tests** voor je functi
 | **Chapter 4**  | Welke standaard-functies zijn er in Python voor strings     |
 | **Chapter 5**  | Hoe kun je verschillende uitkomsten hebben in een programma |
 |----------------|-------------------------------------------------------------|
+
+|----------------|-------------------------------------------------------------|
 | Opdracht       | Onderwerp                                                   |
 |----------------|-------------------------------------------------------------|
 | **Cafeine**    | Input, output en berekeningen in Python                     |
