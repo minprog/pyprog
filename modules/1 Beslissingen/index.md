@@ -1,4 +1,4 @@
-# Beslissingen
+# Module 1: Programmeren, variabelen en beslissingen
 
 Goed, tijd om te programmeren! We gaan dat doen aan de hand van het boek **Practical Programming**. Je gaat heel snel aan de slag met het uitpuzzelen van echte programmeerproblemen, maar we bouwen ook stap voor stap je kennis op van de ideeën die aan het programmeren ten grondslag liggen. Zo is het deze week belangrijk dat je uiteindelijk goed begrijpt wat een variabele is en hoe je er mee kunt werken.
 
