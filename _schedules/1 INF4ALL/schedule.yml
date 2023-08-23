@@ -23,9 +23,9 @@ Module 2:
     Opdrachten:
         Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
         Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str
-        Scrabble: /opdrachten/week4/scrabble       # 1 func, main, loop, if, str
-        Cola: /opdrachten/week3/cola               # 3 func, main, if, loop
-        Temperatuur: /opdrachten/week3/temperatuur # 2 func, main, if, loop, formatting
+        Scrabble: /opdrachten/week2/scrabble       # 1 func, main, loop, if, str
+        Cola: /opdrachten/week2/cola               # 3 func, main, if, loop
+        Temperatuur: /opdrachten/week2/temperatuur # 2 func, main, if, loop, formatting
 
 Module 3:
     Overzicht: /modules/decompositie

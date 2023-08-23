@@ -127,13 +127,3 @@ Je programma moet uiteindelijk exact werken zoals in de voorbeelden hieronder.
       3 | -16
       6 | -14
       9 | -12
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">

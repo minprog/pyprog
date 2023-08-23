@@ -67,13 +67,3 @@ Werkt je programma niet goed? Schrijf dan doctests en probeer ze uit met het vol
 Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
 
     mypy --strict --ignore-missing-imports programma.py
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">
