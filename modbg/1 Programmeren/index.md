@@ -14,7 +14,7 @@ Tot slot is er aandacht voor **lijsten**. Lijsten geven je een plek om data van 
 
 ## Studiematerialen
 
-Voor deze week is het verstandig om hoofdstuk 3, 8 en 9 extra scherp te lezen zodat je een goed idee krijgt van wat belangrijk is voor <u>deze</u> cursus. De andere hoofdstukken doorbladeren doe je ook om te checken of je alles begrijpt.
+Voor deze week is het verstandig om hoofdstuk 3, 8 en 9 extra scherp te lezen zodat je een goed idee krijgt van wat belangrijk is voor <u>deze</u> cursus (het is Python, maar bij ons schrijf je je programma's op een andere manier!). De andere hoofdstukken doorbladeren doe je ook om te checken of je alles begrijpt.
 
 | ---------------- | ------------------------------------------------------------- |
 | Boek             | Onderwerp                                                     |
