@@ -109,7 +109,7 @@ De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgid
 1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten en uitleg over gemaakte keuzes
 {: start="6" reversed=""}
 
-> Deze schaal wordt nog een klein beetje aangepast vóór de eerste code review.
+> Deze schaal wordt nog aangepast vóór de eerste code review.
 
 Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
 
