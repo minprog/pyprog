@@ -1,4 +1,4 @@
-# Algoritmen
+# Module 4: Algoritmen
 
 <!-- Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds ga je kijken naar de manier waarop je een algoritme kunt ontwikkelen en waar je dan op moet letten. Anderzijds ga je kennis maken met een aantal "standaard-algoritmen" voor sorteren en zoeken. Deze standaard-algoritmen zijn zo algemeen, dat we ze in pseudocode kunnen beschrijven en in een willekeurige programmeertaal vastleggen om echt te gebruiken. En welke programmeertaal dat ook is, de eigenschappen van de algoritmen zullen steeds hetzelfde zijn.  -->
 

@@ -12,6 +12,22 @@ Je moet het vak Inleiding Programmeren Bèta-gamma volledig hebben gehaald voord
 
 De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>. Coen van den Elsen is assistent en samen met Bas aanwezig bij alle bijeenkomsten. Bas en Coen kijken ook het huiswerk na.
 
+## Wat ga je leren
+
+- Module 1: Programmeren, variabelen en beslissingen. Hier herhalen we de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+
+- Module 2: Decompositie. Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+
+- Module 3: Simuleren. Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
+
+- Module 4: Algoritmen. Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
+
+- Module 5: Object-georienteerd programmeren. In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+
+- Module 6: ... (pygame)
+
+- Module 7: ... (...)
+
 ## Opdrachten en eindcijfer
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:

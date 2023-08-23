@@ -1,4 +1,4 @@
-# Probleemoplossing
+# Decompositie
 
 Deze week duiken we in het oplossen van grotere programmeerproblemen. De opdrachten zijn wat uitgebreider dan eerder en bevatten meer onderdelen. Bestudeer ze om een goed beeld te krijgen van hoe je problemen (en oplossingen) kunt opdelen in kleine stukjes.
 

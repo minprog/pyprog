@@ -1,4 +1,4 @@
-# Simuleren
+# Module 3: Simuleren
 
 Met de ervaring die je nu hebt opgedaan met het bouwen van programma's op basis van meerdere functies, kun je aan de slag met voorbeelden van programma's die problemen uit de echte wereld oplossen.
 
