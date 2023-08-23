@@ -39,12 +39,11 @@ Module 3:
 Module 4:
     Overzicht: /modules/simuleren
     # Tentamen-oefening: /toetsjes/week3
-    Lezen en oefenen:
-        Comprehensions: /opdrachten/week6/comprehensions
     Opdrachten:
-        Populatie: /opdrachten/week3/populatie     # 1 func, main, simulatie
-        Sjoelen: /opdrachten/week3/sjoelen         # 2 func, main, simulatie
-        Virus: /opdrachten/week6/virus             # 7 func, main, simulatie, comprehensions
+        Comprehensions: /opdrachten/week4/comprehensions
+        Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
+        Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
+        Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
 
 Module 5:
     Overzicht: /modules/algoritmen
@@ -54,9 +53,9 @@ Module 5:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
-        Algorithms: /opdrachten/week6/algorithms
+        Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
-        Schuifpuzzel: /opdrachten/week4/schuifpuzzel
+        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
 
 Module 6:
     Overzicht: /modules/classes
@@ -67,7 +66,7 @@ Module 6:
         Queue: /objects/queue                      # basic datastructuur, encapsulation, init
         Cards: /objects/cards                      # UML, data class, container
         Hangman: /hangman/classic                  # separation of concerns (lexicon/game)
-        Knapsack: /opdrachten/week7/knapsack       # class-representatie probleem (geen operators!)
+        Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
         # let op: lisp, figuren zijn geschrapt
 
 Module 7:
@@ -78,4 +77,4 @@ Module 7:
         "Chapter 10: Reading and Writing Files": /boek/files
     Opdrachten:
         # Preprocessing: /opdrachten/week5/eca2csv # deze gaat weg
-        Klimaat: /opdrachten/week5/klimaat
+        Klimaat: /opdrachten/week7/klimaat

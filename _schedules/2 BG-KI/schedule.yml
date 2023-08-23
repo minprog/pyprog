@@ -25,17 +25,16 @@ Module 2:
         RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
         camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
-        Kalender: /opdrachten/week4/kalender       # misschien het printen beetje scaffolden
+        Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
 
 Module 3:
     Overzicht: /modules/simuleren
     # Tentamen-oefening: /toetsjes/week3
-    Lezen en oefenen:
-        Comprehensions: /opdrachten/week6/comprehensions
     Opdrachten:
-        Populatie: /opdrachten/week3/populatie     # 1 func, main, simulatie
-        Sjoelen: /opdrachten/week3/sjoelen         # 2 func, main, simulatie
-        Virus: /opdrachten/week6/virus             # 7 func, main, simulatie, comprehensions
+        Comprehensions: /opdrachten/week4/comprehensions
+        Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
+        Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
+        Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
 
 Module 4:
     Overzicht: /modules/algoritmen
@@ -45,8 +44,8 @@ Module 4:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
-        Algorithms: '' # werkt nog niet /opdrachten/week6/algorithms
-        Indexer: /opdrachten/week6/indexer
+        Algorithms: /opdrachten/week5/algorithms
+        Indexer: /opdrachten/week5/indexer
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
 
 Module 5:
@@ -58,7 +57,7 @@ Module 5:
         Queue: /objects/queue                      # basic datastructuur, encapsulation, init
         Cards: /objects/cards                      # UML, data class, container
         Hangman: /hangman/classic                  # separation of concerns (lexicon/game)
-        Knapsack: /opdrachten/week7/knapsack       # class-representatie probleem (geen operators!)
+        Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
         # let op: lisp, figuren zijn geschrapt
 
 Module 6:
