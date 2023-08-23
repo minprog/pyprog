@@ -10,10 +10,11 @@ Module 1:
         "Chapter 8: Storing Collections using Lists": /boek/lists
         "Chapter 9: Repeating Code using Loops": /boek/loops
     Opdrachten:
+        Etenstijd: /opdrachten/week1/etenstijd
         Calculator: /opdrachten/week1/calculator
         Wachtwoord: /opdrachten/week2/wachtwoord
         Cola: /opdrachten/week2/cola
-        Sjoelen: /opdrachten/week3/sjoelen
+        # Sjoelen: /opdrachten/week3/sjoelen
         Temperatuur: /opdrachten/week2/temperatuur
 
 Module 2:
