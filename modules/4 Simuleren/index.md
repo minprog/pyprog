@@ -10,15 +10,18 @@ Interessant wordt het als je verschillende aspecten van een systeem gaat modelle
 
 Een simulatie is altijd gebaseerd op **herhaling**, omdat er tijdstappen worden doorlopen waarin variabelen veranderen. Elke tijdstap (bijvoorbeeld een dag, een seconde of een jaar) zijn er bepaalde gebeurtenissen die van invloed zijn op de gekozen variabelen, zoals het "aantal levende konijnen in een populatie".
 
+Maar om te beginnen introduceren we **list comprehensions** waarmee je transformaties van lijsten op een relatief korte manier kunt uitdrukken. Dit is handig voor code waarin je bijvoorbeeld elk element van een lijst wil omrekenen naar iets anders.
+
 ## Studiematerialen
 
-| ---------------- | -------------------------------------------------------------------- |
-| Opdracht         | Onderwerp                                                            |
-| ---------------- | -------------------------------------------------------------------- |
-| **Populatie**    | Een relatief eenvoudige simulatie die doorloopt tot een **einddoel** |
-| **Sjoelen**      | Een spelsimulatie op basis van **kansen**                            |
-| **Virus**        | Een simulatie om het **effect** van een virusremmer te bestuderen    |
-| ---------------- | -------------------------------------------------------------------- |
+| ------------------ | -------------------------------------------------------------------- |
+| Opdracht           | Onderwerp                                                            |
+| ------------------ | -------------------------------------------------------------------- |
+| **Comprehensions** | Oefenen met manieren om list comprehensions toe te passen            |
+| **Populatie**      | Een relatief eenvoudige simulatie die doorloopt tot een **einddoel** |
+| **Sjoelen**        | Een spelsimulatie op basis van **kansen**                            |
+| **Virus**          | Een simulatie om het **effect** van een virusremmer te bestuderen    |
+| ------------------ | -------------------------------------------------------------------- |
 
 ## Aanpak
 
