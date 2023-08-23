@@ -1,13 +1,5 @@
 # Knapsack
 
-> Puntentelling IK/KI
->
-> - 9: Een werkende inzending die voldoet aan alle vereisten voor de opdracht, met zowel solide functionaliteit als een goede stijl, maar kleine fouten worden niet gerekend. De goede werking is aangetoond door doctests.
-> - 7: Een werkende inzending die voldoet aan de meeste eisen voor de opdracht, mogelijk met wat problemen. Werking is aangetoond door doctests.
-> - 5: Een werkende inzending die problemen heeft die ernstig genoeg zijn om niet aan de vereisten voor de opdracht te voldoen. Werking is aangetoond door doctests.
-> - 3: Een werkende inzending die zeer ernstige problemen heeft, maar toch enige inspanning en begrip toont. Werking van onderdelen is aangetoond door doctests.
-> - 0: Een inzending die weinig inspanning toont en niet duidelijk maakt dat er begrip is.
->
 > **Let op: het is altijd noodzakelijk om een main toe te voegen waarin de code wordt "gestart".**
 
 Bij een knapsack-probleem krijgen we punten voor elk item dat we

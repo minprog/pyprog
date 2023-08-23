@@ -2,16 +2,6 @@
 
 ![](virus.jpg)
 
-> Je krijgt punten voor de gemaakte deelopdrachten:
-> 
-> - 1 punt voor stap 1 (mits gehouden aan de limiet)
-> - 1 punt voor stap 2
-> - 1 punt voor stap 3 (mits gehouden aan de limiet)
-> - 2 punten voor stap 4
-> - 1 punt voor stap 5
-> - 4 punten voor een goedwerkende simulatie in stap 7
-> - 2 punten voor een inzichtvolle eigen grafiek op basis van simulaties
-
 Voor beleidsmakers en de farmaceutische industrie is het belangrijk om de succeskans van een geneesmiddel te bepalen. Omdat vele factoren een rol spelen is het lastig om deze kans in een wiskunde formule te vatten, en daarom biedt het doen van simulaties een uitkomst. In deze opdracht ga je virusdeeltjes **simuleren** die kunnen reproduceren en sterven. We bouwen deze opdracht stap voor stap op tot een complete, maar versimpelde simulatie.
 
 Bij deze opdracht focussen we niet alleen op het idee van simuleren, maar je gaat ook uitgebreider dan voorheen je code testen. Bij elke tussenstap vind je aanwijzingen voor een functie die jij gaat implementeren. In de uitleg staat altijd een kopje "Testen", met aanwijzingen over hoe jij kan checken of je functie voldoet aan de verwachtingen. Deze aanwijzingen zijn niet compleet! Het kan zijn dat je tegen problemen aanloopt die hierdoor niet gecheckt worden. Je moet dus ook oefenen met het zelf nadenken over potentiële problemen. Hou in ieder geval het doel in de gaten: voorkomen dat fouten zich **opstapelen**. Als een fout zich pas op het allerlaatst vertoont, is het namelijk veel lastiger om de ware oorzaak te vinden.
