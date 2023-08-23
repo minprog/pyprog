@@ -1,7 +1,5 @@
 # Schuifpuzzel
 
-**Deze opdracht gebruikt niet het inlezen van files. In plaats daarvan bouwt de opdracht voort op je kennis van eerdere weken, en specifiek oefen je hier met lists (in lists).**
-
 Een schuifpuzzel is een vierkante puzzel die meestal bestaat uit `4 * 4 = 16` velden.
 In al deze velden zitten tegels, op één veld na.
 Doordat er een tegel mist, is er een vrij veld en kun je de andere tegels verschuiven.
