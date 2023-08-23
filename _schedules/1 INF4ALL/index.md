@@ -10,7 +10,7 @@ Er is geen voorkennis nodig voor dit vak.
 
 ## Docent
 
-Martijn Stegeman is docent. Je kunt hem mailen via <help@mprog.nl>, de helpdesk van het Programming Lab van de UvA. Opdrachten zullen nagekeken worden en van feedback voorzien door Pamela Sneekes.
+Martijn Stegeman is docent. Je kunt hem mailen via <python@proglab.nl>, de helpdesk van het Programming Lab van de UvA. Opdrachten zullen nagekeken worden en van feedback voorzien door Pamela Sneekes.
 
 ## Opdrachten en eindcijfer
 
@@ -66,7 +66,7 @@ Als je ziek bent op een dag dat je aan INF4ALL ging werken dan meld je het in ie
 
 Het is heel belangrijk dat als je ziek bent op een normale werkdag, je niet je INF4ALL-dag gaat gebruiken om het werk in te halen! Je moet tijd opeisen voor INF4ALL anders komt het niet af.
 
-Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de docent. Stuur maar een [mailtje](mailto:help@mprog.nl)!
+Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de docent. Stuur maar een [mailtje](mailto:python@proglab.nl)!
 
 ## Opdrachtcijfers
 

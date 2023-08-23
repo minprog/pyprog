@@ -26,7 +26,7 @@ In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals 
 
 ## Tips
 
-*   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `help@mprog.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
+*   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `python@proglab.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
 
         email = "python@proglab.nl"
         user, domain = email.split("@")

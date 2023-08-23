@@ -29,7 +29,7 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 Om in aanmerking te komen voor een eindbeoordeling moet je:
 
 - meedoen met het vak, dus het grootste deel van alle opdrachten hebben ingeleverd vóór de wekelijkse deadlines (geen grote gaten laten vallen, naar beoordeling van de docenten)
-- specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór de wekelijkse deadline
+- specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór de wekelijkse deadline (we laten tijdig weten welke dit zijn)
 - alle code reviews hebben op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd, eventueel in overleg met de docent
 - aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag er één missen)
 - het tentamen voldoende maken
@@ -53,7 +53,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 * meedenken over grote problemen met het vak
 * andere officiële zaken
 * administratie na afloop van het vak
-* mail <progbg@mprog.nl> of spreek Bas aan bij het werkcollege
+* mail <progbg@proglab.nl> of spreek Bas aan bij het werkcollege
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -72,18 +72,18 @@ Dit is een overzicht van de deadlines per week:
 |          | deadline huiswerk | deadline code review |
 |----------|-------------------|----------------------|
 | Module 1 | vr  8 sep  17:00  | -                    |
-| Module 2 | vr 15 sep  17:00  | ma 18 sep  19:59     |
+| Module 2 | vr 15 sep  17:00  | ma 18 sep  20:00     |
 | Module 3 | vr 22 sep  17:00  | -                    |
-| Module 4 | vr 29 sep  17:00  | ma  2 okt  19:59     |
+| Module 4 | vr 29 sep  17:00  | ma  2 okt  20:00     |
 | Module 5 | vr  6 okt  17:00  | -                    |
-| Module 6 | vr 13 okt  17:00  | ma 16 okt  19:59     |
+| Module 6 | vr 13 okt  17:00  | ma 16 okt  20:00     |
 | Module 7 | vr 20 okt  17:00  | -                    |
 
 De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
 ### Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je mentor via e-mail. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:progbg@proglab.nl). Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
 - Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, dan meld je heel duidelijk de stand van zaken aan je mentor en haal je deze opdracht tijdens het weekend in. Dit mag alleen als je de andere opdrachten al hebt ingeleverd.
 
@@ -99,21 +99,27 @@ De aanwezigheid bij de overige colleges is niet verplicht, maar het is wél de e
 
 ## Beoordeling code review
 
-De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. Voor elke opdracht zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*, waarover je in de eerste weken meer leert. De schaal is als volgt:
+De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
 
-6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp
-5. zeer goede kwaliteit, beperkt ruimte voor verbetering
-4. degelijke kwaliteit op alle genoemde aspecten, met ruimte voor verbetering
-3. net voldoende aandacht voor alle genoemde aspecten, erg veel ruimte voor verbetering
-2. enige zichtbare aandacht voor een beperkt aantal aspecten
-1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten
+6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp of zinvolle eigen insteek
+5. zeer goede kwaliteit, beperkt ruimte voor verbetering, en scherp beredeneerde keuzes
+4. degelijke kwaliteit op alle genoemde aspecten, met ruimte voor verbetering, maar wel goed beredeneerde keuzes
+3. net voldoende aandacht voor alle genoemde aspecten, erg veel ruimte voor verbetering, maar wel een aantal goed beredeneerde keuzes
+2. enige zichtbare aandacht voor een beperkt aantal aspecten, of beperkt beredeneerde keuzes
+1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten en uitleg over gemaakte keuzes
 {: start="6" reversed=""}
+
+> Deze schaal wordt nog een klein beetje aangepast vóór de eerste code review.
 
 Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
 
 Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
 
+Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat je voor een code review hebt gehaald. Het cijfer bereken je door `punten / 6 * 9 + 1`.
+
 ## Beoordeling tentamen
+
+Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer.
 
 ## Boek
 
