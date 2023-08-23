@@ -20,7 +20,7 @@ Module 1:
 Module 2:
     Overzicht: /modules/decompositie
     # Code review: /
-    Lezen en oefenen:
+    # Lezen en oefenen:
     Opdrachten:
         RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
