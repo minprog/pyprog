@@ -44,8 +44,8 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 Om in aanmerking te komen voor een eindbeoordeling moet je:
 
-- meedoen met het vak, dus het grootste deel van alle opdrachten hebben ingeleverd vóór de wekelijkse deadlines (geen grote gaten laten vallen, naar beoordeling van de docenten)
-- specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór de wekelijkse deadline (we laten tijdig weten welke dit zijn)
+- meedoen met het vak, dus het grootste deel van alle opdrachten hebben ingeleverd vóór de wekelijkse deadlines (dus geen grote gaten laten vallen, naar beoordeling van de docenten, denk aan 80% ingeleverd)
+- specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór de wekelijkse deadline (we laten altijd tijdig weten welke dit zijn, in de eerste week is dit nog niet relevant)
 - alle code reviews hebben op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd, eventueel in overleg met de docent
 - aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag er één missen)
 - het tentamen voldoende maken
