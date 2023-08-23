@@ -10,7 +10,7 @@ Module 1:
         Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
         Orakel: /opdrachten/week1/orakel           # 1 func, main, if
         Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
-        Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split (fix decomp!)
+        Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
 
 Module 2:
     Overzicht: /modules/herhaling

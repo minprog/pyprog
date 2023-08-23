@@ -17,27 +17,18 @@ Schrijf, in een bestand genaamd `calculator.py`, een programma dat de gebruiker 
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def perform_operation(x: int, y: str, z: int) -> float:
+    def evaluate(x: int, y: str, z: int) -> float:
         """
         Bereken het resultaat van de operatie y toegepast op x en z.
         De output is een float.
         """
 
-    def evaluate(formula: str) -> float:
-        """
-        Bereken het resultaat van een formule die in een string staat.
-        Deze functie bereidt de berekening voor door de onderdelen van de
-        formule uit de string te halen. De output is een float.
-        """
-
     if __name__ == '__main__':
-        <Invoer, functies, uitvoer>
+        <Invoer, verwerken, functie, uitvoer>
 
 ## Tips
 
 * Je kunt de `split`-methode gebruiken net als in de opdracht Etenstijd. Experimenteer even met `split` in Python zodat je je idee voor een oplossing kunt ontwikkelen.
-
-* Moet `main` alleen `evaluate` aanroepen, die daarna `perform_operation` aanroept? Of moet `main` beide functies aanroepen? Bestudeer de types van (de argumenten van) de functies om te achterhalen welke optie past.
 
 ## Voorbeelden
 
