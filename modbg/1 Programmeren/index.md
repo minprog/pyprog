@@ -32,11 +32,11 @@ Voor deze week is het verstandig om hoofdstuk 3, 8 en 9 extra scherp te lezen zo
 | ---------------- | ------------------------------------------------------------- |
 | Opdracht         | Onderwerp                                                     |
 | ---------------- | ------------------------------------------------------------- |
-| **Wachtwoord**   | Combinaties van beslissingen in meerdere functies             |
+| **Etenstijd**    | Strings analyseren en beslissingen nemen                      |
 | **Calculator**   | Strings analyseren, beslissingen nemen en meerdere functies   |
+| **Wachtwoord**   | Combinaties van beslissingen in meerdere functies             |
 | **Cola**         | Herhaling tot aan de voorwaarden is voldaan                   |
 | **Temperatuur**  | Herhaling, berekenen en nette output printen                  |
-| **Sjoelen**      | Kleine simulatie bouwen                                       |
 | ---------------- | ------------------------------------------------------------- |
 
 ## Aanpak
