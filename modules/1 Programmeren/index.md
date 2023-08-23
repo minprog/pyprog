@@ -13,9 +13,9 @@ Tegelijk ga je aan de slag met het schrijven van kleine **tests** voor je functi
 |----------------|-------------------------------------------------------------|
 | Boek           | Onderwerp                                                   |
 |----------------|-------------------------------------------------------------|
-| **Chapter 2**  | Hoe Python werkt en waarom                                  |
+| **Chapter 2**  | Hoe Python werkt en waarom, variabelen en geheugen          |
 | **Chapter 3**  | Hoe maak je een functie en hoe roep je deze aan             |
-| **Chapter 4**  | Welke standaard-functies zijn er in Python voor strings     |
+| **Chapter 4**  | Welke standaard-operaties zijn er in Python voor strings    |
 | **Chapter 5**  | Hoe kun je verschillende uitkomsten hebben in een programma |
 |----------------|-------------------------------------------------------------|
 
@@ -28,21 +28,6 @@ Tegelijk ga je aan de slag met het schrijven van kleine **tests** voor je functi
 | **Etenstijd**  | Strings analyseren en beslissingen nemen                    |
 | **Calculator** | Strings analyseren, beslissingen nemen en meerdere functies |
 |----------------|-------------------------------------------------------------|
-
-## Deze week belangrijk
-
-1. Begrijpen hoe variabelen werken 
-1. Wat voor berekeningen je kunt doen
-1. Welke ingebouwde functies Python heeft
-1. Hoe je zelf een functie kunt ontwerpen
-1. Hoe je een eenvoudig maar compleet programma kunt schrijven
-1. Welke basisoperaties voor strings je kunt gebruiken
-1. Hoe je kunt werken met True en False
-1. Hoe je gebruik maakt van `if`s om beslissingen te nemen
-1. Hoe je modules kunt importeren
-1. Hoe je je code automatisch kunt laten testen
-1. Hoe methods werken
-1. Welke standaard string-methods er zijn
 
 ## Aanpak
 

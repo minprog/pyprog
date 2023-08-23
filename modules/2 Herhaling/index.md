@@ -4,21 +4,26 @@ We gaan aan de slag met **herhaling** door gebruik te maken van loops. Samen met
 
 Daarnaast is er aandacht voor **lijsten**. Lijsten geven je een plek om data van variabele grootte op te slaan. Je hoeft niet meer elk gegeven een eigen naam te geven, maar je kunt een hele collectie onder één noemer kwijt. Sommige code kun je dan ook een stuk efficiënter schrijven met hulp van lijsten en loops. Maar daarover later meer.
 
-## Puntentelling
+## Studiematerialen
 
-|                | Deadline             | Punten                                                                                                      |
-|----------------|----------------------|-------------------------------------------------------------------------------------------------------------|
-| **Oefeningen** | dinsdag 17:59        | Hoofdstuk 8, Lists: 1 punt<br>Hoofdstuk 9, Loops: 2 punten                |
-| **Opdrachten** | vrijdag 17:59        | camelCase: 1<br>RNA: 1<br>Leesbaarheid: 2<br>Cola: 1<br>Populatie: 2<br>Sjoelen: 2<br>Temperatuur: 2<br>Geen deelpunten mogelijk        |
-| **Verbeterd**  | volgende werkcollege | maximaal 6 punten, alleen te krijgen <br>als je voor 5 van de opdrachten de<br>vrijdagdeadline hebt gehaald |
+| ---------------- | ------------------------------------------------------------- |
+| Boek             | Onderwerp                                                     |
+| ---------------- | ------------------------------------------------------------- |
+| **Chapter 6**    | Welke extra functionaliteit kun je importeren                 |
+| **Chapter 7**    | Welke methods zijn er voor strings                            |
+| **Chapter 8**    | Welke standaard-operaties en methods zijn er voor lijsten     |
+| **Chapter 9**    | Hoe kun je herhaling gebruiken in je functies                 |
+| ---------------- | ------------------------------------------------------------- |
 
-## Deze week belangrijk
-
-1. Hoe je data op kunt slaan in lijsten
-2. Hoe je delen van lijsten kunt manipuleren
-3. Welke standaard-methodes voor lijsten er zijn
-4. Hoe je loops kunt gebruiken om lijsten te analyseren
-5. Welke patronen er nog meer zijn voor loops
+| ---------------- | ------------------------------------------------------------- |
+| Opdracht         | Onderwerp                                                     |
+| ---------------- | ------------------------------------------------------------- |
+| **Rechthoeken**  | Input-conversie en hulpfuncties                               |
+| **Wachtwoord**   | Combinaties van beslissingen in meerdere functies             |
+| **Scrabble**     | Herhaling en opzoeken in een lijst                            |
+| **Cola**         | Herhaling tot aan de voorwaarden is voldaan                   |
+| **Temperatuur**  | Herhaling, berekenen en nette output printen                  |
+| ---------------- | ------------------------------------------------------------- |
 
 ## Aanpak
 
