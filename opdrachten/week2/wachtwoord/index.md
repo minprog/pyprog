@@ -64,13 +64,3 @@ Als extra uitdaging mag je meer eisen bedenken waar het wachtwoord aan moet vold
 Dit is de laatste opdracht van de week. Mocht je tijd over hebben, kijk dan ook of je kan implementeren dat er wordt weergegeven aan **welke eis** een niet valide wachtwoord niet voldoet, omdat de gebruiker anders niet zoveel kan met de feedback.
 
 Let op: dit is niet verplicht en wordt dus niet automatisch gecheckt.
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">
