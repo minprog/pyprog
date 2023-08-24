@@ -61,6 +61,6 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
 Als extra uitdaging mag je meer eisen bedenken waar het wachtwoord aan moet voldoen. Behalve dat wachtwoorden bepaalde elementen moet bevatten kan je ook dingen verbieden. Zoals dat er geen spaties mogen zijn bijvoorbeeld.
 
-Dit is de laatste opdracht van de week. Mocht je tijd over hebben, kijk dan ook of je kan implementeren dat er wordt weergegeven aan **welke eis** een niet valide wachtwoord niet voldoet, omdat de gebruiker anders niet zoveel kan met de feedback.
+Als je nou tijd over hebt deze week, kijk dan ook of je kan implementeren dat er wordt weergegeven aan **welke eis** een niet valide wachtwoord niet voldoet, omdat de gebruiker anders niet zoveel kan met de feedback.
 
 Let op: dit is niet verplicht en wordt dus niet automatisch gecheckt.
