@@ -8,7 +8,7 @@ Let op! Dit vak is flink aangepast ten opzichte van vorige jaren. Was je eerder 
 
 ## Docenten en assistenten
 
-De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Richard Both, Simon Pauw, Pieter Pierrot, Quinten van der Post en Bas Terwijn. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <python@proglab.nl>. Voor elke groep zijn er naast één docent ook nog twee studentassistenten, die bovendien het huiswerk nakijken.
+De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Richard Both, Simon Pauw, Pieter Pierrot, Quinten van der Post en Bas Terwijn. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <pyprog@proglab.nl>. Voor elke groep zijn er naast één docent ook nog twee studentassistenten, die bovendien het huiswerk nakijken.
 
 ## Deadlines
 
@@ -36,7 +36,7 @@ Het gaat om de volgende onderdelen:
 
 De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist (vraag wel om advies welke handig zijn om sowieso te doen). Daarvoor is voldoende ruimte ingebouwd. Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
 
-De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <python@proglab.nl>. Andere deadlines verschuiven niet mee!
+De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <pyprog@proglab.nl>. Andere deadlines verschuiven niet mee!
 
 ## Eindcijfer
 
@@ -80,7 +80,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 * meedenken over grote problemen met het vak
 * andere officiële zaken
 * administratie na afloop van het vak
-* mail <python@proglab.nl>
+* mail <pyprog@proglab.nl>
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -94,7 +94,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:python@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
 Over het algemeen zullen er geen uitzonderingen op de deadlines worden gegeven (zie boven), maar toch is het belangrijk om in de gaten te houden of je geen kennis mist door het overslaan van opdrachten. Daarom de volgende richtlijnen:
 
@@ -102,7 +102,7 @@ Over het algemeen zullen er geen uitzonderingen op de deadlines worden gegeven (
 
 - Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is om bij te komen.
 
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:python@proglab.nl)!
+- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:pyprog@proglab.nl)!
 
 ## Opdrachtcijfers
 

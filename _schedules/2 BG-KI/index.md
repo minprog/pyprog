@@ -119,8 +119,8 @@ De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgid
 
 6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp of zinvolle eigen insteek
 5. zeer goede kwaliteit, beperkt ruimte voor verbetering, en scherp beredeneerde keuzes
-4. degelijke kwaliteit op alle genoemde aspecten, met ruimte voor verbetering, maar wel goed beredeneerde keuzes
-3. net voldoende aandacht voor alle genoemde aspecten, erg veel ruimte voor verbetering, maar wel een aantal goed beredeneerde keuzes
+4. degelijke kwaliteit op <u>alle</u> genoemde aspecten, met ruimte voor verbetering, maar wel goed beredeneerde keuzes
+3. net voldoende aandacht voor <u>alle</u> genoemde aspecten, erg veel ruimte voor verbetering, maar wel een aantal goed beredeneerde keuzes
 2. enige zichtbare aandacht voor een beperkt aantal aspecten, of beperkt beredeneerde keuzes
 1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten en uitleg over gemaakte keuzes
 {: start="6" reversed=""}
