@@ -47,7 +47,7 @@ Om in aanmerking te komen voor een eindbeoordeling moet je:
 - meedoen met het vak, dus het grootste deel van alle opdrachten volledig werkend hebben ingeleverd vóór het volgende college (dus geen grote gaten laten vallen, naar beoordeling van de docenten, denk aan 80% ingeleverd)
 - specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór het volgende werkcollege (we laten altijd tijdig weten welke dit zijn, in de eerste week is dit nog niet relevant)
 - alle code reviews op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd, eventueel in overleg met de docent
-- aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag er één missen)
+- aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven
 - het tentamen voldoende maken
 
 Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
@@ -80,7 +80,7 @@ Dit is een overzicht van de deadlines per week:
 | Module 6 | do 23 nov  17:00  | ma 27 nov  13:00     |
 | Module 7 | do  7 dec  17:00  | -                    |
 
-De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
+De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
 ### Ziekte en inhalen
 
