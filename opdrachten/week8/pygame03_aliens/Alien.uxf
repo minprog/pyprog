@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>110</x><y>60</y><w>220</w><h>210</h></coordinates><panel_attributes>Player
+--
+position: Vector2
+speed: Vector2
+radius: int
+line_width: int
+color: tuple
+--
+Player(size: tuple)
+move(keys: dict)
+step(size: tuple)
+stay_on_window(size: tuple)
+draw(surface: Surface)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>60</y><w>220</w><h>190</h></coordinates><panel_attributes>Alien
+--
+position: Vector2
+speed: Vector2
+radius: int
+line_width: int
+color: tuple
+--
+Alien(size: tuple)
+step(size: tuple)
+stay_on_window(size: tuple)
+draw(surface: Surface)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

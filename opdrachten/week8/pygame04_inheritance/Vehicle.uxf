@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>350</x><y>320</y><w>150</w><h>80</h></coordinates><panel_attributes>Bicycle
+--
+
+--
+Bicycle(cost: float)
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>320</y><w>240</w><h>90</h></coordinates><panel_attributes>Car
+--
+
+--
+Car(cost: float, fuel_per_kilometer: float)
+cost_per_kilometer() -&gt; float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>140</y><w>280</w><h>120</h></coordinates><panel_attributes>Vehicle
+--
+cost: float
+total_kilometers: float
+--
+Vehicle(cost: float)
+ride(kilometers: float)
+cost_per_kilometer() -&gt; float
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>250</y><w>130</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;110;40;10;40;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>250</y><w>170</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40;150;40;150;70</additional_attributes></element></diagram>

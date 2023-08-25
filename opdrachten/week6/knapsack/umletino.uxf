@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>470</x><y>410</y><w>240</w><h>150</h></coordinates><panel_attributes>Resources
+--
+weight
+volume
+--
+Resources(weight: int, volume: int)
++=(other: Resources) 
+-=(other: Resources)
+can_fit(other: Resources) -&gt; bool
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>230</y><w>240</w><h>120</h></coordinates><panel_attributes>Item
+--
+...
+--
+Item(points: int, resources: Resources)
+get_points() -&gt; int
+get_reources() -&gt; Resources
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>180</y><w>210</w><h>170</h></coordinates><panel_attributes>Knapsack
+--
+...
+--
+Knapsack(resources: Resources)
+item_fits(item: Item) -&gt; bool
+add_item(item: Item)
+remove_last_item() -&gt; object
+len(...) -&gt; int
+get_points() -&gt; int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>340</y><w>40</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>340</y><w>40</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>270</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+0..n</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element></diagram>
