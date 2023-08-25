@@ -14,19 +14,19 @@ Martijn Stegeman is docent. Je kunt hem mailen via <m.stegeman@uva.nl>. Opdracht
 
 ## Wat ga je leren
 
-- Module 1: Programmeren, variabelen en beslissingen. Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+- **Module 1: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
-- Module 2: Herhalen en lijsten. Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
+- **Module 2: Herhalen en lijsten.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
 
-- Module 3: Decompositie. Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+- **Module 3: Decompositie.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
 
-- Module 4: Simuleren. Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
+- **Module 4: Simuleren.** Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
 
-- Module 5: Algoritmen. Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
+- **Module 5: Algoritmen.** Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
 
-- Module 6: Object-georienteerd programmeren. In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+- **Module 6: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
 
-- Module 7: Data en files. In de laatste module leer je een grotere datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
+- **Module 7: Data en files.** In de laatste module leer je een grotere datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
 
 ## Opdrachten en eindcijfer
 
