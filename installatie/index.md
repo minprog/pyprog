@@ -9,9 +9,7 @@ Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan vers
         sudo apt-get update
         sudo apt-get install python3 python3-pip
 
-    **Had je al eerder deze pagina gebruikt?** Let op dat `python3-pip` hierboven is toegevoegd. Je kunt het gewoon nog een keer installeren.
-
--   Als je met macOS werkt, dan heb je misschien al Python. Check dit door in een terminal het commando `python3 -V` te geven. Misschien heb je Python 3.8 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
+-   Als je met macOS werkt, dan heb je waarschijnlijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Misschien heb je Python 3.8 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
 
     Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
 
@@ -42,6 +40,6 @@ Maak in alle gevallen een speciale directory om aan je Python-opdrachten te werk
 
 ## Visual Studio Code
 
-Heb je al programmeerervaring en weet je hoe je je eigen computer goed installeert en netjes houdt, dan is Visual Studio Code zeker een optie. Zorg ervoor dat VSCode niet zomaar allerlei plugins installeert die bijvoorbeeld `import`s toevoegen aan jouw code.
+Heb je al programmeerervaring en weet je hoe je je eigen computer goed installeert en netjes houdt, dan is Visual Studio Code een optie. Zorg ervoor dat VSCode niet zomaar allerlei plugins installeert die bijvoorbeeld `import`s toevoegen aan jouw code.
 
 Volg dan de stappen van [deze pagina](https://code.visualstudio.com/docs/python/python-tutorial) om VS Code goed in te stellen. Volg de stappen t/m Configure and Run the Debugger, en als het goed is kun je het installeren van Python overslaan omdat je dat hierboven al hebt gedaan!
