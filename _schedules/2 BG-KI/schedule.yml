@@ -26,6 +26,8 @@ Module 2:
         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
         camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
         Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
+    Oefenen:
+        Debugging: /opdrachten/week3/debug
 
 Module 3:
     Overzicht: /modules/simuleren
@@ -47,6 +49,9 @@ Module 4:
         Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
+    Oefenen:
+        Memory: /opdrachten/week5/memory_model
+        Feestagenda: /opdrachten/week5/feestagenda
 
 Module 5:
     Overzicht: /modules/classes
@@ -62,10 +67,19 @@ Module 5:
 
 Module 6:
     Overzicht: /modules/algoritmen
-    # Lezen en oefenen: ''
-        #
-    # Opdrachten: ''
-        #
+    Opdrachten:
+        Draw: pygame00_draw
+        Player: pygame01_player
+        Abstraction: pygame02_abstraction
+        Aliens: pygame03_aliens
+        Inheritance: pygame04_inheritance
+        Polymorphism: pygame05_polymorphism
+        Interaction: pygame06_interaction
+        Sticky units: pygame07_sticky_units
+        Spawn aliens: pygame08_spawn_aliens
+        Different aliens: pygame09_different_aliens
+        Points: pygame10_points
+        
 
 Module 7:
     Overzicht: /modules/classes

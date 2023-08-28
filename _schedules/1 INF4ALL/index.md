@@ -80,7 +80,7 @@ Dit is een overzicht van de deadlines per week:
 | Module 6 | do 23 nov  17:00  | ma 27 nov  13:00     |
 | Module 7 | do  7 dec  17:00  | -                    |
 
-De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
+De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. De code review doe je tijdens de bijeenkomst in Utrecht, en je levert je aanpassingen en verslag in het weekend erna in. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
 ### Ziekte en inhalen
 
@@ -94,15 +94,13 @@ Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te do
 
 De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
 
-6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp of zinvolle eigen insteek
-5. zeer goede kwaliteit, beperkt ruimte voor verbetering, en scherp beredeneerde keuzes
-4. degelijke kwaliteit op <u>alle</u> genoemde aspecten, met ruimte voor verbetering, maar wel goed beredeneerde keuzes
-3. net voldoende aandacht voor <u>alle</u> genoemde aspecten, erg veel ruimte voor verbetering, maar wel een aantal goed beredeneerde keuzes
-2. enige zichtbare aandacht voor een beperkt aantal aspecten, of beperkt beredeneerde keuzes
-1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten en uitleg over gemaakte keuzes
+6. uitzonderlijke kwaliteit op basis van een doordacht ontwerp met scherp onderbouwde keuzes
+5. goede kwaliteit, beperkt ruimte voor verbetering en alle keuzes zijn goed onderbouwd
+4. degelijke kwaliteit, ruimte voor verbetering, meerdere keuzes zijn goed onderbouwd
+3. voldoende aandacht voor alle genoemde aspecten, veel ruimte voor verbetering, alle keuzes zijn beredeneerd
+2. enige zichtbare aandacht voor een beperkt aantal aspecten, of er zijn keuzes zonder redenatie
+1. onvoldoende zichtbare aandacht voor de genoemde aspecten, of er is geen redenatie bij de keuzes
 {: start="6" reversed=""}
-
-> Deze schaal wordt nog aangepast vóór de eerste code review.
 
 Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
 
