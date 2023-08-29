@@ -13,7 +13,7 @@ is ook aangegeven in hoeveel regels deze kan worden
 geimplementeerd. Met een slimme aanpak zijn er maar weinig regels
 nodig. Probeer de opdracht-functies zo kort mogelijk te houden.
 
-```python
+~~~python
 def main():
     agenda = {'januari': [], 'februari': []} # lege agenda met 'januari' en 'februari'
     print_agenda(agenda)
@@ -101,7 +101,7 @@ def opdracht7(agenda, the_rockets, the_dragonflies):
 
 if __name__ == "__main__":
     main()
-```
+~~~
 
 ## Testen
 
@@ -110,7 +110,7 @@ worden gebruikt om je programma te testen. Als we het uitvoeren zien
 we dat 'opdracht1' al correct is, maar 'opdracht2' en volgende
 opdrachten nog niet.
 
-```console
+~~~console
 $ python feestagenda_test.py
 opdracht1: CORRECT
 opdracht2:
@@ -132,7 +132,7 @@ maand: januari
   week5 ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
 maand: februari
 "
-```
+~~~
 
 ## PythonTutor
 
@@ -161,13 +161,13 @@ opdracht4. Dit dubbel opslaan kan tot fouten leiden en om dit te
 voorkomen zouden we zelf nog een extra verwijzing naar namen kunnen
 toevoegen zoals bijvoorbeeld met:
 
-```python
+~~~python
 names = ['The Rockets:', 'Jim', 'Charlotte', 'Emma', 
          'The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
 
 the_rockets     = [0, 1, 2, 3]
 the_dragonflies = [4, 5, 6, 7]
-```
+~~~
 
 De band 'the_rockets' is nu dus een lijst met indices die verwijst
 naar de namen in de 'names' lijst. Elke naam hoeft nu maar één keer

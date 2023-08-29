@@ -21,12 +21,12 @@ omdat dat de Python code simpeler houdt. Verdeel de nummers van
 gevangenen random over dozen met gebruik van de `random.shuffle()`
 functie:
 
-```python
+~~~python
 import random
 
 boxes = [0, 1, 2, 3, 4]
 random.shuffle(boxes)
 print(boxes)
-```
+~~~
 
 Deel je programma zelf op in minimaal drie verschillende functies.

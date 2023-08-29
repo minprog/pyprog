@@ -6,19 +6,19 @@ geven zonder dat we de `input()` functie gebruiken. Programma
 dit werkt. Dit programma import eerst `sys` en print vervolgens de lijst
 `sys.argv` welke alle 'command line arguments' bevat:
 
-```python
+~~~python
 import sys
 
 print( sys.argv )
-```
+~~~
 
 Als we dit programma nu (in de 'command line' of de 'shell') starten en
 daarachter bijvoorbeeld "aap noot mies" als argumenten meegeven:
 
-```console
+~~~console
 $ python command_line_arguments.py aap noot mies
 ['command_line_arguments.py', 'aap', 'noot', 'mies']
-```
+~~~
 
 dan wordt als uitvoer dus de lijst met strings
 ['command_line_arguments.py', 'aap', 'noot', 'mies'] geprint. Het
@@ -69,7 +69,7 @@ bestand [deeltentamen2.txt](deeltentamen2.txt):
 Voor het berekenen van de gemiddelde cijfers is programma
 [multiply_file.py](multiply_file.py) al beschikbaar:
 
-```python
+~~~python
 import sys
 
 def multiply_file(input_filename: str, multiplier: float, output_filename: str):
@@ -90,7 +90,7 @@ if __name__ == '__main__':
         multiplier = float(sys.argv[2]) # read 'multiplier' from the command line arguments
         output_filename = sys.argv[3]   # read 'output_filename' from the command line arguments
         multiply_file(input_filename, multiplier, output_filename)
-```
+~~~
 
 Bij het uitvoeren van dit programma kunnen we met 'command line
 arguments' de `input_filename`, `multiplier` en `output_filename`
@@ -99,9 +99,9 @@ in `input_filename` 'deeltentamen1.txt' kunnen inlezen,
 vermenigvuldiggen met `multiplier` '100.0', en wegschrijven naar
 `output_filename` 'voorbeeld.txt':
 
-```console
+~~~console
 $ python multiply_file.py deeltentamen1.txt 100.0 voorbeeld.txt
-```
+~~~
 
 Als we hierna het nieuwe bestand 'voorbeeld.txt' openen zien we het
 resultaat:

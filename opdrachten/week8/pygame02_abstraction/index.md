@@ -4,13 +4,13 @@ De `main()` functie in het vorige 'player.py' programma is al behoorlijk
 lang geworden doordat het alle low-level details van player bevat. De
 details van player bestaan uit waarden/eigenschappen:
 
-```python
+~~~python
 position = pygame.Vector2(width // 2, height // 2)
 speed = pygame.Vector2(0, 0)
 radius = 20
 line_width = 4
 color = (255, 255, 255)
-```
+~~~
 
 en uit code die deze waarden manipuleren en gebruiken. Object-Oriented
 Programming stelt ons in staat om deze details te verbergen zodat we
@@ -34,9 +34,9 @@ Verberg de details van player in class `Player` in bestand
 functie van [main.py](main.py) kunnen gebruiken nadat we uit bestand
 `Player.py` de `Player` class ge-import hebben met:
 
-```python
+~~~python
 from Player import Player
-```
+~~~
 
 Vergelijk daarna het abstractieniveau van deze `main()` functie met de
 `main()` in het vorige 'player.py' programma. Er zijn alleen dingen

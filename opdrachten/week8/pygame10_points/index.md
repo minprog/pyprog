@@ -6,7 +6,7 @@ andere alien bots. De aliens gaan ook dood na zo'n botsing. Om dit te
 implementeren is de `handle_collision()` functie in [main.py](main.py)
 uitgebreid:
 
-```python
+~~~python
 def handle_collision(unit, other):
     """ Handles the collision of 'unit' stepping into 'other'. 
     """
@@ -28,7 +28,7 @@ def handle_collision(unit, other):
     elif (isinstance(unit, Alien) and type(unit) is Player): # reverse
         other.add_points(-2)
         unit.set_alive(False)
-```
+~~~
 
 # Test op type
 
@@ -45,7 +45,7 @@ diagram:
 
 Een code voorbeeldje test het type van een `Alien_Bouncer` object:
 
-```python
+~~~python
 from Alien import Alien 
 from Alien_Bouncer import Alien_Bouncer
 from Player import Player
@@ -55,7 +55,7 @@ a = Alien_Bouncer( (1,1) )
 print( type(a) is Alien      ) # False, 'a' is NOT an Alien
 print( isinstance(a, Alien)  ) # True, 'a' is a subclass of Alien 
 print( isinstance(a, Player) ) # False, 'a' is NOT a subclass of Player
-```
+~~~
 
 ## Player class
 
@@ -64,7 +64,7 @@ boven in het window, is ook de `Player` class in
 [Player.py](Player.py) uitgebreid met methoden:
 
 
-```python
+~~~python
     def add_points(self,points):
         """ Adds 'points' to the 'total_points'. """
         self.total_points += points
@@ -87,7 +87,7 @@ boven in het window, is ook de `Player` class in
         rect = pygame.Rect(offset, offset, border*2+400, bar_width)
         white = (255,255,255)
         pygame.draw.rect(surface, white, rect, border)
-```
+~~~
 ## Opdracht: Unit class
 
 De gegeven code werkt al, alleen gaan de aliens nog niet dood. Schrijf
@@ -101,9 +101,9 @@ aliens dood en levend zijn. Aliens die dood zijn worden aan het einde
 van de loop in de `main()` functie niet meer meegenomen naar de
 volgende tijdstap door toedoen van regel:
 
-```python
+~~~python
 units = [unit for unit in units if unit.is_alive()]  # only keep alive units for the next time step
-```
+~~~
 en verdwijnen daardoor uit het spel.
 
 ## Opdracht: Alien_Seeker dood Alien
@@ -122,11 +122,11 @@ bijgehouden hoeveel seconden het in het spel is. Maak daarbij gebruik
 van functie `time.time()` die het aantal seconden sinds de 'Epoch'
 (donderdag 1 januri 1970 0:00 uur) returned:
 
-```python
+~~~python
 import time
 
 print( time.time() )
-```
+~~~
 
 Voeg vervolgens code aan de `main()` functie toe zodat alle aliens die
 langer dan 10 seconden in het spel zijn, dood gaan en uit het spel

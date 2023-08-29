@@ -3,16 +3,16 @@
 Om verschillende Python programma's met elkaar te laten communiceren
 kunnen we zmq sockets gebruiken. Installeer zmq met:
 
-```console
+~~~console
 $ pip install zmq
-```
+~~~
 
 Programma [multiply_server.py](multiply_server.py) is een 'server' die
 een vermenigvuldig-service aanbiedt. Het 'bind' een zmq socket op een
 port, wacht tot het een verzoek krijgt van een 'client', en
 stuurt de vermenigvuldiging terug als antwoord:
 
-```python
+~~~python
 import sys
 import zmq
 
@@ -42,14 +42,14 @@ if __name__ == "__main__":
     if len(sys.argv)>3:
         host = sys.argv[3]
     main(multiplier, port, host)
-```
+~~~
 
 Programma [multiply_client.py](multiply_client.py) is een 'client' die
 gebruik maakt van de vermenigvuldig-service. Het 'connect' een zmq
 socket op de port, vraagt de gebruiker steeds om een getal, stuurt dat
 naar de server, en wacht op antwoord:
 
-```python
+~~~python
 import sys
 import zmq
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     if len(sys.argv)>2:
         host = sys.argv[2]
     main(port, host)
-```
+~~~
 
 ## Server en Client Starten
 
@@ -88,17 +88,17 @@ geven zien we bijvoorbeeld:
 <tr>
 <td>
   
-```console
+~~~console
 $ python multiply_server.py 
 Waiting for clients on port '2345' on host '127.0.0.1'.
 received: 100 sending: 200.0
 received: 1000 sending: 2000.0
-```
+~~~
 
 </td>
 <td>
 
-```console
+~~~console
 $ python multiply_client.py 
 Connecting to port '2345' of host '127.0.0.1'.
 give a number to multiply: 100
@@ -106,7 +106,7 @@ give a number to multiply: 100
 give a number to multiply: 1000
 2000.0
 give a number to multiply:
-```
+~~~
 
 </td>
 </tr>
@@ -134,17 +134,17 @@ daarmee verbindt:
 <tr>
 <td>
   
-```console
+~~~console
 $ python multiply_server.py 5 2500
 Waiting for clients on port '2500' on host '127.0.0.1'.
 received: 100 sending: 500.0
 received: 1000 sending: 5000.0
-```
+~~~
 
 </td>
 <td>
 
-```console
+~~~console
 $ python multiply_client.py 2500
 Connecting to port '2500' of host '127.0.0.1'.
 give a number to multiply: 100
@@ -152,7 +152,7 @@ give a number to multiply: 100
 give a number to multiply: 1000
 5000.0
 give a number to multiply:
-```
+~~~
 
 </td>
 </tr>

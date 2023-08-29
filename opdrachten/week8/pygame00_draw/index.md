@@ -3,9 +3,9 @@
 We gaan ons eigen computerspel maken met gebruik van de `pygame`
 module. Installeer eerst `pygame` met:
 
-```console
+~~~console
 $ pip install pygame
-```
+~~~
 # Draw.py
 
 Programma [draw.py](draw.py) laat zien hoe we kunnen tekening met
@@ -19,7 +19,7 @@ zorgen dat de loop niet meer dan 60 keer per seconden wordt
 uitgevoerd. De loop stopt als het programma een `pygame.QUIT` event
 ontvangt, dat gebeurt als de gebruiker het window sluit.
 
-```python
+~~~python
 import pygame
 
 def main():
@@ -65,7 +65,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+~~~
 
 Als we dit programma uitvoeren zien we een window met witte
 rechthoeken, een rode ellips, en een blauwe lijn die ieder een kwart

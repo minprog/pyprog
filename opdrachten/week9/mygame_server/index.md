@@ -32,7 +32,7 @@ naar de server wordt gestuurd met de actie van de gebruiker. Als
 antwoord ontvangt het een `Game_State` object van de server met de
 huidige staat van het spel wat wordt getekend.
 
-```python
+~~~python
 import sys
 import zmq
 import pygame
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     if len(sys.argv)>3:
         host = sys.argv[3]
     main(name, port, host)
-```
+~~~
 
 ## mygame_server.py
 
@@ -121,7 +121,7 @@ niet te worden aangepast, dus het is niet nodig om alle details te
 begrijpen.
 
 
-```python
+~~~python
 import sys
 import zmq
 import time
@@ -166,19 +166,19 @@ if __name__ == "__main__":
     if len(sys.argv)>2:
         host = sys.argv[2]
     main(port, host)
-```
+~~~
 
 
 ## Server en Clients Starten
 
 We starten eerst de mygame_server met:
 
-```console
+~~~console
 $ python mygame_server.py 
 pygame 2.4.0 (SDL 2.26.4, Python 3.10.6)
 Hello from the pygame community. https://www.pygame.org/contribute.html
 Waiting for clients on port '2345' on host '127.0.0.1'.
-```
+~~~
 
 En daarna twee clients met een gebruikersnaam als
 command-line-argument. Vervolgens kan iedere gebruiker in hetzelfde
@@ -192,22 +192,22 @@ spel acties uitvoeren:
 <tr>
 <td>
   
-```console
+~~~console
 $ python mygame_client.py Jackson 
 pygame 2.4.0 (SDL 2.26.4, Python 3.10.6)
 Hello from the pygame community.
 Connecting to port '2345' of host '127.0.0.1'.
-```
+~~~
 
 </td>
 <td>
 
-```console
+~~~console
 $ python mygame_client.py Madonna
 pygame 2.4.0 (SDL 2.26.4, Python 3.10.6)
 Hello from the pygame community.
 Connecting to port '2345' of host '127.0.0.1'.
-```
+~~~
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ Het spel heeft nu nog geen spelelement. Om dat toe te voegen kan de
 gebruiker naast haar acceleratie ook nog evenuteel andere acties kan
 sturen naar de server:
 
-```python
+~~~python
 class Action:
 
     def __init__(self, name, acceleration):
@@ -237,7 +237,7 @@ class Action:
 
     def get_acceleration(self):
         return self.acceleration
-```
+~~~
 
 De server kan in de `Game_State` class in
 [Game_State.py](Game_state.py) ook andere units aan de `units` list
@@ -246,7 +246,7 @@ opgeslagen. Nu heeft het nog alleen `Player` objecten. Deze `Player`
 objecten worden ook in dictionary `players` opgeslagen, dat is omdat
 we een `Player` snel op naam willen kunnen zoeken.
 
-```python
+~~~python
 import pygame
 
 from Player import Player
@@ -281,14 +281,14 @@ class Game_State:
         pygame.draw.rect(surface, white, rect, 2)
         for unit in self.units:
             unit.draw(surface, name_textures)
-```
+~~~
 
 Het enige unit type van dit spel is nu nog de `Player` class in
 [Player.py](Player.py) die we al eerder gezien hebben, maar nu wordt
 ook de naam van de gebruiker boven een `Player` getekend in de
 `draw()` methode:
 
-```python
+~~~python
 import pygame
 
 class Player:
@@ -337,4 +337,4 @@ class Player:
         text_offset.x /= 2
         text_offset.y += Player.radius
         surface.blit(name_texture, self.position - text_offset )
-```
+~~~
