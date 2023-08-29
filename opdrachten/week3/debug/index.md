@@ -314,12 +314,12 @@ te toevoegen. Dat kan bijvoorbeeld met
 'Python', kopieer het hele programma in het invoerveld, en druk op
 'Visualize Execution':
 
-![PythonTutor_visualize](visualize.png){: style="width:20rem;"}
+![PythonTutor_visualize](visualize.png)
 
 Elke keer als we op 'Next' drukken drukken, wordt de volgende regel
 (waar de rode pijl naar wijst) van het programma uitgevoerd.
 
-![PythonTutor_next](next.png){: style="width:20rem;"}
+![PythonTutor_next](next.png)
 
 Na een aantal keer 'Next' klikken komen we in de
 `compute_denomination_amount()` functie waar we precies kunnen zien
@@ -329,7 +329,7 @@ print-statements en kan helpen om beter te begrijpen waarom de functie
 een verkeerde waarde terug geeft. Klik op 'Prev' om ook een regel
 terug in de tijd te stappen.
 
-![PythonTutor_watch](watch.png){: style="width:20rem;"}
+![PythonTutor_watch](watch.png)
 
 PythonTutor kan in het begin wat ingewikkeld lijken, maar investeer nu
 wat tijd om er bekend mee te raken want dat kan veel tijd besparen bij
@@ -525,4 +525,4 @@ Je wil voor jezelf een bepaalde test- en debugstrategie
 ontwikkelen. Iedereen doet dit misschien net iets anders maar denk
 bijvoorbeeld aan deze strategie:
 
-![PythonTutor_next](debug.png){: style="width:20rem;"}
+![PythonTutor_next](debug.png)

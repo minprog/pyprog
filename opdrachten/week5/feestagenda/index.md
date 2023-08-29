@@ -142,7 +142,7 @@ op een regelnummer klikt wordt deze rood en verschijnt er een rood
 streepje in de timeline zodat je snel naar deze regel kan springen
 zonder herhaaldelijk op 'Next' te hoeven drukken:
 
-![PythonTutor](pythontutor.png){: style="width:20rem;"}
+![PythonTutor](pythontutor.png)
 
 ## Geen Type Hints
 

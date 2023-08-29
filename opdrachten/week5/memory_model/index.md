@@ -29,23 +29,23 @@ Als we dit programma uitvoeren in
 objects on the heap" zien we wat er gebeurt. Na regel 1 verwijst
 variable `a` naar waarde `1`.
 
-![](mm_int2.png){: style="width:20rem;"}
+![](mm_int2.png)
 
 Na regel 2 verwijst variable `b` naar dezelfde waarde:
 
-![](mm_int3.png){: style="width:20rem;"}
+![](mm_int3.png)
 
 Op regel 3 wordt de waarde waar `a` naar wijst aangepast (`+= 100`),
 en omdat `a` naar een 'immutable' type verwijst wordt eerst een kopie
 van deze waarde gemaakt zodat de waarde waar `b` naar verwijst, niet
 wordt aangepast:
 
-![](mm_int4.png){: style="width:20rem;"}
+![](mm_int4.png)
 
 Als we op regel 4 `a` en `b` vervolgens printen zien we dat ze inderdaad twee
 verschillende waarden hebben.
 
-![](mm_int5.png){: style="width:20rem;"}
+![](mm_int5.png)
 
 
 ## str (immutable type)
@@ -64,7 +64,7 @@ Omdat een `str` net als een `int` 'immutable' is, gebeurt hier
 hetzelfde en zien we na het printen dat `a` en `b` hier ook twee
 verschillende waarden hebben.
 
-![](mm_str5.png){: style="width:20rem;"}
+![](mm_str5.png)
 
 Geen verassingen tot nu toe.
 
@@ -85,24 +85,24 @@ print("a:", a, "b:", b)
 Na uitvoeren van regel 1 verwijst variable `a` naar de lijst
 `[1, 2, 3]`.
 
-![](mm_list2.png){: style="width:20rem;"}
+![](mm_list2.png)
 
 Na regel 2 verwijst variable `b` naar dezelfde waarde:
 
-![](mm_list3.png){: style="width:20rem;"}
+![](mm_list3.png)
 
 Op regel 3 wordt de waarde waar `a` naar wijst aangepast door waar 100
 toe te voegen (`+= [100]`), en omdat `a` naar een 'mutable' type
 verwijst wordt **geen** kopie van deze waarde gemaakt en dus wordt de
 waarde waar `b` naar verwijst **ook** aangepast.
 
-![](mm_list4.png){: style="width:20rem;"}
+![](mm_list4.png)
 
 Bij het printen op regel 4 zien we dan ook dat variable `a` en `b`
 dezelfde waarde hebben wat dus in de eerdere voorbeeldprogramma's met
 'immutable' types niet het geval was.
 
-![](mm_list5.png){: style="width:20rem;"}
+![](mm_list5.png)
 
 ## Kopieeren
 
@@ -119,7 +119,7 @@ a += [100]
 print("a:", a, "b:", b)
 ~~~
 
-![](mm_list_copy5.png){: style="width:20rem;"}
+![](mm_list_copy5.png)
 
 ## Motivatie
 
@@ -204,12 +204,12 @@ d = copy.deepcopy(a)
 
 Na regel 3 is `a` een verwijzing naar de geneste lijst:
 
-![](mm_deepcopy2.png){: style="width:20rem;"}
+![](mm_deepcopy2.png)
 
 Op regel 4 wordt `b` een verwijzing naar `a`, dus ze delen beide alle
 waarden:
 
-![](mm_deepcopy3.png){: style="width:20rem;"}
+![](mm_deepcopy3.png)
 
 Op regel 5 wordt `c` een 'shallow copy' van `a`. Bij een 'shallow
 copy' wordt alleen de eerste lijst gekopieerd. De onderliggende
@@ -218,13 +218,13 @@ geeft precies hetzelfde resultaat voor sommige types (`list`, `set`,
 `dict`), maar de `copy.copy()` functie is voor veel meer verschillende
 types te gebruiken.
 
-![](mm_deepcopy4.png){: style="width:20rem;"}
+![](mm_deepcopy4.png)
 
 Op regel 6 wordt `d` een 'deep copy' van `a`. Bij een 'deep copy'
 wordt de lijst en alle onderliggende waarden gekopieerd zodat er geen
 waarden meer worden gedeeld.
 
-![](mm_deepcopy5.png){: style="width:20rem;"}
+![](mm_deepcopy5.png)
 
 Voor iedere situatie kun je nu zelf kiezen welke kopieer-optie het beste
 is. Hoe meer je kopieert hoe langzamer het programma wordt, maar hoe
