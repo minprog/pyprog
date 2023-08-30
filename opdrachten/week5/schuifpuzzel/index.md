@@ -8,7 +8,7 @@ Door telkens één tegel te verschuiven kun je de volgorde van de tegels verande
 Op de tegels staan dan de cijfers 1 t/m 15, en de schuifpuzzel is opgelost als de
 tegels in oplopende volgorde gesorteerd staan van linksboven tot rechtsonder (zie voorbeeld hieronder).
 
-![correct_config](tiles1.png){: style="width:20rem;"}
+![correct_config](tiles1.png)
 
 Het verschuiven van tegels kan alleen horizontaal en verticaal. In het voorbeeld
 kun je dus de tegels met de cijfers 12 en 15 verplaatsen.
@@ -21,7 +21,7 @@ Dit houdt in dat de lege tegel zich in de hoek rechtsonder bevindt.
 De beginconfiguratie voor een schuifpuzzel
 met zijden van 4 velden is weergegeven in het voorbeeld hieronder.
 
-![start_config](tiles2.png){: style="width:20rem;"}
+![start_config](tiles2.png)
 
 Er bestaan schuifpuzzels van verschillende groottes; belangrijk
 om te weten is, is dat wanneer een zijde een even aantal velden heeft (en er dus

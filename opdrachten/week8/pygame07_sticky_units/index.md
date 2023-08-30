@@ -25,12 +25,12 @@ functie in [main.py](main.py) beter naast de `speed` wisselen met
 methode `unit.swap_speed(other)`, ook de unit die de botsing
 veroorzaakt een stap terugzetten met methode `unit.step_back()`:
 
-```python
+~~~python
 def handle_collision(unit, other):
     """ Handles the collision of 'unit' and 'other' by swapping their speed. """ 
     unit.swap_speed(other)
     unit.step_back()
-```
+~~~
 
 We maken hiervoor in de `step()` methode in [Unit.py](Unit.py) steeds
 eerst een kopie van de `position`, die we `previous_position` noemen,
@@ -38,7 +38,7 @@ voordat we deze aanpassen. In de `step_back()` methode kunnen we dan
 terugstappen wanneer er een botsing plaatsvindt door simpelweg
 `position` de waarde van `previous_position` te geven:
 
-```python
+~~~python
     def step(self, size):
         """ Changes the position of Unit based on its speed. """
         self.previous_position = self.position
@@ -48,7 +48,7 @@ terugstappen wanneer er een botsing plaatsvindt door simpelweg
     def step_back(self):
         """ Steps back to `previous_position`. """
         self.position = self.previous_position
-```
+~~~
 
 ![sticky_units.png](sticky_units.png)
 
@@ -61,7 +61,7 @@ plakprobleem. Het type van een `position` is namelijk
 alleen een assignment niet voldoende om een onafhankelijke kopie te
 maken van een 'mutable' type, zoals ook blijkt in dit voorbeeld:
 
-```python
+~~~python
 import pygame
 
 position = pygame.Vector2(10, 10)
@@ -69,7 +69,7 @@ previous_position = position                   # assignment
 position += pygame.Vector2(100, 100)           # change 'position' not 'previous_position'
 print("         position:",          position) # [110, 110]
 print("previous_position:", previous_position) # [110, 110]  (but both are changed)
-```
+~~~
 
 # Opdracht: Copy
 

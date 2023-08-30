@@ -25,7 +25,7 @@ Het is de bedoeling dat programma
 [compute_change.py](compute_change.py) dit voor elk bedrag kan
 uitrekenen:
 
-```python
+~~~python
 def compute_denomination_amount(due, denomination: int) -> int:
     """
     Berekent hoeveel van de 'denomination' we betalen om het 'due' bedrag te betalen.
@@ -66,7 +66,7 @@ if __name__ == '__main__':
     due = int(input("Welk bedrag moet je betalen? "))
     change = compute_change(due, denominations)
     print_change(change, denominations)
-```
+~~~
 
 ## Syntax Error
 
@@ -115,16 +115,16 @@ hoe vinden we nu waar de bug zit?
 programma zit door te controleren op type-fouten. We kunnen
 bijvoorbeeld functie:
 
-```python
+~~~python
 def double_the_value(value: int) -> int:
     return value * 2
-```
+~~~
 
 zonder fouten aanroepen met een string:
 
-```python
+~~~python
 print( double_the_value("Hello World") )
-```
+~~~
 met als resultaat:
 
     Hello WorldHello World
@@ -135,25 +135,25 @@ een string zou daarom wel eens tot een bug kunnen leiden. Met 'type
 checks' kunnen we dit soort type fouten automatisch vinden. Installeer
 hiervoor eerst 'mypy':
 
-```console                                  
+~~~console                                  
 $ pip install mypy
-```
+~~~
                                      
 en run daarmee 'type checks' op het denominaties voorbeeldprogramma met:
 
-```console
+~~~console
 $ mypy --strict compute_change.py
-```
+~~~
                                      
 Dit vindt automatisch deze type-fouten, zodat we ze niet zelf hoeven
 op te sporen, en geeft ook de regelnummers:
                                      
-```console
+~~~console
 $ mypy --strict compute_change.py
 compute_change.py:2: error: Function is missing a type annotation for one or more arguments  [no-untyped-def]
 compute_change.py:12: error: Returning Any from function declared to return "int"  [no-any-return]
 Found 2 errors in 1 file (checked 1 source file)
-```
+~~~
                                      
 **Opdracht2:** Los deze type fouten op.
 
@@ -164,12 +164,12 @@ programma zit door te controleren of een functie doet wat in de
 voorbeelden staat. Zo heeft de functie `compute_denomination_amount()`
 al 2 voorbeelden in de vorm van doctest:
 
-```python
+~~~python
 >>> compute_denomination_amount(1, 10)
 0
 >>> compute_denomination_amount(24, 10)
 2
-```
+~~~
     
 Het eerste voorbeeld geeft aan dat we voor een gedrag van 1€ 0
 biljetten van 10€ gebruiken en het tweede dat we voor een bedrag van
@@ -177,14 +177,14 @@ biljetten van 10€ gebruiken en het tweede dat we voor een bedrag van
 of elke functie het juiste resultaat geeft wat in bijbehorende
 voorbeelden is genoemd door de doctests te runnen met:
                                      
-```console
+~~~console
 $ python -m doctest compute_change.py
-```
+~~~
                                      
 wat niks print als alle test slagen. Voeg een '-v' (verbose) toe om
 meer details te zien:
                                      
-```console
+~~~console
 $ python -m doctest compute_change.py -v
 Trying:
 compute_change(1, [50, 20, 10, 5, 2, 1])
@@ -210,7 +210,7 @@ ok
 3 tests in 4 items.
 3 passed and 0 failed.
 Test passed.
-```
+~~~
                                      
 ## Meer Doctests
 
@@ -244,10 +244,10 @@ dan echt eerst zelf voor je verder leest.
 Dit is de meeste simpele doctest die ik kon vinden met behoud
 van de bug:
 
-```python
+~~~python
 >>> compute_denomination_amount(6, 10)
 0
-```
+~~~
 
 Voor een bedrag van 6€ heb ik 0 biljetten van 10€ nodig, maar
 de functie geeft foutief het aantal '1'.
@@ -258,19 +258,19 @@ weergeven. Voeg bij print-statements voor een goed overzicht ook
 steeds de naam van de variabele/expressie toe die je print, dus iets
 van:
 
-```python
+~~~python
 print("variabele:", variabele)
-```
+~~~
 
 in plaats van alleen:
 
-```python
+~~~python
 print(variabele)
-```
+~~~
                                      
 Voor `compute_denomination_amount()` zou dat er zo uit kunnen zien:
 
-```python
+~~~python
 def compute_denomination_amount(due: int, denomination: int) -> int:
     print("due / denomination:", due / denomination)
     amount = round(due / denomination) # compute the amount of 'denomination' needed to pay 'due'
@@ -278,20 +278,20 @@ def compute_denomination_amount(due: int, denomination: int) -> int:
     amount = max(amount, 0)            # amount may not be negative
     print("amount:", amount)
     return amount
-```
+~~~
 
 in de main willen we nu de `compute_denomination_amount()` functie
 aanroepen en ons concentreren op alleen deze functie, daarom commenten
 we de andere code tijdelijk uit:
                                      
-```python
+~~~python
 if __name__ == '__main__':
     compute_denomination_amount(6, 10)
     #denominations = [50, 20, 10, 5, 2, 1]
     #due = int(input("Welk bedrag moet je betalen? "))
     #change = compute_change(due, denominations)
     #print_change(change, denominations)
-```
+~~~
 
 het runnen van het programma resulteert dan in deze prints waardoor we
 hopelijk een beter idee krijgen van wat de functie doet, wat er fout
@@ -314,12 +314,12 @@ te toevoegen. Dat kan bijvoorbeeld met
 'Python', kopieer het hele programma in het invoerveld, en druk op
 'Visualize Execution':
 
-![PythonTutor_visualize](visualize.png){: style="width:20rem;"}
+![PythonTutor_visualize](visualize.png)
 
 Elke keer als we op 'Next' drukken drukken, wordt de volgende regel
 (waar de rode pijl naar wijst) van het programma uitgevoerd.
 
-![PythonTutor_next](next.png){: style="width:20rem;"}
+![PythonTutor_next](next.png)
 
 Na een aantal keer 'Next' klikken komen we in de
 `compute_denomination_amount()` functie waar we precies kunnen zien
@@ -329,7 +329,7 @@ print-statements en kan helpen om beter te begrijpen waarom de functie
 een verkeerde waarde terug geeft. Klik op 'Prev' om ook een regel
 terug in de tijd te stappen.
 
-![PythonTutor_watch](watch.png){: style="width:20rem;"}
+![PythonTutor_watch](watch.png)
 
 PythonTutor kan in het begin wat ingewikkeld lijken, maar investeer nu
 wat tijd om er bekend mee te raken want dat kan veel tijd besparen bij
@@ -349,9 +349,9 @@ kunnen komen dat 0.6 naar beneden moet worden afgerond voor het juiste
 aantal bankbiljetten en niet naar het dichtsbijzijnde gehele
 getal. Dit kan bijvoorbeeld met:
 
-```python
+~~~python
 amount = due // denomination
-```
+~~~
 
 **Opdracht6:** 
 - Slagen alle doctests na deze aanpassing nu wel?
@@ -365,10 +365,10 @@ geen bugs meer zitten in `compute_denomination_amount()`?
 Er zit ook een bug in de `compute_change()` functie. De enige doctest
 die er nu al staat, slaagt wel:
 
-```python
+~~~python
 >>> compute_change(1, [50, 20, 10, 5, 2, 1])
 [0, 0, 0, 0, 0, 1]
-```
+~~~
                                      
 we kunnen namelijk 1€ betalen met:
 
@@ -388,10 +388,10 @@ in deze functie?
 Deze print-statement in de for-loop hielp mij bijvoorbeeld om een
 beter begrip van de functie te krijgen:
 
-```python
+~~~python
 for denomination in denominations:
     print("due:", due, "denominations:", denominations, "change:", change)
-```
+~~~
 
 welke voor 46€ deze output geeft, maar voeg zelf vooral print-statements toe
 die helpen voor jouw eigen begrip:
@@ -451,7 +451,7 @@ hoge mate van vertrouwen krijgen dat de code bug-vrij is, maar
 helemaal zeker weten doen we dat in het algmeen niet, zeker niet voor
 grote complexe programma's.
 
-```python
+~~~python
 import random
 
 def compute_change_total(change: list, denominations: list) -> int:
@@ -484,7 +484,7 @@ def test_change_total_for_n_random_dues(n: int, denominations: list) -> bool:
     return True
 
 print("All test succeed: ", test_change_total_for_n_random_dues(100000, [50, 20, 10, 5, 2, 1]))
-```
+~~~
 
 **Opdracht8:** Voeg toe en run deze test code om meer vertrouwen te
 krijgen dat alle bugs zijn verwijderd.
@@ -497,27 +497,27 @@ code bij de meeste opdrachten namelijk al automatisch getest met
 `checkpy`. Je kunt deze tests ook zelf uitvoeren na installeren en
 configureren van checkpy met:
 
-```console
+~~~console
 pip install checkpy
 checkpy -download https://github.com/minprog/python
-```
+~~~
 
 Run daarna bijvoorbeeld dit om de checkpy tests uit te voeren op het
 `cafeine.py` programma van de eerste opdracht:
 
-```console
+~~~console
 checkpy cafeine.py
-```
+~~~
 
 Bij deze tests worden meestal ook de 'type checks' en doctests
 uitgevoerd, maar het is duidelijker om die van te voren zelf uit te
 voeren omdat je dan meer feedback krijgt, dit kan met:
 
-```console
+~~~console
 mypy --strict cafeine.py
 python -m doctest cafeine.py -v
 checkpy cafeine.py
-```
+~~~
 
 ## Plan van Aanpak
 
@@ -525,4 +525,4 @@ Je wil voor jezelf een bepaalde test- en debugstrategie
 ontwikkelen. Iedereen doet dit misschien net iets anders maar denk
 bijvoorbeeld aan deze strategie:
 
-![PythonTutor_next](debug.png){: style="width:20rem;"}
+![PythonTutor_next](debug.png)

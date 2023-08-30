@@ -7,7 +7,7 @@ een server die van elke client een string met een gebruikersnaam en
 status krijgt. De server onthoudt alle strings in een dictionary, en
 stuurt deze als antwoord naar elke client.
 
-```python
+~~~python
 import sys
 import zmq
     
@@ -44,13 +44,13 @@ if __name__ == "__main__":
     if len(sys.argv) > 2:
         host = sys.argv[2]
     main(port, host)
-```
+~~~
 
 Programma [status_client.py](status_client.py) is een client waarmee
 een gebruiker haar status kan doorgeven en daarna de status van alle
 gebruikers ontvangt en print.
 
-```python
+~~~python
 import sys
 import zmq
 import time
@@ -85,18 +85,18 @@ if __name__ == "__main__":
     if len(sys.argv) > 3:
         host = sys.argv[3]
     main(name, port, host)
-```
+~~~
 
 ## Server en Clients Starten
 
 We starten eerst de status_server met:
 
-```console
+~~~console
 $ python status_server.py 
 Waiting for clients on port '2345' on host '127.0.0.1'.
 received name: 'Jackson' status: ': I'm BAD'
 received name: 'Madonna' status: ': I am a material girl'
-```
+~~~
 
 En daarna twee clients met een gebruikersnaam als
 command-line-argument. Vervolgens kan iedere gebruiker zijn of haar
@@ -110,7 +110,7 @@ status doorgeven:
 <tr>
 <td>
   
-```console
+~~~console
 $ python status_client.py Jackson 
 Connecting to port '2345' of host '127.0.0.1'.
 Jackson: I'm BAD 
@@ -118,12 +118,12 @@ Jackson: I'm BAD
 - Jackson: I'm BAD
 
 Jackson: 
-```
+~~~
 
 </td>
 <td>
 
-```console
+~~~console
 $ python status_client.py Madonna
 Connecting to port '2345' of host '127.0.0.1'.
 Madonna: I am a material girl
@@ -132,7 +132,7 @@ Madonna: I am a material girl
 - Madonna: I am a material girl
 
 Madonna: 
-```
+~~~
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ client de speciale naam "_" opgeven. Met deze naam wordt niet op
 invoer van de gebruiker gewacht, in plaats daarvan wordt elke twee
 seconden de status van alle gebruikers bij de server opgevraagd:
 
-```console
+~~~console
 $ python status_client.py _
 Connecting to port '2345' of host '127.0.0.1'.
 ----------------- 0
@@ -159,7 +159,7 @@ Connecting to port '2345' of host '127.0.0.1'.
 ----------------- 2
 - Jackson: I'm BAD
 - Madonna: I am a material girl
-```
+~~~
 
 ## Protocol
 

@@ -4,7 +4,7 @@ Het spel heeft meer soorten Aliens nodig. In bestand
 [Alien_Seeker.py](Alien_Seeker.py) is een nieuwe Alien_Seeker class
 gedefinieerd welke inherit van `Alien`:
 
-```python
+~~~python
 import pygame
 
 from Alien import Alien
@@ -35,7 +35,7 @@ class Alien_Seeker(Alien):
         rect = pygame.Rect(self.position - size / 2, size)
         black = (0, 0, 0)
         pygame.draw.rect(surface, black, rect, 3)  # draw a rectangle on top
-```
+~~~
 
 Objecten van dit type krijgen in `__init__()` methode een radius van
 `12`, de kleur `(255,255,0)`, en een 'instance variable' `player` waar dit

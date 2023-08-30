@@ -13,7 +13,7 @@ welke een (X,Y) coordinaat representeert. Met deze class kunnen we
 makkelijk coordinaten manipuleren, bijvoorbeeld optellen en
 vermenigvuldigen:
 
-```python
+~~~python
 import pygame
 
 v1 = pygame.Vector2(1, 2)   # create a coordinate
@@ -22,7 +22,7 @@ v3 = v1 + v2                # add two coordinates together
 print(v3)                   # prints: [11, 22]
 v3 = v3 * 10                # multiply coordinate by 10
 print(v3)                   # prints: [110, 220]
-```
+~~~
 
 Lees de [math.html](https://www.pygame.org/docs/ref/math.html) pagina
 van pygame voor meer informatie over deze Vector2 class en de
@@ -55,47 +55,47 @@ elke tijdstap weer een effect op de positie. Om dit voor elkaar te
 krijgen zetten we eerst vooraf aan de loop de snelheid van de speler
 initieel op 0,0 met:
 
-```python
+~~~python
 speed = pygame.Vector2(0, 0)
-```
+~~~
 
 Daarna passen we in de loop bij het indrukken van de toetsen deze
 snelheid aan, in plaats van het direct aanpassen van de positie wat we
 eerder deden:
 
-```python
+~~~python
 acceleration = 0.5
 if keys[pygame.K_LEFT] or keys[pygame.K_a]:
         speed.x -= acceleration  # accelerate to the left
 # do the same thing for other keys
-```
+~~~
 
 Tel dan in iedere iteratie van de loop deze snelheid op bij de huidige
 positie van de speler zodat de speler beweegt op basis van haar
 snelheid:
 
-```python
+~~~python
 position += speed
-```
+~~~
 
 Vermenigvuldig ook in iedere iteratie de snelheid met '0.95' zodat de
 speler automatisch afremt en na enige tijd stil komt te staan als er
 geen toetsen meer worden ingedrukt:
 
-```python
+~~~python
 speed *= 0.95
-```
+~~~
 
 Keer ook de richting van de snelheid om als de speler van het window
 af beweegt om zo de speler tegen de rand van het window te laten
 stuiteren:
 
-```python
+~~~python
 if position.x < radius:
     position.x = radius
     speed.x = -speed.x
 # do the same thing for other window borders
-```
+~~~
 
 Het resultaat zou er dan ongeveer zo uit moeten zien:
 
