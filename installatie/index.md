@@ -4,7 +4,7 @@ Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan vers
 
 ## Python
 
--   Als je Ubuntu gebruikt, dan heb je mogelijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Waarschijnlijk heb je dan Python 3.10. Installeer anders de best beschikbare versie via:
+-   Als je Ubuntu gebruikt, dan heb je mogelijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Waarschijnlijk heb je dan Python 3.11. Installeer anders de best beschikbare versie via:
 
         sudo apt-get update
         sudo apt-get install python3 python3-pip
