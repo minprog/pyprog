@@ -213,3 +213,39 @@ Vinden we overeenkomsten, dan gaat een docent direct met je in gesprek om je voo
 In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij.
 
 De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronvermelding/plagiaat-en-fraude.html) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en is de basis voor bovenstaande regelingen.
+
+
+## Herkansingen
+
+Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met je mentor als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de coördinator spreekt graag met je als je advies nodig hebt.
+
+<details markdown="1"><summary markdown="span">Ik heb het tentamen niet gehaald en wil herkansen</summary>
+
+Als je je tentamen niet voldoende hebt gemaakt kun je op de geplande datum een hertentamen doen. Zie het rooster. Dit heeft alleen zin als je gemiddeld op een voldoende kunt uitkomen, dus hebt meegedaan met alle onderdelen en voldaan aan de verdere minimumeisen.
+</details>
+
+<details markdown="1"><summary markdown="span">Ik heb voldoende opdrachten ingeleverd, heb het tentamen gehaald, maar sta toch een onvoldoende en wil herkansen</summary>
+
+Als je je tentamen voldoende hebt maar voor het vak een onvoldoende staat, dan betekent dit dat je onvoldoende aandacht hebt besteed aan de kwaliteit van je programma's of het documenteren daarvan. Misschien heb je één code review niet ingeleverd. De herkansing komt erop neer dat je dit alsnog doet. Deze vorm van herkansen kan alleen plaatsvinden direct na bekendmaking van de eindcijfers.
+
+- Je moet binnen twee weken na bekendmaking van het tentamencijfer contact opnemen en daarna binnen een week de verbeterde uitwerkingen en verslagen inleveren.
+
+- Alle verbeterde versies en verslagen, ook die voldoende waren, moeten opnieuw worden ingeleverd. Dat zijn dus de opdrachten behorende bij 3 code reviews.
+
+- De uitwerkingen moeten aantoonbaar verbeterd zijn ten aanzien van de kwaliteitsaspecten ten op zichte van eerder én de verslagen moeten op het voldoende-niveau zitten.
+
+- Het *maximum*-eindcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle opnieuw ingeleverde reviews aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
+
+Het doel van deze regeling is om in bijzondere omstandigheden toch nog af te ronden met een voldoende.
+</details>
+
+<details markdown="1"><summary markdown="span">Ik heb niet aan de minimumeisen van het vak voldaan en wil herkansen</summary>
+
+Dit betekent dat je niet mee hebt gedaan met verplichte onderdelen, delen niet ingeleverd hebt, geen duidelijke inzet getoond en/of op een andere manier geen contact hebt onderhouden.
+
+- In dit geval heb je dus een behoorlijk deel van het vak "niet gedaan". Herkansen kan dan pas vanaf het eerstvolgende jaar waarin het vak wordt gegeven.
+
+- Alle opdrachten en tentamens moeten dan opnieuw ingeleverd worden. Code reviews moeten opnieuw gedaan worden met een nieuwe partner.
+</details>
+
+Voor andere situaties zijn geen vaste regelingen.
