@@ -88,11 +88,11 @@ Dit is een overzicht van de deadlines per week:
 |          | deadline huiswerk | deadline code review |
 |----------|-------------------|----------------------|
 | Module 1 | vr  8 sep  17:00  | -                    |
-| Module 2 | vr 15 sep  17:00  | ma 18 sep  20:00     |
-| Module 3 | vr 22 sep  17:00  | -                    |
+| Module 2 | vr 15 sep  17:00  | -                    |
+| Module 3 | vr 22 sep  17:00  | ma 25 sep  20:00     |
 | Module 4 | vr 29 sep  17:00  | ma  2 okt  20:00     |
-| Module 5 | vr  6 okt  17:00  | -                    |
-| Module 6 | vr 13 okt  17:00  | ma 16 okt  20:00     |
+| Module 5 | vr  6 okt  17:00  | ma  9 okt  20:00     |
+| Module 6 | vr 20 okt  17:00  | -                    |
 | Module 7 | vr 20 okt  17:00  | -                    |
 
 De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
