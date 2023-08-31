@@ -1,5 +1,0 @@
-name: chapter_14
-files:
-    required:
-        - country.py
-        - geometry.py
