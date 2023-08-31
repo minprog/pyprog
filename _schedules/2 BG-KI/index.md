@@ -109,7 +109,7 @@ Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:
 
 ## Aanwezigheid
 
-De werkcolleges op maandag zijn verplicht. Je mag maximaal 1 werkcollege missen, anders kun je het vak niet halen.
+De werkcolleges op maandag zijn verplicht. Je mag maximaal 1 werkcollege missen, anders kun je het vak niet halen. Te laat is niet aanwezig.
 
 De aanwezigheid bij de overige colleges is niet verplicht, maar het is wél de enige plek om hulp te krijgen, en aanwezig zijn geeft je ook structuur. Zorg dat je tijdens de eerste week gewoon bij alle colleges bent zodat je kunt aanvoelen hoe het vak gaat verlopen en of je de hulp wel kunt gebruiken.
 
