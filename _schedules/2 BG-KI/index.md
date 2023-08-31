@@ -217,7 +217,7 @@ De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronv
 
 ## Herkansingen
 
-Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met je mentor als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de coördinator spreekt graag met je als je advies nodig hebt.
+Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met je mentor als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de coördinator spreekt graag met je als je advies nodig hebt of niet binnen de regelingen valt.
 
 <details markdown="1"><summary markdown="span">Ik heb het tentamen niet gehaald en wil herkansen</summary>
 
@@ -247,5 +247,3 @@ Dit betekent dat je niet mee hebt gedaan met verplichte onderdelen, delen niet i
 
 - Alle opdrachten en tentamens moeten dan opnieuw ingeleverd worden. Code reviews moeten opnieuw gedaan worden met een nieuwe partner.
 </details>
-
-Voor andere situaties zijn geen vaste regelingen.
