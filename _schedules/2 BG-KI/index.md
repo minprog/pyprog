@@ -224,7 +224,7 @@ Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoel
 Als je je tentamen niet voldoende hebt gemaakt kun je op de geplande datum een hertentamen doen. Zie het rooster. Dit heeft alleen zin als je gemiddeld op een voldoende kunt uitkomen, dus hebt meegedaan met alle onderdelen en voldaan aan de verdere minimumeisen.
 </details>
 
-<details markdown="1"><summary markdown="span">Ik heb voldoende opdrachten ingeleverd, heb het tentamen gehaald, maar sta toch een onvoldoende en wil herkansen</summary>
+<details markdown="1"><summary markdown="span">Ik heb het tentamen gehaald, maar sta een onvoldoende en wil herkansen</summary>
 
 Als je je tentamen voldoende hebt maar voor het vak een onvoldoende staat, dan betekent dit dat je onvoldoende aandacht hebt besteed aan de kwaliteit van je programma's of het documenteren daarvan. Misschien heb je één code review niet ingeleverd. De herkansing komt erop neer dat je dit alsnog doet. Deze vorm van herkansen kan alleen plaatsvinden direct na bekendmaking van de eindcijfers.
 
@@ -236,7 +236,7 @@ Als je je tentamen voldoende hebt maar voor het vak een onvoldoende staat, dan b
 
 - Het *maximum*-eindcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle opnieuw ingeleverde reviews aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
 
-Het doel van deze regeling is om in bijzondere omstandigheden toch nog af te ronden met een voldoende.
+Het doel van deze regeling is om in bijzondere omstandigheden toch nog af te ronden met een voldoende. Als je delen niet hebt meegedaan dan is deze regeling niet van toepassing.
 </details>
 
 <details markdown="1"><summary markdown="span">Ik heb niet aan de minimumeisen van het vak voldaan en wil herkansen</summary>
