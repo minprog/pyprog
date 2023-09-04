@@ -12,22 +12,17 @@ In most of the sorting algorithms below, *swapping* is important. By swapping, w
 
 ![embed](https://www.youtube.com/embed/NEbb4XqKDNU)
 
-The following pseudocode describes the selection sort algorithm.
+The following Python code describes the selection sort algorithm.
 
-    i = 0
-    while i < n
-        min_j = i; j = i
-        while j < n:
-            if array[j] < array[min_j]
-                min_j = j
-            j = j + 1
-
-        tmp = array[min_j]
-        array[min_j] = array[i]
-        array[i] = tmp
-
-        print(array)
-        i = i + 1
+~~~ python
+for i in range(n):
+    min_j = i; j = i
+    for j in range(i, n):
+        if array[j] < array[min_j]:
+            min_j = j
+    array[min_j], array[i] = array[i], array[min_j]
+    print(array)
+~~~
 
 Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
@@ -37,21 +32,18 @@ Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every
 
 ![embed](https://www.youtube.com/embed/LZaU8GHNsQI)
 
-Consider the following pseudocode for bubble sort.
+Consider the following Python code for bubble sort.
 
-    do
-        counter = 0
-        i = 0
-        while i < n - 1
-            if array[i] > array[i + 1]
-                tmp = array[i]
-                array[i] = array[i + 1]
-                array[i + 1] = tmp
-                counter = counter + 1
-            i = i + 1
-
-        print(array)
-    while counter > 0
+~~~ python
+counter = 1
+while counter > 0:
+    counter = 0
+    for i in range(n - 1):
+        if array[i] > array[i + 1]:
+            array[i], array[i + 1] = array[i + 1], array[i]
+            counter += 1
+    print(array)
+~~~
 
 Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
@@ -61,18 +53,18 @@ Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every
 
 ![embed](https://www.youtube.com/embed/ntB1D3Bbz5I)
 
-Consider the following pseudocode for insertion sort.
+Consider the following Python code for insertion sort.
 
-    i = 0
-    while i < n
-        element = array[i]
-        j = i
-        while(j > 0 and array[j - 1] > element)
-            array[j] = array[j - 1]
-            j = j - 1
-        array[j] = element
-        print(array)
-        i = i + 1
+~~~ python
+for i in range(n):
+    element = array[i]
+    j = i
+    while j > 0 and array[j - 1] > element:
+        array[j] = array[j - 1]
+        j = j - 1
+    array[j] = element
+    print(array)
+~~~
 
 Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
