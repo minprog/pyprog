@@ -65,13 +65,3 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
       Startgrootte: 100
       Eindgrootte: 1000000
       Jaren: 115
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">
