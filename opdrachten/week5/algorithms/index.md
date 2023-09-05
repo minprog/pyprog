@@ -25,7 +25,7 @@ for i in range(n):
     print(array) # debug print
 ~~~
 
-Perform the procedure on list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform this code on paper with list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
 
@@ -47,7 +47,7 @@ while counter > 0:
     print(array) # debug print
 ~~~
 
-Perform the procedure on list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform this code on paper with list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
 
@@ -62,14 +62,14 @@ n = len(array)
 for i in range(n):
     element = array[i]
     j = i
-    while j > 0 and array[j - 1] > element:
+    while j > 0 and array[j - 1] > element: # swapping
         array[j] = array[j - 1]
         j = j - 1
     array[j] = element
     print(array) # debug print
 ~~~
 
-Perform the procedure on list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform this code on paper with list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
 
@@ -110,22 +110,27 @@ while sub_list_length < n:
         index2 = index1 + sub_list_length
         index3 = min(len(array), index2 + sub_list_length) # make sure index3 is valid
         # merge the pair of sub_lists
-        merge_in_place(array, index1, index2, index3)
+        merge_in_place(array, index1, index2, index3) # swapping
         print(array) # debug print
     sub_list_length *= 2 # double the sub_list_length
 ~~~
 
-The ```merge_in_place()``` function merges in place (without using
-other lists to store data) the adjacent list1 and list2 lists as shown
-in the figure below. It does this by repeatedly moving the next
-smallest element to the sorted part of the list (in orange). If it
-came from list1 it just makes list1 one element shorter. If it came
-form list2 it makes list2 one element shorter, but then it also moves
-the whole list1 one position to the right. The functions stops if
-list1 or list2 has zero length.
-
-![](merge_in_place.png)
-
-Perform the procedure on list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform this code on paper with list 'array' with values `[5, 1, 2, 8, 6]`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
+
+### Merge in place
+
+The ```merge_in_place()``` function is different from the
+```merge()``` function in the book (Practical Programming, Third
+Edition An Introduction to Computer Science Using Python) that creates
+many differen lists. The ```merge_in_place()``` function merges in
+place (so without using other lists to store data) the adjacent list1
+and list2 in a larger list as shown in the figure below. It does this by
+repeatedly moving the next smallest element to the sorted part of the
+list (in orange). If it came from list1 it just makes list1 one
+element shorter. If it came form list2 it makes list2 one element
+shorter, but then it also moves the whole list1 one position to the
+right. The function can stop when list1 or list2 has zero length.
+
+![](merge_in_place.png)
