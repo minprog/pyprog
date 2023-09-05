@@ -124,13 +124,14 @@ Perform this code on paper with list 'array' with values `[5, 1, 2, 8, 6]`. Show
 The ```merge_in_place()``` function is different from the
 ```merge()``` function in the book (Practical Programming, Third
 Edition An Introduction to Computer Science Using Python) that creates
-many differen lists. The ```merge_in_place()``` function merges in
-place (so without using other lists to store data) the adjacent list1
-and list2 in a larger list as shown in the figure below. It does this by
-repeatedly moving the next smallest element to the sorted part of the
-list (in orange). If it came from list1 it just makes list1 one
-element shorter. If it came form list2 it makes list2 one element
-shorter, but then it also moves the whole list1 one position to the
-right. The function can stop when list1 or list2 has zero length.
+many additional lists. Instead the ```merge_in_place()``` function
+merges in place the adjacent sorted list1 and sorted list2 in one
+larger sorted list without the need for additional lists as shown in
+the figure below. It does this by repeatedly moving the next smallest
+element to the sorted part of the list (in orange). If it came from
+list1 it just makes list1 one element shorter. If it came form list2
+it makes list2 one element shorter, but then it also moves the whole
+list1 one position to the right. The function can stop when list1 or
+list2 has zero length.
 
 ![](merge_in_place.png)
