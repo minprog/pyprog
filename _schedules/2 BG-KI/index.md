@@ -14,19 +14,19 @@ De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak 
 
 ## Wat ga je leren
 
-- Module 1: Programmeren, variabelen en beslissingen. Hier herhalen we de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+- **Module 1: Programmeren, variabelen en beslissingen.** Hier herhalen we de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
-- Module 2: Decompositie. Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+- **Module 2: Decompositie.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
 
-- Module 3: Simuleren. Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
+- **Module 3: Simuleren.** Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
 
-- Module 4: Algoritmen. Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
+- **Module 4: Algoritmen.** Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
 
-- Module 5: Object-georienteerd programmeren. In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+- **Module 5: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
 
-- Module 6: ... (pygame)
+- **Module 6: Grote programma's.** Hier ga je stap voor stap een grote programma bouwen, namelijk een game die je maakt met behulp van het PyGame-framework. Zo leer je zelf hoe je je programma met hulp van zo'n framework kunt structureren en natuurlijk hoe je interactieve grafische games maakt.
 
-- Module 7: ... (...)
+- **Module 7: Project.** Als laatste uitdaging kun je aan de slag met het maken van een game waarin spelers op verschillende computers tegen elkaar kunnen spelen. Je leert hier meer over netwerken en communicatie tussen computers.
 
 ## Opdrachten en eindcijfer
 
@@ -42,11 +42,11 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 ### Minimumeisen
 
-Om in aanmerking te komen voor een eindbeoordeling moet je:
+Om in aanmerking te komen voor een eindbeoordeling moet je goed hebben meegedaan met het vak:
 
-- meedoen met het vak, dus het grootste deel van alle opdrachten hebben ingeleverd vóór de wekelijkse deadlines (dus geen grote gaten laten vallen, naar beoordeling van de docenten, denk aan 80% ingeleverd)
+- het grootste deel van alle opdrachten hebben ingeleverd vóór de wekelijkse deadlines (dus geen grote gaten laten vallen, naar beoordeling van de docenten, in normale omstandigheden 80% van de opdrachten correct ingeleverd)
 - specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór de wekelijkse deadline (we laten altijd tijdig weten welke dit zijn, in de eerste week is dit nog niet relevant)
-- alle code reviews op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd, eventueel in overleg met de docent
+- alle code reviews op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd
 - aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag er één missen)
 - het tentamen voldoende maken
 
@@ -88,11 +88,11 @@ Dit is een overzicht van de deadlines per week:
 |          | deadline huiswerk | deadline code review |
 |----------|-------------------|----------------------|
 | Module 1 | vr  8 sep  17:00  | -                    |
-| Module 2 | vr 15 sep  17:00  | ma 18 sep  20:00     |
-| Module 3 | vr 22 sep  17:00  | -                    |
+| Module 2 | vr 15 sep  17:00  | -                    |
+| Module 3 | vr 22 sep  17:00  | ma 25 sep  20:00     |
 | Module 4 | vr 29 sep  17:00  | ma  2 okt  20:00     |
-| Module 5 | vr  6 okt  17:00  | -                    |
-| Module 6 | vr 13 okt  17:00  | ma 16 okt  20:00     |
+| Module 5 | vr  6 okt  17:00  | ma  9 okt  20:00     |
+| Module 6 | vr 20 okt  17:00  | -                    |
 | Module 7 | vr 20 okt  17:00  | -                    |
 
 De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
@@ -109,7 +109,7 @@ Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:
 
 ## Aanwezigheid
 
-De werkcolleges op maandag zijn verplicht. Je mag maximaal 1 werkcollege missen, anders kun je het vak niet halen.
+De werkcolleges op maandag zijn verplicht. Je mag maximaal 1 werkcollege missen, anders kun je het vak niet halen. Te laat is niet aanwezig.
 
 De aanwezigheid bij de overige colleges is niet verplicht, maar het is wél de enige plek om hulp te krijgen, en aanwezig zijn geeft je ook structuur. Zorg dat je tijdens de eerste week gewoon bij alle colleges bent zodat je kunt aanvoelen hoe het vak gaat verlopen en of je de hulp wel kunt gebruiken.
 
@@ -117,15 +117,13 @@ De aanwezigheid bij de overige colleges is niet verplicht, maar het is wél de e
 
 De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
 
-6. uitzonderlijk goede kwaliteit op basis van een doordacht ontwerp of zinvolle eigen insteek
-5. zeer goede kwaliteit, beperkt ruimte voor verbetering, en scherp beredeneerde keuzes
-4. degelijke kwaliteit op <u>alle</u> genoemde aspecten, met ruimte voor verbetering, maar wel goed beredeneerde keuzes
-3. net voldoende aandacht voor <u>alle</u> genoemde aspecten, erg veel ruimte voor verbetering, maar wel een aantal goed beredeneerde keuzes
-2. enige zichtbare aandacht voor een beperkt aantal aspecten, of beperkt beredeneerde keuzes
-1. onvoldoende zichtbare aandacht voor de kwaliteitsaspecten en uitleg over gemaakte keuzes
+6. uitzonderlijke kwaliteit op basis van een doordacht ontwerp met scherp onderbouwde keuzes
+5. goede kwaliteit, beperkt ruimte voor verbetering en alle keuzes zijn goed onderbouwd
+4. degelijke kwaliteit, ruimte voor verbetering, meerdere keuzes zijn goed onderbouwd
+3. voldoende aandacht voor alle genoemde aspecten, veel ruimte voor verbetering, alle keuzes zijn beredeneerd
+2. enige zichtbare aandacht voor een beperkt aantal aspecten, of er zijn keuzes zonder redenatie
+1. onvoldoende zichtbare aandacht voor de genoemde aspecten, of er is geen redenatie bij de keuzes
 {: start="6" reversed=""}
-
-> Deze schaal wordt nog aangepast vóór de eerste code review.
 
 Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
 
@@ -215,3 +213,37 @@ Vinden we overeenkomsten, dan gaat een docent direct met je in gesprek om je voo
 In alle gevallen is het ons doel om dit soort situaties te voorkomen, omdat ze niet leerzaam zijn en veel werk opleveren voor iedereen. Vraag daarom vooral om advies als je denkt dat het misgaat! Er is vaak meer te redden dan je denkt, zelfs al is de deadline nabij.
 
 De [plagiaatregeling](https://student.uva.nl/content/az/fraude-plagiaat-en-bronvermelding/plagiaat-en-fraude.html) van de Universiteit van Amsterdam geeft algemene aanwijzingen over plagiaat en is de basis voor bovenstaande regelingen.
+
+
+## Herkansingen
+
+Onderstaande regelingen zijn wat streng geformuleerd, maar het is niet de bedoeling dat ze echt nodig zijn! Als je doorzet en de opdrachten afmaakt dan zou je de cursus gewoon moeten halen. Maak je er dus niet teveel zorgen over, maar neem wel direct contact op met je mentor als je denkt dat je in de problemen komt met de planning en/of je cijfers. Ook de coördinator spreekt graag met je als je advies nodig hebt of niet binnen de regelingen valt.
+
+<details markdown="1"><summary markdown="span">Ik heb het tentamen niet gehaald en wil herkansen</summary>
+
+Als je je tentamen niet voldoende hebt gemaakt kun je op de geplande datum een hertentamen doen. Zie het rooster. Dit heeft alleen zin als je gemiddeld op een voldoende kunt uitkomen, dus hebt meegedaan met alle onderdelen en voldaan aan de verdere minimumeisen.
+</details>
+
+<details markdown="1"><summary markdown="span">Ik heb het tentamen gehaald, maar sta een onvoldoende en wil herkansen</summary>
+
+Als je je tentamen voldoende hebt maar voor het vak een onvoldoende staat, dan betekent dit dat je onvoldoende aandacht hebt besteed aan de kwaliteit van je programma's of het documenteren daarvan. Misschien heb je één code review niet ingeleverd. De herkansing komt erop neer dat je dit alsnog doet. Deze vorm van herkansen kan alleen plaatsvinden direct na bekendmaking van de eindcijfers.
+
+- Je moet binnen twee weken na bekendmaking van het tentamencijfer contact opnemen en daarna binnen een week de verbeterde uitwerkingen en verslagen inleveren.
+
+- Alle verbeterde versies en verslagen, ook die voldoende waren, moeten opnieuw worden ingeleverd. Dat zijn dus de opdrachten behorende bij 3 code reviews.
+
+- De uitwerkingen moeten aantoonbaar verbeterd zijn ten aanzien van de kwaliteitsaspecten ten op zichte van eerder én de verslagen moeten op het voldoende-niveau zitten.
+
+- Het *maximum*-eindcijfer is in dit geval een 6.0 en wordt alleen toegekend als alle opnieuw ingeleverde reviews aantoonbaar van voldoende kwaliteit zijn (waarmee je aantoont het betreffende leerdoel gehaald te hebben).
+
+Het doel van deze regeling is om in bijzondere omstandigheden toch nog af te ronden met een voldoende. Als je delen niet hebt meegedaan dan is deze regeling niet van toepassing.
+</details>
+
+<details markdown="1"><summary markdown="span">Ik heb niet aan de minimumeisen van het vak voldaan en wil herkansen</summary>
+
+Dit betekent dat je niet mee hebt gedaan met verplichte onderdelen, delen niet ingeleverd hebt, geen duidelijke inzet getoond en/of op een andere manier geen contact hebt onderhouden.
+
+- In dit geval heb je dus een behoorlijk deel van het vak "niet gedaan". Herkansen kan dan pas vanaf het eerstvolgende jaar waarin het vak wordt gegeven.
+
+- Alle opdrachten en tentamens moeten dan opnieuw ingeleverd worden. Code reviews moeten opnieuw gedaan worden met een nieuwe partner.
+</details>

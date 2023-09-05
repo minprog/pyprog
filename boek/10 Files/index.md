@@ -16,12 +16,6 @@ Let op: schrijf geen doctests voor file-inleesfuncties en gebruik geen StringIO 
 
 ## Oefeningen
 
-Geef hieronder je antwoorden voor de oefeningen. Schrijf de antwoorden altijd in je eigen woorden. Je kunt de goede antwoorden bekijken maar het is belangrijk om te beseffen of je ze echt begrijpt. Zo niet, dan spreek je even een medestudent of assistent aan om het antwoord door te spreken. Na insturen worden de antwoorden nagekeken, en eventueel moet je ze nog verbeteren. Schrijf je antwoorden in het Nederlands (of in Python!).
+Doe de oefeningen die hieronder genoemd staan. Schrijf de antwoorden altijd in je eigen woorden. Je kunt de goede antwoorden bekijken op de website van het boek, maar het is belangrijk om te beseffen of je ze echt begrijpt. Zo niet, dan spreek je even een medestudent of assistent aan om het antwoord door te spreken.
 
-## 1
-
-<textarea name="form[q1]" rows="8" required></textarea>
-
-## 2
-
-<textarea name="form[q2]" rows="8" required></textarea>
+Oefeningen: 1, 2.

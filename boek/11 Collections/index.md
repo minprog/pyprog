@@ -1,23 +1,5 @@
 # Chapter 11: Collection Types
 
-Geef hieronder je antwoorden voor de oefeningen. Schrijf de antwoorden altijd in je eigen woorden. Je kunt de goede antwoorden bekijken maar het is belangrijk om te beseffen of je ze echt begrijpt. Zo niet, dan spreek je even een medestudent of assistent aan om het antwoord door te spreken. Na insturen worden de antwoorden nagekeken, en eventueel moet je ze nog verbeteren. Schrijf je antwoorden in het Nederlands (of in Python!).
+Doe de oefeningen die hieronder genoemd staan. Schrijf de antwoorden altijd in je eigen woorden. Je kunt de goede antwoorden bekijken op de website van het boek, maar het is belangrijk om te beseffen of je ze echt begrijpt. Zo niet, dan spreek je even een medestudent of assistent aan om het antwoord door te spreken.
 
-## 1
-
-<textarea name="form[q1]" rows="8" required></textarea>
-
-## 3
-
-<textarea name="form[q3]" rows="8" required></textarea>
-
-## 5
-
-<textarea name="form[q5]" rows="8" required></textarea>
-
-## 6
-
-<textarea name="form[q6]" rows="8" required></textarea>
-
-## 10
-
-<textarea name="form[q10]" rows="8" required></textarea>
+Oefeningen: 1, 3, 5, 6, 10.

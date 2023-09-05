@@ -60,13 +60,3 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     $ python sjoelen.py
     Je bent geëindigd op deze configurate: [6, 2, 3, 7]
     Dat zijn 57 punten!
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">
