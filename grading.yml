@@ -69,167 +69,113 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
-    chapter_02:
-        <<: *check
-        calculation: -done * 2
-    chapter_03:
-        <<: *check
-        calculation: -done * 2
-    chapter_04:
-        <<: *check
-        calculation: -done * 2
-    chapter_05:
-        <<: *check
-        calculation: -done * 1
-    chapter_06:
-        <<: *check
-        calculation: -done * 1
-    chapter_07:
-        <<: *check
-        calculation: -done * 1
-    chapter_08:
-        <<: *check
-        calculation: -done * 1
-    chapter_09:
-        <<: *check
-        calculation: -done * 2
-    chapter_10:
-        <<: *check
-        calculation: -done * 1
-    chapter_11:
-        <<: *check
-        calculation: -done * 2
-    chapter_12:
-        <<: *check
-        calculation: -done * 2
-    chapter_13: *check
-    chapter_14:
-        <<: *check
-        calculation: -done * 3
-
     cafeine:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
-        calculation: -done * 4
     vakantie:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
-        calculation: -done * 4
-
-    calculator:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-        calculation: -done * 2
-    etenstijd:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-        calculation: -done * 2
     orakel:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
-        calculation: -done * 2
+    etenstijd:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+    calculator:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/8)
+
     rechthoeken:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
-        calculation: -done * 2
     wachtwoord:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
-        calculation: -done * 3
-
-    camelcase:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-        calculation: -done * 1
-    rna:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-        calculation: -done * 1
-    leesbaarheid:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-        calculation: -done * 2
-    cola:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-        calculation: -done * 1
-    populatie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/4)
-        calculation: -done * 2
-    sjoelen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-        calculation: -done * 2
-    temperatuur:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-        calculation: -done * 2
-
+            done: -(correctness_score.floor/7)
     scrabble:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-        calculation: -done * 3
-    kalender:
-        <<: *autopoints
-        calculation: points
-
-    schuifpuzzel:
+    cola:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+    temperatuur:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-        calculation: -done * 6
-    eca2csv:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
-        calculation: -done * 6
-    klimaat:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/3)
-        calculation: -done * 7
 
-    comprehensions:
-        type: float
-        subgrades:
-            points: integer
-        calculation: points
-        hide_subgrades: true
-    virus: *manual
+    rna:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+    leesbaarheid:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+    camelcase:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+    kalender:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/10)
+
+    comprehensions: *check
+    populatie:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+    sjoelen:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+    virus:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+
+    algorithms: *check
     indexer:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
-        calculation: -done * 3
+    schuifpuzzel:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
 
-    # oud
-    algorithms: *check
+    queue:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+    cards:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+    hangman:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+    knapsack: *check
 
-    lisp:
-        <<: *manual
-        calculation: points
-    figuren:
-        <<: *manual
-        calculation: points
-    knapsack:
-        <<: *manual
-        calculation: points
+    eca2csv:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/2)
+    klimaat:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/3)
+
+    pygame: *check
 
     toetsje_week_2:
         <<: *automatic
@@ -244,29 +190,22 @@ grades:
         automatic:
             done: -(correctness_score.floor/6)
 
-    m1: *manual
-    m2: *manual
-    m3: *manual
-    m4: *manual
-    m5: *manual
-    m6: *manual
+    r1: *manual
+    r2: *manual
+    r3: *manual
 
     oefententamen:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/2)
-    exam_1: *check
-    exam_2:
+
+    tentamen_bg:
         type: float
-        # subgrades:
-        #     done: boolean
-    exam_3:
+    tentamen_inf4all:
         type: float
-        # subgrades:
-        #     done: boolean
-    exam_4:
+    tentamen_ik:
         type: float
-    exam_5:
+    tentamen_ki:
         type: float
 
 # CALCULATIONS - define the final grades for the course and the weights between
@@ -286,48 +225,18 @@ grades:
 # calculations.
 
 calculation:
-    eindcijfer:
-        practice: 6
-        assignments: 12
-        old_reviews: 28
-        final_assignments: 14
-        # exam: 0
+    eindcijfer_bg:
+        code_reviews: 25
+        tentamen_bg: 75
+    eindcijfer_inf4all:
+        code_reviews: 25
+        tentamen_inf4all: 75
     eindcijfer_ki:
-        module_1: 1
-        module_2: 1
-        module_3: 1
-        module_4: 1
-        module_5: 1
-        module_6: 1
-        module_7: 1
-        exam_ki: 7
+        code_reviews: 25
+        tentamen_ki: 75
     eindcijfer_ik:
-        module_1: 1
-        module_2: 1
-        module_3: 1
-        module_4: 1
-        module_5: 1
-        module_6: 1
-        module_7: 1
-        exam_ik: 7
-    herkansing_ki:
-        module_1: 1
-        module_2: 1
-        module_3: 1
-        module_4: 1
-        module_5: 1
-        module_6: 1
-        module_7: 1
-        resit_ki: 7
-    herkansing_ik:
-        module_1: 1
-        module_2: 1
-        module_3: 1
-        module_4: 1
-        module_5: 1
-        module_6: 1
-        module_7: 1
-        resit_ik: 7
+        code_reviews: 25
+        tentamen_ik: 75
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -348,192 +257,98 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-module_1:
-    type: points
-    total_points: 20
+mod_programmeren:
     show_progress: true
     submits:
-        chapter_02: 1
-        chapter_03: 1
-        chapter_04: 1
         cafeine: 1
         vakantie: 1
-        m1: 1
-
-module_2:
-    type: points
-    total_points: 20
-    show_progress: true
-    submits:
-        chapter_05: 1
-        chapter_06: 1
-        chapter_07: 1
         orakel: 1
         etenstijd: 1
         calculator: 1
+
+mod_herhaling:
+    show_progress: true
+    submits:
         rechthoeken: 1
         wachtwoord: 1
-        m2: 1
+        scrabble: 1
+        cola: 1
+        temperatuur: 1
 
-module_3:
-    type: points
-    total_points: 20
+mod_decompositie:
     show_progress: true
     submits:
-        chapter_08: 1
-        chapter_09: 1
-        camelcase: 1
         rna: 1
         leesbaarheid: 1
-        cola: 1
-        populatie: 1
-        sjoelen: 1
-        temperatuur: 1
-        m3: 1
-
-module_4:
-    type: points
-    total_points: 20
-    show_progress: true
-    submits:
-        scrabble: 1
+        camelcase: 1
         kalender: 1
-        m4: 1
 
-module_5:
-    type: points
-    total_points: 20
-    show_progress: true
-    submits:
-        chapter_10: 1
-        schuifpuzzel: 1
-        eca2csv: 1
-        klimaat: 1
-
-module_6:
-    type: points
-    total_points: 20
+mod_simuleren:
     show_progress: true
     submits:
         comprehensions: 1
+        populatie: 1
+        sjoelen: 1
         virus: 1
-        chapter_11: 1
-        indexer: 1
 
-module_7:
-    type: points
-    total_points: 20
+mod_algoritmen:
     show_progress: true
     submits:
-        chapter_14: 1
-        lisp: 1
-        figuren: 1
+        algorithms: 1
+        indexer: 1
+        schuifpuzzel: 1
+
+mod_classes:
+    show_progress: true
+    submits:
+        queue: 1
+        cards: 1
+        hangman: 1
         knapsack: 1
 
-practice:
-    # type: points
-    # show_progress: true
-    convert_passes_to_grade: true
-    fill_missing: 0
-    submits:
-        chapter_02: 1
-        chapter_03: 1
-        chapter_04: 1
-        chapter_05: 1
-        chapter_06: 1
-        chapter_07: 1
-        chapter_08: 1
-        chapter_09: 1
-        chapter_10: 1
-        chapter_11: 1
-        chapter_12: 1
-        chapter_13: 1
-        chapter_14: 1
-
-assignments:
-    # show_progress: true
-    convert_passes_to_grade: true
-    fill_missing: 0
-    submits:
-        cafeine: 105
-        vakantie: 105
-
-        orakel: 42
-        etenstijd: 42
-        calculator: 42
-        rechthoeken: 42
-        wachtwoord: 42
-
-        camelcase: 30
-        rna: 30
-        leesbaarheid: 30
-        cola: 30
-        populatie: 30
-        sjoelen: 30
-        temperatuur: 30
-
-        scrabble: 70
-        schuifpuzzel: 70
-        kalender: 70
-
-        indexer: 70
-        eca2csv: 70
-        klimaat: 70
-
-        algorithms: 105
-        comprehensions: 105
-
-final_assignments:
-    # show_progress: true
-    submits:
-        virus: 6
-        lisp: 1
-        figuren: 2
-        knapsack: 3
-
-old_reviews:
-    submits:
-        m2: 1
-        m3: 1
-        m4: 1
-        m5: 1
-
-reviews:
+mod_dataverwerking:
     show_progress: true
     submits:
-        m1: 1
-        m2: 1
-        m3: 1
-        m4: 1
-        m5: 1
-        m6: 1
+        eca2csv: 1
+        klimaat: 1
 
-exam:
+mod_grote_programmas:
+    show_progress: true
+    submits:
+        pygame: 1
+
+# mod_project:
+#     show_progress: true
+#     submits:
+#
+
+code_reviews:
+    show_progress: true
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
+
+tentamen_bg:
     show_progress: true
     attempt_required: true
     submits:
-        exam_1: 1
+        tentamen_bg: 1
 
-exam_ki:
+tentamen_inf4all:
     show_progress: true
-    minimum: 5.5
+    attempt_required: true
     submits:
-        exam_2: 1
+        tentamen_inf4all: 1
 
-exam_ik:
+tentamen_ki:
     show_progress: true
-    minimum: 5.5
+    attempt_required: true
     submits:
-        exam_3: 1
+        tentamen_ki: 1
 
-resit_ik:
+tentamen_ik:
     show_progress: true
-    minimum: 5.5
+    attempt_required: true
     submits:
-        exam_4: 1
-
-resit_ki:
-    show_progress: true
-    minimum: 5.5
-    submits:
-        exam_5: 1
+        tentamen_ik: 1
