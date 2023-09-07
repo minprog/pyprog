@@ -97,7 +97,7 @@ grades:
     wachtwoord:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/7)
     scrabble:
         <<: *automatic
         automatic:
@@ -126,7 +126,7 @@ grades:
     kalender:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/10)
 
     comprehensions: *check
     populatie:
