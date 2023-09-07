@@ -27,5 +27,5 @@ Let op dat (goedwerkende) doctests en types verplicht aanwezig moeten zijn, ook 
     * Geef geen geschreven lijstje verbeterpunten aan je partner, maar ga echt het gesprek aan.
 1.  Verbeter je oplossing en stuur de definitieve oplossing in zodat deze kan worden nagekeken door je mentor. Gooi je oplossing niet helemaal overhoop maar probeer deze met kleine aanpassingen beter te maken (30 minuten).
     * Neem niet het ontwerp van je partner over; dan ga je veel te ver en het kan ook leiden tot plagiaatverdenking.
-1.  [Stuur je herziene oplossingen hier in](/reviews/m1/revised).
+1.  [Stuur je herziene oplossingen hier in](/reviews/r1/revised).
 1.  Later krijg je korte schriftelijke feedback van je docent of assistent waarmee je de volgende review je voordeel kunt doen.

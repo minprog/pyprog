@@ -1,4 +1,6 @@
-# Code review: Kalender
+# Code review: RNA & Leesbaarheid & Populatie
+
+> Als je één van de drie bovenstaande opdrachten vrijdag niet helemaal af had gekregen (afgekeurd door website, met uitzondering van doctest of type check, of helemaal niet ingeleverd) dan moet je die vervangen door Sjoelen of Temperatuurtabellen.
 
 De code review focust op een aantal **aspecten**. Deze aspecten worden ook gebruikt bij het nakijken van jouw definitieve programma's, dus het gebruik bij de code reviews helpt je om de juiste richting op te gaan. Maar let op: het nakijken beperkt zich niet tot alleen de aspecten. Je kunt zelf namelijk ook uitzoeken hoe je betere Python-programma's kunt schrijven en dat verwachten we van je als je heel hoog wilt scoren.
 
@@ -25,5 +27,5 @@ Let op dat (goedwerkende) doctests en types verplicht aanwezig moeten zijn, ook 
     * Geef geen geschreven lijstje verbeterpunten aan je partner, maar ga echt het gesprek aan.
 1.  Verbeter je oplossing en stuur de definitieve oplossing in zodat deze kan worden nagekeken door je mentor. Gooi je oplossing niet helemaal overhoop maar probeer deze met kleine aanpassingen beter te maken (30--60 minuten).
     * Neem niet het ontwerp van je partner over; dan ga je veel te ver en het kan ook leiden tot plagiaatverdenking.
-1.  [Stuur je herziene oplossingen hier in](/reviews/m4/revised).
+1.  [Stuur je herziene oplossingen hier in](/reviews/r3/revised).
 1.  Later krijg je korte schriftelijke feedback van je docent of assistent waarmee je de volgende review je voordeel kunt doen.

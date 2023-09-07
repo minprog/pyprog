@@ -1,4 +1,4 @@
-# Code review: Klimaat
+# Code review: Calculator, Rechthoeken, Wachtwoord
 
 De code review focust op een aantal **aspecten**. Deze aspecten worden ook gebruikt bij het nakijken van jouw definitieve programma's, dus het gebruik bij de code reviews helpt je om de juiste richting op te gaan. Maar let op: het nakijken beperkt zich niet tot alleen de aspecten. Je kunt zelf namelijk ook uitzoeken hoe je betere Python-programma's kunt schrijven en dat verwachten we van je als je heel hoog wilt scoren.
 
@@ -10,13 +10,12 @@ Je reviewpartner wisselt per week. Je docent wijst tijdens de werkgroep de partn
 
 Voor deze module gebruik je de volgende aspecten. Neem de tijd om de uitlegpagina helemaal te lezen en goed te begrijpen. Je kunt hier ook vragen over stellen aan de assistenten.
 
-- [Doctests](/quality/doctests)
-- [Typing](/quality/typing)
 - [Formatting](/quality/formatting)
 - [Comments](/quality/comments)
-- [Cleanup](/quality/cleanup)
 - [Naming](/quality/naming)
-- [Functions](/quality/functions)
+- [Cleanup](/quality/cleanup)
+
+Let op dat (goedwerkende) doctests en types verplicht aanwezig moeten zijn, ook bij de verbeterde versies van je programma's.
 
 ## Stappenplan
 
@@ -26,5 +25,5 @@ Voor deze module gebruik je de volgende aspecten. Neem de tijd om de uitlegpagin
     * Geef geen geschreven lijstje verbeterpunten aan je partner, maar ga echt het gesprek aan.
 1.  Verbeter je oplossing en stuur de definitieve oplossing in zodat deze kan worden nagekeken door je mentor. Gooi je oplossing niet helemaal overhoop maar probeer deze met kleine aanpassingen beter te maken (30--60 minuten).
     * Neem niet het ontwerp van je partner over; dan ga je veel te ver en het kan ook leiden tot plagiaatverdenking.
-1.  [Stuur je herziene oplossingen hier in](/reviews/m5/revised).
+1.  [Stuur je herziene oplossingen hier in](/reviews/r2/revised).
 1.  Later krijg je korte schriftelijke feedback van je docent of assistent waarmee je de volgende review je voordeel kunt doen.
