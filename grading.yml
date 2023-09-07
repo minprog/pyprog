@@ -333,22 +333,22 @@ tentamen_bg:
     show_progress: true
     attempt_required: true
     submits:
-        exam_1: 1
+        tentamen_bg: 1
 
 tentamen_inf4all:
     show_progress: true
     attempt_required: true
     submits:
-        exam_1: 1
+        tentamen_inf4all: 1
 
 tentamen_ki:
     show_progress: true
     attempt_required: true
     submits:
-        exam_1: 1
+        tentamen_ki: 1
 
 tentamen_ik:
     show_progress: true
     attempt_required: true
     submits:
-        exam_1: 1
+        tentamen_ik: 1
