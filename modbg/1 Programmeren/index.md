@@ -2,7 +2,7 @@
 
 Goed, tijd om te programmeren! We gaan dat doen aan de hand van het boek **Practical Programming**. Je gaat heel snel aan de slag met het uitpuzzelen van echte programmeerproblemen, maar we bouwen ook stap voor stap je kennis op van de ideeën die aan het programmeren ten grondslag liggen. Zo is het deze week belangrijk dat je uiteindelijk goed begrijpt wat een variabele is en hoe je er mee kunt werken.
 
-Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. En dat is ook wel zo: nog geen `while` of `for` toegestaan deze week. Maar let tegelijk goed op de specifieke **manier van programmeren** die we je willen aanleren. Dit is misschien anders dan je gewend bent. Ben je zeer ervaren, let dan vooral nog op het "Function Design Recipe" (uit het boek) dat een belangrijke rol heeft in onze cursus en onze manier van programmeren.
+Voor studenten met ervaring zal het lijken alsof we wat langzaam gaan. Een paar hele simpele opdrachten, een loop, een paar if's en niet veel meer. Maar let tegelijk goed op de specifieke **manier van programmeren** die we je willen aanleren. Dit is misschien anders dan je gewend bent. Ben je zeer ervaren, let dan vooral nog op het "Function Design Recipe" (uit het boek) dat een belangrijke rol heeft in onze cursus en onze manier van programmeren.
 
 Deze week gaat verder over het gebruik van **conditionals**, waarmee je je programma geschikt kunt maken voor het verwerken van verschillende opties. De programma's die je schrijft bevatten dus ook van dit soort constructies.
 
