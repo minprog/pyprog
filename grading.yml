@@ -73,43 +73,53 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        deadline: 8/9/23 17:00
     vakantie:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        deadline: 8/9/23 17:00
     orakel:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
+        deadline: 8/9/23 17:00
     etenstijd:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        deadline: 8/9/23 17:00
     calculator:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        deadline: 8/9/23 17:00
 
     rechthoeken:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
+        deadline: 8/9/23 17:00
     wachtwoord:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
+        deadline: 8/9/23 17:00
     scrabble:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        deadline: 8/9/23 17:00
     cola:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
+        deadline: 8/9/23 17:00
     temperatuur:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        deadline: 8/9/23 17:00
 
     rna:
         <<: *automatic
