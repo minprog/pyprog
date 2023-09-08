@@ -125,18 +125,22 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        deadline: 15/9/23 17:00
     leesbaarheid:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
+        deadline: 15/9/23 17:00
     camelcase:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
+        deadline: 15/9/23 17:00
     kalender:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/10)
+        deadline: 15/9/23 17:00
 
     comprehensions: *check
     populatie:
