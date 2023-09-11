@@ -155,7 +155,11 @@ compute_change.py:12: error: Returning Any from function declared to return "int
 Found 2 errors in 1 file (checked 1 source file)
 ~~~
                                      
-**Opdracht2:** Los deze type fouten op.
+In het algemeen is het belangrijk deze type fouten op te lossen, maar
+we laten deze type fouten nu in deze oefening bij uitzondering in de
+code staan om problemen met onderstaande PythonTutor tool te voorkomen
+(deze gebruikt namelijke Python versie 3.6 die niet met de moderne
+type annotaties overweg kan).
 
 ## Doctest
 
@@ -171,7 +175,7 @@ al 2 voorbeelden in de vorm van doctest:
 2
 ~~~
     
-Het eerste voorbeeld geeft aan dat we voor een gedrag van 1€ 0
+Het eerste voorbeeld geeft aan dat we voor een bedrag van 1€ dus 0
 biljetten van 10€ gebruiken en het tweede dat we voor een bedrag van
 24€ 2 biljetten van 10€ gebruiken. We kunnen automatisch controleren
 of elke functie het juiste resultaat geeft wat in bijbehorende
@@ -223,10 +227,10 @@ Daarbij is het belangrijk om vooral de randgevallen te testen, dus
 waarden die aan beide kanten van een waardeovergang liggen,
 bijvoorbeeld:
 
-Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€ meer vind
-er een overgang plaats, voor 1000€ kan ik namelijk 100 biljetten van
-10€ gebruiken. Dat maakt 999 en 1000 randgevallen die nuttig zijn voor
-een test.
+Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€ meer
+vindt er een overgang plaats, voor 1000€ kan ik namelijk 100 biljetten
+van 10€ gebruiken. Dat maakt 999 en 1000 randgevallen die nuttig zijn
+voor een test.
 
 Als je met een doctest een bug ontdekt, is het nuttig om de test te
 proberen te versimpelen op zo'n manier dat de bug behouden blijft. Het
