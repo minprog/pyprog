@@ -5,3 +5,4 @@ language: nl
 #     '[people] Tentamen': /tentamen
 #     '[vector-pen] Reviews': /reviews
 #     '[patch-exclamation] Tentamen': /tentamen/tentamen1
+deadlines: soft
