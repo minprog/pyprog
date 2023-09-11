@@ -82,7 +82,7 @@ grades:
     orakel:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/6)
         deadline: 8/9/23 17:00
     etenstijd:
         <<: *automatic
