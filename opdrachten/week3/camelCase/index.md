@@ -7,7 +7,7 @@ In Python is het dus gebruikelijk om `snake_case` te gebruiken. Daarom schrijven
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `camel.py`, een programma dat de naam van een variabele in camelCase omschrijft snake_case.
+Schrijf, in een bestand genaamd `camelcase.py`, een programma dat de naam van een variabele in camelCase omschrijft snake_case.
 
 ## Code
 
@@ -25,14 +25,14 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
-    $ python camel.py
+    $ python camelcase.py
     camelCase: check
     snake_case: check
 
-    $ python camel.py
+    $ python camelcase.py
     camelCase: convertInput
     snake_case: convert_input
 
-    $ python camel.py
+    $ python camelcase.py
     camelCase: readFromFile
     snake_case: read_from_file
