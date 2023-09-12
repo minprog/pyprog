@@ -1,9 +1,9 @@
 # Debug Oefening
 
 Iedere programmeur maakt fouten. Een goede programmeur kan zijn/haar
-fouten snel ontdekken en oplossen. We gaan naar enkele techieken
+fouten snel ontdekken en oplossen. We gaan naar enkele technieken
 hiervoor kijken die we toepassen op een voorbeeldprogramma. Het is de
-bedoeling dat je echt even mee met deze techieken oefent zodat je deze
+bedoeling dat je echt even mee met deze technieken oefent zodat je deze
 zelf in latere opdrachten kunt gebruiken. Dit kan veel tijd besparen.
 
 # Voorbeeldprogramma
@@ -106,7 +106,7 @@ uitvoeren en er wordt gevraagd om een bedrag, kies daar '46':
 Het programma werkt maar het is duidelijk dat de denominatie-aantallen
 nog niet kloppen want het totaal voor de verschillende
 denominatie-aantallen is hoger dan 46, er zit dus nog een logische
-fout in het pogramma, een **bug**. Maar deze bug kan overal zitten,
+fout in het programma, een **bug**. Maar deze bug kan overal zitten,
 hoe vinden we nu waar de bug zit?
 
 ## Type Checking
@@ -155,7 +155,11 @@ compute_change.py:12: error: Returning Any from function declared to return "int
 Found 2 errors in 1 file (checked 1 source file)
 ~~~
                                      
-**Opdracht2:** Los deze type fouten op.
+In het algemeen is het belangrijk deze type fouten op te lossen, maar
+we laten deze type fouten nu in deze oefening bij uitzondering in de
+code staan om problemen met onderstaande PythonTutor tool te voorkomen
+(deze gebruikt namelijke Python versie 3.6 die niet met de moderne
+type annotaties overweg kan).
 
 ## Doctest
 
@@ -171,7 +175,7 @@ al 2 voorbeelden in de vorm van doctest:
 2
 ~~~
     
-Het eerste voorbeeld geeft aan dat we voor een gedrag van 1€ 0
+Het eerste voorbeeld geeft aan dat we voor een bedrag van 1€ dus 0
 biljetten van 10€ gebruiken en het tweede dat we voor een bedrag van
 24€ 2 biljetten van 10€ gebruiken. We kunnen automatisch controleren
 of elke functie het juiste resultaat geeft wat in bijbehorende
@@ -223,16 +227,16 @@ Daarbij is het belangrijk om vooral de randgevallen te testen, dus
 waarden die aan beide kanten van een waardeovergang liggen,
 bijvoorbeeld:
 
-Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€ meer vind
-er een overgang plaats, voor 1000€ kan ik namelijk 100 bijetten van
-10€ gebruiken. Dat maakt 999 en 1000 randgevallen die nuttig zijn voor
-een test.
+Voor 999€ kan ik 99 biljetten van 10€ gebruiken, maar bij 1€ meer
+vindt er een overgang plaats, voor 1000€ kan ik namelijk 100 biljetten
+van 10€ gebruiken. Dat maakt 999 en 1000 randgevallen die nuttig zijn
+voor een test.
 
 Als je met een doctest een bug ontdekt, is het nuttig om de test te
 proberen te versimpelen op zo'n manier dat de bug behouden blijft. Het
 voorbeeld van 999€ is niet erg simpel omdat het zo'n groot bedrag is,
 probeer een lagere waarde te vinden waarbij wel de bug behouden
-blijft. Bij simpelere tests is het namelijke makkelijker om de oorzaak
+blijft. Bij simpelere tests is het namelijk makkelijker om de oorzaak
 van de bug te ontdekken.
 
 ## Prints
@@ -346,7 +350,7 @@ probeer het dan echt eerst zelf te ontdekken voor je verder leest.
 
 Na enig denkwerk zouden we met alle informatie tot de conclusie moeten
 kunnen komen dat 0.6 naar beneden moet worden afgerond voor het juiste
-aantal bankbiljetten en niet naar het dichtsbijzijnde gehele
+aantal bankbiljetten en niet naar het dichtstbijzijnde gehele
 getal. Dit kan bijvoorbeeld met:
 
 ~~~python
@@ -431,24 +435,24 @@ steeds met doctests/print-statements/PythonTutor of je programma doet
 wat je denkt dat het doet, na maar een klein aantal nieuwe regels code
 toe te hebben gevoegd. Dan kost testen over het algemeen minder tijd
 dan pas achteraf veel regels tegelijk testen (zoals in het
-bovenstaande programmma).
+bovenstaande programma).
 
 ## Correctheid
 
 Met tests kunnen we alleen aantonen dat er nog een bug in code zit,
 maar we kunnen niet zeker weten dat een programma helemaal bug vrij
-is. Misschien zijn we namelijke een belangrijke test vergeten voor een
+is. Misschien zijn we namelijk een belangrijke test vergeten voor een
 speciaal geval.
 
 Om toch meer zekerheid te krijgen kunnen we in sommige gevallen wel
 code schrijven die automatisch veel test uitvoert. Hieronder
 voorbeeld-code die van een 'change'-lijst het 'due' bedrag
-terug-berekent. Deze waarde zou natuurlijk gelijk moeten zijn aan het
+terug berekent. Deze waarde zou natuurlijk gelijk moeten zijn aan het
 originele 'due' bedrag van de 'change'-lijst. We kunnen dit vervolgens
 testen voor bijvoorbeeld 100000 verschillende random gekozen waarden
 voor 'due'. Als het voor al die waarden goed werkt kunnen we toch een
 hoge mate van vertrouwen krijgen dat de code bug-vrij is, maar
-helemaal zeker weten doen we dat in het algmeen niet, zeker niet voor
+helemaal zeker weten doen we dat in het algemeen niet, zeker niet voor
 grote complexe programma's.
 
 ~~~python
@@ -503,10 +507,10 @@ checkpy -download https://github.com/minprog/python
 ~~~
 
 Run daarna bijvoorbeeld dit om de checkpy tests uit te voeren op het
-`cafeine.py` programma van de eerste opdracht:
+`etenstijd.py` programma van de eerste opdracht:
 
 ~~~console
-checkpy cafeine.py
+checkpy etenstijd.py
 ~~~
 
 Bij deze tests worden meestal ook de 'type checks' en doctests
@@ -514,9 +518,9 @@ uitgevoerd, maar het is duidelijker om die van te voren zelf uit te
 voeren omdat je dan meer feedback krijgt, dit kan met:
 
 ~~~console
-mypy --strict cafeine.py
-python -m doctest cafeine.py -v
-checkpy cafeine.py
+mypy --strict etenstijd.py
+python -m doctest etenstijd.py -v
+checkpy etenstijd.py
 ~~~
 
 ## Plan van Aanpak

@@ -10,7 +10,7 @@ aanpassen. Lees de docstring documentatie van ieder opdracht-functie
 om te zien wat er moet gebeuren. Als je het programma runt zie je dat
 functie `opdracht1()` nu al correct werkt. Bij elke opdracht-functie
 is ook aangegeven in hoeveel regels deze kan worden
-geimplementeerd. Met een slimme aanpak zijn er maar weinig regels
+geïmplementeerd. Met een slimme aanpak zijn er maar weinig regels
 nodig. Probeer de opdracht-functies zo kort mogelijk te houden.
 
 ~~~python
@@ -144,11 +144,11 @@ zonder herhaaldelijk op 'Next' te hoeven drukken:
 
 ![PythonTutor](pythontutor.png)
 
-## Geen Type Hints
+## Geen Type Annotations
 
 Omdat PythonTutor tot Python versie 3.6 ondersteunt, begrijpt het
-sommige type hints niet. Daarom gebruiken we geen type hints en geen
-'mypy' type checks in deze opdracht.
+sommige type annotations niet. Daarom gebruiken we geen type
+annotations en geen 'mypy' type checks in deze opdracht.
 
 ## Alternatief Ontwerp
 
