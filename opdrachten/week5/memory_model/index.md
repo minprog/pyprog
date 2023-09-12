@@ -1,21 +1,21 @@
 # Memory Model
 
-Python maakt onderscheid tussen 'mutable' en 'immutable' types. Een
-waarde van een immutable type kan **niet** worden aangepast zonder dat
-er een kopie van gemaakt wordt. Een waarde van een mutable type kan
+Python maakt onderscheid tussen *mutable* en *immutable* types. Een
+waarde van een *immutable* type kan **niet** worden aangepast zonder dat
+er een kopie van gemaakt wordt. Een waarde van een *mutable* type kan
 **wel** worden aangepast zonder een kopie te maken. We gaan in deze
 tekst zien waarom het belangrijk is om je bewust te zijn van de
 (im)mutabiliteit van de types waarmee je werkt.
 
-Elk type in Python is mutable of immutable. 
+Elk type in Python is *mutable* of *immutable*. 
 
 Immmutable types zijn: `bool`, `int`, `float`, `str`, `tuple`, enkele andere types
 Mutable types zijn: `list`, `set`, `dictionary`, alle andere types
 
 ## int (immutable type)
 
-In dit voorbeeldprogrammma verwijzen variabelen `a` en `b` naar een
-waarde van het type `int` wat een immutable type is.
+In dit voorbeeldprogramma verwijzen variabelen `a` en `b` naar een
+waarde van het type `int` wat een *immutable* type is.
 
 ~~~python
 a = 1
@@ -27,16 +27,16 @@ print("a:", a, "b:", b)
 Als we dit programma uitvoeren in
 [PythonTutor](https://pythontutor.com/) met de optie "render all
 objects on the heap" zien we wat er gebeurt. Na regel 1 verwijst
-variable `a` naar waarde `1`.
+variabele `a` naar waarde `1`.
 
 ![](mm_int2.png)
 
-Na regel 2 verwijst variable `b` naar dezelfde waarde:
+Na regel 2 verwijst variabele `b` naar dezelfde waarde:
 
 ![](mm_int3.png)
 
 Op regel 3 wordt de waarde waar `a` naar wijst aangepast (`+= 100`),
-en omdat `a` naar een 'immutable' type verwijst wordt eerst een kopie
+en omdat `a` naar een *immutable* type verwijst wordt eerst een kopie
 van deze waarde gemaakt zodat de waarde waar `b` naar verwijst, niet
 wordt aangepast:
 
@@ -51,7 +51,7 @@ verschillende waarden hebben.
 ## str (immutable type)
 
 Hetzelfde voorbeeld maar nu verwijzen `a` en `b` naar een waarde van
-het type `str` wat ook een immutable type is.
+het type `str` wat ook een *immutable* type is.
 
 ~~~python
 a = "hello"
@@ -60,7 +60,7 @@ a += " world"
 print(f"a: '{a}' b: '{b}'")
 ~~~
 
-Omdat een `str` net als een `int` 'immutable' is, gebeurt hier
+Omdat een `str` net als een `int` *immutable* is, gebeurt hier
 hetzelfde en zien we na het printen dat `a` en `b` hier ook twee
 verschillende waarden hebben.
 
@@ -82,12 +82,12 @@ a += [100]
 print("a:", a, "b:", b)
 ~~~
 
-Na uitvoeren van regel 1 verwijst variable `a` naar de lijst
+Na uitvoeren van regel 1 verwijst variabele `a` naar de lijst
 `[1, 2, 3]`.
 
 ![](mm_list2.png)
 
-Na regel 2 verwijst variable `b` naar dezelfde waarde:
+Na regel 2 verwijst variabele `b` naar dezelfde waarde:
 
 ![](mm_list3.png)
 
@@ -98,9 +98,9 @@ waarde waar `b` naar verwijst **ook** aangepast.
 
 ![](mm_list4.png)
 
-Bij het printen op regel 4 zien we dan ook dat variable `a` en `b`
+Bij het printen op regel 4 zien we dan ook dat variabele `a` en `b`
 dezelfde waarde hebben wat dus in de eerdere voorbeeldprogramma's met
-'immutable' types niet het geval was.
+*immutable* types niet het geval was.
 
 ![](mm_list5.png)
 
@@ -126,16 +126,16 @@ print("a:", a, "b:", b)
 Een rede waarom er geen kopie van een 'mutable' type wordt gemaakt
 vooraf aan een aanpassing is om te voorkomen dat bijvoorbeeld een
 grote lijst bij elke kleine aanpassing steeds helemaal gekopieerd moet
-worden, want dat zou een programma heel traag maken. De 'immutable'
-types zijn meestal klein waardoor het kopieeren wel snel kan.
+worden, want dat zou een programma heel traag maken. De *immutable*
+types zijn meestal klein waardoor het kopiëren wel snel kan.
 
 
 ## Functie aanroep
 
-Dit verschil tussen 'mutable' en 'immutable' types zorgt ook
+Dit verschil tussen *mutable* en *immutable* types zorgt ook
 voor een verschil bij het aanroepen van functies. In het onderstaande
 voorbeeldprogramma roepen we functie `add_100()` aan met een waarde van
-een 'immutable' en 'mutable' type.
+een *immutable* en *mutable* type.
 
 ~~~python
 def add_100(immu: int, mu: list) -> None:
@@ -150,7 +150,7 @@ add_100(immutable, mutable)
 print("3) immutable:", immutable, "mutable:", mutable)
 ~~~
 
-Vooraf aan de functieaanroep worden de waarden geprint als:
+Vooraf aan de functie-aanroep worden de waarden geprint als:
 
     1) immutable: 1 mutable: [1, 2, 3]
     
@@ -160,9 +160,9 @@ toegevoegd) en geprint als:
     2) immu: 101 mu: [1, 2, 3, 100]
 
 Maar omdat in de functie vooraf aan de aanpassing van de waarde van
-het 'immutable' type een kopie wordt gemaakt, wordt de originele
+het *immutable* type een kopie wordt gemaakt, wordt de originele
 waarde buiten de functie niet aangepast. In de print na de
-functieaanroep is dan ook alleen de waarde van het 'mutable' type
+functieaanroep is dan ook alleen de waarde van het *mutable* type
 aangepast:
 
     3) immutable: 1 mutable: [1, 2, 3, 100]
@@ -170,15 +170,15 @@ aangepast:
 ## Voorkom bugs
 
 Om bugs te voorkomen is het dus belangrijk om tijdens het programmeren
-te weten of je een waarde van een 'mutable' of 'immutable' type
-aanpast. Bij 'mutable' types wil je altijd in je hoofd de verwijzingen
+te weten of je een waarde van een *mutable* of *immutable* type
+aanpast. Bij *mutable* types wil je altijd in je hoofd de verwijzingen
 voor je zien als pijltjes zoals het wordt weergegeven in
-PythonTutor. Bij 'immutable' types is dat niet nodig, omdat toch
+PythonTutor. Bij *immutable* types is dat niet nodig, omdat toch
 altijd eerst een kopie wordt gemaakt kan een aanpassing nooit een
 ongewenst effect hebben op andere variabelen.
 
-Het is goed om de 'immutable' types uit je hoofd te leren, alle andere
-types zijn dan 'mutable'.
+Het is goed om de *immutable* types uit je hoofd te leren, alle andere
+types zijn dan mutable.
 
 Immutable types zijn: `bool`, `int`, `float`, `str`, `tuple`, enkele andere types
 
@@ -187,10 +187,10 @@ niet voor in dit vak.
 
 ## Deepcopy
 
-Bij geneste mutable types zijn er meerdere kopieer-opties, ieder met
+Bij geneste *mutable* types zijn er meerdere kopieer-opties, ieder met
 een ander effect, waar je uit kunt kiezen. In het onderstaande
 programma is `a` een geneste lijst (lijst van lijsten van ...) die we
-op verschillende manieren gaan "kopieeren" naar variabelen `b`, `c` en
+op verschillende manieren gaan "kopiëren" naar variabelen `b`, `c` en
 `d`.
 
 ~~~python
