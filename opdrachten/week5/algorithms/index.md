@@ -87,8 +87,7 @@ def merge_in_place(array: list[Any], index1: int, index2: int, index3: int) -> N
     size1 = index2 - index1 # the size of list1
     size2 = index3 - index2 # the size of list2
     while size1 > 0 and size2 > 0:
-        # check which list has next smallest element
-        if array[index1] <= array[index2]:
+        if array[index1] <= array[index2]: # check which list has next smallest element
             # if list1 has smallest it is easy
             index1 += 1
             size1 -= 1
@@ -100,12 +99,12 @@ def merge_in_place(array: list[Any], index1: int, index2: int, index3: int) -> N
             oldindex1 = index1
             index1 += 1
             array[index1:index1+size1] = array[oldindex1:oldindex1+size1] # moves list1
-            array[oldindex1] = smallest # insert smallest
+            array[oldindex1] = smallest # move smallest
 
 n = len(array)
 sub_list_length = 1 # start with sub_list_length of 1
 while sub_list_length < n:
-    # loop over all pairs of sub_lists as [index1:index2] and [index2:index3] 
+    # loop over all pairs of sub_lists as slices [index1:index2] and [index2:index3] 
     for index1 in range(0, n, sub_list_length * 2):
         index2 = index1 + sub_list_length
         index3 = min(len(array), index2 + sub_list_length) # make sure index3 is valid
@@ -124,14 +123,14 @@ Perform this code on paper with list 'array' with values `[5, 1, 2, 8, 6]`. Show
 The ```merge_in_place()``` function is different from the
 ```merge()``` function in the book (Practical Programming, Third
 Edition, An Introduction to Computer Science Using Python, p267) that
-creates many additional lists. Instead the ```merge_in_place()```
-function merges the adjacent sorted list1 and sorted list2 in
-one larger sorted list without the need for additional lists as shown
-in the figure below. It does this by repeatedly moving the next
-smallest element to the sorted part of the list (in orange). If it
-came from list1 it just makes list1 one element shorter. If it came
-form list2 it makes list2 one element shorter, but then it also moves
-the whole list1 one position to the right. The function can stop when
-list1 or list2 has zero length.
+creates a new list. Instead the ```merge_in_place()``` function merges
+the adjacent sorted list1 and sorted list2 in place to one larger
+sorted list without creating new lists as shown in the figure
+below. It does this by repeatedly moving the next smallest element to
+the newly sorted part of the list (in orange). If it came from list1
+it just makes list1 one element shorter. If it came form list2 it
+makes list2 one element shorter, but then it also moves the whole
+list1 one position to the right. The function can stop when list1 or
+list2 has zero length.
 
 ![](merge_in_place.png)
