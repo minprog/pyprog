@@ -35,9 +35,9 @@ Module 2:
 
 Module 3:
     Overzicht: /modules/simuleren
-    # Tentamen-oefening: /toetsjes/week3
-    Opdrachten:
+    Oefenen:
         Comprehensions: /opdrachten/week4/comprehensions
+    Opdrachten:
         Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
         Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
         Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
