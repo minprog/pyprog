@@ -11,6 +11,7 @@ Schrijf class Alien in bestand [Alien.py](Alien.py) zodat we in de
 
 Baseer de Alien class op de Player class met enkele
 verschillen. Een alien: 
+
 - krijgt een random 'position' in het window
 - krijgt een vaste random 'speed' tussen (-3,-3) en (+3,+3)
 - krijgt een 'radius' van 10
