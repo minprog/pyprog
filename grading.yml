@@ -343,6 +343,7 @@ mod_grote_programmas:
 
 code_reviews:
     show_progress: true
+    type: points
     submits:
         r1: 1
         r2: 1
