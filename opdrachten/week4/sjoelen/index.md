@@ -45,7 +45,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 * Om `random.uniform()` te kunnen gebruiken moet je boven je programma `import random` zetten.
 
-* Let op: je wil de lijst met je eindconfiguratie nog een keer printen. Zorg dus dat je de lijst niet veranderd bij het berekenen van je punten.
+* Let op: je wil de lijst met je eindconfiguratie nog een keer printen. Zorg dus dat je de lijst niet verandert bij het berekenen van je punten.
 
 ## Voorbeelden
 
