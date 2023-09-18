@@ -11,7 +11,7 @@ templates:
             done: -(correctness_score.floor)
         calculation: done
         auto_publish: true
-        hide_subgrades: true
+        hide_calculated: true
     4: &autopoints
         type: float
         subgrades:
