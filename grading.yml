@@ -149,17 +149,17 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/4)
-        deadline: 15/9/23 17:00
+        deadline: 22/9/23 17:00
     sjoelen:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
-        deadline: 15/9/23 17:00
+        deadline: 22/9/23 17:00
     virus:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/16)
-        deadline: 15/9/23 17:00
+        deadline: 22/9/23 17:00
 
     algorithms: *check
     indexer:
