@@ -32,7 +32,7 @@ templates:
         subgrades:
             done: boolean
         calculation: done
-        hide_subgrades: true
+        hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
