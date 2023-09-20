@@ -6,7 +6,3 @@ check:
   tool: checkpy
   repo: minprog/python
   args: knapsack
-plag:
-  server: http://83.96.241.94/api/submission/
-  slug: pyprog/2022/knapsack
-  course: pyprogikki2022
