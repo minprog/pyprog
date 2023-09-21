@@ -6,7 +6,3 @@ check:
   tool: checkpy
   repo: minprog/python
   args: eca2csv
-plag:
-  server: http://83.96.241.94/api/submission/
-  slug: pyprog/2022/eca2csv
-  course: pyprogikki2022

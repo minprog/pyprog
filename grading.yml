@@ -11,7 +11,7 @@ templates:
             done: -(correctness_score.floor)
         calculation: done
         auto_publish: true
-        hide_subgrades: true
+        hide_calculated: true
     4: &autopoints
         type: float
         subgrades:
@@ -32,7 +32,7 @@ templates:
         subgrades:
             done: boolean
         calculation: done
-        hide_subgrades: true
+        hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -139,22 +139,27 @@ grades:
     kalender:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/10)
+            done: -(correctness_score.floor/11)
         deadline: 15/9/23 17:00
 
-    comprehensions: *check
+    comprehensions:
+        <<: *check
+        deadline: 22/9/23 17:00
     populatie:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/4)
+        deadline: 22/9/23 17:00
     sjoelen:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
+        deadline: 22/9/23 17:00
     virus:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/16)
+        deadline: 22/9/23 17:00
 
     algorithms: *check
     indexer:
@@ -338,6 +343,7 @@ mod_grote_programmas:
 
 code_reviews:
     show_progress: true
+    type: points
     submits:
         r1: 1
         r2: 1

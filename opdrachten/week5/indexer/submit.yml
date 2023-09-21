@@ -6,7 +6,3 @@ check:
   tool: checkpy
   repo: minprog/python
   args: indexer
-plag:
-  server: http://83.96.241.94/api/submission/
-  slug: pyprog/2022/indexer
-  course: pyprogikki2022
