@@ -10,7 +10,7 @@ De code review is bedacht om jou ruimte te geven je eigen programma's nog te ver
 
 Wat maakt code eigenlijk "netjes"? We denken daarbij aan de lezer van je programma's. Om aan een programma van een ander te kunnen werken, moet de code redelijk *leesbaar* en *begrijpelijk* zijn. Vrijwel nooit zul je code schrijven die alleen voor jezelf is en na een week weer weggegooid kan worden (op de universiteit natuurlijk wel). Vandaar dat je al tijdens deze cursus leert hoe je code beter leesbaar kunt maken en sneller te begrijpen.
 
-Er zijn talloze manieren om je code netter te maken, maar voor deze cursus richten we ons vooral op de onderdelen die zijn genoemd in de [stijlgids](/python/stijl):
+Er zijn talloze manieren om je code netter te maken, maar voor deze cursus richten we ons vooral op de onderdelen die zijn genoemd in de [stijlgids](/stijl):
 
 - Taalkeuze
 - Naamgeving
