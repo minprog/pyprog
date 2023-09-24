@@ -45,7 +45,7 @@ Deze stappen doe je na de les.
 
 Je hebt samen met je review-partner de details goed doorgesproken. Je hebt een lijst gemaakt van de dingen die je wil aanpassen.
 
-1.  Verbeter je oplossing en stuur de definitieve oplossing in zodat deze kan worden nagekeken door je mentor.
+1.  Verbeter je oplossingen, kijk of het goed leesbaar en begrijpelijk is, en itereer.
 
 1.  Gooi je oplossing niet helemaal overhoop maar probeer deze met kleine aanpassingen beter te maken.
 
