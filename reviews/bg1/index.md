@@ -53,7 +53,7 @@ Je hebt samen met je review-partner de details goed doorgesproken. Je hebt een l
 
 1.  Maak een verslag in PDF (met je naam erboven en de naam van je partner). Geef hierin aan voor **elke verandering in jouw uitwerkingen** waarom je dit hebt gedaan. Zorg dat je stukjes code laat zien (kleine screenshots) met daarbij uitleg. Geef ook dingen aan die je niet hebt veranderd maar waarvoor je wel alternatieven hebt gezien of bedacht.
 
-    1.  Met een verslag dat niet exact bovenstaande regels volgt kun je maximaal 1 punt verdienen voor de review.
+    Met een verslag dat niet exact bovenstaande regels volgt kun je maximaal 1 punt verdienen voor de review.
 
 1.  Sla je verbeterde uitwerkingen op en test ze uitgebreid. Submit deze samen met je verslag op de submitpagina.
 
