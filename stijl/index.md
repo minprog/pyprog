@@ -209,6 +209,14 @@ In deze cursus krijg je bij de meeste opdrachten al een template waarin een aant
 
 Twijfel je of je van iets een aparte functie moet maken? Overleg eens met je buren of met één van de docenten. Of probeer het en kijk of je programma er misschien overzichtelijker van wordt.
 
+### Pythonic
+
+Het is soms mogelijk de complexiteit te reduceren door gebruik te maken van de juiste constructie op de juiste plek.
+
+- Kies bewust voor een `for`- of `while`-loop, en probeer gebruik van `break` te vermijden, behalve als het is om de code simpeler te maken.
+
+- Op sommige plekken zijn list comprehensions een goede vervanging van een paar regels code.
+
 
 ## Opschonen
 
