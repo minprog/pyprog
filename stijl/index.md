@@ -225,3 +225,4 @@ Er zijn een aantal elementen die niet thuishoren in code die "af" is. Of in iede
 - stukjes code die "uitgecomment" zijn en niet meer actief
 - stukjes code, bijvoorbeeld functies, die niet meer gebruikt worden
 - imports die niet nodig zijn omdat je de library niet gebruikt
+- prints die niet gevraagd worden in de opdracht
