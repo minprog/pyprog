@@ -139,7 +139,7 @@ toegevoegd, en wat het puntentotaal van de knapsack is.
             """ Prints the instance variables of this class. """
 
         def item_fits(self, item: Item) -> bool:
-            """ Returns True if item can still be add to the knapsack given 
+            """ Returns True if item can still be added to the knapsack given 
                 the remaining resources, False otherwise. """
 
         def add_item(self, item: Item) -> None:
