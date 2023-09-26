@@ -9,7 +9,8 @@ tekst zien waarom het belangrijk is om je bewust te zijn van de
 
 Elk type in Python is *mutable* of *immutable*. 
 
-Immmutable types zijn: `bool`, `int`, `float`, `str`, `tuple`, enkele andere types
+Immmutable types zijn: `bool`, `int`, `float`, `str`, `tuple`,
+`frozenset`, enkele andere types
 
 Mutable types zijn: `list`, `set`, `dictionary`, alle andere types
 
@@ -181,7 +182,8 @@ ongewenst effect hebben op andere variabelen.
 Het is goed om de *immutable* types uit je hoofd te leren, alle andere
 types zijn dan mutable.
 
-Immutable types zijn: `bool`, `int`, `float`, `str`, `tuple`, enkele andere types
+Immutable types zijn: `bool`, `int`, `float`, `str`, `tuple`,
+`frozenset`, enkele andere types
 
 De 'enkele andere types' laten we verder achterwegen, want die komen
 niet voor in dit vak.
