@@ -1,6 +1,6 @@
 hangman:
     remote: https://github.com/minprog/hangman.git
     branch: 2021
-objects:
+classes:
     remote: https://github.com/minprog/objects.git
     branch: 2023
