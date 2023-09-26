@@ -209,6 +209,10 @@ grades:
         automatic:
             done: -(correctness_score.floor/6)
 
+    bg1: *manual
+    bg2: *manual
+    bg3: *manual
+
     r1: *manual
     r2: *manual
     r3: *manual
@@ -245,7 +249,7 @@ grades:
 
 calculation:
     eindcijfer_bg:
-        code_reviews: 25
+        code_reviews_bg: 25
         tentamen_bg: 75
     eindcijfer_inf4all:
         code_reviews: 25
@@ -340,6 +344,14 @@ mod_grote_programmas:
 #     show_progress: true
 #     submits:
 #
+
+code_reviews_bg:
+    show_progress: true
+    type: points
+    submits:
+        bg1: 1
+        bg2: 1
+        bg3: 1
 
 code_reviews:
     show_progress: true
