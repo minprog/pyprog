@@ -3,4 +3,4 @@ hangman:
     branch: 2021
 objects:
     remote: https://github.com/minprog/objects.git
-    branch: master
+    branch: 2023
