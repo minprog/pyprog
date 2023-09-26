@@ -92,7 +92,7 @@ Na regel 2 verwijst variabele `b` naar dezelfde waarde:
 
 ![](mm_list3.png)
 
-Op regel 3 wordt de waarde waar `a` naar wijst aangepast door waar 100
+Op regel 3 wordt de waarde waar `a` naar wijst aangepast door daar 100
 toe te voegen (`+= [100]`), en omdat `a` naar een 'mutable' type
 verwijst wordt **geen** kopie van deze waarde gemaakt en dus wordt de
 waarde waar `b` naar verwijst **ook** aangepast.
