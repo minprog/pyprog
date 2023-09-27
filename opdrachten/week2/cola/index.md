@@ -10,7 +10,7 @@ De perfecte reden om een programma te schrijven waarmee je de drankautomaat kan 
 Schrijf, in een bestand genaamd `cola.py`, een programma dat de gebruiker vraagt om een muntstuk in te voeren (één per keer) en dat telkens het nog te betalen bedrag weergeeft.
 Als er genoeg muntstukken zijn ingeworpen, moet het programma geven hoeveel wisselgeld je terug krijgt zodat er uiteindelijk precies 50 cent betaald is.
 
-* Je mag aannemen dat de gebruiker alleen maar integers invoert.
+* Je mag aannemen dat de gebruiker alleen maar gehele getallen invoert.
 
 * Zorg dat andere muntstukken dan 25, 10 en 5 cent niet worden geaccepteerd.
 
