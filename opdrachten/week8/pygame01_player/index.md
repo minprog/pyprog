@@ -1,6 +1,6 @@
 # Pygame Player
 
-Programma [player.py](player.py) laat zien hoe we een speler kunnen
+Programma [game.py](game.py) laat zien hoe we een speler kunnen
 besturen met het toetsenbord. Als we dit programma uitvoeren zien we
 een witte cirkel die we kunnen bewegen met de cursor toetsen of met
 toetsen 'W','A','S','D'. Lees eventueel de
@@ -33,7 +33,7 @@ eigen classes te maken.
 
 ## Opdracht: Op het window blijven
 
-Een probleem in het [player.py](player.py) programma is dat de speler
+Een probleem in het [game.py](game.py) programma is dat de speler
 van het window af kan bewegen:
 
 ![player.png](player.png)

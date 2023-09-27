@@ -9,7 +9,8 @@ tekst zien waarom het belangrijk is om je bewust te zijn van de
 
 Elk type in Python is *mutable* of *immutable*. 
 
-Immmutable types zijn: `bool`, `int`, `float`, `str`, `tuple`, enkele andere types
+Immmutable types zijn: `bool`, `int`, `float`, `str`, `tuple`,
+`frozenset`, enkele andere types
 
 Mutable types zijn: `list`, `set`, `dictionary`, alle andere types
 
@@ -92,7 +93,7 @@ Na regel 2 verwijst variabele `b` naar dezelfde waarde:
 
 ![](mm_list3.png)
 
-Op regel 3 wordt de waarde waar `a` naar wijst aangepast door waar 100
+Op regel 3 wordt de waarde waar `a` naar wijst aangepast door daar 100
 toe te voegen (`+= [100]`), en omdat `a` naar een 'mutable' type
 verwijst wordt **geen** kopie van deze waarde gemaakt en dus wordt de
 waarde waar `b` naar verwijst **ook** aangepast.
@@ -181,7 +182,8 @@ ongewenst effect hebben op andere variabelen.
 Het is goed om de *immutable* types uit je hoofd te leren, alle andere
 types zijn dan mutable.
 
-Immutable types zijn: `bool`, `int`, `float`, `str`, `tuple`, enkele andere types
+Immutable types zijn: `bool`, `int`, `float`, `str`, `tuple`,
+`frozenset`, enkele andere types
 
 De 'enkele andere types' laten we verder achterwegen, want die komen
 niet voor in dit vak.
