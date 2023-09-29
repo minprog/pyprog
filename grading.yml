@@ -183,7 +183,7 @@ grades:
     cards:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/9)
         deadline: 6/10/23 17:00
     hangman:
         <<: *automatic
