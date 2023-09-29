@@ -178,17 +178,17 @@ grades:
     queue:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/2)
+            done: -(correctness_score.floor)
         deadline: 6/10/23 17:00
     cards:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/9)
+            done: -(correctness_score.floor)
         deadline: 6/10/23 17:00
     hangman:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor)
         deadline: 6/10/23 17:00
     knapsack:
         <<: *check
