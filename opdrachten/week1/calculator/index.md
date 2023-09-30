@@ -8,9 +8,8 @@ Daarom gaan we een programma schrijven dat de gebruiker vraagt een formule te ge
 Schrijf, in een bestand genaamd `calculator.py`, een programma dat de gebruiker vraagt een formule in te tikken en het antwoord van de formule geeft als output.
 
 * De formule die wordt gegeven door de gebruiker is van de vorm `x y z` met een spatie tussen de `x` en `y`, en `y` en `z`.
-* Hier zijn de `x` en `z` integers en is de `y` één van de operaties `+, -, *, / `.
-* Je mag aannemen dat de gebruiker `z` niet nul maakt als voor `y` de operatie `/` is gekozen (dat zou een probleem zijn!).
-* De output van het programma moet een float zijn.
+* Hier zijn de `x` en `z` getallen en is de `y` één van de operaties `+, -, *, / `.
+* Het antwoord moet als float geprint worden.
 * Je programma moet ook kunnen omgaan met negatieve getallen.
 
 ## Code
@@ -20,7 +19,6 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     def evaluate(x: int, y: str, z: int) -> float:
         """
         Bereken het resultaat van de operatie y toegepast op x en z.
-        De output is een float.
         """
 
     if __name__ == '__main__':
@@ -28,7 +26,11 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
+* De functie `evaluate` krijgt twee `int`s en een `str` mee. Die moet je dus klaarmaken in de `main`. De functie geeft een float terug, en mag niks printen (anders zou dat in de docstring staan).
+
 * Je kunt de `split`-methode gebruiken net als in de opdracht Etenstijd. Experimenteer even met `split` in Python zodat je je idee voor een oplossing kunt ontwikkelen.
+
+* Je mag aannemen dat de gebruiker `z` niet het getal 0 maakt als de operatie `/` is gekozen (dat zou een probleem zijn, want delen door nul mag niet).
 
 ## Voorbeelden
 

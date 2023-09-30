@@ -31,7 +31,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def coleman_liau(L: float, S: float) -> float:
         """
-        Berekent de grade volgens de Coleman Liau-formule.
+        Berekent de index (CLI) volgens de Coleman Liau-formule.
         """
 
     if __name__ == '__main__':

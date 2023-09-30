@@ -24,10 +24,6 @@ Als de gebruiker als antwoord `42`, `tweeenveertig`, of `tweeënveertig` geeft, 
 
 ## Code
 
-Vanaf nu gaan we code aanroepen door middel van het gebruik van `if __name__ == '__main__':`.
-Hier kun je de code schrijven waarin je je verschillende functies aanroept, in plaats van dat je het los onder je zelfgeschreven functies zet.
-Verder bestaat je code in deze opdracht uit een zelfgeschreven functie.
-
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
     def check_answer(answer: str) -> bool:
@@ -41,6 +37,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 ## Tips
 
 * Dit is de eerste keer dat je met `if`-`else`-statements gaat werken. Vergeet niet dat er ook booleaanse operaties zijn zoals `and` en `or`.
+
+* De functie `check_answer` moet een `bool` returnen, volgens de type hint. Doe dit via `return True` of `return False`, al naar gelang de conclusie die de functie trekt.
 
 ## Voorbeelden
 

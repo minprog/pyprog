@@ -34,8 +34,8 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen. Het is gebruik
 
 ## Tips
 
-* Voor deze opdracht moet je een functie schrijven, dus houd het functional design recipe (FDR) bij de hand.
-* We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen; welke ingebouwde functie van Python kunnen we hiervoor gebruiken?
+* Voor deze opdracht moet je een functie schrijven, dus houd het function design recipe (FDR) bij de hand.
+* We hebben invoer van de gebruiker nodig om de hoeveelheid cafeïne te berekenen; welke ingebouwde functie van Python kunnen we hiervoor gebruiken? Zie hoofdstuk 4 van het boek.
 * Je ziet dat de naam van de functie en van de parameters in het Engels is, maar het commentaar is in het Nederlands. Dit is bewust zo gedaan, dus zorg dat je dit patroon ook blijft volgen.
 
 ## Doctests

@@ -16,7 +16,7 @@ Schrijf, in een bestand genaamd `scrabble.py`, een programma dat twee gebruikers
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en verdere uitleg van de aanpak die je gekozen hebt.
 
-Het wordt bij deze opdracht aangemoedigd om extra functies te introduceren die een klein deel van het probleem oplossen. Die moeten dan ook types hebben en doctests.
+Je wordt bij deze opdracht aangemoedigd om extra functies te introduceren die een klein deel van het probleem oplossen. Die moeten dan ook types hebben en doctests.
 
     POINTS = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
 
@@ -58,12 +58,18 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Speler 2: Hardly!
     Gelijkspel!
 
-## Testen
+## Zelf testen
 
-Werkt je programma niet goed? Schrijf dan doctests en probeer ze uit met het volgende python-commando. Je krijgt dan ook aanwijzingen over welke doctest niet goedgekeurd wordt.
+Werkt je programma goed? Je kunt het insturen om te controleren. Maar je kunt een deel van de tests ook zelf runnen. Dat maakt het verbeteren van fouten misschien iets sneller.
 
-    python3 -m doctest -v programma.py
+-   Gebruik dit commando om de doctests te controleren die je zelf geschreven hebt:
 
-Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+        python3 -m doctest -v programma.py
 
-    mypy --strict --ignore-missing-imports programma.py
+    Gebruik hierin het `python` of `python3`-commando afhankelijk van wat op jouw computer de juiste versie is.
+
+-   Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+
+        mypy --strict --ignore-missing-imports programma.py
+
+Mocht het installeren niet lukken, dan kun je altijd hulp vragen. Maar hoe dan ook kun je insturen op deze website, en dan gebeurt het controleren automatisch.

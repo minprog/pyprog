@@ -26,6 +26,8 @@ In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals 
 
 ## Tips
 
+*   De functie `meal()` moet een string returnen. De mogelijkheden hiervoor staan uitgespeld in de docstring. Zorg dat de functie niets anders returnt dan één van die mogelijkheden.
+
 *   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `pyprog@proglab.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
 
         email = "pyprog@proglab.nl"
