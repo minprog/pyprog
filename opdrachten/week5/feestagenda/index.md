@@ -14,11 +14,12 @@ geïmplementeerd. Met een slimme aanpak zijn er maar weinig regels
 nodig. Probeer de opdracht-functies zo kort mogelijk te houden.
 
 ~~~python
-def main():
-    agenda = {'januari': [], 'februari': []} # lege agenda met 'januari' en 'februari'
-    print_agenda(agenda)
-    
-    # de bands:
+import copy
+
+def main() -> None:
+    agenda  = {'januari': [], 'februari': []} # lege agenda met 'januari' en 'februari'
+
+    # de bands
     the_rockets     = ['The Rockets:', 'Jim', 'Charlotte', 'Emma']
     the_dragonflies = ['The Dragonflies:', 'Lisa', 'Alexander', 'Lucas']
 
@@ -51,7 +52,7 @@ def main():
     opdracht7(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-def print_agenda(agenda):
+def print_agenda(agenda) -> None:
     """ Print de agenda """
     print("==== AGENDA ====")
     for month, bands in agenda.items():
@@ -59,44 +60,34 @@ def print_agenda(agenda):
         for index, band in enumerate(bands):
             print(f"  week{index+1} {band}")
 
-def opdracht1(agenda, the_rockets, the_dragonflies):
+def opdracht1(agenda, the_rockets, the_dragonflies) -> None:
     """ Voeg 'the_rockets' toe in januari week1.
         Voeg 'the_dragonflies' toe in januari week2.
-        kan in 2 regels
     """
     agenda['januari'].append(the_rockets)
     agenda['januari'].append(the_dragonflies)
     
-def opdracht2(agenda, the_rockets, the_dragonflies):
+def opdracht2(agenda, the_rockets, the_dragonflies) -> None:
     """ Voeg 'the_rockets' toe in januari week3.
         Voeg 'the_dragonflies' toe in januari week4.
         Voeg 'the_rockets' toe in januari week5.
-        kan in 3 regels
     """
+    
+def opdracht3(agenda, the_rockets, the_dragonflies) -> None:
+    """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3. """
 
-def opdracht3(agenda, the_rockets, the_dragonflies):
-    """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3.
-        kan in 2 regels
-    """
-
-def opdracht4(agenda, the_rockets, the_dragonflies):
-    """ 'Jim' verandert zijn artiestennaam in 'Jimmi' in alle optredens.
-        kan in 2 regels
-    """
-
-def opdracht5(agenda, the_rockets, the_dragonflies):
-    """ In 'februari' roosteren we dezelfde bands als in januari.
-        kan in 1 regel
-    """
-
-def opdracht6(agenda, the_rockets, the_dragonflies):
-    """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in februari maar niet in januari.
-        kan in 2 regels
-    """
-
-def opdracht7(agenda, the_rockets, the_dragonflies):
-    """ In 'maart' roosteren we dezelfde bands als in januari, maar in elk optreden voegen we gastartiest 'Maya' toe.
-        kan in 4 regels
+def opdracht4(agenda, the_rockets, the_dragonflies) -> None:
+    """ 'Jim' verandert zijn artiestennaam in 'Jimmi' in alle optredens. """
+    
+def opdracht5(agenda, the_rockets, the_dragonflies) -> None:
+    """ In 'februari' roosteren we dezelfde bands als in januari. """
+    
+def opdracht6(agenda, the_rockets, the_dragonflies) -> None:
+    """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in februari maar niet in januari. """
+    
+def opdracht7(agenda, the_rockets, the_dragonflies) -> None:
+    """ In 'maart' roosteren we dezelfde bands als in januari, maar in elk 
+        optreden voegen we gastartiest 'Maya' toe.
     """
 
 if __name__ == "__main__":
@@ -146,15 +137,9 @@ zonder herhaaldelijk op 'Next' te hoeven drukken:
 
 ## Geen Type Annotations
 
-Bij default gebruikt PythonTutor Python versie 3.6 welke sommige
-moderne type annotations niet begrijpt en dus hoef in deze opdracht
-geen type annotations te gebruiken. Als je toch type annotations wilt
-gebruiken kun je ook bestand
-[feestagenda_type_anno.py](feestagenda_type_anno.py) gebruiken en moet
-je in PythonTutor Python versie 3.11 selecteren. Maar dit is een
-experimentele versie ('not tested yet!') waarbij ook de visualisatie
-voor deze opdracht wat minder overzichtelijk is. Dus doe dit alleen
-als type annotations je erg helpen om code te begrijpen.
+Met type annotaties wordt het programma te lang voor de limiet (5600
+bytes) van PythonTutor. Daarom hoeven in de opdrachten geen type
+annotaties gebruikt te worden.
 
 ## Alternatief Ontwerp
 
