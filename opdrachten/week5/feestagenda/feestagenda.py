@@ -1,6 +1,6 @@
 import copy
 
-def main() -> None:
+def main():
     agenda  = {'januari': [], 'februari': []} # lege agenda met 'januari' en 'februari'
 
     # de bands
@@ -36,7 +36,7 @@ def main() -> None:
     opdracht7(agenda, the_rockets, the_dragonflies)
     print_agenda(agenda)
 
-def print_agenda(agenda) -> None:
+def print_agenda(agenda):
     """ Print de agenda """
     print("==== AGENDA ====")
     for month, bands in agenda.items():
@@ -44,32 +44,32 @@ def print_agenda(agenda) -> None:
         for index, band in enumerate(bands):
             print(f"  week{index+1} {band}")
 
-def opdracht1(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht1(agenda, the_rockets, the_dragonflies):
     """ Voeg 'the_rockets' toe in januari week1.
         Voeg 'the_dragonflies' toe in januari week2.
     """
     agenda['januari'].append(the_rockets)
     agenda['januari'].append(the_dragonflies)
     
-def opdracht2(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht2(agenda, the_rockets, the_dragonflies):
     """ Voeg 'the_rockets' toe in januari week3.
         Voeg 'the_dragonflies' toe in januari week4.
         Voeg 'the_rockets' toe in januari week5.
     """
     
-def opdracht3(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht3(agenda, the_rockets, the_dragonflies):
     """ Voeg gastartiest 'Thomas' toe aan 'the_rockets' maar alleen in week3. """
 
-def opdracht4(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht4(agenda, the_rockets, the_dragonflies):
     """ 'Jim' verandert zijn artiestennaam in 'Jimmi' in alle optredens. """
     
-def opdracht5(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht5(agenda, the_rockets, the_dragonflies):
     """ In 'februari' roosteren we dezelfde bands als in januari. """
     
-def opdracht6(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht6(agenda, the_rockets, the_dragonflies):
     """ Voor 'februari' roosteren we maar 4 weken, verwijder week5 in februari maar niet in januari. """
     
-def opdracht7(agenda, the_rockets, the_dragonflies) -> None:
+def opdracht7(agenda, the_rockets, the_dragonflies):
     """ In 'maart' roosteren we dezelfde bands als in januari, maar in elk 
         optreden voegen we gastartiest 'Maya' toe.
     """
