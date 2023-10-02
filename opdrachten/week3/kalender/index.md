@@ -103,13 +103,18 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 ## Tips
 
-* Als je meerdere keren achter elkaar wil printen op één regel moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
+*   Als je meerdere keren achter elkaar wil printen op één regel moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
 
-    * Als je dit niet begrijpt maak dan een python-file waarin je 3x zo'n print als hierboven neerzet waarin je bijvoorbeeld 1, 2 en 3 print. Bekijk het resultaat door het programma te runnen.
+    *   Als je dit niet begrijpt maak dan een Python-file met de volgende inhoud, start het programma, bekijk wat er uit komt en bedenk waarom.
+    
+            print(1, end="")
+            print(2, end="")
+            print(3, end="")
+            print()
 
-* Net als in Temperatuurtabellen kun je f-strings gebruiken om netjes te printen.
+*   Net als in Temperatuurtabellen kun je f-strings gebruiken om netjes te printen.
 
-* De header heeft altijd dezelfde breedte, en je mag deze gerust hardcoden.
+*   De header heeft altijd dezelfde breedte, en je mag deze gerust hardcoden.
 
 ## Voorbeelden
 

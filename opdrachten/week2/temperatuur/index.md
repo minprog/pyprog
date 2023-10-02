@@ -17,8 +17,8 @@ Schrijf, in een bestand genaamd `temperatuur.py`, een programma dat de gebruiker
 
 * Je programma moet niet gevoelig zijn voor hoofdletters: zowel `c` als `C` moeten worden gezien als Celsius.
 * De eindtemperatuur moet groter zijn dan de begintemperatuur (als dit niet zo is wordt een "lege tabel" uitgeprint, zie voorbeelden hieronder).
-* De stapgrootte moet een positief geheel getal zijn.
-* Je moet de getallen (en letters) rechts uitlijnen.
+* De stapgrootte moet een positief geheel getal zijn, anders moet opnieuw worden gevraagd.
+* Je moet de getallen (en letters) rechts uitlijnen zoals in de voorbeelden.
 * Alle temperaturen worden op gehele graden naar *boven* afgerond.
 
 ## Code
@@ -127,3 +127,19 @@ Je programma moet uiteindelijk exact werken zoals in de voorbeelden hieronder.
       3 | -16
       6 | -14
       9 | -12
+
+## Zelf testen
+
+Werkt je programma goed? Je kunt het insturen om te controleren. Maar je kunt een deel van de tests ook zelf runnen. Dat maakt het verbeteren van fouten misschien iets sneller.
+
+-   Gebruik dit commando om de doctests te controleren die je zelf geschreven hebt:
+
+        python3 -m doctest -v programma.py
+
+    Gebruik hierin het `python` of `python3`-commando afhankelijk van wat op jouw computer de juiste versie is.
+
+-   Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+
+        mypy --strict --ignore-missing-imports programma.py
+
+Mocht het installeren niet lukken, dan kun je altijd hulp vragen. Maar hoe dan ook kun je insturen op deze website, en dan gebeurt het controleren automatisch.

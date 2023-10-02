@@ -55,7 +55,7 @@ Zoals je kan zien staan er twee TODO's in. De bedoeling is dat de functies één
 
 - Je kunt geen berekeningen doen met strings, dus één stap van het netjes maken van de data is om de input te converteren naar integers.
 
-- Bij de functie `lengte` weet je niet welke coördinaat groter is (denk aan de case: c1 = 5, c2 = 3). Zorg dat de uitvoer van de functie wel altijd positief is. Je kunt het zelf een stukje code uitschrijven hiervoor, of een standaard Python-functie gebruiken.
+- Bij de functie `calculate_length` weet je niet welke coördinaat groter is (denk aan de case: c1 = 5, c2 = 3). Zorg dat de uitvoer van de functie wel altijd positief is. Je kunt het zelf een stukje code uitschrijven hiervoor, of een standaard Python-functie gebruiken.
 
 ## Voorbeelden
 

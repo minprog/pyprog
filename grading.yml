@@ -161,29 +161,38 @@ grades:
             done: -(correctness_score.floor/16)
         deadline: 22/9/23 17:00
 
-    algorithms: *check
+    algorithms:
+        <<: *check
+        deadline: 29/9/23 17:00
     indexer:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/5)
+        deadline: 29/9/23 17:00
     schuifpuzzel:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/4)
+        deadline: 29/9/23 17:00
 
     queue:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor)
+        deadline: 6/10/23 17:00
     cards:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor)
+        deadline: 6/10/23 17:00
     hangman:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
-    knapsack: *check
+            done: -(correctness_score.floor)
+        deadline: 6/10/23 17:00
+    knapsack:
+        <<: *check
+        deadline: 6/10/23 17:00
 
     eca2csv:
         <<: *automatic
@@ -196,18 +205,15 @@ grades:
 
     pygame: *check
 
-    toetsje_week_2:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
-    toetsje_week_3:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
-    toetsje_week_4:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
+    bg1:
+        <<: *manual
+        deadline: 25/9/23 20:00
+    bg2:
+        <<: *manual
+        deadline: 2/10/23 20:00
+    bg3:
+        <<: *manual
+        deadline: 9/10/23 20:00
 
     r1: *manual
     r2: *manual
@@ -245,7 +251,7 @@ grades:
 
 calculation:
     eindcijfer_bg:
-        code_reviews: 25
+        code_reviews_bg: 25
         tentamen_bg: 75
     eindcijfer_inf4all:
         code_reviews: 25
@@ -340,6 +346,14 @@ mod_grote_programmas:
 #     show_progress: true
 #     submits:
 #
+
+code_reviews_bg:
+    show_progress: true
+    type: points
+    submits:
+        bg1: 1
+        bg2: 1
+        bg3: 1
 
 code_reviews:
     show_progress: true
