@@ -116,7 +116,6 @@ Let ook op de schrijfwijze: geen hoofdletter, geen punt, zinnen in codetaal (lid
 Het is gebruikelijk om bovenaan programma's wat algemene informatie op te nemen. Meestal gaat het om de namen van de auteurs, en een samenvatting van het doel van het programma.
 
     # naam: Ivo van Vulpen
-    # in samenwerking met: Martijn Stegeman
     #
     # Dit programma berekent de gemiddelde waarden van een reeks
     # getallen gegeven door de gebruiker.
