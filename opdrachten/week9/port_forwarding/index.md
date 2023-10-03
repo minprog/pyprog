@@ -1,6 +1,6 @@
 # Meerdere Computer
 
-We willen een multi-player spel gezamelijk op verschillende computers
+We willen een multi-player spel gezamelijk op meerdere computers
 kunnen spelen.
 
 # Thuis Netwerk
@@ -22,8 +22,8 @@ en met als host het IP address bv '192.168.0.14'
 Binnen het 'uva' en 'eduroam' netwerk ligt dit iets
 ingewikkelder. Voor security-redenen mogen computers in dit netwerk
 namelijk niet direct verbindingen met elkaar maken, maar we kunnen
-computer 'forward-server.science.uva.nl' gebruiken om toch te
-verbinden.
+speciaal voor dit vak wel computer 'forward-server.science.uva.nl'
+gebruiken om toch te verbinden.
 
 Start eerst de server om een computer met bv port '2345'. 
 
@@ -51,8 +51,8 @@ verbinding in stand blijft.
 
 ![port_forward.png](port_forward.png)
 
-Dat betekent dat we nu op andere computers in dit netwerk dus clients
-kunnen starten met:
+Dat betekent dat we nu op computers in dit netwerk dus clients kunnen
+laten verbinden met de server met:
 
 ```
 $ python mygame_client.py 2345 <name> 39785 forward-server.science.uva.nl
