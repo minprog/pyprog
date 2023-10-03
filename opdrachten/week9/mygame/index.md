@@ -2,9 +2,9 @@
 
 De enige opdracht van deze week is om je eigen computerspel te
 schrijven. Wees lekker creatief, doe wat je leuk lijkt. Een variant
-van een oude klassieker (Pong, Snake, Space-Invaders, Pac-Man, ...), of
-kies voor een hele eigen game. Het spel moet wel aan de volgende eisen
-voldoen:
+van een oude klassieker (Pong, Snake, Space-Invaders, Pac-Man, ...) of
+kies voor een heel eigen spelconcept. Het spel moet wel aan de
+volgende eisen voldoen:
 
 - er moet een **spelelement** in zitten
 - het moet **leuk** zijn (als je het zelf leuk vindt, vinden wij het waarschijnlijk ook leuk)
