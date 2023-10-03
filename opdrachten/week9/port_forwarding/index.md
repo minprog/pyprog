@@ -3,7 +3,7 @@
 We willen een multi-player spel gezamelijk op meerdere computers
 kunnen spelen.
 
-# Thuis Netwerk
+## Thuis Netwerk
 
 In een netwerk thuis is dat relatief aanvoudig. Op de computer waar de
 server gaat runnen moeten we uitvinden wat het IP addres is. Dat kun je het
@@ -17,7 +17,7 @@ en met als host het IP address bv '192.168.0.14'
 
 ![connect_home.png](connect_home.png)
 
-# UvA / Eduroam Netwerk
+## UvA / Eduroam Netwerk
 
 Binnen het 'uva' en 'eduroam' netwerk ligt dit iets
 ingewikkelder. Voor security-redenen mogen computers in dit netwerk
@@ -25,7 +25,7 @@ namelijk niet direct verbindingen met elkaar maken, maar we kunnen
 speciaal voor dit vak wel computer 'forward-server.science.uva.nl'
 gebruiken om toch te verbinden.
 
-Start eerst de server om een computer met bv port '2345'. 
+Start eerst de server op je computer met bv port '2345'.
 
 ```
 $ python mygame_server.py 2345
@@ -46,16 +46,19 @@ Allocated port 39785 for remote forward to 127.0.0.1:2345
 
 Dat betekent dat nu iedereen in het netwerk kan verbinden met
 `forward-server.science.uva.nl` en port `39785` en dan wordt
-doorgestuurd naar jouw computer op poort `2345` zolang de 'ssh'
-verbinding in stand blijft.
+doorgestuurd (ge-forward) naar jouw computer op poort `2345` zolang de
+'ssh' verbinding in stand blijft.
 
 ![port_forward.png](port_forward.png)
 
 Dat betekent dat we nu op computers in dit netwerk dus clients kunnen
-laten verbinden met de server met:
+laten verbinden met jouw server op poort `2345` met:
 
 ```
-$ python mygame_client.py 2345 <name> 39785 forward-server.science.uva.nl
+$ python mygame_client.py <name> 39785 forward-server.science.uva.nl
 ```
 
 ![connect_eduroam.png](connect_eduroam.png)
+
+## SSH voor Windows
+
