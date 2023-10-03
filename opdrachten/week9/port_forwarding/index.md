@@ -20,7 +20,7 @@ en met als host het IP address bv '192.168.0.14'
 ## UvA / Eduroam Netwerk
 
 Binnen het 'uva' en 'eduroam' netwerk ligt dit iets
-ingewikkelder. Voor security-redenen mogen computers in dit netwerk
+ingewikkelder. Om security-redenen mogen computers in dit netwerk
 namelijk niet direct verbindingen met elkaar maken, maar we kunnen
 speciaal voor dit vak wel computer 'forward-server.science.uva.nl'
 gebruiken om toch te verbinden.
