@@ -88,6 +88,7 @@ boven in het window, is ook de `Player` class in
         white = (255,255,255)
         pygame.draw.rect(surface, white, rect, border)
 ~~~
+
 ## Opdracht: Unit class
 
 De gegeven code werkt al, alleen gaan de aliens nog niet dood. Schrijf
