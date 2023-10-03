@@ -65,4 +65,4 @@ $ python mygame_client.py <name> 39785 forward-server.science.uva.nl
 Om 'ssh' in Windows te gebruiken moet je een 'Windows PowerShell'
 starten. Hierin kun je wel 'ssh' gebruiken terwijl dat niet in de
 standaard command promt (cmd) kan. Zoek hiervoor op "powershell" in de
-search box in of rond het Window 'Start Menu'.
+search box in of rond het Windows 'Start Menu'.
