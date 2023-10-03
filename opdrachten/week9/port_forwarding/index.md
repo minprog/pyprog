@@ -37,14 +37,17 @@ Open op die computer dan een nieuwe terminal en run daar:
 $ ssh -N -R 0:127.0.0.1:2345 <uvanetid>@forward-server.science.uva.nl
 ```
 
-waar '<uvanetid>' je studentnummer is. Type je password en daarna zie
+waar '\<uvanetid\>' je studentnummer is. Type je password en daarna zie
 je als antwoord bv:
 
 ```
 Allocated port 39785 for remote forward to 127.0.0.1:2345
 ```
 
-Dat betekent dat nu iedereen in het netwerk kan verbinden met `forward-server.science.uva.nl` en port `39785` en dan wordt doorgestuurd naar jouw computer op poort `2345` zolang de 'ssh' verbinding in stand blijft.
+Dat betekent dat nu iedereen in het netwerk kan verbinden met
+`forward-server.science.uva.nl` en port `39785` en dan wordt
+doorgestuurd naar jouw computer op poort `2345` zolang de 'ssh'
+verbinding in stand blijft.
 
 ![port_forward.png](port_forward.png)
 
