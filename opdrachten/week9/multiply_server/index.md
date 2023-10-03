@@ -161,4 +161,4 @@ give a number to multiply:
 
 ## Opdracht: Spelen
 
-Lees de code en speel even met clients en servers.
+Lees de code en speel even met clients en server.

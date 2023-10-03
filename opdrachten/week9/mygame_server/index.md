@@ -338,3 +338,7 @@ class Player:
         text_offset.y += Player.radius
         surface.blit(name_texture, self.position - text_offset )
 ~~~
+
+## Opdracht: Spelen
+
+Lees de code en speel even met clients en server.
