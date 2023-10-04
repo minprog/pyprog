@@ -10,7 +10,7 @@ volgende eisen voldoen:
 - het moet **leuk** zijn (als je het zelf leuk vindt, vinden wij het waarschijnlijk ook leuk)
 - het moet een **multi-player** spel zijn dat je met meerdere spelers gezamelijk kunt spelen op verschillende computers
 
-Uitleg over hoe je met zmq sockets een multi-player spel maakt, vind je in stappen in:
+Uitleg over hoe je met zmq sockets een multi-player spel maakt, vind je in stappen hier:
 
 - [multiply_server](../multiply_server)
 - [status_server](../status_server)
@@ -24,6 +24,12 @@ mogelijke ingrediënten voor je eigen spel:
 - [ingredient_steering](../ingredient_steering)
 - [ingredient_center](../ingredient_center)
 - [ingredient_mouse](../ingredient_mouse)
+
+Als het je helpt kun je **optioneel** voor jezelf vooraf een UML class
+diagram maken. Het is niet erg als je je spel later toch anders
+programmeert (of pas het diagram aan). Zo'n diagram is slechts een
+hulpmiddel om vooraf te kunnen nadenken over de structuur van je
+code en overzicht te houden.
 
 Kijk voor het inleveren van Module6 en Module7 in:
 
