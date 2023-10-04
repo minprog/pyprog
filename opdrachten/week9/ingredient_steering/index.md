@@ -6,3 +6,17 @@ links/recht/boven/onder bewegen. Kijk dan naar de [main.py](main.py)
 voorbeeldcode.
 
 ![steering.gif](steering.gif)
+
+
+# Polar to Cartesian
+
+In deze code wordt de
+[https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.from_polar](pygame.Vector2.from_polar)
+method gebruikt voor het omzetten van een polar coordinaat naar
+cartesian zoals uitgelegd in
+[https://www.mathsisfun.com/polar-cartesian-coordinates.html](Math is
+Fun, Polar and Cartesian Coordinates). Maar, omdat deze wiskunde is
+ingebouwd (encapsulation) in de `pygame.Vector2` class kunnen we het
+gebruiken zonder over de details na te hoeven denken (abstraction) wat
+het programmeren een stuk makkelijker en de code een stuk leesbaarder
+maakt.
