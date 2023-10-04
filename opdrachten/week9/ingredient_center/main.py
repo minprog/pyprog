@@ -85,7 +85,7 @@ def draw_border(surface, world_size, center_world, center_window):
 def main():
     pygame.init()
     display = pygame.display.set_mode((800, 600), pygame.RESIZABLE)
-    pygame.display.set_caption('bullets')
+    pygame.display.set_caption('center')
     clock = pygame.time.Clock()
     background_colour = (0, 0, 0)
 
