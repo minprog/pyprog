@@ -23,7 +23,7 @@ Binnen het 'uva' en 'eduroam' netwerk ligt dit iets
 ingewikkelder. Om security-redenen mogen computers in dit netwerk
 namelijk niet direct verbindingen met elkaar maken, maar we kunnen
 speciaal voor dit vak wel computer 'forward-server.science.uva.nl'
-gebruiken om toch te verbinden.
+gebruiken om toch te verbinden (met dank aan 'FEIOG').
 
 Start eerst de server op je computer met bv port '2345'.
 
