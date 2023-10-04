@@ -11,7 +11,6 @@ class Player(Unit):
         position = pygame.Vector2(width//2,height//2)
         speed = pygame.Vector2(0,0)
         super().__init__(position, speed, radius=20, line_width=4, color=(255, 255 ,255))
-        self.pill_time = 0
         self.total_points = 0
         
     def move(self, keys):

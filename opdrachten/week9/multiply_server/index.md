@@ -77,8 +77,8 @@ if __name__ == "__main__":
 
 ## Server en Client Starten
 
-Als we de twee programma's allebei starten en de client wat getallen
-geven zien we bijvoorbeeld:
+Als we de twee programma's allebei starten, ieder in een eigen
+terminal, en de client wat getallen geven zien we bijvoorbeeld:
 
 <table>
 <tr>
@@ -113,7 +113,8 @@ give a number to multiply:
 </table>
 
 Een server kan verzoeken van meerdere clients afhandelen. Stuur zelf
-verzoeken van meerdere clients naar dezelfde server.
+verzoeken van meerdere clients (gebruik meerdere
+terminals) naar dezelfde server.
 
 
 ## Meedere Servers
@@ -160,4 +161,4 @@ give a number to multiply:
 
 ## Opdracht: Spelen
 
-Lees de code en speel even met clients en servers.
+Lees de code en speel even met clients en server.

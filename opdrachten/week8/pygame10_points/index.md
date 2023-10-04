@@ -88,6 +88,7 @@ boven in het window, is ook de `Player` class in
         white = (255,255,255)
         pygame.draw.rect(surface, white, rect, border)
 ~~~
+
 ## Opdracht: Unit class
 
 De gegeven code werkt al, alleen gaan de aliens nog niet dood. Schrijf
@@ -117,9 +118,11 @@ Schrijf de implementatie voor methode:
 
 - `get_age()`
 
-in de `Unit` class in [Unit.py](Unit.py) zodat voor elke unit wordt
-bijgehouden hoeveel seconden het in het spel is. Maak daarbij gebruik
-van functie `time.time()` die het aantal seconden sinds de 'Epoch'
+in de `Unit` class in [Unit.py](Unit.py) zodat het voor elke unit
+wordt bijgehouden hoeveel seconden het al in het spel is. Baseer deze
+tijd op de tijd dat de unit in het spel werd gebracht, voeg daarvoor
+bijvoorbeeld attribute 'birth_time' toe. Maak hierbij gebruik van
+functie `time.time()` die het aantal seconden sinds de 'Epoch'
 (donderdag 1 januri 1970 0:00 uur) returned:
 
 ~~~python
