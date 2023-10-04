@@ -13,7 +13,7 @@ voorbeeldcode.
 In deze code wordt de
 [pygame.Vector2.from_polar](https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2.from_polar)
 method gebruikt voor het omzetten van een polar coordinaat naar
-cartesian zoals uitgelegd in [Math is Fun, Polar and Cartesian
+een cartesian coordinate zoals uitgelegd in [Math is Fun, Polar and Cartesian
 Coordinates](https://www.mathsisfun.com/polar-cartesian-coordinates.html). Maar,
 omdat deze wiskunde is ingebouwd (encapsulation) in de
 `pygame.Vector2` class kunnen we het gebruiken zonder over de details
