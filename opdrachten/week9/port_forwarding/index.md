@@ -6,10 +6,15 @@ kunnen spelen.
 ## Thuis Netwerk
 
 In een netwerk thuis is dat relatief aanvoudig. Op de computer waar de
-server gaat runnen moeten we uitvinden wat het IP addres is. Dat kun je het
-makkelijkst op die computer gewoon aan google vragen:
+server gaat runnen moeten we wel eerst uitvinden wat het `Local IP`
+address is, zie de youtube video voor jouw operating systeem:
 
-![google_ip.png](google_ip.png)
+- [Linux](https://youtu.be/gaIYP4TZfHI)
+- [Mac](https://youtu.be/Ak5zlPENi1s)
+- [Windows](https://youtu.be/U181eofiomU)
+
+Stel dat we vinden dat '192.168.0.14' het `Local IP` address van deze
+computer is.
 
 Daarna starten we de daar de server bv met port '2345', en starten we
 de clients op verschillende computers in dit netwerk met port '2345'
