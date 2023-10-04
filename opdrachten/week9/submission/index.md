@@ -26,7 +26,7 @@ Zip dan deze directory met inhoud naar `module6.zip`, bv met:
 ```
 $ zip -r module6.zip module6
 ```
-of met [zip instructies voor Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)
+Of met [zip instructies voor Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc).
 
 Pak deze `module6.zip` file dan zelf uit in een andere lege directory
 en controleer of je alle benodigde files in deze zip-file zitten en
@@ -54,7 +54,7 @@ Zip dan deze directory met inhoud naar `module7.zip`, bv met:
 ```
 $ zip -r module7.zip module7
 ```
-of met [zip instructies voor Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)
+Of met [zip instructies voor Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc).
 
 Pak deze `module7.zip` file dan zelf uit in een andere lege directory
 en controleer of je alle benodigde files in deze zip-file zitten en
