@@ -85,15 +85,15 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Dit is een overzicht van de deadlines per week:
 
-|          | deadline huiswerk | deadline code review |
-|----------|-------------------|----------------------|
-| Module 1 | vr  8 sep  17:00  | -                    |
-| Module 2 | vr 15 sep  17:00  | -                    |
-| Module 3 | vr 22 sep  17:00  | ma 25 sep  20:00     |
-| Module 4 | vr 29 sep  17:00  | ma  2 okt  20:00     |
-| Module 5 | vr  6 okt  17:00  | ma  9 okt  20:00     |
-| Module 6 | vr 20 okt  17:00  | -                    |
-| Module 7 | vr 20 okt  17:00  | -                    |
+|          | deadline huiswerk | deadline code review                   |
+|----------|-------------------|----------------------------------------|
+| Module 1 | vr  8 sep  17:00  | -                                      |
+| Module 2 | vr 15 sep  17:00  | -                                      |
+| Module 3 | vr 22 sep  17:00  | ma 25 sep  20:00 (Populatie & Sjoelen) |
+| Module 4 | vr 29 sep  17:00  | di 10 okt  20:00 (Indexer)             |
+| Module 5 | vr  6 okt  17:00  | di 24 okt  20:00 (Hangman)             |
+| Module 6 | vr 20 okt  17:00  | -                                      |
+| Module 7 | vr 20 okt  17:00  | -                                      |
 
 De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
