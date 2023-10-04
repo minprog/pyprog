@@ -7,6 +7,8 @@ module. Installeer eerst `pygame` met:
 $ pip install pygame
 ~~~
 
+# Draw.py
+
 Programma [draw.py](draw.py) laat zien hoe we kunnen tekening met
 pygame. In het programma wordt eerst een window aangemaakt met naam
 'drawing'. Vervolgens starten we een while-loop waarin we steeds het
