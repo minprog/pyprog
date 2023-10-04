@@ -2,7 +2,7 @@
 
 Misschien is het leuker om een unit een richting te geven waarin het
 beweegt zodat je kan sturen in plaats van alleen naar
-links/recht/boven/onder bewegen. Kijk dan naar de
+links/recht/boven/onder te bewegen. Kijk dan naar de
 [steering.py](steering.py) voorbeeldcode.
 
 ![steering.gif](steering.gif)
