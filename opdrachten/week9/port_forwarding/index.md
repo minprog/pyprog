@@ -7,7 +7,7 @@ kunnen spelen.
 
 In een netwerk thuis is dat relatief aanvoudig. Op de computer waar de
 server gaat runnen moeten we wel eerst uitvinden wat het `Local IP`
-address is, zie de youtube video voor jouw operating system:
+address is, zie de youtube video van jouw operating system:
 
 - [Linux](https://youtu.be/gaIYP4TZfHI)
 - [Mac](https://youtu.be/Ak5zlPENi1s)
