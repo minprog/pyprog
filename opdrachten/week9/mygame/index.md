@@ -20,7 +20,7 @@ Uitleg over hoe je met zmq sockets een multi-player spel maakt, vind je in stapp
 Als je inspiratie nodig hebt kun je **optioneel** kijken naar deze
 mogelijke ingrediënten voor je eigen spel:
 
-- [ingredient_bullet](../ingredient_bullet)
+- [ingredient_bullets](../ingredient_bullets)
 - [ingredient_steering](../ingredient_steering)
 - [ingredient_center](../ingredient_center)
 - [ingredient_mouse](../ingredient_mouse)
