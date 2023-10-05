@@ -32,7 +32,7 @@ def main():
         player.step(surface.get_size())
         player.draw(surface)
 
-        for alien in aliens:                # for each alient
+        for alien in aliens:                # for each alien
             alien.step(surface.get_size())  # move the alien based on its speed, stay in the window
             alien.draw(surface)             # draw the alien
             
