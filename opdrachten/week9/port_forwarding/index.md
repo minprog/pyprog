@@ -6,10 +6,15 @@ kunnen spelen.
 ## Thuis Netwerk
 
 In een netwerk thuis is dat relatief aanvoudig. Op de computer waar de
-server gaat runnen moeten we uitvinden wat het IP addres is. Dat kun je het
-makkelijkst op die computer gewoon aan google vragen:
+server gaat runnen moeten we wel eerst uitvinden wat het `Local IP`
+address is, zie de youtube video van jouw operating system:
 
-![google_ip.png](google_ip.png)
+- [Linux](https://youtu.be/gaIYP4TZfHI)
+- [Mac](https://youtu.be/Ak5zlPENi1s)
+- [Windows](https://youtu.be/U181eofiomU)
+
+Stel dat we vinden dat '192.168.0.14' het `Local IP` address van deze
+computer is.
 
 Daarna starten we de daar de server bv met port '2345', en starten we
 de clients op verschillende computers in dit netwerk met port '2345'
@@ -23,7 +28,7 @@ Binnen het 'uva' en 'eduroam' netwerk ligt dit iets
 ingewikkelder. Om security-redenen mogen computers in dit netwerk
 namelijk niet direct verbindingen met elkaar maken, maar we kunnen
 speciaal voor dit vak wel computer 'forward-server.science.uva.nl'
-gebruiken om toch te verbinden.
+gebruiken om toch te verbinden (met dank aan FEIOG).
 
 Start eerst de server op je computer met bv port '2345'.
 
@@ -62,7 +67,7 @@ $ python mygame_client.py <name> 39785 forward-server.science.uva.nl
 
 ## SSH voor Windows
 
-Om 'ssh' in Windows te gebruiken moet je een 'Windows PowerShell'
-starten. Hierin kun je wel 'ssh' gebruiken terwijl dat niet in de
-standaard command promt (cmd) kan. Zoek hiervoor op "powershell" in de
-search box in of rond het Windows 'Start Menu'.
+Als je problemen hebt om in Windows 'ssh' te runnen, start dan eerst
+een 'PowerShell' of 'Command Prompt' door op "powershell" of "cmd" te
+zoeken in de search box in of rond het Windows 'Start Menu'.
+
