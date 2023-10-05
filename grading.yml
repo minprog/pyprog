@@ -185,7 +185,7 @@ grades:
         automatic:
             done: -(correctness_score.floor)
         deadline: 6/10/23 17:00
-    hangman:
+    hangman-less:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor)
@@ -328,7 +328,7 @@ mod_classes:
     submits:
         queue: 1
         cards: 1
-        hangman: 1
+        hangman-less: 1
         knapsack: 1
 
 mod_dataverwerking:
