@@ -71,19 +71,23 @@ Module 5:
 
 Module 6:
     Overzicht: /modules/algoritmen
-    Opdrachten:
+    Opdracht 1:
         Draw: /opdrachten/week8/pygame00_draw
         Player: /opdrachten/week8/pygame01_player
         Abstraction: /opdrachten/week8/pygame02_abstraction
+    Opdracht 2:
         Aliens: /opdrachten/week8/pygame03_aliens
         Inheritance: /opdrachten/week8/pygame04_inheritance
         Polymorphism: /opdrachten/week8/pygame05_polymorphism
+    Opdracht 3:
         Interaction: /opdrachten/week8/pygame06_interaction
         Sticky units: /opdrachten/week8/pygame07_sticky_units
+    Opdracht 4:
         Spawn aliens: /opdrachten/week8/pygame08_spawn_aliens
         Different aliens: /opdrachten/week8/pygame09_different_aliens
         Points: /opdrachten/week8/pygame10_points
-        
+    Insturen:
+        Submit [nog inactief]: /opdrachten/week8/submission
 
 Module 7:
     Overzicht: /modules/classes
