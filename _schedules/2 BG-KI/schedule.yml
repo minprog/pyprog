@@ -22,7 +22,7 @@ Module 1:
         Temperatuur: /opdrachten/week2/temperatuur
 
 Module 2:
-    Overzicht: /modules/decompositie
+    Overzicht: /modbg/decompositie
     # Code review: /
     # Lezen en oefenen:
     Opdrachten:
@@ -34,7 +34,7 @@ Module 2:
         Debugging: /opdrachten/week3/debug
 
 Module 3:
-    Overzicht: /modules/simuleren
+    Overzicht: /modbg/simuleren
     Oefenen:
         Comprehensions: /opdrachten/week4/comprehensions
     Opdrachten:
@@ -43,7 +43,7 @@ Module 3:
         Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
 
 Module 4:
-    Overzicht: /modules/algoritmen
+    Overzicht: /modbg/algoritmen
     # Code review: /
     Lezen en oefenen:
         "Chapter 11: Collection Types": /boek/collections
@@ -58,7 +58,7 @@ Module 4:
         Feestagenda: /opdrachten/week5/feestagenda
 
 Module 5:
-    Overzicht: /modules/classes
+    Overzicht: /modbg/classes
     # Tentamen-oefening: /toetsjes/week3
     Lezen en oefenen:
         "Chapter 14: Object-oriented programming": /boek/objects
@@ -70,7 +70,7 @@ Module 5:
         # let op: lisp, figuren zijn geschrapt
 
 Module 6:
-    Overzicht: /modules/algoritmen
+    Overzicht: /modbg/algoritmen
     Opdracht 1:
         Draw: /opdrachten/week8/pygame00_draw
         Player: /opdrachten/week8/pygame01_player
