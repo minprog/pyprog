@@ -1,4 +1,4 @@
-name: bg1
+name: bg2
 form: true
 files:
     required:
@@ -6,4 +6,4 @@ files:
 check:
   tool: checkpy
   repo: minprog/python
-  args: review_populatie review_sjoelen
+  args: review_indexer
