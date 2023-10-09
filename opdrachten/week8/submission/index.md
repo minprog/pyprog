@@ -18,7 +18,7 @@ Voeg **optioneel** ook een `README.txt` toe als je korte opmerkingen
 wilt bijvoegen, bijvoorbeeld als je niet tot aan de 'Points' opdracht
 bent gekomen.
 
-Zip dan deze directory met inhoud naar `module6.zip`, bv met:
+Zip dan deze directory met inhoud naar `mygame.zip`, bv met:
 
 ```
 $ zip -r mygame.zip mygame
