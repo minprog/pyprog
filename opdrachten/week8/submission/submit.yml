@@ -1,0 +1,4 @@
+name: pygame
+files:
+    required:
+        - mygame.zip
