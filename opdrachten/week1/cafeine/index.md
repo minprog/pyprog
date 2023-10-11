@@ -1,5 +1,7 @@
 # Cafeïne
 
+> Begrijp je niet wat je moet doen? Of begrijp je een instructie uit de opdracht niet? Bespreek dit dan gerust met je medestudenten en schakel altijd een assistent of docent in als het nodig is. Dat is hoe de universiteit werkt! Stel veel vragen en maak gebruik van de kennis en ervaring van anderen om goed te kunnen leren.
+
 Om gezond te blijven is het belangrijk om te letten op je cafeïne-inname en te zorgen dat deze niet te hoog is.
 Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillende dranken.
 
@@ -74,18 +76,18 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen. Het is gebruik
 
 In het boek heb je kennis gemaakt met "voorbeeld-aanroepen". Deze noemen we ook wel **doctests**, voor tests die in de docstring staan. Zie hieronder weer het voorbeeld van de functie `days_difference` waarvoor drie voorbeelden ingevoegd zijn.
 
-    >>> def days_difference(day1: int, day2: int) -> int:
-    ... """Return the number of days between day1 and day2, which are
-    ... both in the range 1-365 (thus indicating the day of the
-    ... year).
-    ...
-    ... >>> days_difference(200, 224)
-    ... 24
-    ... >>> days_difference(50, 50)
-    ... 0
-    ... >>> days_difference(100, 99)
-    ... -1
-    ... """
-    ... return day2 - day1
+    def days_difference(day1: int, day2: int) -> int:
+        """Return the number of days between day1 and day2, which are
+        both in the range 1-365 (thus indicating the day of the
+        year).
+        
+        >>> days_difference(200, 224)
+        24
+        >>> days_difference(50, 50)
+        0
+        >>> days_difference(100, 99)
+        -1
+        """
+        return day2 - day1
 
 Als je exact op die manier voorbeelden (doctests) bij jouw functie schrijft, dan worden deze automatisch getest als je je oplossing instuurt op deze website. Daarmee weten we of jouw oplossing consistent is met je zelfbedachte tests. Dat zijn overigens niet de enige tests die we doen! Want er worden ook nog tests gedaan om te controleren of jouw uitwerking ook klopt met de *opdracht*.
