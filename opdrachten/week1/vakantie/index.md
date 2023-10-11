@@ -1,5 +1,7 @@
 # Vakantiekosten
 
+> **Studeertip.** Heb je het idee dat je Python niet begrijpt? Bestudeer dan de uitleg in het boek en probeer alle voorbeelden goed te begrijpen. Ook hier geldt: stel vragen en schakel hulp in. Daarnaast is het belangrijk dat je leert experimenteren met Python. Maak mini-programma's om te begrijpen hoe een functie van Python werkt. Vraag hoe!
+
 Je wil in je eentje op vakantie naar Frankrijk, maar dat kost nogal
 wat. De kosten van de reis naar het verblijf zijn afhankelijk van
 hoeveel kilometer je moet reizen en hoe lang je blijft. 
