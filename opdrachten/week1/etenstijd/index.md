@@ -1,5 +1,7 @@
 # Etenstijd
 
+> **Studeertip.** Het oplossen van de opdrachten telt niet mee voor het eindcijfer. De reden om de opdrachten te maken is dus puur om steeds meer Python te leren en uiteindelijk goed te kunnen programmeren. Bij het tentamen zullen we dit toetsen: je gaat dan zonder internet, zonder oude uitwerkingen en zonder hulp programma's schrijven. Gebruik de opdrachten dus goed!
+
 Een welbekend stereotype van Nederlanders is dat ze stipt om 18:00 uur aan tafel zitten. Laten we aannemen dat dit stereotype ook doorwerkt op de andere maaltijden en dat de vaste etenstijden voor ontbijt tussen 7:00 en 8:00 zijn, voor lunch tussen 12:00 en 13:00 en voor avondeten tussen 18:00 en 19:00.
 Zou het niet handig zijn als er een programma is dat ons vertelt, op basis van het tijdstip, welke maaltijd we moeten eten?
 
