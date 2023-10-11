@@ -1,5 +1,7 @@
 # Calculator
 
+> **Studeertip.** Dit is de laatste opdracht van de week. Met de ervaring van de vorige opdrachten en het studeren in het boek zou je deze opdracht helemaal zelfstandig moeten kunnen oplossen. Maar het kan wel moeite kosten! Als je nog geen programmeerervaring had dan is het niet raar om meer dan een uur met de opdracht bezig te zijn, waarin je lange periodes niet vooruit komt. Mocht je vast zitten, geef jezelf dan een halfuur pauze, ga wat anders doen en kijk daarna nog eens fris naar de details van de opdracht.
+
 Het is inmiddels duidelijk dat Python wiskundige formules begrijpt en deze voor ons kan uitrekenen. Laten we deze kracht gebruiken om onze eigen gebruikers snel de uitkomst van sommen te geven die ze zelf verzinnen.
 Daarom gaan we een programma schrijven dat de gebruiker vraagt een formule te geven, waarna het programma de uitkomst berekent.
 
