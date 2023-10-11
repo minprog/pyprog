@@ -2,7 +2,7 @@
 
 > Begrijp je niet wat je moet doen? Of begrijp je een instructie uit de opdracht niet? Bespreek dit dan gerust met je medestudenten en schakel altijd een assistent of docent in als het nodig is. Dat is hoe de universiteit werkt! Stel veel vragen en maak gebruik van de kennis en ervaring van anderen om goed te kunnen leren.
 >
-> Heb je het idee dat je Python niet begrijpt? Bestudeer dan de uitleg in het boek en probeer alle voorbeelden goed te begrijpen. Ook hier geldt: stel vragen en schakel hulp in. Daarnaast is het goed dat je leert experimenteren met Python. Maak een mini-programma om te begrijpen hoe een functie van Python werkt. De docenten helpen je hier graag bij!
+> Heb je het idee dat je Python niet begrijpt? Bestudeer dan de uitleg in het boek en probeer alle voorbeelden goed te begrijpen. Ook hier geldt: stel vragen en schakel hulp in. Daarnaast is het belangrijk dat je leert experimenteren met Python. Maak mini-programma's om te begrijpen hoe een functie van Python werkt. Vraag hoe!
 
 Om gezond te blijven is het belangrijk om te letten op je cafeïne-inname en te zorgen dat deze niet te hoog is.
 Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillende dranken.
