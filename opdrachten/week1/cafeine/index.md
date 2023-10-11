@@ -13,6 +13,38 @@ Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillend
 Schrijf, in een bestand genaamd `cafeine.py`, een programma dat de gebruiker vraagt hoeveel cafeïnehoudende dranken die drinkt en vervolgens de totale cafeïne-inname berekent.
 Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan of gelijk aan nul invult, en dus geen fouten maakt bij de invoer.
 
+## Voorbeelden
+
+Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+
+    $ python cafeine.py
+    Hoeveel koppen koffie? 2
+    Hoeveel koppen thee? 1
+    Hoeveel energiedrankjes? 0
+    Hoeveel glazen cola? 0
+    Je krijgt 225 mg cafeïne binnen.
+
+    $ python cafeine.py
+    Hoeveel koppen koffie? 2
+    Hoeveel koppen thee? 0
+    Hoeveel energiedrankjes? 2
+    Hoeveel glazen cola? 0
+    Je krijgt 340 mg cafeïne binnen.
+
+    $ python cafeine.py
+    Hoeveel koppen koffie? 0
+    Hoeveel koppen thee? 0
+    Hoeveel energiedrankjes? 0
+    Hoeveel glazen cola? 1
+    Je krijgt 40 mg cafeïne binnen.
+
+    $ python cafeine.py
+    Hoeveel koppen koffie? 5
+    Hoeveel koppen thee? 0
+    Hoeveel energiedrankjes? 0
+    Hoeveel glazen cola? 0
+    Je krijgt 450 mg cafeïne binnen.
+
 ## Code
 
 In deze opdracht bestaat je code uit een zelfgeschreven functie en een hoofdprogramma.
@@ -57,35 +89,3 @@ In het boek heb je kennis gemaakt met "voorbeeld-aanroepen". Deze noemen we ook 
     ... return day2 - day1
 
 Als je exact op die manier voorbeelden (doctests) bij jouw functie schrijft, dan worden deze automatisch getest als je je oplossing instuurt op deze website. Daarmee weten we of jouw oplossing consistent is met je zelfbedachte tests. Dat zijn overigens niet de enige tests die we doen! Want er worden ook nog tests gedaan om te controleren of jouw uitwerking ook klopt met de *opdracht*.
-
-## Voorbeelden
-
-Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
-
-    $ python cafeine.py
-    Hoeveel koppen koffie? 2
-    Hoeveel koppen thee? 1
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 0
-    Je krijgt 225 mg cafeïne binnen.
-
-    $ python cafeine.py
-    Hoeveel koppen koffie? 2
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 2
-    Hoeveel glazen cola? 0
-    Je krijgt 340 mg cafeïne binnen.
-
-    $ python cafeine.py
-    Hoeveel koppen koffie? 0
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 1
-    Je krijgt 40 mg cafeïne binnen.
-
-    $ python cafeine.py
-    Hoeveel koppen koffie? 5
-    Hoeveel koppen thee? 0
-    Hoeveel energiedrankjes? 0
-    Hoeveel glazen cola? 0
-    Je krijgt 450 mg cafeïne binnen.

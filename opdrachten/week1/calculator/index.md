@@ -12,6 +12,26 @@ Schrijf, in een bestand genaamd `calculator.py`, een programma dat de gebruiker 
 * Het antwoord moet als float geprint worden.
 * Je programma moet ook kunnen omgaan met negatieve getallen.
 
+## Voorbeelden
+
+Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+
+    $ python calculator.py
+    1 + 1
+    2.0
+
+    $ python calculator.py
+    100 - 9
+    91.0
+
+    $ python calculator.py
+    4 * -6
+    -24.0
+
+    $ python calculator.py
+    3 / 8
+    0.375
+
 ## Code
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
@@ -30,24 +50,4 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 * Je kunt de `split`-methode gebruiken net als in de opdracht Etenstijd. Experimenteer even met `split` in Python zodat je je idee voor een oplossing kunt ontwikkelen.
 
-* Je mag aannemen dat de gebruiker `z` niet het getal 0 maakt als de operatie `/` is gekozen (dat zou een probleem zijn, want delen door nul mag niet).
-
-## Voorbeelden
-
-Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
-
-    $ python calculator.py
-    1 + 1
-    2.0
-
-    $ python calculator.py
-    100 - 9
-    91.0
-
-    $ python calculator.py
-    4 * 6
-    24.0
-
-    $ python calculator.py
-    3 / 8
-    0.375
+* Je mag aannemen dat de gebruiker geen 0 invult voor `z` als de operatie `/` is gekozen (dat zou een probleem zijn, want delen door nul mag niet). Je hoeft hier dus geen controle voor in te bouwen.

@@ -11,34 +11,6 @@ Schrijf, in een bestand genaamd `etenstijd.py`, een programma dat de gebruiker v
 * Je mag ervan uitgaan dat alle input die de gebruiker geeft van de vorm `X:XX` of `XX:XX` is en dat tijdstippen in een 24-uurs tijdsformaat worden ingevuld.
 * De tijden zijn *inclusief*, dus elk tijdstip vanaf 7:00 *tot en met* 8:00 is ontbijt.
 
-## Code
-
-In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
-
-    def meal(time: str) -> str:
-        """
-        Converteert een tijd-string naar een maaltijd.
-        De maaltijd kan zijn "ontbijt", "lunch", "avondeten" of "".
-        """
-
-    if __name__ == '__main__':
-        <Vraag hier de gebruiker om invoer, roep je functie aan en print het antwoord>
-
-## Tips
-
-*   De functie `meal()` moet een string returnen. De mogelijkheden hiervoor staan uitgespeld in de docstring. Zorg dat de functie niets anders returnt dan één van die mogelijkheden.
-
-*   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `pyprog@proglab.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
-
-        email = "pyprog@proglab.nl"
-        user, domain = email.split("@")
-
-    Daarna heb je twee losse variabelen `user` en `domain` met daarin informatie uit de originele string `email`. Probeer zelf nog even uit hoe dit werkt in Python en of je de informatie uit de `user`-variabele kunt printen!
-
-    Bedenk zelf hoe je hiermee de uren en minuten uit kunt pakken en deze verder gebruiken.
-
-*   In de `main` moet je zorgen dat er echt helemaal niets wordt geprint als het nog geen etenstijd is. Zie de voorbeelden hieronder.
-
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
@@ -59,6 +31,44 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Hoe laat is het? 22:12
 
 De laatste geeft dus geen enkele uitvoer.
+
+## Code
+
+In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
+
+    def meal(time: str) -> str | None:
+        """
+        Converteert een tijd-string naar een maaltijd.
+        De maaltijd kan zijn "ontbijt", "lunch", "avondeten".
+        """
+
+    if __name__ == '__main__':
+        <Vraag hier de gebruiker om invoer, roep je functie aan en print het antwoord>
+
+## Tips
+
+*   De functie `meal()` moet een string returnen. De mogelijkheden hiervoor staan uitgespeld in de docstring. Zorg dat de functie niets anders returnt dan één van die mogelijkheden, tenzij...
+
+*   ...in de functie `meal()` wordt bepaald wordt dat het géén tijd is voor eten. In dat geval moet de waarde `None` worden teruggegeven met `return None`.
+
+*   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `pyprog@proglab.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
+
+        email = "pyprog@proglab.nl"
+        user, domain = email.split("@")
+
+    Daarna heb je twee losse variabelen `user` en `domain` met daarin informatie uit de originele string `email`. Probeer zelf nog even uit hoe dit werkt in Python en of je de informatie uit de `user`-variabele kunt printen!
+
+    Bedenk zelf hoe je hiermee de uren en minuten uit kunt pakken en deze verder gebruiken.
+
+*   In de `main` moet je zorgen dat er echt helemaal niets wordt geprint als het nog geen etenstijd is (zie het laatste voorbeeld hierboven). Je kunt met een `if` checken of `None` wordt teruggegeven of niet.
+
+*   Heb je een Python-versie ouder dan 3.11, dan moet je de header van de functie wijzigen naar:
+
+        def meal(time: str) -> Optional[str]:
+
+    en bovenaan je programma deze `import` toevoegen:
+
+        from typing import Optional
 
 ## Extra uitdaging
 
