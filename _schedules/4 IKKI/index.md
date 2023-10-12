@@ -38,6 +38,8 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 ### Minimumeisen en aanwezigheid
 
+Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Daarnaast zijn er een aantal minimumeisen waar je aan moet voldoen om het vak te mogen halen:
+
 - Elke week substantieel huiswerk maken en inleveren. Dit betekent dat je elke week alles af hebt, of dat je tijdens de vrijdagsessie in overleg gaat met je docent om te kijken of je wat hulp nodig hebt.
 
 - Bij alle werkcolleges en laptopcolleges aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn!
