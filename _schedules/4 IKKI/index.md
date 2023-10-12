@@ -72,6 +72,8 @@ Dit is een overzicht van de deadlines per week:
 
 ## Beoordeling code review
 
+> Code review wordt nog aangepast, inclusief wijze van beoordeling. Ook "hoogste telt" gaan we waarschijnlijk niet zo doen.
+
 De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
 
 6. uitzonderlijke kwaliteit op basis van een doordacht ontwerp met scherp onderbouwde keuzes
