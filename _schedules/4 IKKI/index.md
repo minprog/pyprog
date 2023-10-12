@@ -127,7 +127,7 @@ Bij de wekelijkse huiswerkopdrachten is het niet de bedoeling om samen een oplos
 
 Toch is het zinvol om, als je vast zit, met medestudenten de opdracht door te spreken. Hoe moet je het aanpakken? Wat wordt er van je verwacht? Dat is helemaal prima. Je kunt bij de eerste opdrachten van de cursus ook samen opzetjes maken van de oplossing, zonder alles helemaal uit te spellen. Jouw taak is uitzoeken welke hulp je (nog) nodig hebt en wat je zelf al kan.
 
-Leren programmeren is behoorlijk oncomfortabel. Het kan ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en dat jij het nooit zal leren! Geef jezelf de tijd en ruimte waarin het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
+Leren programmeren is behoorlijk oncomfortabel. Het kan ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en zeker niet dat jij het nooit zal leren! Geef jezelf de tijd en ruimte waarin het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
 
 De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker loopt. Als je opdrachten inlevert die je niet geheel zelf hebt gemaakt dan wordt het daarmee voor de docenten onmogelijk om goed beeld te hebben van je voortgang. We zullen dan denken dat het goed gaat terwijl het helemaal niet zo goed gaat. Kom je dan toch in de problemen, dan moet je echt zelf contact opnemen.
 
