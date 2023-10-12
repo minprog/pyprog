@@ -55,7 +55,7 @@ na 10000 kilometer fietsen.
 ~~~python
 my_bicycle = Bicycle(200)
 my_bicycle.ride(10000)
-print("my_bicycle", my_bicycle) # my_bicycle price: 200 total_kilometers: 10000 cost_per_kilometer: 0.02
+print("my_bicycle", my_bicycle) # my_bicycle cost: 200 total_kilometers: 10000 cost_per_kilometer: 0.02
 ~~~
 
 Op dezelfde manier kunnen we met inheritance een `Car` class laten
@@ -93,8 +93,8 @@ brandstofverbruik nog goedkoper per kilometer:
 ~~~python
 my_car1.ride(10000)
 my_car2.ride(10000)
-print("my_car1", my_car1) # my_car1 price: 10000 total_kilometers: 10000 cost_per_kilometer: 1.15
-print("my_car2", my_car2) # my_car2 price: 15000 total_kilometers: 10000 cost_per_kilometer: 1.6
+print("my_car1", my_car1) # my_car1 cost: 10000 total_kilometers: 10000 cost_per_kilometer: 1.15
+print("my_car2", my_car2) # my_car2 cost: 15000 total_kilometers: 10000 cost_per_kilometer: 1.6
 ~~~
 
 Als we 90000 kilometer verder rijden zijn de kosten per kilometer gelijk: 
@@ -102,8 +102,8 @@ Als we 90000 kilometer verder rijden zijn de kosten per kilometer gelijk:
 ~~~python
 my_car1.ride(90000)
 my_car2.ride(90000)
-print("my_car1", my_car1) # my_car1 price: 10000 total_kilometers: 100000 cost_per_kilometer: 0.25
-print("my_car2", my_car2) # my_car2 price: 15000 total_kilometers: 100000 cost_per_kilometer: 0.25
+print("my_car1", my_car1) # my_car1 cost: 10000 total_kilometers: 100000 cost_per_kilometer: 0.25
+print("my_car2", my_car2) # my_car2 cost: 15000 total_kilometers: 100000 cost_per_kilometer: 0.25
 ~~~
 
 Na nog eens 100000 kilometer is de duurdere auto met lager brandstofverbruik goedkoper.
@@ -111,8 +111,8 @@ Na nog eens 100000 kilometer is de duurdere auto met lager brandstofverbruik goe
 ~~~python
 my_car1.ride(100000)
 my_car2.ride(100000)
-print("my_car1", my_car1) # my_car1 price: 10000 total_kilometers: 200000 cost_per_kilometer: 0.2
-print("my_car2", my_car2) # my_car2 price: 15000 total_kilometers: 200000 cost_per_kilometer: 0.175
+print("my_car1", my_car1) # my_car1 cost: 10000 total_kilometers: 200000 cost_per_kilometer: 0.2
+print("my_car2", my_car2) # my_car2 cost: 15000 total_kilometers: 200000 cost_per_kilometer: 0.175
 ~~~
 
 Dit voorbeeld laat zien dat inheritance code duplicatie kan helpen
