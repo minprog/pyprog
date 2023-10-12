@@ -36,38 +36,38 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 4. Beoordeling tentamen (80% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren.
 
-### Minimumeisen
+### Minimumeisen en aanwezigheid
 
-Om in aanmerking te komen voor een eindbeoordeling moet je:
+- Elke week substantieel huiswerk maken en inleveren. Dit betekent dat je elke week alles af hebt, of dat je tijdens de vrijdagsessie in overleg gaat met je docent om te kijken of je wat hulp nodig hebt.
 
-- meedoen met het vak, dus het grootste deel van alle opdrachten volledig werkend hebben ingeleverd vóór het volgende college (dus geen grote gaten laten vallen, naar beoordeling van de docenten, denk aan 80% ingeleverd)
-- specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór het volgende werkcollege (we laten altijd tijdig weten welke dit zijn, in de eerste week is dit nog niet relevant)
-- alle code reviews op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd, eventueel in overleg met de docent
-- aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven
-- het tentamen voldoende maken
+- Bij alle werkcolleges en laptopcolleges aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn!
 
-Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
+- Drie reviewactiviteiten uitvoeren tijdens de colleges op de aangegeven momenten. Er is één inhaalmogelijkheid, alleen voor de laatste. Overleg met je docent om hier gebruik van te maken.
+
+- Het tentamen voldoende maken. Je moet een 5,5 voor het tentamen halen om een cijfer te kunnen krijgen voor het vak.
+
+Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de eerder genoemde percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
+
+### Uitzonderingen
+
+Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
+
+Voor dit vak is aanwezigheid verplicht bij alle werkcolleges en laptopcolleges in het rooster. Als je structureel je werk eerder af hebt, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg dan kun je geen punten krijgen voor de module van de betreffende week.
+
 
 ## Deadlines
 
 Dit is een overzicht van de deadlines per week:
 
-|          | deadline huiswerk | deadline verbeterde versie             |
-|----------|-------------------|----------------------------------------|
-| Module 1 | vr  3 nov  17:00  | -                                      |
-| Module 2 | vr 10 nov  17:00  | ma 25 sep  20:00 (Populatie & Sjoelen) |
-| Module 3 | vr 17 nov  17:00  | -                                      |
-| Module 4 | vr 24 nov  17:00  | di 10 okt  20:00 (Indexer)             |
-| Module 5 | vr  1 dec  17:00  | di 24 okt  20:00 (Hangman)             |
-| Module 6 | vr  8 dec  17:00  | -                                      |
-| Module 7 | vr 15 dec  17:00  | -                                      |
-
-### Uitzonderingen
-
-De bedoeling is dat je een substantieel deel van de opdrachten per week af kunt maken, maar het is niet erg als je een opdracht mist (vraag wel om advies welke handig zijn om sowieso te doen). Daarvoor is voldoende ruimte ingebouwd. Er zijn géén uitzonderingen mogelijk op de deadlines voor aftekenen van oefeningen of de oplossingen de opdrachten. Lever wel altijd in wat je hebt, ook al is het nog niet "goed"!
-
-De verbeterde versie moet altijd tijdens het werkcollege worden ingeleverd waarin jij bent ingeroosterd (maandag/dinsdag). In geval van ziekte is het mogelijk om éénmalig de deadline voor de verbeterde versie uit te stellen tot in het weekend. Je moet je dan vooraf afmelden bij je docent via een mail naar <pyprog@proglab.nl>. Andere deadlines verschuiven niet mee!
-
+|          | deadline huiswerk | deadline verbeterde versie |
+|----------|-------------------|----------------------------|
+| Module 1 | vr  3 nov  17:00  | wo 15 nov 17:00 (week 3)   |
+| Module 2 | vr 10 nov  17:00  | -                          |
+| Module 3 | vr 17 nov  17:00  | wo 29 nov 17:00 (week 5)   |
+| Module 4 | vr 24 nov  17:00  | -                          |
+| Module 5 | vr  1 dec  17:00  | wo 13 dec 17:00 (week 7)   |
+| Module 6 | vr  8 dec  17:00  | -                          |
+| Module 7 | vr 15 dec  17:00  | -                          |
 
 
 ## Beoordeling code review
@@ -88,6 +88,7 @@ Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangelever
 
 Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat je voor een code review hebt gehaald. Het cijfer bereken je door `punten / 6 * 9 + 1`.
 
+
 ## Beoordeling tentamen
 
 Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je een oefententamen tijdens het werkcollege.
@@ -97,14 +98,11 @@ Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit dez
 
 Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger.
 
+
 ## Boek
 
 Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van Paul Gries. Je kunt het aanschaffen als PDF via <https://pragprog.com/titles/gwpy3/practical-programming-third-edition/>. Je kunt het ook bestellen in de boekhandel.
 
-
-## Aanwezigheid
-
-Voor dit vak is aanwezigheid verplicht bij alle werkcolleges en laptopcolleges in het rooster. Als je structureel je werk eerder af hebt, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg dan kun je geen punten krijgen voor de module van de betreffende week.
 
 ## Ziekte en inhalen
 
