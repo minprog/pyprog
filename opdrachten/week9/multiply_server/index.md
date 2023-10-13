@@ -80,7 +80,7 @@ if __name__ == "__main__":
 Als we de twee programma's allebei starten, ieder in een eigen
 terminal, en de client wat getallen geven zien we bijvoorbeeld:
 
-<table>
+<table style="width:100%">
 <tr>
 <th>multiply_server</th>
 <th>multiply_client</th>
@@ -88,25 +88,21 @@ terminal, en de client wat getallen geven zien we bijvoorbeeld:
 <tr>
 <td>
   
-~~~console
-$ python multiply_server.py 
-Waiting for clients on port '2345' on host '127.0.0.1'.
-received: 100 sending: 200.0
+$ python multiply_server.py  <br>
+Waiting for clients on port '2345' on host '127.0.0.1'. <br>
+received: 100 sending: 200.0 <br>
 received: 1000 sending: 2000.0
-~~~
 
 </td>
 <td>
 
-~~~console
-$ python multiply_client.py 
-Connecting to port '2345' of host '127.0.0.1'.
-give a number to multiply: 100
-200.0
-give a number to multiply: 1000
-2000.0
+$ python multiply_client.py  <br>
+Connecting to port '2345' of host '127.0.0.1'. <br>
+give a number to multiply: 100 <br>
+200.0 <br>
+give a number to multiply: 1000 <br>
+2000.0 <br>
 give a number to multiply:
-~~~
 
 </td>
 </tr>
