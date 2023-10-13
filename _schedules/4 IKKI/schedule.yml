@@ -5,13 +5,21 @@ Welkom:
 Module 1:
     Lezen en oefenen:
         "Chapter 1: What's Programming?": /boek/programming
+    Opdrachten:
+        Opstarten: /opdrachten/week1/opstarten
+
+Module 2:
+    Lezen en oefenen:
         "Chapter 2: Hello, Python": /boek/hello
+
+Module 3:
+    Lezen en oefenen:
         "Chapter 3: Designing functions": /boek/functions
     Opdrachten:
         Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
         Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
 
-Module 2:
+Module 4:
     Lezen en oefenen:
         "Chapter 4: Working with text": /boek/text
         "Chapter 5: Making Choices": /boek/choices
@@ -20,7 +28,7 @@ Module 2:
         Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
         Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
 
-Module 3:
+Module 5:
     Lezen en oefenen:
         "Chapter 6: Modular Approach": /boek/modules
         "Chapter 7: Using Methods": /boek/methods
