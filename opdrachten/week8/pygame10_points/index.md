@@ -98,14 +98,17 @@ de implementatie voor methoden:
 - `is_alive()`
 
 in de `Unit` class in [Unit.py](Unit.py) zodat bijgehouden wordt welke
-aliens dood en levend zijn. Aliens die dood zijn worden aan het einde
-van de loop in de `main()` functie niet meer meegenomen naar de
-volgende tijdstap door toedoen van regel:
+aliens dood en levend zijn, maak hiervoor eventueel een nieuwe
+‘instance variabelen’/'attribute' aan. Het resultaat moet zijn dat
+aliens die dood zijn, aan het einde van de loop in de `main()`
+functie, niet meer worden meegenomen naar de volgende tijdstap door
+toedoen van regel:
 
 ~~~python
 units = [unit for unit in units if unit.is_alive()]  # only keep alive units for the next time step
 ~~~
-en verdwijnen daardoor uit het spel.
+
+Deze aliens verdwijnen dus uit het spel.
 
 ## Opdracht: Alien_Seeker dood Alien
 
@@ -114,16 +117,16 @@ het botst met een `Alien_Seeker` object.
 
 ## Opdracht: Verwijder oude aliens
 
-Schrijf de implementatie voor methode:
+Schrijf ook de implementatie voor methode:
 
 - `get_age()`
 
-in de `Unit` class in [Unit.py](Unit.py) zodat het voor elke unit
-wordt bijgehouden hoeveel seconden het al in het spel is. Baseer deze
-tijd op de tijd dat de unit in het spel werd gebracht, voeg daarvoor
-bijvoorbeeld attribute 'birth_time' toe. Maak hierbij gebruik van
-functie `time.time()` die het aantal seconden sinds de 'Epoch'
-(donderdag 1 januri 1970 0:00 uur) returned:
+in de `Unit` class zodat het voor elke unit wordt bijgehouden hoeveel
+seconden het al in het spel is. Voeg daarvoor bijvoorbeeld attribute
+'birth_time' toe wat voor elke unit bijhoudt wanneer het in het spel
+werd gebracht. Maak hierbij gebruik van functie `time.time()` die
+het aantal seconden sinds de 'Epoch' (donderdag 1 januri 1970 0:00
+uur UTC) returned:
 
 ~~~python
 import time
