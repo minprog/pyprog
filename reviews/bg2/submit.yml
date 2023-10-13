@@ -1,9 +1,10 @@
-name: bg1
+name: bg2
 form: true
 files:
     required:
         - review_indexer.py
+        - verslag.pdf
 check:
   tool: checkpy
   repo: minprog/python
-  args: review_populatie review_sjoelen
+  args: review_indexer

@@ -210,7 +210,7 @@ grades:
         deadline: 25/9/23 20:00
     bg2:
         <<: *manual
-        deadline: 2/10/23 20:00
+        deadline: 10/10/23 20:00
     bg3:
         <<: *manual
         deadline: 9/10/23 20:00

@@ -1,5 +1,7 @@
 # Calculator
 
+> **Studeertip.** Dit is de laatste opdracht van de week. Met de ervaring van de vorige opdrachten en het studeren in het boek zou je deze opdracht helemaal zelfstandig moeten kunnen oplossen. Maar het kan wel moeite kosten! Als je nog geen programmeerervaring had dan is het niet raar om meer dan een uur met de opdracht bezig te zijn, waarin je lange periodes niet vooruit komt. Mocht je vast zitten, geef jezelf dan een halfuur pauze, ga wat anders doen en kijk daarna nog eens fris naar de details van de opdracht.
+
 Het is inmiddels duidelijk dat Python wiskundige formules begrijpt en deze voor ons kan uitrekenen. Laten we deze kracht gebruiken om onze eigen gebruikers snel de uitkomst van sommen te geven die ze zelf verzinnen.
 Daarom gaan we een programma schrijven dat de gebruiker vraagt een formule te geven, waarna het programma de uitkomst berekent.
 
@@ -11,6 +13,26 @@ Schrijf, in een bestand genaamd `calculator.py`, een programma dat de gebruiker 
 * Hier zijn de `x` en `z` getallen en is de `y` één van de operaties `+, -, *, / `.
 * Het antwoord moet als float geprint worden.
 * Je programma moet ook kunnen omgaan met negatieve getallen.
+
+## Voorbeelden
+
+Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+
+    $ python calculator.py
+    1 + 1
+    2.0
+
+    $ python calculator.py
+    100 - 9
+    91.0
+
+    $ python calculator.py
+    4 * -6
+    -24.0
+
+    $ python calculator.py
+    3 / 8
+    0.375
 
 ## Code
 
@@ -30,24 +52,4 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 * Je kunt de `split`-methode gebruiken net als in de opdracht Etenstijd. Experimenteer even met `split` in Python zodat je je idee voor een oplossing kunt ontwikkelen.
 
-* Je mag aannemen dat de gebruiker `z` niet het getal 0 maakt als de operatie `/` is gekozen (dat zou een probleem zijn, want delen door nul mag niet).
-
-## Voorbeelden
-
-Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
-
-    $ python calculator.py
-    1 + 1
-    2.0
-
-    $ python calculator.py
-    100 - 9
-    91.0
-
-    $ python calculator.py
-    4 * 6
-    24.0
-
-    $ python calculator.py
-    3 / 8
-    0.375
+* Je mag aannemen dat de gebruiker geen 0 invult voor `z` als de operatie `/` is gekozen (dat zou een probleem zijn, want delen door nul mag niet). Je hoeft hier dus geen controle voor in te bouwen.
