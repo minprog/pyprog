@@ -86,7 +86,7 @@ terminal, en de client wat getallen geven zien we bijvoorbeeld:
 <th>multiply_client</th>
 </tr>
 <tr>
-<td>
+<td valign="top">
   
 $ python multiply_server.py  <br>
 Waiting for clients on port '2345' on host '127.0.0.1'. <br>
@@ -94,7 +94,7 @@ received: 100 sending: 200.0 <br>
 received: 1000 sending: 2000.0
 
 </td>
-<td>
+<td valign="top">
 
 $ python multiply_client.py  <br>
 Connecting to port '2345' of host '127.0.0.1'. <br>
@@ -129,7 +129,7 @@ daarmee verbindt:
 <th>multiply_client</th>
 </tr>
 <tr>
-<td>
+<td valign="top">
   
 $ python multiply_server.py 5 2500 <br>
 Waiting for clients on port '2500' on host '127.0.0.1'. <br>
@@ -137,7 +137,7 @@ received: 100 sending: 500.0 <br>
 received: 1000 sending: 5000.0
 
 </td>
-<td>
+<td valign="top">
 
 $ python multiply_client.py 2500 <br>
 Connecting to port '2500' of host '127.0.0.1'. <br>
