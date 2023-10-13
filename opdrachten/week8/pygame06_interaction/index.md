@@ -38,6 +38,19 @@ if other is self: # 'self' does not collide with 'self'
     return False
 ~~~
 
+Het is handig om de berekening van de afstand tussen 2 posities eerst
+in een klein test-programma te testen voor je het in het spel
+gebruikt, bv:
+
+~~~python
+import pygame
+
+pos1 = pygame.Vector2(1, 1)
+pos2 = pygame.Vector2(2, 3)
+distance = ???
+print("distance:", distance) # 2.236.....
+~~~
+
 ## Opdracht: Unit.swap_speed()
 
 Schrijf ook de `swap_speed()` methode in bestand [Unit.py](Unit.py) om
@@ -54,13 +67,14 @@ Deze methoden zouden moeten resulteren in 'stuiterende' units.
 
 ## Meer Realistisch Stuiteren
 
-Het omwisselen van de snelheid is niet de meest realitische simulatie
-van twee stuiterende cirkels. Voor een meer realitische simulatie is
-wat wiskunde nodig voor het berekenen van hoeken:
+Het omwisselen van de snelheid is niet de meest realistische simulatie
+van twee stuiterende cirkels. Voor een meer realistische simulatie is
+wat wiskunde nodig om bij een botsing de snelheid van een unit op te
+splitsen in de nieuwe snelheid voor 'self' en voor 'other':
 
 ![realistic_bounce.png](realistic_bounce.png)
 
 Deze wiskunde is niet erg moeilijk, maar omdat de focus in dit vak op
-programmeren en niet op wiskunde ligt, houden we het bij het simpelweg
-omwisselen van de snelheid. Als je het leuk vindt kun je zelf een meer
-realitische botsingsimulatie schrijven.
+programmeren en niet op wiskunde/natuurkunde ligt, houden we het bij
+het simpelweg omwisselen van de snelheid. Als je het leuk vindt kun je
+zelf een meer realistische botsingsimulatie schrijven.
