@@ -16,10 +16,14 @@ Module 3:
     Lezen en oefenen:
         "Chapter 3: Designing functions": /boek/functions
     Opdrachten:
+        Function Design Recipe: /opdrachten/week1/fdr
+
+Module 4:
+    Opdrachten:
         Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
         Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
 
-Module 4:
+Module 5:
     Lezen en oefenen:
         "Chapter 4: Working with text": /boek/text
         "Chapter 5: Making Choices": /boek/choices
@@ -28,7 +32,7 @@ Module 4:
         Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
         Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
 
-Module 5:
+Module 6:
     Lezen en oefenen:
         "Chapter 6: Modular Approach": /boek/modules
         "Chapter 7: Using Methods": /boek/methods
@@ -36,7 +40,7 @@ Module 5:
         Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
         Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str
 
-Module 4:
+Module 7:
     Lezen en oefenen:
         "Chapter 8: Storing Collections using Lists": /boek/lists
         "Chapter 9: Repeating Code using Loops": /boek/loops
@@ -45,7 +49,7 @@ Module 4:
         Cola: /opdrachten/week2/cola               # 3 func, main, if, loop
         Temperatuur: /opdrachten/week2/temperatuur # 2 func, main, if, loop, formatting
 
-Module 5:
+Module 8:
     Opdrachten:
         RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find

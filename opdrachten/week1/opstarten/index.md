@@ -1,5 +1,7 @@
 # Python opstarten
 
+> **Studeertip.** Begrijp je niet wat je moet doen? Of begrijp je een instructie uit de opdracht niet? Bespreek dit dan gerust met je medestudenten en schakel altijd een assistent of docent in als het nodig is. Dat is hoe de universiteit werkt! Stel veel vragen en maak gebruik van de kennis en ervaring van anderen om goed te kunnen leren.
+
 Zorg nu eerst dat je weet hoe je Python kunt opstarten en daarin experimenteren. Open een **Terminal** en start Python op.
 
 - Op Windows klik je op het startmenu, je begint te tikken `cmd` en dan Enter. Je krijgt de "Command Prompt" te zien, een venster met zwarte achtergrond waarin je Python zou moeten kunnen opstarten met het commando `py`. Dan word je begroet met de prompt van Python `>>>`.
