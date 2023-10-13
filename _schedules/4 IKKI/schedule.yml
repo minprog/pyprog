@@ -55,53 +55,53 @@ Module 8:
         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
         camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
 
-Module 6:
+Module 9:
     Opdrachten:
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
 
-Module 7:
+Module 10:
     Opdrachten:
         Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
 
-Module 8:
+Module 11:
     Opdrachten:
         Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
         Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
 
-Module 9:
+Module 12:
     Opdrachten:
         Comprehensions: /opdrachten/week4/comprehensions
         Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
 
-Module 10:
+Module 13:
     Lezen en oefenen:
         "Chapter 11: Collection Types": /boek/collections
     Opdrachten:
         Indexer: /opdrachten/week5/indexer
 
-Module 11:
+Module 14:
     Lezen en oefenen:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
         Algorithms: /opdrachten/week5/algorithms
 
-Module 12:
+Module 15:
     Lezen en oefenen:
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
         Queue: /objects/queue                      # basic datastructuur, encapsulation, init
         Cards: /objects/cards                      # UML, data class, container
 
-Module 13:
+Module 16:
     Opdrachten:
         Hangman: /hangman/classic                  # separation of concerns (lexicon/game)
 
-Module 14:
+Module 17:
     Opdrachten:
         Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
 
-Module 15:
+Module 18:
     Lezen en oefenen:
         # niet zo'n handig hoofdstuk, misschien beter zelf stof aanreiken hier
         "Chapter 10: Reading and Writing Files": /boek/files
