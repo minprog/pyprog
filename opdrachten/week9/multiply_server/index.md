@@ -127,7 +127,7 @@ dat aanpassen. Gebruik bijvoorbeeld dit om een server die met 5
 vermenigvuldigt te starten op poort 2500 samen met een client die
 daarmee verbindt:
 
-<table>
+<table style="width:100%">
 <tr>
 <th>multiply_server</th>
 <th>multiply_client</th>
