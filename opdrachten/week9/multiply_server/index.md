@@ -135,21 +135,21 @@ daarmee verbindt:
 <tr>
 <td>
   
-$ python multiply_server.py 5 2500
-Waiting for clients on port '2500' on host '127.0.0.1'.
-received: 100 sending: 500.0
-received: 1000 sending: 5000.0
+$ python multiply_server.py 5 2500 \ 
+Waiting for clients on port '2500' on host '127.0.0.1'. \
+received: 100 sending: 500.0 \
+received: 1000 sending: 5000.0 \
 
 </td>
 <td>
 
-$ python multiply_client.py 2500
-Connecting to port '2500' of host '127.0.0.1'.
-give a number to multiply: 100
-500.0
-give a number to multiply: 1000
-5000.0
-give a number to multiply:
+$ python multiply_client.py 2500 \
+Connecting to port '2500' of host '127.0.0.1'. \
+give a number to multiply: 100 \
+500.0 \
+give a number to multiply: 1000 \
+5000.0 \
+give a number to multiply: \
 
 </td>
 </tr>
