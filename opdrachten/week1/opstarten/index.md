@@ -14,13 +14,13 @@ Zorg nu eerst dat je weet hoe je Python kunt opstarten en daarin experimenteren.
 
 ## Experimenteren
 
-Bij elke `>>>` van Python kun je code intikken. Als je op Enter drukt wordt deze uitgevoerd. Gebruik Python om te beginnen als calculator.
+Bij elke `>>>` van Python kun je code intikken. Als je op Enter drukt wordt deze uitgevoerd. Gebruik Python om te beginnen eens als calculator:
 
     >>> 5 / 2
     2.5
     >>> 17.0 - 10.0
     7.0
 
-**Opdracht.** Probeer een paar dingen uit te rekenen. Lever een screen shot in van je terminal met uitprobeersels om te laten zien dat je met de cursus bent gestart. Om in te leveren ga je naar de Submit-tab bovenaan deze pagina.
+**Opdracht.** Probeer een paar dingen uit te rekenen met hulp van Python. Lever een screenshot in van je terminal met uitprobeersels, om te laten zien dat je met de cursus bent gestart. Om je screenshot in te leveren ga je naar de Submit-tab bovenaan deze pagina.
 
 Om Python af te sluiten geef je het commando `quit()` met ronde haakjes.
