@@ -102,37 +102,34 @@ En daarna twee clients met een gebruikersnaam als
 command-line-argument. Vervolgens kan iedere gebruiker zijn of haar
 status doorgeven:
 
-<table>
+<table style="width:100%">
 <tr>
 <th>status_client</th>
 <th>status_client</th>
 </tr>
 <tr>
-<td>
+<td valign="top">
   
-~~~console
-$ python status_client.py Jackson 
-Connecting to port '2345' of host '127.0.0.1'.
-Jackson: I'm BAD 
------------------ 0
-- Jackson: I'm BAD
+$ python status_client.py Jackson <br>
+Connecting to port '2345' of host '127.0.0.1'. <br>
+Jackson: I'm BAD <br>
+----------------- 0 <br>
+- Jackson: I'm BAD <br>
+<br>
+Jackson:
 
-Jackson: 
-~~~
 
 </td>
-<td>
+<td valign="top">
 
-~~~console
-$ python status_client.py Madonna
-Connecting to port '2345' of host '127.0.0.1'.
-Madonna: I am a material girl
------------------ 0
-- Jackson: I'm BAD
-- Madonna: I am a material girl
-
+$ python status_client.py Madonna <br>
+Connecting to port '2345' of host '127.0.0.1'. <br>
+Madonna: I am a material girl <br>
+----------------- 0 <br>
+- Jackson: I'm BAD <br>
+- Madonna: I am a material girl <br>
+ <br>
 Madonna: 
-~~~
 
 </td>
 </tr>

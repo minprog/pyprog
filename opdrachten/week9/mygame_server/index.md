@@ -184,30 +184,26 @@ En daarna twee clients met een gebruikersnaam als
 command-line-argument. Vervolgens kan iedere gebruiker in hetzelfde
 spel acties uitvoeren:
 
-<table>
+<table style="width:100%">
 <tr>
 <th>myclient_client</th>
 <th>myclient_client</th>
 </tr>
 <tr>
-<td>
+<td valign="top">
   
-~~~console
-$ python mygame_client.py Jackson 
-pygame 2.4.0 (SDL 2.26.4, Python 3.10.6)
-Hello from the pygame community.
+$ python mygame_client.py Jackson <br>
+pygame 2.4.0 (SDL 2.26.4, Python 3.10.6) <br>
+Hello from the pygame community. <br>
 Connecting to port '2345' of host '127.0.0.1'.
-~~~
 
 </td>
-<td>
+<td valign="top">
 
-~~~console
-$ python mygame_client.py Madonna
-pygame 2.4.0 (SDL 2.26.4, Python 3.10.6)
-Hello from the pygame community.
+$ python mygame_client.py Madonna <br>
+pygame 2.4.0 (SDL 2.26.4, Python 3.10.6) <br>
+Hello from the pygame community. <br>
 Connecting to port '2345' of host '127.0.0.1'.
-~~~
 
 </td>
 </tr>

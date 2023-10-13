@@ -48,16 +48,15 @@ je als antwoord bv:
 ```
 Allocated port 39785 for remote forward to 127.0.0.1:2345
 ```
+![port_forward.png](port_forward.png)
 
 Dat betekent dat nu iedereen in het netwerk kan verbinden met
 `forward-server.science.uva.nl` en port `39785` en dan wordt
 doorgestuurd (ge-forward) naar jouw computer op poort `2345` zolang de
 'ssh' verbinding in stand blijft.
 
-![port_forward.png](port_forward.png)
-
-Dat betekent dat we nu op computers in dit netwerk dus clients kunnen
-laten verbinden met jouw server op poort `2345` met:
+Dus nu kunnen we op computers in dit netwerk clients laten verbinden
+met jouw server op poort `2345` met:
 
 ```
 $ python mygame_client.py <name> 39785 forward-server.science.uva.nl
@@ -67,7 +66,6 @@ $ python mygame_client.py <name> 39785 forward-server.science.uva.nl
 
 ## SSH voor Windows
 
-Als je problemen hebt om in Windows 'ssh' te runnen, start dan eerst
-een 'PowerShell' of 'Command Prompt' door op "powershell" of "cmd" te
-zoeken in de search box in of rond het Windows 'Start Menu'.
-
+Als je problemen hebt om in Windows 'ssh' te runnen, run het commando
+dan in een 'PowerShell' of 'Command Prompt' door op "powershell" of
+"cmd" te zoeken in de search box in of rond het Windows 'Start Menu'.
