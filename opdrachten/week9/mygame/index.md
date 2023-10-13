@@ -12,18 +12,18 @@ volgende eisen voldoen:
 
 Uitleg over hoe je met zmq sockets een multi-player spel maakt, vind je in stappen hier:
 
-- [multiply_server](../multiply_server)
-- [status_server](../status_server)
-- [mygame_server](../mygame_server)
-- [port_forwarding](../port_forwarding)
+- [multiply_server](/opdrachten/week9/multiply_server)
+- [status_server](/opdrachten/week9/status_server)
+- [mygame_server](/opdrachten/week9/mygame_server)
+- [port_forwarding](/opdrachten/week9/port_forwarding)
 
 Als je inspiratie nodig hebt kun je **optioneel** kijken naar deze
 mogelijke ingrediënten voor je eigen spel:
 
-- [ingredient_bullets](../ingredient_bullets)
-- [ingredient_steering](../ingredient_steering)
-- [ingredient_center](../ingredient_center)
-- [ingredient_mouse](../ingredient_mouse)
+- [ingredient_bullets](/opdrachten/week9/ingredient_bullets)
+- [ingredient_steering](/opdrachten/week9/ingredient_steering)
+- [ingredient_center](/opdrachten/week9/ingredient_center)
+- [ingredient_mouse](/opdrachten/week9/ingredient_mouse)
 
 Als het je helpt kun je **optioneel** voor jezelf vooraf een UML class
 diagram maken. Het is niet erg als je je spel later toch anders
@@ -31,6 +31,6 @@ programmeert (of pas het diagram aan). Zo'n diagram is slechts een
 hulpmiddel om vooraf te kunnen nadenken over de structuur van je
 code en overzicht te houden.
 
-Kijk voor het inleveren van Module6 en Module7 in:
+Kijk voor het inleveren van deze module in:
 
-- [submission](../submission)
+- [submit](/opdrachten/week9/submission)
