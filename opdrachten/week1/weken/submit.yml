@@ -1,0 +1,4 @@
+name: weken
+files:
+  required:
+    - weken.py
