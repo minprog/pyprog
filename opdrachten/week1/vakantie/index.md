@@ -43,27 +43,29 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
 
     def travel_costs(km: int) -> float:
         """
-        Bepaalt de vervoerskosten op basis van de te rijden afstand naar de accomodatie.
+        Bepaalt de vervoerskosten op basis van de te rijden afstand
+        naar de accomodatie (tel `km` twee keer voor heen en terug).
         """
     
     def overnight_costs(nights: int) -> float:
         """
-        Bepaalt de overnachtingskosten op basis van het aantal nachten dat je op vakantie gaat.
+        Bepaalt de overnachtingskosten op basis van het aantal nachten
+        dat je op vakantie gaat.
         """
     
     def total_costs(km: int, nights: int) -> int:
         """
-        Bepaalt de totale kosten op basis van de afstand en het aantal nachten en rondt af naar hele euro's.
+        Bepaalt de totale kosten op basis van de afstand en het aantal
+        nachten en rondt af naar hele euro's.
         """
     
     if __name__ == '__main__':
-        <Schrijf hier code die input van de gebruiker krijgt en print hoeveel de vakantie gaat kosten>
+        <Schrijf hier code die input van de gebruiker opvraagt en print
+         hoeveel de vakantie gaat kosten>
 
 ## Tips
 
 * Je moet nu meerdere functies implementeren. Deze functies werken samen om de kosten te berekenen. Beredeneer zorgvuldig welke functie de andere functies moet aanroepen.
-
-* Houd bij `travel_costs(km)` in de gaten dat je niet alleen heen maar ook terug moet rijden, terwijl de functie de afstand voor alleen de heenreis ontvangt!
 
 * Zorg dat de uiteindelijke kosten worden afgerond, zodat je output een integer is. In de docstring staat wanneer je moet afronden. Ga dan ook geen tussenstappen afronden, want dan krijg je een verkeerd antwoord.
 
