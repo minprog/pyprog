@@ -3,20 +3,13 @@ Welkom:
     Installatie: /installatie
 
 Module 1:
-    Lezen en oefenen:
-        "Chapter 1: What's Programming?": /boek/programming
-    Opdrachten:
-        Opstarten: /opdrachten/week1/opstarten
+    "Chapter 1: What's Programming?": /boek/programming
+    Opstarten: /opdrachten/week1/opstarten
+    "Chapter 2: Hello, Python": /boek/hello
 
 Module 2:
-    Lezen en oefenen:
-        "Chapter 2: Hello, Python": /boek/hello
-
-Module 3:
-    Lezen en oefenen:
-        "Chapter 3: Designing functions": /boek/functions
-    Opdrachten:
-        Function Design Recipe: /opdrachten/week1/fdr
+    "Chapter 3: Designing functions": /boek/functions
+    Function Design Recipe: /opdrachten/week1/fdr
 
 Module 4:
     Opdrachten:
