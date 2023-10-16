@@ -17,15 +17,19 @@ Module 3:
     Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
 
 Module 4:
-    Lezen en oefenen:
-        "Chapter 4: Working with text": /boek/text
-        "Chapter 5: Making Choices": /boek/choices
-    Opdrachten:
-        Orakel: /opdrachten/week1/orakel           # 1 func, main, if
-        Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
-        Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
+    "Chapter 4: Working with text": /boek/text
+		String Functions: /opdrachten/week1/string_functions
+
+Module 5:
+    "Chapter 5: Making Choices": /boek/choices
+		Acid Test: /opdrachten/week1/acid
 
 Module 6:
+    Orakel: /opdrachten/week1/orakel           # 1 func, main, if
+    Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
+    Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
+
+Module 6a:
     Lezen en oefenen:
         "Chapter 6: Modular Approach": /boek/modules
         "Chapter 7: Using Methods": /boek/methods

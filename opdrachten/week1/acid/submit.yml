@@ -1,0 +1,8 @@
+name: acid
+files:
+  required:
+    - acid.py
+check:
+  tool: checkpy
+  repo: minprog/python
+  args: acid
