@@ -18,11 +18,11 @@ Module 3:
 
 Module 4:
     "Chapter 4: Working with text": /boek/text
-		String Functions: /opdrachten/week1/string_functions
+    String Functions: /opdrachten/week1/string_functions
 
 Module 5:
     "Chapter 5: Making Choices": /boek/choices
-		Acid Test: /opdrachten/week1/acid
+    Acid Test: /opdrachten/week1/acid
 
 Module 6:
     Orakel: /opdrachten/week1/orakel           # 1 func, main, if
