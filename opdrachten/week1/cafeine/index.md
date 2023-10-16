@@ -1,5 +1,7 @@
 # Cafeïne
 
+> **Studeertip.** Je gaat hier voor het eerst een compleet programma schrijven in plaats van alleen een losse functie. Bij het college heb je al een voorbeeld gezien van het maken van een compleet programma. Gebruik de code hieronder als template en lees alle instructies goed.
+
 Om gezond te blijven is het belangrijk om te letten op je cafeïne-inname en te zorgen dat deze niet te hoog is.
 Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillende dranken.
 
