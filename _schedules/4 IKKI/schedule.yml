@@ -3,23 +3,30 @@ Welkom:
     Installatie: /installatie
 
 Module 1:
-    "Chapter 1: What's Programming?": /boek/programming
-    Opstarten: /opdrachten/week1/opstarten
-    "Chapter 2: Hello, Python": /boek/hello
-    "Chapter 3: Designing functions": /boek/functions
-    Function Design Recipe: /opdrachten/week1/fdr
-    Weken: /opdrachten/week1/weken
-    Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
-    Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
+    Hoofdstuk 1:
+        "Chapter 1: What's Programming?": /boek/programming
+        Opstarten: /opdrachten/week1/opstarten
+    Hoofdstuk 2:
+        "Chapter 2: Hello, Python": /boek/hello
+    Hoofdstuk 3:
+        "Chapter 3: Designing functions": /boek/functions
+        Function Design Recipe: /opdrachten/week1/fdr
+        Weken: /opdrachten/week1/weken
+    Opdrachten:
+        Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
+        Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
 
 Module 2:
-    "Chapter 4: Working with text": /boek/text
-    String Functions: /opdrachten/week1/string_functions
-    "Chapter 5: Making Choices": /boek/choices
-    Acid Test: /opdrachten/week1/acid
-    Orakel: /opdrachten/week1/orakel           # 1 func, main, if
-    Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
-    Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
+    Hoofdstuk 4:
+        "Chapter 4: Working with text": /boek/text
+        String Functions: /opdrachten/week1/string_functions
+    Hoofdstuk 5:
+        "Chapter 5: Making Choices": /boek/choices
+        Acid Test: /opdrachten/week1/acid
+    Opdrachten:
+        Orakel: /opdrachten/week1/orakel           # 1 func, main, if
+        Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
+        Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
 
 Module 6a:
     Lezen en oefenen:
