@@ -21,6 +21,10 @@ Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de i
 
         """
 
-## Tip
+## Testen
 
-Je kunt testen of je functie correct is door je bestand in te leveren op deze pagina. Maar je kunt ook je functie handmatig testen door de uitkomst van voorbeelden zoals `3, 20` uit te rekenen met hulp van jouw implementatie.
+Je kunt testen of je functie correct is door je bestand in te leveren op deze pagina. Maar je kunt ook je functie handmatig testen:
+
+- Start `python -i weken.py`. Jouw programma wordt dan ingeladen en je krijgt een prompt `>>>` om commando's in te voeren.
+
+- Tik bijvoorbeeld in `weeks_elapsed(3, 20)` om te kijken of je functie het juiste antwoord geeft.
