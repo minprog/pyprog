@@ -4,29 +4,29 @@ Maak een Python-bestand aan genaamd `string_functions.py`.
 
 Voeg de volgende functies toe, vul de uitkomsten van de voorbeelden (examples) aan, en voeg een implementatie (body) toe:
 
-		def repeat(s: str, n: int) -> str:
-			""" Return s repeated n times; if n is negative, return the empty string.
+    def repeat(s: str, n: int) -> str:
+      """ Return s repeated n times; if n is negative, return the empty string.
 
-	    >>> repeat('yes', 4)
-	    'yesyesyesyes'
-	    >>> repeat('no', 0)
+      >>> repeat('yes', 4)
+      'yesyesyesyes'
+      >>> repeat('no', 0)
 
-	    >>> repeat('no', -2)
+      >>> repeat('no', -2)
 
-	    >>> repeat('yesnomaybe', 3)
+      >>> repeat('yesnomaybe', 3)
 
-	    """
+      """
 
-		def total_length(s1: str, s2: str) -> int:
-			""" Return the sum of the lengths of s1 and s2.
+    def total_length(s1: str, s2: str) -> int:
+      """ Return the sum of the lengths of s1 and s2.
 
-	    >>> total_length('yes', 'no')
-	    5
-	    >>> total_length('yes', '')
+      >>> total_length('yes', 'no')
+      5
+      >>> total_length('yes', '')
 
-	    >>> total_length('YES!!!!', 'Noooooo')
+      >>> total_length('YES!!!!', 'Noooooo')
 
-	    """
+      """
 
 ## Hint
 
