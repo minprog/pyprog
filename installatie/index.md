@@ -4,16 +4,17 @@ Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan vers
 
 ## Python
 
--   Als je **Ubuntu** gebruikt, dan heb je mogelijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Waarschijnlijk heb je dan Python 3.11. Installeer anders de best beschikbare versie via:
+-   Als je **Ubuntu** gebruikt, dan heb je mogelijk al een oude versie van Python. Check dit door in een terminal het commando `python3 -V` te geven. Waarschijnlijk heb je dan Python 3.10 of lager. Installeer daarom de nieuwste versie via de "deadsnakes" software repository:
 
-        sudo apt-get update
-        sudo apt-get install python3 python3-pip
+        sudo apt update
+        sudo add-apt-repository ppa:deadsnakes/ppa
+        sudo apt install python3.12 python3.12-distutils
 
--   Als je met **macOS** werkt, dan heb je waarschijnlijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Misschien heb je Python 3.8 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
+-   Als je met **macOS** werkt, dan heb je waarschijnlijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Misschien heb je Python 3.10 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
 
     Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
 
--   Als je met **Windows** werkt, dan heb je misschien al Python. Check dit door in de command prompt (`cmd.exe`) het commando `python -V` te geven. Misschien heb je Python 3.8 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
+-   Als je met **Windows** werkt, dan heb je misschien al Python. Check dit door in de command prompt (`cmd.exe`) het commando `python -V` te geven. Misschien heb je Python 3.10 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
 
     Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
     
@@ -29,10 +30,12 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
 
 -   Als je **Ubuntu** gebruikt, dan is Notepadqq een goede optie. Installeer deze via:
 
-        sudo apt-get update
-        sudo apt-get install notepadqq
+        sudo apt update
+        sudo apt install notepadqq
 
 -   Als je **macOS** gebruikt, dan is Textmate een goede optie. Installeer deze via de website <https://macromates.com>.
+
+    -   Als je een redelijk nieuwe Mac hebt, installeer dan ook Rosetta, zodat de tools die bij Textmate bijgeleverd zijn goed werken. Gebruik het commando `softwareupdate --install-rosetta` in de Terminal.
 
     -   Heb je je programmeer-directory geopend in Textmate? Druk dan op **ctrl-shift-O** (letter, niet cijfer) om een terminal te openen. Dan sta je direct op de juiste plek om je programma te runnen met `python3 programma.py`.
 
