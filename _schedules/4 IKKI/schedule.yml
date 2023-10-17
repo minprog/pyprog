@@ -3,29 +3,32 @@ Welkom:
     Installatie: /installatie
 
 Module 1:
-    "Chapter 1: What's Programming?": /boek/programming
-    Opstarten: /opdrachten/week1/opstarten
-    "Chapter 2: Hello, Python": /boek/hello
+    Hoofdstuk 1:
+        "Chapter 1: What's Programming?": /boek/programming
+        Opstarten: /opdrachten/week1/opstarten
+    Hoofdstuk 2:
+        "Chapter 2: Hello, Python": /boek/hello
+    Hoofdstuk 3:
+        "Chapter 3: Designing functions": /boek/functions
+        Function Design Recipe: /opdrachten/week1/fdr
+        Weken: /opdrachten/week1/weken
+    Opdrachten:
+        Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
+        Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
 
 Module 2:
-    "Chapter 3: Designing functions": /boek/functions
-    Function Design Recipe: /opdrachten/week1/fdr
-    Weken: /opdrachten/week1/weken
-
-Module 3:
-    Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
-    Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
-
-Module 4:
-    Lezen en oefenen:
+    Hoofdstuk 4:
         "Chapter 4: Working with text": /boek/text
+        String Functions: /opdrachten/week1/string_functions
+    Hoofdstuk 5:
         "Chapter 5: Making Choices": /boek/choices
+        Acid Test: /opdrachten/week1/acid
     Opdrachten:
         Orakel: /opdrachten/week1/orakel           # 1 func, main, if
         Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
         Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
 
-Module 6:
+Module 3:
     Lezen en oefenen:
         "Chapter 6: Modular Approach": /boek/modules
         "Chapter 7: Using Methods": /boek/methods
@@ -33,7 +36,7 @@ Module 6:
         Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
         Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str
 
-Module 7:
+Module 4:
     Lezen en oefenen:
         "Chapter 8: Storing Collections using Lists": /boek/lists
         "Chapter 9: Repeating Code using Loops": /boek/loops
@@ -42,59 +45,56 @@ Module 7:
         Cola: /opdrachten/week2/cola               # 3 func, main, if, loop
         Temperatuur: /opdrachten/week2/temperatuur # 2 func, main, if, loop, formatting
 
-Module 8:
+Module 5:
     Opdrachten:
         RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
         camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
 
-Module 9:
+Module 6:
     Opdrachten:
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
-
-Module 10:
-    Opdrachten:
         Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
 
-Module 11:
+Module 7:
     Opdrachten:
         Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
         Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
 
-Module 12:
+Module 8:
     Opdrachten:
         Comprehensions: /opdrachten/week4/comprehensions
         Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
 
-Module 13:
+Module 9:
     Lezen en oefenen:
         "Chapter 11: Collection Types": /boek/collections
     Opdrachten:
         Indexer: /opdrachten/week5/indexer
 
-Module 14:
+Module 10:
     Lezen en oefenen:
         "Chapter 12: Designing Algorithms": /boek/algorithms
         "Chapter 13: Search and Sorting": /boek/searching
     Opdrachten:
         Algorithms: /opdrachten/week5/algorithms
 
-Module 15:
+Module 11:
     Lezen en oefenen:
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
         Queue: /objects/queue                      # basic datastructuur, encapsulation, init
         Cards: /objects/cards                      # UML, data class, container
 
-Module 16:
+Module 12:
     Opdrachten:
         Hangman: /hangman/classic                  # separation of concerns (lexicon/game)
 
-Module 17:
+Module 13:
     Opdrachten:
         Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
 
-Module 18:
+Module 14:
     Lezen en oefenen:
         # niet zo'n handig hoofdstuk, misschien beter zelf stof aanreiken hier
         "Chapter 10: Reading and Writing Files": /boek/files

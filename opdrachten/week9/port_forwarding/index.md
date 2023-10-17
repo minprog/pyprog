@@ -53,10 +53,8 @@ Allocated port 39785 for remote forward to 127.0.0.1:2345
 Dat betekent dat nu iedereen in het netwerk kan verbinden met
 `forward-server.science.uva.nl` en port `39785` en dan wordt
 doorgestuurd (ge-forward) naar jouw computer op poort `2345` zolang de
-'ssh' verbinding in stand blijft.
-
-Dus nu kunnen we op computers in dit netwerk clients laten verbinden
-met jouw server op poort `2345` met:
+'ssh' verbinding in stand blijft. Dus nu kunnen we op computers in dit
+netwerk clients laten verbinden met jouw server op poort `2345` met:
 
 ```
 $ python mygame_client.py <name> 39785 forward-server.science.uva.nl

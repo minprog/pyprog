@@ -18,7 +18,7 @@ Voeg een `README.txt` toe met korte spel-instructie (graag beperkt tot
 een hand vol regels tekst) zodat we bij het nakijken niks over het hoofd
 zien.
 
-Zip dan deze directory met inhoud naar `module7.zip`, bv met:
+Zip dan deze directory met inhoud naar `project.zip`, bv met:
 
 ```
 $ zip -r project.zip project

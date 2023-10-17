@@ -31,4 +31,4 @@ In het boek staat welke onderdelen een functie moet hebben als je het function d
 
 ## Inleveren
 
-Inleveren kan op de Submit-tab van deze pagina. Je uitwerking wordt automatisch gecontroleerd op juiste werking. Is er iets mis? Vraag om hulp! Je kunt wel alvast door naar de volgende module, zolang je deze opdracht wel nog verbetert.
+Inleveren kan op de Submit-tab van deze pagina. Je uitwerking wordt automatisch gecontroleerd op juiste werking. Is er iets mis? Vraag om hulp! Je kunt wel alvast door naar de volgende module, zolang je deze opdracht nog maar verbetert.
