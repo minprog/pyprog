@@ -32,9 +32,9 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 2. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3. Beoordeling code review (20% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Ze worden erg streng nagekeken, maar de hoogste beoordeling telt zodat je ruimte hebt om te leren.
+3. Beoordeling code review (20% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. <!-- Ze worden erg streng nagekeken, maar de hoogste beoordeling telt zodat je ruimte hebt om te leren. TODO -->
 
-4. Beoordeling tentamen (80% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren.
+4. Beoordeling tentamen (80% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
 
 ### Minimumeisen en aanwezigheid
 
@@ -51,6 +51,8 @@ Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Da
 Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de eerder genoemde percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
 
 ### Uitzonderingen
+
+Er zijn twee soorten uitzonderingen die gegeven kunnen worden, maar allebei alleen als er vooraf goede persoonlijke afspraken worden gemaakt!
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
 
@@ -74,6 +76,12 @@ Dit is een overzicht van de deadlines per week:
 
 ## Beoordeling code review
 
+Drie keer ga je een code review doen van jouw uitwerkingen, samen met een andere student. Deze code reviews worden tijdens de colleges georganiseerd en uitgevoerd.
+
+Na de review ga je jouw uitwerking(en) verbeteren en opnieuw inleveren. Voor die uitwerkingen, samen met een verslag, krijg je dan een cijfer.
+
+<!--
+
 > Code review wordt nog aangepast, inclusief wijze van beoordeling. Ook "hoogste telt" gaan we waarschijnlijk niet zo doen.
 
 De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
@@ -92,13 +100,16 @@ Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangelever
 
 Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat je voor een code review hebt gehaald. Het cijfer bereken je door `punten / 6 * 9 + 1`.
 
+-->
 
 ## Beoordeling tentamen
 
-Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven (op de computer!). De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm doe je een oefententamen tijdens het werkcollege.
+Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus.
 
+Om te wennen aan de vorm van het tentamen doe je een oefententamen tijdens één van de werkcolleges.
 
-Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer.
+<!--
+Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer.-->
 
 Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger.
 
