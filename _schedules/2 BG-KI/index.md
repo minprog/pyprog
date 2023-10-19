@@ -69,7 +69,7 @@ Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten
 * meedenken over grote problemen met het vak
 * andere officiële zaken
 * administratie na afloop van het vak
-* mail <progbg@proglab.nl> of spreek Bas aan bij het werkcollege
+* mail <progbg@mprog.nl> of spreek Bas aan bij het werkcollege
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -99,7 +99,7 @@ De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wo
 
 ### Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:progbg@proglab.nl). Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
+Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:progbg@mprog.nl). Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
 - Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, bespreek dan tijdens het werkcollege op maandag met Bas hoe je dit het beste kunt aanpakken. In de tussentijd is het wel belangrijk om naar de stof van de komende week te kijken, en niet te blijven hangen.
 
