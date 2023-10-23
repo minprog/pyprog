@@ -35,11 +35,11 @@ Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen o
 
 1. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-2. Meedoen met oefeningen tijdens werkcolleges en insturen via de website (10% van eindcijfer).
+2. Meedoen met oefeningen tijdens werkcolleges en insturen via de website (10% van eindcijfer). Het gaat hier om een combinatie van code reviews, oefenopdrachten en toetsjes. Aangezien de aanwezigheid verplicht is zul je een groot deel van dit cijfer binnenhalen. Mocht je onverhoopt afwezig zijn dan is er geen inhaalmogelijkheid.
 
-2. Beoordeling code review (20% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. <!-- Ze worden erg streng nagekeken, maar de hoogste beoordeling telt zodat je ruimte hebt om te leren. TODO -->
+3. Beoordeling code review (20% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Op basis van de derde review krijg je een cijfer voor dit onderdeel van het vak.
 
-3. Beoordeling tentamen (70% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
+4. Beoordeling tentamen (70% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
 
 
 ## Deadlines
@@ -108,7 +108,7 @@ Er zijn drie code reviews tijdens het vak.
 - Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
 - Deze derde keer krijg je een **definitief cijfer** voor de verbeterde uitwerking en een aantal feedbackpunten die je voor de toekomst kunt gebruiken bij het programmeren.
 
-Voor de eerste twee reviews is geen inhaalmogelijkheid: de review moet op tijd worden ingeleverd zodat de groepsassistent op tijd kan nakijken. Voor de derde review wordt in de tentamenweek een inhaalmogelijkheid georganiseerd. Deze kan alleen hoge nood en in overleg gebruikt worden.
+Voor de eerste twee reviews is geen inhaalmogelijkheid: de review moet op tijd worden ingeleverd zodat de groepsassistent op tijd kan nakijken. Voor de derde review wordt in de tentamenweek een inhaalmogelijkheid georganiseerd. Deze kan alleen bij hoge nood en in overleg gebruikt worden.
 
 
 ## Beoordeling tentamen
