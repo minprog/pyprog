@@ -86,42 +86,38 @@ Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waa
 
 ## Beoordeling code review
 
-Drie keer ga je een code review doen van jouw uitwerkingen, samen met een andere student. Deze code reviews worden tijdens de colleges georganiseerd en uitgevoerd.
+Er zijn drie code reviews tijdens het vak.
 
-Na de review ga je jouw uitwerking(en) verbeteren en opnieuw inleveren. Voor die uitwerkingen, samen met een verslag, krijg je dan een cijfer.
+**Review 1**
 
-<!--
+- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
+- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
+- Voor je uitwerking, samen met het verslag, krijg je dan een indicatie voor een cijfer. Je krijgt er ook feedback bij voor de volgende review.
 
-> Code review wordt nog aangepast, inclusief wijze van beoordeling. Ook "hoogste telt" gaan we waarschijnlijk niet zo doen.
+**Review 2**
 
-De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
+- Je neemt je uitwerking van een bepaalde opdracht en je gaat deze alvast verbeteren op basis van wat je eerder geleerd hebt en je feedback van de eerste review.
+- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
+- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
+- Voor je uitwerking, samen met het verslag, krijg je dan een indicatie voor een cijfer. Je krijgt er ook feedback bij voor de volgende review.
 
-6. uitzonderlijke kwaliteit op basis van een doordacht ontwerp met scherp onderbouwde keuzes
-5. goede kwaliteit, beperkt ruimte voor verbetering en alle keuzes zijn goed onderbouwd
-4. degelijke kwaliteit, ruimte voor verbetering, meerdere keuzes zijn goed onderbouwd
-3. voldoende aandacht voor alle genoemde aspecten, veel ruimte voor verbetering, alle keuzes zijn beredeneerd
-2. enige zichtbare aandacht voor een beperkt aantal aspecten, of er zijn keuzes zonder redenatie
-1. onvoldoende zichtbare aandacht voor de genoemde aspecten, of er is geen redenatie bij de keuzes
-{: start="6" reversed=""}
+**Review 3**
 
-Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
+- Je neemt je uitwerking van een bepaalde opdracht en je gaat deze alvast verbeteren op basis van wat je eerder geleerd hebt en je feedback van de eerste review.
+- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
+- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
+- Deze derde keer krijg je een **definitief cijfer** voor de verbeterde uitwerking en een aantal feedbackpunten die je voor de toekomst kunt gebruiken bij het programmeren.
 
-Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
+Voor de eerste twee reviews is geen inhaalmogelijkheid: de review moet op tijd worden ingeleverd zodat de groepsassistent op tijd kan nakijken. Voor de derde review wordt in de tentamenweek een inhaalmogelijkheid georganiseerd. Deze kan alleen hoge nood en in overleg gebruikt worden.
 
-Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat je voor een code review hebt gehaald. Het cijfer bereken je door `punten / 6 * 9 + 1`.
-
--->
 
 ## Beoordeling tentamen
 
-Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus.
+Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm van het tentamen doe je een oefententamen tijdens de werkcolleges.
 
-Om te wennen aan de vorm van het tentamen doe je een oefententamen tijdens één van de werkcolleges.
+Om een voldoende te halen moet je minstens een aantal programmeeropgaven goed opgelost hebben. Je kunt een hoger cijfer halen door meer opgaven op te lossen en de diverse Python-constructies toe te passen die we in de cursus hebben behandeld.
 
-<!--
-Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer.-->
-
-Om het vak te kunnen halen moet je het tentamen voldoende maken, dus een 5,5 halen of hoger.
+Om het vak te kunnen halen moet je het tentamen of hertentamen voldoende maken. Als je hertentamen doet zal het cijfer daarvan het eerdere cijfer vervangen (laatste cijfer telt).
 
 
 ## Boek
