@@ -1,4 +1,4 @@
-# String functions
+# Acid test
 
 Gegeven is het volgende Python-programma:
 
