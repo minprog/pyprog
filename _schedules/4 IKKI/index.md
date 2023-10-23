@@ -69,8 +69,6 @@ Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Da
 
 - Bij alle werkcolleges en laptopcolleges aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn. Te laat zijn betekent direct dat je een uur afwezig wordt gemarkeerd.
 
-- Drie reviewactiviteiten uitvoeren tijdens de colleges op de aangegeven momenten. Er is één inhaalmogelijkheid, alleen voor de laatste. Overleg met je docent om hier gebruik van te maken.
-
 - Het tentamen voldoende maken. Je moet minimaal een 5,5 voor het tentamen halen om een eindcijfer te kunnen krijgen voor het vak.
 
 Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de eerder genoemde percentages. Verderop in deze studiewijzer vind je hoe de deelcijfers worden berekend.
