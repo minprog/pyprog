@@ -91,7 +91,7 @@ Dit is een overzicht van de deadlines per week:
 | Module 2 | vr 15 sep  17:00  | -                                      |
 | Module 3 | vr 22 sep  17:00  | ma 25 sep  20:00 (Populatie & Sjoelen) |
 | Module 4 | vr 29 sep  17:00  | di 10 okt  20:00 (Indexer)             |
-| Module 5 | vr  6 okt  17:00  | di 24 okt  20:00 (Hangman)             |
+| Module 5 | vr  6 okt  17:00  | di 24 okt  20:00 (Schuifpuzzel)        |
 | Module 6 | vr 20 okt  17:00  | -                                      |
 | Module 7 | vr 20 okt  17:00  | -                                      |
 
