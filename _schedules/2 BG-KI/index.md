@@ -135,6 +135,8 @@ Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat
 
 Hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer. Het gaat hieronder altijd om functies die een oplossing zijn voor de opgaven uit het tentamen.
 
+Deze schaal is indicatief. Kleine aanpassingen/verduidelijkingen kunnen gedaan op basis van ervaring tijdens het nakijken van de uitwerkingen.
+
 **6**  
 Diverse werkende functies met een mix van Python-constructies zoals if's, loops, functie-parameters en gebruik van strings. De functies zijn altijd voorzien van zinvolle basis-doctests en correcte types. Het geheel moet een voldoende niveau van probleemoplossing demonstreren.
 
