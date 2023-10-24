@@ -133,7 +133,23 @@ Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat
 
 ## Beoordeling tentamen
 
-Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer.
+Hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer. Het gaat hieronder altijd om functies die een oplossing zijn voor de opgaven uit het tentamen.
+
+**6**  
+Diverse werkende functies met een mix van Python-constructies zoals if's, loops, functie-parameters en gebruik van strings. De functies zijn altijd voorzien van zinvolle basis-doctests en correcte types. Het geheel moet een voldoende niveau van probleemoplossing demonstreren.
+
+**7**  
+Zoals 6, met meer correcte code en diversiteit van oplossingen en/of uitgebreidere zinvolle doctests en/of beperkt gebruik van geavanceerdere constructies zoals bij 8. Aanwezigheid van docstrings en goede basis-stijl.
+
+**8**  
+Zoals 6, met gebruik van list comprehensions, classes, dictionaries, sets, zinvolle extra functies en/of andere datatypes en constructies, zodanig dat goed begrip gedemonstreerd is. Daarbij inlezen van files. Goede docstrings en goede stijl zodat alles snel te begrijpen is.
+
+**9**  
+Zoals 8, met gebruik van meerdere geavanceerde constructies op diverse manieren. Comments en stijl zijn zeer sterk gericht op leesbaarheid door anderen. Geen herhaling van code.
+
+**10**  
+Zoals 9, met bijzonder compacte code opgedeeld in functies en effectief opgeschreven algoritmes. Het is een showcase van jouw uitstekende begrip van wat je in de cursus aangeboden hebt gekregen.
+
 
 ## Boek
 
