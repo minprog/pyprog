@@ -1,7 +1,9 @@
-name: exam_1
+name: tentamen_bg
 files:
   required:
-    - tentamen.py
+    - freq.py
+    - todo.py
+    - benb.py
 check:
   tool: checkpy
   repo: minprog/python
