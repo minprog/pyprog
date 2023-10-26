@@ -79,7 +79,7 @@ Er zijn twee soorten uitzonderingen die gegeven kunnen worden, maar allebei alle
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
 
-Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je een flink eind voorloopt, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
+Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week* voorloopt, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
 
 
 ## Beoordeling code review
