@@ -14,19 +14,19 @@ Docenten zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naa
 
 ## Wat ga je leren
 
-- **Module 1: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+- **Module 1/2: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
-- **Module 2: Herhalen en lijsten.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
+- **Module 3/4: Herhalen en lijsten.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
 
-- **Module 3: Decompositie.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+- **Module 5/6: Decompositie.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
 
-- **Module 4: Simuleren.** Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
+- **Module 7/8: Simuleren.** Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
 
-- **Module 5: Algoritmen.** Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
+- **Module 9/10: Algoritmen.** Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
 
-- **Module 6: Objecten.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+- **Module 11/12: Objecten.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
 
-- **Module 7: Data en files.** In de laatste module leer je een grotere datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
+- **Module 13/14: Data en files.** In de laatste module leer je een grotere datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
 
 
 ## Opdrachten en eindcijfer
@@ -46,15 +46,15 @@ Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen o
 
 Dit is een overzicht van de standaard-deadlines per week:
 
-|          | deadline huiswerk | deadline verbeterde versie |
-|----------|-------------------|----------------------------|
-| Module 1 | vr  3 nov  17:00  | wo 15 nov 17:00 (week 3)   |
-| Module 2 | vr 10 nov  17:00  | -                          |
-| Module 3 | vr 17 nov  17:00  | wo 29 nov 17:00 (week 5)   |
-| Module 4 | vr 24 nov  17:00  | -                          |
-| Module 5 | vr  1 dec  17:00  | wo 13 dec 17:00 (week 7)   |
-| Module 6 | vr  8 dec  17:00  | -                          |
-| Module 7 | vr 15 dec  17:00  | -                          |
+|              | deadline huiswerk | deadline verbeterde versie |
+|--------------|-------------------|----------------------------|
+| Module   1/2 | vr  3 nov  17:00  | wo 15 nov 17:00 (week 3)   |
+| Module   3/4 | vr 10 nov  17:00  | -                          |
+| Module   5/6 | vr 17 nov  17:00  | wo 29 nov 17:00 (week 5)   |
+| Module   7/8 | vr 24 nov  17:00  | -                          |
+| Module  9/10 | vr  1 dec  17:00  | wo 13 dec 17:00 (week 7)   |
+| Module 11/12 | vr  8 dec  17:00  | -                          |
+| Module 13/14 | vr 15 dec  17:00  | -                          |
 
 Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of uitvalt.
 
