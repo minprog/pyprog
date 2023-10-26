@@ -25,6 +25,14 @@ Vervolgens ga je een aantal functies zelf ontwikkelen en toevoegen aan het besta
 1. Ontwikkel met hulp van het function design recipe een functie die drie parameters heeft, alledrie cijfers tussen 0 en 100 inclusief, en het gemiddelde van deze cijfers teruggeeft.
 1. Ontwikkel met hulp van het function design recipe een functie die vier parameters heeft, allemaal cijfers tussen 0 en 100 inclusief, en het gemiddelde van de beste drie cijfers teruggeeft. Verplicht: roep als onderdeel de functie aan die je in de vorige opdracht hebt gemaakt.
 
+## Testen
+
+Je kunt testen of je functies correct zijn door je bestand in te leveren op deze pagina. Maar je kunt ook je functie handmatig testen:
+
+- Start `python -i weken.py`. Jouw programma wordt dan ingeladen en je krijgt een prompt `>>>` om commando's in te voeren.
+
+- Tik bijvoorbeeld in `pie_percent(21)` om te kijken of je functie het juiste antwoord geeft.
+
 ## Hint
 
 In het boek staat welke onderdelen een functie moet hebben als je het function design recipe moet volgen.
