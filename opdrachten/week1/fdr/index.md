@@ -29,7 +29,7 @@ Vervolgens ga je een aantal functies zelf ontwikkelen en toevoegen aan het besta
 
 Je kunt testen of je functies correct zijn door je bestand in te leveren op deze pagina. Maar je kunt ook je functie handmatig testen:
 
-- Start `python -i weken.py`. Jouw programma wordt dan ingeladen en je krijgt een prompt `>>>` om commando's in te voeren.
+- Start `python -i fdr.py`. Jouw programma wordt dan ingeladen en je krijgt een prompt `>>>` om commando's in te voeren.
 
 - Tik bijvoorbeeld in `pie_percent(21)` om te kijken of je functie het juiste antwoord geeft.
 
