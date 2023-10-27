@@ -1,15 +1,17 @@
 # Programmeren voor IK en KI
 
-## Studiewijzer<br><small>Herfst 2023 (proefversie)</small>
+## Studiewijzer<br><small>Herfst 2023</small>
 
 Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop wij programmeren!
+
+Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle colleges, alle nieuwe oefeningen en de paar nieuwe opdrachten die we hebben toegevoegd. Let op dat de eisen voor doctests en dergelijke wat strenger zijn, dus waarschijnlijk moet je je programma's nog verbeteren. We helpen je daar graag bij in de colleges!
 
 
 ## Docenten en assistenten
 
-De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Toon van Gelderen, Robin Langerak, Simon Pauw, Pieter Pierrot, Imane Tarrahi, Bas Terwijn en Frank Wildenburg. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <pyprog@proglab.nl>.
+De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Toon van Gelderen, Robin Langerak, Simon Pauw, Pieter Pierrot, Imane Tarrahi, Bas Terwijn en Frank Wildenburg. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <python@proglab.nl>.
 
-Docenten zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog twee studentassistenten om te helpen bij het maken van de opdrachten en huiswerk na te kijken en feedback te geven.
+De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog twee studentassistenten om te begeleiden bij het maken van de opdrachten. Zij kijken ook huiswerk na en geven, gevraagd en ongevraagd, feedback.
 
 
 ## Wat ga je leren
@@ -27,6 +29,8 @@ Docenten zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naa
 - **Module 11/12: Objecten.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
 
 - **Module 13/14: Data en files.** In de laatste module leer je een grotere datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
+
+Module 11/12 en 13/14 zijn omgedraaid ten opzichte van vorig jaar.
 
 
 ## Opdrachten en eindcijfer
@@ -67,7 +71,9 @@ Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Da
 
 - Elke week substantieel huiswerk maken en inleveren. Dit betekent dat je elke week zoveel mogelijk volgens de planning werkt, en dat de website je opdrachten heeft goedgekeurd. Red je het niet, dan moet je altijd in overleg met je docent om te kijken hoe je het beste verder kan.
 
-- Bij alle werkcolleges en laptopcolleges aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn. Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt.
+- Bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
+
+    - Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Als het hele OV uitvalt roosteren we hopelijk een vervangend college.
 
 - Het tentamen voldoende maken. Je moet minimaal een 5,5 voor het tentamen halen om een eindcijfer te kunnen krijgen voor het vak.
 
@@ -77,9 +83,9 @@ Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de eer
 
 Er zijn twee soorten uitzonderingen die gegeven kunnen worden, maar allebei alleen als er vooraf goede persoonlijke afspraken worden gemaakt! Uitzonderingen moeten altijd per mail bevestigd zijn.
 
-Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
+Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <python@proglab.nl>.
 
-Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week* voorloopt, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
+Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week voorloopt*, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
 
 
 ## Beoordeling code review
@@ -117,6 +123,8 @@ Om een voldoende te halen moet je minstens een aantal programmeeropgaven goed op
 
 Om het vak te kunnen halen moet je het tentamen of hertentamen voldoende maken. Als je hertentamen doet zal het cijfer daarvan het eerdere cijfer vervangen (laatste cijfer telt).
 
+(Het tentamen zal in principe op de computer zijn, maar we moeten nog een aantal dingen regelen om dit mogelijk te maken. Als dit absoluut niet lukt wordt het een papieren tentamen.)
+
 
 ## Boek
 
@@ -125,13 +133,13 @@ Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van P
 
 ## Ziekte en inhalen
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je een uitzondering nodig hebt. Over het algemeen moet je ongeveer bij blijven om het vak goed te kunnen halen. Daarom de volgende richtlijnen:
+Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:python@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je een uitzondering nodig hebt. Over het algemeen moet je ongeveer bij blijven om het vak goed te kunnen halen. Daarom de volgende richtlijnen:
 
 - Ben je één of twee dagen ziek dan is dat geen probleem en kun je vaak nog inhalen. Kom je toch niet uit met de laatste opdracht van de week, dan bespreek je tijdens de vrijdagsessie altijd de stand van zaken met je docent.
 
 - Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is om bij te komen.
 
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:pyprog@proglab.nl)!
+- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:python@proglab.nl)!
 
 
 ## Samenwerken, plagiaat en fraude

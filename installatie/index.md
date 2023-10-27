@@ -1,6 +1,16 @@
 # Installatie
 
-Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan verschillende opties om de benodigdheden te installeren. Heb je problemen met de installatie, check dan eerst bij de assistenten en je docent, en als dat niet helpt, neem dan **direct** contact op via <pyprog@proglab.nl>. Een mislukte installatie is namelijk géén reden voor een uitzondering op de deadlines!
+Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan verschillende opties om de benodigdheden te installeren.
+
+## Problemen?
+
+Heb je problemen met de installatie:
+
+- check dan bij de assistenten en je docent
+- ga naar de laptophelpdesk, dinsdag en donderdag 12:00--13:00 in B1.27A
+- als niks helpt, neem dan **direct** contact op via <mailto:python@proglab.nl>
+
+Een mislukte installatie is géén reden voor een uitzondering op de deadlines!
 
 ## Python
 

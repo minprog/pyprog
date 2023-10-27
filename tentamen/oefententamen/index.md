@@ -35,7 +35,7 @@ Bij dit tentamen gebruik je geen externe bronnen zoals websites, het boek of je 
 
 Zorg dat je alleen constructies gebruikt die expliciet zijn behandeld in de cursus. Wat je op internet hebt gevonden is niet zomaar toegestaan. In ieder geval moet je geen reguliere expressies gebruiken en de meeste `import` libraries zijn off-limits (`import string` is prima).
 
-Als je wil weten of iets mag, dan moet je dit niet vragen tijdens de les maar een mail sturen naar <pyprog@proglab.nl> voor een officieel antwoord. Anders telt het niet.
+Als je wil weten of iets mag, dan moet je dit niet vragen tijdens de les maar een mail sturen naar <python@proglab.nl> voor een officieel antwoord. Anders telt het niet.
 
 
 ## Controleren van je eigen werk
