@@ -67,7 +67,7 @@ Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Da
 
 - Elke week substantieel huiswerk maken en inleveren. Dit betekent dat je elke week zoveel mogelijk volgens de planning werkt, en dat de website je opdrachten heeft goedgekeurd. Red je het niet, dan moet je altijd in overleg met je docent om te kijken hoe je het beste verder kan.
 
-- Bij alle werkcolleges en laptopcolleges aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn. Te laat zijn betekent direct dat je een uur afwezig wordt gemarkeerd.
+- Bij alle werkcolleges en laptopcolleges aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn. Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt.
 
 - Het tentamen voldoende maken. Je moet minimaal een 5,5 voor het tentamen halen om een eindcijfer te kunnen krijgen voor het vak.
 
