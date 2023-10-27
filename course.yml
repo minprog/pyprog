@@ -1,8 +1,8 @@
 long_name: Python Programming
 short_name: PyProg
 language: nl
-links:
-    '[people] Tentamen': /tentamen
+#links:
+#    '[people] Tentamen': /tentamen
 #     '[vector-pen] Reviews': /reviews
 #     '[patch-exclamation] Tentamen': /tentamen/tentamen1
 deadlines: soft
