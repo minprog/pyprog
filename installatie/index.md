@@ -8,7 +8,7 @@ Heb je problemen met de installatie:
 
 - check dan bij de assistenten en je docent
 - ga naar de laptophelpdesk, dinsdag en donderdag 12:00--13:00 in B1.27A
-- als niks helpt, neem dan **direct** contact op via <mailto:python@proglab.nl>
+- als niks helpt, neem dan **direct** contact op via <mailto:pyprog@proglab.nl>
 
 Een mislukte installatie is géén reden voor een uitzondering op de deadlines!
 

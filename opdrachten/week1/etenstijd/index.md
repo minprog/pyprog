@@ -53,9 +53,9 @@ In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals 
 
 *   ...in de functie `meal()` wordt bepaald wordt dat het géén tijd is voor eten. In dat geval moet de waarde `None` worden teruggegeven met `return None`.
 
-*   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `python@proglab.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
+*   Je kunt meerdere waardes uit een string "uitpakken" met de methode `split()`. Heb je bijvoorbeeld een string met daarin `pyprog@proglab.nl` dan kun je deze als volgt uitpakken naar twee variabelen:
 
-        email = "python@proglab.nl"
+        email = "pyprog@proglab.nl"
         user, domain = email.split("@")
 
     Daarna heb je twee losse variabelen `user` en `domain` met daarin informatie uit de originele string `email`. Probeer zelf nog even uit hoe dit werkt in Python en of je de informatie uit de `user`-variabele kunt printen!
