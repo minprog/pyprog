@@ -333,7 +333,7 @@ mod_classes:
         knapsack: 1
 
 mod_dataverwerking:
-    show_progress: true
+    # show_progress: true
     submits:
         eca2csv: 1
         klimaat: 1
