@@ -203,8 +203,12 @@ grades:
         automatic:
             done: -(correctness_score.floor/3)
 
-    pygame: *check
-    project: *check
+    pygame:
+        <<: *check
+        deadline: 20/10/23 17:00
+    project:
+        <<: *check
+        deadline: 20/10/23 17:00
 
     bg1:
         <<: *manual
