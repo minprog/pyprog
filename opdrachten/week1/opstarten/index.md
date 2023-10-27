@@ -6,7 +6,7 @@ Zorg nu eerst dat je weet hoe je Python kunt opstarten en daarin experimenteren.
 
 - Op Windows klik je op het startmenu, je begint te tikken `cmd` en dan Enter. Je krijgt de "Command Prompt" te zien, een venster met zwarte achtergrond waarin je Python zou moeten kunnen opstarten met het commando `py`. Dan word je begroet met de prompt van Python `>>>`.
 
-    screenshot windows
+    ![Windows Command Prompt met Python](python_windows_terminal.png){: style="width: 30rem"}
 
 - Op Mac tik je Cmd+Spatie en dan zoek je naar "Terminal". Je krijgt dan een scherm met een witte achtergrond waar je opdrachten kunt geven. Je krijgt een prompt (vraag) die eindigt met `%`. Tik `python3` en Enter om Python op te starten. Dan word je begroet met de prompt van Python `>>>`.
 
