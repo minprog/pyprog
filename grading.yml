@@ -204,6 +204,7 @@ grades:
             done: -(correctness_score.floor/3)
 
     pygame: *check
+    project: *check
 
     bg1:
         <<: *manual
@@ -341,6 +342,11 @@ mod_grote_programmas:
     show_progress: true
     submits:
         pygame: 1
+
+mod_project:
+    show_progress: true
+    submits:
+        project: 1
 
 # mod_project:
 #     show_progress: true
