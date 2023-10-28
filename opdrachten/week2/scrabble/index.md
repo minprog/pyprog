@@ -16,9 +16,8 @@ Schrijf, in een bestand genaamd `scrabble.py`, een programma dat twee gebruikers
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en verdere uitleg van de aanpak die je gekozen hebt.
 
-Je wordt bij deze opdracht aangemoedigd om extra functies te introduceren die een klein deel van het probleem oplossen. Die moeten dan ook types hebben en doctests.
-
-    POINTS = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
+    POINTS = [1, 3, 3,  2, 1, 4, 2, 4, 1, 8, 5, 1,  3,
+              1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
 
     def compute_score(word: str) -> int:
         """
@@ -30,7 +29,11 @@ Je wordt bij deze opdracht aangemoedigd om extra functies te introduceren die ee
 
 ## Tips
 
-* In de code zie je boven de functies een variabele in hoofdletters staan (`POINTS`). Dit is een globale variabele. Dit is om te voorkomen dat je deze overal opnieuw hoeft te definiëren.
+* Om de score van een *woord* te berekenen moet je de score van alle *letters* in dat woord optellen.
+
+* De score van een *letter* kun je uitvogelen door te kijken welke plek in het alfabet de letter heeft (a = 0, b = 1) en dan op te zoeken wat de bijbehorende puntenwaarde is. Gebruik hiervoor (dit keer) geen `.index()` maar een loop, zodat je met loops oefent.
+
+* In de code zie je boven de functies een variabele in hoofdletters staan (`POINTS`). Dit is een globale variabele die een vast gegeven definieert. Voeg verder geen globale variabelen toe.
 
 * Om makkelijk een string van het alfabet te genereren, kan je de module `string` gebruiken. Zie de [handleiding](https://docs.python.org/3/library/string.html).
 
