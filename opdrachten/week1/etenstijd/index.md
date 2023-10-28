@@ -64,14 +64,6 @@ In deze opdracht moet je weer zelf een functie schrijven. Ontwerp je code zoals 
 
 *   In de `main` moet je zorgen dat er echt helemaal niets wordt geprint als het nog geen etenstijd is (zie het laatste voorbeeld hierboven). Je kunt met een `if` checken of `None` wordt teruggegeven of niet.
 
-*   Heb je een Python-versie ouder dan 3.11, dan moet je de header van de functie wijzigen naar:
-
-        def meal(time: str) -> Optional[str]:
-
-    en bovenaan je programma deze `import` toevoegen:
-
-        from typing import Optional
-
 ## Extra uitdaging
 
 Wil je voor een extra uitdaging gaan? Zorg dan dat de gebruiker ook tijden kan invullen van de vorm `X:XX AM`, `XX:XX AM`, `X:XX PM`, en `XX:XX PM`. Let op: dit is niet verplicht, dus het wordt niet gecontroleerd bij inzenden. Zorg wel dat alle bestaande checks blijven werken!

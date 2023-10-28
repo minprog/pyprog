@@ -1,6 +1,6 @@
 # Orakel
 
-> **Studeertip.** Heb je al ChatGPT gebruikt voor een opdracht? Dat is niet zo gek als je niet weet waar je moet beginnen. Maar: meestal leer je zo niet goed hoe het wél moet. Zorg dus dat je in deze week nog gesprek komt met je groepsdocent als je merkt dat je nu al ChatGPT hebt moeten gebruiken.
+> **Studeertip.** Heb je nu al ChatGPT gebruikt voor een opdracht? Dat is niet zo gek als je niet weet waar je moet beginnen. Maar: meestal leer je zo niet goed hoe het wél moet. Zorg dus dat je vandaag of morgen nog in gesprek komt met je groepsdocent als je merkt dat je ChatGPT hebt moeten gebruiken.
 
 "All right," said the computer, and settled into silence again. The two men fidgeted. The tension was unbearable.  
 "You’re really not going to like it," observed Deep Thought.  
