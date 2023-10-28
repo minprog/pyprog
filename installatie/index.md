@@ -34,6 +34,8 @@ Een mislukte installatie is géén reden voor een uitzondering op de deadlines!
 
 Voor beginnende programmeurs is het **niet** aan te raden om te werken met Visual Studio Code. Dat komt omdat VSCode veel automatische tools installeert om jou het leven "makkelijk" te maken. Maar als je niet begrijpt wat er gebeurt, dan helpt het niet. Ook kan het je hinderen in het leren programmeren.
 
+**Bij het tentamen is VScode niet toegestaan, maar alleen de drie onderstaande editors.**
+
 Laat je dus vooral niet verleiden door iemand die het wel even voor je instelt, en gebruik tools die je goed begrijpt, zodat je je lekker kan richten op waar het om gaat :-)
 
 Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te gebruiken. Voor elk besturingssysteem zijn er diverse opties, maar we geven er hier ééntje.
