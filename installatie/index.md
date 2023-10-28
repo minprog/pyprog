@@ -71,6 +71,6 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
 
         ![](np-save.png){: style="width: 17rem;"}
 
-    5. Sluit het Run-venster en dan kun je SHIFT+F5 intikken. Vanuit het opdrachtvenster kun je Python starten via `py jouwprogramma.py`.
+    5. Sluit het Run-venster en dan kun je SHIFT+F5 intikken. Vanuit het opdrachtvenster kun je Python starten via `py`.
 
 Maak in alle gevallen een speciale directory om aan je Python-opdrachten te werken, liefst een directory die automatisch wordt gebackupt (Dropbox, Surfdrive, Onedrive, enz.). 
