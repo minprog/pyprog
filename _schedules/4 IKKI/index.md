@@ -51,7 +51,7 @@ Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen o
 Dit is een overzicht van de standaard-deadlines per week:
 
 |              | deadline huiswerk | deadline verbeterde versie |
-|--------------|-------------------|----------------------------|
+|--------------|------------------:|----------------------------|
 | Module   1/2 | vr  3 nov  17:00  | wo 15 nov 17:00 (week 3)   |
 | Module   3/4 | vr 10 nov  17:00  | -                          |
 | Module   5/6 | vr 17 nov  17:00  | wo 29 nov 17:00 (week 5)   |
