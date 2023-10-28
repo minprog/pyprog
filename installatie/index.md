@@ -51,19 +51,23 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
 
 -   Als je **Windows** gebruikt, dan is Notepad++ een goede optie. Installeer deze via de website <https://notepad-plus-plus.org>.
 
-    Zodra je Notepad++ hebt gestart kun je een commando toevoegen om de "command line" te openen waarmee je Python kunt runnen.
+    Zodra je Notepad++ hebt gestart ga je het zo instellen dat er geen spaties maar tabs worden gebruikt:
+
+    ![](np-spaces.png){: style="width: 22rem;"}
+
+    Vervolgend kun je een commando toevoegen om de "command line" te openen waarmee je Python kunt runnen.
     
     1. Druk op F5 (of kies menu Run->Run)
     
     2. Tik het commando in: `cmd /K cd "$(CURRENT_DIRECTORY)"`
     
-        ![](np-command.png)
+        ![](np-command.png){: style="width: 17rem;"}
     
     3. Druk niet op Run maar op Save...
     
     4. Geef de naam `cmd` en kies SHIFT + F5 als shortcut om de command line te openen.
 
-        ![](np-save.png)
+        ![](np-save.png){: style="width: 17rem;"}
 
     5. Sluit het Run-venster en dan kun je SHIFT+F5 intikken. Vanuit het opdrachtvenster kun je Python starten via `py jouwprogramma.py`.
 
