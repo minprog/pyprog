@@ -53,9 +53,9 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
 
     Zodra je Notepad++ hebt gestart ga je het zo instellen dat er geen spaties maar tabs worden gebruikt:
 
-    ![](np-spaces.png){: style="width: 22rem;"}
+    ![](np-spaces.png){: style="width: 25rem;"}
 
-    Vervolgend kun je een commando toevoegen om de "command line" te openen waarmee je Python kunt runnen.
+    Vervolgens kun je een commando toevoegen om de "command line" te openen waarmee je Python kunt runnen.
     
     1. Druk op F5 (of kies menu Run->Run)
     
