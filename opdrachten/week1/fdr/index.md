@@ -19,11 +19,11 @@ Maak een Python-bestand aan genaamd `fdr.py`. Voeg eerst de volgende functie toe
 
 Vervolgens ga je een aantal functies zelf ontwikkelen en toevoegen aan het bestand.
 
-1. Ontwikkel met hulp van het function design recipe een functie die één parameter heeft, een getal, en dat getal verdrievoudigd teruggeeft.
-1. Ontwikkel met hulp van het function design recipe een functie die twee parameters heeft, allebei getallen, en de absolute waarde van het verschil tussen die twee teruggeeft. Hint: roep de ingebouwde functie `abs` aan als onderdeel van je functie.
-1. Ontwikkel met hulp van het function design recipe een functie die één parameter heeft, een afstand in kilometers, en een vergelijkbare afstand in mijlen teruggeeft. Neem aan dat er 1,6 kilometers in een mijl zitten.
-1. Ontwikkel met hulp van het function design recipe een functie die drie parameters heeft, alledrie cijfers tussen 0 en 100 inclusief, en het gemiddelde van deze cijfers teruggeeft.
-1. Ontwikkel met hulp van het function design recipe een functie die vier parameters heeft, allemaal cijfers tussen 0 en 100 inclusief, en het gemiddelde van de beste drie cijfers teruggeeft. Verplicht: roep als onderdeel de functie aan die je in de vorige opdracht hebt gemaakt.
+1. Ontwikkel met hulp van het function design recipe een functie `triple` die één parameter heeft, een getal, en dat getal verdrievoudigd teruggeeft.
+1. Ontwikkel met hulp van het function design recipe een functie `absdiff` die twee parameters heeft, allebei getallen, en de absolute waarde van het verschil tussen die twee teruggeeft. Hint: roep de ingebouwde functie `abs` aan als onderdeel van je functie.
+1. Ontwikkel met hulp van het function design recipe een functie `kmmiles` die één parameter heeft, een afstand in kilometers, en een vergelijkbare afstand in mijlen teruggeeft. Neem aan dat er 1,6 kilometers in een mijl zitten.
+1. Ontwikkel met hulp van het function design recipe een functie `avg3` die drie parameters heeft, alledrie cijfers tussen 0 en 100 inclusief, en het gemiddelde van deze cijfers teruggeeft.
+1. Ontwikkel met hulp van het function design recipe een functie `avg3of4` die vier parameters heeft, allemaal cijfers tussen 0 en 100 inclusief, en het gemiddelde van de beste drie cijfers teruggeeft. Verplicht: roep als onderdeel de functie aan die je in de vorige opdracht hebt gemaakt.
 
 ## Testen
 
