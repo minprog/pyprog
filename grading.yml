@@ -305,6 +305,8 @@ calculation:
 mod_programmeren:
     show_progress: true
     submits:
+        fdr: 1
+        weken: 1
         cafeine: 1
         vakantie: 1
         orakel: 1
