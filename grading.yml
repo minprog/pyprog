@@ -92,17 +92,17 @@ grades:
     orakel:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/7)
         deadline: 3/10/23 17:00
     etenstijd:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/8)
         deadline: 3/10/23 17:00
     calculator:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/8)
+            done: -(correctness_score.floor/9)
         deadline: 3/10/23 17:00
 
     rechthoeken:
