@@ -23,3 +23,5 @@ Klik op de knop, en je krijgt de resultaten van de automatische controles. Hiero
 Daarna zie je dat er een check **faalt**. Dat is de check die kijkt of de juiste functies aanwezig zijn in de uitwerking. Omdat deze check faalt zijn er verder geen checks gedaan, maar die zijn er wel! Verbeter je opdracht en bekijk dan opnieuw de resultaten.
 
 ![](checks.png)
+
+**Zorg dat je alle opdrachten helemaal netjes maakt zodat ze door de website worden goedgekeurd. Anders zijn ze niet af.**
