@@ -53,7 +53,7 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
 
 -   Als je **Windows** gebruikt, dan is Notepad++ een goede optie. Installeer deze via de website <https://notepad-plus-plus.org>.
 
-    Zodra je Notepad++ hebt gestart ga je het zo instellen dat er geen spaties maar tabs worden gebruikt:
+    Zodra je Notepad++ hebt gestart ga je het zo instellen dat er geen tabs maar spaties worden gebruikt:
 
     ![](np-spaces.png){: style="width: 25rem;"}
 
