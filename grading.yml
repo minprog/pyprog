@@ -334,6 +334,7 @@ module_2:
         calculator: 1
 
 mod_programmeren:
+    show_overview: true
     submits:
         experimenteren: 1
         fdr: 1
@@ -345,6 +346,7 @@ mod_programmeren:
         calculator: 1
 
 mod_herhaling:
+    show_overview: true
     submits:
         rechthoeken: 1
         wachtwoord: 1
@@ -353,6 +355,7 @@ mod_herhaling:
         temperatuur: 1
 
 mod_decompositie:
+    show_overview: true
     submits:
         rna: 1
         leesbaarheid: 1
@@ -360,6 +363,7 @@ mod_decompositie:
         kalender: 1
 
 mod_simuleren:
+    show_overview: true
     submits:
         comprehensions: 1
         populatie: 1
@@ -367,12 +371,14 @@ mod_simuleren:
         virus: 1
 
 mod_algoritmen:
+    show_overview: true
     submits:
         algorithms: 1
         indexer: 1
         schuifpuzzel: 1
 
 mod_classes:
+    show_overview: true
     submits:
         queue: 1
         cards: 1
@@ -380,15 +386,18 @@ mod_classes:
         knapsack: 1
 
 mod_dataverwerking:
+    show_overview: true
     submits:
         eca2csv: 1
         klimaat: 1
 
 mod_grote_programmas:
+    show_overview: true
     submits:
         pygame: 1
 
 mod_project:
+    show_overview: true
     submits:
         project: 1
 
@@ -398,6 +407,7 @@ mod_project:
 #
 
 code_reviews_bg:
+    show_overview: true
     type: points
     submits:
         bg1: 1
@@ -413,25 +423,25 @@ code_reviews:
         r3: 1
 
 tentamen_bg:
-    show_progress: true
+    show_overview: true
     attempt_required: true
     submits:
         tentamen_bg: 1
 
 tentamen_inf4all:
-    show_progress: true
+    show_overview: true
     attempt_required: true
     submits:
         tentamen_inf4all: 1
 
 tentamen_ki:
-    show_progress: true
+    show_overview: true
     attempt_required: true
     submits:
         tentamen_ki: 1
 
 tentamen_ik:
-    show_progress: true
+    show_overview: true
     attempt_required: true
     submits:
         tentamen_ik: 1
