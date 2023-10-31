@@ -30,12 +30,6 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         toegestane munten is.
         """
 
-    def prompt_coin(due: int) -> int:
-        """
-        Blijft de gebruiker om nieuwe munten vragen totdat het te betalen
-        bedrag is bereikt. Output is de hoeveelheid wisselgeld.
-        """
-
     if __name__ == '__main__':
         <Hoofdprogramma>
 
