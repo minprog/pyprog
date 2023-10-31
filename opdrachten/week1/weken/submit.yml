@@ -2,3 +2,7 @@ name: weken
 files:
   required:
     - weken.py
+check:
+  tool: checkpy
+  repo: minprog/python
+  args: weken
