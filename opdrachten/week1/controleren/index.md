@@ -8,11 +8,11 @@ Na het inleveren worden alle opdrachten automatisch gecontroleerd op allerlei as
 
 Om de gedetailleerde resultaten te bekijken ga je naar de pagina Voortgang:
 
-[![](voortgang.png)](/submissions){: style="width:75px"}
+[![](voortgang.png)](/submissions){: style="width:40px"}
 
 Dan krijg je een timeline van jouw ingestuurde opdrachten en de resultaten. Hieronder bijvoorbeeld de resultaten van de opdracht `fdr`:
 
-![](fdr.png){: style="width:300px"}
+![](fdr.png){: style="width:350px"}
 
 Klik op de knop, en je krijgt de resultaten van de automatische controles. Hieronder zie je dat:
 
@@ -22,4 +22,4 @@ Klik op de knop, en je krijgt de resultaten van de automatische controles. Hiero
 
 Daarna zie je dat er een check **faalt**. Dat is de check die kijkt of de juiste functies aanwezig zijn in de uitwerking. Omdat deze check faalt zijn er verder geen checks gedaan, maar die zijn er wel! Verbeter je opdracht en bekijk dan opnieuw de resultaten.
 
-![](checks.png){: style="width:500px"}
+![](checks.png)
