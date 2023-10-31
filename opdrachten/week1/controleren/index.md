@@ -8,7 +8,7 @@ Na het inleveren worden alle opdrachten automatisch gecontroleerd op allerlei as
 
 Om de gedetailleerde resultaten te bekijken ga je naar de pagina Voortgang:
 
-[![](voortgang.png){: style="width:40px"}](/submissions)
+[![](voortgang.png){: style="width:140px"}](/submissions)
 
 Dan krijg je een timeline van jouw ingestuurde opdrachten en de resultaten. Hieronder bijvoorbeeld de resultaten van de opdracht `fdr`:
 
