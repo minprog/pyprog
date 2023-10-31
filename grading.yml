@@ -69,6 +69,8 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
+    experimenteren:
+        <<: *check
     fdr:
         <<: *automatic
         automatic:
@@ -305,6 +307,7 @@ calculation:
 mod_programmeren:
     show_progress: true
     submits:
+        experimenteren: 1
         fdr: 1
         weken: 1
         cafeine: 1
