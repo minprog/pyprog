@@ -124,22 +124,22 @@ grades:
     string_module:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/9)
         deadline: 10/11/23 17:00
     string_methods:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/9)
         deadline: 10/11/23 17:00
     rechthoeken:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/8)
+            done: -(correctness_score.floor/9)
         deadline: 10/11/23 17:00
     wachtwoord:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/8)
         deadline: 10/11/23 17:00
 
     # module 4
@@ -151,7 +151,7 @@ grades:
     scrabble:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/7)
         deadline: 10/11/23 17:00
     cola:
         <<: *automatic
@@ -161,7 +161,7 @@ grades:
     temperatuur:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/7)
         deadline: 10/11/23 17:00
 
     # module 5
