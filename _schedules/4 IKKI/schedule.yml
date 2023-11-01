@@ -36,6 +36,7 @@ Module 3:
         String Module: /opdrachten/week2/string_module
     Hoofdstuk 7:
         "Chapter 7: Using Methods": /boek/methods
+        String Methods: /opdrachten/week2/string_methods
     Opdrachten:
         Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
         Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str

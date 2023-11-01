@@ -118,31 +118,41 @@ grades:
             done: -(correctness_score.floor/9)
         deadline: 3/11/23 17:00
 
+    string_module:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+        deadline: 10/11/23 17:00
+    string_methods:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+        deadline: 10/11/23 17:00
     rechthoeken:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/8)
-        deadline: 8/9/23 17:00
+        deadline: 10/11/23 17:00
     wachtwoord:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
-        deadline: 8/9/23 17:00
+        deadline: 10/11/23 17:00
     scrabble:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-        deadline: 8/9/23 17:00
+        deadline: 10/11/23 17:00
     cola:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
-        deadline: 8/9/23 17:00
+        deadline: 10/11/23 17:00
     temperatuur:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-        deadline: 8/9/23 17:00
+        deadline: 10/11/23 17:00
 
     rna:
         <<: *automatic
@@ -332,6 +342,14 @@ module_2:
         orakel: 1
         etenstijd: 1
         calculator: 1
+
+module_3:
+    show_progress: true
+    submits:
+        string_module: 1
+        string_methods: 1
+        rechthoeken: 1
+        wachtwoord: 1
 
 mod_programmeren:
     show_overview: true
