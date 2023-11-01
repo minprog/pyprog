@@ -4,7 +4,7 @@ Maak een Python-bestand aan genaamd `list_functions.py`.
 
 Voeg de volgende functies toe, vul de uitkomsten van de voorbeelden (examples) aan, en voeg een implementatie (body) toe:
 
-    def same_first_last(L: list[object]) -> bool:
+    def same_first_last(in_list: list[object]) -> bool:
         """Precondition: len(L) >= 2
         Return True if and only if first item of the list is the same as the
         last.
@@ -17,7 +17,7 @@ Voeg de volgende functies toe, vul de uitkomsten van de voorbeelden (examples) a
         
         """
 
-    def is_longer(L1: list[object], L2: list[object]) -> bool:
+    def is_longer(in_list1: list[object], in_list2: list[object]) -> bool:
         """
         Return True if and only if the length of L1 is longer
         than the length of L2.
