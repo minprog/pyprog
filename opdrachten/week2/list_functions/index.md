@@ -34,10 +34,18 @@ Voeg de volgende functies toe, vul de uitkomsten van de voorbeelden (examples) a
 
 Gebruik alleen wat je uit het boek geleerd hebt!
 
-## Testen
+## Zelf testen
 
-Je kunt testen of je functie correct is door je bestand in te leveren op deze pagina. Maar je kunt ook je functie handmatig testen:
+Werkt je programma goed? Je kunt het insturen om te controleren. Maar je kunt een deel van de tests ook zelf runnen. Dat maakt het verbeteren van fouten misschien iets sneller.
 
-- Start `python -i string_functions.py`. Jouw programma wordt dan ingeladen en je krijgt een prompt `>>>` om commando's in te voeren.
+-   Gebruik dit commando om de doctests te controleren die je zelf geschreven hebt:
 
-- Tik bijvoorbeeld in `repeat('yes', 4)` om te kijken of je functie het juiste antwoord geeft.
+        python3 -m doctest -v programma.py
+
+    Gebruik hierin het `python` of `python3`-commando afhankelijk van wat op jouw computer de juiste versie is.
+
+-   Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+
+        mypy --strict --ignore-missing-imports programma.py
+
+Mocht het installeren niet lukken, dan kun je altijd hulp vragen. Maar hoe dan ook kun je insturen op deze website, en dan gebeurt het controleren automatisch.
