@@ -147,7 +147,7 @@ grades:
     rna:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/6)
+            done: -(correctness_score.floor/7)
         deadline: 15/9/23 17:00
     leesbaarheid:
         <<: *automatic
@@ -157,7 +157,7 @@ grades:
     camelcase:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/7)
         deadline: 15/9/23 17:00
     kalender:
         <<: *automatic
