@@ -31,8 +31,10 @@ Module 2:
         Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
 
 Module 3:
-    Lezen en oefenen:
+    Hoofdstuk 6:
         "Chapter 6: Modular Approach": /boek/modules
+        String Module: /opdrachten/week2/string_module
+    Hoofdstuk 7:
         "Chapter 7: Using Methods": /boek/methods
     Opdrachten:
         Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
