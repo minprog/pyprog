@@ -1,4 +1,4 @@
-# String module
+# String Methods
 
 In de vorige opdracht heb je string-functies geschreven zoals `isupper(...)`. In hoofdstuk 6 heb je nu gelezen dat er ook al **methods** bestaan die deze functionaliteit hebben. Die functies hoeven we dus niet meer te gebruiken, en in plaats daarvan werk je in deze opdracht met de bestaande methods die gedefinieerd zijn voor strings.
 
@@ -16,17 +16,17 @@ Maak een bestand genaamd `string_methods.py`.
 
 - Schrijf een functie `total_occurences(...)` gebaseerd op de volgende template:
 
-    def total_occurrences(s1: str, s2: str, ch: str) -> int:
-        """
-        Return the total number of times that ch occurs in s1 and s2.
+        def total_occurrences(s1: str, s2: str, ch: str) -> int:
+            """
+            Return the total number of times that ch occurs in s1 and s2.
         
-        >>> total_occurrences('color', 'yellow', 'l')
-        3
-        >>> total_occurrences('red', 'blue', 'l')
+            >>> total_occurrences('color', 'yellow', 'l')
+            3
+            >>> total_occurrences('red', 'blue', 'l')
         
-        >>> total_occurrences('green', 'purple', 'b')
+            >>> total_occurrences('green', 'purple', 'b')
         
-        """
+            """
 
 ## Zelf testen
 
