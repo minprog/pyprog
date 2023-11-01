@@ -14,18 +14,18 @@ Maak een bestand genaamd `string_methods.py`.
 
 - Schrijf een functie `where_letter(...)` die string aanneemt + een losse letter, en bepaalt op welke positie de opgegeven letter voor het *eerst* voorkomt in de string. Je mag ervan uitgaan dat de letter voorkomt in de string.
 
-- Schrijf een functie `total_occurences(...)` gebaseerd op de volgende template:
+-   Schrijf een functie `total_occurences(...)` gebaseerd op de volgende template:
 
         def total_occurrences(s1: str, s2: str, ch: str) -> int:
             """
             Return the total number of times that ch occurs in s1 and s2.
-        
+            
             >>> total_occurrences('color', 'yellow', 'l')
             3
             >>> total_occurrences('red', 'blue', 'l')
-        
+            
             >>> total_occurrences('green', 'purple', 'b')
-        
+            
             """
 
 ## Zelf testen
