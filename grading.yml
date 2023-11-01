@@ -69,6 +69,7 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
+    # module 1
     experimenteren:
         <<: *check
     fdr:
@@ -92,6 +93,7 @@ grades:
             done: -(correctness_score.floor/9)
         deadline: 3/11/23 17:00
 
+    # module 2
     string_func:
         <<: *automatic
         automatic:
@@ -118,6 +120,7 @@ grades:
             done: -(correctness_score.floor/9)
         deadline: 3/11/23 17:00
 
+    # module 3
     string_module:
         <<: *automatic
         automatic:
@@ -138,6 +141,13 @@ grades:
         automatic:
             done: -(correctness_score.floor/7)
         deadline: 10/11/23 17:00
+
+    # module 4
+    list_functions:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/6)
+        deadline: 10/11/23 17:00
     scrabble:
         <<: *automatic
         automatic:
@@ -154,92 +164,109 @@ grades:
             done: -(correctness_score.floor/6)
         deadline: 10/11/23 17:00
 
+    # module 5
     rna:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
-        deadline: 15/9/23 17:00
+        deadline: 17/11/23 17:00
     leesbaarheid:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/6)
-        deadline: 15/9/23 17:00
+        deadline: 17/11/23 17:00
     camelcase:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/7)
-        deadline: 15/9/23 17:00
-    kalender:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/11)
-        deadline: 15/9/23 17:00
+        deadline: 17/11/23 17:00
 
-    comprehensions:
-        <<: *check
-        deadline: 22/9/23 17:00
-    populatie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/4)
-        deadline: 22/9/23 17:00
-    sjoelen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-        deadline: 22/9/23 17:00
-    virus:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/16)
-        deadline: 22/9/23 17:00
-
-    algorithms:
-        <<: *check
-        deadline: 29/9/23 17:00
-    indexer:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-        deadline: 29/9/23 17:00
+    # module 6
     schuifpuzzel:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/4)
-        deadline: 29/9/23 17:00
+        deadline: 17/11/23 17:00
+    kalender:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/11)
+        deadline: 17/11/23 17:00
 
+    # module 7
+    populatie:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/4)
+        deadline: 24/11/23 17:00
+    sjoelen:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+        deadline: 24/11/23 17:00
+
+    # module 8
+    comprehensions:
+        <<: *check
+        deadline: 24/11/23 17:00
+    virus:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/16)
+        deadline: 24/11/23 17:00
+
+    # module 9
+    indexer:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+        deadline: 1/12/23 17:00
+
+    # module 10
+    algorithms:
+        <<: *check
+        deadline: 1/12/23 17:00
+
+    # module 11
     queue:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/10)
-        deadline: 6/10/23 17:00
+        deadline: 8/12/23 17:00
     cards:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/10)
-        deadline: 6/10/23 17:00
+        deadline: 8/12/23 17:00
+
+    # module 12
     hangman:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/10)
-        deadline: 6/10/23 17:00
+        deadline: 8/12/23 17:00
     hangman-less:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor)
-        deadline: 6/10/23 17:00
+        deadline: 8/12/23 17:00
+
+    # module 13
     knapsack:
         <<: *check
-        deadline: 6/10/23 17:00
+        deadline: 15/12/23 17:00
 
+    # module 14
     eca2csv:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/2)
+        deadline: 8/12/23 17:00
     klimaat:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/3)
+        deadline: 8/12/23 17:00
 
     pygame:
         <<: *check
@@ -350,6 +377,14 @@ module_3:
         string_methods: 1
         rechthoeken: 1
         wachtwoord: 1
+
+module_4:
+    show_progress: true
+    submits:
+        list_functions: 1
+        scrabble: 1
+        cola: 1
+        temperatuur: 1
 
 mod_programmeren:
     show_overview: true
