@@ -27,7 +27,7 @@ Een mislukte installatie is géén reden voor een uitzondering op de deadlines!
 -   Als je met **Windows** werkt, dan heb je misschien al Python. Check dit door in de command prompt (`cmd.exe`) het commando `python -V` te geven. Misschien heb je Python 3.10 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
 
     Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
-    
+
     **Kies "Add python to PATH" tijdens de eerste stap van de installatie.**
 
 ## Een simpele editor
@@ -45,6 +45,10 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
         sudo apt update
         sudo apt install notepadqq
 
+    Start Notepadqq en stel in dat er spaties gebruikt worden:
+
+    ![](npqq-spaces.png){: style="width:25rem;"}
+
 -   Als je **macOS** gebruikt, dan is Textmate een goede optie. Installeer deze via de website <https://macromates.com>.
 
     -   Als je een redelijk nieuwe Mac hebt, installeer dan ook Rosetta, zodat de tools die bij Textmate bijgeleverd zijn goed werken. Gebruik het commando `softwareupdate --install-rosetta` in de Terminal.
@@ -58,19 +62,19 @@ Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te 
     ![](np-spaces.png){: style="width: 25rem;"}
 
     Vervolgens kun je een commando toevoegen om de "command line" te openen waarmee je Python kunt runnen.
-    
+
     1. Druk op F5 (of kies menu Run->Run)
-    
+
     2. Tik het commando in: `cmd /K cd "$(CURRENT_DIRECTORY)"`
-    
+
         ![](np-command.png){: style="width: 17rem;"}
-    
+
     3. Druk niet op Run maar op Save...
-    
+
     4. Geef de naam `cmd` en kies SHIFT + F5 als shortcut om de command line te openen.
 
         ![](np-save.png){: style="width: 17rem;"}
 
     5. Sluit het Run-venster en dan kun je SHIFT+F5 intikken. Vanuit het opdrachtvenster kun je Python starten via `py`.
 
-Maak in alle gevallen een speciale directory om aan je Python-opdrachten te werken, liefst een directory die automatisch wordt gebackupt (Dropbox, Surfdrive, Onedrive, enz.). 
+Maak in alle gevallen een speciale directory om aan je Python-opdrachten te werken, liefst een directory die automatisch wordt gebackupt (Dropbox, Surfdrive, Onedrive, enz.).
