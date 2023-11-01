@@ -386,6 +386,13 @@ module_4:
         cola: 1
         temperatuur: 1
 
+module_5:
+    show_progress: true
+    submits:
+        rna: 1
+        leesbaarheid: 1
+        camelcase: 1
+
 mod_programmeren:
     show_overview: true
     submits:
