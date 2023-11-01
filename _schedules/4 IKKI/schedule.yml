@@ -42,8 +42,10 @@ Module 3:
         Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str
 
 Module 4:
-    Lezen en oefenen:
+    Hoofdstuk 8:
         "Chapter 8: Storing Collections using Lists": /boek/lists
+        List Functions: /opdrachten/week2/list_functions
+    Hoofdstuk 9:
         "Chapter 9: Repeating Code using Loops": /boek/loops
     Opdrachten:
         Scrabble: /opdrachten/week2/scrabble       # 1 func, main, loop, if, str
