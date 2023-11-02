@@ -65,6 +65,22 @@ Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de
 Als je het programmeren moeilijk vindt, en het kost je veel tijd, dan is er ruimte om het schema aan te passen in overleg met je docent. Zie hieronder voor de mogelijke uitzonderingen.
 
 
+## Oefeningen
+
+Dit is een overzicht van de oefeningen tijdens werkcolleges. Je moet het betreffende college bijwonen én een goed resultaat inleveren om de punten te kunnen krijgen (1/6 deel per week levert 10% van het eindcijfer op).
+
+| Week |          Datum | Activiteit           |
+|:----:|---------------:|----------------------|
+|   2  |   7/8 november | Bugfix en verbeteren |
+|   3  | 14/15 november | Code review 1        |
+|   4  | 21/22 november | Tentamen-oefening 1  |
+|   5  | 28/29 november | Code review 2        |
+|   6  |   5/6 december | Tentamen-oefening 2  |
+|   7  | 12/13 december | Code review 3        |
+
+Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
+
+
 ## Minimumeisen en aanwezigheid
 
 Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Daarnaast zijn er een aantal minimumeisen waar je aan moet voldoen om het vak te mogen halen:
