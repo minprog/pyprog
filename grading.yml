@@ -393,6 +393,12 @@ module_5:
         leesbaarheid: 1
         camelcase: 1
 
+module_6:
+    show_progress: true
+    submits:
+        schuifpuzzel: 1
+        kalender: 1
+
 mod_programmeren:
     show_overview: true
     submits:
