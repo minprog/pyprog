@@ -18,7 +18,7 @@ Maak een bestand genaamd `string_module.py`. Zet bovenin de regel `import string
 
 - Schrijf een functie `islower(...)` die een enkele letter aanneemt en bepaalt of de letter tot de kleine letters uit het Amerikaanse basis-alfabet behoort.
 
-- Schrijf een functie `isupper(...)` die een enkele letter aanneemt en bepaalt of de letter tot de kleine letters uit het Amerikaanse basis-alfabet behoort.
+- Schrijf een functie `isupper(...)` die een enkele letter aanneemt en bepaalt of de letter tot de hoofdletters uit het Amerikaanse basis-alfabet behoort.
 
 - Schrijf een functie `isdigit(...)` die een enkel teken aanneemt en bepaalt of dit teken een cijfer is.
 

@@ -24,7 +24,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def check_letter(password: str) -> bool:
         """
-        Controleer of het wachtwoord zowel een grote als een kleine letter bevat.
+        Controleer of het wachtwoord zowel een grote als een
+        kleine letter bevat.
         """
 
     def check_number(password: str) -> bool:
@@ -43,6 +44,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 ## Tips
 
 * Wees creatief bij het implementeren van de drie checks! Er zijn superveel verschillende mogelijkheden om dat voor elkaar te krijgen. Kijk naar alle mogelijke string-operaties in het boek voor inspiratie.
+
+    * Je mag nog geen "loops" gebruiken, dus misschien zal je code een beetje inefficient lijken (als je al programmeerervaring hebt). Dat is prima.
 
 ## Voorbeelden
 
