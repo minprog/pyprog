@@ -30,6 +30,7 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
     def check_input(dna: str) -> bool:
         """
         Controleert of de input een correcte DNA string is.
+        Accepteert zowel hoofd- als kleine letters.
         """
 
     def transcribe_dna_to_rna(dna_list: list[str]) -> list[str]:
@@ -41,6 +42,8 @@ We willen in deze opdracht dat je oefent met het gebruik van lijsten, dus ook al
     def convert_to_list(dna: str) -> list[str]:
         """
         Converteert de DNA-string naar een lijst met nucleotiden.
+        Accepteert zowel hoofd- als kleine letters.
+        Uitvoer is alleen hoofdletters.
         """
 
     def convert_to_string(rna: list[str]) -> str:
