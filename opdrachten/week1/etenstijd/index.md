@@ -22,6 +22,10 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Het is tijd voor ontbijt
 
     $ python etenstijd.py
+    Hoe laat is het? 08:00
+    Het is tijd voor ontbijt
+
+    $ python etenstijd.py
     Hoe laat is het? 13:00
     Het is tijd voor lunch
 
