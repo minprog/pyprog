@@ -37,7 +37,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 * De gebruiker moet herhaaldelijk nieuwe munten inwerpen. Dit is handig om te doen in een loop. We hebben een eindconditie die we in de gaten kunnen houden, dus welk soort loop is handig om te gebruiken?
 
-* Niet alle functies hoeven aangeroepen te worden in de `if __name__ == '__main__'`. De functie `check_coin` wordt alleen maar gebruikt in de andere twee functies.
+* Niet alle functies hoeven aangeroepen te worden in de `if __name__ == '__main__'`. De functie `check_coin` wordt alleen maar gebruikt in de andere functie.
 
 ## Voorbeelden
 
