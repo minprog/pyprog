@@ -289,6 +289,11 @@ grades:
     r2: *manual
     r3: *manual
 
+    toetsje:
+        is_test: true
+        subgrades:
+            gedaan: boolean
+
     oefententamen:
         <<: *automatic
         automatic:
@@ -511,3 +516,8 @@ tentamen_ik:
     attempt_required: true
     submits:
         tentamen_ik: 1
+
+oefeningen:
+    show_progress: true
+    submits:
+        toetsje: 1
