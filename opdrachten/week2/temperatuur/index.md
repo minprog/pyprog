@@ -41,6 +41,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
+*   Tel zeer zorgvuldig de spaties in onderstaande voorbeelden. Je programma wordt alleen goedgekeurd als de uitvoer *exact* is zoals hieronder.
+
 *   Voor het uitlijnen van de getallen zijn er verschillende technieken. Moderne Python-programma's maken gebruik van f-strings. Hiermee kun je expressies in een string opnemen:
 
         f"Hierbij de som van 1 en 1: {1+1}"
