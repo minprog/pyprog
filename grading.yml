@@ -405,6 +405,12 @@ module_6:
         schuifpuzzel: 1
         kalender: 1
 
+module_7:
+    show_progress: true
+    submits:
+        populatie: 1
+        sjoelen: 1
+
 mod_programmeren:
     show_overview: true
     submits:
