@@ -6,15 +6,15 @@ In de vorige opdracht heb je string-functies geschreven zoals `isupper(...)`. In
 
 Maak een bestand genaamd `string_methods.py`.
 
-- Schrijf een functie `number_of_Os(...)` die een string aanneemt en bepaalt hoeveel letters "o" voorkomen in de string. Gebruik de `count(...)`-methode.
+-   Schrijf een functie `number_of_Os(...)` die een string aanneemt en bepaalt hoeveel letters "o" voorkomen in de string. Gebruik de `count(...)`-methode.
 
-- Schrijf een functie `first_O(...)` die string aanneemt en de positie bepaalt van de *eerste* letter "o" in de string. Gebruik de `find(...)`-methode. Je mag ervan uitgaan dat de letter voorkomt in de string.
+-   Schrijf een functie `first_O(...)` die string aanneemt en de positie bepaalt van de *eerste* letter "o" in de string. Gebruik de `find(...)`-methode. Je mag ervan uitgaan dat de letter voorkomt in de string.
 
-- Schrijf een functie `number_of_letters(...)` die een string aanneemt + een losse letter, en bepaalt hoe vaak de opgegeven letter voorkomt in de string.
+-   Schrijf een functie `number_of_letters(...)` die een string aanneemt + een losse letter, en bepaalt hoe vaak de opgegeven letter voorkomt in de string.
 
-- Schrijf een functie `where_letter(...)` die string aanneemt + een losse letter, en bepaalt op welke positie de opgegeven letter voor het *eerst* voorkomt in de string. Je mag ervan uitgaan dat de letter voorkomt in de string.
+-   Schrijf een functie `where_letter(...)` die string aanneemt + een losse letter, en bepaalt op welke positie de opgegeven letter voor het *eerst* voorkomt in de string. Je mag ervan uitgaan dat de letter voorkomt in de string.
 
--   Schrijf een functie `total_occurences(...)` gebaseerd op de volgende template:
+-   Schrijf een functie `total_occurences(...)` gebaseerd op de volgende template. Vul ook de doctests verder in.
 
         def total_occurrences(s1: str, s2: str, ch: str) -> int:
             """
