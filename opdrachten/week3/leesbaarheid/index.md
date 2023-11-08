@@ -26,7 +26,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def calculate_grade(words: int, sentences: int, letters: int) -> int:
         """
-        Berekent eerst de waarden L en S gebasseerd op het aantal 
+        Berekent eerst de waarden L en S gebasseerd op het aantal
         woorden en zinnen. Returnt de grade op basis van deze gegevens.
         """
 
