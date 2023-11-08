@@ -202,7 +202,7 @@ grades:
     sjoelen:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/6)
         deadline: 24/11/23 17:00
 
     # module 8
