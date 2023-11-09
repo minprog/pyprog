@@ -50,13 +50,13 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 ## Voorbeelden
 
     $ python sjoelen.py
-    Je bent geëindigd op deze configurate: [4, 3, 3, 5]
+    Je bent geëindigd op deze configuratie: [4, 3, 3, 5]
     Dat zijn 64 punten!
 
     $ python sjoelen.py
-    Je bent geëindigd op deze configurate: [2, 4, 6, 2]
+    Je bent geëindigd op deze configuratie: [2, 4, 6, 2]
     Dat zijn 62 punten!
 
     $ python sjoelen.py
-    Je bent geëindigd op deze configurate: [6, 2, 3, 7]
+    Je bent geëindigd op deze configuratie: [6, 2, 3, 7]
     Dat zijn 57 punten!
