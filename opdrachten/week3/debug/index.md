@@ -493,36 +493,6 @@ print("All test succeed: ", test_change_total_for_n_random_dues(100000, [50, 20,
 **Opdracht8:** Voeg toe en run deze test code om meer vertrouwen te
 krijgen dat alle bugs zijn verwijderd.
 
-## Checkpy
-
-In dit vak hoef je niet zelf alle testcode te schrijven om te
-controleren of je programma bug-vrij is. Bij het inleveren wordt je
-code bij de meeste opdrachten namelijk al automatisch getest met
-`checkpy`. Je kunt deze tests ook zelf uitvoeren na installeren en
-configureren van checkpy met:
-
-~~~console
-pip install checkpy
-checkpy -download https://github.com/minprog/python
-~~~
-
-Run daarna bijvoorbeeld dit om de checkpy tests uit te voeren op het
-`etenstijd.py` programma van de eerste opdracht:
-
-~~~console
-checkpy etenstijd.py
-~~~
-
-Bij deze tests worden meestal ook de 'type checks' en doctests
-uitgevoerd, maar het is duidelijker om die van te voren zelf uit te
-voeren omdat je dan meer feedback krijgt, dit kan met:
-
-~~~console
-mypy --strict etenstijd.py
-python -m doctest etenstijd.py -v
-checkpy etenstijd.py
-~~~
-
 ## Plan van Aanpak
 
 Je wil voor jezelf een bepaalde test- en debugstrategie
