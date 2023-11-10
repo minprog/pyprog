@@ -90,8 +90,6 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 * Bovenaan het programma declareren we een type genaamd `Board`. Je ziet dat dit eigenlijk een lijst van lijsten met daarin integers is.
 
     * Tip: we gebruiken hier `list` met een kleine letter. In het boek laat men zien dat je een "list van iets" kunt declareren als `List[iets]` maar dit is inmiddels verouderd.
-    
-    * Heb je de verouderde Python 3.7 of 3.8? Gebruik dan `Board = List[List[int]]` met hoofdletters. Je moet (alleen dan!) ook `from typing import List` toevoegen.
 
 * Voor het board in dit programma zijn dit 4 lijsten van
   lengte 4. Als je het bord gaat vullen, is het dus handig om hem rij voor rij in te vullen. De lege tegel wordt gerepresenteerd door het cijfer 0.
