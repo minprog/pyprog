@@ -19,7 +19,7 @@ Schrijf, in een bestand genaamd `temperatuur.py`, een programma dat de gebruiker
 * De eindtemperatuur moet groter zijn dan de begintemperatuur (als dit niet zo is wordt een "lege tabel" uitgeprint, zie voorbeelden hieronder).
 * De stapgrootte moet een positief geheel getal zijn, anders moet opnieuw worden gevraagd.
 * Je moet de getallen (en letters) rechts uitlijnen zoals in de voorbeelden.
-* Alle temperaturen worden op gehele graden naar *boven* afgerond.
+* Alle temperaturen worden op gehele graden naar *beneden* afgerond.
 
 ## Code
 
