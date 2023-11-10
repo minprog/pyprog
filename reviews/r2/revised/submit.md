@@ -12,12 +12,4 @@ Beantwoord de volgende vragen om te laten zien dat je je programma's gestructure
 
     <textarea name="form[changes_adhoc]" rows="8" required></textarea>
 
-4.  Dit is een reflectievraag. Welke *soorten* wijzigingen heb je nou wel en niet toegepast? Zie je een patroon in wat je alsnog wilde aanpassen? Dit zegt wellicht iets over waar je volgende keer op kunt letten.
-
-    <textarea name="form[not_changed]" rows="3" required></textarea>
-
 Vergeet niet je aangepaste uitwerking op te slaan en uitgebreid te testen. Submit alles vervolgens hieronder.
-
-**Let heel goed op. Je moet minimaal 2 van de 3 onderstaande bestanden (tegelijk) inleveren. Alle bestanden die je inlevert, of het er nou 2 of 3 zijn, moeten perfect door de checks heenkomen. Controleer daarom na inzending meteen of het akkoord is.**
-
-- **Het inleveren van 3 bestanden levert niet automatisch extra punten op, het kan zelfs een beetje tegenwerken als je het nog moeilijk vindt.**
