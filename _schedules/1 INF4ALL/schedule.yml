@@ -42,6 +42,8 @@ Module 3:
         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
         camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
         Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
+    Oefening:
+        Debugging: /opdrachten/week3/debug
 
 Module 4:
     Overzicht: /modules/simuleren
