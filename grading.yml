@@ -185,7 +185,7 @@ grades:
     schuifpuzzel:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/8)
         deadline: 17/11/23 17:00
     kalender:
         <<: *automatic
