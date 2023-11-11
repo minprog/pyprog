@@ -231,12 +231,12 @@ grades:
     queue:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/10)
+            done: -correctness_score.floor
         deadline: 8/12/23 17:00
     cards:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/10)
+            done: -correctness_score.floor
         deadline: 8/12/23 17:00
 
     # module 12
