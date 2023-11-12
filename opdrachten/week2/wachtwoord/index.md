@@ -45,7 +45,11 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 * Wees creatief bij het implementeren van de drie checks! Er zijn superveel verschillende mogelijkheden om dat voor elkaar te krijgen. Kijk naar alle mogelijke string-operaties in het boek voor inspiratie.
 
-    * Je mag nog geen "loops" gebruiken, dus misschien zal je code een beetje inefficient lijken (als je al programmeerervaring hebt). Dat is prima.
+    * De simpelste strategie om te kijken of er een cijfer in het wachtwoord zit, is om te kijken of er een `0` in zit, of dat er misschien een `1` in zit, enzovoort. Dit kun je ook voor letters doen, hoewel dat erg veel code wordt.
+
+    * Je mag geen "loops" gebruiken, dus misschien zal je code een beetje inefficient lijken (als je al programmeerervaring hebt). Dat is prima.
+
+    * Besteed niet teveel tijd aan strategieën zoeken, maar als je al goed kunt programmeren is het interessant om te kijken hoe kort je het kunt krijgen binnen de beperkingen van de opdracht.
 
 ## Voorbeelden
 
