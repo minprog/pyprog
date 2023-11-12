@@ -2,6 +2,8 @@
 
 In Python bestaan "comprehensions" waarmee je met een korte expressie een nieuwe collectie aan kunt maken. Bij deze cursus houden we het bij `list`-comprehensions, maar houd wel in je achterhoofd dat er meer bestaan!
 
+Hieronder ga je vijf keer een functie maken met bijbehorende doctests. Via de doctests controleer je of elke functie goed werkt.
+
 ## Lijsten maken
 
 Een list comprehension is eigenlijk niet meer dan een `for`-loop op één regel, gecombineerd met een speciale syntax om een lijst te maken. Dit ziet er als volgt uit:
@@ -25,9 +27,13 @@ Je hoeft overigens niet per se de waarde `i` te gebruiken bij het genereren van 
 
 #### Oefening
 
-Schrijf een list-comprehension die een lijst met vier random letters uit de opties `'A', 'B', 'C', 'D'` genereert. Gebruik hiervoor `random.choice()`. Een volledig random uitkomst zou dus kunnen zijn `['A', 'C', 'A', 'A']`.
+Schrijf een functie `four_random_letters()` die met hulp van een list-comprehension een lijst met vier random letters genereert.
 
-<textarea name="form[q1]" rows="3" required></textarea>
+De random letters moeten gekozen worden uit een opgegeven parameter genaamd `from`, een string met letters zoals `"ABCD"`. Gebruik voor het random kiezen de Python-functie `random.choice()`.
+
+Een voorbeeld van een volledig random uitkomst zou zijn `['A', 'C', 'A', 'A']`.
+
+Voor de doctests zijn er drie mogelijkeheden. De eerste is om één enkele letter op te geven, zodat altijd dezelfde letter wordt gekozen. Dan weet je zeker wat de uitkomst is, ook al is het "random". De tweede optie is om meerdere letters op te geven maar wel dezelfde (bijvoorbeeld `"AAA"`). Zo weet je wederom de uitkomst. De laatste optie is om wel verschillende letters op te geven, maar niet de uitkomst te testen. In plaats daarvan test je de *lengte* van de uitkomst. Ondanks dat je functie random is kun je deze toch testen.
 
 ## Condities
 
@@ -46,9 +52,11 @@ Volledig equivalent is de uitgeschreven `for`-loop:
 
 #### Oefening
 
-Schrijf een list-comprehension die van 10 oneven getallen de waarde + 5 genereert. Dat zou dus tien getallen moeten opleveren die beginnen met `[6, 8, 10, ...]`. Let op dat je niet slechts 5 getallen genereert!
+Schrijf een functie `ten_odd_plus_five()` die met hulp van een list-comprehension een lijst getallen genereert.
 
-<textarea name="form[q2]" rows="3" required></textarea>
+De getallen moeten de eerste `n` oneven getallen zijn, afkomstig van een parameter `n`. Bij elk getal boven bovendien 5 zijn opgeteld.
+
+Als de parameter `n` is 3, dan zou de uitkomst zijn `[6, 8, 10]`.
 
 ## Van lijst naar lijst
 
@@ -63,9 +71,9 @@ Let op dat het hier gebruikelijk is om voor de variabelen zo'n combinatie van en
 
 #### Oefening
 
-Schrijf een list-comprehension die niet gebaseerd is op een lijst maar op een *string*. We geven je een wachtwoord-string `'mo4br99!'`. Geef een list-comprehension die met hulp van `isnumeric()` per teken van het wachtwoord aangeeft of het een cijfer is. Het resultaat zou beginnen met `[False, False, True, ...]`.
+Schrijf een functie `password_numeric_analysis()` die met hulp van een list-comprehension van een opgegeven *string* bepaalt of elk teken een cijfer is. De naam van de parameter is `password`. Het resultaat is een `list`.
 
-<textarea name="form[q3]" rows="3" required></textarea>
+Als we de functie testen met de string `'mo4br99!'`. Zou het resultaat beginnen met `[False, False, True, ...]`.
 
 ## Filteren
 
@@ -84,9 +92,7 @@ Let wel, je kan heel ver gaan. Zo kun je multidimensionele list comprehensions s
 
 #### Oefening
 
-Schrijf een list-comprehension die alle cijfers uit het wachtwoord `'mo4br99!'` geeft.
-
-<textarea name="form[q4]" rows="3" required></textarea>
+Schrijf een functie `numbers_list_from_password()` die met hulp van een list-comprehension en de methode `isnumeric()` uit een opgegeven *string* de cijfers geeft. De naam van de parameter is `password`. Het resultaat moet een list zijn.
 
 ## Strings genereren
 
@@ -98,3 +104,7 @@ Let op dat de basis van de comprehensions soms een string is, maar een comprehen
     'aaaa'
 
 Dit kan soms van pas komen!
+
+#### Oefening
+
+Schrijf een functie `numbers_from_password()` die met hulp van een list-comprehension en de methode `isnumeric()` uit een opgegeven string de cijfers geeft. De naam van de parameter is `password`. Het resultaat moet een string zijn, geen list!

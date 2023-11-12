@@ -1,2 +1,4 @@
 name: comprehensions
-form: true
+files:
+    required:
+        comprehensions.py
