@@ -207,7 +207,9 @@ grades:
 
     # module 8
     comprehensions:
-        <<: *check
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/9)
         deadline: 24/11/23 17:00
     virus:
         <<: *automatic
@@ -411,6 +413,12 @@ module_7:
     submits:
         populatie: 1
         sjoelen: 1
+
+module_8:
+    show_progress: true
+    submits:
+        comprehensions: 1
+        virus: 1
 
 mod_programmeren:
     show_overview: true
