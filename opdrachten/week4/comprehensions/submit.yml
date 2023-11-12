@@ -1,4 +1,4 @@
 name: comprehensions
 files:
     required:
-        comprehensions.py
+        - comprehensions.py
