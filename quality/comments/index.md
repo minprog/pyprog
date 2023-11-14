@@ -20,7 +20,7 @@ consider splitting up that line instead, or try rethinking your algorithm.
 Consistency also plays a part in formatting your comments.
 First of all, you should choose the language in which to write them.
 It doesn't have to be the same language as your variable names,
-but the comments in your programs should all be written in the same natural language.
+but the comments in your programs should all be written in the same language.
 
 You do not need to write full sentences including capitals and punctuation,
 but you should leave one space between the `#` and your comment's first character, just like this:
@@ -33,12 +33,12 @@ In other words, don't do this:
     #compute one student's average
     average = sum / QUIZZES + 0.5
 
-Or this:
+And generally don't do this:
 
     # Compute one student's average.
     average = sum / QUIZZES + 0.5
 
-And as a general rule, you should **not** place comments on the same line as actual code:
+And as a general rule, you should **never** place comments on the same line as actual code:
 
     average = sum / QUIZZES + 0.5  # compute one student's average
 
@@ -72,12 +72,12 @@ along with, perhaps, your name and that of the file.
     UvA Programmeren in Python
     Martijn Stegeman
 
-    - Zegt hallo tegen iedereen.
-    - Laat zien hoe printen werkt.
+    Programma geeft kosten van een vakantietrip op basis van
+    ingevoerde plaatsnaam en vervoersmiddel.
     """
 
-Atop each of your function should be multi-line comments
-that summarize what your function does along with doctests and other information to
+Atop each of your function should be a docstring to
+summarize what your function does along with doctests and other information to
 quickly assess its purpose.
 
     def chorus(bottles: int) -> str:

@@ -40,7 +40,7 @@ Above, you have seen several examples of variable names that are formatted consi
 
 ## Constants
 
-It might be tempting to just write the literal value in your code somewhere and not use a constant name. This is commonly called a **magic number**, because without diving deep into the code it would often be very hard to understand what that number means. That’s why we expect (almost) every magic number to be defined as a constant. Put such constants a the top of your code, so it is clear that these are unchangeable facts (for your program).
+It might be tempting to just write the literal value in your code somewhere and not use a constant name. This is commonly called a **magic number**, because without diving deep into the code it would often be very hard to understand what that number means. That's why we expect (almost) every magic number to be defined as a constant. Put such constants a the top of your code, so it is clear that these are unchangeable facts (for your program).
 
 
 ## Learn more

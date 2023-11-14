@@ -30,8 +30,6 @@ It is important to distinguish between **spaces and tabs** in this case. A tab i
 Sometimes, your editor may even insert spaces instead of the tab character as you type it.
 The reason to make a clear distinction is that each editor may interpret a tab as being a different number of spaces.
 So when you save your code with tab characters in it, it may actually look different in another editor.
-You should be aware of this, and especially avoid **mixing** tabs and spaces (why?).
-To make it easier for yourself, we recommend that you check that your editor is set to indent using **four spaces**, even if you type a tab character.
 
 ## Spaces
 
