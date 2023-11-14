@@ -214,7 +214,7 @@ grades:
     virus:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/16)
+            done: -(correctness_score.floor/17)
         deadline: 24/11/23 17:00
 
     # module 9
