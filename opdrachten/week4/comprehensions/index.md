@@ -29,7 +29,7 @@ Je hoeft overigens niet per se de waarde `i` te gebruiken bij het genereren van 
 
 Schrijf een functie `four_random_letters()` die met hulp van een list-comprehension een lijst met vier random letters genereert.
 
-De random letters moeten gekozen worden uit een opgegeven parameter genaamd `from`, een string met letters zoals `"ABCD"`. Gebruik voor het random kiezen de Python-functie `random.choice()`.
+De random letters moeten gekozen worden uit een opgegeven parameter genaamd `base`, een string met letters zoals `"ABCD"`. Gebruik voor het random kiezen de Python-functie `random.choice()`.
 
 Een voorbeeld van een volledig random uitkomst zou zijn `['A', 'C', 'A', 'A']`.
 
