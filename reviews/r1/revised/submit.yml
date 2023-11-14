@@ -2,9 +2,10 @@ name: r1
 form: true
 files:
     required:
-        - review_cafeine.py
-        - review_vakantie.py
+        - etenstijd.py
+        - vakantie.py
+        - calculator.py
 check:
   tool: checkpy
   repo: minprog/python
-  args: review_cafeine review_vakantie
+  args: etenstijd vakantie calculator
