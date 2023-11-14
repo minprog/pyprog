@@ -65,3 +65,11 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     $ python leesbaarheid.py
     Text: A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains.
     Grade 16+
+
+    $ python leesbaarheid.py
+    Text: In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
+    Grade 7
+
+    $ python leesbaarheid.py
+    Text: It was a bright cold day in April, and the clocks were striking thirteen. Winston Smith, his chin nuzzled into his breast in an effort to escape the vile wind, slipped quickly through the glass doors of Victory Mansions, though not quickly enough to prevent a swirl of gritty dust from entering along with him.
+    Grade 10
