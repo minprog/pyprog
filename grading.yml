@@ -420,86 +420,86 @@ module_8:
         comprehensions: 1
         virus: 1
 
-mod_programmeren:
-    show_overview: true
-    submits:
-        experimenteren: 1
-        fdr: 1
-        weken: 1
-        cafeine: 1
-        vakantie: 1
-        orakel: 1
-        etenstijd: 1
-        calculator: 1
-
-mod_herhaling:
-    show_overview: true
-    submits:
-        rechthoeken: 1
-        wachtwoord: 1
-        scrabble: 1
-        cola: 1
-        temperatuur: 1
-
-mod_decompositie:
-    show_overview: true
-    submits:
-        rna: 1
-        leesbaarheid: 1
-        camelcase: 1
-        kalender: 1
-
-mod_simuleren:
-    show_overview: true
-    submits:
-        comprehensions: 1
-        populatie: 1
-        sjoelen: 1
-        virus: 1
-
-mod_algoritmen:
-    show_overview: true
-    submits:
-        algorithms: 1
-        indexer: 1
-        schuifpuzzel: 1
-
-mod_classes:
-    show_overview: true
-    submits:
-        queue: 1
-        cards: 1
-        hangman-less: 1
-        knapsack: 1
-
-mod_dataverwerking:
-    show_overview: true
-    submits:
-        eca2csv: 1
-        klimaat: 1
-
-mod_grote_programmas:
-    show_overview: true
-    submits:
-        pygame: 1
-
-mod_project:
-    show_overview: true
-    submits:
-        project: 1
-
+# mod_programmeren:
+#     show_overview: true
+#     submits:
+#         experimenteren: 1
+#         fdr: 1
+#         weken: 1
+#         cafeine: 1
+#         vakantie: 1
+#         orakel: 1
+#         etenstijd: 1
+#         calculator: 1
+#
+# mod_herhaling:
+#     show_overview: true
+#     submits:
+#         rechthoeken: 1
+#         wachtwoord: 1
+#         scrabble: 1
+#         cola: 1
+#         temperatuur: 1
+#
+# mod_decompositie:
+#     show_overview: true
+#     submits:
+#         rna: 1
+#         leesbaarheid: 1
+#         camelcase: 1
+#         kalender: 1
+#
+# mod_simuleren:
+#     show_overview: true
+#     submits:
+#         comprehensions: 1
+#         populatie: 1
+#         sjoelen: 1
+#         virus: 1
+#
+# mod_algoritmen:
+#     show_overview: true
+#     submits:
+#         algorithms: 1
+#         indexer: 1
+#         schuifpuzzel: 1
+#
+# mod_classes:
+#     show_overview: true
+#     submits:
+#         queue: 1
+#         cards: 1
+#         hangman-less: 1
+#         knapsack: 1
+#
+# mod_dataverwerking:
+#     show_overview: true
+#     submits:
+#         eca2csv: 1
+#         klimaat: 1
+#
+# mod_grote_programmas:
+#     show_overview: true
+#     submits:
+#         pygame: 1
+#
+# mod_project:
+#     show_overview: true
+#     submits:
+#         project: 1
+#
 # mod_project:
 #     show_progress: true
 #     submits:
 #
 
-code_reviews_bg:
-    show_overview: true
-    type: points
-    submits:
-        bg1: 1
-        bg2: 1
-        bg3: 1
+# code_reviews_bg:
+#     show_overview: true
+#     type: points
+#     submits:
+#         bg1: 1
+#         bg2: 1
+#         bg3: 1
 
 code_reviews:
     show_progress: true
