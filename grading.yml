@@ -279,12 +279,15 @@ grades:
 
     bg1:
         <<: *manual
+        calculation: points / 6.0 * 9 + 1
         deadline: 25/9/23 20:00
     bg2:
         <<: *manual
+        calculation: points / 6.0 * 9 + 1
         deadline: 10/10/23 20:00
     bg3:
         <<: *manual
+        calculation: points / 6.0 * 9 + 1
         deadline: 9/10/23 20:00
 
     r1: *manual
