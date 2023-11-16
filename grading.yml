@@ -514,6 +514,7 @@ code_reviews:
 
 tentamen_bg:
     show_overview: true
+    minimum: 5.5
     attempt_required: true
     submits:
         tentamen_bg: 1
