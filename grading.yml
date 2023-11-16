@@ -498,7 +498,7 @@ module_8:
 
 code_reviews_bg:
     show_overview: true
-    type: points
+    type: maximum
     submits:
         bg1: 1
         bg2: 1
