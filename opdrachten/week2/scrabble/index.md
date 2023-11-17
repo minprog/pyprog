@@ -33,6 +33,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 * De score van een *letter* kun je uitvogelen door te kijken welke plek in het alfabet de letter heeft (a = 0, b = 1) en dan op te zoeken wat de bijbehorende puntenwaarde is. Gebruik hiervoor (dit keer) geen `.index()` maar een loop, zodat je met loops oefent.
 
+    * In de paragraaf "Processing Lists Using Indices" op pagina 154 van het boek staat hoe je systematisch lijsten kunt aflopen en zoeken. Het kopje "Processing Parallel Lists Using Indices" is ook heel relevant.
+
 * In de code zie je boven de functies een variabele in hoofdletters staan (`POINTS`). Dit is een globale variabele die een vast gegeven definieert. Voeg verder geen globale variabelen toe.
 
 * Om makkelijk een string van het alfabet te genereren, kan je de module `string` gebruiken. Zie de [handleiding](https://docs.python.org/3/library/string.html).
