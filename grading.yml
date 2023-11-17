@@ -197,7 +197,7 @@ grades:
     populatie:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/5)
         deadline: 24/11/23 17:00
     sjoelen:
         <<: *automatic
