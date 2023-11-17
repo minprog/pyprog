@@ -70,6 +70,7 @@ Module 6:
     Overzicht: /modules/classes
     # Tentamen-oefening: /toetsjes/week3
     Lezen en oefenen:
+        Videocollege: /objects/lecture
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
         Queue: /opdrachten/week6/queue                      # basic datastructuur, encapsulation, init

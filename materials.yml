@@ -1,0 +1,3 @@
+objects:
+    remote: https://github.com/minprog/objects.git
+    branch: 2023
