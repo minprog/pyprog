@@ -151,7 +151,7 @@ grades:
     scrabble:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/8)
         deadline: 10/11/23 17:00
     cola:
         <<: *automatic
