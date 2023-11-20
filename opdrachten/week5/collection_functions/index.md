@@ -1,4 +1,4 @@
-# List Functions
+# Collection Functions
 
 Maak een Python-bestand aan genaamd `collection_functions.py`.
 
