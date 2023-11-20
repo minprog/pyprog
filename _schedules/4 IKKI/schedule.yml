@@ -79,14 +79,14 @@ Module 9:
     Opdrachten:
         Indexer: /opdrachten/week5/indexer
 
-Module 10:
-    Lezen en oefenen:
-        "Chapter 12: Designing Algorithms": /boek/algorithms
-        "Chapter 13: Search and Sorting": /boek/searching
-    Opdrachten:
-        Algorithms: /opdrachten/week5/algorithms
+# Module 10:
+#     Lezen en oefenen:
+#         "Chapter 12: Designing Algorithms": /boek/algorithms
+#         "Chapter 13: Search and Sorting": /boek/searching
+#     Opdrachten:
+#         Algorithms: /opdrachten/week5/algorithms
 
-Module 11:
+Module 10:
     Lezen en oefenen:
         Videocollege: /objects/lecture
         "Chapter 14: Object-oriented programming": /boek/objects
@@ -94,11 +94,11 @@ Module 11:
         Queue: /opdrachten/week6/queue             # basic datastructuur, encapsulation, init
         Cards: /opdrachten/week6/cards             # UML, data class, container
 
-Module 12:
+Module 11:
     Opdrachten:
         Hangman: /opdrachten/week6/hangman         # separation of concerns (lexicon/game)
 
-Module 13:
+Module 12:
     Opdrachten:
         Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
 
