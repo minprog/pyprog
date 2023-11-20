@@ -423,6 +423,17 @@ module_8:
         comprehensions: 1
         virus: 1
 
+module_9:
+    show_progress: true
+    submits:
+        indexer: 1
+
+module_10:
+    show_progress: true
+    submits:
+        queue: 1
+        cards: 1
+
 # mod_programmeren:
 #     show_overview: true
 #     submits:
