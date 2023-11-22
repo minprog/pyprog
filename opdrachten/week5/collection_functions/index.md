@@ -8,7 +8,7 @@ Maak een Python-bestand aan genaamd `collection_functions.py`.
 
     Schrijf een functie genaamd `mating_pairs` die de twee sets aanneemt en dan een *set van pairs* teruggeeft, waarin matchende paren woestijnratten staan. Om de paren samen te stellen neem je met hulp van de methode `pop()` één mannetje en één vrouwtje en die combineer je in een *tuple*.
 
-    Het return type van de functie is `set[tuple[object, object]]`.
+    Het return type van de functie is `set[tuple[object, object]]`. We gebruiken hier `object` om aan te geven dat er diverse mogelijkheden zijn voor het soort gegevens dat in de tuple staat (zoals dus een integer of een string).
 
 3.  In een dictionary zijn de keys per definitie uniek, maar de values (waarden) niet. Schrijf een functie genaamd `count_values` die een dictionary aanneemt en het aantal unieke waarden in de dictionary uitrekent. Stel dat de input `{'red': 1, 'green': 1, 'blue': 2}` is, dan moet de output `2` zijn.
 
