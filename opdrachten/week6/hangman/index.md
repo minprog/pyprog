@@ -23,29 +23,27 @@ In case you aren't familiar with the game Hangman, the rules are as follows:
 
 2. The other player begins guessing letters. Whenever she guesses a letter contained in the hidden word, the first player reveals each instance of that letter in the word. Otherwise, the guess is wrong.
 
-3. The game ends either when all the letters in the word have been revealed or when the guesser has run out of guesses.
-
-Fundamental to the game is the fact the first player accurately represents the word she has chosen. That way, when the other players guess letters, she can reveal whether that letter is in the word.
+3. The game ends either when all the letters in the word have been revealed or when the guesser runs out of guesses.
 
 
 ## Specification
 
-Your assignment is to write a computer program which plays a game of Hangman using the game rules above. In fact, you will be provided with the main program, but all **game logic** is missing. Your task is to design and implement two classes called `Hangman` and `Lexicon`, which together provide all functionality to make the starter code work *without any changes*.
+Your assignment is to write a computer program that plays a game of Hangman using the game rules above. You are provided with the main program, but all **game logic** is missing. Your task is to design and implement two classes called `Hangman` and `Lexicon`, that together provide all functionality to make the starter code work *without any changes*.
 
-- Objects of class `Lexicon` are used to retrieve words for the game from a dictionary. The `Lexicon` class will be based on the file `dictionary.txt`, which contains the full contents of the Official Scrabble Player's Dictionary, Second Edition. This word list has over 120,000 words, which should be more than enough for our purposes.
+- Objects of class `Lexicon` are used to retrieve words for the game from a dictionary. The `Lexicon` class will be based on the contents of `dictionary.txt`. This file contains the full contents of the Official Scrabble Player's Dictionary, Second Edition. This word list has over 120,000 words! That should be more than enough for our purposes.
 
-- Objects of class `Hangman` will include all of the logic needed to play a single game. The objects keep track of the current status of the game, and are able to update the status of the game when a letter is guessed. However, a Hangman object will not directly interact with the "user" (the person playing the game via the keyboard). In other words, it may not use anything like `print` or `input` functions.
+- Objects of class `Hangman` will include all of the logic needed to play a single game. Hangman objects keep track of the current status of the game, and are able to update the status of the game when a letter is guessed. However, a Hangman object will not directly interact with the "user" (the person playing the game via the keyboard). In other words, it may not use anything like `print` or `input` functions.
 
 
 ## Getting started
 
-On Linux, WSL or Mac, download the word lexicon via:
+On Linux, WSL or Mac, download the dictionary zip via:
 
     curl -LO https://github.com/minprog/hangman/raw/2020/classic/dictionary.zip
     unzip dictionary.zip
     rm -f dictionary.zip
 
-If you're not using on of those operating systems, copy the link and download the dictionary zip using it.
+If you are using Windows (not WSL), open the link in your browser, download the zip file, then manually unzip the file.
 
 Then create a file called `hangman.py` and add the following code.
 
@@ -120,7 +118,7 @@ Add your diagram and the answers the the questions to a file called `analysis.pd
 
 Having created your diagram, you can implement your `Lexicon` class. Place it inside the `hangman.py` source file above the started code.
 
-In the initializer for `Lexicon`, load words from `dictionary.txt`. The following code can be 
+In the initializer for `Lexicon`, load words from `dictionary.txt`. You can use the following code:
 
     words = set()
     file = open('dictionary.txt', "r")
@@ -130,13 +128,26 @@ In the initializer for `Lexicon`, load words from `dictionary.txt`. The followin
 
 Make sure that all words of the right length are stored in an instance variable in `Lexicon`. Then complete the remainder of the class (using what you know from studying the `main` code).
 
-Because the `Hangman` class is still missing, you can't really test the `Lexicon` class yet using the started code that we provided, because it will crash. Instead, you may submit your file to check the basic functionality of just the `Lexicon` class. It should yield these positive results:
+Because the `Hangman` class is still missing, you can't really test the `Lexicon` class yet using the started code that we provided, because it will crash. But, you can test your code through doctests. Be sure to write doctests for each method (excluding `__init__`). Perhaps add the following to get you started:
 
-    :) hangman.py exists
-    :) hangman.py loads without printing anything
-    :) lexicon object with 4-letter words can be created
-    :) lexicon object correctly extracts 4-letter words from dictionary.txt
+    """
+    >>> len(Lexicon(5).get_word())
+    5
+    """
 
+Depending on what you want to test (and how), you might need a few setup steps for tests. You can do that by simply writing multiple lines prepended with `>>>`. For instance, the test above can also be written as:
+
+    """
+    >>> lexicon = Lexicon(5)
+    >>> lexicon.get_word()
+    5
+    """
+
+Do note that doctest will count the above as two tests instead of one. So if you can avoid multiple lines, it is probably better.
+
+Don't forget to actually run your doctests at this point by running:
+
+    $ python3 -m doctest -v hangman.py
 
 ## Assignment 3
 
