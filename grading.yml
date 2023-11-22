@@ -218,6 +218,11 @@ grades:
         deadline: 24/11/23 17:00
 
     # module 9
+    collection_functions:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/7)
+        deadline: 1/12/23 17:00
     indexer:
         <<: *automatic
         automatic:
@@ -239,6 +244,16 @@ grades:
         <<: *automatic
         automatic:
             done: -correctness_score.floor
+        deadline: 8/12/23 17:00
+    country:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
+        deadline: 8/12/23 17:00
+    lines:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/5)
         deadline: 8/12/23 17:00
 
     # module 12
@@ -426,6 +441,7 @@ module_8:
 module_9:
     show_progress: true
     submits:
+        collection_functions: 1
         indexer: 1
 
 module_10:
