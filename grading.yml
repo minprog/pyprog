@@ -456,6 +456,8 @@ module_10:
     submits:
         queue: 1
         cards: 1
+        country: 1
+        lines: 1
 
 # mod_programmeren:
 #     show_overview: true
