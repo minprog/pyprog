@@ -4,15 +4,19 @@
 
 Implement a program that allows someone to play the classic Hangman game against the computer.
 
-	$ python hangman.py
-	WELCOME TO HANGMAN ツ
-	I have a word in my mind of 8 letters.
-	Guess a letter: a
-	That's not in the word :(
-	Guess a letter: n
-	It's in the word! :))
-	_____N__
-	Guess a letter: ...
+    $ python hangman.py
+    WELCOME TO HANGMAN ツ
+    What length of word would you like to play with?
+    8
+    How many guesses are allowed?
+    10
+    I have a word in my mind of 8 letters.
+    Guess a letter: a
+    Wrong guess :(
+    Guess a letter: n
+    It's in the word! :)
+    _____N__
+    Guess a letter: ...
 
 
 ## Background
@@ -77,14 +81,14 @@ Then create a file called `hangman.py` and add the following code.
             
                 # prompt and re-prompt for single letter
                 letter = input(f"Guess a letter ({game.guesses_left()} left): ")
-                if len(letter) != 1 or not game.is_valid_guess(letter):
+                if len(letter) != 1:
                     continue
             
                 # provide feedback
                 if game.guess(letter):
-                    print("It's in the word! :))")
+                    print("It's in the word! :)")
                 else:
-                    print("That's not in the word :(")
+                    print("Wrong guess :(")
                     
                 print(game.current_pattern())
         
@@ -155,9 +159,9 @@ Now you are going to analyse the `Hangman` class and define an *interface* for i
 
 1. Peruse the starter code and note how the `Hangman` class is instantiated. What kind of parameters are needed to make a valid instance of `Hangman`?
 
-2. Find all occurrences of the `Hangman` object in the code. What methods are called on this object? What parameters are needed and what should the method return?
+2. Find all occurrences of the `Hangman` object in the code. What methods are called on this object? What parameters are needed and what should each method return?
 
-3. Draw a UML class diagram from the information that you gathered. Because you're starting out and trying to understand the problem, put in all known implementation details.
+3. Draw a UML class diagram from the information you gathered. Because you are starting out and trying to understand the problem, put in all known implementation details.
 
 4. Think about the internal structure of the class: what variables do you need to support all expected operations? Write your ideas below the diagram.
 
@@ -168,73 +172,20 @@ Add your complete diagram and the answers to the questions to a file called `ana
 
 ## Assignment 4
 
-Now implement the `Hangman` class. You can submit your solution to check your progress.
+Now implement the `Hangman` class, write doctests for each method you implement. It is hard to test the entire program without each method fully implemented, and even harder to debug the program if you only test once the entire program is implemented. So do write and run your doctests while you are working on your implementation of `Hangman`.
 
+With the implementation of Hangman, and most `class`es in general, you will want to not only test for the output of a method, but also its so called: side-effects. For instance, in case of `Hangman` certain methods will change the **state** of the game. Guessing a letter through `guess()` is such a thing. For instance, we might test that `guess()` accepts a correct letter the first time, but rejects it if is entered again. To do so you can write doctests consisting of multiple lines:
 
-## About assertions
-
-In some sense of the word, your implementation is now done! You should at the very least try it out and see if all is working well. However, automatic testing can only check a limited number of requirements, and it will not always find all bugs. So testing manually is always important. And indeed, we will find that we are able to crash the program!
-
-### Debugging a crash
-
-As we put our game in front of different people, it appears that they are still able to crash it. In particular, the program does not check for negative word lengths. And indeed, when you run your program and provide word length -1, it accepts the number. Unfortunately, while this does not immediately prove to be a problem, the program crashes as soon as the actual game starts.
-
-Have a good look at what happens:
-
-     1 WELCOME TO HANGMAN ツ
-     2 What length of word would you like to play with?
-     3 -1
-     4 How many guesses are allowed?
-     5 10
-     6 I have a word in my mind of -1 letters.
-     7 Traceback (most recent call last):
-     8   File "hangman.py", line 115, in <module>
-     9     word = lexicon.get_word()
-    10   File "hangman.py", line 35, in get_word
-    11     return random.choice(self.words)
-    12   File "lib/python3.8/random.py", line 290, in choice
-    13     raise IndexError('Cannot choose from an empty sequence') from None
-    14 IndexError: Cannot choose from an empty sequence
-
-Bummer! A generic error, "Cannot choose from an empty sequence". But what is the **root cause** of our bug? It not immediately obvious from the traceback above.
-
-What you can see on line 11 is that the crash happens in our function `get_word()` when it tries to select a random word. From the error message on line 14 you might understand that `self.words` is an `empty sequence`, or in other words, an list with no words in it.
-
-But that is not the root cause! We must now ask: why was that list empty in the first place? And finally, after some back and forth, you might find that the root cause of the problem is that the class allowed itself to be instantiated with a word length of -1. You've had to take a deep dive into the code to understand that if you didn't know the answer already.
-
-### Fixing the bug
-
-Now an obvious fix is to change the main code (that we provided) to ensure that your game player enters a word length of at least 4 (or so). That might make a nicer game and is a good idea in any case. Fine!
-
-But can't we also prevent the `Lexicon` initialiser from accepting invalid word lengths? It would be much easier to debug our program when this class simply does not accept negative word lengths. And indeed, there is a thing called an **assertion** that we can use. Just add the following line to the very top of the `Lexicon` initialiser:
-
-    assert word_length > 0 and word_length < 44, "Invalid word length for Lexicon"
-
-(Note that we assume your parameter is called `word_length`, but it's fine if it is something else. Just change the assertion in that case.)
-
-Putting this simple stament in your code will make sure that Python "halts" (crashes) the program if at that point the assertion "fails", so to say. In that case the program will not even reach the point of choosing a word from an empty list:
-
-      1 WELCOME TO HANGMAN ツ
-      2 What length of word would you like to play with?
-      3 -1
-      4 Traceback (most recent call last):
-      5   File "hangman.py", line 103, in <module>
-      6     lexicon = Lexicon(word_length)
-      7   File "hangman.py", line 20, in __init__
-      8     assert length > 0 and length < 44, "Invalid word length for Lexicon"
-      9 AssertionError: Invalid word length for Lexicon
-
-In sharp contrast to the error above, we are now immediately confronted with the root cause of the crash: we tried to instantiate the `Lexicon` class with an invalid word length.
-
-
-## Assignment 5
-
-The checks for this problem expect that some assertions are present in your code. In particular, you should not only insert the assertion for word length but **also** handle invalid input for initialising a `Hangman` object and the `guess()` method in `Hangman`. If you submit your solution on the website, it might provide some hints as to what assertions could be made.
+    >>> game = Hangman("hello", 5)
+    >>> game.guess("h")
+    True
+    >>> game.guess("h")
+    False
 
 
 ## Manual testing
 
-Hangman should now be a fully functional game that is also somewhat easier to debug. Test it and double-check if everything is still according to specification. If all is well, congratulations!
+Hangman should now be a fully functional game that is also somewhat easier to debug. Run it, test it, and double-check if everything is still according to specification. If all is well, congratulations!
 
 
 ## Submitting
