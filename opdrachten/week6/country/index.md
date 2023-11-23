@@ -30,4 +30,6 @@ Implementeer stap voor stap de `Country` class om te zorgen dat de bovenstaande 
 
 ## Hint
 
-Gebruik alleen wat je uit het boek geleerd hebt.
+- Gebruik alleen wat je uit het boek geleerd hebt.
+
+- Als header voor `is_larger` gebruik je `def is_larger(self, other: Self) -> bool:`. De vermelding `Self` betekent dat die parameter graag een object van de class `Country` wil hebben. Om dit te gebruiken moet je bovendien `from typing import Self` doen.
