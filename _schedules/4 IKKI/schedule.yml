@@ -76,8 +76,12 @@ Module 8:
 Module 9:
     Lezen en oefenen:
         "Chapter 11: Collection Types": /boek/collections
+        Dicts: /opdrachten/week5/dicts
+        Tuples: /opdrachten/week5/tuples
+        Sets: /opdrachten/week5/sets
     Opdrachten:
         Collection Functions: /opdrachten/week5/collection_functions
+        Cijfers: /opdrachten/week5/cijfers
         Indexer: /opdrachten/week5/indexer
 
 # Module 10:

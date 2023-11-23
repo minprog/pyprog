@@ -45,12 +45,6 @@ This means that the **type** of your index can be declared like this:
 
     Index = dict[str, list[int]]
 
-or if you use a somewhat older version of Python:
-
-    from typing import List, Dict
-    Index = Dict[str, List[int]]
-
-
 ## Code structure
 
 Now add the following code to a file called `indexer.py`. Then the first thing to do is to add type hints to all of the functions. Read the descriptions well to find what types would work best, and also use the `Index` type alias that we provided above.
