@@ -82,7 +82,6 @@ Module 9:
         Memory model: /opdrachten/week5/memory_model
     Opdrachten:
         Collection Functions: /opdrachten/week5/collection_functions
-        Cijfers: /opdrachten/week5/cijfers
         Indexer: /opdrachten/week5/indexer
 
 # Module 10:
@@ -116,4 +115,5 @@ Module 14:
         "Chapter 10: Reading and Writing Files": /boek/files
     Opdrachten:
         # Preprocessing: /opdrachten/week5/eca2csv # deze gaat weg
+        Cijfers: /opdrachten/week5/cijfers
         Klimaat: /opdrachten/week7/klimaat
