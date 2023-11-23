@@ -232,4 +232,4 @@ waarden meer worden gedeeld.
 Voor iedere situatie kun je nu zelf kiezen welke kopieer-optie het beste
 is. Hoe meer je kopieert hoe langzamer het programma wordt, maar hoe
 minder waarden er gedeeld worden. Het niet delen kan soms belangrijk
-zijn, in de 'feestagenda' opdracht gaan we daar voorbeelden van zien.
+zijn.

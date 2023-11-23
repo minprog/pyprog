@@ -82,8 +82,8 @@ Add the following code to a file called `indexer.py`.
         Don't worry about any other strange characters that are left
         in the text.
         """
-        return word.strip(string.punctuation + \
-                          string.whitespace + \
+        return word.strip(string.punctuation +
+                          string.whitespace +
                           string.digits).lower()
 
     def create_index(filename, stopwords):
@@ -115,8 +115,8 @@ Add the following code to a file called `indexer.py`.
 
     def user_input_search(book_index):
         """
-        User input loop. For every line provided as input, convert it, find the line
-        numbers, and show results.
+        User input loop. For every line provided as input, convert it,
+        find the line numbers, and show results.
         """
         line = input("\nEnter search term: ")
         while line not in ["q", "Q", "quit", ""]:
@@ -131,7 +131,7 @@ Add the following code to a file called `indexer.py`.
         stopwords = read_stopwords()
 
         if len(sys.argv) < 2:
-            print("No arguments provided.", \
+            print("No arguments provided.",
                   "Please specifiy the file you want to search.")
             sys.exit()
 
