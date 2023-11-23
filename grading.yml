@@ -229,6 +229,11 @@ grades:
         deadline: 1/12/23 17:00
 
     # module 10
+    collection_functions2:
+        <<: *automatic
+        automatic:
+            done: -(correctness_score.floor/7)
+        deadline: 1/12/23 17:00
     indexer:
         <<: *automatic
         automatic:
@@ -284,12 +289,12 @@ grades:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/2)
-        deadline: 8/12/23 17:00
+        deadline: 15/12/23 17:00
     klimaat:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/3)
-        deadline: 8/12/23 17:00
+        deadline: 15/12/23 17:00
 
     pygame:
         <<: *check
@@ -461,6 +466,7 @@ module_9:
 module_10:
     show_progress: true
     submits:
+        collection_functions2: 1
         indexer: 1
 
 module_11:
