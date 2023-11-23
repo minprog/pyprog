@@ -1,0 +1,8 @@
+name: collection_functions2
+files:
+  required:
+    - collection_functions2.py
+check:
+  tool: checkpy
+  repo: minprog/python
+  args: collection_functions2

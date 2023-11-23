@@ -135,7 +135,15 @@ Voor de eerste twee reviews is geen inhaalmogelijkheid: de review moet op tijd w
 
 Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm van het tentamen doe je een oefententamen tijdens de werkcolleges.
 
-Om een voldoende te halen moet je minstens een aantal programmeeropgaven goed opgelost hebben. Je kunt een hoger cijfer halen door meer opgaven op te lossen en de diverse Python-constructies toe te passen die we in de cursus hebben behandeld.
+De onderwerpen binnen het tentamen tellen ongeveer als volgt:
+
+- Basis Python (module 1 t/m 7): 45%
+- List comprehensions (module 8): 10%
+- Collection types (module 9 en 10): 15%
+- Objects en classes (module 11 t/m 13): 20%
+- Data processing (module 14): 10%
+
+Je krijgt punten per opgave en het percentage punten dat je haalt wordt omgerekend naar een cijfer.
 
 Om het vak te kunnen halen moet je het tentamen of hertentamen voldoende maken. Als je hertentamen doet zal het cijfer daarvan het eerdere cijfer vervangen (laatste cijfer telt).
 

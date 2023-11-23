@@ -14,4 +14,4 @@ Maak een Python-bestand aan genaamd `collection_functions.py`.
 
 ## Hint
 
-Gebruik alleen wat je uit het boek geleerd hebt! Bedenk hoe je methods van de verschillende soorten collection types kunt toepassen en combineren om op je antwoord te komen.
+Gebruik alleen wat je uit het boek of van deze site geleerd hebt! Bedenk hoe je methods van de verschillende soorten collection types kunt toepassen en combineren om op je antwoord te komen.
