@@ -196,7 +196,7 @@ To submit this assignment, submit your UML diagrams in a PDF called analysis.pdf
 
 Upon submitting your code, our code checker will run its own checks alongside your doctests. To do this our code checker makes use of Python's builtin `assert`-statement. Like an `if`-statement an `assert` checks whether the expression to the right evaluates to `True` or `False`. If it evaluates to `True` all is good, and the code continues on like nothing ever happened. However, if it evaluates to `False` Python will raise an `AssertionError`. Yes, an actual Error! Meaning the code will fail at that point.
 
-For instance, you might find the following message upon submitting:
+For instance, you might see the following message upon submitting:
 
     :( current_pattern() changes after a correct guess
         This check failed. Run the following code in the terminal to see if you can find out why:
@@ -222,8 +222,9 @@ Meaning, something went wrong in the example above. If you see such a message, r
     AssertionError
     >>>
 
-At this point you know that `game.current_pattern() == "a__"` evaluates to `False`. But why? Well that is up to you to find out! Here you might want to print out the outcome of `game.current_pattern()` like so:
+Notice the AssertionError above. At this point you know that the assert statement failed. This means `game.current_pattern() == "a__"` evaluated to `False`. But why? Well that is up to you to find out! For instance, here you could print out the outcome of `game.current_pattern()` like so:
 
     >>> game.current_pattern()
     "___"
 
+Mmmm, that's a bug! 
