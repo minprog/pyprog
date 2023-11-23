@@ -273,7 +273,7 @@ grades:
     hangman:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/10)
+            done: -(correctness_score.floor/20)
         deadline: 8/12/23 17:00
     hangman-less:
         <<: *automatic
