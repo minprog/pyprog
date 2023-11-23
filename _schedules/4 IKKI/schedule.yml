@@ -82,6 +82,10 @@ Module 9:
         Memory model: /opdrachten/week5/memory_model
     Opdrachten:
         Collection Functions: /opdrachten/week5/collection_functions
+
+Module 10:
+    Opdrachten:
+        Collection Functions 2: /opdrachten/week5/collection_functions2
         Indexer: /opdrachten/week5/indexer
 
 # Module 10:
@@ -91,7 +95,7 @@ Module 9:
 #     Opdrachten:
 #         Algorithms: /opdrachten/week5/algorithms
 
-Module 10:
+Module 11:
     Lezen en oefenen:
         Videocollege: /opdrachten/week6/lecture
         "Chapter 14: Object-oriented programming": /boek/objects
@@ -101,11 +105,11 @@ Module 10:
         Country: /opdrachten/week6/country
         Lines: /opdrachten/week6/lines
 
-Module 11:
+Module 12:
     Opdrachten:
         Hangman: /opdrachten/week6/hangman         # separation of concerns (lexicon/game)
 
-Module 12:
+Module 13:
     Opdrachten:
         Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
 
