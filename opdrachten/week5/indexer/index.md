@@ -41,26 +41,39 @@ The code revolves around a **word index** that contains for each word in the tex
         ...
     }
 
-This means that the **type** of your index can be declared like this:
+This means that the type of your index can be declared as follows. We define a **type alias** called `Index` that we can use everywhere in the program.
 
     Index = dict[str, list[int]]
 
-## Code structure
+For example, to make a new index variable, initialize as such:
 
-Now add the following code to a file called `indexer.py`. Then the first thing to do is to add type hints to all of the functions. Read the descriptions well to find what types would work best, and also use the `Index` type alias that we provided above.
+    word_index: Index = {}
 
-    # indexer.py: Find every occurence of a word in a text.
-    # Usage: python indexer.py <text-file>
-    # Displays all line numbers where the word occurs.
+## 1. Code structure
+
+Add the following code to a file called `indexer.py`.
+
+    """
+    indexer.py: Find every occurence of a word in a text.
+    Usage: python indexer.py <text-file>
+    Displays all line numbers where the word occurs.
+    """
 
     import sys, string
+
+    Index = dict[str, list[int]]
 
     def read_stopwords():
         """
         Read all the stopwords from the file "stopwords.txt". Returns the
-        collection of stopwords in a list; each stopword should be stripped
+        collection of stopwords as a set; each stopword should be stripped
         of whitespace.
         """
+        stopwords = set()
+        with open('stopwords.txt') as file:
+            while word := file.readline():
+                ...
+        return stopwords
 
     def convert_word(word):
         """
@@ -82,6 +95,11 @@ Now add the following code to a file called `indexer.py`. Then the first thing t
           whitespace and digits before adding to the index.
         * Empty strings and stopwords are ignored and not indexed.
         """
+
+        # sample code for reading the file
+        with open(filename, "r") as file:
+            for line_number, line in enumerate(file, 1):
+                # TODO add each word from the line to index
 
     def search_index(word, book_index):
         """
@@ -126,8 +144,31 @@ Now add the following code to a file called `indexer.py`. Then the first thing t
         # Start the user input loop
         user_input_search(book_index)
 
+## 2. Type hints
 
-## Command-line arguments
+The first thing to do is to add type hints to all of the functions. Read the descriptions well to find what types would work best, and always use the `Index` type alias that we provided above.
+
+## 3. Doctests
+
+The second thing to do is to add doctests. You should **not** have your doctests depend on external files, but instead provide a test object. For example, as a test index you could use something like `{ 'dinner': [ 258, 289 ], 'guest': [ 1, 2 ] }`.
+
+The following functions must have doctests:
+
+- `convert_word`
+- `search_index`
+- `show_search_results`
+
+## 4. Implementation
+
+Now implement all functions.
+
+### Explanation: file versus filename
+
+In this program the function `create_index` receives a **filename** as a parameter. This is not the same as having a **file** as a parameter. In the book, passing an already-opened file as a parameter is done using the `TextIO` type. However, a filename is nothing more than a simple string, so do not confuse these two!
+
+Open and read
+
+### Explanation: command-line arguments
 
 As you can see, the program should be run using the following command:
 
@@ -138,10 +179,6 @@ Here we start `python` in the Terminal or Command Line, so we can add an "argume
 If you don't know how to get started with the Terminal, please ask us in class or send and e-mail to the course's e-mail address.
 
 You should not need to know how the `sys.argv` works in the code above to be able to implement the program. All you need to know is that the function `create_index` receives the name of a file that you need to open and read to fill an index.
-
-## File versus filename
-
-In this program the function `create_index` receives a **filename** as a parameter. This is not the same as having a **file** as a parameter. In the book, passing an already-opened file as a parameter is done using the `TextIO` type. However, a filename is nothing more than a simple string, so do not confuse these two!
 
 ## Testing your program
 
