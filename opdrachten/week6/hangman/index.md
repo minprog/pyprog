@@ -191,3 +191,40 @@ Hangman should now be a fully functional game that is also somewhat easier to de
 ## Submitting
 
 To submit this assignment, submit your UML diagrams in a PDF called analysis.pdf, together with your code.
+
+### Assertions and our code checker
+
+Upon submitting your code, our code checker will run its own checks alongside your doctests. To do this our code checker makes use of Python's builtin `assert`-statement. Like an `if`-statement an `assert` checks whether the expression to the right evaluates to `True` or `False`. If it evaluates to `True` all is good, and the code continues on like nothing ever happened. However, if it evaluates to `False` Python will raise an `AssertionError`. Yes, an actual Error! Meaning the code will fail at that point.
+
+For instance, you might see the following message upon submitting:
+
+    :( current_pattern() changes after a correct guess
+        This check failed. Run the following code in the terminal to see if you can find out why:
+        $ python3
+        >>> from hangman import *
+        >>> game = Hangman("abc", 5)
+        >>> assert game.current_pattern() == "___"
+        >>> assert game.guess("a")
+        >>> assert game.current_pattern() == "a__"
+
+Meaning, something went wrong in the example above. If you see such a message, run the code example in your own terminal to see just what went wrong. Odds are you will encounter the following:
+
+    $ python3
+    Python 3.10.6 (main, Oct  6 2022, 16:46:30) [Clang 14.0.0 (clang-1400.0.29.102)] on darwin
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> from hangman import *
+    >>> game = Hangman("abc", 5)
+    >>> assert game.current_pattern() == "___"
+    >>> assert game.guess("a")
+    >>> assert game.current_pattern() == "a__"
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    AssertionError
+    >>>
+
+Notice the AssertionError above. At this point you know that the assert statement failed. This means `game.current_pattern() == "a__"` evaluated to `False`. But why? Well that is up to you to find out! For instance, here you could print out the outcome of `game.current_pattern()` like so:
+
+    >>> game.current_pattern()
+    "___"
+
+Mmmm, that's a bug! 
