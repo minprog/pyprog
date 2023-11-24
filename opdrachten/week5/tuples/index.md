@@ -2,7 +2,7 @@
 
 Ook de "tuple" is een collectie-datatype, dus een manier om meerdere elementen samen in één variabele op te slaan.
 
-De belangrijkste eigenschap van een tuple is dat je de inhoud niet kunt veranderen nadat de tuple is aangemaakt. De tuple is **immutable**, net zoals een string. Verder lijkt een tuple behoorlijk op een list.
+De belangrijkste eigenschap van een tuple is dat je de inhoud niet kunt veranderen nadat de tuple is aangemaakt. De tuple is dus **immutable**, net zoals een string. Verder lijkt een tuple behoorlijk op een list.
 
 ## Video
 
