@@ -197,3 +197,5 @@ Schrijf een loop die elke student opzoekt in de `mijn_klas`-dictionary en dan vo
     Jacobus: n/a
 
 Gebruik `get()` en géén `if`-statement.
+
+Deze kleine oefeningen worden **niet** automatisch nagekeken, wacht dus niet op goedkeuring van de website!

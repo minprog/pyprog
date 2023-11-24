@@ -146,3 +146,5 @@ Test je begrip met de volgende oefeningen. Maak een bestand genaamd `sets.py` aa
 
     dubbelen = ["tennis", "badminton", "roeien", "voetbal", "tennis", "judo", "judo", "karate", "voetbal"]
     unieken = # Jouw oplossing hier
+
+Deze kleine oefeningen worden **niet** automatisch nagekeken, wacht dus niet op goedkeuring van de website!
