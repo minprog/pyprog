@@ -326,14 +326,14 @@ grades:
         is_test: true
         subgrades:
             gedaan: boolean
-        calculation: gedaan
+        calculation: -gedaan.abs
         hide_calculated: true
 
     toetsje_2:
         is_test: true
         subgrades:
             gedaan: boolean
-        calculation: gedaan
+        calculation: -gedaan.abs
         hide_calculated: true
 
     oefententamen:
