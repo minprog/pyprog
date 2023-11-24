@@ -108,3 +108,7 @@ Dit kan soms van pas komen!
 #### Oefening
 
 Schrijf een functie `numbers_from_password()` die met hulp van een list-comprehension en de methode `isnumeric()` uit een opgegeven string de cijfers geeft. De naam van de parameter is `password`. Het resultaat moet een string zijn, geen list!
+
+## Tip
+
+Gebruik geen 'if-name-is-main' in deze opdracht. Omdat er geoefend moet worden met list comprehensions zijn `if`-statements namelijk verboden (en loops trouwens ook).
