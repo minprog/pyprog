@@ -1,0 +1,76 @@
+calculation:
+    eindcijfer_bg:
+        code_reviews_bg: 25
+        tentamen_bg: 75
+
+mod_programmeren:
+    show_overview: true
+    deadline: 08/09/23 17:00
+    submits:
+        etenstijd: 1
+        calculator: 1
+        wachtwoord: 1
+        cola: 1
+        temperatuur: 1
+
+mod_decompositie:
+    show_overview: true
+    deadline: 15/09/23 17:00
+    submits:
+        rna: 1
+        leesbaarheid: 1
+        camelcase: 1
+        kalender: 1
+
+mod_simuleren:
+    show_overview: true
+    deadline: 22/09/23 17:00
+    submits:
+        comprehensions: 1
+        populatie: 1
+        sjoelen: 1
+        virus: 1
+
+mod_algoritmen:
+    show_overview: true
+    deadline: 29/09/23 17:00
+    submits:
+        algorithms: 1
+        indexer: 1
+        schuifpuzzel: 1
+
+mod_classes:
+    show_overview: true
+    deadline: 06/10/23 17:00
+    submits:
+        queue: 1
+        cards: 1
+        hangman-less: 1
+        knapsack: 1
+
+mod_grote_programmas:
+    show_overview: true
+    deadline: 20/10/23 17:00
+    submits:
+        pygame: 1
+
+mod_project:
+    show_overview: true
+    deadline: 20/10/23 17:00
+    submits:
+        project: 1
+
+code_reviews_bg:
+    show_overview: true
+    type: maximum
+    submits:
+        bg1: 1
+        bg2: 1
+        bg3: 1
+
+tentamen_bg:
+    show_overview: true
+    minimum: 5.5
+    attempt_required: true
+    submits:
+        tentamen_bg: 1

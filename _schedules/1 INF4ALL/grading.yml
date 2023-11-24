@@ -1,0 +1,75 @@
+calculation:
+    eindcijfer_inf4all:
+        code_reviews: 25
+        tentamen_inf4all: 75
+
+mod_programmeren:
+    show_overview: true
+    deadline: 14/09/23 17:00
+    submits:
+        experimenteren: 1
+        fdr: 1
+        weken: 1
+        cafeine: 1
+        vakantie: 1
+        orakel: 1
+        etenstijd: 1
+        calculator: 1
+
+mod_herhaling:
+    show_overview: true
+    deadline: 28/09/23 17:00
+    submits:
+        rechthoeken: 1
+        wachtwoord: 1
+        scrabble: 1
+        cola: 1
+        temperatuur: 1
+
+mod_decompositie:
+    show_overview: true
+    deadline: 12/10/23 17:00
+    submits:
+        rna: 1
+        leesbaarheid: 1
+        camelcase: 1
+        kalender: 1
+
+mod_simuleren:
+    show_overview: true
+    deadline: 26/10/23 17:00
+    submits:
+        comprehensions: 1
+        populatie: 1
+        sjoelen: 1
+        virus: 1
+
+mod_algoritmen:
+    show_overview: true
+    deadline: 09/11/23 17:00
+    submits:
+        algorithms: 1
+        indexer: 1
+        schuifpuzzel: 1
+
+mod_classes:
+    show_overview: true
+    deadline: 23/11/23 17:00
+    submits:
+        queue: 1
+        cards: 1
+        hangman-less: 1
+        knapsack: 1
+
+mod_dataverwerking:
+    deadline: 07/12/23 17:00
+    show_overview: true
+    submits:
+        eca2csv: 1
+        klimaat: 1
+
+tentamen_inf4all:
+    show_overview: true
+    attempt_required: true
+    submits:
+        tentamen_inf4all: 1

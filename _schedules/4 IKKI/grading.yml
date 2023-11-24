@@ -1,0 +1,142 @@
+calculation:
+    eindcijfer_ki:
+        code_reviews: 25
+        tentamen_ki: 75
+    eindcijfer_ik:
+        code_reviews: 25
+        tentamen_ik: 75
+
+module_1:
+    show_progress: true
+    deadline: 3/11/23 17:00
+    submits:
+        experimenteren: 1
+        fdr: 1
+        weken: 1
+        cafeine: 1
+        vakantie: 1
+
+module_2:
+    show_progress: true
+    deadline: 3/11/23 17:00
+    submits:
+        string_func: 1
+        acid: 1
+        orakel: 1
+        etenstijd: 1
+        calculator: 1
+
+module_3:
+    show_progress: true
+    deadline: 10/11/23 17:00
+    submits:
+        string_module: 1
+        string_methods: 1
+        rechthoeken: 1
+        wachtwoord: 1
+
+module_4:
+    show_progress: true
+    deadline: 10/11/23 17:00
+    submits:
+        list_functions: 1
+        scrabble: 1
+        cola: 1
+        temperatuur: 1
+
+module_5:
+    show_progress: true
+    deadline: 17/11/23 17:00
+    submits:
+        rna: 1
+        leesbaarheid: 1
+        camelcase: 1
+
+module_6:
+    show_progress: true
+    deadline: 17/11/23 17:00
+    submits:
+        schuifpuzzel: 1
+        kalender: 1
+
+module_7:
+    show_progress: true
+    deadline: 24/11/23 17:00
+    submits:
+        populatie: 1
+        sjoelen: 1
+
+module_8:
+    show_progress: true
+    deadline: 24/11/23 17:00
+    submits:
+        comprehensions: 1
+        virus: 1
+
+module_9:
+    show_progress: true
+    deadline: 1/12/23 17:00
+    submits:
+        dict_oefening: 1
+        set_oefening: 1
+        collection_functions: 1
+
+module_10:
+    show_progress: true
+    deadline: 1/12/23 17:00
+    submits:
+        collection_functions2: 1
+        indexer: 1
+
+module_11:
+    show_progress: true
+    deadline: 8/12/23 17:00
+    submits:
+        queue: 1
+        cards: 1
+        country: 1
+        lines: 1
+
+module_12:
+    show_progress: true
+    deadline: 8/12/23 17:00
+    submits:
+        hangman: 1
+
+module_13:
+    show_progress: true
+    deadline: 15/12/23 17:00
+    submits:
+        knapsack: 1
+
+module_14:
+    show_progress: true
+    deadline: 15/12/23 17:00
+    submits:
+        eca2csv: 1
+        klimaat: 1
+
+code_reviews:
+    show_progress: true
+    type: points
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
+
+tentamen_ki:
+    show_overview: true
+    attempt_required: true
+    submits:
+        tentamen_ki: 1
+
+tentamen_ik:
+    show_overview: true
+    attempt_required: true
+    submits:
+        tentamen_ik: 1
+
+oefeningen:
+    show_progress: true
+    submits:
+        toetsje: 1
