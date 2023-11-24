@@ -2,7 +2,7 @@
 
 De "set" is wederom een collectie-datatype, waarmee je meerdere elementen samen in één variabele op kunt slaan. Net als tuples lijken sets nogal op lijsten, want ook hier kun je diverse losse elementen opslaan.
 
-Sets zijn gebaseerd op het principe van verzamelingen, waarin hetzelfde gegeven niet meermaals kan voorkomen. Items in een set moeten bovendien immutable zijn, zoals de keys van een dictionary. Dit zorgt ervoor dat sets vooral heel goed zijn in bepalen of een element **in** de collectie zit of niet.
+Sets zijn gebaseerd op het principe van verzamelingen, waarin hetzelfde gegeven *niet* meermaals kan voorkomen. Items in een set moeten bovendien immutable zijn, zoals de keys van een dictionary. Dit zorgt ervoor dat sets vooral heel goed zijn in bepalen of een element **in** de collectie zit of niet.
 
 ## Video
 
