@@ -1,6 +1,6 @@
 # Memory Model
 
-> Deze uitleg is erg nuttig om te begrijpen hoe je structuren kunt bouwen met hulp van de collectie-types die Python biedt. De stof is niet belangrijk voor het tentamen, maar als je op het niveau zit dat je onderstaande begrijpt dan helpt dat natuurlijk altijd.
+> Deze uitleg is erg nuttig om te begrijpen hoe je structuren kunt bouwen met hulp van de collectie-types die Python biedt. De stof komt niet direct terug in het tentamen, maar als je op het niveau zit dat je onderstaande begrijpt dan helpt dat natuurlijk altijd.
 
 Python maakt onderscheid tussen *mutable* en *immutable* types. Een
 waarde van een *immutable* type kan **niet** worden aangepast zonder dat
