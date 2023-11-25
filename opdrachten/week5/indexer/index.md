@@ -70,8 +70,12 @@ Add the following code to a file called `indexer.py`.
         of whitespace.
         """
         stopwords = set()
+        
+        # open file and read each word
         with open('stopwords.txt') as file:
-            while word := file.readline():
+            for word in file:
+                # TODO put the word in the stopwords set
+                # but make sure it is stripped from punctuation etc
                 ...
         return stopwords
 
@@ -99,7 +103,9 @@ Add the following code to a file called `indexer.py`.
         # sample code for reading the file
         with open(filename, "r") as file:
             for line_number, line in enumerate(file, 1):
-                # TODO add each word from the line to index
+                # TODO use the two variables `line_number` and `line`
+                # to add each word from the line to index
+                ...
 
     def search_index(word, book_index):
         """

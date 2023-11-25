@@ -226,11 +226,11 @@ grades:
     country:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/4)
     lines:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/5)
+            done: -(correctness_score.floor/4)
 
     # module 12
     hangman:
@@ -279,14 +279,14 @@ grades:
         is_test: true
         subgrades:
             gedaan: boolean
-        calculation: gedaan
+        calculation: -gedaan.abs
         hide_calculated: true
 
     toetsje_2:
         is_test: true
         subgrades:
             gedaan: boolean
-        calculation: gedaan
+        calculation: -gedaan.abs
         hide_calculated: true
 
     oefententamen:
