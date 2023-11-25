@@ -73,7 +73,7 @@ Add the following code to a file called `indexer.py`.
         
         # open file and read each word
         with open('stopwords.txt') as file:
-            while word := file.readline():
+            for word in file:
                 # TODO put the word in the stopwords set
                 # but make sure it is stripped from punctuation etc
                 ...
