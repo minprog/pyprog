@@ -4,7 +4,7 @@ calculation:
         tentamen_inf4all: 75
 
 mod_programmeren:
-    show_overview: true
+    show_progress: true
     deadline: 14/09/23 17:00
     submits:
         experimenteren: 1
@@ -17,7 +17,7 @@ mod_programmeren:
         calculator: 1
 
 mod_herhaling:
-    show_overview: true
+    show_progress: true
     deadline: 28/09/23 17:00
     submits:
         rechthoeken: 1
@@ -27,7 +27,7 @@ mod_herhaling:
         temperatuur: 1
 
 mod_decompositie:
-    show_overview: true
+    show_progress: true
     deadline: 12/10/23 17:00
     submits:
         rna: 1
@@ -36,7 +36,7 @@ mod_decompositie:
         kalender: 1
 
 mod_simuleren:
-    show_overview: true
+    show_progress: true
     deadline: 26/10/23 17:00
     submits:
         comprehensions: 1
@@ -45,7 +45,7 @@ mod_simuleren:
         virus: 1
 
 mod_algoritmen:
-    show_overview: true
+    show_progress: true
     deadline: 09/11/23 17:00
     submits:
         algorithms: 1
@@ -53,7 +53,7 @@ mod_algoritmen:
         schuifpuzzel: 1
 
 mod_classes:
-    show_overview: true
+    show_progress: true
     deadline: 23/11/23 17:00
     submits:
         queue: 1
@@ -62,14 +62,14 @@ mod_classes:
         knapsack: 1
 
 mod_dataverwerking:
+    show_progress: true
     deadline: 07/12/23 17:00
-    show_overview: true
     submits:
         eca2csv: 1
         klimaat: 1
 
 tentamen_inf4all:
-    show_overview: true
+    show_progress: true
     attempt_required: true
     submits:
         tentamen_inf4all: 1
