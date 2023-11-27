@@ -164,6 +164,8 @@ The following functions must have doctests:
 - `search_index`
 - `show_search_results`
 
+Functions that read files should **not** have doctests.
+
 ## 4. Implementation
 
 Now implement all functions.
