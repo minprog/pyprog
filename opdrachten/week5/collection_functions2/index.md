@@ -8,7 +8,7 @@ De bedoeling van deze opgaven is om te leren hoe je moet loopen met for-loops en
 
     In de dictionary zijn de keys de namen van de deeltjes, en de waarden zijn de waarschijnlijkheden. Bijvoorbeeld `{'neutron': 0.55, 'proton': 0.21, 'meson': 0.03, 'muon': 0.07, 'neutrino': 0.14}`.
 
-    Schrijf een functie die zo'n dictionary aanneemt (vermeld het juiste type) en dan de naam van het deeltje teruggeeft dat het minst waarschijnlijk geobserveerd wordt. In bovenstaand geval zou het 'meson' zijn.
+    Schrijf een functie `least_prob` die zo'n dictionary aanneemt (vermeld het juiste type) en dan de naam van het deeltje teruggeeft dat het minst waarschijnlijk geobserveerd wordt. In bovenstaand geval zou het 'meson' zijn.
 
 2.  Schrijf een functie genaamd `count_duplicates` die een dictionary aanneemt en dan teruggeeft het aantal waarden dat twee of meer keer voorkomt.
 
