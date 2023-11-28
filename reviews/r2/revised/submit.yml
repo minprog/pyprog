@@ -2,9 +2,10 @@ name: r2
 form: true
 files:
     required:
-        - cola.py
-        - wachtwoord.py
+        - rna.py
+        - leesbaarheid.py
+        - camelcase.py
 check:
     tool: checkpy
     repo: minprog/python
-    args: cola wachtwoord
+    args: rna leesbaarheid camelcase
