@@ -318,9 +318,18 @@ grades:
         calculation: points / 6.0 * 9 + 1
         deadline: 9/10/23 20:00
 
-    r1: *manual
-    r2: *manual
-    r3: *manual
+    r1:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 15/11/23 20:00
+    r2:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 29/11/23 19:00
+    r3:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 13/12/23 17:00
 
     toetsje:
         is_test: true
