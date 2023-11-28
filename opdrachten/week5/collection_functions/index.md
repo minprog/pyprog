@@ -10,6 +10,8 @@ Maak een Python-bestand aan genaamd `collection_functions.py`.
 
     Het return type van de functie is `set[tuple[object, object]]`. We gebruiken hier `object` om aan te geven dat er diverse mogelijkheden zijn voor het soort gegevens dat in de tuple staat (zoals dus een integer of een string).
 
+    Tip voor doctesten: de volgorde in een set blijft niet behouden. Maak dus een zo klein mogelijke test om toch de functionaliteit te controleren. Maak twee sets aan met twee elementen, geef die aan de functie. Er zijn dan 4 mogelijke uitkomsten qua volgorde: controleer of de uitkomst één van die 4 uitkomsten is.
+
 3.  In een dictionary zijn de keys per definitie uniek, maar de values (waarden) niet. Schrijf een functie genaamd `count_values` die een dictionary aanneemt en het aantal unieke waarden in de dictionary uitrekent. Stel dat de input `{'red': 1, 'green': 1, 'blue': 2}` is, dan moet de output `2` zijn.
 
 ## Hint
