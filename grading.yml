@@ -26,7 +26,7 @@ templates:
         subgrades:
             points: integer
         calculation: points
-        hide_subgrades: true
+        # hide_subgrades: true
     3: &check
         type: pass
         subgrades:
