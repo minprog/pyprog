@@ -234,7 +234,7 @@ grades:
     collection_functions2:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/7)
+            done: -(correctness_score.floor/8)
         deadline: 1/12/23 17:00
     indexer:
         <<: *automatic
