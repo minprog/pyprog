@@ -586,7 +586,7 @@ code_reviews_bg:
 
 code_reviews:
     show_progress: true
-    type: points
+    type: maximum
     submits:
         r1: 1
         r2: 1
