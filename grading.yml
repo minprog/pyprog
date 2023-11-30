@@ -261,7 +261,7 @@ grades:
     country:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/4)
+            done: -(correctness_score.floor/5)
         deadline: 8/12/23 17:00
     lines:
         <<: *automatic
