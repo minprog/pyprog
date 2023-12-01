@@ -11,12 +11,12 @@ Implement a program that allows someone to play the classic Hangman game against
     How many guesses are allowed?
     10
     I have a word in my mind of 8 letters.
-    Guess a letter: a
+    Guess a letter (10 guessess left): a 
     Wrong guess :(
-    Guess a letter: n
+    Guess a letter (9 guessess left): n
     It's in the word! :)
     _____N__
-    Guess a letter: ...
+    Guess a letter (9 guessess left): ...
 
 
 ## Background
@@ -80,7 +80,7 @@ Then create a file called `hangman.py` and add the following code.
             while game.is_running():
             
                 # prompt and re-prompt for single letter
-                letter = input(f"Guess a letter ({game.guesses_left()} left): ")
+                letter = input(f"Guess a letter ({game.guesses_left()} guessess left): ")
                 if len(letter) != 1:
                     continue
             
