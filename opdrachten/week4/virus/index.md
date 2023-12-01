@@ -275,6 +275,8 @@ Maak een `if __name__ == '__main__'` voor je programma en plaats de volgende imp
 
     import matplotlib.pyplot as plt
 
+Mogelijk heb je `matplotlib` niet geinstalleerd staan en dan krijg je een foutmelding hierover bij het runnen. Gebruik dan het commando `python -m pip install matplotlib`.
+
 Zet deze import dus **niet** bovenaan je programma omdat het alleen nodig is voor de plotjes die je maakt in de main.
 
 Kopieer daarna één voor één de volgende stukken code in de main om te kijken wat er uit komt. Mocht `matplotlib` niet goed werken (foutmeldingen) dan kun je het beste even hulp vragen of de foutmelding opzoeken op internet.
