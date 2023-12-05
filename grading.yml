@@ -329,7 +329,7 @@ grades:
     r3:
         <<: *manual
         calculation: points / 6.0 * 9 + 1
-        deadline: 13/12/23 17:00
+        deadline: 13/12/23 19:00
 
     toetsje:
         is_test: true

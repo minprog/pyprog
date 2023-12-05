@@ -54,9 +54,9 @@ Dit is een overzicht van de standaard-deadlines per week:
 |--------------|------------------:|---------------------------:|
 | Module   1/2 | vr  3 nov  17:00  | wo 15 nov 17:00 (week 3)   |
 | Module   3/4 | vr 10 nov  17:00  | -                          |
-| Module   5/6 | vr 17 nov  17:00  | wo 29 nov 17:00 (week 5)   |
+| Module   5/6 | vr 17 nov  17:00  | wo 29 nov 19:00 (week 5)   |
 | Module   7/8 | vr 24 nov  17:00  | -                          |
-| Module  9/10 | vr  1 dec  17:00  | wo 13 dec 17:00 (week 7)   |
+| Module  9/10 | vr  1 dec  17:00  | wo 13 dec 19:00 (week 7)   |
 | Module 11/12 | vr  8 dec  17:00  | -                          |
 | Module 13/14 | vr 15 dec  17:00  | -                          |
 
