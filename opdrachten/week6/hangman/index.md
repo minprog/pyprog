@@ -109,7 +109,7 @@ Your first task is to understand what the `Lexicon` class should look like and d
 
 2. Find all occurrences of the `Lexicon` object in the code (only a single instance is ever made). What methods are called on this object? What parameters are needed and what should the method return?
 
-3. Draw your class in UML class diagram format. Because you're just starting out and trying to understand the problem, put as much information in there as possible, including return types and parameters. In other words, the UML diagram should contain *implementation details*.
+3. Draw your class in UML class diagram format (you saw how to do this in the Game of Cards assignment!). Because you're just starting out and trying to understand the problem, put as much information in there as possible, including return types and parameters. In other words, the UML diagram should contain *implementation details*.
 
 4. Think about the internal structure of the class: what variables do you need to support all expected operations? Write your ideas below the diagram.
 
