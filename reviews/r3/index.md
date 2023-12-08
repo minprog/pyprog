@@ -1,6 +1,4 @@
-# Code review: RNA & Leesbaarheid & Populatie
-
-> Als je één van de drie bovenstaande opdrachten vrijdag niet helemaal af had gekregen (afgekeurd door website, met uitzondering van doctest of type check, of helemaal niet ingeleverd) dan moet je die vervangen door Sjoelen of Temperatuurtabellen.
+# Code review: Kalender
 
 De code review focust op een aantal **aspecten**. Deze aspecten worden ook gebruikt bij het nakijken van jouw definitieve programma's, dus het gebruik bij de code reviews helpt je om de juiste richting op te gaan. Maar let op: het nakijken beperkt zich niet tot alleen de aspecten. Je kunt zelf namelijk ook uitzoeken hoe je betere Python-programma's kunt schrijven en dat verwachten we van je als je heel hoog wilt scoren.
 
