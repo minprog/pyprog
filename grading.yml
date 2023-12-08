@@ -295,7 +295,7 @@ grades:
     klimaat:
         <<: *automatic
         automatic:
-            done: -(correctness_score.floor/3)
+            done: -(correctness_score.floor/5)
         deadline: 15/12/23 17:00
 
     pygame:
