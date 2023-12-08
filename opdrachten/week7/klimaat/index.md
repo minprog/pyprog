@@ -37,7 +37,7 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - Gebruik als input de file [climate.csv](climate.csv). Je programma moet ook werken als het bestand andere waarden bevat! Let op dat de temperaturen keer 10 vermeld zijn. Als er `-40` staat dan betekent dat -4.0 graden.
 
-- De datums staan in het formaat `YYYYMMDD`. Dit kun je gewoon als string behouden. Je kunt vervolgens het jaartal eruit halen door `datum[0:4]` te doen (string slicing dus, zoals eerder in het boek behandeld).
+- De datums staan in het formaat `YYYYMMDD`. Dit kun je gewoon als string behouden. Je kunt vervolgens het jaartal eruit halen door `datum[0:4]` te doen (slicing dus, zoals eerder in het boek behandeld met lists, kan ook met strings).
 
 - Maak een functie `print_basis_info(filename: str)` die de naam van het bestand meekrijgt en de secties "Databestand" en "Basisinformatie" print, inclusief de gegevens die hierboven in het voorbeeld vermeld zijn. Zorg dat deze functie slechts één keer door het bestand loopt.
 
