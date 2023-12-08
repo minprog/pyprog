@@ -500,11 +500,11 @@ module_12:
     submits:
         hangman: 1
 
-# module_13:
-#     show_progress: true
-#     submits:
-#         knapsack: 1
-#
+module_13:
+    show_progress: true
+    submits:
+        knapsack: 1
+
 # module_14:
 #     show_progress: true
 #     submits:
