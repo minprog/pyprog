@@ -48,18 +48,18 @@ De methode `readline()` leest een stuk uit de file tot en met de eerste newline 
 
 ## Regels lezen
 
-Met de volgende constructie kun je het bestand regel voor regel tot het einde verwerken. We printen bovendien de namen uit het bestand op een nette manier uit:
+Met de volgende constructie kun je het bestand regel voor regel tot het einde verwerken. We printen daarme de namen uit het bestand op een nette manier uit:
 
     with open("data.txt", "r") as data_file:
         for line in data_file:
             naam, telefoon = line.rstrip().split(',')
             print(naam)
 
-In de loop wordt aan de variabele `line` steeds de inhoud van de volgende regel toegekend. Ook hier staat de newline in de variabele, dus ook hier gebruiken we `rstrip()`.
+In de loop wordt aan de variabele `line` steeds de inhoud van de volgende regel toegekend. Net als bij `readline()` staat de newline erbij, dus ook hier gebruiken we `rstrip()`.
 
 Hiermee kun je de data in het bestand efficiënt verwerken, want er staat steeds één regel aan data in de variabele `line`. Als de regel verwerkt is wordt `line` overschreven met de inhoud van de volgende regel.
 
-Daarna verwerken we de inhoud van de regel door te splitsen en alleen de naam uit te printen.
+In het voorbeeld hierboven verwerken we de inhoud van de regel door te splitsen, en vervolgens printen we steeds de naam uit (en niet het telefoonnummer).
 
 ## Files schrijven
 
