@@ -1,6 +1,6 @@
 # Knapsack
 
-> **Let op: het is altijd noodzakelijk om een main toe te voegen waarin de code wordt "gestart".**
+> Deze opdracht helpt je geavanceerd gebruik van classes te begrijpen. Zorg dat je de vorige opdrachten over classes goed hebt begrepen voordat je deze opdracht gaat maken.
 
 Bij een knapsack-probleem krijgen we punten voor elk item dat we
 inpakken in de knapsack. Een item mag maar één keer worden
@@ -84,7 +84,7 @@ testen of resources in andere resources passen zoals in dit voorbeeld:
         r1 -= r2
         print(r1)                # Resources(weight:100 volume:200)
 
-**Opdracht1:** Neem deze definitie over en voeg doctests toe die
+**Opdracht 1:** Neem deze definitie over en voeg doctests toe die
 testen of dit type goed werkt.
 
 ## Item Type
@@ -110,7 +110,7 @@ representeren.
         def get_resources(self) -> Resources:
             """ Returns the resources. """
 
-**Opdracht2:** Implementeer dit type zodat we een `Item` kunnen
+**Opdracht 2:** Implementeer dit type zodat we een `Item` kunnen
 aanmaken, printen, en punten en resources kunnen opvragen zoals wordt
 gedaan in dit voorbeelden:
 
@@ -127,7 +127,7 @@ verwijderen waarbij steeds de resources die overblijven goed moeten worden
 bijgehouden. We willen ook kunnen vragen of een item nog mag worden
 toegevoegd, en wat het puntentotaal van de knapsack is.
 
-**Opdracht3:** Implementeer type `Knapsack` op basis van de gegeven docstrings.
+**Opdracht 3:** Implementeer type `Knapsack` op basis van de gegeven docstrings.
 
     class Knapsack:
         """ Knapsack to which Items can be added. Keeps track of points and available resources."""
@@ -186,7 +186,7 @@ Een voorbeeld van het gebruik van type `Knapsack` is:
     
 ## Laad een Knapsackprobleem
 
-**Opdracht4:** Lees de data in de
+**Opdracht 4:** Lees de data in de
 [knapsack_small.csv](knapsack_small.csv) file in. Hiervoor kan deze
 functie als startpunt gebruikt worden. Breid deze functie uit en
 return de knapsack en items bv met gebruik van lijst en/of tuple:
@@ -210,7 +210,7 @@ functies door python worden gelezen.
 
 ## Inpakken
 
-**Opdracht5:** Schrijf de functie:
+**Opdracht 5:** Schrijf de functie:
 
     def solve_knapsack(filename):
         """ Returns the highest number of points found while trying different ways of
@@ -239,7 +239,7 @@ verdwijnen of bijkomen.
 
 ## Optioneel: Beter Inpakken
 
-**Opdracht6:** Bedenk zelf een beter algoritme om een zo hoog mogelijk
+**Opdracht 6:** Bedenk zelf een beter algoritme om een zo hoog mogelijk
 aantal punten voor de knapsack te vinden. Zo kun je misschien het
 aantal punten van een ingepakte knapsack verder verhogen door er eerst
 weer wat items uit te halen. Voeg eventueel hiervoor eigen methodes
@@ -250,7 +250,7 @@ slimmer/ingewikkelder maakt.
 
 Wat is het hoogste aantal punten wat je kunt vinden voor het
 [knapsack_large.csv](knapsack_large.csv) probleem? Vergelijk je
-resultaat met andere.
+resultaat met anderen.
 
 ## Theorie: Voordelen van Object-Oriented Programming 
 
@@ -304,4 +304,6 @@ voorbeelden hiervan:
 
 ## Afronding
 
-**Opdracht7:** Voeg doctests toe die testen of je code goed werkt.
+**Opdracht 7:** Voeg doctests toe die testen of je code goed werkt.
+
+**Opdracht 8:** Voeg een main toe waarin de code wordt "gestart" met `knapsack_large.csv` zodat de opdracht goed nagekeken kan worden.

@@ -116,8 +116,9 @@ Module 13:
 Module 14:
     Lezen en oefenen:
         # niet zo'n handig hoofdstuk, misschien beter zelf stof aanreiken hier
-        "Chapter 10: Reading and Writing Files": /boek/files
+        # "Chapter 10: Reading and Writing Files": /boek/files
+        Files lezen en schrijven: /uitleg/files
     Opdrachten:
         # Preprocessing: /opdrachten/week5/eca2csv # deze gaat weg
-        Cijfers: /opdrachten/week5/cijfers
+        # Cijfers: /opdrachten/week5/cijfers
         Klimaat: /opdrachten/week7/klimaat

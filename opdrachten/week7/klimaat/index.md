@@ -35,20 +35,14 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - De checks zijn extreem streng: de output moet **exact** zo zijn als hierboven.
 
-- Gebruik als input de file `climate.csv` die je hebt gegenereerd in de vorige opdracht.
+- Gebruik als input de file [climate.csv](climate.csv). Je programma moet ook werken als het bestand andere waarden bevat!
 
-- Je moet alle data in een variabele inlezen voor verdere verwerking.
+- Maak een functie `print_basis_info(filename: str)` die de naam van het bestand meekrijgt en de secties "Databestand" en "Basisinformatie" print, inclusief de gegevens die hierboven in het voorbeeld vermeld zijn. Zorg dat deze functie slechts één keer door het bestand loopt.
 
-- Het is niet toegestaan alle informatie in één lange functie te berekenen. Dit kan enigszins efficiënt zijn maar is funest voor de leesbaarheid van de code. Zorg dus dat je elke analyse in een aparte functie uitvoert.
+- Maak een functie `extremen(filename: str) -> dict[int, list[int]]` die de naam van het bestand meekrijgt en alle informatie over elk jaar 2010-2019 in een `dict` verzamelt. Deze dictionary moet vervolgens teruggegeven worden met `return`. Zorg dat deze functie slechts één keer door het bestand loopt.
 
-- Bedenk welke delen je nog meer in aparte functies kunt zetten.
+- Maak een functie `print_extremen(filename: str)` die de naam van het bestand meekrijgt, dan de functie `extremen()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
 
-- Schrijf doctests en zorg dat alle types op orde zijn.
+- Bedenk welke delen je eventueel nog in aparte functies kunt zetten, maar houd bovenstaande drie functies aan en roep ze aan in een if-name-is-main onderaan je code.
 
-## Algoritmische tips
-
-- Veel van deze opdracht gaat over het zoeken naar kleinste en grootste waarden in alle data of een deel daarvan. Het boek behandelt dit idee in de sectie "Processing Whitespace-Delimited Data" (p. 192).
-
-- Het schrijven van loops om delen van de data te verwerken is een beetje een puzzel. Het is goed om het code-voorbeeld op p. 182 van het boek goed te bestuderen en te begrijpen. Door het formaat van het bestand met een header, worden de data-regels inconsistent ingelezen. De *eerste* dataregel wordt al ingelezen *tijdens* het skippen van de header (`data = hopedale_file.readline().strip()`) en de *rest* van de data wordt in een eigen loop ingelezen (`for data in hopedale_file`). Zo worden alle dataregels wel gelezen, maar de code zelf is niet zo duidelijk: de readline-strategie wordt vermengd met de "for line in file"-strategie.
-
-- Het is helemaal prima om zulke lelijke trucjes te gebruiken voor het doorspitten van de data. Zorg eerst dat je het werkend krijgt en daarna kun je alles altijd nog netter maken.
+- Zorg dat alle types op orde zijn; doctests zijn alleen verplicht voor hulpfuncties naast de bovenstaande drie.
