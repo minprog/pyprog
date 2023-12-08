@@ -16,6 +16,7 @@ Voor deze module gebruik je de volgende aspecten. Neem de tijd om de uitlegpagin
 - [Comments](/quality/comments)
 - [Naming](/quality/naming)
 - [Cleanup](/quality/cleanup)
+- [Doctests](/quality/doctests)
 
 Let op dat (goedwerkende) doctests en types verplicht aanwezig moeten zijn, ook bij de verbeterde versies van je programma's.
 
