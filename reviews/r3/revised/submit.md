@@ -20,6 +20,4 @@ Vergeet niet je aangepaste uitwerking op te slaan en uitgebreid te testen. Submi
 
 ## Inleveren
 
-**Let heel goed op. Je moet alle onderstaande bestanden (tegelijk) inleveren. Alle bestanden die je inlevert moeten perfect door de checks heenkomen. Controleer daarom na inzending meteen of het akkoord is.**
-
-Als je één van de onderstaande opdrachten vrijdag niet helemaal af had gekregen (afgekeurd door website of niet ingeleverd) dan moet je die vervangen door Sjoelen of Temperatuurtabellen.
+**Let heel goed op. Alle bestanden die je inlevert moeten perfect door de checks heenkomen. Controleer daarom na inzending meteen of het akkoord is.**
