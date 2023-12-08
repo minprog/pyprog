@@ -219,10 +219,10 @@ grades:
 
     # module 9
     dict_oefening:
-        <<: *check
+        <<: *automatic
         deadline: 1/12/23 17:00
     set_oefening:
-        <<: *check
+        <<: *automatic
         deadline: 1/12/23 17:00
     collection_functions:
         <<: *automatic
