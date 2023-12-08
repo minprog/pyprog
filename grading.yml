@@ -345,6 +345,13 @@ grades:
         calculation: -gedaan.abs
         hide_calculated: true
 
+    toetsje_3:
+        is_test: true
+        subgrades:
+            gedaan: boolean
+        calculation: -gedaan.abs
+        hide_calculated: true
+
     oefententamen:
         <<: *automatic
         automatic:
@@ -622,3 +629,4 @@ oefeningen:
     submits:
         toetsje: 1
         toetsje_2: 1
+        toetsje_3: 1
