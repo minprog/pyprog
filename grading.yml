@@ -505,10 +505,10 @@ module_13:
     submits:
         knapsack: 1
 
-# module_14:
-#     show_progress: true
-#     submits:
-#         klimaat: 1
+module_14:
+    show_progress: true
+    submits:
+        klimaat: 1
 
 # mod_programmeren:
 #     show_overview: true
