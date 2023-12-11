@@ -43,7 +43,7 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - Maak een functie `extremes(filename: str) -> dict[int, list[int]]` die de naam van het bestand meekrijgt en alle informatie over elk jaar 2010-2019 in een `dict` verzamelt. Deze dictionary moet vervolgens teruggegeven worden met `return`. Zorg dat deze functie slechts één keer door het bestand loopt.
 
-- Maak een functie `print_extremes(filename: str)` die de naam van het bestand meekrijgt, dan de functie `extremen()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
+- Maak een functie `print_extremes(filename: str)` die de naam van het bestand meekrijgt, dan de functie `extremes()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
 
 - Bedenk welke delen je eventueel nog in aparte functies kunt zetten, maar houd bovenstaande drie functies aan en roep ze aan in een if-name-is-main onderaan je code.
 
