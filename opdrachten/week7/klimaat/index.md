@@ -39,11 +39,11 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - De datums staan in het formaat `YYYYMMDD`. Dit kun je gewoon als string behouden. Je kunt vervolgens het jaartal eruit halen door `datum[0:4]` te doen (slicing dus, zoals eerder in het boek behandeld met lists, kan ook met strings).
 
-- Maak een functie `print_basis_info(filename: str)` die de naam van het bestand meekrijgt en de secties "Databestand" en "Basisinformatie" print, inclusief de gegevens die hierboven in het voorbeeld vermeld zijn. Zorg dat deze functie slechts één keer door het bestand loopt.
+- Maak een functie `print_basic_info(filename: str)` die de naam van het bestand meekrijgt en de secties "Databestand" en "Basisinformatie" print, inclusief de gegevens die hierboven in het voorbeeld vermeld zijn. Zorg dat deze functie slechts één keer door het bestand loopt.
 
-- Maak een functie `extremen(filename: str) -> dict[int, list[int]]` die de naam van het bestand meekrijgt en alle informatie over elk jaar 2010-2019 in een `dict` verzamelt. Deze dictionary moet vervolgens teruggegeven worden met `return`. Zorg dat deze functie slechts één keer door het bestand loopt.
+- Maak een functie `extremes(filename: str) -> dict[int, list[int]]` die de naam van het bestand meekrijgt en alle informatie over elk jaar 2010-2019 in een `dict` verzamelt. Deze dictionary moet vervolgens teruggegeven worden met `return`. Zorg dat deze functie slechts één keer door het bestand loopt.
 
-- Maak een functie `print_extremen(filename: str)` die de naam van het bestand meekrijgt, dan de functie `extremen()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
+- Maak een functie `print_extremes(filename: str)` die de naam van het bestand meekrijgt, dan de functie `extremen()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
 
 - Bedenk welke delen je eventueel nog in aparte functies kunt zetten, maar houd bovenstaande drie functies aan en roep ze aan in een if-name-is-main onderaan je code.
 
