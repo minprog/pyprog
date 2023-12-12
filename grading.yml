@@ -241,7 +241,6 @@ grades:
         automatic:
             done: -(correctness_score.floor/6)
         deadline: 1/12/23 17:00
-        deadline_hard: true
 
     # # module 10
     # algorithms:
