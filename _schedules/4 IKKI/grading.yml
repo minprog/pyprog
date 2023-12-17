@@ -10,33 +10,6 @@ calculation:
 
 # ----------------------------------------------------
 
-code_reviews:
-    show_progress: true
-    type: points
-    submits:
-        r1: 1
-        r2: 1
-        r3: 1
-
-tentamen_ki:
-    show_overview: true
-    attempt_required: true
-    submits:
-        tentamen_ki: 1
-
-tentamen_ik:
-    show_overview: true
-    attempt_required: true
-    submits:
-        tentamen_ik: 1
-
-oefeningen:
-    show_progress: true
-    submits:
-        toetsje: 1
-
-# ----------------------------------------------------
-
 module_1:
     show_progress: true
     deadline: 3/11/23 17:00
@@ -146,3 +119,28 @@ module_14:
     submits:
         eca2csv: 1
         klimaat: 1
+
+# ----------------------------------------------------
+
+tentamen_ki:
+    show_overview: true
+    attempt_required: true
+    submits:
+        tentamen_ki: 1
+
+tentamen_ik:
+    show_overview: true
+    attempt_required: true
+    submits:
+        tentamen_ik: 1
+
+code_reviews:
+    show_progress: true
+    type: points
+    submits:
+        toetsje: 1
+        r1: 1
+        toetsje_2: 1
+        r2: 1
+        toetsje_3: 1
+        r3: 1
