@@ -1,12 +1,12 @@
 calculation:
     eindcijfer_ki:
-        code_reviews: 20
+        # code_reviews: 20
         oefeningen: 10
-        tentamen_ki: 70
+        tentamen_ki: 90
     eindcijfer_ik:
-        code_reviews: 20
+        # code_reviews: 20
         oefeningen: 10
-        tentamen_ik: 70
+        tentamen_ik: 90
 
 # ----------------------------------------------------
 
