@@ -68,6 +68,14 @@ mod_dataverwerking:
         eca2csv: 1
         klimaat: 1
 
+code_reviews:
+    show_progress: true
+    type: points
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
+
 tentamen_inf4all:
     show_progress: true
     attempt_required: true

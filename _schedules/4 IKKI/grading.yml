@@ -1,10 +1,41 @@
 calculation:
     eindcijfer_ki:
-        code_reviews: 25
-        tentamen_ki: 75
+        code_reviews: 20
+        oefeningen: 10
+        tentamen_ki: 70
     eindcijfer_ik:
-        code_reviews: 25
-        tentamen_ik: 75
+        code_reviews: 20
+        oefeningen: 10
+        tentamen_ik: 70
+
+# ----------------------------------------------------
+
+code_reviews:
+    show_progress: true
+    type: points
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
+
+tentamen_ki:
+    show_overview: true
+    attempt_required: true
+    submits:
+        tentamen_ki: 1
+
+tentamen_ik:
+    show_overview: true
+    attempt_required: true
+    submits:
+        tentamen_ik: 1
+
+oefeningen:
+    show_progress: true
+    submits:
+        toetsje: 1
+
+# ----------------------------------------------------
 
 module_1:
     show_progress: true
@@ -115,28 +146,3 @@ module_14:
     submits:
         eca2csv: 1
         klimaat: 1
-
-code_reviews:
-    show_progress: true
-    type: points
-    submits:
-        r1: 1
-        r2: 1
-        r3: 1
-
-tentamen_ki:
-    show_overview: true
-    attempt_required: true
-    submits:
-        tentamen_ki: 1
-
-tentamen_ik:
-    show_overview: true
-    attempt_required: true
-    submits:
-        tentamen_ik: 1
-
-oefeningen:
-    show_progress: true
-    submits:
-        toetsje: 1
