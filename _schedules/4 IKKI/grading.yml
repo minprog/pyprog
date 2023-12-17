@@ -134,7 +134,7 @@ tentamen_ik:
     submits:
         tentamen_ik: 1
 
-code_reviews:
+oefeningen:
     show_progress: true
     type: points
     submits:
