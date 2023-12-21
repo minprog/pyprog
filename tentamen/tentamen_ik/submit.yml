@@ -1,8 +1,11 @@
 name: tentamen_ik
 files:
   required:
-    - opdracht1234.py
-    - opdracht5_dataproc.py
+    - basis.py
+    - comprehensions.py
+    - collections.py
+    - objects.py
+    - dataproc.py
 # check:
 #   tool: checkpy
 #   repo: minprog/python
