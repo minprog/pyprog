@@ -367,9 +367,11 @@ grades:
     tentamen_ik:
         type: float
         deadline: 21/12/23 17:00
+        deadline_hard: true
     tentamen_ki:
         type: float
         deadline: 21/12/23 17:00
+        deadline_hard: true
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
