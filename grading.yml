@@ -368,10 +368,16 @@ grades:
         type: float
         deadline: 21/12/23 17:00
         deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
     tentamen_ki:
         type: float
         deadline: 21/12/23 17:00
         deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
