@@ -63,9 +63,9 @@ Module 5:
     Lezen en oefenen:
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
-        Queue: /classes/queue                      # basic datastructuur, encapsulation, init
-        Cards: /classes/cards                      # UML, data class, container
-        Hangman: /hangman/classic                  # separation of concerns (lexicon/game)
+        Queue: /opdrachten/week6/queue             # basic datastructuur, encapsulation, init
+        Cards: /opdrachten/week6/cards             # UML, data class, container
+        Hangman: /opdrachten/week6/hangman         # separation of concerns (lexicon/game)
         Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
         # let op: lisp, figuren zijn geschrapt
 
