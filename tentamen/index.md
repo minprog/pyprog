@@ -2,4 +2,4 @@
 
 <!-- [Inleveren voor Kunstmatige Intelligentie](/tentamen/tentamen_ki) -->
 
-[Inleveren voor Beta-gamma (herkansing)](/tentamen/tentamen_bgh)
+[Inleveren voor INF4ALL](/tentamen/tentamen_inf4all)

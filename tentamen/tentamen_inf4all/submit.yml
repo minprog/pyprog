@@ -1,0 +1,12 @@
+name: tentamen_inf4all
+files:
+  required:
+    - basis.py
+    - comprehensions.py
+    - collec_tions.py
+    - objects.py
+    - dataproc.py
+check:
+  tool: checkpy
+  repo: minprog/pytent
+  args: basis comprehensions collec_tions objects dataproc
