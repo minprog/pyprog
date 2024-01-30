@@ -1,0 +1,12 @@
+name: hertentamen_ki
+files:
+  required:
+    - basis2.py
+    - comprehensions2.py
+    - collections2.py
+    - contacts2.py
+    - dataproc2.py
+check:
+  tool: checkpy
+  repo: minprog/pytent
+  args: basis2 comprehensions2 collections2 contacts2 dataproc2

@@ -378,6 +378,20 @@ grades:
         subgrades:
             punten: float
         calculation: punten / 20.0 * 9 + 1
+    hertentamen_ik:
+        type: float
+        deadline: 30/01/24 22:00
+        deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
+    hertentamen_ki:
+        type: float
+        deadline: 30/01/24 22:00
+        deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
     tentamen_inf4all:
         type: float
         deadline: 20/01/24 17:00
@@ -643,6 +657,18 @@ tentamen_ik:
     attempt_required: true
     submits:
         tentamen_ik: 1
+
+hertentamen_ki:
+    show_overview: true
+    attempt_required: true
+    submits:
+        hertentamen_ki: 1
+
+hertentamen_ik:
+    show_overview: true
+    attempt_required: true
+    submits:
+        hertentamen_ik: 1
 
 oefeningen:
     show_progress: true

@@ -1,5 +1,5 @@
-<!-- [Inleveren voor Informatiekunde](/tentamen/tentamen_ik) -->
+[Inleveren voor Informatiekunde](/tentamen/hertentamen_ik)
 
-<!-- [Inleveren voor Kunstmatige Intelligentie](/tentamen/tentamen_ki) -->
+[Inleveren voor Kunstmatige Intelligentie](/tentamen/hertentamen_ki)
 
-[Inleveren voor INF4ALL](/tentamen/tentamen_inf4all)
+<!-- [Inleveren voor INF4ALL](/tentamen/tentamen_inf4all) -->
