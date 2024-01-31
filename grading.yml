@@ -457,7 +457,7 @@ calculation:
 # You can leave these out if unused in the `calculation` section.
 
 module_1:
-    show_progress: true
+#    show_progress: true
     submits:
         experimenteren: 1
         fdr: 1
@@ -466,7 +466,7 @@ module_1:
         vakantie: 1
 
 module_2:
-    show_progress: true
+#    show_progress: true
     submits:
         string_func: 1
         acid: 1
@@ -475,7 +475,7 @@ module_2:
         calculator: 1
 
 module_3:
-    show_progress: true
+#    show_progress: true
     submits:
         string_module: 1
         string_methods: 1
@@ -483,7 +483,7 @@ module_3:
         wachtwoord: 1
 
 module_4:
-    show_progress: true
+#    show_progress: true
     submits:
         list_functions: 1
         scrabble: 1
@@ -491,45 +491,45 @@ module_4:
         temperatuur: 1
 
 module_5:
-    show_progress: true
+#    show_progress: true
     submits:
         rna: 1
         leesbaarheid: 1
         camelcase: 1
 
 module_6:
-    show_progress: true
+#    show_progress: true
     submits:
         schuifpuzzel: 1
         kalender: 1
 
 module_7:
-    show_progress: true
+#    show_progress: true
     submits:
         populatie: 1
         sjoelen: 1
 
 module_8:
-    show_progress: true
+#    show_progress: true
     submits:
         comprehensions: 1
         virus: 1
 
 module_9:
-    show_progress: true
+#    show_progress: true
     submits:
         dict_oefening: 1
         set_oefening: 1
         collection_functions: 1
 
 module_10:
-    show_progress: true
+#    show_progress: true
     submits:
         collection_functions2: 1
         indexer: 1
 
 module_11:
-    show_progress: true
+#    show_progress: true
     submits:
         queue: 1
         cards: 1
@@ -537,17 +537,17 @@ module_11:
         lines: 1
 
 module_12:
-    show_progress: true
+#    show_progress: true
     submits:
         hangman: 1
 
 module_13:
-    show_progress: true
+#    show_progress: true
     submits:
         knapsack: 1
 
 module_14:
-    show_progress: true
+#    show_progress: true
     submits:
         klimaat: 1
 
