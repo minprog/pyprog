@@ -632,14 +632,6 @@ code_reviews_bg:
         bg2: 1
         bg3: 1
 
-code_reviews:
-    show_progress: true
-    type: maximum
-    submits:
-        r1: 1
-        r2: 1
-        r3: 1
-
 tentamen_bg:
     show_overview: true
     minimum: 5.5
@@ -676,6 +668,14 @@ hertentamen_ik:
     attempt_required: true
     submits:
         hertentamen_ik: 1
+
+code_reviews:
+    show_progress: true
+    type: maximum
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
 
 oefeningen:
     show_progress: true
