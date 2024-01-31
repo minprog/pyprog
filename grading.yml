@@ -436,6 +436,12 @@ calculation:
     eindcijfer_ik:
         meedoen: 10
         tentamen_ik: 90
+    herkansing_ki:
+        meedoen: 10
+        hertentamen_ki: 90
+    herkansing_ik:
+        meedoen: 10
+        hertentamen_ik: 90
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
