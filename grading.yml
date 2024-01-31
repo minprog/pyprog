@@ -404,7 +404,7 @@ grades:
         type: float
         subgrades:
             punten: integer
-        calculation: punten / 5.0 * 9 + 1
+        calculation: (punten + 1) / 5.0 * 9 + 1
 
 
 # CALCULATIONS - define the final grades for the course and the weights between
