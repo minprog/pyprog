@@ -647,25 +647,25 @@ tentamen_inf4all:
 
 tentamen_ki:
     show_overview: true
-    attempt_required: true
+    minimum: 5.5
     submits:
         tentamen_ki: 1
 
 tentamen_ik:
     show_overview: true
-    attempt_required: true
+    minimum: 5.5
     submits:
         tentamen_ik: 1
 
 hertentamen_ki:
     show_overview: true
-    attempt_required: true
+    minimum: 5.5
     submits:
         hertentamen_ki: 1
 
 hertentamen_ik:
     show_overview: true
-    attempt_required: true
+    minimum: 5.5
     submits:
         hertentamen_ik: 1
 
