@@ -400,6 +400,13 @@ grades:
             punten: float
         calculation: punten / 20.0 * 9 + 1
 
+    meedoen:
+        type: float
+        subgrades:
+            punten: integer
+        calculation: punten / 5 * 9 + 1
+
+
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
@@ -424,11 +431,11 @@ calculation:
         code_reviews: 25
         tentamen_inf4all: 75
     eindcijfer_ki:
-        code_reviews: 25
-        tentamen_ki: 75
+        meedoen: 10
+        tentamen_ki: 90
     eindcijfer_ik:
-        code_reviews: 25
-        tentamen_ik: 75
+        meedoen: 10
+        tentamen_ik: 90
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -676,3 +683,7 @@ oefeningen:
         toetsje: 1
         toetsje_2: 1
         toetsje_3: 1
+
+meedoen:
+    submits:
+        meedoen: 1
