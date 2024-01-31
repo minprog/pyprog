@@ -685,5 +685,6 @@ oefeningen:
         toetsje_3: 1
 
 meedoen:
+    show_overview: true
     submits:
         meedoen: 1
