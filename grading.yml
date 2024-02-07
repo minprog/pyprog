@@ -444,6 +444,9 @@ calculation:
     herkansing_ik:
         meedoen: 10
         hertentamen_ik: 90
+    herkansing_bg:
+        code_reviews_bg: 25
+        tentamen_bg_her: 75
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
