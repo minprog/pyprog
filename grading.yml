@@ -362,6 +362,8 @@ grades:
 
     tentamen_bg:
         type: float
+    tentamen_bg_her:
+        type: float
     tentamen_inf4all:
         type: float
     tentamen_ik:
@@ -644,6 +646,13 @@ tentamen_bg:
     attempt_required: true
     submits:
         tentamen_bg: 1
+
+tentamen_bg_her:
+    show_overview: true
+    minimum: 5.5
+    attempt_required: true
+    submits:
+        tentamen_bg_her: 1
 
 tentamen_inf4all:
     show_overview: true
