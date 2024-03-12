@@ -230,10 +230,3 @@ mod_dataverwerking:
     submits:
         eca2csv: 1
         klimaat: 1
-
-oefeningen:
-    show_progress: true
-    submits:
-        toetsje: 1
-        toetsje_2: 1
-        toetsje_3: 1
