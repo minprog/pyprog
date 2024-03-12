@@ -429,9 +429,6 @@ calculation:
     eindcijfer_bg:
         code_reviews_bg: 25
         tentamen_bg: 75
-    eindcijfer_inf4all:
-        code_reviews: 25
-        tentamen_inf4all: 75
     eindcijfer_ki:
         meedoen: 10
         tentamen_ki: 90
@@ -656,12 +653,6 @@ tentamen_bg_her:
     attempt_required: true
     submits:
         tentamen_bg_her: 1
-
-tentamen_inf4all:
-    show_overview: true
-    attempt_required: true
-    submits:
-        tentamen_inf4all: 1
 
 tentamen_ki:
     show_overview: true
