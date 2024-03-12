@@ -69,204 +69,84 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
-    # module 1
-    experimenteren:
-        <<: *check
-    fdr:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/10)
-    weken:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    cafeine:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    vakantie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
 
-    # module 2
-    string_func:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    acid:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    orakel:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    etenstijd:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    calculator:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
+    r1:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 15/11/23 20:00
+        deadline_hard: true
+    r2:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 29/11/23 19:00
+        deadline_hard: true
+    r3:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 11/12/23 19:00
+        deadline_hard: true
 
-    # module 3
-    string_module:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    string_methods:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    rechthoeken:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    wachtwoord:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
+    toetsje:
+        is_test: true
+        subgrades:
+            gedaan: boolean
+        calculation: -gedaan.abs
+        hide_calculated: true
 
-    # module 4
-    list_functions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    scrabble:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    cola:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    temperatuur:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
+    toetsje_2:
+        is_test: true
+        subgrades:
+            gedaan: boolean
+        calculation: -gedaan.abs
+        hide_calculated: true
 
-    # module 5
-    rna:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    leesbaarheid:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    camelcase:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-
-    # module 6
-    schuifpuzzel:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    kalender:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/12)
-
-    # module 7
-    populatie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-    sjoelen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-
-    # module 8
-    comprehensions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    virus:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/17)
-
-    # module 9
-    dict_oefening:
-        <<: *automatic
-    set_oefening:
-        <<: *automatic
-    collection_functions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-
-    # module 10
-    collection_functions2:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    indexer:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-
-    # # module 10
-    # algorithms:
-    #     <<: *check
-    #
-
-    # module 11
-    queue:
-        <<: *automatic
-        automatic:
-            done: -correctness_score.floor
-    cards:
-        <<: *automatic
-        automatic:
-            done: -correctness_score.floor
-    country:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-    lines:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/4)
-
-    # module 12
-    hangman:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/20)
-    hangman-less:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor)
-
-    # module 13
-    knapsack:
-        <<: *check
-
-    # module 14
-    eca2csv:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
-    klimaat:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-
-    pygame:
-        <<: *check
-    project:
-        <<: *check
+    toetsje_3:
+        is_test: true
+        subgrades:
+            gedaan: boolean
+        calculation: -gedaan.abs
+        hide_calculated: true
 
     oefententamen:
         <<: *automatic
         automatic:
             done: -(correctness_score.floor/2)
+
+    tentamen_ik:
+        type: float
+        deadline: 21/12/23 17:00
+        deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
+    tentamen_ki:
+        type: float
+        deadline: 21/12/23 17:00
+        deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
+    hertentamen_ik:
+        type: float
+        deadline: 30/01/24 22:00
+        deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
+    hertentamen_ki:
+        type: float
+        deadline: 30/01/24 22:00
+        deadline_hard: true
+        subgrades:
+            punten: float
+        calculation: punten / 20.0 * 9 + 1
+
+    meedoen:
+        type: float
+        subgrades:
+            punten: integer
+        calculation: (punten + 1) / 6.0 * 9 + 1
+
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -316,3 +196,156 @@ calculation:
 # is at least the specified minimum
 #
 # You can leave these out if unused in the `calculation` section.
+
+module_1:
+    show_progress: true
+    deadline: 3/11/23 17:00
+    submits:
+        experimenteren: 1
+        fdr: 1
+        weken: 1
+        cafeine: 1
+        vakantie: 1
+
+module_2:
+    show_progress: true
+    deadline: 3/11/23 17:00
+    submits:
+        string_func: 1
+        acid: 1
+        orakel: 1
+        etenstijd: 1
+        calculator: 1
+
+module_3:
+    show_progress: true
+    deadline: 10/11/23 17:00
+    submits:
+        string_module: 1
+        string_methods: 1
+        rechthoeken: 1
+        wachtwoord: 1
+
+module_4:
+    show_progress: true
+    deadline: 10/11/23 17:00
+    submits:
+        list_functions: 1
+        scrabble: 1
+        cola: 1
+        temperatuur: 1
+
+module_5:
+    show_progress: true
+    deadline: 17/11/23 17:00
+    submits:
+        rna: 1
+        leesbaarheid: 1
+        camelcase: 1
+
+module_6:
+    show_progress: true
+    deadline: 17/11/23 17:00
+    submits:
+        schuifpuzzel: 1
+        kalender: 1
+
+module_7:
+    show_progress: true
+    deadline: 24/11/23 17:00
+    submits:
+        populatie: 1
+        sjoelen: 1
+
+module_8:
+    show_progress: true
+    deadline: 24/11/23 17:00
+    submits:
+        comprehensions: 1
+        virus: 1
+
+module_9:
+    show_progress: true
+    deadline: 1/12/23 17:00
+    submits:
+        dict_oefening: 1
+        set_oefening: 1
+        collection_functions: 1
+
+module_10:
+    show_progress: true
+    deadline: 1/12/23 17:00
+    submits:
+        collection_functions2: 1
+        indexer: 1
+
+module_11:
+    show_progress: true
+    deadline: 8/12/23 17:00
+    submits:
+        queue: 1
+        cards: 1
+        country: 1
+        lines: 1
+
+module_12:
+    show_progress: true
+    deadline: 8/12/23 17:00
+    submits:
+        hangman: 1
+
+module_13:
+    show_progress: true
+    deadline: 15/12/23 17:00
+    submits:
+        knapsack: 1
+
+module_14:
+    show_progress: true
+    deadline: 15/12/23 17:00
+    submits:
+        klimaat: 1
+
+tentamen_ki:
+    show_overview: true
+    minimum: 5.5
+    submits:
+        tentamen_ki: 1
+
+tentamen_ik:
+    show_overview: true
+    minimum: 5.5
+    submits:
+        tentamen_ik: 1
+
+hertentamen_ki:
+    show_overview: true
+    minimum: 5.5
+    submits:
+        hertentamen_ki: 1
+
+hertentamen_ik:
+    show_overview: true
+    minimum: 5.5
+    submits:
+        hertentamen_ik: 1
+
+code_reviews:
+    show_progress: true
+    type: maximum
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
+
+oefeningen:
+    show_progress: true
+    submits:
+        toetsje: 1
+        toetsje_2: 1
+        toetsje_3: 1
+
+meedoen:
+    show_overview: true
+    submits:
+        meedoen: 1
