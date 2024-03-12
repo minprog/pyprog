@@ -139,20 +139,6 @@ code_reviews_bg:
         bg2: 1
         bg3: 1
 
-tentamen_bg:
-    show_overview: true
-    minimum: 5.5
-    attempt_required: true
-    submits:
-        tentamen_bg: 1
-
-tentamen_bg_her:
-    show_overview: true
-    minimum: 5.5
-    attempt_required: true
-    submits:
-        tentamen_bg_her: 1
-
 mod_programmeren:
     show_overview: true
     deadline: 8/9/23 17:00
@@ -209,3 +195,17 @@ mod_project:
     deadline: 20/10/23 17:00
     submits:
         project: 1
+
+tentamen_bg:
+    show_overview: true
+    minimum: 5.5
+    attempt_required: true
+    submits:
+        tentamen_bg: 1
+
+tentamen_bg_her:
+    show_overview: true
+    minimum: 5.5
+    attempt_required: true
+    submits:
+        tentamen_bg_her: 1

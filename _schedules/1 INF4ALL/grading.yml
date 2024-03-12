@@ -145,18 +145,6 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-tentamen_inf4all:
-    show_overview: true
-    minimum: 5.5
-    submits:
-        tentamen_inf4all: 1
-
-hertentamen_ik:
-    show_overview: true
-    minimum: 5.5
-    submits:
-        hertentamen_ik: 1
-
 code_reviews:
     show_progress: true
     type: maximum
@@ -229,3 +217,15 @@ mod_dataverwerking:
     submits:
         eca2csv: 1
         klimaat: 1
+
+tentamen_inf4all:
+    show_overview: true
+    minimum: 5.5
+    submits:
+        tentamen_inf4all: 1
+
+hertentamen_ik:
+    show_overview: true
+    minimum: 5.5
+    submits:
+        hertentamen_ik: 1

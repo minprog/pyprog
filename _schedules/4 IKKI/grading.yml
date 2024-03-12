@@ -197,6 +197,14 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
+code_reviews:
+    show_progress: true
+    type: maximum
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
+
 module_1:
     show_progress: true
     deadline: 3/11/23 17:00
@@ -329,14 +337,6 @@ hertentamen_ik:
     minimum: 5.5
     submits:
         hertentamen_ik: 1
-
-code_reviews:
-    show_progress: true
-    type: maximum
-    submits:
-        r1: 1
-        r2: 1
-        r3: 1
 
 oefeningen:
     show_progress: true
