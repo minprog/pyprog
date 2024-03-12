@@ -145,7 +145,6 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-
 tentamen_inf4all:
     show_overview: true
     minimum: 5.5
