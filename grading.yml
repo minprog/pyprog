@@ -211,10 +211,10 @@ grades:
         automatic:
             done: -(correctness_score.floor/6)
 
-    # # module 10
-    # algorithms:
-    #     <<: *check
-    #
+    # module 10
+    algorithms:
+        <<: *check
+
 
     # module 11
     queue:
