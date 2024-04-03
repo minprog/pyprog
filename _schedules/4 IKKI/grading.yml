@@ -107,10 +107,7 @@ grades:
         calculation: -gedaan.abs
         hide_calculated: true
 
-    oefententamen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
+    oefententamen: *automatic
 
     tentamen_ik:
         type: float
