@@ -136,8 +136,12 @@ grades:
             done: -(correctness_score.floor/6)
     scrabble:
         <<: *automatic
+        subgrades:
+            done: boolean
+            score: float
         automatic:
-            done: -(correctness_score.floor/8)
+            done: -(correctness_score.floor)
+            score: correctness_score
     cola:
         <<: *automatic
         automatic:
