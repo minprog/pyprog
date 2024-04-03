@@ -70,204 +70,78 @@ templates:
 
 grades:
     # module 1
-    experimenteren:
-        <<: *check
-    fdr:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/10)
-    weken:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    cafeine:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    vakantie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
+    experimenteren: *check
+    fdr: *automatic
+    weken: *automatic
+    cafeine: *automatic
+    vakantie: *automatic
 
     # module 2
-    string_func:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    acid:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    orakel:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    etenstijd:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    calculator:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
+    string_func: *automatic
+    acid: *automatic
+    orakel: *automatic
+    etenstijd: *automatic
+    calculator: *automatic
 
     # module 3
-    string_module:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    string_methods:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    rechthoeken:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    wachtwoord:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
+    string_module: *automatic
+    string_methods: *automatic
+    rechthoeken: *automatic
+    wachtwoord: *automatic
 
     # module 4
-    list_functions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    scrabble:
-        <<: *automatic
-        subgrades:
-            done: boolean
-            score: float
-        automatic:
-            done: -(correctness_score.floor)
-            score: correctness_score
-    cola:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    temperatuur:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
+    list_functions: *automatic
+    scrabble: *automatic
+    cola: *automatic
+    temperatuur: *automatic
 
     # module 5
-    rna:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    leesbaarheid:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    camelcase:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
+    rna: *automatic
+    leesbaarheid: *automatic
+    camelcase: *automatic
 
     # module 6
-    schuifpuzzel:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    kalender:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/12)
+    schuifpuzzel: *automatic
+    kalender: *automatic
 
     # module 7
-    populatie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-    sjoelen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
+    populatie: *automatic
+    sjoelen: *automatic
 
     # module 8
-    comprehensions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    virus:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/17)
+    comprehensions: *automatic
+    virus: *automatic
 
     # module 9
-    dict_oefening:
-        <<: *automatic
-    set_oefening:
-        <<: *automatic
-    collection_functions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
+    dict_oefening: *automatic
+    set_oefening: *automatic
+    collection_functions: *automatic
 
     # module 10
-    collection_functions2:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    indexer:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
+    collection_functions2: *automatic
+    indexer: *automatic
 
     # module 10
-    algorithms:
-        <<: *check
-
+    algorithms: *check
 
     # module 11
-    queue:
-        <<: *automatic
-        automatic:
-            done: -correctness_score.floor
-    cards:
-        <<: *automatic
-        automatic:
-            done: -correctness_score.floor
-    country:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-    lines:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/4)
+    queue: *automatic
+    cards: *automatic
+    country: *automatic
+    lines: *automatic
 
     # module 12
-    hangman:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/20)
-    hangman-less:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor)
+    hangman: *automatic
+    hangman-less: *automatic
 
     # module 13
-    knapsack:
-        <<: *check
+    knapsack: *check
 
     # module 14
-    eca2csv:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
-    klimaat:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
+    eca2csv: *automatic
+    klimaat: *automatic
 
-    pygame:
-        <<: *check
-    project:
-        <<: *check
+    pygame: *check
+    project: *check
 
-    oefententamen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
+    oefententamen: *automatic
