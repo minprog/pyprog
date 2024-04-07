@@ -26,4 +26,4 @@ Hier is bijvoorbeeld te zien dat 2 personen een geschatte kans van 0.005 hebben 
 
 6) Gebruik [matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html#sphx-glr-tutorials-pyplot-py) om met jouw eigen lijst van geschatte kansen de onderstaande grafiek te maken.
 
-![birthday_probability.png](birthday_probability.png)
+![birthday_probabilities.png](birthday_probabilities.png)
