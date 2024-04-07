@@ -1,6 +1,6 @@
 # Birthday Problem
 
-In het [Birthday Problem](https://en.wikipedia.org/wiki/Birthday_problem) wordt de kans berekend dat een groep mensen een overlappende verjaardag heeft. Youtube video [The Birthday Paradox](https://youtu.be/ofTb57aZHZs) legt uit hoe dit wiskundig kan worden uitgerekend.
+In het [Birthday Problem](https://en.wikipedia.org/wiki/Birthday_problem) wordt de kans berekend dat een groep mensen een overlappende verjaardag heeft. Youtube video [The Birthday Paradox](https://youtu.be/ofTb57aZHZs) van Vsauce2 legt uit hoe dit wiskundig kan worden berekened.
 
 [![birthday_paradox_vsauce2.png](birthday_paradox_vsauce2.png)](https://youtu.be/ofTb57aZHZs)
 
