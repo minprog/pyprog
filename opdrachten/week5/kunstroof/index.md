@@ -29,14 +29,11 @@ het type te printen, bv met: print(type(dader_ids)).
 - Hoeveel sneller is een 'set'?
 - Waarom is een 'set' sneller?
 
-**opdracht3**: Het is nog iets sneller, makkelijker en leesbaarder
-om [set operatoren](https://docs.python.org/2/library/sets.html) te
-gebruiken:
+**opdracht3**: Het is nog iets sneller, makkelijker en leesbaarder om
+[set operatoren](https://docs.python.org/3/tutorial/datastructures.html#sets)
+te gebruiken:
 
-- methode `union()`, of de '|' operator
-- methode `intersection()`, of de '&' operator
-- methode `difference()`, of de '-' operator
-- methode `symmetric_difference()`, of de '^' operator
+![set_operators.png](set_operators.png)
 
 ## Lengte
 Met beveiligingscamera's is vastgesteld dat de dader een lengte heeft
