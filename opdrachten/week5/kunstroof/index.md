@@ -95,9 +95,9 @@ print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 
 **opdracht6**: Wat zijn nu de nog mogelijke daders?
 
-tip: Gebruik een 'dict' om snel op postcode te kunnen zoeken.
+tip: Gebruik een `dict` om snel op postcode te kunnen zoeken.
 
-test: Er zouden nog 2716 mogelijke daders moeten overblijven.
+test: Er zouden nog 2.716 mogelijke daders moeten overblijven.
 
 # Resultaat
 Reporteer je resultaat.
