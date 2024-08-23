@@ -73,7 +73,7 @@ De postcodes van inwoners vind je in bestand
 De GPS coordinaten van iedere postcode vind je in bestand
 [postcode_coordinaat.csv](postcode_coordinaat.csv).
 
-### 'geopy'
+### GPS coordinaten
 Gebruik Python module 'geopy' om afstanden tussen GPS coordinaten te
 bepalen. Installeer deze module met:
 
@@ -81,8 +81,8 @@ bepalen. Installeer deze module met:
 pip install geopy
 ```
 
-Vervolgens kun je op deze manier de afstand tussen Amsterdam en Parijs
-bepalen:
+Vervolgens kun je op deze manier bijvoorbeeld de afstand tussen
+Amsterdam en Parijs bepalen:
 
 ```
 from geopy.distance import distance as geopy_distance
