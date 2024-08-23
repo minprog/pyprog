@@ -1,11 +1,11 @@
 # Kunstroof
 Er heeft een kunstroof plaatsgevonden in het nationale kunstmuseum van
-Waddinxveen.  De politie ziet om te beginnen alle inwoners als
+Waddinxveen. De politie ziet om te beginnen alle inwoners als
 mogelijke dader. In bestand [inwoners.csv](inwoners.csv) vind je de
-ids en namen van alle (200.000) inwoners.
+id en naam van elke van de 200.000 inwoners.
 
 Het is jouw taak om voor de politie de groep van mogelijke daders zo
-klein mogeliik te maken op basis van onderstaande informatie.
+klein mogelijk te maken op basis van onderstaande informatie.
 
 
 ## Buitenland
@@ -16,14 +16,14 @@ geen daders. De id van deze mensen vind je in bestand
 **opdracht1**: Bepaal de ids van de nog mogelijke daders. Gebruik
 hierbij eerst een `list` om de ids op te slaan en op te zoeken.
 
-tip: gebruik Python module 'cvs' om makkelijker csv files te lezen
+*tip:* Gebruik Python module 'cvs' om makkelijker csv files te lezen.
 
-test: Er zouden nog 183.745 mogelijke daders moeten overblijven.
+*test:* Er zouden nog 183.745 mogelijke daders moeten overblijven.
 
 **opdracht2**: Het zoeken in een `list` is traag, gebruik daarom nu
 een `set` om de ids op te slaan en op te zoeken voor hogere snelheid.
 
-tip: Controlleer of het type van de verzameling echt een `set` is door
+*tip:* Controlleer of het type van de verzameling echt een `set` is door
 het type te printen, bv met: `print(type(dader_ids))`
 
 - Hoeveel sneller is een `set` in dit geval?
@@ -35,6 +35,7 @@ te gebruiken:
 
 ![set_operators.png](set_operators.png)
 
+
 ## Lengte
 Met beveiligingscamera's is vastgesteld dat de dader een lengte heeft
 groter of gelijk aan 150 en kleiner of gelijk aan 160 cm. De lengte van
@@ -42,11 +43,12 @@ inwoners vind je in bestand [lengte.csv](lengte.csv).
 
 **opdracht4**: Wat zijn nu de ids van de nog mogelijke daders?
 
-test: Er zouden nog 49.130 mogelijke daders moeten overblijven.
+*test:* Er zouden nog 49.130 mogelijke daders moeten overblijven.
+
 
 ## Geboortedatum
 Op basis van getuigenverklaringen is vastgesteld dat de dader geboren
-is op of na 1980 en op of voor 1990. De geboortedata van inwoners vind
+is in of na 1980 en in of voor 1990. De geboortedatum van inwoners vind
 je in bestand [geboortedatum.csv](geboortedatum.csv).
 
 **opdracht5**: Wat zijn nu de ids van de nog mogelijke daders?
@@ -54,7 +56,8 @@ je in bestand [geboortedatum.csv](geboortedatum.csv).
 tip: Probeer waar mogelijk code-duplicatie te voorkomen door
 herbruikbare functies te maken.
 
-test: Er zouden nog 9643 mogelijke daders moeten overblijven.
+*test:* Er zouden nog 9643 mogelijke daders moeten overblijven.
+
 
 ## Beroepscrimineel of Gelegenheidsdief
 De politie neemt aan dat de dader een beroepscrimineel is die al
@@ -67,7 +70,7 @@ De ids van beroepscriminelen die al eerder in contact zijn gekomen met
 justitie vind je in bestand
 [beroepscrimineel.csv](beroepscrimineel.csv).
 
-De postcodes van inwoners vind je in bestand
+De postcode van inwoners vind je in bestand
 [postcode.csv](postcode.csv).
 
 De GPS coordinaat van iedere postcode vind je in bestand
@@ -95,9 +98,9 @@ print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 
 **opdracht6**: Wat zijn nu de nog mogelijke daders?
 
-tip: Gebruik een `dict` om snel op postcode te kunnen zoeken.
+*tip:* Gebruik een `dict` om snel op postcode te kunnen zoeken.
 
-test: Er zouden nog 2.716 mogelijke daders moeten overblijven.
+*test:* Er zouden nog 2.716 mogelijke daders moeten overblijven.
 
 # Resultaat
 Reporteer je resultaat.
