@@ -37,7 +37,7 @@ te gebruiken:
 
 ## Lengte
 Met beveiligingscamera's is vastgesteld dat de dader een lengte heeft
-groter of gelijk aan 150 en kleiner of gelijk aan 160. De lengte van
+groter of gelijk aan 150 en kleiner of gelijk aan 160 cm. De lengte van
 inwoners vind je in bestand [lengte.csv](lengte.csv).
 
 **opdracht4**: Wat zijn nu de ids van de nog mogelijke daders?
