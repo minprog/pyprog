@@ -24,14 +24,14 @@ hierbij eerst een `list` om de ids op te slaan en op te zoeken.
 een `set` om de ids op te slaan en op te zoeken voor hogere snelheid.
 
 *tip:* Controlleer of het type van de verzameling echt een `set` is door
-het type te printen, bv met: `print(type(dader_ids))`
+het type te printen, bv met: `print( type(dader_ids) )`.
 
 - Hoeveel sneller is een `set` in dit geval?
 - Waarom is een `set` sneller?
 
 **opdracht3**: Het is nog iets sneller, makkelijker en leesbaarder om
 [set operatoren](https://docs.python.org/3/tutorial/datastructures.html#sets)
-te gebruiken:
+te gebruiken. Gebruik deze operatoren in je programma.
 
 ![set_operators.png](set_operators.png)
 
@@ -53,7 +53,7 @@ je in bestand [geboortedatum.csv](geboortedatum.csv).
 
 **opdracht5**: Wat zijn nu de ids van de nog mogelijke daders?
 
-tip: Probeer waar mogelijk code-duplicatie te voorkomen door
+*tip:* Probeer waar mogelijk code-duplicatie te voorkomen door
 herbruikbare functies te maken.
 
 *test:* Er zouden nog 9643 mogelijke daders moeten overblijven.
