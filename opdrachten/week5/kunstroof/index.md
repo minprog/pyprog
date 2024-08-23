@@ -16,33 +16,32 @@ geen daders. De id van deze mensen vind je in bestand
 **opdracht1**: Bepaal de ids van de nog mogelijke daders. Gebruik
 hierbij eerst een `list` om de ids op te slaan en op te zoeken.
 
-test: Er zouden nog 183.745 mogelijke daders moeten overblijven.
-
 tip: gebruik Python module 'cvs' om makkelijker csv files te lezen
+
+test: Er zouden nog 183.745 mogelijke daders moeten overblijven.
 
 **opdracht2**: Het zoeken in een `list` is traag, gebruik daarom nu
 een `set` om de ids op te slaan en op te zoeken voor hogere snelheid.
 
-tip: controlleer of het type van de verzameling echt een 'set' is door
-het type te printen, bv met: print(type(dader_ids))
+tip: Controlleer of het type van de verzameling echt een `set` is door
+het type te printen, bv met: print(type(dader_ids)).
 
-Hoeveel sneller is een 'set'?
-Waarom is een 'set' sneller?
+- Hoeveel sneller is een 'set'?
+- Waarom is een 'set' sneller?
 
-**opdracht3**: Het is nog iets sneller en makkelijker en leesbaarder
+**opdracht3**: Het is nog iets sneller, makkelijker en leesbaarder
 om [set operatoren](https://docs.python.org/2/library/sets.html) te
 gebruiken:
 
-methode `union()`, of de '|' operator
-methode `intersection()`, of de '&' operator
-methode `difference()`, of de '-' operator
-methode `symmetric_difference()`, of de '^' operator
-
+- methode `union()`, of de '|' operator
+- methode `intersection()`, of de '&' operator
+- methode `difference()`, of de '-' operator
+- methode `symmetric_difference()`, of de '^' operator
 
 ## Lengte
 Met beveiligingscamera's is vastgesteld dat de dader een lengte heeft
 groter of gelijk aan 150 en kleiner of gelijk aan 160. De lengte van
-inwoners zijnvind je in bestand [lengte.csv](lengte.csv).
+inwoners vind je in bestand [lengte.csv](lengte.csv).
 
 **opdracht4**: Wat zijn nu de ids van de nog mogelijke daders?
 
