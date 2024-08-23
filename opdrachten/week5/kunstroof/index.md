@@ -73,7 +73,7 @@ justitie vind je in bestand
 De postcode van inwoners vind je in bestand
 [postcode.csv](postcode.csv).
 
-De GPS coordinaat van iedere postcode vind je in bestand
+Het GPS coordinaat van iedere postcode vind je in bestand
 [postcode_coordinaat.csv](postcode_coordinaat.csv).
 
 ### GPS coordinaten
@@ -96,9 +96,9 @@ coord2 = (48.857891, 2.295166) # Parijs
 print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 ```
 
-**opdracht6**: Wat zijn nu de nog mogelijke daders?
+**opdracht6**: Wat zijn nu de ids van de nog mogelijke daders?
 
-*tip:* Gebruik een `dict` om snel het coordinaat van een postcode te
+*tip:* Gebruik een `dict` om snel informatie van een postcode te
 kunnen opzoeken.
 
 *test:* Er zouden nog 2.716 mogelijke daders moeten overblijven.
