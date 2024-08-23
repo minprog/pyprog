@@ -26,8 +26,8 @@ een `set` om de ids op te slaan en op te zoeken voor hogere snelheid.
 tip: Controlleer of het type van de verzameling echt een `set` is door
 het type te printen, bv met: print(type(dader_ids)).
 
-- Hoeveel sneller is een 'set'?
-- Waarom is een 'set' sneller?
+- Hoeveel sneller is een `set`?
+- Waarom is een `set` sneller?
 
 **opdracht3**: Het is nog iets sneller, makkelijker en leesbaarder om
 [set operatoren](https://docs.python.org/3/tutorial/datastructures.html#sets)
