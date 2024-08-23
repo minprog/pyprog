@@ -16,7 +16,7 @@ geen daders. De id van deze mensen vind je in bestand
 **opdracht1**: Bepaal de ids van de nog mogelijke daders. Gebruik
 hierbij eerst een `list` om de ids op te slaan en op te zoeken.
 
-*tip:* Gebruik Python module 'cvs' om makkelijker csv files te lezen.
+*tip:* Gebruik Python module 'csv' om makkelijker csv files te lezen.
 
 *test:* Er zouden nog 183.745 mogelijke daders moeten overblijven.
 
@@ -56,7 +56,7 @@ je in bestand [geboortedatum.csv](geboortedatum.csv).
 *tip:* Probeer waar mogelijk code-duplicatie te voorkomen door
 herbruikbare functies te maken.
 
-*test:* Er zouden nog 9643 mogelijke daders moeten overblijven.
+*test:* Er zouden nog 9.643 mogelijke daders moeten overblijven.
 
 
 ## Beroepscrimineel of Gelegenheidsdief
@@ -101,6 +101,7 @@ print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 *tip:* Gebruik een `dict` om snel op postcode te kunnen zoeken.
 
 *test:* Er zouden nog 2.716 mogelijke daders moeten overblijven.
+
 
 # Resultaat
 Reporteer je resultaat.
