@@ -70,7 +70,7 @@ justitie vind je in bestand
 De postcodes van inwoners vind je in bestand
 [postcode.csv](postcode.csv).
 
-De GPS coordinaten van iedere postcode vind je in bestand
+De GPS coordinaat van iedere postcode vind je in bestand
 [postcode_coordinaat.csv](postcode_coordinaat.csv).
 
 ### GPS coordinaten
