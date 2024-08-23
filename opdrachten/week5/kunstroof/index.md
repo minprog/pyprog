@@ -16,7 +16,7 @@ geen daders. De id van deze mensen vind je in bestand
 **opdracht1**: Bepaal de ids van de nog mogelijke daders. Gebruik
 hierbij eerst een `list` om de ids op te slaan en op te zoeken.
 
-*tip:* Gebruik Python module 'csv' om makkelijker csv files te lezen.
+*tip:* Gebruik Python module 'csv' om makkelijker csv bestanden te lezen.
 
 *test:* Er zouden nog 183.745 mogelijke daders moeten overblijven.
 
@@ -98,7 +98,8 @@ print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 
 **opdracht6**: Wat zijn nu de nog mogelijke daders?
 
-*tip:* Gebruik een `dict` om snel op postcode te kunnen zoeken.
+*tip:* Gebruik een `dict` om snel het coordinaat van een postcode te
+kunnen opzoeken.
 
 *test:* Er zouden nog 2.716 mogelijke daders moeten overblijven.
 
@@ -106,5 +107,5 @@ print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 # Resultaat
 Reporteer je resultaat.
 
-**opdracht7**: Maak een csv file 'daders.csv' van de nog mogelijke
+**opdracht7**: Maak een csv bestand 'daders.csv' van de nog mogelijke
 daders met 'id, naam' als header.
