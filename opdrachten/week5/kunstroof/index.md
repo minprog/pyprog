@@ -105,7 +105,7 @@ kunnen opzoeken.
 
 
 # Resultaat
-Reporteer je resultaat.
+Raporteer je resultaat.
 
 **opdracht7**: Maak een csv bestand 'daders.csv' van de nog mogelijke
 daders met 'id, naam' als header.
