@@ -23,8 +23,8 @@ hierbij eerst een `list` om de ids op te slaan en op te zoeken.
 **opdracht2**: Het zoeken in een `list` is traag, gebruik daarom nu
 een `set` om de ids op te slaan en op te zoeken voor hogere snelheid.
 
-*tip:* Controlleer of het type van de verzameling echt een `set` is door
-het type te printen, bv met: `print( type(dader_ids) )`.
+*tip:* Controleer of het type van de verzamelingen van ids echt `sets`
+zijn door het type te printen, bv met: `print( type(dader_ids) )`.
 
 - Hoeveel sneller is een `set` in dit geval?
 - Waarom is een `set` sneller?
@@ -98,8 +98,8 @@ print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 
 **opdracht6**: Wat zijn nu de ids van de nog mogelijke daders?
 
-*tip:* Gebruik een `dict` om snel informatie van een postcode te
-kunnen opzoeken.
+*tip:* Gebruik eventueel een `dict` om snel informatie van
+een postcode te kunnen opzoeken.
 
 *test:* Er zouden nog 2.716 mogelijke daders moeten overblijven.
 
