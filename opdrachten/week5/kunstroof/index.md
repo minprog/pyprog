@@ -64,8 +64,8 @@ herbruikbare functies te maken.
 De politie neemt aan dat de dader een beroepscrimineel is die al
 eerder in contact is gekomen met justitie, **of** dat het een
 gelegenheidsdief is die binnen 50km van het museum woont. Het museum
-bevindt zich op GPS coordinaat lengtegraad:52.0408703,
-breedtegraad:4.6603396.
+bevindt zich op GPS coordinaat lengtegraad:52.030592,
+breedtegraad:4.641464.
 
 De ids van beroepscriminelen die al eerder in contact zijn gekomen met
 justitie vind je in bestand
@@ -102,7 +102,7 @@ print(geopy_distance(coord1, coord2).km)  # distance in kilometers
 *tip:* Gebruik eventueel een `dict` om snel informatie van
 een postcode te kunnen opzoeken.
 
-*test:* Er zouden nog 2.716 mogelijke daders moeten overblijven.
+*test:* Er zouden nog 2.700 mogelijke daders moeten overblijven.
 
 
 # Resultaat
