@@ -27,6 +27,7 @@ een `set` om de ids op te slaan en op te zoeken voor hogere snelheid.
 zijn door het type te printen, bv met: `print( type(dader_ids) )`.
 
 - Hoeveel sneller is een `set` in dit geval?
+- Is het resultaat hetzelfde als bij gebruik van een `list`?
 - Waarom is een `set` sneller?
 
 **opdracht3**: Het is nog iets sneller, makkelijker en leesbaarder om
