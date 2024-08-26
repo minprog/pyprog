@@ -8,22 +8,22 @@ Bijvoorbeeld het berekenen van een factorial. De factorial
 van '4' (het aantal volgorden waarop we 4 verschillende dingen kunnen
 leggen) is bijvoorbeeld:
 
-`
+```
 factorial(4) = 4 * 3 * 2 * 1 = 24
-`
+```
 
 Dit kunnen we makkelijk berekenen met gebruik van de 'math' module:
 
-`
+```
 import math
 
 print( math.factorial(4) ) # 24
-`
+```
 
 maar als we zelf de functie zouden willen schrijven kunnen we dat
 **iteratief** doen met:
 
-`
+```
 def factorial(n: int) -> int:
     result = 1
     for i in range(1, n+1):
@@ -31,11 +31,11 @@ def factorial(n: int) -> int:
     return result
 
 print( factorial(4) ) # 24
-`
+```
 
 of **recursief** doen met:
 
-`
+```
 def factorial(n: int) -> int:
     if n <= 1: # base case 
         return 1
@@ -43,7 +43,7 @@ def factorial(n: int) -> int:
 
 
 print( factorial(4) ) # 24
-`
+```
 
 Het resultaat is hetzelfde. Een recursieve functie is een functie die
 zichzelf (direct of indirect) aanroept. Om te voorkomen dat de functie
@@ -59,13 +59,13 @@ in `n` vermenigvuldigd met `factorial(n - 1)`.
 Als we `factorial(4)` met de hand zouden uitschrijven zou dat er dus
 zo uitzien:
 
-`
+```
 factorial(4) = 4 * factorial(3)
 factorial(4) = 4 * 3 * factorial(2)
 factorial(4) = 4 * 3 * 2 * factorial(1)
 factorial(4) = 4 * 3 * 2 * 1
 factorial(4) = 24
-`
+```
 
 ## Stack
 
@@ -90,7 +90,7 @@ Het kan best lastig zijn om in een recursieve functie duidelijker weer
 te geven wat er gebeurt door het toevoegen van debug print
 statements. Dit is mijn poging:
 
-`
+```
 def factorial(n: int) -> int:
     print(f'factorial({n})')
     if n <= 1:
@@ -104,11 +104,11 @@ def factorial(n: int) -> int:
 
 
 print( factorial(4) )
-`
+```
 
 wat deze uitvoer oplevert:
 
-`
+```
 factorial(4)
 factorial(3)
 factorial(2)
@@ -121,7 +121,7 @@ factorial(3) return 6
 4 * 6
 factorial(4) return 24
 24
-`
+```
 
 **opdracht**: Herschrijf zelf de originele `factorial()` functie en
 voeg debug print statements toe om duidelijker weer te geven hoe deze
@@ -135,7 +135,7 @@ De functie `has_member(value: int, collection: list[int]) -> bool` zou
 in de `collection`. We kunnen de function op een iteratieve manier
 schijven als:
 
-`
+```
 def has_member(value: int, collection: list[int]) -> bool:
     for v in collection:
         if value == v:
@@ -144,7 +144,7 @@ def has_member(value: int, collection: list[int]) -> bool:
 
 print( has_member(3, [1,2,3,4]) ) # True
 print( has_member(5, [1,2,3,4]) ) # False
-`
+```
 
 **opdracht** Schrijf de `has_member()` functie op een recursieve manier.
 
@@ -159,7 +159,7 @@ gevallen is het de makkelijkste manier om een probleem op te
 lossen. Stel we willen alle mogelijke permutaties van letters 'a', 'b', en 'c'
 vinden tot een bepaalde lengte. We kunnen dit recursief schrijven als:
 
-`
+```
 def permutations(length: int, values: list[str], result: str) -> None:
     if len(result) >= length: # base case
         print(result)
@@ -168,7 +168,7 @@ def permutations(length: int, values: list[str], result: str) -> None:
             permutations(length, values, result + v)
 
 permutations(3, ['a','b','c'], '')
-`
+```
 
 waarbij we in een for-loop bij de recursieve aanroep steeds ieder van de values
 toevoegen aan `result` in de onderstaande volgorder:
