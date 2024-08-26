@@ -78,7 +78,11 @@ visualiseren:
 
 ![python_tutor_stack.png](python_tutor_stack.png)
 
-**opdracht**: Voer zelf het [recursieve factorial programma in Python Tutor](https://pythontutor.com/render.html#code=def%20factorial%28n%3A%20int%29%20-%3E%20int%3A%0A%20%20%20%20if%20n%20%3C%3D%201%3A%0A%20%20%20%20%20%20%20%20return%201%0A%20%20%20%20return%20n%20*%20factorial%28n%20-%201%29%0A%0Aprint%28%20factorial%284%29%20%29&cumulative=false&curInstr=14&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false) uit door herhaaldelijk op 'next' te klikken om te zien hoe de stack groeit en afneemt tijdens de uitvoer.
+
+**opdracht**: Voer zelf het [recursieve factorial programma in Python
+Tutor](https://pythontutor.com/render.html#code=def%20factorial%28n%3A%20int%29%20-%3E%20int%3A%0A%20%20%20%20if%20n%20%3C%3D%201%3A%0A%20%20%20%20%20%20%20%20return%201%0A%20%20%20%20return%20n%20*%20factorial%28n%20-%201%29%0A%0Aprint%28%20factorial%284%29%20%29&cumulative=false&curInstr=1&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
+uit door herhaaldelijk op 'next' te klikken om te zien hoe de stack
+groeit en weer afneemt tijdens de uitvoer.
 
 Dus al is er maar 1 variabele 'n' te lezen in het programma, er staan
 op het hoogtepunt wel 4 verschillende waarden van 'n' op de stack
