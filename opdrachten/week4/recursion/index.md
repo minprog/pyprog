@@ -1,10 +1,12 @@
 # Iteratie en Recursie
 
 Sommige problemen kunnen met iteratie en/of met recursie worden
-opgelost.
+opgelost. Bij recursie laat je een functie zichzelf aanroepen, iets
+wat je al veel in de Prolog programmeertaal hebt gedaan. Het is soms
+ook nuttig om recursie in Python te gebruiken.
 
 ## Factorial
-Bijvoorbeeld het berekenen van een factorial. De factorial van '4'
+Bijvoorbeeld bij het berekenen van een factorial. De factorial van '4'
 (het aantal volgorden waarop we 4 verschillende dingen kunnen zetten)
 is bijvoorbeeld:
 
@@ -45,11 +47,12 @@ def factorial(n: int) -> int:
 print( factorial(4) ) # 24
 ```
 
-Het resultaat is hetzelfde. Een recursieve functie is een functie die
-zichzelf (direct of indirect) aanroept. Om te voorkomen dat de functie
-zichzelf oneindig blijft aanroepen hebben we een 'base case' nodig,
-een conditie waarbij het zichzelf aanroepen ophoudt. De 'base case' is
-dit geval `n <= 1`, als deze conditie `True` is returnen we '1'.
+Het resultaat met iteratie en recursie is hetzelfde. Een recursieve
+functie is een functie die zichzelf (direct of indirect) aanroept. Om
+te voorkomen dat de functie zichzelf oneindig blijft aanroepen hebben
+we een 'base case' nodig, een conditie waarbij het zichzelf aanroepen
+ophoudt. De 'base case' is dit geval `n <= 1`, als deze conditie
+`True` is returnen we '1'.
 
 Als deze 'base case' conditie `False` is komen we bij de 'recursieve
 case'. Hier wordt het probleem doorgaans opgesplits in kleinere
@@ -81,7 +84,7 @@ visualiseren:
 ![python_tutor_stack.png](python_tutor_stack.png)
 
 
-**opdracht:**: Voer zelf het [recursieve factorial programma in Python
+**opdracht:** Voer zelf het [recursieve factorial programma in Python
 Tutor](https://pythontutor.com/render.html#code=def%20factorial%28n%3A%20int%29%20-%3E%20int%3A%0A%20%20%20%20if%20n%20%3C%3D%201%3A%0A%20%20%20%20%20%20%20%20return%201%0A%20%20%20%20return%20n%20*%20factorial%28n%20-%201%29%0A%0Aprint%28%20factorial%284%29%20%29&cumulative=false&curInstr=1&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 uit door herhaaldelijk op 'next' te klikken om te zien hoe de stack
 groeit en weer afneemt tijdens de uitvoer.
@@ -92,7 +95,7 @@ omdat de functie 4 keer wordt aangeroepen.
 
 ## Debug Prints
 
-Het kan best lastig zijn om in een recursieve functie duidelijker weer
+Het kan best lastig zijn om met een recursieve functie duidelijker weer
 te geven wat er gebeurt door het toevoegen van debug print
 statements. Dit is mijn poging:
 
@@ -129,16 +132,16 @@ factorial(4) return 24
 24
 ```
 
-**opdracht:**: Herschrijf zelf de originele `factorial()` functie en
-voeg debug print statements toe om duidelijker weer te geven hoe deze
-werkt.
+**opdracht:** Herschrijf zelf de originele `factorial()` functie en
+voeg debug print statements toe om voor jezelf zo duidelijk mogelijk
+weer te geven hoe deze werkt.
 
 
 ## Has Member
 
 De functie `has_member(value: int, collection: list[int]) -> bool` zou
 `True` of `Flase` moeten returnen afhankelijk van of `value` voorkomt
-in de `collection`. We kunnen de function op een iteratieve manier
+in de `collection`. We kunnen de functie op een iteratieve manier
 schijven als:
 
 ```
