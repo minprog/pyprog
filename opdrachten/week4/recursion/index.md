@@ -81,7 +81,7 @@ visualiseren:
 ![python_tutor_stack.png](python_tutor_stack.png)
 
 
-**opdracht**: Voer zelf het [recursieve factorial programma in Python
+**opdracht:**: Voer zelf het [recursieve factorial programma in Python
 Tutor](https://pythontutor.com/render.html#code=def%20factorial%28n%3A%20int%29%20-%3E%20int%3A%0A%20%20%20%20if%20n%20%3C%3D%201%3A%0A%20%20%20%20%20%20%20%20return%201%0A%20%20%20%20return%20n%20*%20factorial%28n%20-%201%29%0A%0Aprint%28%20factorial%284%29%20%29&cumulative=false&curInstr=1&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 uit door herhaaldelijk op 'next' te klikken om te zien hoe de stack
 groeit en weer afneemt tijdens de uitvoer.
@@ -129,7 +129,7 @@ factorial(4) return 24
 24
 ```
 
-**opdracht**: Herschrijf zelf de originele `factorial()` functie en
+**opdracht:**: Herschrijf zelf de originele `factorial()` functie en
 voeg debug print statements toe om duidelijker weer te geven hoe deze
 werkt.
 
@@ -152,7 +152,7 @@ print( has_member(3, [1,2,3,4]) ) # True
 print( has_member(5, [1,2,3,4]) ) # False
 ```
 
-**opdracht** Schrijf de `has_member()` functie op een recursieve manier.
+**opdracht:** Schrijf de `has_member()` functie op een recursieve manier.
 
 *tip:* Split het probleem op in kleinere problemen door te testen of
  `value` vooraan in de collection staat (`collection[0]`), of dat het
@@ -184,7 +184,7 @@ toevoegen aan `result` in de onderstaande volgorder van 1 t/m 39:
 Dit programma is recursief veel makkelijker te schrijven dan op een
 iteratieve manier.
 
-**opdracht** Pas het programma aan zodat het alle permutaties met lengte 4
+**opdracht:** Pas het programma aan zodat het alle permutaties met lengte 4
 geeft zonder permutaties waar een letter zichzelf opvolgt. Dus
 bijvoorbeeld geen 'aabc' (bad: 'a' volgt na 'a'), maar wel 'abac'.
 
@@ -196,7 +196,7 @@ bijvoorbeeld geen 'aabc' (bad: 'a' volgt na 'a'), maar wel 'abac'.
 edges = ['ab', 'ac', 'bd', 'be', 'cf', 'cg', 'dh', 'di', 'ej', 'ek', 'fl', 'fm', 'gn', 'go']
 ```
 
-**opdracht** Schrijf een programma wat de route print van 'a' naar 'k'.
+**opdracht:** Schrijf een programma wat de route print van 'a' naar 'k'.
 
 
 ![graph.png](graph.png)
@@ -204,4 +204,6 @@ edges = ['ab', 'ac', 'bd', 'be', 'cf', 'cg', 'dh', 'di', 'ej', 'ek', 'fl', 'fm',
 ```
 edges = ['yk', 'pe', 'tm', 'td', 'bd', 'hu', 'vb', 'br', 'od', 'ae', 'ha', 'yh', 'bg', 'wr', 'ux', 'qv', 'bh', 'rl', 'ts', 'aw', 'yv', 'uf', 'ry', 'vr', 'ln', 'nz', 'ke', 'cz', 'vx', 'uo', 'ad', 'px']
 ```
-**opdracht** Schrijf een programma wat alle routes print van 'a' naar 'k' waarbij een route niet meer dan 1 keer over dezelfde letter mag gaan.
+**opdracht:** Schrijf een programma wat alle routes print van 'a' naar 'k' waarbij een route niet meer dan 1 keer over dezelfde letter mag gaan.
+
+*test:* Er zouden 113 routes moeten worden geprint.
