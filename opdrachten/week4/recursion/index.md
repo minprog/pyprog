@@ -1,12 +1,12 @@
-# Iteratie en Recursion
+# Iteratie en Recursie
 
-Sommige problemen kunnen met iteratie of met recursie worden
+Sommige problemen kunnen met iteratie en/of met recursie worden
 opgelost.
 
 ## Factorial
-Bijvoorbeeld het berekenen van een factorial. De factorial
-van '4' (het aantal volgorden waarop we 4 verschillende dingen kunnen
-leggen) is bijvoorbeeld:
+Bijvoorbeeld het berekenen van een factorial. De factorial van '4'
+(het aantal volgorden waarop we 4 verschillende dingen kunnen zetten)
+is bijvoorbeeld:
 
 ```
 factorial(4) = 4 * 3 * 2 * 1 = 24
@@ -49,7 +49,7 @@ Het resultaat is hetzelfde. Een recursieve functie is een functie die
 zichzelf (direct of indirect) aanroept. Om te voorkomen dat de functie
 zichzelf oneindig blijft aanroepen hebben we een 'base case' nodig,
 een conditie waarbij het zichzelf aanroepen ophoudt. De 'base case' is
-hierin dit geval `n <= 1`, als deze conditie `True` is returnen we '1'.
+dit geval `n <= 1`, als deze conditie `True` is returnen we '1'.
 
 Als deze 'base case' conditie `False` is komen we bij de 'recursieve
 case'. Hier wordt het probleem doorgaans opgesplits in kleinere
