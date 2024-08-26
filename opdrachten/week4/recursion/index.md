@@ -64,6 +64,8 @@ factorial(4) = 4 * factorial(3)
 factorial(4) = 4 * 3 * factorial(2)
 factorial(4) = 4 * 3 * 2 * factorial(1)
 factorial(4) = 4 * 3 * 2 * 1
+factorial(4) = 4 * 3 * 2
+factorial(4) = 4 * 6
 factorial(4) = 24
 ```
 
@@ -175,10 +177,31 @@ permutations(3, ['a','b','c'], '')
 ```
 
 waarbij we in een for-loop bij de recursieve aanroep steeds ieder van de values
-toevoegen aan `result` in de onderstaande volgorder:
+toevoegen aan `result` in de onderstaande volgorder van 1 t/m 39:
 
 ![permutations.png](permutations.png)
 
+Dit programma is recursief veel makkelijker te schrijven dan op een
+iteratieve manier.
 
+**opdracht** Pas het programma aan zodat het alle permutaties met lengte 4
+geeft zonder permutaties waar een letter zichzelf opvolgt. Dus
+bijvoorbeeld geen 'aabc' (bad: 'a' volgt na 'a'), maar wel 'abac'.
 
 ## Routebepaling
+
+![tree.png](tree.png)
+
+```
+edges = ['ab', 'ac', 'bd', 'be', 'cf', 'cg', 'dh', 'di', 'ej', 'ek', 'fl', 'fm', 'gn', 'go']
+```
+
+**opdracht** Schrijf een programma wat de route print van 'a' naar 'k'.
+
+
+![graph.png](graph.png)
+
+```
+edges = ['yk', 'pe', 'tm', 'td', 'bd', 'hu', 'vb', 'br', 'od', 'ae', 'ha', 'yh', 'bg', 'wr', 'ux', 'qv', 'bh', 'rl', 'ts', 'aw', 'yv', 'uf', 'ry', 'vr', 'ln', 'nz', 'ke', 'cz', 'vx', 'uo', 'ad', 'px']
+```
+**opdracht** Schrijf een programma wat alle routes print van 'a' naar 'k' waarbij een route niet meer dan 1 keer over dezelfde letter mag gaan.
