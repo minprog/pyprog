@@ -44,7 +44,6 @@ def factorial(n: int) -> int:
         return 1
     return n * factorial(n - 1) # recursive case
 
-
 print( factorial(4) ) # 24
 ```
 
@@ -140,7 +139,7 @@ weer te geven hoe deze functie werkt.
 ## Has Member
 
 De functie `has_member(value: int, collection: list[int]) -> bool` zou
-`True` of `Flase` moeten returnen afhankelijk van of `value` voorkomt
+`True` of `False` moeten returnen afhankelijk van of `value` voorkomt
 in de `collection` of niet. We kunnen de functie gemakkelijk op een
 iteratieve manier schijven als:
 
