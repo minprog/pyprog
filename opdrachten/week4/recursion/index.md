@@ -1,6 +1,6 @@
 # Iteratie en Recursie
 
-Sommige problemen kunnen met iteratie en/of met recursie worden
+Sommige problemen kunnen met iteratie en met recursie worden
 opgelost. Bij recursie laat je een functie zichzelf aanroepen, iets
 wat je al veel in de Prolog programmeertaal hebt gedaan. Het is soms
 ook nuttig om recursie in Python te gebruiken.
@@ -23,7 +23,7 @@ print( math.factorial(4) ) # 24
 ```
 
 maar als we zelf de functie zouden willen schrijven kunnen we dat
-**iteratief** doen met:
+**iteratief**, met gebruik van `for`/`while` loops, doen met:
 
 ```
 def factorial(n: int) -> int:
@@ -35,7 +35,8 @@ def factorial(n: int) -> int:
 print( factorial(4) ) # 24
 ```
 
-of **recursief** doen met:
+of **recursief**, met een functie die zichzelf (direct of indirect)
+aanroept, doen met:
 
 ```
 def factorial(n: int) -> int:
@@ -47,8 +48,7 @@ def factorial(n: int) -> int:
 print( factorial(4) ) # 24
 ```
 
-Het resultaat met iteratie en recursie is hetzelfde. Een recursieve
-functie is een functie die zichzelf (direct of indirect) aanroept. Om
+Het resultaat met iteratie en recursie is hetzelfde. Om bij recursie
 te voorkomen dat de functie zichzelf oneindig blijft aanroepen hebben
 we een 'base case' nodig, een conditie waarbij het zichzelf aanroepen
 ophoudt. De 'base case' is dit geval `n <= 1`, als deze conditie
@@ -56,11 +56,11 @@ ophoudt. De 'base case' is dit geval `n <= 1`, als deze conditie
 
 Als deze 'base case' conditie `False` is komen we bij de 'recursieve
 case'. Hier wordt het probleem doorgaans opgesplits in kleinere
-problemen. In het geval van `factorial(n)` splitsen we het probleem op
-in `n` vermenigvuldigd met `factorial(n - 1)`.
+deelproblemen. In het geval van `factorial(n)` splitsen we het
+probleem op in `n` vermenigvuldigd met `factorial(n - 1)`.
 
-Als we `factorial(4)` met de hand zouden uitschrijven zou dat er dus
-zo uitzien:
+Als we `factorial(4)` met de hand uitschrijven ziet dat er dus zo
+uit:
 
 ```
 factorial(4) = 4 * factorial(3)
@@ -77,27 +77,27 @@ factorial(4) = 24
 Elke aanroep van een functie heeft zijn eigen waarden voor de
 verschillende variabelen van de functie. Om de verschillende waarden
 voor variabelen per functie-aanroep op te slaan, wordt de *stack*
-('stapel' in het Nederlands) gebruikt om deze waarden op te
+(Nederlands: 'stapel') gebruikt om deze waarden op te
 stapelen. We kunnen Python Tutor gebruiken om de stack te
 visualiseren:
 
 ![python_tutor_stack.png](python_tutor_stack.png)
 
 
-**opdracht:** Voer zelf het [recursieve factorial programma in Python
+**opdracht1:** Voer zelf het [recursieve factorial programma in Python
 Tutor](https://pythontutor.com/render.html#code=def%20factorial%28n%3A%20int%29%20-%3E%20int%3A%0A%20%20%20%20if%20n%20%3C%3D%201%3A%0A%20%20%20%20%20%20%20%20return%201%0A%20%20%20%20return%20n%20*%20factorial%28n%20-%201%29%0A%0Aprint%28%20factorial%284%29%20%29&cumulative=false&curInstr=1&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 uit door herhaaldelijk op 'next' te klikken om te zien hoe de stack
 groeit en weer afneemt tijdens de uitvoer.
 
-Dus al is er maar 1 variabele 'n' te lezen in het programma, er staan
+Dus al is er maar één variabele 'n' te lezen in het programma, er staan
 op het hoogtepunt wel 4 verschillende waarden van 'n' op de stack
 omdat de functie 4 keer wordt aangeroepen.
 
 ## Debug Prints
 
-Het kan best lastig zijn om met een recursieve functie duidelijker weer
-te geven wat er gebeurt door het toevoegen van debug print
-statements. Dit is mijn poging:
+Het kan best lastig zijn om door het toevoegen van debug print
+statements aan een recursieve functie duidelijk weer
+te geven hoe de functie werkt. Dit is mijn poging:
 
 ```
 def factorial(n: int) -> int:
@@ -132,17 +132,17 @@ factorial(4) return 24
 24
 ```
 
-**opdracht:** Herschrijf zelf de originele `factorial()` functie en
+**opdracht2:** Herschrijf zelf de originele `factorial()` functie en
 voeg debug print statements toe om voor jezelf zo duidelijk mogelijk
-weer te geven hoe deze werkt.
+weer te geven hoe deze functie werkt.
 
 
 ## Has Member
 
 De functie `has_member(value: int, collection: list[int]) -> bool` zou
 `True` of `Flase` moeten returnen afhankelijk van of `value` voorkomt
-in de `collection`. We kunnen de functie op een iteratieve manier
-schijven als:
+in de `collection` of niet. We kunnen de functie gemakkelijk op een
+iteratieve manier schijven als:
 
 ```
 def has_member(value: int, collection: list[int]) -> bool:
@@ -155,18 +155,21 @@ print( has_member(3, [1,2,3,4]) ) # True
 print( has_member(5, [1,2,3,4]) ) # False
 ```
 
-**opdracht:** Schrijf de `has_member()` functie op een recursieve manier.
+**opdracht3:** Schrijf de `has_member()` functie op een recursieve
+manier, dus zonder gebruik van loops maar met een functie die zichzelf
+aanroept.
 
-*tip:* Split het probleem op in kleinere problemen door te testen of
+*tip:* Split het probleem op in kleinere deelproblemen door te testen of
  `value` vooraan in de collection staat (`collection[0]`), of dat het
  in het overige deel van de collection staat (`collection[1:]`).
 
 ## Permutations
 
-Een recursieve manier lijkt vaak ingewikkelder, maar in sommige
-gevallen is het de makkelijkste manier om een probleem op te
-lossen. Stel we willen alle mogelijke permutaties van letters 'a', 'b', en 'c'
-vinden tot een bepaalde lengte. We kunnen dit recursief schrijven als:
+Een recursieve manier lijkt vaak ingewikkelder dan een iteratieve
+manier, maar in sommige gevallen is de recursieve manier de
+makkelijkste manier om een probleem op te lossen. Stel we willen alle
+mogelijke permutaties van letters 'a', 'b', en 'c' vinden tot een
+bepaalde lengte. We kunnen dit recursief schrijven als:
 
 ```
 def permutations(length: int, values: list[str], result: str) -> None:
@@ -179,34 +182,59 @@ def permutations(length: int, values: list[str], result: str) -> None:
 permutations(3, ['a','b','c'], '')
 ```
 
-waarbij we in een for-loop bij de recursieve aanroep steeds ieder van de values
-toevoegen aan `result` in de onderstaande volgorder van 1 t/m 39:
+waarbij we in deen loop bij de recursieve aanroep steeds ieder van de
+values toevoegen aan `result` in de onderstaande volgorder van 1 t/m
+39:
 
 ![permutations.png](permutations.png)
 
 Dit programma is recursief veel makkelijker te schrijven dan op een
 iteratieve manier.
 
-**opdracht:** Pas het programma aan zodat het alle permutaties met lengte 4
-geeft zonder permutaties waar een letter zichzelf opvolgt. Dus
-bijvoorbeeld geen 'aabc' (bad: 'a' volgt na 'a'), maar wel 'abac'.
+**opdracht4:** Pas het programma aan zodat het alle permutaties met
+lengte 4 geeft van letters 'a', 'b', en 'c' zonder permutaties waar
+een letter zichzelf opvolgt. Dus bijvoorbeeld geen 'aabc' want hier
+volgt een 'a' een andere 'a' op, maar wel 'abac'.
 
 ## Routebepaling
 
+In onderstaande graaf (Engels: graph) heeft elke knoop (Engels: node),
+weergegeven als cirkel, een letter. Je kunt van een knoop naar een
+andere knoop reizen als er een boog (Engels: edge), weergegeven als
+een lijn, bestaat tussen deze twee knopen.
+
 ![tree.png](tree.png)
 
+Alle bogen van deze graaf staan in deze Python list:
 ```
 edges = ['ab', 'ac', 'bd', 'be', 'cf', 'cg', 'dh', 'di', 'ej', 'ek', 'fl', 'fm', 'gn', 'go']
 ```
 
-**opdracht:** Schrijf een programma wat de route print van 'a' naar 'k'.
+De graaf is bidirectioneel wat betekent dat boog 'ab' zorgt dat je van
+'a' naar 'b' kunt reizen, maar ook andersom van 'b' naar 'a'.
 
+**opdracht5:** Schrijf een programma wat de route print van 'a' naar
+'k'. Zorg dat je programma ook werkt voor een route tussen andere
+knopen.
+
+*tip:* Je kunt een `dict` gebruiken om voor iedere knoop bij te
+houden naar welke andere knopen je kunt reizen.
+
+*test:* Het is duidelijk in de graaf te zien dat de route van 'a' naar
+'k' de route 'abek' moeten zijn.
+
+Deze grotere graaf:
 
 ![graph.png](graph.png)
 
+heeft deze bogen:
 ```
 edges = ['yk', 'pe', 'tm', 'td', 'bd', 'hu', 'vb', 'br', 'od', 'ae', 'ha', 'yh', 'bg', 'wr', 'ux', 'qv', 'bh', 'rl', 'ts', 'aw', 'yv', 'uf', 'ry', 'vr', 'ln', 'nz', 'ke', 'cz', 'vx', 'uo', 'ad', 'px']
 ```
-**opdracht:** Schrijf een programma wat alle routes print van 'a' naar 'k' waarbij een route niet meer dan 1 keer over dezelfde letter mag gaan.
 
-*test:* Er zouden 113 routes moeten worden geprint.
+**opdracht6:** Schrijf een programma wat alle routes print van 'a'
+naar 'k' in deze grotere graaf waarbij een route niet meer dan één
+keer over dezelfde letter mag gaan.
+
+*test:* Er zouden 113 routes moeten worden geprint. Eén daarvan is
+route 'awrvyk'.
