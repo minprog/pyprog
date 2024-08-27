@@ -181,14 +181,14 @@ def permutations(length: int, values: list[str], result: str) -> None:
 permutations(3, ['a','b','c'], '')
 ```
 
-waarbij we in deen loop bij de recursieve aanroep steeds ieder van de
+waarbij we in een loop bij de recursieve aanroep steeds ieder van de
 values toevoegen aan `result` in de onderstaande volgorder van 1 t/m
 39:
 
 ![permutations.png](permutations.png)
 
-Dit programma is recursief veel makkelijker te schrijven dan op een
-iteratieve manier.
+Dit programma is recursief veel makkelijker te schrijven dan
+iteratief.
 
 **opdracht4:** Pas het programma aan zodat het alle permutaties met
 lengte 4 geeft van letters 'a', 'b', en 'c' zonder permutaties waar
