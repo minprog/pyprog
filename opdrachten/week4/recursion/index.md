@@ -28,7 +28,7 @@ maar als we zelf de functie zouden willen schrijven kunnen we dat
 ```
 def factorial(n: int) -> int:
     result = 1
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         result *= i
     return result
 
@@ -158,7 +158,7 @@ print( has_member(5, [1,2,3,4]) ) # False
 manier, dus zonder gebruik van loops maar met een functie die zichzelf
 aanroept.
 
-*tip:* Split het probleem op in kleinere deelproblemen door te testen of
+*tip:* Splits het probleem op in kleinere deelproblemen door te testen of
  `value` vooraan in de collection staat (`collection[0]`), of dat het
  in het overige deel van de collection staat (`collection[1:]`).
 
