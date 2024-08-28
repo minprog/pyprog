@@ -110,7 +110,6 @@ def factorial(n: int) -> int:
     print(f'factorial({n}) return {new_result}')
     return new_result
 
-
 print( factorial(4) )
 ```
 
@@ -199,10 +198,10 @@ volgt een 'a' een andere 'a' op, maar wel 'abac'.
 
 ## Routebepaling
 
-In onderstaande graaf (Engels: graph) heeft elke knoop (Engels: node),
-weergegeven als elipse, een letter. Je kunt van een knoop naar een
-andere knoop reizen als er een boog (Engels: edge), weergegeven als
-een lijn, bestaat tussen deze twee knopen.
+In onderstaande graaf (Engels: graph) is elke knoop (Engels: node),
+weergegeven als een elipse met een letter. Je kunt van een knoop naar
+een andere knoop reizen als er een boog (Engels: edge) bestaat tussen
+deze twee knopen. Een boog is weergegeven als een lijn.
 
 ![tree.png](tree.png)
 
