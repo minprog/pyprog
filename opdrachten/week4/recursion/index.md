@@ -220,7 +220,7 @@ knopen.
 houden naar welke andere knopen je kunt reizen.
 
 *test:* Het is duidelijk in de graaf te zien dat de route van 'a' naar
-'k' de route 'abek' moeten zijn.
+'k' de route 'abek' moet zijn.
 
 Deze grotere graaf:
 
