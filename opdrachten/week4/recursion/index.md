@@ -198,7 +198,7 @@ volgt een 'a' een andere 'a' op, maar wel 'abac'.
 
 ## Routebepaling
 
-In onderstaande graaf (Engels: graph) is elke knoop (Engels: node),
+In onderstaande graaf (Engels: graph) is elke knoop (Engels: node)
 weergegeven als een elipse met een letter. Je kunt van een knoop naar
 een andere knoop reizen als er een boog (Engels: edge) bestaat tussen
 deze twee knopen. Een boog is weergegeven als een lijn.
