@@ -166,7 +166,7 @@ aanroept.
 Een recursieve manier lijkt vaak ingewikkelder dan een iteratieve
 manier, maar in sommige gevallen is de recursieve manier de
 makkelijkste manier om een probleem op te lossen. Stel we willen alle
-mogelijke permutaties van letters 'a', 'b', en 'c' vinden tot een
+mogelijke permutaties van letters 'a', 'b', en 'c' vinden met een
 bepaalde lengte. We kunnen dit recursief schrijven als:
 
 ```
@@ -177,7 +177,7 @@ def permutations(length: int, values: list[str], result: str) -> None:
         for v in values:
             permutations(length, values, result + v)
 
-permutations(3, ['a','b','c'], '')
+permutations(3, ['a', 'b', 'c'], '')
 ```
 
 waarbij we in een loop bij de recursieve aanroep steeds ieder van de
@@ -210,8 +210,9 @@ Alle bogen van deze graaf staan in deze Python list:
 edges = ['ab', 'ac', 'bd', 'be', 'cf', 'cg', 'dh', 'di', 'ej', 'ek', 'fl', 'fm', 'gn', 'go']
 ```
 
-De graaf is bidirectioneel wat betekent dat boog 'ab' zorgt dat je van
-'a' naar 'b' kunt reizen, maar ook andersom van 'b' naar 'a'.
+De graaf is bidirectioneel wat betekent dat bijvoorbeeld boog 'ab'
+zorgt dat je van 'a' naar 'b' kunt reizen, maar ook andersom van 'b'
+naar 'a'.
 
 **opdracht5:** Schrijf een programma wat de route print van 'a' naar
 'k'. Zorg dat je programma ook werkt voor een route tussen andere
