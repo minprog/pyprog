@@ -91,10 +91,10 @@ Amsterdam en Parijs bepalen:
 ```
 from geopy.distance import distance as geopy_distance
 
-coord1 = (52.372947, 4.893291) # Amsterdam
-coord2 = (48.857891, 2.295166) # Parijs
+amsterdam = (52.372947, 4.893291)
+parijs    = (48.857891, 2.295166)
 
-print(geopy_distance(coord1, coord2).km)  # distance in kilometers
+print(geopy_distance(amsterdam, parijs).km)  # distance in kilometers
 ```
 
 **opdracht6**: Wat zijn nu de ids van de nog mogelijke daders?

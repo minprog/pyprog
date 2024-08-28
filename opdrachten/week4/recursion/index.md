@@ -28,7 +28,7 @@ maar als we zelf de functie zouden willen schrijven kunnen we dat
 ```
 def factorial(n: int) -> int:
     result = 1
-    for i in range(1, n + 1):
+    for i in range(n, 0, -1):
         result *= i
     return result
 
@@ -198,7 +198,7 @@ volgt een 'a' een andere 'a' op, maar wel 'abac'.
 ## Routebepaling
 
 In onderstaande graaf (Engels: graph) heeft elke knoop (Engels: node),
-weergegeven als cirkel, een letter. Je kunt van een knoop naar een
+weergegeven als elipse, een letter. Je kunt van een knoop naar een
 andere knoop reizen als er een boog (Engels: edge), weergegeven als
 een lijn, bestaat tussen deze twee knopen.
 
@@ -220,7 +220,7 @@ knopen.
 houden naar welke andere knopen je kunt reizen.
 
 *test:* Het is duidelijk in de graaf te zien dat de route van 'a' naar
-'k' de route 'abek' moeten zijn.
+'k' de route 'abek' moet zijn.
 
 Deze grotere graaf:
 
