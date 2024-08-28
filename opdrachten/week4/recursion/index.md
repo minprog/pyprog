@@ -28,7 +28,7 @@ maar als we zelf de functie zouden willen schrijven kunnen we dat
 ```
 def factorial(n: int) -> int:
     result = 1
-    for i in range(1, n + 1):
+    for i in range(n, 0, -1):
         result *= i
     return result
 
