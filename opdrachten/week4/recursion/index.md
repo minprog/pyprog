@@ -191,9 +191,11 @@ Dit programma is recursief veel makkelijker te schrijven dan
 iteratief.
 
 **opdracht4:** Pas het programma aan zodat het alle permutaties met
-lengte 4 geeft van letters 'a', 'b', en 'c' zonder permutaties waar
+lengte 4 print van letters 'a', 'b', en 'c' zonder permutaties waar
 een letter zichzelf opvolgt. Dus bijvoorbeeld geen 'aabc' want hier
 volgt een 'a' een andere 'a' op, maar wel 'abac'.
+
+*test:* Er zouden 24 permutaties geprint moeten worden.
 
 ## Routebepaling
 
