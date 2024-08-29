@@ -252,4 +252,5 @@ mutable is.
 **opdracht7:** Pas het programma aan zodat een `list` i.p.v. een
 string gebruikt wordt voor de representatie van een route.
 
-*test:* Dezelfde 113 routes zouden moeten worden geprint.
+*test:* Dezelfde 113 routes zouden moeten worden geprint maar nu als
+`list`.
