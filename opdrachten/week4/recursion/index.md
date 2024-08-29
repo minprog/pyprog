@@ -246,11 +246,12 @@ route 'awrvyk'.
 We hebben een string gebruikt om in het programma een route te
 representeren zoals in de string 'awrvyk' maar, we kunnen ook een
 `list` gebruiken zoals in `['a', 'w', 'r', 'v', 'y', 'k']`. Een
-belangrijk verschil is dat een string immutable is terwijl een `list`
-mutable is.
+belangrijk verschil is dat een string *immutable* is terwijl een `list`
+*mutable* is.
 
-**opdracht7:** Pas het programma aan zodat een `list` i.p.v. een
-string gebruikt wordt voor de representatie van een route.
+**opdracht7:** Pas het programma aan zodat het tijdens het uitvoeren
+geen string meer gebruikt voor de representatie van een route maar in
+plaats daarvan een `list`.
 
-*test:* Dezelfde 113 routes zouden moeten worden geprint maar nu als
-`list`.
+*test:* Dezelfde 113 routes zouden moeten worden geprint maar nu in
+`list` vorm.
