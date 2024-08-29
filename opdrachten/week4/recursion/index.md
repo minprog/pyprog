@@ -161,13 +161,13 @@ aanroept.
  `value` vooraan in de collection staat (`collection[0]`), of dat het
  in het overige deel van de collection staat (`collection[1:]`).
 
-## Permutations
+## Permutaties
 
 Een recursieve manier lijkt vaak ingewikkelder dan een iteratieve
 manier, maar in sommige gevallen is de recursieve manier de
-makkelijkste manier om een probleem op te lossen. Stel we willen alle
-mogelijke permutaties van letters 'a', 'b', en 'c' vinden met een
-bepaalde lengte. We kunnen dit recursief schrijven als:
+makkelijkste manier om een probleem op te lossen. Bijvoorbeeld, stel
+we willen alle mogelijke permutaties van letters 'a', 'b', en 'c'
+vinden met een bepaalde lengte. We kunnen dit recursief schrijven als:
 
 ```
 def permutations(length: int, values: list[str], result: str) -> None:
@@ -180,8 +180,9 @@ def permutations(length: int, values: list[str], result: str) -> None:
 permutations(3, ['a', 'b', 'c'], '')
 ```
 
-waarbij we in een loop bij de recursieve aanroep steeds ieder van de
-values toevoegen aan `result` in de onderstaande volgorder van 1 t/m
+waarbij we in een loop de functie recursief aanroepen met steeds één
+van de values toegevoegd aan `result`. Het resultaat is dat alle
+permutaties worden aangemaakt in de onderstaande volgorder van 1 t/m
 39:
 
 ![permutations.png](permutations.png)
