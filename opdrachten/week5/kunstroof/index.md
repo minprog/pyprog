@@ -1,8 +1,8 @@
 # Kunstroof
 Er heeft een kunstroof plaatsgevonden in het nationale kunstmuseum van
-Waddinxveen. De politie ziet om te beginnen alle inwoners als
-mogelijke dader. In bestand [inwoners.csv](inwoners.csv) vind je de
-id en naam van elke van de 200.000 inwoners.
+Waddinxveen. De politie ziet een deel van de inwoners van Nederland
+als mogelijke dader. In bestand [inwoners.csv](inwoners.csv) vind je
+de id en naam van elke van deze 200.000 inwoners.
 
 Het is jouw taak om voor de politie de groep van mogelijke daders zo
 klein mogelijk te maken op basis van onderstaande informatie.
