@@ -237,3 +237,16 @@ keer over dezelfde letter mag gaan.
 
 *test:* Er zouden 113 routes moeten worden geprint. Eén daarvan is
 route 'awrvyk'.
+
+## Mutable
+
+We hebben een string gebruikt om in het programma een route te
+representeren zoals in de string 'awrvyk' maar, we kunnen ook een
+`list` gebruiken zoals in `['a', 'w', 'r', 'v', 'y', 'k']`. Een
+belangrijk verschil is dat een string immutable is terwijl een `list`
+mutable is.
+
+**opdracht7:** Pas het programma aan zodat een `list` i.p.v. een
+string gebruikt wordt voor de representatie van een route.
+
+*test:* Dezelfde 113 routes zouden moeten worden geprint.
