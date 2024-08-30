@@ -64,8 +64,8 @@ herbruikbare functies te maken.
 De politie neemt aan dat de dader een beroepscrimineel is die al
 eerder in contact is gekomen met justitie, **of** dat het een
 gelegenheidsdief is die binnen 50km van het museum woont. Het museum
-bevindt zich op GPS coordinaat lengtegraad:52.030592,
-breedtegraad:4.641464.
+bevindt zich op GPS coordinaat breedtegraad:52.030592,
+lengtegraad:4.641464.
 
 De ids van beroepscriminelen die al eerder in contact zijn gekomen met
 justitie vind je in bestand

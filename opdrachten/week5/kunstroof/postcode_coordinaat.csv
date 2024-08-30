@@ -1,4 +1,4 @@
-postcode, woonplaats, gemeente, provincie, lengtegraad, breedtegraad
+postcode, woonplaats, gemeente, provincie, breedtegraad, lengtegraad
 1000, Amsterdam, Amsterdam, Noord-Holland, 52.3362429, 4.8694444
 1001, Amsterdam, Amsterdam, Noord-Holland, 52.36424, 4.883358
 1002, Amsterdam, Amsterdam, Noord-Holland, 52.36424, 4.883358
