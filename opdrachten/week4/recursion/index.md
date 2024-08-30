@@ -165,9 +165,9 @@ aanroept.
 
 Een recursieve manier lijkt vaak ingewikkelder dan een iteratieve
 manier, maar in sommige gevallen is de recursieve manier de
-makkelijkste manier om een probleem op te lossen. Bijvoorbeeld, stel
-we willen alle mogelijke permutaties van letters 'a', 'b', en 'c'
-vinden met een bepaalde lengte. We kunnen dit recursief schrijven als:
+makkelijkste manier om een probleem op te lossen. Bijvoorbeeld als we
+alle mogelijke permutaties van letters 'a', 'b', en 'c' tot een
+bepaalde lengte willen vinden. We kunnen dit recursief schrijven als:
 
 ```
 def permutations(length: int, values: list[str], result: str) -> None:
