@@ -53,7 +53,7 @@ we een 'base case' nodig, een conditie waarbij het zichzelf aanroepen
 ophoudt. De 'base case' is dit geval `n <= 1`, als deze conditie
 `True` is returnen we '1'.
 
-Als deze 'base case' conditie `False` is komen we bij de 'recursieve
+Als deze 'base case' conditie `False` is komen we bij de 'recursive
 case'. Hier wordt het probleem doorgaans opgesplits in kleinere
 deelproblemen. In het geval van `factorial(n)` splitsen we het
 probleem op in `n` vermenigvuldigd met `factorial(n - 1)`.
