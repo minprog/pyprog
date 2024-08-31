@@ -6,11 +6,13 @@ Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan vers
 
 Heb je problemen met de installatie:
 
-- check dan bij de assistenten en je docent
-- ga naar de laptophelpdesk, dinsdag en donderdag 12:00--13:00 in B1.27A
-- als niks helpt, neem dan **direct** contact op via <mailto:pyprog@proglab.nl>
+1. check eerst bij de assistenten of je docent
+2. ga naar de laptophelpdesk
+	- eerste drie weken studiejaar 10:00-16:00 in B1.19A
+	- vanaf 23 september alleen dinsdag en donderdag 12:00--13:00 in B1.27
+3. als niks helpt, neem dan **direct** contact op via <mailto:pyprog@proglab.nl>
 
-Een mislukte installatie is géén reden voor een uitzondering op de deadlines!
+Een mislukte installatie is géén reden voor een uitzondering op deadlines!
 
 ## Python
 
@@ -20,11 +22,11 @@ Een mislukte installatie is géén reden voor een uitzondering op de deadlines!
         sudo add-apt-repository ppa:deadsnakes/ppa
         sudo apt install python3.12 python3.12-distutils
 
--   Als je met **macOS** werkt, dan heb je waarschijnlijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Misschien heb je Python 3.10 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
+-   Als je met **macOS** werkt, dan heb je waarschijnlijk al Python. Check dit door in een terminal het commando `python3 -V` te geven. Misschien heb je Python 3.10 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.12.
 
     Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
 
--   Als je met **Windows** werkt, dan heb je misschien al Python. Check dit door in de command prompt (`cmd.exe`) het commando `python -V` te geven. Misschien heb je Python 3.10 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.11.
+-   Als je met **Windows** werkt, dan heb je misschien al Python. Check dit door in de command prompt (`cmd.exe`) het commando `python -V` te geven. Misschien heb je Python 3.10 of eerder. In dat geval is het aan te raden een nieuwe versie te installeren, en liefst Python 3.12.
 
     Als je gaat installeren, doe dit dan door op de Python-homepage een Python installer te downloaden en uit te voeren: <https://www.python.org/downloads/>. Hiermee heb je meteen de nieuwste versie.
 
@@ -34,9 +36,7 @@ Een mislukte installatie is géén reden voor een uitzondering op de deadlines!
 
 Voor beginnende programmeurs is het **niet** aan te raden om te werken met Visual Studio Code. Dat komt omdat VSCode veel automatische tools installeert om jou het leven "makkelijk" te maken. Maar als je niet begrijpt wat er gebeurt, dan helpt het niet. Ook kan het je hinderen in het leren programmeren.
 
-**Bij het tentamen is VScode niet toegestaan, maar alleen de drie onderstaande editors.**
-
-Laat je dus vooral niet verleiden door iemand die het wel even voor je instelt, en gebruik tools die je goed begrijpt, zodat je je lekker kan richten op waar het om gaat :-)
+Laat je dus vooral niet verleiden door iemand die het wel even voor je instelt, en gebruik tools die je goed begrijpt, zodat je je lekker kan richten op waar het om gaat en wél zelf begrijpt wat er allemaal gebeurt :-)
 
 Daarom is de beste aanrader voor beginners om een goede, maar simpele editor te gebruiken. Bij deze cursus gebruik je de volgende:
 
