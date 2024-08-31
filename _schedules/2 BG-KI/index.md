@@ -10,9 +10,11 @@ Je moet het vak Inleiding Programmeren Bèta-gamma volledig hebben gehaald voord
 
 ## Docenten en assistent
 
-De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>. Bas kijkt ook het huiswerk na.
+De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>.
 
 ## Wat ga je leren
+
+De volgende onderdelen komen aan bod (kleine aanpassingen zijn mogelijk).
 
 - **Module 1: Functies en testen.** Hier herhalen we de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
@@ -32,22 +34,29 @@ De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak 
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
 
-1. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+1.  Inleveren van oplossingen voor de programmeeropdrachten.
 
-2. Activiteiten tijdens het werkcollege (10% van eindcijfer). Elke week ga je tijdens het werkcollege startopdrachten maken.
+    Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3. Code review (15% van eindcijfer). Bij een code review ga je uitgebreid je opdracht nalopen met een medestudent en daarna opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Ze worden erg streng nagekeken, maar de hoogste beoordeling telt zodat je ruimte hebt om te leren. Om een code review te doen moet je wel bijblijven.
+2.  Activiteiten tijdens het werkcollege (0% van eindcijfer, minimaal 6 van 7 punten).
 
-4. Beoordeling tentamen (75% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren.
+    Elke week ga je tijdens het werkcollege startopdrachten maken. Als je de opdrachten diezelfde les of tijdens die week in een laptopcollege aftekent krijg je een punt. Eénmalig mag je een werkcollege missen en dan toch een punt krijgen.
+
+3.  Code review (25% van eindcijfer).
+
+    Drie keer vind tijdens het werkcollege een code review plaats. Je gaat een eerdere opdracht nalopen met een medestudent en daarna opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Het deelcijfer is (hoogste beoordeling * aantal gedane reviews / 3). De verwachting is dus dat je alle reviews doet.
+
+4.  Beoordeling tentamen (75% van eindcijfer).
+
+    Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen voor dit tentamen om het vak af te kunnen ronden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren.
 
 ### Minimumeisen
 
 Om in aanmerking te komen voor een eindbeoordeling moet je goed hebben meegedaan met het vak:
 
-- de opdrachten op volgorde gemaakt hebben (dus in principe geen opdrachten tussendoor overslaan)
-- alle code reviews op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd
-- aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag er één missen)
-- het tentamen voldoende maken
+- de opdrachten op volgorde gedaan; dus in principe geen opdrachten overgeslagen
+- minimaal 6 punten gehaald voor werkcollege-activiteiten
+- het tentamen of hertentamen voldoende gemaakt
 
 Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
 
@@ -84,15 +93,15 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Dit is een overzicht van de deadlines per week:
 
-|          | deadline huiswerk | deadline code review                   |
-|----------|-------------------|----------------------------------------|
-| Module 1 | vr  6 sep  17:00  | -                                      |
-| Module 2 | vr 13 sep  17:00  | -                                      |
-| Module 3 | vr 20 sep  17:00  | ma 25 sep  20:00 (Indexer)             |
-| Module 4 | vr 27 sep  17:00  | di 10 okt  20:00 (Virus)               |
-| Module 5 | vr  4 okt  17:00  | di 24 okt  20:00 (War)                 |
-| Module 6 | vr 11 okt  17:00  | -                                      |
-| Module 7 | vr 18 okt  17:00  | -                                      |
+|          | deadline code review                   |
+|----------|----------------------------------------|
+| Module 1 | -                                      |
+| Module 2 | -                                      |
+| Module 3 | ma 25 sep  20:00 (Indexer)             |
+| Module 4 | di 10 okt  20:00 (Virus)               |
+| Module 5 | di 24 okt  20:00 (War)                 |
+| Module 6 | -                                      |
+| Module 7 | -                                      |
 
 De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
@@ -128,7 +137,7 @@ Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven
 
 Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
 
-Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat je voor een code review hebt gehaald. Het cijfer bereken je door `punten / 6 * 9 + 1`.
+Het cijfer voor één review bereken je door `punten / 6 * 9 + 1`. Het deelcijfer voor code reviews is `(hoogste beoordeling * aantal gedane reviews / 3)`.
 
 ## Beoordeling tentamen
 
