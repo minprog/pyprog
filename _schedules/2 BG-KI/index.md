@@ -1,6 +1,6 @@
 # Programmeren voor Bèta-gamma KI
 
-## Studiewijzer<br><small>Herfst 2023</small>
+## Studiewijzer<br><small>Herfst 2024</small>
 
 Dit vak volg je als je Bèta-gamma studeert en de major Kunstmatige intelligentie gaat volgen. Het helpt je verder leren vanuit je basiskennis van Python naar meer geavanceerde programma's, en je bereidt jezelf voor op het vak Datastructuren uit de bachelor Kunstmatige Intelligentie.
 
@@ -10,19 +10,19 @@ Je moet het vak Inleiding Programmeren Bèta-gamma volledig hebben gehaald voord
 
 ## Docenten en assistent
 
-De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>. Coen van den Elsen is assistent en samen met Bas aanwezig bij alle bijeenkomsten. Bas en Coen kijken ook het huiswerk na.
+De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <progbg@mprog.nl>. Bas kijkt ook het huiswerk na.
 
 ## Wat ga je leren
 
-- **Module 1: Programmeren, variabelen en beslissingen.** Hier herhalen we de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+- **Module 1: Functies en testen.** Hier herhalen we de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
-- **Module 2: Decompositie.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+- **Module 2: Simulaties.** Met je kennis van Python ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
 
-- **Module 3: Simuleren.** Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
+- **Module 3: Collections en memory.** Je leert de basis-datatypes kennen die in Python ingebouwd zijn en in vrijwel elk programma voorkomen. Daarbij leer je ook begrijpen hoe Python variabelen beheert en efficiënt met geheugen omgaat.
 
-- **Module 4: Algoritmen.** Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
+- **Module 4: Functionele technieken.** Hier ga je kijken naar recursie en list comprehensions, technieken die standaard beschikbaar zijn in Python. Je gaat die laatste toepassen in een grotere simulatie-opdracht.
 
-- **Module 5: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+- **Module 5: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's. **Deze is het belangrijkst!**
 
 - **Module 6: Grote programma's.** Hier ga je stap voor stap een grote programma bouwen, namelijk een game die je maakt met behulp van het PyGame-framework. Zo leer je zelf hoe je je programma met hulp van zo'n framework kunt structureren en natuurlijk hoe je interactieve grafische games maakt.
 
@@ -32,11 +32,11 @@ De docenten bij dit vak zijn Bas Terwijn en Martijn Stegeman. Zij geven het vak 
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
 
-1. Oefeningen uit het boek maken. In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Doe er minstens een paar om jezelf te controleren.
+1. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-2. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+2. Activiteiten tijdens het werkcollege (10% van eindcijfer). Elke week ga je tijdens het werkcollege startopdrachten maken.
 
-3. Beoordeling code review (25% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Ze worden erg streng nagekeken, maar de hoogste beoordeling telt zodat je ruimte hebt om te leren.
+3. Code review (15% van eindcijfer). Bij een code review ga je uitgebreid je opdracht nalopen met een medestudent en daarna opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Ze worden erg streng nagekeken, maar de hoogste beoordeling telt zodat je ruimte hebt om te leren. Om een code review te doen moet je wel bijblijven.
 
 4. Beoordeling tentamen (75% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren.
 
@@ -44,8 +44,7 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 Om in aanmerking te komen voor een eindbeoordeling moet je goed hebben meegedaan met het vak:
 
-- het grootste deel van alle opdrachten hebben ingeleverd vóór de wekelijkse deadlines (dus geen grote gaten laten vallen, naar beoordeling van de docenten, in normale omstandigheden 80% van de opdrachten correct ingeleverd)
-- specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór de wekelijkse deadline (we laten altijd tijdig weten welke dit zijn, in de eerste week is dit nog niet relevant)
+- de opdrachten op volgorde gemaakt hebben (dus in principe geen opdrachten tussendoor overslaan)
 - alle code reviews op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd
 - aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven (je mag er één missen)
 - het tentamen voldoende maken
@@ -54,7 +53,7 @@ Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bov
 
 ## Vragen stellen
 
-Tijdens dit vak zul je vaak de hulp inroepen van de assistenten en medestudenten. Je beste optie is langskomen tijdens de colleges.
+Tijdens dit vak zul je vaak de hulp inroepen van medestudenten en de docent. Je beste optie is langskomen tijdens de colleges.
 
 **Assistentie:** direct contact met een assistent of docent, voor hulp bij programmeren.
 
@@ -87,13 +86,13 @@ Dit is een overzicht van de deadlines per week:
 
 |          | deadline huiswerk | deadline code review                   |
 |----------|-------------------|----------------------------------------|
-| Module 1 | vr  8 sep  17:00  | -                                      |
-| Module 2 | vr 15 sep  17:00  | -                                      |
-| Module 3 | vr 22 sep  17:00  | ma 25 sep  20:00 (Populatie & Sjoelen) |
-| Module 4 | vr 29 sep  17:00  | di 10 okt  20:00 (Indexer)             |
-| Module 5 | vr  6 okt  17:00  | di 24 okt  20:00 (Schuifpuzzel)        |
-| Module 6 | vr 20 okt  17:00  | -                                      |
-| Module 7 | vr 20 okt  17:00  | -                                      |
+| Module 1 | vr  6 sep  17:00  | -                                      |
+| Module 2 | vr 13 sep  17:00  | -                                      |
+| Module 3 | vr 20 sep  17:00  | ma 25 sep  20:00 (Indexer)             |
+| Module 4 | vr 27 sep  17:00  | di 10 okt  20:00 (Virus)               |
+| Module 5 | vr  4 okt  17:00  | di 24 okt  20:00 (War)                 |
+| Module 6 | vr 11 okt  17:00  | -                                      |
+| Module 7 | vr 18 okt  17:00  | -                                      |
 
 De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
@@ -132,6 +131,8 @@ Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangelever
 Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat je voor een code review hebt gehaald. Het cijfer bereken je door `punten / 6 * 9 + 1`.
 
 ## Beoordeling tentamen
+
+> De beoordelingswijze van het tentamen zal nog aangepast worden. Zodra dit is gebeurd volgt een mail naar alle deelnemers.
 
 Hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer. Het gaat hieronder altijd om functies die een oplossing zijn voor de opgaven uit het tentamen.
 

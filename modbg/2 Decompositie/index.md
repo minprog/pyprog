@@ -9,10 +9,6 @@ De technische focus is daarmee op **functies**. Dit zijn bouwblokken van je prog
 | ---------------- | ------------------------------------------------------------- |
 | Opdracht         | Onderwerp                                                     |
 | ---------------- | ------------------------------------------------------------- |
-| **RNA**          | Input, output, herhaling met strings                          |
-| **Leesbaarheid** | Analyseren van strings met herhaling                          |
-| **camelCase**    | Construeren van strings                                       |
-| **Kalender**     | Schrijven van een groter programma opgedeeld in vele functies |
 | ---------------- | ------------------------------------------------------------- |
 
 ## Aanpak

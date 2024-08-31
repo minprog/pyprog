@@ -4,32 +4,23 @@ Welkom:
 
 Module 1:
     Overzicht: /modbg/programmeren
-    Lezen en oefenen:
-        "Chapter 2: Hello, Python": /boek/hello
-        "Chapter 3: Designing functions": /boek/functions
-        "Chapter 4: Working with text": /boek/text
-        "Chapter 5: Making Choices": /boek/choices
-        "Chapter 6: Modular Approach": /boek/modules
-        "Chapter 7: Using Methods": /boek/methods
-        "Chapter 8: Storing Collections using Lists": /boek/lists
-        "Chapter 9: Repeating Code using Loops": /boek/loops
     Opdrachten:
         Etenstijd: /opdrachten/week1/etenstijd
-        Calculator: /opdrachten/week1/calculator
+        # Calculator: /opdrachten/week1/calculator
         Wachtwoord: /opdrachten/week2/wachtwoord
-        Cola: /opdrachten/week2/cola
+        # Cola: /opdrachten/week2/cola
         # Sjoelen: /opdrachten/week3/sjoelen
-        Temperatuur: /opdrachten/week2/temperatuur
+        # Temperatuur: /opdrachten/week2/temperatuur
+        RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
+        # Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
+        camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
+        Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
 
 Module 2:
     Overzicht: /modbg/decompositie
     # Code review: /
     # Lezen en oefenen:
     Opdrachten:
-        RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
-        Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
-        camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
-        Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
     Oefenen:
         Debugging: /opdrachten/week3/debug
 
