@@ -91,19 +91,27 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Dit is een overzicht van de deadlines per week:
+De filosofie voor de Beta-gammagroep is dat we willen zorgen dat iedereen bij blijft, voldoende tijd aan het vak besteedt, en het tentamen netjes haalt.
+
+Het bijblijven wordt op een aantal manieren gestimuleerd:
+
+- aan de opdrachten starten tijdens werkcollege (+ aftekenen)
+- code reviews over opdrachten doen, die je dan wel af moet hebben
+- persoonlijke voortgangsgesprekken
+
+De deadlines van de code reviews zijn hard, en als je die niet redt ga je punten missen voor dit onderdeel van je eindcijfer.
 
 |          | deadline code review                   |
 |----------|----------------------------------------|
 | Module 1 | -                                      |
 | Module 2 | -                                      |
-| Module 3 | ma 25 sep  20:00 (Indexer)             |
-| Module 4 | di 10 okt  20:00 (Virus)               |
-| Module 5 | di 24 okt  20:00 (War)                 |
+| Module 3 | di 24 sep  20:00                       |
+| Module 4 | di  1 okt  20:00                       |
+| Module 5 | di  8 okt  20:00                       |
 | Module 6 | -                                      |
 | Module 7 | -                                      |
 
-De deadlines voor het wekelijkse huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
+Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen (op maandagochtend!) voor een alternatieve afspraak. Je krijgt dan enige tussentijdse feedback van ons, in plaats van een code review. Ga in ieder geval niet zelf een code review organiseren.
 
 ### Ziekte en inhalen
 
