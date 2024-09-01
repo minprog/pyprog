@@ -24,7 +24,7 @@ De volgende onderdelen komen aan bod (kleine aanpassingen zijn mogelijk).
 
 - **Module 4: Functionele technieken.** Hier ga je kijken naar recursie en list comprehensions, technieken die standaard beschikbaar zijn in Python. Je gaat die laatste toepassen in een grotere simulatie-opdracht.
 
-- **Module 5: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's. **Deze is het belangrijkst!**
+- **Module 5: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's. **Dit is een belangrijke stap!**
 
 - **Module 6: Grote programma's.** Hier ga je stap voor stap een grote programma bouwen, namelijk een game die je maakt met behulp van het PyGame-framework. Zo leer je zelf hoe je je programma met hulp van zo'n framework kunt structureren en natuurlijk hoe je interactieve grafische games maakt.
 
@@ -34,19 +34,19 @@ De volgende onderdelen komen aan bod (kleine aanpassingen zijn mogelijk).
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
 
-1.  Inleveren van oplossingen voor de programmeeropdrachten.
+1.  **Inleveren van oplossingen voor de programmeeropdrachten** (0% van eindcijfer, wel bijblijven)
 
-    Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+    Elke week krijg je diverse programmeeropdrachten als huiswerk. Je maakt ze op volgorde (want ze bouwen op) en levert ze in op de website. Na inleveren wordt een automatische controle uitgevoerd, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-2.  Activiteiten tijdens het werkcollege (0% van eindcijfer, minimaal 6 van 7 punten).
+2.  **Startopdrachten tijdens het werkcollege** (0% van eindcijfer, minimaal 6 van 7 punten)
 
-    Elke week ga je tijdens het werkcollege startopdrachten maken. Als je de opdrachten diezelfde les of tijdens die week in een laptopcollege aftekent krijg je een punt. Eénmalig mag je een werkcollege missen en dan toch een punt krijgen.
+    Elke week ga je *tijdens* het werkcollege startopdrachten maken. Als je de opdrachten diezelfde les of tijdens die week in een laptopcollege aftekent krijg je een punt. Eénmalig mag je een werkcollege missen en dan toch een punt krijgen.
 
-3.  Code review (25% van eindcijfer).
+3.  **Code reviews tijdens het werkcollege** (25% van eindcijfer).
 
-    Drie keer vind tijdens het werkcollege een code review plaats. Je gaat een eerdere opdracht nalopen met een medestudent en daarna opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Het deelcijfer is (hoogste beoordeling * aantal gedane reviews / 3). De verwachting is dus dat je alle reviews doet.
+    Drie keer vind tijdens het werkcollege ook een code review plaats. Je gaat een eerdere opdracht nalopen met een medestudent en daarna opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. De bedoeling is dat je ze allemaal doet (zie cijfers hieronder).
 
-4.  Beoordeling tentamen (75% van eindcijfer).
+4.  **Beoordeling tentamen** (75% van eindcijfer).
 
     Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen voor dit tentamen om het vak af te kunnen ronden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren.
 
@@ -149,26 +149,36 @@ Het cijfer voor één review bereken je door `punten / 6 * 9 + 1`. Het deelcijfe
 
 ## Beoordeling tentamen
 
-> De beoordelingswijze van het tentamen zal nog aangepast worden. Zodra dit is gebeurd volgt een mail naar alle deelnemers.
+Bij het tentamen in week 8 ga je programmeren. Je moet laten zien dat je:
+
+- De basis van Python beheerst
+- Collection types kunt toepassen
+- Basis objectoriëntatie kunt toepassen
+- Nette functies kunt schrijven op basis van het recept
+- ...
+
+Meer over de beoordeling volgt na een paar weken.
+
+<!-- > De beoordelingswijze van het tentamen zal nog aangepast worden. Zodra dit is gebeurd volgt een mail naar alle deelnemers.
 
 Hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer. Het gaat hieronder altijd om functies die een oplossing zijn voor de opgaven uit het tentamen.
 
 Deze schaal is indicatief. Kleine aanpassingen/verduidelijkingen kunnen gedaan op basis van ervaring tijdens het nakijken van de uitwerkingen.
 
-**6**  
+**6**
 Diverse werkende functies met een mix van Python-constructies zoals if's, loops, functie-parameters en gebruik van strings. De functies zijn altijd voorzien van zinvolle basis-doctests en correcte types. Het geheel moet een voldoende niveau van probleemoplossing demonstreren.
 
-**7**  
+**7**
 Zoals 6, met meer correcte code en diversiteit van oplossingen en/of uitgebreidere zinvolle doctests en/of beperkt gebruik van geavanceerdere constructies zoals bij 8. Aanwezigheid van docstrings en goede basis-stijl.
 
-**8**  
+**8**
 Zoals 6, met gebruik van list comprehensions, classes, dictionaries, sets, zinvolle extra functies en/of andere datatypes en constructies, zodanig dat goed begrip gedemonstreerd is. Daarbij inlezen van files. Goede docstrings en goede stijl zodat alles snel te begrijpen is.
 
-**9**  
+**9**
 Zoals 8, met gebruik van meerdere geavanceerde constructies op diverse manieren. Comments en stijl zijn zeer sterk gericht op leesbaarheid door anderen. Geen herhaling van code.
 
-**10**  
-Zoals 9, met bijzonder compacte code opgedeeld in functies en effectief opgeschreven algoritmes. Het is een showcase van jouw uitstekende begrip van wat je in de cursus aangeboden hebt gekregen.
+**10**
+Zoals 9, met bijzonder compacte code opgedeeld in functies en effectief opgeschreven algoritmes. Het is een showcase van jouw uitstekende begrip van wat je in de cursus aangeboden hebt gekregen. -->
 
 
 ## Boek
