@@ -54,7 +54,9 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 Om in aanmerking te komen voor een eindbeoordeling moet je goed hebben meegedaan met het vak:
 
-- de opdrachten op volgorde gedaan; dus in principe geen opdrachten overgeslagen
+- de opdrachten op volgorde gedaan
+- geen opdrachten overgeslagen in modules
+- voldoende modules gemaakt om het tentamen goed te kunnen halen
 - minimaal 6 punten gehaald voor werkcollege-activiteiten
 - het tentamen of hertentamen voldoende gemaakt
 
