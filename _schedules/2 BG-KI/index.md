@@ -119,7 +119,7 @@ Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen (
 
 Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:progbg@mprog.nl). Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je later een uitzondering nodig hebt.
 
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadline vaak nog halen. Kom je toch niet uit met de laatste opdracht van de week, bespreek dan tijdens het werkcollege op maandag met Bas hoe je dit het beste kunt aanpakken. In de tussentijd is het wel belangrijk om naar de stof van de komende week te kijken, en niet te blijven hangen.
+- Ben je één of twee dagen ziek dan is dat geen probleem en kun je de deadlines vaak nog halen. Kom je toch niet, bespreek dan tijdens het werkcollege op maandag met Bas hoe je dit het beste kunt aanpakken.
 
 - Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je met een docent hoe je dit kunt oplossen zodra je weer kunt meedoen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is.
 
@@ -127,13 +127,13 @@ Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:
 
 ## Aanwezigheid
 
-De werkcolleges op maandag zijn verplicht. Je mag maximaal 1 werkcollege missen, anders kun je het vak niet halen. Te laat is niet aanwezig.
+De werkcolleges op maandag zijn verplicht vanwege de activiteiten die we daar organiseren.
 
 De aanwezigheid bij de overige colleges is niet verplicht, maar het is wél de enige plek om hulp te krijgen, en aanwezig zijn geeft je ook structuur. Zorg dat je tijdens de eerste week gewoon bij alle colleges bent zodat je kunt aanvoelen hoe het vak gaat verlopen en of je de hulp wel kunt gebruiken.
 
 ## Beoordeling code review
 
-De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
+De uitwerkingen van je reviews kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
 
 6. uitzonderlijke kwaliteit op basis van een doordacht ontwerp met scherp onderbouwde keuzes
 5. goede kwaliteit, beperkt ruimte voor verbetering en alle keuzes zijn goed onderbouwd
