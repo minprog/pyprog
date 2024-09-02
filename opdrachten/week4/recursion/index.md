@@ -251,7 +251,8 @@ belangrijk verschil is dat een string *immutable* is terwijl een `list`
 
 **opdracht7:** Pas het programma aan zodat het tijdens het uitvoeren
 geen string meer gebruikt voor de representatie van een route maar in
-plaats daarvan een `list`.
+plaats daarvan een `list`. Gebruik daarbij de `append()` methode om
+elementen aan een `list` toe te voegen.
 
 *test:* Dezelfde 113 routes zouden moeten worden geprint maar nu in
 `list` vorm.
