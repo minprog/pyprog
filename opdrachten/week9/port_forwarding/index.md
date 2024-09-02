@@ -5,7 +5,7 @@ kunnen spelen.
 
 ## Thuis Netwerk
 
-In een netwerk thuis is dat relatief aanvoudig. Op de computer waar de
+In een netwerk thuis is dat relatief eenvoudig. Op de computer waar de
 server gaat runnen moeten we wel eerst uitvinden wat het `Local IP`
 address is, zie hiervoor de youtube video van jouw operating system:
 
