@@ -38,9 +38,9 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
     Elke week krijg je diverse programmeeropdrachten als huiswerk. Je maakt ze op volgorde (want ze bouwen op) en levert ze in op de website. Na inleveren wordt een automatische controle uitgevoerd, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-2.  **Startopdrachten tijdens het werkcollege** (0% van eindcijfer, minimaal 6 van 7 punten)
+2.  **Startopdrachten tijdens het werkcollege** (0% van eindcijfer, aftekenen verplicht)
 
-    Elke week ga je *tijdens* het werkcollege startopdrachten maken. Als je de opdrachten diezelfde les of tijdens die week in een laptopcollege aftekent krijg je een punt. Eénmalig mag je een werkcollege missen en dan toch een punt krijgen.
+    Je gaat *tijdens* het werkcollege startopdrachten maken. Alle werkcolleges tijdens het vak zijn verplicht, maar niet puur aanwezigheid. Door in de werkcolleges de startopdrachten te maken en af te tekenen voldoe je aan de verplichting. Als je ze ter plekke niet afkrijgt kun je het aftekenen ook in het volgende laptopcollege doen.
 
 3.  **Code reviews tijdens het werkcollege** (25% van eindcijfer).
 
@@ -57,7 +57,7 @@ Om in aanmerking te komen voor een eindbeoordeling moet je goed hebben meegedaan
 - de opdrachten op volgorde gedaan
 - geen opdrachten overgeslagen in modules
 - voldoende modules gemaakt om het tentamen goed te kunnen halen
-- minimaal 6 punten gehaald voor werkcollege-activiteiten
+- eerste vijf weken minimaal 4 startopdrachten afgetekend
 - het tentamen of hertentamen voldoende gemaakt
 
 Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
