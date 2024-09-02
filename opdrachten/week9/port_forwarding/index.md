@@ -18,7 +18,7 @@ computer is.
 
 Daarna starten we de daar de server bv met port '2345', en starten we
 de clients op verschillende computers in dit netwerk met port '2345'
-en met als host het IP address bv '192.168.0.14'
+en met als host het IP address '192.168.0.14'.
 
 ![connect_home.png](connect_home.png)
 
