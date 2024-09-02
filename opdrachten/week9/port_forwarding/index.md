@@ -1,4 +1,4 @@
-# Meerdere Computer
+# Meerdere Computers
 
 We willen een multi-player spel gezamelijk op meerdere computers
 kunnen spelen.
@@ -7,13 +7,13 @@ kunnen spelen.
 
 In een netwerk thuis is dat relatief aanvoudig. Op de computer waar de
 server gaat runnen moeten we wel eerst uitvinden wat het `Local IP`
-address is, zie de youtube video van jouw operating system:
+address is, zie hiervoor de youtube video van jouw operating system:
 
 - [Linux](https://youtu.be/gaIYP4TZfHI)
 - [Mac](https://youtu.be/Ak5zlPENi1s)
 - [Windows](https://youtu.be/U181eofiomU)
 
-Stel dat we vinden dat '192.168.0.14' het `Local IP` address van deze
+Stel dat we vinden dat '192.168.0.14' het `Local IP` address van je
 computer is.
 
 Daarna starten we de daar de server bv met port '2345', en starten we
