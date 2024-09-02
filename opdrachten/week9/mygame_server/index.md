@@ -19,8 +19,8 @@ een `Action` object. De server ontvangt de acties van elke speler,
 berekent de staat van het spel in de volgende tijdstap, en stuurt deze
 staat terug naar elke client in een `Game_State` object. Elke client
 ontvangt een `Game_State` object en tekent vervolgens deze staat
-waarin dus de acties van elke speler zit zodat alle spelers gezamelijk
-hetzelfde spel spelen.
+waarin dus de acties van elke speler verwerkt zitten zodat alle
+spelers gezamelijk hetzelfde spel spelen.
 
 ![mygame_server.png](mygame_server.png)
 
