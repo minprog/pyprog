@@ -76,6 +76,12 @@ grades:
     cafeine: *automatic
     vakantie: *automatic
 
+	# simulaties
+    populatie: *automatic
+    sjoelen: *automatic
+	prisoners: *check
+	birthdays: *check
+
     # module 2
     string_func: *automatic
     acid: *automatic
@@ -105,8 +111,6 @@ grades:
     kalender: *automatic
 
     # module 7
-    populatie: *automatic
-    sjoelen: *automatic
 
     # module 8
     comprehensions: *automatic

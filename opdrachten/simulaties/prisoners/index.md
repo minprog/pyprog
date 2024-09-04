@@ -3,7 +3,7 @@
 Youtube video [The Riddle That Seems Impossible Even If You Know The
 Answer](https://youtu.be/iSNsgj1OCLA) van Veritasium beschrijft een
 puzzel met 100 gevangenen die ieder met maar 50 zoekpogingen hun eigen
-nummer moeten vinden in 100 dozen. De verassende oplossings-stragegie
+nummer moeten vinden in 100 dozen. De verrassende oplossings-stragegie
 van de puzzel wordt ook uitgelegd.
 
 [![prisoners.png](prisoners.png)](https://youtu.be/iSNsgj1OCLA)

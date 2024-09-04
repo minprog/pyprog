@@ -4,49 +4,43 @@ Welkom:
 
 Module 1:
     Overzicht: /modbg/programmeren
-    Opdrachten:
+    Startopdrachten:
         Etenstijd: /opdrachten/week1/etenstijd
-        # Calculator: /opdrachten/week1/calculator
         Wachtwoord: /opdrachten/week2/wachtwoord
-        # Cola: /opdrachten/week2/cola
-        # Sjoelen: /opdrachten/week3/sjoelen
-        # Temperatuur: /opdrachten/week2/temperatuur
-        RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
-        # Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
-        camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
-        Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
+        RNA: /opdrachten/week3/rna
+	Huiswerk:
+        camelCase: /opdrachten/week3/camelcase
+        Kalender: /opdrachten/week3/kalender
 
 Module 2:
-    Overzicht: /modbg/decompositie
-    # Code review: /
-    # Lezen en oefenen:
-    Opdrachten:
+    Overzicht: /modbg/simuleren
+    Startopdrachten:
+        Populatie: /opdrachten/simulaties/populatie
+        Sjoelen: /opdrachten/simulaties/sjoelen
+	Huiswerk:
+		Birthday: /opdrachten/simulaties/birthday
+		Prisoners: /opdrachten/simulaties/prisoners
     Oefenen:
-        Debugging: /opdrachten/week3/debug
+        Debugging: /oefeningen/debug
 
 Module 3:
-    Overzicht: /modbg/simuleren
-    Oefenen:
-        Comprehensions: /opdrachten/week4/comprehensions
-    Opdrachten:
-        Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
-        Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
-        Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
-
-Module 4:
-    Overzicht: /modbg/algoritmen
-    # Code review: /
-    Lezen en oefenen:
-        "Chapter 11: Collection Types": /boek/collections
-        "Chapter 12: Designing Algorithms": /boek/algorithms
-        "Chapter 13: Search and Sorting": /boek/searching
-    Opdrachten:
-        Algorithms: /opdrachten/week5/algorithms
-        Indexer: /opdrachten/week5/indexer
-        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
-    Oefenen:
+    Overzicht: /modbg/collections
+	Startopdrachten:
         Memory: /opdrachten/week5/memory_model
         Feestagenda: /opdrachten/week5/feestagenda
+    Huiswerk:
+        # Algorithms: /opdrachten/week5/algorithms
+        Indexer: /opdrachten/week5/indexer
+        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
+    # Oefenen:
+
+Module 4:
+    Overzicht: /modbg/simuleren
+    Startopdracht:
+        Comprehensions: /opdrachten/week4/comprehensions
+		Recursie: .
+    Huiswerk:
+        Virus: /opdrachten/week4/virus
 
 Module 5:
     Overzicht: /modbg/classes

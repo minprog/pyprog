@@ -1,4 +1,4 @@
-# Module 3: Simuleren
+# Module 2: Simuleren
 
 Met de ervaring die je nu hebt opgedaan met het bouwen van programma's op basis van meerdere functies, kun je aan de slag met voorbeelden van programma's die problemen uit de echte wereld oplossen.
 
@@ -8,22 +8,16 @@ De ervaring leert dat als je de juiste keuzes maakt bij het modelleren, je een a
 
 Interessant wordt het als je verschillende aspecten van een systeem gaat modelleren. Niet alleen de nakomelingen per seizoen, wat een vrij eenvoudige functie is, maar de combinatie met bijvoorbeeld factoren die sterven van dieren kunnen beïnvloeden (jagen, predators, ziektes).
 
-Een simulatie is altijd gebaseerd op **herhaling**, omdat er tijdstappen worden doorlopen waarin variabelen veranderen. Elke tijdstap (bijvoorbeeld een dag, een seconde of een jaar) zijn er bepaalde gebeurtenissen die van invloed zijn op de gekozen variabelen, zoals het "aantal levende konijnen in een populatie".
-
-Maar om te beginnen introduceren we **list comprehensions** waarmee je transformaties van lijsten op een relatief korte manier kunt uitdrukken. Dit is handig voor code waarin je bijvoorbeeld elk element van een lijst wil omrekenen naar iets anders.
+Een simulatie is altijd gebaseerd op **herhaling**, omdat er (tijd)stappen worden doorlopen waarin variabelen veranderen. Elke tijdstap (bijvoorbeeld een dag, een seconde of een jaar) zijn er bepaalde gebeurtenissen die van invloed zijn op de gekozen variabelen, zoals het "aantal levende konijnen in een populatie".
 
 ## Studiematerialen
 
 | ------------------ | -------------------------------------------------------------------- |
 | Opdracht           | Onderwerp                                                            |
 | ------------------ | -------------------------------------------------------------------- |
-| **Comprehensions** | Oefenen met manieren om list comprehensions toe te passen            |
 | **Populatie**      | Een relatief eenvoudige simulatie die doorloopt tot een **einddoel** |
 | **Sjoelen**        | Een spelsimulatie op basis van **kansen**                            |
-| **Virus**          | Een simulatie om het **effect** van een virusremmer te bestuderen    |
+| **Birthday**       | Een simulatie om de **kans** te berekenen of verjaardagen overlappen |
+| **Prisoners**      | Een spelsimulatie om een **probleem** op te lossen                   |
+| **Debugging**      | Een oefening om beter zelfstandig te leren **debuggen**              |
 | ------------------ | -------------------------------------------------------------------- |
-
-## Aanpak
-
-1. Reserveer flink tijd om aan de programmeeropdrachten te werken
-2. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen

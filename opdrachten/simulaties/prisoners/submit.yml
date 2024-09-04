@@ -1,0 +1,4 @@
+name: prisoners
+files:
+  required:
+    - prisoners.py
