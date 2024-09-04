@@ -1,7 +1,8 @@
 # MyGame Server
 
-We kunnen ook zmq sockets gebruiken om een multi-player computerspel te
-schrijven.
+We kunnen ook zmq sockets gebruiken om een networked multi-player
+computerspel te schrijven waar mensen op verschillende computers aan
+mee kunnen doen.
 
 ## Alle Bestanden
 
@@ -13,14 +14,14 @@ schrijven.
 
 ## Protocol
 
-In ons multi-player computerspel stuurt een client in de elke tijstap
-de naam en de actie die een speler in het spel maakt naar de server in
-een `Action` object. De server ontvangt de acties van elke speler,
-berekent de staat van het spel in de volgende tijdstap, en stuurt deze
-staat terug naar elke client in een `Game_State` object. Elke client
-ontvangt een `Game_State` object en tekent vervolgens deze staat
-waarin dus de acties van elke speler zit zodat alle spelers gezamelijk
-hetzelfde spel spelen.
+In ons networked multi-player computerspel stuurt een client in de
+elke tijstap de naam en de actie die een speler in het spel maakt naar
+de server in een `Action` object. De server ontvangt de acties van
+elke speler, berekent de staat van het spel in de volgende tijdstap,
+en stuurt deze staat terug naar elke client in een `Game_State`
+object. Elke client ontvangt een `Game_State` object en tekent
+vervolgens deze staat waarin dus de acties van elke speler verwerkt
+zitten zodat alle spelers gezamelijk hetzelfde spel spelen.
 
 ![mygame_server.png](mygame_server.png)
 
