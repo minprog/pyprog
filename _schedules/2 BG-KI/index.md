@@ -129,7 +129,9 @@ Als je ziek bent dan meld je het in ieder geval meteen even via [e-mail](mailto:
 
 De werkcolleges op maandag zijn verplicht vanwege de activiteiten die we daar organiseren.
 
-De aanwezigheid bij de overige colleges is niet verplicht, maar het is wél de enige plek om hulp te krijgen, en aanwezig zijn geeft je ook structuur. Zorg dat je tijdens de eerste week gewoon bij alle colleges bent zodat je kunt aanvoelen hoe het vak gaat verlopen en of je de hulp wel kunt gebruiken.
+Als je de startopdrachten niet afkrijgt in het werkcollege, dan is het volgende laptopcollege ook verplicht.
+
+De aanwezigheid bij de overige colleges is verder niet verplicht, maar het is wél de enige plek om hulp te krijgen, en aanwezig zijn geeft je ook structuur. Zorg dat je tijdens de eerste week gewoon bij alle colleges bent zodat je kunt aanvoelen hoe het vak gaat verlopen en of je de hulp wel kunt gebruiken.
 
 ## Beoordeling code review
 
