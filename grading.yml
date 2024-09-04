@@ -76,11 +76,11 @@ grades:
     cafeine: *automatic
     vakantie: *automatic
 
-	# simulaties
+    # simulaties
     populatie: *automatic
     sjoelen: *automatic
-	prisoners: *check
-	birthdays: *check
+    prisoners: *check
+    birthdays: *check
 
     # module 2
     string_func: *automatic

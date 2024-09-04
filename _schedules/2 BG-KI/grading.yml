@@ -155,9 +155,9 @@ mod_simuleren:
     submits:
         populatie: 1
         sjoelen: 1
-		birthdays: 1
-		prisoners: 1
-#
+        birthdays: 1
+        prisoners: 1
+
 # mod_algoritmen:
 #     show_overview: true
 #     deadline: 29/9/23 17:00
