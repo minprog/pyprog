@@ -103,17 +103,17 @@ Het bijblijven wordt op een aantal manieren gestimuleerd:
 
 De deadlines van de code reviews zijn hard, en als je die niet redt ga je punten missen voor dit onderdeel van je eindcijfer.
 
-|          | deadline code review                   |
-|----------|----------------------------------------|
-| Module 1 | -                                      |
-| Module 2 | -                                      |
-| Module 3 | di 24 sep  20:00                       |
-| Module 4 | di  1 okt  20:00                       |
-| Module 5 | di  8 okt  20:00                       |
-| Module 6 | -                                      |
-| Module 7 | -                                      |
+|          | soft deadline opdrachten    | deadline code review                   |
+|----------|-----------------------------|----------------------------------------|
+| Module 1 | vr  6 sep 17:00             | -                                      |
+| Module 2 | vr 13 sep 17:00             | -                                      |
+| Module 3 | vr 20 sep 17:00             | di 24 sep  20:00                       |
+| Module 4 | vr 27 sep 17:00             | di  1 okt  20:00                       |
+| Module 5 | vr  4 okt 17:00             | di  8 okt  20:00                       |
+| Module 6 | vr 11 okt 17:00             | -                                      |
+| Module 7 | vr 18 okt 17:00             | -                                      |
 
-Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen (op maandagochtend!) voor een alternatieve afspraak. Je krijgt dan enige tussentijdse feedback van ons, in plaats van een code review. Ga in ieder geval niet zelf een code review organiseren.
+Mocht je ziek zijn bij het werkcollege van de code review dan moet je een mail sturen (op maandagochtend!) voor een alternatieve afspraak. Je krijgt dan éénmalig tussentijdse feedback van ons, in plaats van een code review. Ga in ieder geval niet zelf een code review organiseren.
 
 ### Ziekte en inhalen
 
