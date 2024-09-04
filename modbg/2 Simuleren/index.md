@@ -21,3 +21,4 @@ Een simulatie is altijd gebaseerd op **herhaling**, omdat er (tijd)stappen worde
 | **Prisoners**      | Een spelsimulatie om een **probleem** op te lossen                   |
 | **Debugging**      | Een oefening om beter zelfstandig te leren **debuggen**              |
 | ------------------ | -------------------------------------------------------------------- |
+
