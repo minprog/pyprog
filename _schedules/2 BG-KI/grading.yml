@@ -151,7 +151,7 @@ mod_programmeren:
 
 mod_simuleren:
     show_overview: true
-    deadline: 13/9/23 17:00
+    deadline: 13/9/24 17:00
     submits:
         populatie: 1
         sjoelen: 1
