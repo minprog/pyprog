@@ -10,7 +10,7 @@ $ mkdir mygame
 ```
 
 Kopieer daar alle Python files van de
-[Points](/opdrachten/week8/pygame10_points)
+[Points](/opdrachten/pygame/pygame10_points)
 opdracht naartoe, of van een eerdere opdracht als je niet tot aan de
 'Points' opdracht bent gekomen. Laat files die niet nodig zijn weg.
 

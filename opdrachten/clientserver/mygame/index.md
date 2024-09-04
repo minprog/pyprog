@@ -13,20 +13,20 @@ volgende eisen voldoen:
 Als je inspiratie nodig hebt kun je **optioneel** kijken naar deze
 mogelijke ingrediënten voor je eigen spel:
 
-- [ingredient_bullets](/opdrachten/week9/ingredient_bullets)
-- [ingredient_steering](/opdrachten/week9/ingredient_steering)
-- [ingredient_center](/opdrachten/week9/ingredient_center)
-- [ingredient_mouse](/opdrachten/week9/ingredient_mouse)
+- [ingredient_bullets](/opdrachten/clientserver/ingredient_bullets)
+- [ingredient_steering](/opdrachten/clientserver/ingredient_steering)
+- [ingredient_center](/opdrachten/clientserver/ingredient_center)
+- [ingredient_mouse](/opdrachten/clientserver/ingredient_mouse)
 
 Als **optionele extra uitdaging** kun je een spel maken wat je met
 meerdere spelers, ieder op hun eigen computer, kunt spelen. Uitleg
 over hoe je dit met zmq sockets kunt programmeren vind je in deze
 stappen:
 
-1. [multiply_server](/opdrachten/week9/multiply_server)
-2. [status_server](/opdrachten/week9/status_server)
-3. [mygame_server](/opdrachten/week9/mygame_server)
-4. [port_forwarding](/opdrachten/week9/port_forwarding)
+1. [multiply_server](/opdrachten/clientserver/multiply_server)
+2. [status_server](/opdrachten/clientserver/status_server)
+3. [mygame_server](/opdrachten/clientserver/mygame_server)
+4. [port_forwarding](/opdrachten/clientserver/port_forwarding)
 
 
 Als het je helpt kun je **optioneel** voor jezelf een UML class
@@ -37,4 +37,4 @@ code en overzicht te houden.
 
 Kijk voor het inleveren van deze module in:
 
-- [submit](/opdrachten/week9/submission)
+- [submit](/opdrachten/clientserver/submission)
