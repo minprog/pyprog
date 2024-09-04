@@ -141,13 +141,18 @@ code_reviews_bg:
 
 mod_programmeren:
     show_overview: true
-    deadline: 8/9/23 17:00
+    deadline: 6/9/24 17:00
     submits:
         etenstijd: 1
-        calculator: 1
         wachtwoord: 1
-        cola: 1
-        temperatuur: 1
+        rna: 1
+        camelcase: 1
+        kalender: 1
+        # etenstijd: 1
+        # calculator: 1
+        # wachtwoord: 1
+        # cola: 1
+        # temperatuur: 1
 
 mod_decompositie:
     show_overview: true

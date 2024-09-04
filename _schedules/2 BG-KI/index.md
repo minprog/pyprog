@@ -104,7 +104,7 @@ Het bijblijven wordt op een aantal manieren gestimuleerd:
 De deadlines van de code reviews zijn hard, en als je die niet redt ga je punten missen voor dit onderdeel van je eindcijfer.
 
 |          | soft deadline opdrachten    | deadline code review                   |
-|----------|-----------------------------|----------------------------------------|
+|----------|----------------------------:|---------------------------------------:|
 | Module 1 | vr  6 sep 17:00             | -                                      |
 | Module 2 | vr 13 sep 17:00             | -                                      |
 | Module 3 | vr 20 sep 17:00             | di 24 sep  20:00                       |
