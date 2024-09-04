@@ -8,7 +8,7 @@ Module 1:
         Etenstijd: /opdrachten/week1/etenstijd
         Wachtwoord: /opdrachten/week2/wachtwoord
         RNA: /opdrachten/week3/rna
-	Huiswerk:
+    Huiswerk:
         camelCase: /opdrachten/week3/camelcase
         Kalender: /opdrachten/week3/kalender
 
@@ -17,15 +17,15 @@ Module 2:
     Startopdrachten:
         Populatie: /opdrachten/simulaties/populatie
         Sjoelen: /opdrachten/simulaties/sjoelen
-	Huiswerk:
-		Birthday: /opdrachten/simulaties/birthday
-		Prisoners: /opdrachten/simulaties/prisoners
+    Huiswerk:
+        Birthday: /opdrachten/simulaties/birthday
+        Prisoners: /opdrachten/simulaties/prisoners
     Oefenen:
         Debugging: /oefeningen/debug
 
 Module 3:
     Overzicht: /modbg/collections
-	Startopdrachten:
+    Startopdrachten:
         Memory: /opdrachten/week5/memory_model
         Feestagenda: /opdrachten/week5/feestagenda
     Huiswerk:
@@ -38,7 +38,7 @@ Module 4:
     Overzicht: /modbg/simuleren
     Startopdracht:
         Comprehensions: /opdrachten/week4/comprehensions
-		Recursie: .
+        Recursie: .
     Huiswerk:
         Virus: /opdrachten/week4/virus
 
