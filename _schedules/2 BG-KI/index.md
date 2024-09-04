@@ -185,10 +185,6 @@ Zoals 8, met gebruik van meerdere geavanceerde constructies op diverse manieren.
 Zoals 9, met bijzonder compacte code opgedeeld in functies en effectief opgeschreven algoritmes. Het is een showcase van jouw uitstekende begrip van wat je in de cursus aangeboden hebt gekregen. -->
 
 
-## Boek
-
-Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van Paul Gries. Je kunt het aanschaffen als PDF via <https://pragprog.com/titles/gwpy3/practical-programming-third-edition/>. Je kunt het ook bestellen in de boekhandel.
-
 ## Samenwerken
 
 De basis van alles wat je inlevert moet jouw eigen intellectuele werk zijn, behalve waar het gaat om samenwerkopdrachten waar dit expliciet vermeld is.
