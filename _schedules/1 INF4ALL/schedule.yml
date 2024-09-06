@@ -1,9 +1,9 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
     Installatie: /installatie
-    Reviews:
-        Review 1: /reviews/r1
-        Review 2: /reviews/r2
+    # Reviews:
+    #     Review 1: /reviews/r1
+    #     Review 2: /reviews/r2
 
 Module 1:
     Overzicht: /modules/programmeren
