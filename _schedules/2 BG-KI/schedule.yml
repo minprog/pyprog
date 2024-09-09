@@ -25,6 +25,11 @@ Module 2:
 
 Module 3:
     Overzicht: /modbg/collections
+    Collection types:
+        Dictionaries: /opdrachten/collections/dicts
+        Tuples: /opdrachten/collections/tuples
+        Sets: /opdrachten/collections/sets
+        Oefenen: /opdrachten/collections/collection_functions
     Startopdrachten:
         Memory: /opdrachten/collections/memory_model
         Feestagenda: /opdrachten/collections/feestagenda
