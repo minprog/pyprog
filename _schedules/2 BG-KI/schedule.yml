@@ -26,12 +26,12 @@ Module 2:
 Module 3:
     Overzicht: /modbg/collections
     Startopdrachten:
-        Memory: /opdrachten/week5/memory_model
-        Feestagenda: /opdrachten/week5/feestagenda
+        Memory: /opdrachten/collections/memory_model
+        Feestagenda: /opdrachten/collections/feestagenda
     Huiswerk:
         # Algorithms: /opdrachten/week5/algorithms
-        Indexer: /opdrachten/week5/indexer
-        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
+        Indexer: /opdrachten/collections/indexer
+        Schuifpuzzel: /opdrachten/collections/schuifpuzzel
     # Oefenen:
 
 Module 4:
