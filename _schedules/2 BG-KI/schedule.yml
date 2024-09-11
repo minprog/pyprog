@@ -34,50 +34,46 @@ Module 3:
         Memory: /opdrachten/collections/memory_model
         Feestagenda: /opdrachten/collections/feestagenda
     Huiswerk:
-        # Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/collections/indexer
         Schuifpuzzel: /opdrachten/collections/schuifpuzzel
-    # Oefenen:
 
 Module 4:
-    Overzicht: /modbg/simuleren
+    Overzicht: /modbg/functioneel
     Startopdracht:
-        Comprehensions: /opdrachten/week4/comprehensions
-        Recursie: .
+        Comprehensions: /opdrachten/functioneel/comprehensions
+        Recursie: /opdrachten/functioneel/recursie
     Huiswerk:
-        Virus: /opdrachten/week4/virus
+        Virus: /opdrachten/functioneel/virus
 
 Module 5:
     Overzicht: /modbg/classes
-    # Tentamen-oefening: /toetsjes/week3
-    Lezen en oefenen:
-        "Chapter 14: Object-oriented programming": /boek/objects
+    Startopdrachten:
+        Queue: /opdrachten/classes/queue             # basic datastructuur, encapsulation, init
+        Cards: /opdrachten/classes/cards             # UML, data class, container
     Opdrachten:
-        Queue: /opdrachten/week6/queue             # basic datastructuur, encapsulation, init
-        Cards: /opdrachten/week6/cards             # UML, data class, container
-        Hangman: /opdrachten/week6/hangman         # separation of concerns (lexicon/game)
-        Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
+        Hangman: /opdrachten/classes/hangman         # separation of concerns (lexicon/game)
+        Knapsack: /opdrachten/classes/knapsack       # class-representatie probleem (geen operators!)
         # let op: lisp, figuren zijn geschrapt
 
 Module 6:
     Overzicht: /modbg/pygame
     Opdracht 1:
-        Draw: /opdrachten/week8/pygame00_draw
-        Player: /opdrachten/week8/pygame01_player
-        Abstraction: /opdrachten/week8/pygame02_abstraction
+        Draw: /opdrachten/pygame/pygame00_draw
+        Player: /opdrachten/pygame/pygame01_player
+        Abstraction: /opdrachten/pygame/pygame02_abstraction
     Opdracht 2:
-        Aliens: /opdrachten/week8/pygame03_aliens
-        Inheritance: /opdrachten/week8/pygame04_inheritance
-        Polymorphism: /opdrachten/week8/pygame05_polymorphism
+        Aliens: /opdrachten/pygame/pygame03_aliens
+        Inheritance: /opdrachten/pygame/pygame04_inheritance
+        Polymorphism: /opdrachten/pygame/pygame05_polymorphism
     Opdracht 3:
-        Interaction: /opdrachten/week8/pygame06_interaction
-        Sticky units: /opdrachten/week8/pygame07_sticky_units
+        Interaction: /opdrachten/pygame/pygame06_interaction
+        Sticky units: /opdrachten/pygame/pygame07_sticky_units
     Opdracht 4:
-        Spawn aliens: /opdrachten/week8/pygame08_spawn_aliens
-        Different aliens: /opdrachten/week8/pygame09_different_aliens
-        Points: /opdrachten/week8/pygame10_points
+        Spawn aliens: /opdrachten/pygame/pygame08_spawn_aliens
+        Different aliens: /opdrachten/pygame/pygame09_different_aliens
+        Points: /opdrachten/pygame/pygame10_points
     Insturen:
-        Submit: /opdrachten/week8/submission
+        Submit: /opdrachten/pygame/submission
 
 Module 7:
-    Project: /opdrachten/week9/mygame
+    Project: /opdrachten/clientserver/mygame
