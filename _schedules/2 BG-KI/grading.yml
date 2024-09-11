@@ -158,15 +158,23 @@ mod_simuleren:
         birthdays: 1
         prisoners: 1
 
-# mod_algoritmen:
+mod_collections:
+    show_overview: true
+    deadline: 20/9/24 17:00
+    submits:
+        dict_oefening: 1
+        set_oefening: 1
+        collection_functions: 1
+        indexer: 1
+        schuifpuzzel: 1
+
+# mod_collections:
 #     show_overview: true
-#     deadline: 29/9/23 17:00
+#     deadline: 20/9/24 17:00
 #     submits:
 #         comprehensions: 1
 #         virus: 1
 #         algorithms: 1
-#         indexer: 1
-#         schuifpuzzel: 1
 #
 # mod_classes:
 #     show_overview: true
