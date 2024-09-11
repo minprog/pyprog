@@ -5,12 +5,12 @@ Welkom:
 Module 1:
     Overzicht: /modbg/programmeren
     Startopdrachten:
-        Etenstijd: /opdrachten/week1/etenstijd
-        Wachtwoord: /opdrachten/week2/wachtwoord
-        RNA: /opdrachten/week3/rna
+        Etenstijd: /opdrachten/strings/etenstijd
+        Wachtwoord: /opdrachten/strings/wachtwoord
+        RNA: /opdrachten/strings/rna
     Huiswerk:
-        camelCase: /opdrachten/week3/camelcase
-        Kalender: /opdrachten/week3/kalender
+        camelCase: /opdrachten/strings/camelcase
+        Kalender: /opdrachten/loops/kalender
 
 Module 2:
     Overzicht: /modbg/simuleren
