@@ -1,17 +1,12 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
     Installatie: /installatie
-    Reviews:
-        Review 1: /reviews/r1
-        Review 2: /reviews/r2
+    # Reviews:
+    #     Review 1: /reviews/r1
+    #     Review 2: /reviews/r2
 
 Module 1:
     Overzicht: /modules/programmeren
-    Lezen en oefenen:
-        "Chapter 2: Hello, Python": /boek/hello
-        "Chapter 3: Designing functions": /boek/functions
-        "Chapter 4: Working with text": /boek/text
-        "Chapter 5: Making Choices": /boek/choices
     Opdrachten:
         Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
         Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies

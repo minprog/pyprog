@@ -1,6 +1,6 @@
 # Basis Objectgeorienteerd Programmeren
 
-## Studiewijzer INF4ALL<br><small>Herfst 2023</small>
+## Studiewijzer INF4ALL<br><small>Herfst 2024</small>
 
 Dit vak volg je als je INF4ALL doet en de basis van het programmeren onder de knie wil krijgen. Tijdens het vak werk je met Python, om te beginnen met vele kleinere oefenopdrachten. In de loop van de weken ga je meer geavanceerde programma's schrijven.
 
@@ -32,7 +32,7 @@ Martijn Stegeman is docent. Je kunt hem mailen via <m.stegeman@uva.nl>. Opdracht
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
 
-1. Oefeningen uit het boek maken. In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Doe er minstens een paar om jezelf te controleren.
+1. Oefeningen uit het boek maken. In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen.
 
 2. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
@@ -72,13 +72,13 @@ Dit is een overzicht van de deadlines per week:
 
 |          | deadline huiswerk | deadline code review |
 |----------|-------------------|----------------------|
-| Module 1 | do 14 sep  17:00  | -                    |
-| Module 2 | do 28 sep  17:00  | ma  2 okt  13:00     |
-| Module 3 | do 12 okt  17:00  | -                    |
-| Module 4 | do 26 okt  17:00  | ma 30 okt  13:00     |
-| Module 5 | do  9 nov  17:00  | -                    |
-| Module 6 | do 23 nov  17:00  | ma 27 nov  13:00     |
-| Module 7 | do  7 dec  17:00  | -                    |
+| Module 1 | do 19 sep  17:00  | -                    |
+| Module 2 | do  3 okt  17:00  | ma  2 okt  13:00     |
+| Module 3 | do 17 okt  17:00  | -                    |
+| Module 4 | do 31 okt  17:00  | ma 30 okt  13:00     |
+| Module 5 | do 14 nov  17:00  | -                    |
+| Module 6 | do 28 nov  17:00  | ma 27 nov  13:00     |
+| Module 7 | do 12 dec  17:00  | -                    |
 
 De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. De code review doe je tijdens de bijeenkomst in Utrecht, en je levert je aanpassingen en verslag in het weekend erna in. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
@@ -111,10 +111,6 @@ Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat
 ## Beoordeling tentamen
 
 Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer.
-
-## Boek
-
-Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van Paul Gries. Je kunt het aanschaffen als PDF via <https://pragprog.com/titles/gwpy3/practical-programming-third-edition/>. Je kunt het ook bestellen in de boekhandel.
 
 ## Samenwerken
 
