@@ -19,8 +19,8 @@ al in de lijst `birthdays` voorkwam, anders `False`.
 Let hier op. In onderstaande code-voorbeeld is te zien dat:
 
 - list `example_list` als argument wordt meegegeven aan functie `example_function()`
-- deze functie de list aanpast met `append(4)`, maar deze list niet returned 
-- deze list toch na de functie-aanroep is veranderd zoals weergegven met `print(example_list)`
+- deze functie de list aanpast met `append(4)`, maar deze list **niet** returned 
+- deze list toch na de functie-aanroep is aangepast zoals weergegeven met `print(example_list)`
 
 ```
 def example_function(example_list: list[int]) -> None:
