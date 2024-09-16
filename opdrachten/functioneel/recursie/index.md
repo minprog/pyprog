@@ -10,42 +10,40 @@ Bijvoorbeeld bij het berekenen van een factorial. De factorial van '4'
 (het aantal volgorden waarop we 4 verschillende dingen kunnen zetten)
 is bijvoorbeeld:
 
-```
-factorial(4) = 4 * 3 * 2 * 1 = 24
-```
+
+    factorial(4) = 4 * 3 * 2 * 1 = 24
 
 Dit kunnen we makkelijk berekenen met gebruik van de 'math' module:
 
-```
-import math
 
-print( math.factorial(4) ) # 24
-```
+    import math
+    print( math.factorial(4) ) # 24
+
 
 maar als we zelf de functie zouden willen schrijven kunnen we dat
 **iteratief**, met gebruik van `for`/`while` loops, doen met:
 
-```
-def factorial(n: int) -> int:
-    result = 1
-    for i in range(n, 0, -1):
-        result *= i
-    return result
 
-print( factorial(4) ) # 24
-```
+    def factorial(n: int) -> int:
+        result = 1
+        for i in range(n, 0, -1):
+            result *= i
+        return result
+
+    print( factorial(4) ) # 24
+
 
 of **recursief**, met een functie die zichzelf (direct of indirect)
 aanroept, doen met:
 
-```
-def factorial(n: int) -> int:
-    if n <= 1: # base case 
-        return 1
-    return n * factorial(n - 1) # recursive case
 
-print( factorial(4) ) # 24
-```
+    def factorial(n: int) -> int:
+        if n <= 1: # base case 
+            return 1
+        return n * factorial(n - 1) # recursive case
+
+    print( factorial(4) ) # 24
+
 
 Het resultaat met iteratie en recursie is hetzelfde. Om bij recursie
 te voorkomen dat de functie zichzelf oneindig blijft aanroepen hebben
@@ -61,15 +59,15 @@ probleem op in `n` vermenigvuldigd met `factorial(n - 1)`.
 Als we `factorial(4)` met de hand uitschrijven ziet dat er dus zo
 uit:
 
-```
-factorial(4) = 4 * factorial(3)
-factorial(4) = 4 * 3 * factorial(2)
-factorial(4) = 4 * 3 * 2 * factorial(1)
-factorial(4) = 4 * 3 * 2 * 1
-factorial(4) = 4 * 3 * 2
-factorial(4) = 4 * 6
-factorial(4) = 24
-```
+
+    factorial(4) = 4 * factorial(3)
+    factorial(4) = 4 * 3 * factorial(2)
+    factorial(4) = 4 * 3 * 2 * factorial(1)
+    factorial(4) = 4 * 3 * 2 * 1
+    factorial(4) = 4 * 3 * 2
+    factorial(4) = 4 * 6
+    factorial(4) = 24
+
 
 ## Stack
 
@@ -98,37 +96,37 @@ Het kan best lastig zijn om door het toevoegen van debug print
 statements aan een recursieve functie duidelijk weer
 te geven hoe de functie werkt. Dit is mijn poging:
 
-```
-def factorial(n: int) -> int:
-    print(f'factorial({n})')
-    if n <= 1:
-        print(f'factorial({n}) return 1 (base case)')
-        return 1
-    result = factorial(n - 1)
-    print(f'{n} * {result}')
-    new_result = n * result
-    print(f'factorial({n}) return {new_result}')
-    return new_result
 
-print( factorial(4) )
-```
+    def factorial(n: int) -> int:
+        print(f'factorial({n})')
+        if n <= 1:
+            print(f'factorial({n}) return 1 (base case)')
+            return 1
+        result = factorial(n - 1)
+        print(f'{n} * {result}')
+        new_result = n * result
+        print(f'factorial({n}) return {new_result}')
+        return new_result
+
+    print( factorial(4) )
+
 
 wat deze uitvoer oplevert:
 
-```
-factorial(4)
-factorial(3)
-factorial(2)
-factorial(1)
-factorial(1) return 1 (base case)
-2 * 1
-factorial(2) return 2
-3 * 2
-factorial(3) return 6
-4 * 6
-factorial(4) return 24
-24
-```
+
+    factorial(4)
+    factorial(3)
+    factorial(2)
+    factorial(1)
+    factorial(1) return 1 (base case)
+    2 * 1
+    factorial(2) return 2
+    3 * 2
+    factorial(3) return 6
+    4 * 6
+    factorial(4) return 24
+    24
+
 
 **opdracht2:** Herschrijf zelf de originele `factorial()` functie en
 voeg debug print statements toe om voor jezelf zo duidelijk mogelijk
@@ -142,16 +140,16 @@ De functie `has_member(value: int, collection: list[int]) -> bool` zou
 in de `collection` of niet. We kunnen de functie gemakkelijk op een
 iteratieve manier schijven als:
 
-```
-def has_member(value: int, collection: list[int]) -> bool:
-    for v in collection:
-        if value == v:
-            return True
-    return False
 
-print( has_member(3, [1,2,3,4]) ) # True
-print( has_member(5, [1,2,3,4]) ) # False
-```
+    def has_member(value: int, collection: list[int]) -> bool:
+        for v in collection:
+            if value == v:
+                return True
+        return False
+
+    print( has_member(3, [1,2,3,4]) ) # True
+    print( has_member(5, [1,2,3,4]) ) # False
+
 
 **opdracht3:** Schrijf de `has_member()` functie op een recursieve
 manier, dus zonder gebruik van loops maar met een functie die zichzelf
@@ -169,16 +167,16 @@ makkelijkste manier om een probleem op te lossen. Bijvoorbeeld als we
 alle mogelijke permutaties van letters 'a', 'b', en 'c' tot een
 bepaalde lengte willen vinden. We kunnen dit recursief schrijven als:
 
-```
-def permutations(length: int, values: list[str], result: str) -> None:
-    if len(result) >= length: # base case
-        print(result)
-    else:
-        for v in values:
-            permutations(length, values, result + v)
 
-permutations(3, ['a', 'b', 'c'], '')
-```
+    def permutations(length: int, values: list[str], result: str) -> None:
+        if len(result) >= length: # base case
+            print(result)
+        else:
+            for v in values:
+                permutations(length, values, result + v)
+
+    permutations(3, ['a', 'b', 'c'], '')
+
 
 waarbij we in een loop de functie recursief aanroepen met steeds één
 van de values toegevoegd aan `result`. Het resultaat is dat alle
@@ -207,9 +205,8 @@ deze twee knopen. Een boog is weergegeven als een lijn.
 ![tree.png](tree.png)
 
 Alle bogen van deze graaf staan in deze Python list:
-```
-edges = ['ab', 'ac', 'bd', 'be', 'cf', 'cg', 'dh', 'di', 'ej', 'ek', 'fl', 'fm', 'gn', 'go']
-```
+
+    edges = ['ab', 'ac', 'bd', 'be', 'cf', 'cg', 'dh', 'di', 'ej', 'ek', 'fl', 'fm', 'gn', 'go']
 
 De graaf is bidirectioneel wat betekent dat bijvoorbeeld boog 'ab'
 zorgt dat je van 'a' naar 'b' kunt reizen, maar ook andersom van 'b'
@@ -230,9 +227,9 @@ Deze grotere graaf:
 ![graph.png](graph.png)
 
 heeft deze bogen:
-```
-edges = ['yk', 'pe', 'tm', 'td', 'bd', 'hu', 'vb', 'br', 'od', 'ae', 'ha', 'yh', 'bg', 'wr', 'ux', 'qv', 'bh', 'rl', 'ts', 'aw', 'yv', 'uf', 'ry', 'vr', 'ln', 'nz', 'ke', 'cz', 'vx', 'uo', 'ad', 'px']
-```
+
+    edges = ['yk', 'pe', 'tm', 'td', 'bd', 'hu', 'vb', 'br', 'od', 'ae', 'ha', 'yh', 'bg', 'wr', 'ux', 'qv', 'bh', 'rl', 'ts', 'aw', 'yv', 'uf', 'ry', 'vr', 'ln', 'nz', 'ke', 'cz', 'vx', 'uo', 'ad', 'px']
+
 
 **opdracht6:** Schrijf een programma wat alle routes print van 'a'
 naar 'k' in deze grotere graaf waarbij een route niet meer dan één
