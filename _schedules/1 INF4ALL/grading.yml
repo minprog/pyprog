@@ -123,7 +123,7 @@ calculation:
         code_reviews: 25
         tentamen_inf4all: 75
     eindcijfer_herkansing_inf4all:
-        meedoen: 25
+        code_reviews: 25
         hertentamen_ik: 75
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
@@ -145,13 +145,13 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-# code_reviews:
-#     show_progress: true
-#     type: maximum
-#     submits:
-#         r1: 1
-#         r2: 1
-#         r3: 1
+code_reviews:
+    show_progress: true
+    type: maximum
+    submits:
+        r1: 1
+        r2: 1
+        r3: 1
 
 mod_programmeren:
     show_overview: true
