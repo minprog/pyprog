@@ -145,26 +145,26 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-code_reviews:
-    show_progress: true
-    type: maximum
-    submits:
-        r1: 1
-        r2: 1
-        r3: 1
+# code_reviews:
+#     show_progress: true
+#     type: maximum
+#     submits:
+#         r1: 1
+#         r2: 1
+#         r3: 1
 
 mod_programmeren:
     show_overview: true
-    deadline: 14/9/23 17:00
+    deadline: 19/9/24 17:00
     submits:
-        experimenteren: 1
-        fdr: 1
+        # experimenteren: 1
+        # fdr: 1
         weken: 1
         cafeine: 1
         vakantie: 1
         orakel: 1
-        etenstijd: 1
-        calculator: 1
+        # etenstijd: 1
+        # calculator: 1
 
 mod_herhaling:
     show_overview: true
