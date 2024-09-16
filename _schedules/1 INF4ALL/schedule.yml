@@ -8,11 +8,12 @@ Welkom:
 Module 1:
     Overzicht: /modules/programmeren
     Opdrachten:
-        Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
-        Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
-        Orakel: /opdrachten/week1/orakel           # 1 func, main, if
-        Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
-        Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
+        Weken: /opdrachten/expressies/weken
+        Cafeine: /opdrachten/expressies/cafeine         # 1 func, main, expressies
+        Vakantie: /opdrachten/expressies/vakantie       # 3 func, main, expressies
+        Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
+        # Etenstijd: /opdrachten/strings/etenstijd     # 1 func, main, if, str.split
+        # Calculator: /opdrachten/strings/calculator   # 2 func, main, if, str.split
 
 Module 2:
     Overzicht: /modules/herhaling
