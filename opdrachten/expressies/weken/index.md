@@ -4,7 +4,7 @@ Schrijf, in een bestand genaamd `weken.py`, een functie genaamd `weeks_elapsed`.
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de implementatie toe. Welke Python-onderdelen uit de eerste drie hoofdstukken van het boek kun je hiervoor gebruiken?
+Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de implementatie toe. Welke Python-onderdelen uit de eerste hoofdstukken van het boek kun je hiervoor gebruiken?
 
     def weeks_elapsed(day1: int, day2: int) -> int:
         """
