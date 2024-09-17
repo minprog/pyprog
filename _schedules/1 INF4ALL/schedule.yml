@@ -8,7 +8,7 @@ Module 1:
         Weken: /opdrachten/expressies/weken
         Cafeine: /opdrachten/expressies/cafeine           # 1 func, main, expressies
         Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
-        Acid [tijdens bijeenkomst]: /opdrachten/conditionals/acid               # 1 func, main, if
+        Acid test [tijdens bijeenkomst]: /opdrachten/conditionals/acid               # 1 func, main, if
         Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
         # Rechthoeken [tijdens bijeenkomst]: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
 

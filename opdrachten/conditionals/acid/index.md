@@ -2,11 +2,11 @@
 
 Gegeven is het volgende Python-programma:
 
-    ph = float(input("Enter the ph level: "))
+    ph = float(input("Geef een pH-waarde: "))
     if ph < 7.0:
-        print("It's acidic!")
+        print("Het is een zuur")
     else:
-        print("It's alkaline!")
+        print("Het is een base")
 
 Maak een Python-bestand aan genaamd `acid.py`. Splits bovenstaande programma op zodat het voldoet aan onze standaard-manier van programma's schrijven. Hierin is er een **functie die een berekening doet** en een **hoofdprogramma dat de input en output afhandelt**. Het moet er ongeveer zo uitzien:
 
