@@ -57,11 +57,13 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
         """
         Bepaalt de totale kosten op basis van de afstand en het aantal
         nachten en rondt af naar hele euro's.
+        Deze functie delegeert zoveel mogelijk werk naar de andere
+        twee functies (roep die dus hier aan).
         """
     
     if __name__ == '__main__':
-        <Schrijf hier code die input van de gebruiker opvraagt en print
-         hoeveel de vakantie gaat kosten>
+        <Schrijf hier code die input van de gebruiker opvraagt,
+        total_costs aanroept, en print hoeveel de vakantie gaat kosten>
 
 ## Tips
 

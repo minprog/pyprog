@@ -21,9 +21,3 @@ Maak een Python-bestand aan genaamd `acid.py`. Splits bovenstaande programma op 
 - De logica is al gegeven. Het enige dat je moet doen is het in de template passen. Maar dat is niet helemaal triviaal, zie de volgende hint.
 
 - Het is noodzakelijk om zowel in `is_acidic` als in de `__main__` een `if`-`else` toe te voegen.
-
-## Testen
-
-Je kunt testen of je functie correct is door je bestand in te leveren op deze pagina. Omdat je een compleet programma hebt geschreven kun je het ook handmatig uitproberen:
-
-    python acid.py
