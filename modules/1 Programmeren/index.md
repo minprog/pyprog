@@ -1,4 +1,4 @@
-# Module 1: Programmeren, variabelen en beslissingen
+# Programmeren, variabelen en beslissingen
 
 Goed, tijd om te programmeren! Je gaat heel snel aan de slag met het uitpuzzelen van echte programmeerproblemen, maar we bouwen ook stap voor stap je kennis op van de ideeën die aan het programmeren ten grondslag liggen. Zo is het deze week belangrijk dat je uiteindelijk goed begrijpt wat een variabele is en hoe je er mee kunt werken.
 
@@ -20,6 +20,6 @@ Lees het boek tot en met paragraaf 4.3. Doe alle oefeningen! Deze zijn wezenlijk
 | **Weken**      | Input, output en berekeningen in Python                     |
 | **Cafeine**    | Input, output en berekeningen in Python                     |
 | **Vakantie**   | Berekeningen met meerdere functies                          |
-| **Acid**       | Boolean waarden in een functie                              |
 | **Orakel**     | Automatische belissingen nemen                              |
+| **Acid**       | Boolean waarden in een functie                              |
 |----------------|-------------------------------------------------------------|

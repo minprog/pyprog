@@ -9,15 +9,10 @@ De technische focus is daarmee op **functies**. Dit zijn bouwblokken van je prog
 | ---------------- | ------------------------------------------------------------- |
 | Opdracht         | Onderwerp                                                     |
 | ---------------- | ------------------------------------------------------------- |
-| **Etenstijd**  | Strings analyseren en beslissingen nemen                    |
-| **Calculator** | Strings analyseren, beslissingen nemen en meerdere functies |
+| **Etenstijd**    | Strings analyseren en beslissingen nemen                      |
+| **Calculator**   | Strings analyseren, beslissingen nemen en meerdere functies   |
+| **Wachtwoord**   | Combinaties van beslissingen in meerdere functies             |
 | **RNA**          | Input, output, herhaling met strings                          |
 | **Leesbaarheid** | Analyseren van strings met herhaling                          |
 | **camelCase**    | Construeren van strings                                       |
-| **Kalender**     | Schrijven van een groter programma opgedeeld in vele functies |
 | ---------------- | ------------------------------------------------------------- |
-
-## Aanpak
-
-1. Reserveer flink tijd om aan de programmeeropdrachten te werken
-2. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen
