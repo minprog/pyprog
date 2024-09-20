@@ -15,6 +15,7 @@ Module 1:
 Module 2:
     Overzicht: /modules/herhaling
     Opdrachten:
+        Herhaal: /opdrachten/loops/herhaal
         Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
         Temperatuur: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
         Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
