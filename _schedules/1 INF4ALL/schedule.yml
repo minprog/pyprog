@@ -21,8 +21,8 @@ Module 2:
         Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
         Populatie: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
         Sjoelen: /opdrachten/simulaties/sjoelen           # 2 func, main, simulatie
-    Oefening:
-        Debugging: /oefeningen/debug
+    # Oefening:
+    #     Debugging: /oefeningen/debug
 
 Module 3:
     Overzicht: /modules/strings
