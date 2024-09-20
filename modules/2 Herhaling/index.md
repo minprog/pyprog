@@ -1,4 +1,4 @@
-# Herhalen en lijsten
+# Herhaling
 
 We gaan aan de slag met **herhaling** door gebruik te maken van loops. Samen met **volgorde** en **condities** hebben we dan alle ingrediënten voor de logica van programma's. Deze drie elementen komen terug in allerlei programmeertalen en als je ze onder de knie hebt ben je dus een heel eind. In latere delen van de cursus gaan we meer Python-specifieke syntax leren.
 
