@@ -168,14 +168,16 @@ mod_collections:
         indexer: 1
         schuifpuzzel: 1
 
-# mod_collections:
-#     show_overview: true
-#     deadline: 20/9/24 17:00
-#     submits:
-#         comprehensions: 1
-#         virus: 1
-#         algorithms: 1
-#
+mod_collections:
+    show_overview: true
+    deadline: 20/9/24 17:00
+    submits:
+        kunstroof: 1
+        recursie: 1
+        comprehensions: 1
+        virus: 1
+        # algorithms: 1
+
 # mod_classes:
 #     show_overview: true
 #     deadline: 6/10/23 17:00
