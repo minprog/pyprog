@@ -1,4 +1,5 @@
 # Kunstroof
+
 Er heeft een kunstroof plaatsgevonden in het nationale kunstmuseum van
 Waddinxveen. De politie ziet een deel van de inwoners van Nederland
 als mogelijke dader. In bestand [inwoners.csv](inwoners.csv) vind je
@@ -9,6 +10,7 @@ klein mogelijk te maken op basis van onderstaande informatie.
 
 
 ## Buitenland
+
 Mensen die in het buitenland waren ten tijden van de kunstroof zijn
 geen daders. De id van deze mensen vind je in bestand
 [buitenland.csv](buitenland.csv).
@@ -31,13 +33,14 @@ zijn door het type te printen, bv met: `print( type(dader_ids) )`.
 - Waarom is een `set` sneller?
 
 **opdracht3**: Het is nog iets sneller, makkelijker en leesbaarder om
-[set operatoren](https://docs.python.org/3/tutorial/datastructures.html#sets)
+[set operatoren](/opdrachten/collections/sets)
 te gebruiken. Gebruik deze operatoren in je programma.
 
 ![set_operators.png](set_operators.png)
 
 
 ## Lengte
+
 Met beveiligingscamera's is vastgesteld dat de dader een lengte heeft
 groter of gelijk aan 150 en kleiner of gelijk aan 160 cm. De lengte van
 inwoners vind je in bestand [lengte.csv](lengte.csv).
@@ -48,6 +51,7 @@ inwoners vind je in bestand [lengte.csv](lengte.csv).
 
 
 ## Geboortedatum
+
 Op basis van getuigenverklaringen is vastgesteld dat de dader geboren
 is in of na 1980 en in of voor 1990. De geboortedatum van inwoners vind
 je in bestand [geboortedatum.csv](geboortedatum.csv).
@@ -61,6 +65,7 @@ herbruikbare functies te maken.
 
 
 ## Beroepscrimineel of Gelegenheidsdief
+
 De politie neemt aan dat de dader een beroepscrimineel is die al
 eerder in contact is gekomen met justitie, **of** dat het een
 gelegenheidsdief is die binnen 50km van het museum woont. Het museum
@@ -78,24 +83,21 @@ Het GPS coordinaat van iedere postcode vind je in bestand
 [postcode_coordinaat.csv](postcode_coordinaat.csv).
 
 ### GPS coordinaten
+
 Gebruik Python module 'geopy' om afstanden tussen GPS coordinaten te
 bepalen. Installeer deze module met:
 
-~~~
-pip install geopy
-~~~
+    pip install geopy
 
 Vervolgens kun je op deze manier bijvoorbeeld de afstand tussen
 Amsterdam en Parijs bepalen:
 
-~~~ python
-from geopy.distance import distance as geopy_distance
+    from geopy.distance import distance as geopy_distance
 
-amsterdam = (52.372947, 4.893291)
-parijs    = (48.857891, 2.295166)
+    amsterdam = (52.372947, 4.893291)
+    parijs    = (48.857891, 2.295166)
 
-print(geopy_distance(amsterdam, parijs).km)  # distance in kilometers
-~~~
+    print(geopy_distance(amsterdam, parijs).km)  # distance in kilometers
 
 **opdracht6**: Wat zijn nu de ids van de nog mogelijke daders?
 
@@ -103,6 +105,7 @@ print(geopy_distance(amsterdam, parijs).km)  # distance in kilometers
 
 
 # Resultaat
+
 Raporteer je resultaat.
 
 **opdracht7**: Maak een csv bestand 'daders.csv' van de nog mogelijke

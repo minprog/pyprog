@@ -113,6 +113,8 @@ grades:
     # module 7
 
     # module 8
+    kunstroof: *check
+    recursie: *check
     comprehensions: *automatic
     virus: *automatic
 
