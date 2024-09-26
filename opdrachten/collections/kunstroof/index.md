@@ -99,10 +99,6 @@ print(geopy_distance(amsterdam, parijs).km)  # distance in kilometers
 
 **opdracht6**: Wat zijn nu de ids van de nog mogelijke daders?
 
-*tip:* Gebruik eventueel een `dict` om snel informatie van
-een postcode te kunnen opzoeken maar, er zijn verschillende manieren
-om de ids te bepalen, sommige sneller dan andere.
-
 *test:* Er zouden nog 2.700 mogelijke daders moeten overblijven.
 
 
