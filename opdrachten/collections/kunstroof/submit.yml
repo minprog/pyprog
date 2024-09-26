@@ -1,0 +1,4 @@
+name: kunstroof
+files:
+    required:
+        - kunstroof.py

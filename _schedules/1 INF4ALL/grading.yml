@@ -157,54 +157,53 @@ mod_programmeren:
     show_overview: true
     deadline: 19/9/24 17:00
     submits:
-        # experimenteren: 1
-        # fdr: 1
         weken: 1
         cafeine: 1
         vakantie: 1
         orakel: 1
-        # etenstijd: 1
-        # calculator: 1
+        acid: 1
+        # rechthoeken: 1
 
 mod_herhaling:
     show_overview: true
-    deadline: 28/9/23 17:00
+    deadline: 3/10/24 17:00
     submits:
-        rechthoeken: 1
-        wachtwoord: 1
-        scrabble: 1
         cola: 1
         temperatuur: 1
+        kalender: 1
+        populatie: 1
+        sjoelen: 1
 
-mod_decompositie:
+mod_strings:
     show_overview: true
-    deadline: 12/10/23 17:00
+    deadline: 17/10/24 17:00
     submits:
+        etenstijd: 1
+        calculator: 1
+        wachtwoord: 1
         rna: 1
         leesbaarheid: 1
         camelcase: 1
-        kalender: 1
 
-mod_simuleren:
+mod_lists:
     show_overview: true
-    deadline: 26/10/23 17:00
+    deadline: 31/10/24 17:00
     submits:
+        scrabble: 1
         comprehensions: 1
-        populatie: 1
-        sjoelen: 1
         virus: 1
 
-mod_algoritmen:
+mod_collections:
     show_overview: true
-    deadline: 9/11/23 17:00
+    deadline: 14/11/24 17:00
     submits:
+        schuifpuzzel: 1
         algorithms: 1
         indexer: 1
-        schuifpuzzel: 1
 
 mod_classes:
     show_overview: true
-    deadline: 23/11/23 17:00
+    deadline: 28/11/24 17:00
     submits:
         queue: 1
         cards: 1
@@ -213,7 +212,7 @@ mod_classes:
 
 mod_dataverwerking:
     show_overview: true
-    deadline: 7/12/23 17:00
+    deadline: 12/12/24 17:00
     submits:
         eca2csv: 1
         klimaat: 1

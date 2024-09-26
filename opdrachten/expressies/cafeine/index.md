@@ -1,7 +1,5 @@
 # Cafeïne
 
-> **Studeertip.** Je gaat hier voor het eerst een compleet programma schrijven in plaats van alleen een losse functie. Bij het college heb je al een voorbeeld gezien van het maken van een compleet programma. Gebruik de code hieronder als template en lees alle instructies goed.
-
 Om gezond te blijven is het belangrijk om te letten op je cafeïne-inname en te zorgen dat deze niet te hoog is.
 Hierbij een lijst met de hoeveelheid cafeïne voor één portie van verschillende dranken.
 
@@ -18,29 +16,31 @@ Hierbij mag je ervan uitgaan dat de gebruiker getallen groter dan of gelijk aan 
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+Maar dat is niet de enige eis aan je uitwerking!
+Let ook op de voorwaarden die vermeld staan in de rest van de opdracht.
 
-    $ python cafeine.py
+    $ python3 cafeine.py
     Hoeveel koppen koffie? 2
     Hoeveel koppen thee? 1
     Hoeveel energiedrankjes? 0
     Hoeveel glazen cola? 0
     Je krijgt 225 mg cafeïne binnen.
 
-    $ python cafeine.py
+    $ python3 cafeine.py
     Hoeveel koppen koffie? 2
     Hoeveel koppen thee? 0
     Hoeveel energiedrankjes? 2
     Hoeveel glazen cola? 0
     Je krijgt 340 mg cafeïne binnen.
 
-    $ python cafeine.py
+    $ python3 cafeine.py
     Hoeveel koppen koffie? 0
     Hoeveel koppen thee? 0
     Hoeveel energiedrankjes? 0
     Hoeveel glazen cola? 1
     Je krijgt 40 mg cafeïne binnen.
 
-    $ python cafeine.py
+    $ python3 cafeine.py
     Hoeveel koppen koffie? 5
     Hoeveel koppen thee? 0
     Hoeveel energiedrankjes? 0

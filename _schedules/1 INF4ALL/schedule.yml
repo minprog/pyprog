@@ -1,86 +1,67 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
     Installatie: /installatie
-    # Reviews:
-    #     Review 1: /reviews/r1
-    #     Review 2: /reviews/r2
 
 Module 1:
     Overzicht: /modules/programmeren
     Opdrachten:
         Weken: /opdrachten/expressies/weken
-        Cafeine: /opdrachten/expressies/cafeine         # 1 func, main, expressies
-        Vakantie: /opdrachten/expressies/vakantie       # 3 func, main, expressies
+        Cafeine: /opdrachten/expressies/cafeine           # 1 func, main, expressies
+        Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
         Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
-        # Etenstijd: /opdrachten/strings/etenstijd     # 1 func, main, if, str.split
-        # Calculator: /opdrachten/strings/calculator   # 2 func, main, if, str.split
+        Acid test [tijdens bijeenkomst]: /opdrachten/conditionals/acid  # 1 func, main, if
+        # Rechthoeken [tijdens bijeenkomst]: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
 
 Module 2:
     Overzicht: /modules/herhaling
-    # Tentamen-oefening: /toetsjes/week2
-    Lezen en oefenen:
-        "Chapter 6: Modular Approach": /boek/modules
-        "Chapter 7: Using Methods": /boek/methods
-        "Chapter 8: Storing Collections using Lists": /boek/lists
-        "Chapter 9: Repeating Code using Loops": /boek/loops
     Opdrachten:
-        Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
-        Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str
-        Scrabble: /opdrachten/week2/scrabble       # 1 func, main, loop, if, str
-        Cola: /opdrachten/week2/cola               # 3 func, main, if, loop
-        Temperatuur: /opdrachten/week2/temperatuur # 2 func, main, if, loop, formatting
+        Herhaal: /opdrachten/loops/herhaal
+        Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
+        Temperatuur: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
+        Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
+        Populatie: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
+        Sjoelen: /opdrachten/simulaties/sjoelen           # 2 func, main, simulatie
+    # Oefening:
+    #     Debugging: /oefeningen/debug
 
 Module 3:
-    Overzicht: /modules/decompositie
-    # Code review: /reviews/m1
+    Overzicht: /modules/strings
     Opdrachten:
-        RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
-        Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
-        camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
-        Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
-    Oefening:
-        Debugging: /opdrachten/week3/debug
+        Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
+        Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
+        Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str
+        RNA: /opdrachten/strings/rna                      # 4 func, main, list-string conversion
+        Leesbaarheid: /opdrachten/strings/leesbaarheid    # 2 func, main, string tellen, find
+        camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
 
 Module 4:
-    Overzicht: /modules/simuleren
-    # Tentamen-oefening: /toetsjes/week3
+    Overzicht: /modules/lists
     Opdrachten:
-        Comprehensions: /opdrachten/week4/comprehensions
-        Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
-        Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
-        Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
+        Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
+        Comprehensions: /opdrachten/functioneel/comprehensions # naar boek?
+        Virus: /opdrachten/functioneel/virus              # 7 func, main, simulatie, comprehensions
 
 Module 5:
-    Overzicht: /modules/algoritmen
-    # Code review: /reviews/m2
-    Lezen en oefenen:
-        "Chapter 11: Collection Types": /boek/collections
-        "Chapter 12: Designing Algorithms": /boek/algorithms
-        "Chapter 13: Search and Sorting": /boek/searching
+    Overzicht: /modules/collections
     Opdrachten:
+        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
-        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
 
 Module 6:
     Overzicht: /modules/classes
-    # Tentamen-oefening: /toetsjes/week3
     Lezen en oefenen:
         Videocollege: /objects/lecture
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
-        Queue: /opdrachten/week6/queue                      # basic datastructuur, encapsulation, init
-        Cards: /opdrachten/week6/cards                      # UML, data class, container
-        Hangman: /opdrachten/week6/hangman                  # separation of concerns (lexicon/game)
-        Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
+        Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
+        Cards: /opdrachten/classes/cards                  # UML, data class, container
+        Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
+        Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
 
 Module 7:
     Overzicht: /modules/dataverwerking
-    # Code review: /reviews/m3
-    Lezen en oefenen:
-        # niet zo'n handig hoofdstuk, misschien beter zelf stof aanreiken hier
-        "Chapter 10: Reading and Writing Files": /boek/files
     Opdrachten:
-        Preprocessing: /opdrachten/week7/eca2csv # deze gaat weg
+        Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
         Klimaat: /opdrachten/week7/klimaat

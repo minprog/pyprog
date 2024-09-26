@@ -17,13 +17,7 @@ Maar om te beginnen introduceren we **list comprehensions** waarmee je transform
 | ------------------ | -------------------------------------------------------------------- |
 | Opdracht           | Onderwerp                                                            |
 | ------------------ | -------------------------------------------------------------------- |
+| **Scrabble**       | Herhaling en opzoeken in een lijst                                   |
 | **Comprehensions** | Oefenen met manieren om list comprehensions toe te passen            |
-| **Populatie**      | Een relatief eenvoudige simulatie die doorloopt tot een **einddoel** |
-| **Sjoelen**        | Een spelsimulatie op basis van **kansen**                            |
 | **Virus**          | Een simulatie om het **effect** van een virusremmer te bestuderen    |
 | ------------------ | -------------------------------------------------------------------- |
-
-## Aanpak
-
-1. Reserveer flink tijd om aan de programmeeropdrachten te werken
-2. Vraag altijd hulp als je er niet uit komt, ook als je denkt dat je vraag te simpel is om te stellen

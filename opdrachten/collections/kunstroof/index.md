@@ -81,21 +81,21 @@ Het GPS coordinaat van iedere postcode vind je in bestand
 Gebruik Python module 'geopy' om afstanden tussen GPS coordinaten te
 bepalen. Installeer deze module met:
 
-```
+~~~
 pip install geopy
-```
+~~~
 
 Vervolgens kun je op deze manier bijvoorbeeld de afstand tussen
 Amsterdam en Parijs bepalen:
 
-```
+~~~ python
 from geopy.distance import distance as geopy_distance
 
 amsterdam = (52.372947, 4.893291)
 parijs    = (48.857891, 2.295166)
 
 print(geopy_distance(amsterdam, parijs).km)  # distance in kilometers
-```
+~~~
 
 **opdracht6**: Wat zijn nu de ids van de nog mogelijke daders?
 

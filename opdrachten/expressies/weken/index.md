@@ -4,7 +4,7 @@ Schrijf, in een bestand genaamd `weken.py`, een functie genaamd `weeks_elapsed`.
 
 ## Code
 
-Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de implementatie toe. Welke Python-onderdelen uit de eerste drie hoofdstukken van het boek kun je hiervoor gebruiken?
+Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de implementatie toe. Welke Python-onderdelen uit de eerste hoofdstukken van het boek kun je hiervoor gebruiken?
 
     def weeks_elapsed(day1: int, day2: int) -> int:
         """
@@ -20,14 +20,6 @@ Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de i
         >>> weeks_elapsed(40, 61)
 
         """
-
-## Testen
-
-Je kunt testen of je functie correct is door je bestand in te leveren op deze pagina. Maar je kunt ook je functie handmatig testen:
-
-- Start `python -i weken.py`. Jouw programma wordt dan ingeladen en je krijgt een prompt `>>>` om commando's in te voeren.
-
-- Tik bijvoorbeeld in `weeks_elapsed(3, 20)` om te kijken of je functie het juiste antwoord geeft.
 
 ## Omvormen naar een programma
 
@@ -53,9 +45,11 @@ Op de eerste twee regels vragen we de gebruiker van ons programma om twee dagnum
 
 Vul de code aan op de plek van de `...` om de functie aan te roepen.
 
+## Uittesten
+
 Als je nu het programma **opstart** kun je het uittesten. Ga naar de Terminal of Command Prompt en start Python met jouw programma:
 
-    % python weken.py
+    % python3 weken.py
     Dagnummer: 3
     Dagnummer: 20
     Er zijn 2 volle weken verstreken.
