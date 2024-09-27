@@ -1,5 +1,7 @@
 # War
 
+> Let op! Bij deze opdracht schrijf je tests middels het Pytest-framework en niet als doctests.
+
 Implementeer het kaartspel oorlogje ([war](https://www.youtube.com/watch?v=01-2pNCZiNk)) voor twee spelers. Dit zijn de spelregels:
 
 1. Alle 52 kaarten worden gehusseld en verdeeld over twee stapels. 
