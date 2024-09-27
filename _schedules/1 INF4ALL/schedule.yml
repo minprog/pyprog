@@ -2,7 +2,7 @@ Welkom:
     Lees de studiewijzer alvast even door: /syllabus
     Installatie: /installatie
 
-Module 1:
+Mod 1 Programmeren:
     Overzicht: /modules/programmeren
     Opdrachten:
         Weken: /opdrachten/expressies/weken
@@ -12,7 +12,7 @@ Module 1:
         Acid test [tijdens bijeenkomst]: /opdrachten/conditionals/acid  # 1 func, main, if
         # Rechthoeken [tijdens bijeenkomst]: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
 
-Module 2:
+Mod 2 Herhaling:
     Overzicht: /modules/herhaling
     Opdrachten:
         Herhaal: /opdrachten/loops/herhaal
@@ -24,7 +24,7 @@ Module 2:
     # Oefening:
     #     Debugging: /oefeningen/debug
 
-Module 3:
+Mod 3 Strings:
     Overzicht: /modules/strings
     Opdrachten:
         Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
@@ -34,21 +34,21 @@ Module 3:
         Leesbaarheid: /opdrachten/strings/leesbaarheid    # 2 func, main, string tellen, find
         camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
 
-Module 4:
+Mod 4 Lists:
     Overzicht: /modules/lists
     Opdrachten:
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Comprehensions: /opdrachten/functioneel/comprehensions # naar boek?
         Virus: /opdrachten/functioneel/virus              # 7 func, main, simulatie, comprehensions
 
-Module 5:
+Mod 5 Collections:
     Overzicht: /modules/collections
     Opdrachten:
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
 
-Module 6:
+Mod 6 Classes:
     Overzicht: /modules/classes
     Lezen en oefenen:
         Videocollege: /objects/lecture
@@ -60,7 +60,7 @@ Module 6:
         Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
 
-Module 7:
+Mod 7 Data:
     Overzicht: /modules/dataverwerking
     Opdrachten:
         Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
