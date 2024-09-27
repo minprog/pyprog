@@ -49,7 +49,7 @@ Module 4:
 Module 5:
     Overzicht: /modbg/classes
     Uitleg:
-        Videocollege: /uitleg/objects
+        Videocollege: /uitleg/classes
     Startopdrachten:
         Queue: /opdrachten/classes/queue             # basic datastructuur, encapsulation, init
         Cards: /opdrachten/classes/cards             # UML, data class, container
