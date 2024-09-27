@@ -48,11 +48,14 @@ Module 4:
 
 Module 5:
     Overzicht: /modbg/classes
+    Uitleg:
+        Videocollege: /uitleg/objects
     Startopdrachten:
         Queue: /opdrachten/classes/queue             # basic datastructuur, encapsulation, init
         Cards: /opdrachten/classes/cards             # UML, data class, container
     Opdrachten:
-        Hangman: /opdrachten/classes/hangman         # separation of concerns (lexicon/game)
+        Lines: /opdrachten/classes/lines
+        War: /opdrachten/classes/war
         Knapsack: /opdrachten/classes/knapsack       # class-representatie probleem (geen operators!)
         # let op: lisp, figuren zijn geschrapt
 
