@@ -107,9 +107,9 @@ De deadlines van de code reviews zijn hard, en als je die niet redt ga je punten
 |----------|----------------------------:|---------------------------------------:|
 | Module 1 | vr  6 sep 17:00             | -                                      |
 | Module 2 | vr 13 sep 17:00             | -                                      |
-| Module 3 | vr 20 sep 17:00             | di 24 sep  20:00                       |
-| Module 4 | vr 27 sep 17:00             | di  1 okt  20:00                       |
-| Module 5 | vr  4 okt 17:00             | di  8 okt  20:00                       |
+| Module 3 | vr 20 sep 17:00             | di  1 okt  20:00                       |
+| Module 4 | vr 27 sep 17:00             | di  8 okt  20:00                       |
+| Module 5 | vr  4 okt 17:00             | di 15 okt  20:00                       |
 | Module 6 | vr 11 okt 17:00             | -                                      |
 | Module 7 | vr 18 okt 17:00             | -                                      |
 
