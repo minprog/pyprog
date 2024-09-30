@@ -74,6 +74,7 @@ grades:
         <<: *manual
         calculation: points / 6.0 * 9 + 1
         deadline: 1/10/24 20:00
+        deadline_hard: true
     bg2:
         <<: *manual
         calculation: points / 6.0 * 9 + 1
