@@ -22,15 +22,15 @@ Let hier op. In onderstaande code-voorbeeld is te zien dat:
 - deze functie de list aanpast met `append(4)`, maar deze list **niet** returned 
 - deze list toch na de functie-aanroep is aangepast zoals weergegeven met `print(example_list)`
 
-```
-def example_function(example_list: list[int]) -> None:
-    example_list.append(4)
-    # not return
 
-example_list = [1, 2, 3]
-example_function(example_list)
-print(example_list) # [1, 2, 3, 4]
-```
+    def example_function(example_list: list[int]) -> None:
+        example_list.append(4)
+        # no return
+
+    example_list = [1, 2, 3]
+    example_function(example_list)
+    print(example_list) # [1, 2, 3, 4]
+
 
 Dat de list toch is aangepast door het aanroepen van de functie komt
 doordat een list *mutable* is, hierover later meer. Op dezelfde manier
