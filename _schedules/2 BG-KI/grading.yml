@@ -73,7 +73,8 @@ grades:
     bg1:
         <<: *manual
         calculation: points / 6.0 * 9 + 1
-        deadline: 25/9/23 20:00
+        deadline: 1/10/24 20:00
+        deadline_hard: true
     bg2:
         <<: *manual
         calculation: points / 6.0 * 9 + 1
@@ -178,26 +179,27 @@ mod_functional:
         virus: 1
         # algorithms: 1
 
-# mod_classes:
-#     show_overview: true
-#     deadline: 6/10/23 17:00
-#     submits:
-#         queue: 1
-#         cards: 1
-#         hangman-less: 1
-#         knapsack: 1
-#
-# mod_grote_programmas:
-#     show_overview: true
-#     deadline: 20/10/23 17:00
-#     submits:
-#         pygame: 1
-#
-# mod_project:
-#     show_overview: true
-#     deadline: 20/10/23 17:00
-#     submits:
-#         project: 1
+mod_classes:
+    show_overview: true
+    deadline: 4/10/24 17:00
+    submits:
+        queue: 1
+        cards: 1
+        lines: 1
+        war: 1
+        knapsack: 1
+
+mod_grote_programmas:
+    show_overview: true
+    deadline: 11/10/24 17:00
+    submits:
+        pygame: 1
+
+mod_project:
+    show_overview: true
+    deadline: 18/10/24 17:00
+    submits:
+        project: 1
 
 tentamen:
     show_overview: true

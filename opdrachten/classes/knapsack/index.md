@@ -2,6 +2,8 @@
 
 > Deze opdracht helpt je geavanceerd gebruik van classes te begrijpen. Zorg dat je de vorige opdrachten over classes goed hebt begrepen voordat je deze opdracht gaat maken.
 
+> [Extra uitleg over "operator overloading" zoals gevonden via de chat.](https://chatgpt.com/share/66fd29e5-9820-8003-a9cb-d3dc71a294d3)
+
 Bij een knapsack-probleem krijgen we punten voor elk item dat we
 inpakken in de knapsack. Een item mag maar één keer worden
 ingepakt. Om een item in te pakken is er in de knapsack een bepaalde

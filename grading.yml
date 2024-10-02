@@ -135,6 +135,7 @@ grades:
     cards: *automatic
     country: *automatic
     lines: *automatic
+    war: *check
 
     # module 12
     hangman: *automatic

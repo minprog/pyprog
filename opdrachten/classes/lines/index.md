@@ -18,10 +18,8 @@ Implementeer stap voor stap de `LineSegment` en `Point` classes om te zorgen dat
 
 4.  Schrijf een methode `length` voor `LineSegment` die de lengte van de lijn berekent. Gebruik de stelling van Pythagoras en gebruik de Python-operator `**` voor machtsverheffen. Doe `** (1/2)` om de wortel te nemen.
 
-Voeg ook doctests toe volgens de voorbeelden in het boek!
+Voeg ook doctests toe!
 
 ## Hint
-
-- Gebruik alleen wat je uit het boek geleerd hebt.
 
 - Als je `**` gebruikt om een wortel te nemen dan is het resultaat standaard van type Any (ofwel, Python weet niet wat het type gaat worden). In ons geval komt er altijd een float uit maar dat weet Python niet. Zorg dat je het resultaat van je formule voor `length` altijd converteert naar float voordat je returnt. Dan krijg je geen melding over het verkeerde type.
