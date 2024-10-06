@@ -1,6 +1,6 @@
 # Code review: Indexer
 
-> **Je mag deze code review alleen doen als je Indexer werkend hebt ingeleverd** vóór de deadline (alles geimplementeerd, misschien nog een bug). Is dat niet zo, dan mag je geen code review doen en kun je in de les doorwerken aan de nieuwe opdrachten.
+> **Je mag deze code review alleen doen als je Indexer werkend hebt ingeleverd** (de website heeft 'm goedgekeurd). Is dat niet zo, dan mag je geen code review doen en kun je in de les doorwerken aan de nieuwe opdrachten.
 >
 > De deadline voor inleveren van de verbeterde versie + verslag is **dinsdag 20:00**. Dit mag alleen als je aanwezig was bij het werkcollege om daar een review te doen.
 >
