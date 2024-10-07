@@ -2,9 +2,9 @@
 
 > **Je mag deze code review alleen doen als je Indexer werkend hebt ingeleverd** (de website heeft 'm goedgekeurd). Is dat niet zo, dan mag je geen code review doen en kun je in de les doorwerken aan de nieuwe opdrachten.
 >
-> De deadline voor inleveren van de verbeterde versie + verslag is **dinsdag 20:00**. Dit mag alleen als je aanwezig was bij het werkcollege om daar een review te doen.
+> De deadline voor inleveren van de verbeterde versie is **dinsdag 20:00**. Dit mag alleen als je aanwezig was bij het werkcollege om daar een review te doen.
 >
-> Zorg dat je een andere partner hebt dan vorige review. Je mag geen review doen met meer dan 2 personen, tenzij de docent 1 groep van 3 aanwijst.
+> Zorg dat je een **andere partner** hebt dan vorige review. Je mag geen review doen met meer dan 2 personen, tenzij de docent 1 groep van 3 aanwijst.
 
 Een "code review" is letterlijk het bestuderen, proberen te begrijpen en kritisch bekijken van eerder geschreven programmacode. Dat kan code van iemand anders zijn, maar het kan ook je eigen programma zijn waarvoor je even rustig tijd neemt.
 
@@ -43,7 +43,7 @@ Deze stappen doe je tijdens het werkcollege. Je reviewpartner wisselt per keer -
 
 1.  Hou daarbij ook in gedachten hoe jij jouw code gaat verbeteren. Zorg dus dat je notities maakt van de verschillen maar ook van je actiepunten.
 
-## Stappenplan: verbeteren en verslag
+## Stappenplan: verbeteren
 
 Deze stappen doe je na de les.
 
@@ -55,11 +55,7 @@ Je hebt samen met je review-partner de details goed doorgesproken. Je hebt een l
 
 1.  Neem niet het ontwerp van je partner over; dan ga je veel te ver, het is niet de opdracht, en het kan ook leiden tot plagiaatverdenking.
 
-1.  Maak een verslag in PDF (met je naam erboven en de naam van je partner). Geef hierin aan voor **elke verandering in jouw uitwerkingen** waarom je dit hebt gedaan. Zorg dat je stukjes code laat zien (kleine screenshots) met daarbij uitleg. Geef ook dingen aan die je niet hebt veranderd maar waarvoor je wel alternatieven hebt gezien of bedacht.
-
-    Met een verslag dat niet exact bovenstaande regels volgt kun je maximaal 1 punt verdienen voor de review.
-
-1.  Sla je verbeterde uitwerkingen op en test ze uitgebreid. Submit deze samen met je verslag op de submitpagina.
+1.  Sla je verbeterde uitwerkingen op en test ze uitgebreid. Submit deze op de submitpagina.
 
 ## Beoordeling
 
