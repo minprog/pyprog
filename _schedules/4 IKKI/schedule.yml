@@ -5,6 +5,8 @@ Welkom:
 Mod 1 Programmeren:
     Overzicht: /modules/programmeren
     Opdrachten:
+        Water: /opdrachten/expressies/water
+        Binair: /opdrachten/expressies/binair
         Weken: /opdrachten/expressies/weken
         Cafeine: /opdrachten/expressies/cafeine           # 1 func, main, expressies
         Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
