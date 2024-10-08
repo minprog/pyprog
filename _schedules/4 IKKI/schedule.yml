@@ -46,9 +46,9 @@ Mod 4 Lists:
     Opdrachten:
         List func [boek?]: /opdrachten/lists/list_functions
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
-        Sjoelen: /opdrachten/simulaties/sjoelen           # 2 func, main, simulatie
-        Comprehensions: /opdrachten/functioneel/comprehensions # naar boek?
-        Virus: /opdrachten/functioneel/virus              # 7 func, main, simulatie, comprehensions
+        Sjoelen: /opdrachten/lists/sjoelen           # 2 func, main, simulatie
+        Comprehensions: /opdrachten/lists/comprehensions # naar boek?
+        Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
 
 Mod 5 Collections:
     Overzicht: /modules/collections

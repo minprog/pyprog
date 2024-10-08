@@ -46,8 +46,8 @@ Module 4:
         Kunstroof: /opdrachten/collections/kunstroof
     Huiswerk:
         Recursie: /opdrachten/functioneel/recursie
-        Comprehensions: /opdrachten/functioneel/comprehensions
-        Virus: /opdrachten/functioneel/virus
+        Comprehensions: /opdrachten/lists/comprehensions
+        Virus: /opdrachten/lists/virus
 
 Module 5:
     Overzicht: /modbg/classes
