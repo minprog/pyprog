@@ -20,6 +20,8 @@ Mod 2 Herhaling:
     Opdrachten:
         Herhaal: /opdrachten/loops/herhaal
         Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
+        Greedy: /opdrachten/loops/greedy
+        Piramide: /opdrachten/loops/piramide
         Temperatuur: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
         Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
         Populatie: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
