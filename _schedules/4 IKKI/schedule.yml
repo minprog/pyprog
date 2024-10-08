@@ -12,7 +12,8 @@ Mod 1 Programmeren:
         Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
         Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
         Acid test [tijdens bijeenkomst]: /opdrachten/conditionals/acid  # 1 func, main, if
-        # Rechthoeken [tijdens bijeenkomst]: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
+        Rechthoeken [tijdens bijeenkomst]: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
+        Beslisboom: /opdrachten/conditionals/beslisboom
 
 Mod 2 Herhaling:
     Overzicht: /modules/herhaling
