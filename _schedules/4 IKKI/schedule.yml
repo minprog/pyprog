@@ -31,9 +31,9 @@ Mod 2 Herhaling:
 Mod 3 Strings:
     Overzicht: /modules/strings
     Opdrachten:
-        Str func [boek?]: /opdrachten/lists/string_functions
-        Str meth [boek?]: /opdrachten/lists/string_methods
-        Str mod [boek?]: /opdrachten/lists/string_module
+        Str func [boek?]: /opdrachten/strings/string_functions
+        Str meth [boek?]: /opdrachten/strings/string_methods
+        Str mod [boek?]: /opdrachten/strings/string_module
         Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
         Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
         Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str
