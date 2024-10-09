@@ -23,15 +23,17 @@ Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de i
 
 ## Specificatie
 
+* De functie moet minimaal 3 gevarieerde en realistische doctests krijgen.
+
 * Om het simpel te houden, mag je aannemen dat de gebruiker altijd braaf een positief getal invoert. Je hoeft dus geen foutafhandeling te implementeren voor het geval de gebruiker dat niet doet.
 
 * Het resultaat moet er precies uitzien als de voorbeelden hierboven.
 
 ## Hints
 
-* Maak gebruik van de `input`-functie en gebruik `int()` om de invoer van de gebruiker om te zetten van een string naar een integer, zodat je de berekening kunt uitvoeren.
+* Maak eerst de functie `hoeveelheid_water`. Achterhaal uit bovenstaande opdracht en uit de voorbeelden de formule die we nodig hebben om de berekening te doen. Dan is het belangrijkste deel van het werk gedaan.
 
-* Achterhaal uit bovenstaande opdracht en uit de voorbeelden de formule die we nodig hebben om de berekening te doen. Dan is het belangrijkste deel van het werk gedaan.
+* Maak gebruik van de `input`-functie en gebruik `int()` om de invoer van de gebruiker om te zetten van een string naar een integer, zodat je de berekening kunt uitvoeren.
 
 ## Testen
 

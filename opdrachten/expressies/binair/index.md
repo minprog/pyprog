@@ -1,8 +1,8 @@
 # Binair tellen
 
-Binair 010101 robot
+Computers rekenen binair, omdat de berekeningen met transistors gedaan worden die alleen de stand "aan" en "uit" kennen. Door een hoop aan/uit achter elkaar te zetten kun je getallen representeren. 
 
-## Opdracht
+![embed](https://www.youtube-nocookie.com/embed/gs4Sb4ar4qw?si=0DIIeXw9UevbSkMy)
 
 Schrijf, in een bestand genaamd `binair.py`, een programma dat om vier bits vraagt (0 of 1) en dit omzet naar een decimaal getal en uitprint.
 
@@ -33,10 +33,8 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
 ## Code
 
-In deze opdracht bestaat je code uit drie zelfgeschreven functies.
-
 Ontwerp je code zoals hieronder beschreven.
-Vul de docstrings aan met voorbeeld-aanroepen (doctests!) en de gewenste uitkomsten (stap 3 van het FDR), en eventueel verdere uitleg.
+Vul de docstring aan met doctests en de gewenste uitkomsten, en eventueel verdere uitleg over je aanpak.
 Schrijf ook code om invoer te vragen en de functie aan te roepen.
 
     def convert(bit1: int, bit2: int, bit3: int, bit4: int) -> int:
@@ -46,5 +44,19 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
         """
     
     if __name__ == '__main__':
-        <Schrijf hier code die input van de gebruiker opvraagt,
-        convert aanroept, en de uitkomst print>
+        <vraag input van de gebruiker, roep convert aan, print de uitkomst>
+
+## Hints
+
+Gebruik een enkele expressie om de bits hun waarde te geven en een decimaal getal te maken. Dit zijn de waardes van de bits:
+
+| bit | waarde |
+|:---:|:------:|
+|  1  | 8      |
+|  2  | 4      |
+|  3  | 2      |
+|  4  | 1      |
+
+## Testen
+
+Probeer je programma uit en gebruik een externe referentie om de werking te valideren. Als je toch een bug spot, pas dan je programma aan.
