@@ -4,15 +4,16 @@ Welkom:
 
 Mod 1 Programmeren:
     Overzicht: /modules/programmeren
-    Opdrachten:
+    Expressies:
         Weken: /opdrachten/expressies/weken
         Water: /opdrachten/expressies/water
         Binair: /opdrachten/expressies/binair
         Cafeine: /opdrachten/expressies/cafeine           # 1 func, main, expressies
         Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
+    Conditionals:
+        Acid test: /opdrachten/conditionals/acid          # 1 func, main, if
         Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
-        Acid test [tijdens bijeenkomst]: /opdrachten/conditionals/acid  # 1 func, main, if
-        Rechthoeken [tijdens bijeenkomst]: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
+        Rechthoeken: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
         Beslisboom: /opdrachten/conditionals/beslisboom
 
 Mod 2 Herhaling:

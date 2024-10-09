@@ -2,6 +2,10 @@
 
 Implementeer een programma dat aan een gebruiker diens waterverbruik rapporteert, door het aantal minuten douchen om te rekenen naar flesjes drinkwater. Eén minuut douchen komt overeen met 12 flesjes water (van 0.5L).
 
+## Voorbeelden
+
+Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+
     Hoeveel minuten douche je? 1
     12
 
