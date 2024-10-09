@@ -13,6 +13,7 @@ Mod 1 Programmeren:
     Conditionals:
         Acid test: /opdrachten/conditionals/acid          # 1 func, main, if
         Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
+        Byte: /opdrachten/conditionals/byte
         Rechthoeken: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
         Beslisboom: /opdrachten/conditionals/beslisboom
 
