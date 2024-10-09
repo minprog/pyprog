@@ -1,5 +1,9 @@
 # Acid test
 
+Vanaf nu zul je `if`-statements gaan gebruiken in de programma's. Deze opdracht is een oefening om in te komen. De logica is grotendeels gegeven, maar de structurering moet jij doen.
+
+## Opdracht
+
 Gegeven is het volgende Python-programma:
 
     ph = float(input("Geef een pH-waarde: "))
