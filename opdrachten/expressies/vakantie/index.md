@@ -67,7 +67,7 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
 
 ## Tips
 
-* Je moet nu meerdere functies implementeren. Deze functies werken samen om de kosten te berekenen. Beredeneer zorgvuldig welke functie de andere functies moet aanroepen.
+* Je moet nu meerdere functies implementeren. Deze functies werken samen om de kosten te berekenen. In de docstring staat welke functie de andere twee functies moet aanroepen.
 
 * Zorg dat de uiteindelijke kosten worden afgerond, zodat je output een integer is. In de docstring staat wanneer je moet afronden. Ga dan ook geen tussenstappen afronden, want dan krijg je een verkeerd antwoord.
 
