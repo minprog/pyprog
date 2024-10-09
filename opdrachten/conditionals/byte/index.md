@@ -42,23 +42,23 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
 - De strategie is als volgt:
 
-    -   Check of het getal deelbaar is door 128. Zo ja, dan is bit 1 **actief** en print je een `1`. Je trekt 128 van het getal af en je gaat door. Als het niet zo is, dan is bit 1 **inactief** en print je een `0`. Enzovoort.
+    -   Check of het getal groter is dan 128. Zo ja, dan is bit 1 **actief** en print je een `1`. Je trekt 128 van het getal af en je gaat door. Als het niet zo is, dan is bit 1 **inactief** en print je een `0`. Enzovoort.
     
-            >>> 15 // 128
-            0
-            >>> 15 // 64
-            0
-            >>> 15 // 32
-            0
-            >>> 15 // 16
-            0
-            >>> 15 // 8
-            1
-            >>> 7 // 4
-            1
-            >>> 3 // 2
-            1
-            >>> 1 // 1
-            1
+            >>> 15 > 128
+            False
+            >>> 15 > 64
+            False
+            >>> 15 > 32
+            False
+            >>> 15 > 16
+            False
+            >>> 15 > 8
+            True
+            >>> 7 > 4
+            True
+            >>> 3 > 2
+            True
+            >>> 1 > 1
+            True
 
 - Je kunt doctests schrijven zoals gebruikelijk voor een functie. Het feit dat de functie print en niet `return`t maakt niet uit voor het doctest-systeem.
