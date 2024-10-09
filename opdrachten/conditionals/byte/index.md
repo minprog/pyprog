@@ -44,6 +44,8 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     -   Check of het getal groter is dan 128. Zo ja, dan is bit 1 **actief** en print je een `1`. Je trekt 128 van het getal af en je gaat door. Als het niet zo is, dan is bit 1 **inactief** en print je een `0`. Enzovoort.
     
+        Als voorbeeld zie je hier hoe we in de Python shell systematisch het getal 15 behandelen. Eerst kijken of groter dan 128, dan 64 enz. Pas bij 8 is het getal inderdaad groter.
+    
             >>> 15 > 128
             False
             >>> 15 > 64
