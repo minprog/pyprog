@@ -1,3 +1,5 @@
+# Oefententamen
+
 [Ga naar de tentamen-editor](https://pyprog.proglab.nl/exams)
 
 ## List comprehensions
@@ -49,49 +51,15 @@ Door het oplossen van onderstaande opgaven laat je zien dat je het gebruik van c
 
 ### Emmeren (1 punt)
 
-Implementeer onderstaande functie. Vul zelf het return type in. Voeg nog minimaal twee zinvolle doctests toe.
-
-    def emmeren(waardes: list[list[int]]) -> ...:
-        """
-        Maakt een dictionary met als key de lengte van iedere lijst en
-        als value alle lijsten met die lengte.
-
-        >>> emmeren([[1,2,3], [3,4], [4,5]])
-        {3: [[1, 2, 3]], 2: [[3, 4], [4, 5]]}
-        """
+Implementeer de functie. Vul zelf het return type in. Voeg nog minimaal twee zinvolle doctests toe.
 
 ### Frisdrank (1 punt)
 
-Implementeer onderstaande functie. Vul zelf het return type in. Voeg nog minimaal twee zinvolle doctests toe.
-
-    def maak_overzicht(verkocht: list[tuple[int, int, int]]) -> ...:
-        """
-        Maakt een overzicht van verkochte frisdranken uit een frisdrankautomaat.
-        Gegeven is een lijst met tuples, van verkopen per dag in de volgorde:
-             cola / sinas / limonade.
-        De functie geeft de totale verkoop per type frisdrank in een dictionary.
-
-        >>> maak_overzicht([(2, 3, 0), (3, 0, 0)])
-        {"cola": 5, "sinas": 3, "limonade": 0}
-        """
+Implementeer de functie. Vul zelf het return type in. Voeg nog minimaal twee zinvolle doctests toe.
 
 ### Rits (1 punt)
 
-Implementeer onderstaande functie. Vul zelf het return type in. Bij deze opgave hoef je geen extra doctests te schrijven, maar je moet de onderstaande wel overnemen. Je mag <u>geen</u> gebruik maken van functies als `zip()`, `map()` en `filter()`.
-
-    def rits(getallen1: list[int], getallen1: list[int]) -> ...:
-        """
-        Ritst twee getallen reeksen aan elkaar. Als de getallen op dezelfde index 
-        in beide reeksen hetzelfde zijn of hoogstens 1 van elkaar verschillen. 
-        Geeft een list van tuples van getallen paren terug.
-
-        >>> rits([1, 2, 3], [2, 4, 4])
-        [(1, 2), (3, 4)]
-        >>> rits([10, 30, 50, 70], [10, 20])
-        [(10, 10)]
-        >>> rits([5, 7, 9], [])
-        []
-        """
+Implementeer de functie. Vul zelf het return type in. Bij deze opgave hoef je geen extra doctests te schrijven, maar je moet de onderstaande wel overnemen. Je mag <u>geen</u> gebruik maken van functies als `zip()`, `map()` en `filter()`.
 
 ## Objects en classes (4 punten)
 
@@ -113,40 +81,6 @@ DiceRace is een bordspel. We definiëren X posities op het bord, genummerd van 0
     Game won by Ali!
 
 Door het oplossen van deze opgave laat je zien dat je het gebruik van classes beheerst. Neem de volgende testcode heel nauwkeurig over (zonder de comments!) en schrijf de ontbrekende classes `Player` en `DiceRace`. Verander niets aan de gegeven code. Zorg dat elke method minimaal twee doctests heeft, want alleen methodes met zinvolle doctests en type hints worden meegeteld. Uitzondering: een methode die niets returnt of print hoeft geen doctest te krijgen.
-
-    if __name__ == '__main__':
-        # create 3 new player objects
-        players = [Player('Ali'), Player('Carmen'), Player('Jakub')]
-
-        number_of_places = int(input("How long is the track?"))
-
-        # create new game
-        # the game should keep track of what player's turn it is
-        # and also place them in the correct initial position
-        game = DiceRace(players, number_of_places)
-
-        while not game.is_done():
-            # print current board state
-            state_string = ""
-            for pos in range(number_of_places):
-                state_string += " "
-                # get initials for all players that are at position i
-                players_at_pos = [player.initial() for player in players
-                                  if player.position == pos]
-                # either print those initials or "-" if no players are at position i
-                if len(players_at_pos) > 0:
-                    state_string += "".join(players_at_pos)
-                else:
-                    state_string += "-"
-            print(state_string)
-
-            # ask player for dice value
-            print(f"Current player:  {game.current_player_name()}")
-            dice = int(input('Throw your dice: '))
-            # enter into game, it should automatically advance to next player
-            game.play(dice)
-            if game.is_done():
-                print(f"Game won by {game.winner_name()}!")
 
 <!--
 # Oeber

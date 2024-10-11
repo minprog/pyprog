@@ -39,7 +39,7 @@ files:
                 {"cola": 5, "sinas": 3, "limonade": 0}
                 """
             
-            def rits(getallen1: list[int], getallen1: list[int]) -> ...:
+            def rits(getallen1: list[int], getallen2: list[int]) -> ...:
                 """
                 Ritst twee getallen reeksen aan elkaar. Als de getallen op dezelfde index 
                 in beide reeksen hetzelfde zijn of hoogstens 1 van elkaar verschillen. 
