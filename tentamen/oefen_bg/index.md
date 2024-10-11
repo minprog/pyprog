@@ -2,13 +2,13 @@
 
 [Ga naar de tentamen-editor](https://pyprog.proglab.nl/exams) om deze goed te leren kennen vóór het tentamen plaatsvindt --- hier staat ook een deel van de code die je nodig hebt voor onderstaande vragen!
 
-Voor het nakijken is het nodig dat je de gevraagde technieken gebruikt (zoals comprehensions). Daarnaast moeten alle uitwerkingen doctests hebben die aantonen dat het werkt voor een aantal goedgekozen gevallen. Voor een deel geven we al doctests om je op weg te helpen.
+1. Voor het nakijken is het nodig dat je de gevraagde technieken gebruikt (zoals bv. comprehensions). Daarnaast moeten alle uitwerkingen doctests hebben die aantonen dat het werkt voor een aantal goedgekozen gevallen. Voor een deel geven we al doctests om je op weg te helpen.
 
-Tijdens het echte tentamen zul je ook op je eigen laptop in de tentamen-editor werken. Je mag dan geen enkel ander programma of andere website open hebben, altijd de editor in beeld. Hier wordt ook op gesurveilleerd.
+2. Tijdens het echte tentamen zul je ook op je eigen laptop in de tentamen-editor werken. Je mag dan geen enkel ander programma of andere website open hebben, altijd de editor in beeld. Hier wordt ook op gesurveilleerd.
 
-De puntentelling hieronder is indicatief voor het tentamen (de gewichten van elke som), maar er kunnen nog wijzigingen doorgevoerd worden, afhankelijk van de inhoud van het tentamen. Het tentamen moet voldoende gemaakt worden, dat wil zeggen: minimaal de helft van de punten.
+3. De puntentelling hieronder is indicatief voor het tentamen (de gewichten van elke som), maar er kunnen nog wijzigingen doorgevoerd worden, afhankelijk van de inhoud van het tentamen. Het tentamen moet voldoende gemaakt worden, dat wil zeggen: minimaal de helft van de punten.
 
-Tentamenstrategie-tip: doe eerst een paar kleintjes om in te komen en concentreer je daarna op de grotere OOP-opgaven. Kijk daarna strategisch waar je nog het best tijd aan kunt besteden.
+4. Tentamenstrategie-tip: doe eerst een paar kleintjes om in te komen en concentreer je daarna op de grotere OOP-opgaven. Kijk daarna strategisch waar je nog het best tijd aan kunt besteden.
 
 ## List comprehensions
 
