@@ -1,6 +1,6 @@
 # Oefententamen
 
-[Ga naar de tentamen-editor](https://pyprog.proglab.nl/exams)
+[Ga naar de tentamen-editor](https://pyprog.proglab.nl/exams) om deze goed te leren kennen vóór het tentamen plaatsvindt --- hier staat ook een deel van de code die je nodig hebt voor onderstaande vragen!
 
 ## List comprehensions
 
