@@ -51,20 +51,18 @@ You are required to implement the class `RideQueue` with the following methods:
 
 ## Example Usage:
 
-```python
-queue = RideQueue(max_size=5)
-queue.enqueue("Ride1")
-queue.enqueue("Ride2")
-queue.enqueue_vip("VIP_Ride1")
-queue.enqueue("Ride3")
+    queue = RideQueue(max_size=5)
+    queue.enqueue("Ride1")
+    queue.enqueue("Ride2")
+    queue.enqueue_vip("VIP_Ride1")
+    queue.enqueue("Ride3")
 
-# Queue: ["VIP_Ride1", "Ride1", "Ride2", "Ride3"]
-print(queue.peek())  # Output: "VIP_Ride1"
-queue.dequeue()      # Dispatches "VIP_Ride1"
-print(queue.waiting_time(1))  # Output: 1 (Ride2 is next after Ride1)
-queue.cancel_request("Ride2") # Cancels "Ride2"
-print(queue.is_empty())       # Output: False
-```
+    # Queue: ["VIP_Ride1", "Ride1", "Ride2", "Ride3"]
+    print(queue.peek())  # Output: "VIP_Ride1"
+    queue.dequeue()      # Dispatches "VIP_Ride1"
+    print(queue.waiting_time(1))  # Output: 1 (Ride2 is next after Ride1)
+    queue.cancel_request("Ride2") # Cancels "Ride2"
+    print(queue.is_empty())       # Output: False
 
 ## Constraints:
 
