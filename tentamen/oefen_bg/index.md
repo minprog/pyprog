@@ -4,6 +4,8 @@
 
 Voor het nakijken is het nodig dat je de gevraagde technieken gebruikt (zoals comprehensions). Daarnaast moeten alle uitwerkingen doctests hebben die aantonen dat het werkt voor een aantal goedgekozen gevallen. Voor een deel geven we al doctests om je op weg te helpen.
 
+Tijdens het echte tentamen zul je ook op je eigen laptop in de tentamen-editor werken. Je mag dan geen enkel ander programma of andere website open hebben, altijd de editor in beeld. Hier wordt ook op gesurveilleerd.
+
 ## List comprehensions
 
 Door het oplossen van onderstaande opgaven laat je zien dat je het gebruik van comprehensions beheerst. Elke opgave wordt opgelost door het schrijven van één functie met daarin een list comprehension. Zorg dat elke functie minimaal drie doctests heeft, inclusief de gegeven doctest, en dat alle type hints op orde zijn.
@@ -63,7 +65,7 @@ Implementeer de functie. Vul zelf het return type in. Voeg nog minimaal twee zin
 
 Implementeer de functie. Vul zelf het return type in. Bij deze opgave hoef je geen extra doctests te schrijven, maar je moet de onderstaande wel overnemen. Je mag <u>geen</u> gebruik maken van functies als `zip()`, `map()` en `filter()`.
 
-## Objects en classes (4 punten)
+## Objects en classes (7 punten)
 
 DiceRace is een bordspel. We definiëren X posities op het bord, genummerd van 0 tot en met X-1. Als er drie spelers zijn, dan worden deze op posities 0, 1 en 2 geplaatst. We maken een versie in Python, waar de spelers om beurten zelf een dobbelsteen gooien en de gegooide waarde invoeren. Degene die als eerst bij X is heeft gewonnen. Als we drie spelers hebben, kan het spel op de volgende manier verlopen:
 
