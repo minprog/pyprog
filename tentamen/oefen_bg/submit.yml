@@ -1,5 +1,10 @@
 name: oefen_bg
 exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>)
 files:
     required:
         compreh.py: |
