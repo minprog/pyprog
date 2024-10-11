@@ -1,5 +1,4 @@
 name: oefen_bg
-exam: true
 files:
     required:
         oeber.py: ''
