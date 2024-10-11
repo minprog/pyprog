@@ -84,6 +84,8 @@ grades:
         calculation: points / 6.0 * 9 + 1
         deadline: 15/10/24 20:00
 
+    oefen_bg:
+        type: check
     tentamen:
         type: float
     hertentamen:
