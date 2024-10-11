@@ -52,7 +52,7 @@ files:
                 >>> rits([5, 7, 9], [])
                 []
                 """
-        objects.py: |
+        dicerace.py: |
             if __name__ == '__main__':
                 # create 3 new player objects
                 players = [Player('Ali'), Player('Carmen'), Player('Jakub')]
@@ -86,4 +86,5 @@ files:
                     game.play(dice)
                     if game.is_done():
                         print(f"Game won by {game.winner_name()}!")
+        oeber.py: ''
         klad.py: ''

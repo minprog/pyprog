@@ -6,6 +6,10 @@ Voor het nakijken is het nodig dat je de gevraagde technieken gebruikt (zoals co
 
 Tijdens het echte tentamen zul je ook op je eigen laptop in de tentamen-editor werken. Je mag dan geen enkel ander programma of andere website open hebben, altijd de editor in beeld. Hier wordt ook op gesurveilleerd.
 
+De puntentelling hieronder is indicatief voor het tentamen (de gewichten van elke som), maar er kunnen nog wijzigingen doorgevoerd worden, afhankelijk van de inhoud van het tentamen. Het tentamen moet voldoende gemaakt worden, dat wil zeggen: minimaal de helft van de punten.
+
+Tentamenstrategie-tip: doe eerst een paar kleintjes om in te komen en concentreer je daarna op de grotere OOP-opgaven. Kijk daarna strategisch waar je nog het best tijd aan kunt besteden.
+
 ## List comprehensions
 
 Door het oplossen van onderstaande opgaven laat je zien dat je het gebruik van comprehensions beheerst. Elke opgave wordt opgelost door het schrijven van één functie met daarin een list comprehension. Zorg dat elke functie minimaal drie doctests heeft, inclusief de gegeven doctest, en dat alle type hints op orde zijn.
@@ -65,7 +69,9 @@ Implementeer de functie. Vul zelf het return type in. Voeg nog minimaal twee zin
 
 Implementeer de functie. Vul zelf het return type in. Bij deze opgave hoef je geen extra doctests te schrijven, maar je moet de onderstaande wel overnemen. Je mag <u>geen</u> gebruik maken van functies als `zip()`, `map()` en `filter()`.
 
-## Objects en classes (7 punten)
+## Objects en classes
+
+### DiceRace (3 punten)
 
 DiceRace is een bordspel. We definiëren X posities op het bord, genummerd van 0 tot en met X-1. Als er drie spelers zijn, dan worden deze op posities 0, 1 en 2 geplaatst. We maken een versie in Python, waar de spelers om beurten zelf een dobbelsteen gooien en de gegooide waarde invoeren. Degene die als eerst bij X is heeft gewonnen. Als we drie spelers hebben, kan het spel op de volgende manier verlopen:
 
@@ -86,8 +92,7 @@ DiceRace is een bordspel. We definiëren X posities op het bord, genummerd van 0
 
 Door het oplossen van deze opgave laat je zien dat je het gebruik van classes beheerst. Neem de volgende testcode heel nauwkeurig over (zonder de comments!) en schrijf de ontbrekende classes `Player` en `DiceRace`. Verander niets aan de gegeven code. Zorg dat elke method minimaal twee doctests heeft, want alleen methodes met zinvolle doctests en type hints worden meegeteld. Uitzondering: een methode die niets returnt of print hoeft geen doctest te krijgen.
 
-<!--
-# Oeber
+### Oeber (3 punten)
 
 You are tasked with developing a queue-like data structure for a fictional ride-hailing application. The application uses the queue to manage ride requests from customers and dispatch them to drivers in real-time. The core functionality of the queue is the same as a traditional queue, with First In, First Out (FIFO) behavior. However, the application needs additional features to handle more advanced scenarios, and you are required to implement a custom class RideQueue to meet these requirements.
 
@@ -118,10 +123,6 @@ You are tasked with developing a queue-like data structure for a fictional ride-
     - **Limit Queue Size**:
         The queue has a maximum capacity, and once full, new requests cannot be added unless space becomes available (via a dequeue or cancellation). Implement a constructor parameter `max_size` that allows the user to set the maximum size of the queue. If the queue is full, `enqueue` should raise an exception or return an error message.
 
-3.  **Bonus Challenge**:
-
-    For extra credit, add a feature that tracks the **average wait time** of ride requests in the queue. Implement a method `average_wait_time()` that returns the average number of rides a request must wait through before it is dispatched.
-
 ## Class Definition:
 
 You are required to implement the class `RideQueue` with the following methods:
@@ -134,7 +135,6 @@ You are required to implement the class `RideQueue` with the following methods:
 - `is_empty(self)`
 - `peek(self)`
 - `waiting_time(self, position)`
-- *(Optional)* `average_wait_time(self)`
 
 ## Example Usage:
 
