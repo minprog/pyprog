@@ -201,6 +201,10 @@ mod_project:
     submits:
         project: 1
 
+oefententamen:
+    submits:
+        oefen_bg: 1
+
 tentamen:
     show_overview: true
     minimum: 5.5
