@@ -2,6 +2,8 @@
 
 [Ga naar de tentamen-editor](https://pyprog.proglab.nl/exams) om deze goed te leren kennen vóór het tentamen plaatsvindt --- hier staat ook een deel van de code die je nodig hebt voor onderstaande vragen!
 
+Voor het nakijken is het nodig dat je de gevraagde technieken gebruikt (zoals comprehensions). Daarnaast moeten alle uitwerkingen doctests hebben die aantonen dat het werkt voor een aantal goedgekozen gevallen. Voor een deel geven we al doctests om je op weg te helpen.
+
 ## List comprehensions
 
 Door het oplossen van onderstaande opgaven laat je zien dat je het gebruik van comprehensions beheerst. Elke opgave wordt opgelost door het schrijven van één functie met daarin een list comprehension. Zorg dat elke functie minimaal drie doctests heeft, inclusief de gegeven doctest, en dat alle type hints op orde zijn.
