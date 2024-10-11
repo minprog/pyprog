@@ -96,7 +96,7 @@ Door het oplossen van deze opgave laat je zien dat je het gebruik van classes be
 
 You are tasked with developing a queue-like data structure for a fictional ride-hailing application. The application uses the queue to manage ride requests from customers and dispatch them to drivers in real-time. The core functionality of the queue is the same as a traditional queue, with First In, First Out (FIFO) behavior. However, the application needs additional features to handle more advanced scenarios, and you are required to implement a custom class RideQueue to meet these requirements.
 
-## Requirements:
+#### Requirements:
 
 1. **Basic Queue Operations**:
 
@@ -123,7 +123,7 @@ You are tasked with developing a queue-like data structure for a fictional ride-
     - **Limit Queue Size**:
         The queue has a maximum capacity, and once full, new requests cannot be added unless space becomes available (via a dequeue or cancellation). Implement a constructor parameter `max_size` that allows the user to set the maximum size of the queue. If the queue is full, `enqueue` should raise an exception or return an error message.
 
-## Class Definition:
+#### Class Definition:
 
 You are required to implement the class `RideQueue` with the following methods:
 
@@ -136,7 +136,7 @@ You are required to implement the class `RideQueue` with the following methods:
 - `peek(self)`
 - `waiting_time(self, position)`
 
-## Example Usage:
+#### Example Usage:
 
     queue = RideQueue(max_size=5)
     queue.enqueue("Ride1")
@@ -151,7 +151,7 @@ You are required to implement the class `RideQueue` with the following methods:
     queue.cancel_request("Ride2") # Cancels "Ride2"
     print(queue.is_empty())       # Output: False
 
-## Constraints:
+#### Constraints:
 
 - The ride requests are simple strings representing customer IDs (e.g., "Ride1", "VIP_Ride1").
-- You must handle edge cases, such as trying to dequeue from an empty queue or adding a ride request when the queue is full. -->
+- You must handle edge cases, such as trying to dequeue from an empty queue or adding a ride request when the queue is full.
