@@ -2,7 +2,7 @@
 
 [Ga naar de tentamen-editor](https://pyprog.proglab.nl/exams) om deze goed te leren kennen vóór het tentamen plaatsvindt --- hier staat ook een deel van de code die je nodig hebt voor onderstaande vragen!
 
-1. Voor het nakijken is het nodig dat je de gevraagde technieken gebruikt (zoals bv. comprehensions). Daarnaast moeten alle uitwerkingen doctests hebben die aantonen dat het werkt voor een aantal goedgekozen gevallen. Voor een deel geven we al doctests om je op weg te helpen.
+1. Voor het nakijken is het nodig dat je de gevraagde technieken gebruikt (zoals bv. comprehensions). Daarnaast moeten alle uitwerkingen doctests hebben die aantonen dat het werkt voor een aantal goedgekozen gevallen, en ook types die logisch zijn. Voor een deel geven we al doctests om je op weg te helpen.
 
 2. Tijdens het echte tentamen zul je ook op je eigen laptop in de tentamen-editor werken. Je mag dan geen enkel ander programma of andere website open hebben, altijd de editor in beeld. Hier wordt ook op gesurveilleerd.
 
