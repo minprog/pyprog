@@ -73,24 +73,21 @@ Implementeer de functie. Vul zelf het return type in. Bij deze opgave hoef je ge
 
 ### DiceRace (3 punten)
 
-DiceRace is een bordspel. We definiëren X posities op het bord, genummerd van 0 tot en met X-1. Als er drie spelers zijn, dan worden deze op posities 0, 1 en 2 geplaatst. We maken een versie in Python, waar de spelers om beurten zelf een dobbelsteen gooien en de gegooide waarde invoeren. Degene die als eerst bij X is heeft gewonnen. Als we drie spelers hebben, kan het spel op de volgende manier verlopen:
+DiceRace is een bordspel. We definiëren een X=10 aantal posities op het bord, genummerd van 0 tot en met X-1. Als er drie spelers zijn, dan worden deze op posities 0, 1 en 2 geplaatst. Vervolgens gooit elke speler om de beurt een dobbelsteen die bepaalt hoeveel stappen deze speler zet. De speler die als eerst bij positie X is gekomen heeft gewonnen. Als we drie spelers hebben, kan het spel op de volgende manier verlopen:
 
-    How long is the racing track? 10
      A C J - - - - - - -
-    Current player:  Ali
-    Throw your dice: 6
-     - C J - - - A - - -
-    Current player:  Carmen
-    Throw your dice: 1
-     - - CJ - - - A - - -
-    Current player:  Jakub
-    Throw your dice: 2
-     - - C - J - A - - -
-    Current player:  Ali
-    Throw your dice: 4
-    Game won by Ali!
+    Current player Ali throws die value: 1
+    - AC J - - - - - - -
+    Current player Carmen throws die value: 3
+    - A J - C - - - - -
+    Current player Jakub throws die value: 1
+    - A - J C - - - - -
+    Current player Ali throws die value: 6
+    - - - J C - - A - -
+    Current player Carmen throws die value: 6
+    Game won by Carmen!
 
-Door het oplossen van deze opgave laat je zien dat je het gebruik van classes beheerst. Neem de volgende testcode heel nauwkeurig over (zonder de comments!) en schrijf de ontbrekende classes `Player` en `DiceRace`. Verander niets aan de gegeven code. Zorg dat elke method minimaal twee doctests heeft, want alleen methodes met zinvolle doctests en type hints worden meegeteld. Uitzondering: een methode die niets returnt of print hoeft geen doctest te krijgen.
+Door het oplossen van deze opgave laat je zien dat je het gebruik van classes beheerst. Schrijf de ontbrekende classes `Player` en `DiceRace`. Verander niets aan de gegeven code. Zorg dat elke method minimaal twee doctests heeft, want alleen methodes met zinvolle doctests en type hints worden meegeteld. Uitzondering: een methode die niets returnt of print hoeft geen doctest te krijgen.
 
 ### Oeber (3 punten)
 
