@@ -23,6 +23,7 @@ Mod 2 Herhaling:
         Herhaalᵇ: /opdrachten/loops/herhaal
         Colaᵇ: /opdrachten/loops/cola                      # 3 func, main, if, loop
         Greedy: /opdrachten/loops/greedy
+        Raadspel [oud]: /opdrachten/oud/raadspel       # 1 func, main, simulatie
         Populatieᵛ: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
     For-loops:
         Piramideᵇ: /opdrachten/loops/piramide
@@ -74,6 +75,9 @@ Mod 6 Classes:
         Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
         Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
+        Lisp: /opdrachten/oud/lisp
+        Lisp2: /opdrachten/oud/lisp2
+        Figuren: /opdrachten/oud/figuren
 
 Mod 7 Data:
     Overzicht: /modules/dataverwerking
