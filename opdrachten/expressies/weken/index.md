@@ -1,6 +1,10 @@
 # Weken
 
-Schrijf, in een bestand genaamd `weken.py`, een functie genaamd `weeks_elapsed`. Je moet hierbij onderstaande code als basis gebruiken.
+In deze en volgende opdrachten ga je vooral veel kleine functies maken waarin een berekening wordt gedaan. De opdrachten bouwen op elkaar voort en herhalen veel.
+
+## Opdracht
+
+Schrijf, in een bestand genaamd `weken.py`, een functie genaamd `weeks_elapsed`. Je moet hierbij onderstaande code als basis gebruiken en dan de verdere stappen volgen.
 
 ## Code
 
@@ -31,7 +35,7 @@ Een hoofdprogramma begint altijd met een "if-name-is-main":
 
     if __name__ == '__main__':
 
-## Opdracht
+## Functie aanroepen in main
 
 Hier vind je een groot deel van het hoofdprogramma voor `weken.py`:
 

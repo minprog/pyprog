@@ -78,12 +78,14 @@ grades:
     bg2:
         <<: *manual
         calculation: points / 6.0 * 9 + 1
-        deadline: 10/10/23 20:00
+        deadline: 8/10/24 20:00
     bg3:
         <<: *manual
         calculation: points / 6.0 * 9 + 1
-        deadline: 9/10/23 20:00
+        deadline: 15/10/24 20:00
 
+    oefen_bg:
+        type: check
     tentamen:
         type: float
     hertentamen:
@@ -200,6 +202,10 @@ mod_project:
     deadline: 18/10/24 17:00
     submits:
         project: 1
+
+oefententamen:
+    submits:
+        oefen_bg: 1
 
 tentamen:
     show_overview: true

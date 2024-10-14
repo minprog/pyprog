@@ -2,123 +2,199 @@ Welkom:
     Lees de studiewijzer alvast even door: /syllabus
     Installatie: /installatie
 
-Module 1:
-    Hoofdstuk 1:
-        "Chapter 1: What's Programming?": /boek/programming
-        Opstarten: /opdrachten/week1/opstarten
-    Hoofdstuk 2:
-        "Chapter 2: Hello, Python": /boek/hello
-    Hoofdstuk 3:
-        "Chapter 3: Designing functions": /boek/functions
-        Function Design Recipe: /opdrachten/week1/fdr
-        Weken: /opdrachten/week1/weken
-    Opdrachten:
-        Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
-        Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
-    Controleren:
-        Controleren: /opdrachten/week1/controleren
+Mod 1 Programmeren:
+    Overzicht: /modules/programmeren
+    Functies en expressies:
+        Weken: /opdrachten/expressies/weken
+        Water: /opdrachten/expressies/water
+        Binair: /opdrachten/expressies/binair
+        Cafeine: /opdrachten/expressies/cafeine           # 1 func, main, expressies
+        Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
+    Conditionals:
+        Acid test: /opdrachten/conditionals/acid          # 1 func, main, if
+        Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
+        Byte: /opdrachten/conditionals/byte
+        Rechthoeken: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
+        Beslisboom: /opdrachten/conditionals/beslisboom
 
-Module 2:
-    Hoofdstuk 4:
-        "Chapter 4: Working with text": /boek/text
-        String Functions: /opdrachten/week1/string_functions
-    Hoofdstuk 5:
-        "Chapter 5: Making Choices": /boek/choices
-        Acid Test: /opdrachten/week1/acid
-    Opdrachten:
-        Orakel: /opdrachten/week1/orakel           # 1 func, main, if
-        Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
-        Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
+Mod 2 Herhaling:
+    Overzicht: /modules/herhaling
+    While-loops:
+        Herhaal: /opdrachten/loops/herhaal
+        Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
+        Greedy: /opdrachten/loops/greedy
+        Populatie: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
+    For-loops:
+        Piramide: /opdrachten/loops/piramide
+        Temperatuur: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
+        Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
+    # Oefening:
+    #     Debugging: /oefeningen/debug
 
-Module 3:
-    Hoofdstuk 6:
-        "Chapter 6: Modular Approach": /boek/modules
-        String Module: /opdrachten/week2/string_module
-    Hoofdstuk 7:
-        "Chapter 7: Using Methods": /boek/methods
-        String Methods: /opdrachten/week2/string_methods
+Mod 3 Strings:
+    Overzicht: /modules/strings
     Opdrachten:
-        Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
-        Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str
+        Str func [boek?]: /opdrachten/strings/string_functions
+        Str meth [boek?]: /opdrachten/strings/string_methods
+        Str mod [boek?]: /opdrachten/strings/string_module
+        Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
+        Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
+        Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str
+        RNA: /opdrachten/strings/rna                      # 4 func, main, list-string conversion
+        Leesbaarheid: /opdrachten/strings/leesbaarheid    # 2 func, main, string tellen, find
+        camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
 
-Module 4:
-    Hoofdstuk 8:
-        "Chapter 8: Storing Collections using Lists": /boek/lists
-        List Functions: /opdrachten/week2/list_functions
-    Hoofdstuk 9:
-        "Chapter 9: Repeating Code using Loops": /boek/loops
+Mod 4 Lists:
+    Overzicht: /modules/lists
     Opdrachten:
-        Scrabble: /opdrachten/week2/scrabble       # 1 func, main, loop, if, str
-        Cola: /opdrachten/week2/cola               # 3 func, main, if, loop
-        Temperatuurtabellen: /opdrachten/week2/temperatuur # 2 func, main, if, loop, formatting
+        List func [boek?]: /opdrachten/lists/list_functions
+        Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
+        Sjoelen: /opdrachten/lists/sjoelen           # 2 func, main, simulatie
+        Comprehensions: /opdrachten/lists/comprehensions # naar boek?
+        Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
 
-Module 5:
-    Opdrachten:
-        RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
-        Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
-        camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
-
-Module 6:
+Mod 5 Collections:
+    Overzicht: /modules/collections
     Opdrachten:
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
-        Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
-
-Module 7:
-    Opdrachten:
-        Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
-        Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
-
-Module 8:
-    Opdrachten:
-        Comprehensions: /opdrachten/week4/comprehensions
-        Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
-
-Module 9:
-    Lezen en oefenen:
-        "Chapter 11: Collection Types": /boek/collections
-        Dicts: /opdrachten/week5/dicts
-        Tuples: /opdrachten/week5/tuples
-        Sets: /opdrachten/week5/sets
-        Memory model: /opdrachten/week5/memory_model
-    Opdrachten:
-        Collection Functions: /opdrachten/week5/collection_functions
-
-Module 10:
-    Opdrachten:
-        Collection Functions 2: /opdrachten/week5/collection_functions2
+        Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
 
-# Module 10:
-#     Lezen en oefenen:
-#         "Chapter 12: Designing Algorithms": /boek/algorithms
-#         "Chapter 13: Search and Sorting": /boek/searching
-#     Opdrachten:
-#         Algorithms: /opdrachten/week5/algorithms
-
-Module 11:
+Mod 6 Classes:
+    Overzicht: /modules/classes
     Lezen en oefenen:
-        Videocollege: /opdrachten/week6/lecture
+        Videocollege: /objects/lecture
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
-        Queue: /opdrachten/week6/queue             # basic datastructuur, encapsulation, init
-        Cards: /opdrachten/week6/cards             # UML, data class, container
-        Country: /opdrachten/week6/country
-        Lines: /opdrachten/week6/lines
+        Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
+        Cards: /opdrachten/classes/cards                  # UML, data class, container
+        Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
+        Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
+        # let op: lisp, figuren zijn geschrapt
 
-Module 12:
+Mod 7 Data:
+    Overzicht: /modules/dataverwerking
     Opdrachten:
-        Hangman: /opdrachten/week6/hangman         # separation of concerns (lexicon/game)
-
-Module 13:
-    Opdrachten:
-        Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
-
-Module 14:
-    Lezen en oefenen:
-        # niet zo'n handig hoofdstuk, misschien beter zelf stof aanreiken hier
-        # "Chapter 10: Reading and Writing Files": /boek/files
-        Files lezen en schrijven: /uitleg/files
-    Opdrachten:
-        # Preprocessing: /opdrachten/week5/eca2csv # deze gaat weg
-        # Cijfers: /opdrachten/week5/cijfers
+        Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
         Klimaat: /opdrachten/week7/klimaat
+
+# Module 1:
+#     Hoofdstuk 1:
+#         "Chapter 1: What's Programming?": /boek/programming
+#         Opstarten: /opdrachten/week1/opstarten
+#     Hoofdstuk 2:
+#         "Chapter 2: Hello, Python": /boek/hello
+#     Hoofdstuk 3:
+#         "Chapter 3: Designing functions": /boek/functions
+#         Function Design Recipe: /opdrachten/week1/fdr
+#         Weken: /opdrachten/week1/weken
+#     Opdrachten:
+#         Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
+#         Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
+#     Controleren:
+#         Controleren: /opdrachten/week1/controleren
+#
+# Module 2:
+#     Hoofdstuk 4:
+#         "Chapter 4: Working with text": /boek/text
+#         String Functions: /opdrachten/week1/string_functions
+#     Hoofdstuk 5:
+#         "Chapter 5: Making Choices": /boek/choices
+#         Acid Test: /opdrachten/week1/acid
+#     Opdrachten:
+#         Orakel: /opdrachten/week1/orakel           # 1 func, main, if
+#         Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
+#         Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
+#
+# Module 3:
+#     Hoofdstuk 6:
+#         "Chapter 6: Modular Approach": /boek/modules
+#         String Module: /opdrachten/week2/string_module
+#     Hoofdstuk 7:
+#         "Chapter 7: Using Methods": /boek/methods
+#         String Methods: /opdrachten/week2/string_methods
+#     Opdrachten:
+#         Rechthoeken: /opdrachten/week2/rechthoeken # 3 func, main, if, bool
+#         Wachtwoord: /opdrachten/week2/wachtwoord   # 4 func, main, if, bool, str
+#
+# Module 4:
+#     Hoofdstuk 8:
+#         "Chapter 8: Storing Collections using Lists": /boek/lists
+#         List Functions: /opdrachten/week2/list_functions
+#     Hoofdstuk 9:
+#         "Chapter 9: Repeating Code using Loops": /boek/loops
+#     Opdrachten:
+#         Scrabble: /opdrachten/week2/scrabble       # 1 func, main, loop, if, str
+#         Cola: /opdrachten/week2/cola               # 3 func, main, if, loop
+#         Temperatuurtabellen: /opdrachten/week2/temperatuur # 2 func, main, if, loop, formatting
+#
+# Module 5:
+#     Opdrachten:
+#         RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
+#         Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
+#         camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
+#
+# Module 6:
+#     Opdrachten:
+#         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
+#         Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
+#
+# Module 7:
+#     Opdrachten:
+#         Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
+#         Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
+#
+# Module 8:
+#     Opdrachten:
+#         Comprehensions: /opdrachten/week4/comprehensions
+#         Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
+#
+# Module 9:
+#     Lezen en oefenen:
+#         "Chapter 11: Collection Types": /boek/collections
+#         Dicts: /opdrachten/week5/dicts
+#         Tuples: /opdrachten/week5/tuples
+#         Sets: /opdrachten/week5/sets
+#         Memory model: /opdrachten/week5/memory_model
+#     Opdrachten:
+#         Collection Functions: /opdrachten/week5/collection_functions
+#
+# Module 10:
+#     Opdrachten:
+#         Collection Functions 2: /opdrachten/week5/collection_functions2
+#         Indexer: /opdrachten/week5/indexer
+#
+# # Module 10:
+# #     Lezen en oefenen:
+# #         "Chapter 12: Designing Algorithms": /boek/algorithms
+# #         "Chapter 13: Search and Sorting": /boek/searching
+# #     Opdrachten:
+# #         Algorithms: /opdrachten/week5/algorithms
+#
+# Module 11:
+#     Lezen en oefenen:
+#         Videocollege: /opdrachten/week6/lecture
+#         "Chapter 14: Object-oriented programming": /boek/objects
+#     Opdrachten:
+#         Queue: /opdrachten/week6/queue             # basic datastructuur, encapsulation, init
+#         Cards: /opdrachten/week6/cards             # UML, data class, container
+#         Country: /opdrachten/week6/country
+#         Lines: /opdrachten/week6/lines
+#
+# Module 12:
+#     Opdrachten:
+#         Hangman: /opdrachten/week6/hangman         # separation of concerns (lexicon/game)
+#
+# Module 13:
+#     Opdrachten:
+#         Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
+#
+# Module 14:
+#     Lezen en oefenen:
+#         # niet zo'n handig hoofdstuk, misschien beter zelf stof aanreiken hier
+#         # "Chapter 10: Reading and Writing Files": /boek/files
+#         Files lezen en schrijven: /uitleg/files
+#     Opdrachten:
+#         # Preprocessing: /opdrachten/week5/eca2csv # deze gaat weg
+#         # Cijfers: /opdrachten/week5/cijfers
+#         Klimaat: /opdrachten/week7/klimaat

@@ -1,0 +1,8 @@
+name: water
+files:
+    required:
+        - water.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: water

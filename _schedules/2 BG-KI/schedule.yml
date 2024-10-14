@@ -1,6 +1,9 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
     Installeer Python op je laptop: /installatie
+    Reviews:
+        Eerste review: /reviews/bg1
+        Tweede review: /reviews/bg2
 
 Module 1:
     Overzicht: /modbg/programmeren
@@ -16,7 +19,7 @@ Module 2:
     Overzicht: /modbg/simuleren
     Startopdrachten:
         Populatie: /opdrachten/simulaties/populatie
-        Sjoelen: /opdrachten/simulaties/sjoelen
+        Sjoelen: /opdrachten/lists/sjoelen
     Huiswerk:
         Birthday: /opdrachten/simulaties/birthday
         Prisoners: /opdrachten/simulaties/prisoners
@@ -43,8 +46,8 @@ Module 4:
         Kunstroof: /opdrachten/collections/kunstroof
     Huiswerk:
         Recursie: /opdrachten/functioneel/recursie
-        Comprehensions: /opdrachten/functioneel/comprehensions
-        Virus: /opdrachten/functioneel/virus
+        Comprehensions: /opdrachten/lists/comprehensions
+        Virus: /opdrachten/lists/virus
 
 Module 5:
     Overzicht: /modbg/classes

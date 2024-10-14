@@ -20,7 +20,7 @@ Mod 2 Herhaling:
         Temperatuur: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
         Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
         Populatie: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
-        Sjoelen: /opdrachten/simulaties/sjoelen           # 2 func, main, simulatie
+        Sjoelen: /opdrachten/lists/sjoelen           # 2 func, main, simulatie
     # Oefening:
     #     Debugging: /oefeningen/debug
 
