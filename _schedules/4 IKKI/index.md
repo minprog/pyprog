@@ -4,14 +4,14 @@
 
 Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
-Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle colleges, alle nieuwe oefeningen en de paar nieuwe opdrachten die we hebben toegevoegd. Let op dat de eisen voor doctests en dergelijke wat strenger zijn, dus waarschijnlijk moet je sommige programma's nog verbeteren. We helpen je daar graag bij in de colleges!
+Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle colleges, alle nieuwe oefeningen en de nieuwe opdrachten die we hebben toegevoegd. Let op dat de eisen voor doctests en dergelijke streng zijn, dus waarschijnlijk moet je sommige programma's nog verbeteren. We helpen je daar graag bij in de colleges!
 
 
 ## Docenten en assistenten
 
 De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Toon van Gelderen, Robin Langerak, Simon Pauw, Pieter Pierrot, Bas Terwijn, Frank Wildenburg en Lars Woudstra. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <pyprog@proglab.nl>.
 
-De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog een studentassistent om te begeleiden bij het maken van de opdrachten. Zij kijken ook huiswerk na en geven, gevraagd en ongevraagd, feedback.
+De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog een studentassistent die begeleidt bij het maken van de opdrachten. Assistenten kijken ook huiswerk na en geven, gevraagd en ongevraagd, feedback.
 
 
 ## Wat ga je leren
@@ -31,11 +31,11 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 - **Module 7: .** 
 
 
-## Opdrachten en eindcijfer
+## Onderdelen eindcijfer
 
 Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen om goed op de hoogte te zijn van de theorie, maar vrijwel al het werk bij dit vak bestaat uit het maken van programmeeropdrachten.
 
-1.  Insturen van oplossingen voor de programmeeropdrachten (0% van eindcijfer, wel verplicht). Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen.
+1.  Huiswerk: programmeeropdrachten (0% van eindcijfer). Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen.
 
     De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
@@ -102,7 +102,7 @@ Er zijn twee soorten uitzonderingen die gegeven kunnen worden, maar allebei alle
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
 
-Stop je met inleveren, dan wordt je al snel inactief gemarkeerd. Je moet dan contact opnemen met de vakcoördinator om weer mee te mogen doen. Stuur dan direct een mail en wacht niet af. Als je contact wil hebben met de studieadviseur, zorg dan dat je ook de vakcoördinator informeert en checkt of er nog een afspraak gemaakt moet worden.
+Stop je met inleveren, dan word je al snel inactief gemarkeerd. Je moet dan contact opnemen met de vakcoördinator om weer mee te mogen doen. Stuur dan direct een mail en wacht niet af. Als je contact wil hebben met de studieadviseur, zorg dan dat je ook de vakcoördinator informeert en checkt of er nog een afspraak gemaakt moet worden.
 
 Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week voorloopt*, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
 
