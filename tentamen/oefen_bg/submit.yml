@@ -12,7 +12,10 @@ files:
     required:
         compreh.py: |
             # TODO
-            
+            # 1. Functie deelbaar
+            # 2. Functie oeps
+            # 3. Functie schreeuw
+            # 4. Functie ketting (zie onder, staat al een template)
             
             def ketting(paren: list[list[int]]) -> list[list[int]]:
                 """
