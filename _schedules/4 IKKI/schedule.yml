@@ -5,7 +5,7 @@ Welkom:
 Mod 1 Programmeren:
     Overzicht: /modules/programmeren
     Functies en expressies:
-        Wekenᵇ: /opdrachten/expressies/weken
+        Wekenᵛ: /opdrachten/expressies/weken
         Waterᵇ: /opdrachten/expressies/water
         Binairᵛ: /opdrachten/expressies/binair
         Cafeineᵛ: /opdrachten/expressies/cafeine           # 1 func, main, expressies
@@ -20,16 +20,14 @@ Mod 1 Programmeren:
 Mod 2 Herhaling:
     Overzicht: /modules/herhaling
     While-loops:
-        Herhaal: /opdrachten/loops/herhaal
-        Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
+        Herhaalᵇ: /opdrachten/loops/herhaal
+        Colaᵇ: /opdrachten/loops/cola                      # 3 func, main, if, loop
         Greedy: /opdrachten/loops/greedy
-        Populatie: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
+        Populatieᵛ: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
     For-loops:
-        Piramide: /opdrachten/loops/piramide
-        Temperatuur: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
-        Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
-    # Oefening:
-    #     Debugging: /oefeningen/debug
+        Piramideᵇ: /opdrachten/loops/piramide
+        Temperatuurᵛ: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
+        Kalenderᵛ: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
 
 Mod 3 Strings:
     Overzicht: /modules/strings
@@ -43,6 +41,8 @@ Mod 3 Strings:
         RNA: /opdrachten/strings/rna                      # 4 func, main, list-string conversion
         Leesbaarheid: /opdrachten/strings/leesbaarheid    # 2 func, main, string tellen, find
         camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
+    # Werkcollege:
+    #     Debugging: /oefeningen/debug
 
 Mod 4 Lists:
     Overzicht: /modules/lists
