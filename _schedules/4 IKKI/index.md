@@ -33,14 +33,16 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 ## Onderdelen eindcijfer
 
-Tentamen (60%)
+Tentamen (50%)
 : Dit gaat over module 1, 2 en 3. Echt de basis dus. Het tentamen is in week 4, herkansing in week 8. Voorbereiding is huiswerk.
 
 Werkcollege (10%)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen.
 
-Aftekenen (30%)
+Aftekenen (40%)
 : Modules 4, 5, 6 en 7 kun je aftekenen. Het goed uitwerken van de opdrachten kan een substantieel deel van je cijfer opleveren.
+
+Het tentamen is voldoende/onvoldoende, dus als je het voldoende maakt dan heb je het vak ook gehaald. Maak je het onvoldoende, dan niet.
 
 
 ## Huiswerk en deadlines
@@ -84,27 +86,20 @@ Dit is een overzicht van de oefeningen tijdens werkcolleges. Je moet het betreff
 Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
 
-## Minimumeisen en aanwezigheid
+## Aanwezigheid
 
-Hierboven zie je dat het eindcijfer bestaat uit het tentamen en aftekenen. Daarnaast zijn er een aantal minimumeisen waar je aan moet voldoen om het vak te mogen halen:
+Je moet normaal bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
 
-- Elke week substantieel huiswerk maken en inleveren. Dit betekent dat je elke week zoveel mogelijk volgens de planning werkt, en dat de website je opdrachten heeft goedgekeurd. Red je het niet, dan moet je altijd in overleg met je docent om te kijken hoe je het beste verder kan.
+- Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Als het <u>hele</u> OV uitvalt roosteren we hopelijk een vervangend college.
 
-- Bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
 
-    - Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Als het <u>hele</u> OV uitvalt roosteren we hopelijk een vervangend college.
-
-- Het tentamen voldoende maken. Je moet minimaal een 5,5 voor het tentamen halen om een eindcijfer te kunnen krijgen voor het vak.
-
-Als je aan al deze voorwaarden voldoet wordt een eindcijfer berekend volgens de eerder genoemde percentages. Als je er niet aan voldoet krijg je een NAV (onvoldoende) als vakresultaat. Maak je geen tentamen, dan krijg je een NAP (niet aanwezig) als vakresultaat.
-
-### Uitzonderingen
+## Uitzonderingen
 
 Er zijn twee soorten uitzonderingen die gegeven kunnen worden, maar allebei alleen als er vooraf goede persoonlijke afspraken worden gemaakt! Uitzonderingen moeten altijd per mail bevestigd zijn.
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
 
-Stop je met inleveren, dan word je al snel inactief gemarkeerd. Je moet dan contact opnemen met de vakcoördinator om weer mee te mogen doen. Stuur dan direct een mail en wacht niet af. Als je contact wil hebben met de studieadviseur, zorg dan dat je ook de vakcoördinator informeert en checkt of er nog een afspraak gemaakt moet worden.
+Stop je met inleveren, dan word je al snel inactief gemarkeerd. Je moet dan contact opnemen met de vakcoördinator om weer mee te mogen doen. Stuur dan direct een mail en wacht niet af.
 
 Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week voorloopt*, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
 
