@@ -68,9 +68,8 @@ files:
             if __name__ == '__main__':
                 # create 3 new player objects
                 players = [Player('Ali'), Player('Carmen'), Player('Jakub')]
-
-                number_of_places = int(input("How long is the track?"))
-
+                number_of_places = 10
+    
                 # create new game
                 # the game should keep track of what player's turn it is
                 # and also place them in the correct initial position
@@ -91,11 +90,11 @@ files:
                             state_string += "-"
                     print(state_string)
 
-                    # ask player for dice value
-                    print(f"Current player:  {game.current_player_name()}")
-                    dice = int(input('Throw your dice: '))
-                    # enter into game, it should automatically advance to next player
-                    game.play(dice)
+                    # current player throws a die
+                    die = random.randint(1, 6)
+                    print(f"Current player {game.current_player_name()} throws die value:", die)
+                    # move the current player, it should automatically advance to next player
+                    game.play(die)
                     if game.is_done():
                         print(f"Game won by {game.winner_name()}!")
         oeber.py: ''
