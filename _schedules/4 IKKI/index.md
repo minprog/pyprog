@@ -18,15 +18,15 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 - **Module 1: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
-- **Module 2: Algoritmen, herhalen en simulatie.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+- **Module 2: Algoritmen, herhalen en simulatie.** We voegen for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
 
-- **Module 3: Strings.**
+- **Module 3: Strings.** Naast werken met getallen wordt het programmeren echt interessant als je kunt werken met rijtjes letters, ofwel strings. Je gaat aan de slag met de manipulatie van tekstjes.
 
-- **Module 4: Lijsten, comprehensions en notebooks.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
+- **Module 4: Lijsten, comprehensions.** Bij deze module introduceren we lijsten, om data in op te slaan. Daarmee is de weg vrij om complexere simulaties te bouwen en te werken aan data-manipulatie.
 
-- **Module 5: Collections en algoritmen.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+- **Module 5: Collections en algoritmen.** We laten je de resterende collection types uit Python zien, zodat je de meeste basiscode goed kunt begrijpen.
 
-- **Module 6: Classes.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+- **Module 6: Classes.** In deze module ga je aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden.
 
 - **Module 7: .** 
 
