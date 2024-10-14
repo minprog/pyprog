@@ -65,7 +65,7 @@ Hieronder een overzicht van de deadlines per week. Bij de deadline moeten aangem
 Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of uitvalt.
 
 
-## Oefeningen
+## Werkcollege
 
 Dit is een overzicht van de oefeningen tijdens werkcolleges. Je moet het betreffende college bijwonen én een goed resultaat inleveren om de punten te kunnen krijgen (1/7 deel per week levert 10% van het eindcijfer op).
 
@@ -90,7 +90,7 @@ Hierboven zie je dat het eindcijfer bestaat uit het tentamen en aftekenen. Daarn
 
 - Bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
 
-    - Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Als het hele OV uitvalt roosteren we hopelijk een vervangend college.
+    - Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Als het <u>hele</u> OV uitvalt roosteren we hopelijk een vervangend college.
 
 - Het tentamen voldoende maken. Je moet minimaal een 5,5 voor het tentamen halen om een eindcijfer te kunnen krijgen voor het vak.
 
@@ -101,6 +101,8 @@ Als je aan al deze voorwaarden voldoet wordt een eindcijfer berekend volgens de 
 Er zijn twee soorten uitzonderingen die gegeven kunnen worden, maar allebei alleen als er vooraf goede persoonlijke afspraken worden gemaakt! Uitzonderingen moeten altijd per mail bevestigd zijn.
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
+
+Stop je met inleveren, dan wordt je al snel inactief gemarkeerd. Je moet dan contact opnemen met de vakcoördinator om weer mee te mogen doen. Stuur dan direct een mail en wacht niet af. Als je contact wil hebben met de studieadviseur, zorg dan dat je ook de vakcoördinator informeert en checkt of er nog een afspraak gemaakt moet worden.
 
 Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week voorloopt*, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
 
@@ -134,10 +136,10 @@ Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent 
 
 Bij de wekelijkse huiswerkopdrachten is het niet de bedoeling om samen een oplossing te ontwikkelen. Je gaat het tentamen namelijk alleen halen als je leert zelfstandig te programmeren. Het maken van de opdrachten staat dus helemaal in het teken van oefenen, oefenen, oefenen. Je hebt de opdrachten hard nodig voor die oefening, dus verspeel het niet door naar een oplossing van iemand anders te kijken.
 
-Toch is het zinvol om, als je vast zit, met medestudenten de opdracht door te spreken. Hoe moet je het aanpakken? Wat wordt er van je verwacht? Helemaal prima om dat soort vragen met medestudenten te bespreken. Je kunt bij de eerste opdrachten van de cursus ook samen opzetjes maken van de oplossing, zonder alles helemaal uit te spellen. Jouw taak is uitzoeken welke hulp je (nog) nodig hebt en wat je zelf al kan.
+Toch is het zinvol om, als je vast zit, met medestudenten de opdracht door te spreken. Bijvoorbeeld: hoe moet zo'n opdracht aanpakken? Wat wordt er van je verwacht in module 2? Helemaal prima om dat soort vragen met medestudenten te bespreken. Je kunt bij de eerste opdrachten van de cursus ook samen opzetjes maken van de oplossing, zonder alles helemaal uit te spellen. Jouw taak is uitzoeken welke hulp je (nog) nodig hebt en wat je zelf al kan.
 
-Het begin van leren programmeren is behoorlijk oncomfortabel. Het kan ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en zeker niet dat jij het nooit zal leren! Geef jezelf de tijd en ruimte waarin het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
+Het begin van leren programmeren is behoorlijk oncomfortabel. Het kan zelfs ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en zeker niet dat jij het nooit zal leren! Geef jezelf de tijd en ruimte waarin het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
 
 De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker loopt. Als je opdrachten inlevert die je niet geheel zelf hebt gemaakt dan wordt het daarmee voor de docenten onmogelijk om goed beeld te hebben van je voortgang. We zullen dan denken dat het goed gaat terwijl het helemaal niet zo goed gaat. Kom je dan toch in de problemen, dan moet je echt zelf contact opnemen.
 
-Omdat de opdrachten verder niet meetellen hoef je je geen zorgen te maken als je deze tekst te laat leest en toch opdrachten hebt ingeleverd waarbij je hulp hebt gekregen of tools als ChatGPT hebt gebruikt (dit geldt alleen bij dit vak, niet per se bij volgende vakken!). De bedoeling is wel dat je zonder kan, dus zeg het vooral tegen de docenten als je dit hebt gedaan. Dat is een goed begin van een gesprek. Want wat jij wil weten is: hoe kan ik leren zelfstandig programmeren? We helpen je daar graag bij.
+Omdat de opdrachten t/m module 3 niet meetellen hoef je je geen zorgen te maken als je deze tekst te laat leest en toch opdrachten hebt ingeleverd waarbij je hulp hebt gekregen of tools als ChatGPT hebt gebruikt. De bedoeling is wel dat je zonder kan, dus zeg het vooral tegen de docenten als je dit hebt gedaan. Dat is een goed begin van een gesprek. Want wat jij dan wil weten is: hoe kan ik leren zelfstandig programmeren? We helpen je daar graag bij.
