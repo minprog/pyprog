@@ -204,6 +204,7 @@ mod_project:
         project: 1
 
 oefententamen:
+    show_overview: true
     submits:
         oefen_bg: 1
 
