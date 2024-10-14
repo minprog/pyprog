@@ -67,7 +67,7 @@ Implementeer de functie. Vul zelf het return type in. Voeg nog minimaal twee zin
 
 ### Rits (1 punt)
 
-Implementeer de functie. Vul zelf het return type in. Bij deze opgave hoef je geen extra doctests te schrijven, maar je moet de onderstaande wel overnemen. Je mag <u>geen</u> gebruik maken van functies als `zip()`, `map()` en `filter()`.
+Implementeer de functie. Vul zelf het return type in. Bij deze opgave hoef je geen extra doctests te schrijven, maar je moet de gegeven doctests wel overnemen. Je mag <u>geen</u> gebruik maken van functies als `zip()`, `map()` en `filter()`.
 
 ## Objects en classes
 

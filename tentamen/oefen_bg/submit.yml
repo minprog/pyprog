@@ -47,14 +47,15 @@ files:
                 De functie geeft de totale verkoop per type frisdrank in een dictionary.
 
                 >>> maak_overzicht([(2, 3, 0), (3, 0, 0)])
-                {"cola": 5, "sinas": 3, "limonade": 0}
+                {'cola': 5, 'sinas': 3, 'limonade': 0}
                 """
             
             def rits(getallen1: list[int], getallen2: list[int]) -> ...:
                 """
-                Ritst twee getallen reeksen aan elkaar. Als de getallen op dezelfde index 
-                in beide reeksen hetzelfde zijn of hoogstens 1 van elkaar verschillen. 
-                Geeft een list van tuples van getallen paren terug.
+                Ritst twee getallen-reeksen op positie aan elkaar. Getal pos 0 van de 
+                ene reeks in een tuple met getal pos 0 van de andere reeks. Getallen worden 
+                alleen overgenomen als ze -1, 0 of 1 verschillen.
+                Geeft een list van tuples van paren getallen terug.
 
                 >>> rits([1, 2, 3], [2, 4, 4])
                 [(1, 2), (3, 4)]

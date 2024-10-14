@@ -1,89 +1,90 @@
 # Programmeren voor IK en KI
 
-## Studiewijzer<br><small>Herfst 2023</small>
+## Studiewijzer<br><small>Herfst 2024 (beta-versie)</small>
 
-Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop wij programmeren!
+Dit vak volg je als je Informatiekunde of Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
-Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle colleges, alle nieuwe oefeningen en de paar nieuwe opdrachten die we hebben toegevoegd. Let op dat de eisen voor doctests en dergelijke wat strenger zijn, dus waarschijnlijk moet je je programma's nog verbeteren. We helpen je daar graag bij in de colleges!
+Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle colleges, alle nieuwe oefeningen en de paar nieuwe opdrachten die we hebben toegevoegd. Let op dat de eisen voor doctests en dergelijke wat strenger zijn, dus waarschijnlijk moet je sommige programma's nog verbeteren. We helpen je daar graag bij in de colleges!
 
 
 ## Docenten en assistenten
 
-De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Toon van Gelderen, Robin Langerak, Simon Pauw, Pieter Pierrot, Imane Tarrahi, Bas Terwijn en Frank Wildenburg. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <pyprog@proglab.nl>.
+De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Toon van Gelderen, Robin Langerak, Simon Pauw, Pieter Pierrot, Bas Terwijn, Frank Wildenburg en Lars Woudstra. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze bereiken via e-mail op <pyprog@proglab.nl>.
 
-De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog twee studentassistenten om te begeleiden bij het maken van de opdrachten. Zij kijken ook huiswerk na en geven, gevraagd en ongevraagd, feedback.
+De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog een studentassistent om te begeleiden bij het maken van de opdrachten. Zij kijken ook huiswerk na en geven, gevraagd en ongevraagd, feedback.
 
 
 ## Wat ga je leren
 
-- **Module 1/2: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+- **Module 1: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
-- **Module 3/4: Herhalen en lijsten.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
+- **Module 2: Algoritmen, herhalen en simulatie.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
 
-- **Module 5/6: Decompositie.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+- **Module 3: Strings.**
 
-- **Module 7/8: Simuleren.** Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
+- **Module 4: Lijsten, comprehensions en notebooks.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
 
-- **Module 9/10: Algoritmen.** Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
+- **Module 5: Collections en algoritmen.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
 
-- **Module 11/12: Objecten.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+- **Module 6: Classes.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
 
-- **Module 13/14: Data en files.** In de laatste module leer je een grotere datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
-
-Module 11/12 en 13/14 zijn omgedraaid ten opzichte van vorig jaar.
+- **Module 7: .** 
 
 
 ## Opdrachten en eindcijfer
 
 Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen om goed op de hoogte te zijn van de theorie, maar vrijwel al het werk bij dit vak bestaat uit het maken van programmeeropdrachten.
 
-1. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+1.  Insturen van oplossingen voor de programmeeropdrachten (0% van eindcijfer, wel verplicht). Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen.
 
-2. Meedoen met oefeningen tijdens werkcolleges en insturen via de website (10% van eindcijfer). Het gaat hier om een combinatie van code reviews, oefenopdrachten en toetsjes. Aangezien de aanwezigheid verplicht is zul je een groot deel van dit cijfer binnenhalen. Mocht je onverhoopt afwezig zijn dan is er geen inhaalmogelijkheid.
+    De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3. Beoordeling code review (20% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Op basis van de derde review krijg je een cijfer voor dit onderdeel van het vak.
+2.  Oefeningen maken tijden het werkcollege en insturen via de website (10% van eindcijfer). Het gaat hier om een combinatie van code reviews, oefenopdrachten en toetsjes.
 
-4. Beoordeling tentamen (70% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
+    Aangezien de aanwezigheid verplicht is zul je een groot deel van dit cijfer binnenhalen. Mocht je onverhoopt afwezig zijn dan is er geen inhaalmogelijkheid.
+
+3.  Beoordeling tentamen (60% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
+
+4.  Aftekenen geavanceerde opdrachten (30% van eindcijfer). Latere modules worden niet getoetst in het tentamen, maar bouwen op je basiskennis van programmeren. Je hebt de modules nodig voor latere vakken.
 
 
-## Deadlines
+## Deadlines huiswerk
 
-Dit is een overzicht van de standaard-deadlines per week:
+Hieronder een overzicht van de deadlines per week. Bij de deadline moeten aangemerkte opdrachten werkend zijn ingeleverd. Dat betekent niet dat we voor deze deadlines op zoek zijn naar perfectie. Elke maandag is er ruimte om huiswerkopdrachten nog samen te verbeteren en hiervan te leren.
 
-|              | deadline huiswerk | deadline verbeterde versie |
-|--------------|------------------:|---------------------------:|
-| Module   1/2 | vr  3 nov  17:00  | wo 15 nov 17:00 (week 3)   |
-| Module   3/4 | vr 10 nov  17:00  | -                          |
-| Module   5/6 | vr 17 nov  17:00  | wo 29 nov 19:00 (week 5)   |
-| Module   7/8 | vr 24 nov  17:00  | -                          |
-| Module  9/10 | vr  1 dec  17:00  | wo 13 dec 19:00 (week 7)   |
-| Module 11/12 | vr  8 dec  17:00  | -                          |
-| Module 13/14 | vr 15 dec  17:00  | -                          |
+|          | deadline huiswerk |
+|----------|------------------:|
+| Module 1 | zo  3 nov  17:00  |
+| Module 2 | zo 10 nov  17:00  |
+| Module 3 | zo 17 nov  17:00  |
+| Module 4 | zo 24 nov  17:00  |
+| Module 5 | zo  1 dec  17:00  |
+| Module 6 | zo  8 dec  17:00  |
+| Module 7 | zo 15 dec  17:00  |
 
 Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of uitvalt.
-
-Als je het programmeren moeilijk vindt, en het kost je veel tijd, dan is er ruimte om het schema aan te passen in overleg met je docent. Zie hieronder voor de mogelijke uitzonderingen.
 
 
 ## Oefeningen
 
-Dit is een overzicht van de oefeningen tijdens werkcolleges. Je moet het betreffende college bijwonen én een goed resultaat inleveren om de punten te kunnen krijgen (1/6 deel per week levert 10% van het eindcijfer op).
+Dit is een overzicht van de oefeningen tijdens werkcolleges. Je moet het betreffende college bijwonen én een goed resultaat inleveren om de punten te kunnen krijgen (1/7 deel per week levert 10% van het eindcijfer op).
 
-| Week |          Datum | Activiteit           |
-|:----:|---------------:|----------------------|
-|   2  |   7/8 november | Bugfix en verbeteren |
-|   3  | 14/15 november | Code review 1        |
-|   4  | 21/22 november | Tentamen-oefening 1  |
-|   5  | 28/29 november | Code review 2        |
-|   6  |   5/6 december | Tentamen-oefening 2  |
-|   7  | 12/13 december | Code review 3        |
+| Week |          Datum | Activiteit                |
+|:----:|---------------:|---------------------------|
+|   1  | ma 28 oktober  | Installatie en oefeningen |
+|   2  | ma  4 november |                           |
+|   3  | ma 11 november |                           |
+|   4  | ma 18 november |                           |
+|   5  | ma 25 november |                           |
+|   6  | ma  2 december |                           |
+|   7  | ma  9 december |                           |
 
 Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
 
 ## Minimumeisen en aanwezigheid
 
-Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Daarnaast zijn er een aantal minimumeisen waar je aan moet voldoen om het vak te mogen halen:
+Hierboven zie je dat het eindcijfer bestaat uit het tentamen en aftekenen. Daarnaast zijn er een aantal minimumeisen waar je aan moet voldoen om het vak te mogen halen:
 
 - Elke week substantieel huiswerk maken en inleveren. Dit betekent dat je elke week zoveel mogelijk volgens de planning werkt, en dat de website je opdrachten heeft goedgekeurd. Red je het niet, dan moet je altijd in overleg met je docent om te kijken hoe je het beste verder kan.
 
@@ -93,7 +94,7 @@ Hierboven zie je dat het eindcijfer bestaat uit code reviews en het tentamen. Da
 
 - Het tentamen voldoende maken. Je moet minimaal een 5,5 voor het tentamen halen om een eindcijfer te kunnen krijgen voor het vak.
 
-Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de eerder genoemde percentages. Verderop in deze studiewijzer vind je hoe de deelcijfers worden berekend.
+Als je aan al deze voorwaarden voldoet wordt een eindcijfer berekend volgens de eerder genoemde percentages. Als je er niet aan voldoet krijg je een NAV (onvoldoende) als vakresultaat. Maak je geen tentamen, dan krijg je een NAP (niet aanwezig) als vakresultaat.
 
 ### Uitzonderingen
 
@@ -104,55 +105,18 @@ Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent
 Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week voorloopt*, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
 
 
-## Beoordeling code review
-
-Er zijn drie code reviews tijdens het vak.
-
-**Review 1**
-
-- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
-- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
-- Voor je uitwerking, samen met het verslag, krijg je dan een indicatie voor een cijfer. Je krijgt er ook feedback bij voor de volgende review.
-
-**Review 2**
-
-- Je neemt je uitwerking van een bepaalde opdracht en je gaat deze alvast verbeteren op basis van wat je eerder geleerd hebt en je feedback van de eerste review.
-- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
-- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
-- Voor je uitwerking, samen met het verslag, krijg je dan een indicatie voor een cijfer. Je krijgt er ook feedback bij voor de volgende review.
-
-**Review 3**
-
-- Je neemt je uitwerking van een bepaalde opdracht en je gaat deze alvast verbeteren op basis van wat je eerder geleerd hebt en je feedback van de eerste review.
-- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
-- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
-- Deze derde keer krijg je een **definitief cijfer** voor de verbeterde uitwerking en een aantal feedbackpunten die je voor de toekomst kunt gebruiken bij het programmeren.
-
-Voor de eerste twee reviews is geen inhaalmogelijkheid: de review moet op tijd worden ingeleverd zodat de groepsassistent op tijd kan nakijken. Voor de derde review wordt in de tentamenweek een inhaalmogelijkheid georganiseerd. Deze kan alleen bij hoge nood en in overleg gebruikt worden.
-
-
 ## Beoordeling tentamen
 
-Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm van het tentamen doe je een oefententamen tijdens de werkcolleges.
+Tijdens het tentamen in week 4 ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de opdrachten in de eerste drie modules van de cursus.
 
-De onderwerpen binnen het tentamen tellen ongeveer als volgt:
+Het tentamen maak je op een computer van de UvA, waar je alleen toegang hebt tot een speciale tentamen-programmeeromgeving. Het is belangrijk dat je hiermee geoefend hebt vóór het tentamen plaatsvindt.
 
-- Basis Python (module 1 t/m 7): 45%
-- List comprehensions (module 8): 10%
-- Collection types (module 9 en 10): 15%
-- Objects en classes (module 11 t/m 13): 20%
-- Data processing (module 14): 10%
-
-Je krijgt punten per opgave en het percentage punten dat je haalt wordt omgerekend naar een cijfer.
-
-Om het vak te kunnen halen moet je het tentamen of hertentamen voldoende maken. Als je hertentamen doet zal het cijfer daarvan het eerdere cijfer vervangen (laatste cijfer telt).
-
-(Het tentamen zal in principe op de computer zijn, maar we moeten nog een aantal dingen regelen om dit mogelijk te maken. Als dit absoluut niet lukt wordt het een papieren tentamen.)
+Op basis van jouw uitwerkingen bij het tentamen krijg je een voldoende of onvoldoende. Het idee is dat je een voldoende krijgt als je laat zien dat je basisproblemen in redelijke tijd kunt uitprogrammeren, zonder hulp van buitenaf. Lukt dat in week 4 nog niet voldoende, dan kun je in week 8 hertentamen maken.
 
 
 ## Boek
 
-Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van Paul Gries. Je kunt het aanschaffen als PDF via <https://pragprog.com/titles/gwpy3/practical-programming-third-edition/>. Je kunt het ook bestellen in de boekhandel.
+Voor de theorie gebruik je het boek **Basisboek Programmeren in Python**. Je krijgt het uitgedeeld tijdens het eerste werkcollege. Mocht je dit onverhoopt gemist hebben, dan kun je het basisboek ophalen in lokaal L0.09 (dagelijks tussen 9 en 17 uur).
 
 
 ## Ziekte en inhalen

@@ -64,10 +64,11 @@ Mod 6 Classes:
     Overzicht: /modules/classes
     Lezen en oefenen:
         Videocollege: /objects/lecture
-        "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
         Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
         Cards: /opdrachten/classes/cards                  # UML, data class, container
+        Country: /opdrachten/week6/country
+        Lines: /opdrachten/week6/lines
         Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
         Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
@@ -78,34 +79,6 @@ Mod 7 Data:
         Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
         Klimaat: /opdrachten/week7/klimaat
 
-# Module 1:
-#     Hoofdstuk 1:
-#         "Chapter 1: What's Programming?": /boek/programming
-#         Opstarten: /opdrachten/week1/opstarten
-#     Hoofdstuk 2:
-#         "Chapter 2: Hello, Python": /boek/hello
-#     Hoofdstuk 3:
-#         "Chapter 3: Designing functions": /boek/functions
-#         Function Design Recipe: /opdrachten/week1/fdr
-#         Weken: /opdrachten/week1/weken
-#     Opdrachten:
-#         Cafeine: /opdrachten/week1/cafeine         # 1 func, main, expressies
-#         Vakantie: /opdrachten/week1/vakantie       # 3 func, main, expressies
-#     Controleren:
-#         Controleren: /opdrachten/week1/controleren
-#
-# Module 2:
-#     Hoofdstuk 4:
-#         "Chapter 4: Working with text": /boek/text
-#         String Functions: /opdrachten/week1/string_functions
-#     Hoofdstuk 5:
-#         "Chapter 5: Making Choices": /boek/choices
-#         Acid Test: /opdrachten/week1/acid
-#     Opdrachten:
-#         Orakel: /opdrachten/week1/orakel           # 1 func, main, if
-#         Etenstijd: /opdrachten/week1/etenstijd     # 1 func, main, if, str.split
-#         Calculator: /opdrachten/week1/calculator   # 2 func, main, if, str.split
-#
 # Module 3:
 #     Hoofdstuk 6:
 #         "Chapter 6: Modular Approach": /boek/modules
@@ -171,24 +144,7 @@ Mod 7 Data:
 # #     Opdrachten:
 # #         Algorithms: /opdrachten/week5/algorithms
 #
-# Module 11:
-#     Lezen en oefenen:
-#         Videocollege: /opdrachten/week6/lecture
-#         "Chapter 14: Object-oriented programming": /boek/objects
-#     Opdrachten:
-#         Queue: /opdrachten/week6/queue             # basic datastructuur, encapsulation, init
-#         Cards: /opdrachten/week6/cards             # UML, data class, container
-#         Country: /opdrachten/week6/country
-#         Lines: /opdrachten/week6/lines
-#
-# Module 12:
-#     Opdrachten:
-#         Hangman: /opdrachten/week6/hangman         # separation of concerns (lexicon/game)
-#
-# Module 13:
-#     Opdrachten:
-#         Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
-#
+
 # Module 14:
 #     Lezen en oefenen:
 #         # niet zo'n handig hoofdstuk, misschien beter zelf stof aanreiken hier
