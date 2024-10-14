@@ -73,24 +73,58 @@ Implementeer de functie. Vul zelf het return type in. Bij deze opgave hoef je ge
 
 ### DiceRace (3 punten)
 
-DiceRace is een bordspel. We definiëren X posities op het bord, genummerd van 0 tot en met X-1. Als er drie spelers zijn, dan worden deze op posities 0, 1 en 2 geplaatst. We maken een versie in Python, waar de spelers om beurten zelf een dobbelsteen gooien en de gegooide waarde invoeren. Degene die als eerst bij X is heeft gewonnen. Als we drie spelers hebben, kan het spel op de volgende manier verlopen:
+DiceRace is een bordspel. We definiëren X posities op het bord, genummerd van 0 tot en met X-1. Als er drie spelers zijn, dan worden deze op posities 0, 1 en 2 geplaatst. We maken een versie in Python, waarin we het spel simuleren. Spelers gooien om beurten een dobbelsteen. Degene die als eerst bij de laatste positie is heeft gewonnen. Als we drie spelers hebben, kan het spel op de volgende manier verlopen:
 
-    How long is the racing track? 10
      A C J - - - - - - -
-    Current player:  Ali
-    Throw your dice: 6
-     - C J - - - A - - -
-    Current player:  Carmen
-    Throw your dice: 1
-     - - CJ - - - A - - -
-    Current player:  Jakub
-    Throw your dice: 2
-     - - C - J - A - - -
-    Current player:  Ali
-    Throw your dice: 4
-    Game won by Ali!
+    Current player Ali throws die value: 1
+    - AC J - - - - - - -
+    Current player Carmen throws die value: 3
+    - A J - C - - - - -
+    Current player Jakub throws die value: 1
+    - A - J C - - - - -
+    Current player Ali throws die value: 6
+    - - - J C - - A - -
+    Current player Carmen throws die value: 6
+    Game won by Carmen!
 
-Door het oplossen van deze opgave laat je zien dat je het gebruik van classes beheerst. Neem de volgende testcode heel nauwkeurig over (zonder de comments!) en schrijf de ontbrekende classes `Player` en `DiceRace`. Verander niets aan de gegeven code. Zorg dat elke method minimaal twee doctests heeft, want alleen methodes met zinvolle doctests en type hints worden meegeteld. Uitzondering: een methode die niets returnt of print hoeft geen doctest te krijgen.
+Door het oplossen van deze opgave laat je zien dat je het gebruik van classes beheerst. Schrijf de ontbrekende classes `Player` en `DiceRace`. Verander niets aan de gegeven code. Zorg dat elke method minimaal twee doctests heeft, want alleen methodes met zinvolle doctests en type hints worden meegeteld. Uitzondering: een methode die niets returnt of print hoeft geen doctest te krijgen.
+
+
+Aangepaste template:
+
+    if __name__ == '__main__':
+        # create 3 new player objects
+        players = [Player('Ali'), Player('Carmen'), Player('Jakub')]
+        number_of_places = 10
+    
+        # create new game
+        # the game should keep track of what player's turn it is
+        # and also place them in the correct initial position
+        game = DiceRace(players, number_of_places)
+
+        while not game.is_done():
+            # print current board state
+            state_string = ""
+            for pos in range(number_of_places):
+                state_string += " "
+                # get initials for all players that are at position i
+                players_at_pos = [player.initial() for player in players
+                                  if player.position == pos]
+                # either print those initials or "-" if no players are at position i
+                if len(players_at_pos) > 0:
+                    state_string += "".join(players_at_pos)
+                else:
+                    state_string += "-"
+            print(state_string)
+
+            # current player throws a die
+            die = random.randint(1, 6)
+            print(f"Current player {game.current_player_name()} throws die value:", die)
+            # move the current player, it should automatically advance to next player
+            game.play(die)
+            if game.is_done():
+                print(f"Game won by {game.winner_name()}!")
+
 
 ### Oeber (3 punten)
 
