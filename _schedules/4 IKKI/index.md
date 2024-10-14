@@ -33,24 +33,24 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 ## Onderdelen eindcijfer
 
-Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen om goed op de hoogte te zijn van de theorie, maar vrijwel al het werk bij dit vak bestaat uit het maken van programmeeropdrachten.
+Tentamen (60%)
+: Dit gaat over module 1, 2 en 3. Echt de basis dus. Het tentamen is in week 4, herkansing in week 8. Voorbereiding is huiswerk.
 
-1.  Huiswerk: programmeeropdrachten (0% van eindcijfer). Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen.
+Werkcollege (10%)
+: Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen.
 
-    De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Probeer de controle te laten slagen, maar besteed hier niet teveel tijd aan.
+Aftekenen (30%)
+: Modules 4, 5, 6 en 7 kun je aftekenen. Het goed uitwerken van de opdrachten kan een substantieel deel van je cijfer opleveren.
+
+
+## Huiswerk en deadlines
+
+Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen.
+
+De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Probeer de controle te laten slagen, maar besteed hier niet teveel tijd aan.
     
-    Verplicht: sommige opdrachten staan gemarkeerd als verplicht
-
-2.  Oefeningen maken tijden het werkcollege en insturen via de website (10% van eindcijfer). Het gaat hier om een combinatie van code reviews, oefenopdrachten en toetsjes.
-
-    Aangezien de aanwezigheid verplicht is zul je een groot deel van dit cijfer binnenhalen. Mocht je onverhoopt afwezig zijn dan is er geen inhaalmogelijkheid.
-
-3.  Beoordeling tentamen (60% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
-
-4.  Aftekenen geavanceerde opdrachten (30% van eindcijfer). Latere modules worden niet getoetst in het tentamen, maar bouwen op je basiskennis van programmeren. Je hebt de modules nodig voor latere vakken.
-
-
-## Deadlines huiswerk
+Verplicht: sommige opdrachten staan gemarkeerd als verplicht
+    
 
 Hieronder een overzicht van de deadlines per week. Bij de deadline moeten aangemerkte opdrachten werkend zijn ingeleverd. Dat betekent niet dat we voor deze deadlines op zoek zijn naar perfectie. Elke maandag is er ruimte om huiswerkopdrachten nog samen te verbeteren en hiervan te leren.
 
