@@ -14,7 +14,7 @@ Mod 1 Programmeren:
         Acid testᵇ: /opdrachten/conditionals/acid          # 1 func, main, if
         Orakelᵇ: /opdrachten/conditionals/orakel           # 1 func, main, if
         Byteᵛ: /opdrachten/conditionals/byte
-        Rechthoekenᵇᵛ: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
+        Rechthoekenᵛ: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
         Beslisboom: /opdrachten/conditionals/beslisboom
 
 Mod 2 Herhaling:
