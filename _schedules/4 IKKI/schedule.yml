@@ -32,26 +32,25 @@ Mod 2 Herhaling:
 Mod 3 Strings:
     Overzicht: /modules/strings
     Opdrachten:
-        Str func [boek?]: /opdrachten/strings/string_functions
-        Str meth [boek?]: /opdrachten/strings/string_methods
-        Str mod [boek?]: /opdrachten/strings/string_module
         Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
         Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
-        Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str
+        Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str (iter?)
         RNA: /opdrachten/strings/rna                      # 4 func, main, list-string conversion
         Leesbaarheid: /opdrachten/strings/leesbaarheid    # 2 func, main, string tellen, find
         camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
     # Werkcollege:
+    #     Str meth [boek?]: /opdrachten/strings/string_methods
     #     Debugging: /oefeningen/debug
 
 Mod 4 Lists:
     Overzicht: /modules/lists
     Opdrachten:
-        List func [boek?]: /opdrachten/lists/list_functions
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Sjoelen: /opdrachten/lists/sjoelen           # 2 func, main, simulatie
-        Comprehensions: /opdrachten/lists/comprehensions # naar boek?
+    Project:
         Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
+    # Werkcollege:
+    #     List func [boek?]: /opdrachten/lists/list_functions
 
 Mod 5 Collections:
     Overzicht: /modules/collections
@@ -59,16 +58,19 @@ Mod 5 Collections:
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
+    Project:
+        Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
+        Klimaat: /opdrachten/week7/klimaat
 
 Mod 6 Classes:
     Overzicht: /modules/classes
-    Lezen en oefenen:
-        Videocollege: /objects/lecture
+    Videocollege: /objects/lecture
     Opdrachten:
         Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
         Cards: /opdrachten/classes/cards                  # UML, data class, container
-        Country: /opdrachten/week6/country
-        Lines: /opdrachten/week6/lines
+        Country: /opdrachten/classes/country
+        Lines: /opdrachten/classes/lines
+        War: /opdrachten/classes/war
         Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
         Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
@@ -76,8 +78,6 @@ Mod 6 Classes:
 Mod 7 Data:
     Overzicht: /modules/dataverwerking
     Opdrachten:
-        Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
-        Klimaat: /opdrachten/week7/klimaat
 
 # Module 3:
 #     Hoofdstuk 6:

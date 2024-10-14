@@ -37,7 +37,9 @@ Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen o
 
 1.  Huiswerk: programmeeropdrachten (0% van eindcijfer). Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen.
 
-    De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+    De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Probeer de controle te laten slagen, maar besteed hier niet teveel tijd aan.
+    
+    Verplicht: sommige opdrachten staan gemarkeerd als verplicht
 
 2.  Oefeningen maken tijden het werkcollege en insturen via de website (10% van eindcijfer). Het gaat hier om een combinatie van code reviews, oefenopdrachten en toetsjes.
 
