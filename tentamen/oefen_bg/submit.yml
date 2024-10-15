@@ -7,7 +7,7 @@ buttons:
         doctest.testmod(<filename>)
     Run typecheck: |
         from mypy import api as mypy_api
-        mypy_api.run(['<filename>.py'])[0]
+        mypy_api.run(['--strict', '<filename>.py'])[0]
 files:
     required:
         compreh.py: |
