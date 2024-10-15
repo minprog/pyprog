@@ -93,6 +93,17 @@ Je moet normaal bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. 
 - Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Als het <u>hele</u> OV uitvalt roosteren we hopelijk een vervangend college.
 
 
+## Ziekte en inhalen
+
+Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je een uitzondering nodig hebt. Over het algemeen moet je ongeveer bij blijven om het vak goed te kunnen halen. Daarom de volgende richtlijnen:
+
+- Ben je één of twee dagen ziek dan is dat geen probleem en kun je vaak nog inhalen. Ook voor de aanwezigheidsplicht is dat werkbaar. 
+
+- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is om bij te komen.
+
+- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:pyprog@proglab.nl)!
+
+
 ## Uitzonderingen
 
 Er zijn twee soorten uitzonderingen die gegeven kunnen worden, maar allebei alleen als er vooraf goede persoonlijke afspraken worden gemaakt! Uitzonderingen moeten altijd per mail bevestigd zijn.
@@ -106,27 +117,18 @@ Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waa
 
 ## Beoordeling tentamen
 
-Tijdens het tentamen in week 4 ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de opdrachten in de eerste drie modules van de cursus.
+Deeltoets 1
+: Tijdens het tentamen in week 4 ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de opdrachten in de eerste drie modules van de cursus. Op basis van jouw uitwerkingen bij het tentamen krijg je een voldoende of onvoldoende. Het idee is dat je een voldoende krijgt als je laat zien dat je basisproblemen in redelijke tijd kunt uitprogrammeren, zonder hulp van buitenaf.
 
-Het tentamen maak je op een computer van de UvA, waar je alleen toegang hebt tot een speciale tentamen-programmeeromgeving. Het is belangrijk dat je hiermee geoefend hebt vóór het tentamen plaatsvindt.
+Deeltoets 2
+: Tijdens het tentamen in week 8 laat je de afzonderlijke onderdelen van Python zien dit je beheerst. Het gaat om lists, collections en classes uit module 4 t/m 7. Om een tentamenonderdeel te mogen doen, moet je het bijbehorende huiswerk geheel gemaakt hebben en direct na afronding afgetekend hebben bij de docent.
 
-Op basis van jouw uitwerkingen bij het tentamen krijg je een voldoende of onvoldoende. Het idee is dat je een voldoende krijgt als je laat zien dat je basisproblemen in redelijke tijd kunt uitprogrammeren, zonder hulp van buitenaf. Lukt dat in week 4 nog niet voldoende, dan kun je in week 8 hertentamen maken.
+De tentamens maak je op een computer van de UvA, waar je alleen toegang hebt tot een speciale tentamen-programmeeromgeving. Je hebt dan geen toegang tot andere websites of referentiemateriaal. Het is belangrijk dat je met deze omgeving geoefend hebt vóór het tentamen plaatsvindt.
 
 
 ## Boek
 
 Voor de theorie gebruik je het boek **Basisboek Programmeren in Python**. Je krijgt het uitgedeeld tijdens het eerste werkcollege. Mocht je dit onverhoopt gemist hebben, dan kun je het basisboek ophalen in lokaal L0.09 (dagelijks tussen 9 en 17 uur).
-
-
-## Ziekte en inhalen
-
-Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je een uitzondering nodig hebt. Over het algemeen moet je ongeveer bij blijven om het vak goed te kunnen halen. Daarom de volgende richtlijnen:
-
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je vaak nog inhalen. Kom je toch niet uit met de laatste opdracht van de week, dan bespreek je tijdens de vrijdagsessie altijd de stand van zaken met je docent.
-
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is om bij te komen.
-
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:pyprog@proglab.nl)!
 
 
 ## Samenwerken, plagiaat en fraude
