@@ -60,8 +60,8 @@ Mod 5 Collections:
         Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
     Project:
-        Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
-        Klimaat: /opdrachten/week7/klimaat
+        Preprocessing: /opdrachten/data/eca2csv          # deze gaat weg
+        Klimaat: /opdrachten/data/klimaat
 
 Mod 6 Classes:
     Overzicht: /modules/classes

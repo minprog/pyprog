@@ -33,16 +33,16 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 ## Onderdelen eindcijfer
 
-Tentamen (50%)
-: Dit gaat over module 1, 2 en 3. Echt de basis dus. Het tentamen is in week 4, herkansing in week 8. Voorbereiding is huiswerk.
+Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het eerste deeltentamen. Maar ook de tweede helft van het vak bevat essentiële basiskennis, dus als je daar aan toe bent willen we ook dat je daar alles van meekrijgt.
+
+Eerste deeltentamen (50%)
+: Dit gaat over module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende. Dat betekent dat je bij een voldoende meteen een 10 hebt voor dit onderdeel en een 5,5 voor het vak.
 
 Werkcollege (10%)
-: Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen.
+: Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen. De punten krijg je alleen als je ter plekke aanwezig bent, geen uitzonderingen.
 
-Aftekenen (40%)
-: Modules 4, 5, 6 en 7 kun je aftekenen. Het goed uitwerken van de opdrachten kan een substantieel deel van je cijfer opleveren.
-
-Het tentamen is voldoende/onvoldoende, dus als je het voldoende maakt dan heb je het vak ook gehaald. Maak je het onvoldoende, dan niet.
+Tweede deeltentamen (40%)
+: Dit gaat over module 4, 5, 6 en 7. Je mag alleen tentamen doen voor een module als je hiervoor het huiswerk goed hebt gemaakt en dit direct is afgetekend bij de docent.
 
 
 ## Huiswerk en deadlines
