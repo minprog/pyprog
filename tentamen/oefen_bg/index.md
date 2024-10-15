@@ -132,34 +132,34 @@ You are tasked with developing a queue-like data structure for a fictional ride-
 
 #### Requirements:
 
-1. **Basic Queue Operations**:
+Your `RideQueue` class should start with the following standard queue operations:
 
-    Your `RideQueue` class should support the following standard queue operations:
+- `enqueue(item)` – Adds a new ride request to the queue.
+- `dequeue()` – Removes and returns the ride request that has been in the queue the longest.
+- `is_empty()` – Returns `True` if the queue is empty, `False` otherwise.
+- `peek()` – Returns the ride request that is next in line without removing it from the queue.
 
-    - `enqueue(item)` – Adds a new ride request to the queue.
-    - `dequeue()` – Removes and returns the ride request that has been in the queue the longest.
-    - `is_empty()` – Returns `True` if the queue is empty, `False` otherwise.
-    - `peek()` – Returns the ride request that is next in line without removing it from the queue.
+Then paste the example code from below into your program. Start testing and then also implement the following features for the class:
 
-2.  **Enhanced Features**:
+To meet the needs of the ride-hailing application, your queue must provide the following custom behaviors:
 
-    To meet the needs of the ride-hailing application, your queue must provide the following custom behaviors:
+- **VIP Ride Requests**:
+    Sometimes, the system receives VIP ride requests that must be prioritized. When a VIP ride request is added to the queue using `enqueue_vip(item)`, it should be placed at the front of the queue, before any regular ride requests.
 
-    - **VIP Ride Requests**:
-        Sometimes, the system receives VIP ride requests that must be prioritized. When a VIP ride request is added to the queue using `enqueue_vip(item)`, it should be placed at the front of the queue, before any regular ride requests.
+- **Cancel a Ride Request**:
+    Ride requests can be canceled before they are dispatched. Implement a method `cancel_request(item)` that removes a specific ride request from the queue (either regular or VIP). The method should return `True` if the request was found and canceled, and `False` otherwise.
 
-    - **Cancel a Ride Request**:
-        Ride requests can be canceled before they are dispatched. Implement a method `cancel_request(item)` that removes a specific ride request from the queue (either regular or VIP). The method should return `True` if the request was found and canceled, and `False` otherwise.
+- **Waiting Time Calculation**:
+    Implement a method `waiting_time(position)` that returns the number of ride requests a customer has to wait through before their request is dispatched. This will depend on their position in the queue (the first ride in the queue has a waiting time of 0).
 
-    - **Waiting Time Calculation**:
-        Implement a method `waiting_time(position)` that returns the number of ride requests a customer has to wait through before their request is dispatched. This will depend on their position in the queue (the first ride in the queue has a waiting time of 0).
-
-    - **Limit Queue Size**:
-        The queue has a maximum capacity, and once full, new requests cannot be added unless space becomes available (via a dequeue or cancellation). Implement a constructor parameter `max_size` that allows the user to set the maximum size of the queue. If the queue is full, `enqueue` should raise an exception or return an error message.
+- **Limit Queue Size**:
+    The queue has a maximum capacity, and once full, new requests cannot be added unless space becomes available (via a dequeue or cancellation). Implement a parameter for the initializer called `max_size` that allows the user to set the maximum size of the queue. If the queue is full, `enqueue` should return False, else True.
 
 #### Class Definition:
 
-You are required to implement the class `RideQueue` with the following methods:
+Ride requests are represented as simple strings like "Ride1", "VIP_Ride1".
+
+Class `RideQueue` should have the following methods:
 
 - `__init__(self, max_size)`
 - `enqueue(self, item)`
@@ -172,20 +172,15 @@ You are required to implement the class `RideQueue` with the following methods:
 
 #### Example Usage:
 
-    queue = RideQueue(max_size=5)
+    queue = RideQueue(5)
     queue.enqueue("Ride1")
     queue.enqueue("Ride2")
     queue.enqueue_vip("VIP_Ride1")
     queue.enqueue("Ride3")
 
-    # Queue: ["VIP_Ride1", "Ride1", "Ride2", "Ride3"]
+    # Queue is now ["VIP_Ride1", "Ride1", "Ride2", "Ride3"]
     print(queue.peek())  # Output: "VIP_Ride1"
     queue.dequeue()      # Dispatches "VIP_Ride1"
-    print(queue.waiting_time(1))  # Output: 1 (Ride2 is next after Ride1)
+    print(queue.waiting_time("Ride2"))  # Output: 1 (because Ride2 is next after Ride1)
     queue.cancel_request("Ride2") # Cancels "Ride2"
     print(queue.is_empty())       # Output: False
-
-#### Constraints:
-
-- The ride requests are simple strings representing customer IDs (e.g., "Ride1", "VIP_Ride1").
-- You must handle edge cases, such as trying to dequeue from an empty queue or adding a ride request when the queue is full.
