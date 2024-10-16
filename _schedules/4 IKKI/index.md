@@ -42,7 +42,7 @@ Tentamen (40 punten)
 : Dit gaat over module 1, 2 en 3. Echt de basis dus. Let op: dit tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer. Je kunt het vak alleen halen als je het tentamen voldoende maakt.
 
 Huiswerk week 4, 5, 6 en 7 (40 punten)
-: In de latere weken van het vak ga je je verdiepen in de rest van Python. In elke module wordt een nieuw onderdeel geïntroduceerd, waarmee je je repertoire vergroot. Bespreek met de docent wat een handige planning is.
+: In de latere weken van het vak ga je je verdiepen in de rest van Python. In elke module wordt een nieuw onderdeel geïntroduceerd, waarmee je je repertoire vergroot. Bespreek met de docent wat een handige planning is. De punten liggen pas vast na de bijbehorende eindpresentatie.
 
 Eindpresentatie huiswerk
 : Dit gaat over module 4, 5, 6 en 7. Als je deze hebt ingeleverd worden de verschillende opgaven gecontroleerd en dan goedgekeurd. Bij de eindpresentatie ga je de oplossingen en je aanpak presenteren aan een docent. Bij een goede uitleg worden de punten definitief.
