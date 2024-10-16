@@ -77,7 +77,7 @@ Als je voldoende van de opgaven oplost en hiermee verschillende oplossingstechni
 
 Na het eerste tentamen ga je aan de slag met de resterende constructies die in Python beschikbaar zijn: lists, dicts, sets, tuples en classes. Welke opdrachten je gaat doen hangt af van je persoonlijke voortgang in de cursus.
 
-Wie het nog moeilijk vindt krijgt opdrachten die deze constructies op een eenvoudige manier introduceren maar vooral helpen de basis nog goed te oefenen. Wie wel lekker gaat, die krijgt opdrachten waar we meer de diepte in gaan.
+Wie het nog moeilijk vindt krijgt opdrachten die deze constructies op een eenvoudige manier introduceren maar vooral helpen de basis nog goed te oefenen. Wie het programmeren goed beheerst, die krijgt opdrachten waar we meer de diepte in gaan.
 
 Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
 
