@@ -35,7 +35,7 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het eerste deeltentamen. Tijdens de tweede helft ga je, afhankelijk van je persoonlijke voortgang, herhalen of verdiepen.
 
-Werkcollege week 1 t/m 7 (7 punten)
+Werkcollege week 2 t/m 7 (6 punten)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen. De punten krijg je alleen als je ter plekke aanwezig bent, geen uitzonderingen.
 
 Eerste deeltentamen (40 punten)
