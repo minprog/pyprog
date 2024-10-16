@@ -35,14 +35,19 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het eerste deeltentamen. Maar ook de tweede helft van het vak bevat essentiële basiskennis, dus als je daar aan toe bent willen we ook dat je daar alles van meekrijgt.
 
-Eerste deeltentamen (50%)
-: Dit gaat over module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende. Dat betekent dat je bij een voldoende meteen een 10 hebt voor dit onderdeel en een 5,5 voor het vak.
+Eerste deeltentamen (40 punten)
+: Dit gaat over module 1, 2 en 3. Echt de basis dus. Let op: dit tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten.
 
-Werkcollege (10%)
+Werkcollege week 1 t/m 7 (10 punten)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen. De punten krijg je alleen als je ter plekke aanwezig bent, geen uitzonderingen.
 
-Tweede deeltentamen (40%)
-: Dit gaat over module 4, 5, 6 en 7. Je mag alleen tentamen doen voor een module als je hiervoor het huiswerk goed hebt gemaakt en dit direct is afgetekend bij de docent.
+Tweede deeltentamen (40 punten)
+: Dit gaat over module 4, 5, 6 en 7. Je kunt bij dit tentamen punten halen per onderwerp, dus je hoeft niet alles goed te hebben.
+
+Aftekenen week 5, 6 en 7 (10 punten)
+: In de latere weken van het vak ga je je verdiepen in de rest van Python. Je moet hierbij regelmatige voortgang maken. Elke week bespreek je je werk met je docent.
+
+Het eindcijfer is `punten / 100 * 9 + 1`.
 
 
 ## Huiswerk en deadlines
