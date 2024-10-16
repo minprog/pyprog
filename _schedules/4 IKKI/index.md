@@ -35,19 +35,55 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het eerste deeltentamen. Tijdens de tweede helft ga je, afhankelijk van je persoonlijke voortgang, herhalen of verdiepen.
 
-Werkcollege week 1 t/m 7 (10 punten)
+Werkcollege week 1 t/m 7 (7 punten)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen. De punten krijg je alleen als je ter plekke aanwezig bent, geen uitzonderingen.
 
 Eerste deeltentamen (40 punten)
 : Dit gaat over module 1, 2 en 3. Echt de basis dus. Let op: dit tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer.
 
-Aftekenen week 5, 6 en 7 (10 punten)
+Aftekenen week 5, 6 en 7 (6 punten)
 : In de latere weken van het vak ga je je verdiepen in de rest van Python. Welke opgaven hangt af van hoe het tot dan toe gaat. Elke week bespreek je je werk met je docent en wordt de voortgang afgetekend.
 
 Tweede deeltentamen (40 punten)
 : Dit gaat over module 4, 5, 6 en 7. Je kunt bij dit tentamen punten halen per onderwerp, dus je hoeft niet alles goed te hebben.
 
 Het eindcijfer is `punten / 100 * 9 + 1`. De herkansing betreft de hele stof van het eerste en tweede deeltentamen, maar niet de punten voor werkcolleges en aftekenen.
+
+
+### Werkcollege
+
+Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Je moet aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
+
+| Week |          Datum | Activiteit                |
+|:----:|---------------:|---------------------------|
+|   1  | ma 28 oktober  | Installatie en oefeningen |
+|   2  | ma  4 november | Review, oefeningen, startopdracht |
+|   3  | ma 11 november | Review, startopdrachten   |
+|   4  | ma 18 november | Oefententamen, geheugenmodel |
+|   5  | ma 25 november | Startopdrachten           |
+|   6  | ma  2 december | Startopdrachten           |
+|   7  | ma  9 december | Startopdrachten           |
+
+
+### Eerste deeltentamen
+
+Bij dit tentamen krijg je een aantal vergelijkbare opgaven waarin je een redelijk klein maar wel compleet programma moet schrijven. Je programmeert ze uit op een computer, maar je hebt geen toegang tot internet voor naslag.
+
+Voor het oplossen van de opgaven heb je alleen technieken uit de eerste drie modules nodig. De bedoeling is dat je basisoplossingen uit je hoofd kent, en technieken beheerst om deze oplossingen aan te passen en te combineren voor de opgaven die je krijgt.
+
+Als je voldoende van de opgaven oplost en hiermee verschillende oplossingstechnieken laat zien, dan heb je het tentamen gehaald. Het is niet nodig om alle opgaven perfect te hebben om dit tentamen te halen.
+
+### Aftekenen latere weken
+
+Na het eerste tentamen ga je aan de slag met de resterende constructies die in Python beschikbaar zijn: lists, dicts, sets, tuples en classes. Welke opdrachten je gaat doen hangt af van je persoonlijke voortgang in de cursus.
+
+Wie het nog moeilijk vindt krijgt opdrachten die deze constructies op een eenvoudige manier introduceren maar vooral helpen de basis nog goed te oefenen. Wie wel lekker gaat, die krijgt opdrachten waar we meer de diepte in gaan.
+
+Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
+
+### Tweede deeltentamen
+
+Voor de verschillende onderwerpen uit het tweede deel van het vak zijn er verschillende opgaven bij het tweede deeltentamen. Elke opgave wordt individueel beoordeeld en kan punten opleveren. Ook bij dit tentamen werk je de opgaven uit op een computer, waarbij je geen toegang hebt tot internet.
 
 
 ## Huiswerk en deadlines
@@ -73,22 +109,6 @@ Hieronder een overzicht van de deadlines per week. Bij de deadline moeten aangem
 
 Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of uitvalt.
 
-
-## Werkcollege
-
-Dit is een overzicht van de oefeningen tijdens werkcolleges. Je moet het betreffende college bijwonen én een goed resultaat inleveren om de punten te kunnen krijgen (1/7 deel per week levert 10% van het eindcijfer op).
-
-| Week |          Datum | Activiteit                |
-|:----:|---------------:|---------------------------|
-|   1  | ma 28 oktober  | Installatie en oefeningen |
-|   2  | ma  4 november |                           |
-|   3  | ma 11 november |                           |
-|   4  | ma 18 november |                           |
-|   5  | ma 25 november |                           |
-|   6  | ma  2 december |                           |
-|   7  | ma  9 december |                           |
-
-Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
 
 ## Aanwezigheid
@@ -118,17 +138,6 @@ Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent
 Stop je met inleveren, dan word je al snel inactief gemarkeerd. Je moet dan contact opnemen met de vakcoördinator om weer mee te mogen doen. Stuur dan direct een mail en wacht niet af.
 
 Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week voorloopt*, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
-
-
-## Beoordeling tentamen
-
-Deeltoets 1
-: Tijdens het tentamen in week 4 ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de opdrachten in de eerste drie modules van de cursus. Op basis van jouw uitwerkingen bij het tentamen krijg je een voldoende of onvoldoende. Het idee is dat je een voldoende krijgt als je laat zien dat je basisproblemen in redelijke tijd kunt uitprogrammeren, zonder hulp van buitenaf.
-
-Deeltoets 2
-: Tijdens het tentamen in week 8 laat je de afzonderlijke onderdelen van Python zien dit je beheerst. Het gaat om lists, collections en classes uit module 4 t/m 7. Om een tentamenonderdeel te mogen doen, moet je het bijbehorende huiswerk geheel gemaakt hebben en direct na afronding afgetekend hebben bij de docent.
-
-De tentamens maak je op een computer van de UvA, waar je alleen toegang hebt tot een speciale tentamen-programmeeromgeving. Je hebt dan geen toegang tot andere websites of referentiemateriaal. Het is belangrijk dat je met deze omgeving geoefend hebt vóór het tentamen plaatsvindt.
 
 
 ## Boek
