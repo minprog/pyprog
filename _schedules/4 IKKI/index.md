@@ -88,14 +88,13 @@ Voor de verschillende onderwerpen uit het tweede deel van het vak zijn er versch
 
 ## Huiswerk en deadlines
 
-Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen.
+Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier aan werkt.
 
-De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Probeer de controle te laten slagen, maar besteed hier niet teveel tijd aan.
-    
-Verplicht: sommige opdrachten staan gemarkeerd als verplicht
-    
+Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of wie uitvalt.
 
-Hieronder een overzicht van de deadlines per week. Bij de deadline moeten aangemerkte opdrachten werkend zijn ingeleverd. Dat betekent niet dat we voor deze deadlines op zoek zijn naar perfectie. Elke maandag is er ruimte om huiswerkopdrachten nog samen te verbeteren en hiervan te leren.
+Als je denkt dat de opdracht klaar is kun je deze inleveren op de website. 
+
+De website voert maandagochtend een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Tijdens de les ga je met medestudenten en docenten kijken wat er nog te verbeteren valt.
 
 |          | deadline huiswerk |
 |----------|------------------:|
@@ -107,15 +106,12 @@ Hieronder een overzicht van de deadlines per week. Bij de deadline moeten aangem
 | Module 6 | zo  8 dec  17:00  |
 | Module 7 | zo 15 dec  17:00  |
 
-Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of uitvalt.
-
-
 
 ## Aanwezigheid
 
 Je moet normaal bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
 
-- Te laat zijn betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Als het <u>hele</u> OV uitvalt roosteren we hopelijk een vervangend college.
+- Meer dan 15 minuten te laat aankomen betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
 
 
 ## Ziekte en inhalen
