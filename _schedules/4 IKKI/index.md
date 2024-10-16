@@ -47,7 +47,7 @@ Aftekenen week 5, 6 en 7 (6 punten)
 Tweede deeltentamen (40 punten)
 : Dit gaat over module 4, 5, 6 en 7. Je kunt bij dit tentamen punten halen per onderwerp, dus je hoeft niet alles goed te hebben.
 
-Het eindcijfer is `punten / 100 * 9 + 1`. De herkansing betreft de hele stof van het eerste en tweede deeltentamen, maar niet de punten voor werkcolleges en aftekenen.
+Het eindcijfer is `punten / 92 * 9 + 1`. De herkansing betreft de hele stof van het eerste en tweede deeltentamen, maar niet de punten voor werkcolleges en aftekenen.
 
 
 ### Werkcollege
