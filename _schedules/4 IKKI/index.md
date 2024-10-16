@@ -41,12 +41,11 @@ Werkcollege week 2 t/m 7 (12 punten)
 Tentamen (40 punten)
 : Dit gaat over module 1, 2 en 3. Echt de basis dus. Let op: dit tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer. Je kunt het vak alleen halen als je het tentamen voldoende maakt.
 
-Huiswerk week 4, 5, 6 en 7 (40 punten)
+Huiswerk week 4, 5, 6 en 7
 : In de latere weken van het vak ga je je verdiepen in de rest van Python. In elke module wordt een nieuw onderdeel geïntroduceerd, waarmee je je repertoire vergroot. Bespreek met de docent wat een handige planning is. De punten liggen pas vast na de bijbehorende eindpresentatie.
 
-Eindpresentatie huiswerk
-: Dit gaat over module 4, 5, 6 en 7. Als je deze hebt ingeleverd worden de verschillende opgaven gecontroleerd en dan goedgekeurd. Bij de eindpresentatie ga je de oplossingen en je aanpak presenteren aan een docent. Bij een goede uitleg worden de punten definitief.
-
+Eindpresentatie huiswerk (40 punten)
+: Dit gaat over het huiswerk van module 4, 5, 6 en 7. Als je deze hebt ingeleverd worden de verschillende opgaven gecontroleerd en dan technisch goedgekeurd. Bij de eindpresentatie in week 8 ga je dan de oplossingen en je aanpak presenteren aan een docent. Bij een goede uitleg worden de punten definitief.
 
 Het eindcijfer is `punten / 92 * 9 + 1`. De herkansing betreft de hele stof van het eerste en tweede deeltentamen, maar niet de punten voor werkcolleges en aftekenen.
 
@@ -66,7 +65,7 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Je moet 
 |   7  | ma  9 december | Startopdrachten           |
 
 
-### Eerste deeltentamen
+### Tentamen
 
 Bij dit tentamen krijg je een aantal vergelijkbare opgaven waarin je een redelijk klein maar wel compleet programma moet schrijven. Je programmeert ze uit op een computer, maar je hebt geen toegang tot internet voor naslag.
 
@@ -74,17 +73,22 @@ Voor het oplossen van de opgaven heb je alleen technieken uit de eerste drie mod
 
 Als je voldoende van de opgaven oplost en hiermee verschillende oplossingstechnieken laat zien, dan heb je het tentamen gehaald. Het is niet nodig om alle opgaven perfect te hebben om dit tentamen te halen.
 
-### Aftekenen latere weken
+### Huiswerk van de latere weken
 
-Na het eerste tentamen ga je aan de slag met de resterende constructies die in Python beschikbaar zijn: lists, dicts, sets, tuples en classes. Welke opdrachten je gaat doen hangt af van je persoonlijke voortgang in de cursus.
+Afhankelijk van het tentamenresultaat en hoe je er zelf instaat, ga je hier één van beide kanten op:
 
-Wie het nog moeilijk vindt krijgt opdrachten die deze constructies op een eenvoudige manier introduceren maar vooral helpen de basis nog goed te oefenen. Wie het programmeren goed beheerst, die krijgt opdrachten waar we meer de diepte in gaan.
+Richting 1.
+: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 4 t/m 7, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules.
+
+Richting 2.
+: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. 
+Wie het nog moeilijk vindt krijgt opdrachten die deze constructies op een eenvoudige manier introduceren maar vooral helpen de basis nog goed te oefenen.
 
 Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
 
-### Tweede deeltentamen
+### Eindpresentatie
 
-Voor de verschillende onderwerpen uit het tweede deel van het vak zijn er verschillende opgaven bij het tweede deeltentamen. Elke opgave wordt individueel beoordeeld en kan punten opleveren. Ook bij dit tentamen werk je de opgaven uit op een computer, waarbij je geen toegang hebt tot internet.
+De opdrachten van module 4 t/m 7 die je hebt gedaan leveren punten op. Hiervoor moet je elke opdracht aan twee voorwaarden voldoen: technisch goedgekeurd, en je moet bij de eindpresentatie de gebruikte constructies goed uitleggen en de manier waarop je het programmeren hebt aangepakt. Als je dit voldoende kunt uitleggen dan liggen de punten vast.
 
 
 ## Huiswerk en deadlines
