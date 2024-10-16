@@ -42,7 +42,7 @@ Eerste deeltentamen (40 punten)
 : Dit gaat over module 1, 2 en 3. Echt de basis dus. Let op: dit tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer.
 
 Aftekenen week 5, 6 en 7 (10 punten)
-: In de latere weken van het vak ga je je verdiepen in de rest van Python. Je moet hierbij regelmatige voortgang maken. Elke week bespreek je je werk met je docent.
+: In de latere weken van het vak ga je je verdiepen in de rest van Python. Welke opgaven hangt af van hoe het tot dan toe gaat. Elke week bespreek je je werk met je docent en wordt de voortgang afgetekend.
 
 Tweede deeltentamen (40 punten)
 : Dit gaat over module 4, 5, 6 en 7. Je kunt bij dit tentamen punten halen per onderwerp, dus je hoeft niet alles goed te hebben.
