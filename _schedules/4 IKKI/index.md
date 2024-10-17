@@ -36,10 +36,10 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het eerste deeltentamen. Tijdens de tweede helft ga je, afhankelijk van je persoonlijke voortgang, herhalen of verdiepen.
 
 Werkcollege week 2 t/m 7 (12 punten)
-: Tijdens het werkcollege op maandag doe je diverse oefeningen. Dit levert punten op die een klein beetje meetellen. De punten krijg je alleen als je ter plekke aanwezig bent, geen uitzonderingen.
+: Tijdens het werkcollege op maandag doe je diverse oefeningen; soms gezamenlijk, soms zelfstandig een tutorial doorwerken. Dit levert punten op die een klein beetje meetellen. De punten krijg je als je ter plekke aanwezig bent en inlevert via de website.
 
 Tentamen (40 punten)
-: Dit gaat over module 1, 2 en 3. Echt de basis dus. Let op: dit tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer. Je kunt het vak alleen halen als je het tentamen voldoende maakt.
+: Dit gaat over module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer. Je kunt het vak alleen halen als je het tentamen of hertentamen voldoende maakt.
 
 Huiswerk week 4, 5, 6 en 7
 : In de latere weken van het vak ga je je verdiepen in de rest van Python. In elke module wordt een nieuw onderdeel geïntroduceerd, waarmee je je repertoire vergroot. Bespreek met de docent wat een handige planning is. De punten liggen pas vast na de bijbehorende eindpresentatie.
