@@ -33,7 +33,7 @@ De docenten zijn aanwezig bij hun eigen werkgroepen en zorgen voor persoonlijke 
 
 ## Onderdelen eindcijfer
 
-Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het eerste deeltentamen. Tijdens de tweede helft ga je, afhankelijk van je persoonlijke voortgang, herhalen of verdiepen.
+Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het tentamen. Tijdens de tweede helft ga je, afhankelijk van je persoonlijke voortgang, herhalen of verdiepen.
 
 Werkcollege week 2 t/m 7 (12 punten)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen; soms gezamenlijk, soms zelfstandig een tutorial doorwerken. Dit levert punten op die een klein beetje meetellen. De punten krijg je als je ter plekke aanwezig bent en inlevert via de website.

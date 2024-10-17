@@ -1,8 +1,10 @@
 # List Functions
 
-Maak een Python-bestand aan genaamd `list_functions.py`.
+Maak een Python-bestand aan genaamd `list_functions.py`. Neem onderstaande functies over, vul de doctests aan, en voeg een implementatie toe:
 
-Voeg de volgende functies toe, vul de uitkomsten van de voorbeelden (examples) aan, en voeg een implementatie (body) toe:
+## Indexing
+
+Gebruik hier van lists alleen indexing, zoals beschreven in hoofdstuk 7.1 van het boek. En we vertellen je meteen een trucje: als je een negatieve index gebruikt dan telt Python vanaf het einede. Dus een list heeft normaal deze indices: `[0, 1, 2, 3, ...]` maar vanaf de andere kant is het `[..., -3, -2, 1]`.
 
     def same_first_last(in_list: list[object]) -> bool:
         """Precondition: len(L) >= 2
@@ -17,6 +19,10 @@ Voeg de volgende functies toe, vul de uitkomsten van de voorbeelden (examples) a
         
         """
 
+## Lengte
+
+Net als met strings kun je de lengte van een list opvragen. Dat heb je nodig voor deze functie.
+
     def is_longer(in_list1: list[object], in_list2: list[object]) -> bool:
         """
         Return True if and only if the length of L1 is longer
@@ -29,6 +35,27 @@ Voeg de volgende functies toe, vul de uitkomsten van de voorbeelden (examples) a
         >>> is_longer(['a', 'b', 'c'], [1, 2, 3])
         
         """
+
+## Palindroom-ish
+
+In hoofdstuk 6.6 van het boek staat een voorbeeldfunctie om een string om te keren. Je kunt zoiets ook gebruiken om een list om te keren. Gebruik dit voorbeeld om een palindroom-functie te maken die op lijsten werkt.
+
+    from typing import Any
+    
+    def is_palindromish(items: list[Any]):
+        # TODO
+
+We gebruiken het type `list[Any]` om aan te geven dat de lijst objecten van alle types mag bevatten.
+
+## Efficientere palindroom-ish
+
+Het geheel omkeren van een lijst (of string) om de palindroom-eigenschap te controleren is wat omslachtig. Je kunt namelijk ook het eerste item en het laatste vergelijken, dan het 2e item en het één-na-laatste item, enzovoort. Maak deze functie.
+
+    from typing import Any
+    
+    def is_palindromish_eff(items: list[Any]):
+        # TODO
+
 
 ## Hint
 
