@@ -21,19 +21,25 @@ Mod 1 Programmeren:
 
 Mod 2 Herhaling:
     Overzicht: /modules/herhaling
+    Werkcollege:
+        Herhaal [TBD]: /opdrachten/loops/herhaal
     While-loops:
-        Herhaalᵇ: /opdrachten/loops/herhaal
-        Colaᵇ: /opdrachten/loops/cola                      # 3 func, main, if, loop
-        Greedy: /opdrachten/loops/greedy
-        Raadspel [oud]: /opdrachten/oud/raadspel       # 1 func, main, simulatie
+        Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
+        Greedyᵛ: /opdrachten/loops/greedy
+        Raadspel [TBD]: /opdrachten/oud/raadspel       # 1 func, main, simulatie
         Populatieᵛ: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
     For-loops:
-        Piramideᵇ: /opdrachten/loops/piramide
+        Piramide: /opdrachten/loops/piramide
         Temperatuurᵛ: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
         Kalenderᵛ: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
+    Challenge:
+        TBD [TBD]: ''
 
 Mod 3 Strings:
     Overzicht: /modules/strings
+    # Werkcollege:
+    #     Str meth [boek?]: /opdrachten/strings/string_methods
+    #     Debugging: /oefeningen/debug
     Opdrachten:
         Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
         Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
@@ -41,19 +47,16 @@ Mod 3 Strings:
         RNA: /opdrachten/strings/rna                      # 4 func, main, list-string conversion
         Leesbaarheid: /opdrachten/strings/leesbaarheid    # 2 func, main, string tellen, find
         camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
-    # Werkcollege:
-    #     Str meth [boek?]: /opdrachten/strings/string_methods
-    #     Debugging: /oefeningen/debug
 
 Mod 4 Lists:
     Overzicht: /modules/lists
+    # Werkcollege:
+    #     List func [boek?]: /opdrachten/lists/list_functions
     Opdrachten:
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Sjoelen: /opdrachten/lists/sjoelen           # 2 func, main, simulatie
     Project:
         Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
-    # Werkcollege:
-    #     List func [boek?]: /opdrachten/lists/list_functions
 
 Mod 5 Collections:
     Overzicht: /modules/collections
@@ -80,11 +83,12 @@ Mod 6 Classes:
         Lisp: /opdrachten/oud/lisp
         Lisp2: /opdrachten/oud/lisp2
         Figuren: /opdrachten/oud/figuren
-        Adventure [tbd]: ''
 
 Mod 7 Data:
     Overzicht: /modules/dataverwerking
-    Opdrachten:
+    Opdrachten: ''
+    Challenge:
+        Adventure [tbd]: ''
 
 # Module 3:
 #     Hoofdstuk 6:
