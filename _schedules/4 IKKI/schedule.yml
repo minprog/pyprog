@@ -6,16 +6,18 @@ Mod 1 Programmeren:
     Overzicht: /modules/programmeren
     Functies en expressies:
         Wekenᵛ: /opdrachten/expressies/weken
-        Waterᵇ: /opdrachten/expressies/water
+        Water: /opdrachten/expressies/water
         Binairᵛ: /opdrachten/expressies/binair
         Cafeineᵛ: /opdrachten/expressies/cafeine           # 1 func, main, expressies
         Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
     Conditionals:
-        Acid testᵇ: /opdrachten/conditionals/acid          # 1 func, main, if
-        Orakelᵇ: /opdrachten/conditionals/orakel           # 1 func, main, if
+        Acid test: /opdrachten/conditionals/acid          # 1 func, main, if
+        Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
         Byteᵛ: /opdrachten/conditionals/byte
-        Rechthoekenᵛ: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
-        Beslisboom: /opdrachten/conditionals/beslisboom
+        Rechthoeken: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
+        Beslisboom [TBD]: /opdrachten/conditionals/beslisboom
+    Challenge:
+        Priemgetallen [TBD]: ''
 
 Mod 2 Herhaling:
     Overzicht: /modules/herhaling
