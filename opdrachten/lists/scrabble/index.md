@@ -27,17 +27,19 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     if __name__ == '__main__':
         <Hoofdprogramma>
 
-## Tips
+## Details
 
 * Om de score van een *woord* te berekenen moet je de score van alle *letters* in dat woord optellen.
 
-* De score van een *letter* kun je uitvogelen door te kijken welke plek in het alfabet de letter heeft (a = 0, b = 1) en dan op te zoeken wat de bijbehorende puntenwaarde is. Gebruik hiervoor (dit keer) geen `.index()` maar een loop, zodat je met loops oefent.
-
-    * In de paragraaf "Processing Lists Using Indices" op pagina 154 van het boek staat hoe je systematisch lijsten kunt aflopen en zoeken. Het kopje "Processing Parallel Lists Using Indices" is ook heel relevant.
-
 * In de code zie je boven de functies een variabele in hoofdletters staan (`POINTS`). Dit is een globale variabele die een vast gegeven definieert. Voeg verder geen globale variabelen toe.
 
-* Om makkelijk een string van het alfabet te genereren, kan je de module `string` gebruiken. Zie de [handleiding](https://docs.python.org/3/library/string.html).
+* De score van een *letter* kun je uitvogelen door te kijken welke plek in het alfabet de letter heeft (a = 0, b = 1) en dan op te zoeken wat de bijbehorende puntenwaarde is.
+
+    * Gebruik een loop om te kijken op welke plek in de string `"abcdefghijklmnopqrstuvwxyz"` jouw letter zit. Gebruik dat getal om de score op te zoeken in de list `POINTS`.
+    
+    * Nogmaals: gebruik een loop zoals beschreven. Gebruik geen andere constructies. Het doel is niet om de opdracht werkend te krijgen, maar om deze specieke manier te oefenen.
+
+    * Verberg het berekenen van de score van één letter in een aparte functie.
 
 ## Voorbeelden
 

@@ -21,7 +21,6 @@ Daarnaast ga je aan de slag met een aantal types die in Python zijn ingebouwd ma
 | ---------------- | --------------------------------------------------------------------- |
 | **Algorithms**   | Bestuderen van de werking van concrete algoritmen                     |
 | **Indexer**      | Toepassing van dictionaries en lijsten om data efficiënt op te zoeken |
-| **Schuifpuzzel** | Data opslaan in "lijsten in lijsten"                                  |
 | ---------------- | --------------------------------------------------------------------- |
 
 ## Aanpak

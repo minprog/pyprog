@@ -40,9 +40,9 @@ Mod 4 Lists:
     Werkcollege:
         List functions: /opdrachten/lists/list_functions
     Opdrachten:
+        Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Selection sort: /opdrachten/lists/selection
         Special sort: /opdrachten/lists/special
-        Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Virus: /opdrachten/functioneel/virus              # 7 func, main, simulatie, comprehensions
 
