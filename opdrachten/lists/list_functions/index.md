@@ -4,12 +4,17 @@ Maak een Python-bestand aan genaamd `list_functions.py`. Neem onderstaande funct
 
 ## Indexing
 
-Gebruik hier van lists alleen indexing, zoals beschreven in hoofdstuk 7.1 van het boek. En we vertellen je meteen een trucje: als je een negatieve index gebruikt dan telt Python vanaf het einede. Dus een list heeft normaal deze indices: `[0, 1, 2, 3, ...]` maar vanaf de andere kant is het `[..., -3, -2, 1]`.
+Implementeer de volgende functie. Vul zelf de ontbrekende uitkomsten van de doctests aan.
 
-    def same_first_last(in_list: list[object]) -> bool:
-        """Precondition: len(L) >= 2
-        Return True if and only if first item of the list is the same as the
-        last.
+Gebruik hier van lists alleen indexing, zoals beschreven in hoofdstuk 7.1 van het boek. En we vertellen je meteen een trucje: als je een negatieve index gebruikt dan telt Python vanaf het einede. Dus een list heeft normaal deze indices: `[0, 1, 2, 3, ...]` maar vanaf de andere kant is het `[..., -3, -2, -1]`.
+
+    from typing import Any
+    
+    def same_first_last(in_list: list[Any]) -> bool:
+        """
+        Geeft True als het eerste element van
+        de lijst gelijk is aan het tweede,
+        anders False.
         
         >>> same_first_last([3, 4, 2, 8, 3])
         True
@@ -18,52 +23,72 @@ Gebruik hier van lists alleen indexing, zoals beschreven in hoofdstuk 7.1 van he
         >>> same_first_last([4.0, 4.5])
         
         """
+        return in_list[0] == in_list[-1]
+
+> We gebruiken het type `list[Any]` om aan te geven dat de lijst objecten van alle types mag bevatten. In feite wordt de inhoud van de lijst dan niet meer gecontroleerd op juiste types. Hieronder gaan we dit ook voor diverse functies doen. Dat is omdat deze functies *generiek* zijn en niet een speciaal soort element verwachten.
 
 ## Lengte
 
-Net als met strings kun je de lengte van een list opvragen. Dat heb je nodig voor deze functie.
+Implementeer de volgende functie.
 
-    def is_longer(in_list1: list[object], in_list2: list[object]) -> bool:
+Tip: net als met strings kun je de lengte van een list opvragen. Dat heb je nodig voor deze functie.
+
+    def is_longer(in_list1: list[Any], in_list2: list[Any]) -> bool:
         """
-        Return True if and only if the length of L1 is longer
-        than the length of L2.
+        Geeft True als de lengte van in_list1
+        groter is dan de lengte van in_list2,
+        anders False.
         
         >>> is_longer([1, 2, 3], [4, 5])
         True
         >>> is_longer(['abcdef'], ['ab', 'cd', 'ef'])
-        
+        False
         >>> is_longer(['a', 'b', 'c'], [1, 2, 3])
-        
+        False
         """
+        return len(in_list1) > len(in_list2)
 
 ## Palindroom-ish
 
-In hoofdstuk 6.6 van het boek staat een voorbeeldfunctie om een string om te keren. Je kunt zoiets ook gebruiken om een list om te keren. Gebruik dit voorbeeld om een palindroom-functie te maken die op lijsten werkt.
+Implementeer de volgende functie. Voeg zelf doctests toe.
+
+In hoofdstuk 6.6 van het boek staat een voorbeeldfunctie om een string om te keren. Je kunt zoiets ook gebruiken om een list om te keren. Gebruik dit voorbeeld om een palindroom-functie te maken die op lijsten werkt (gebruik dus de `+`-operator).
 
     from typing import Any
     
-    def is_palindromish(items: list[Any]):
-        # TODO
-
-We gebruiken het type `list[Any]` om aan te geven dat de lijst objecten van alle types mag bevatten. In feite wordt de inhoud van de lijst dan niet meer gecontroleerd op juiste types. Hieronder gaan we dit ook voor diverse functies doen. Dat is omdat deze functies *generiek* zijn en niet een speciaal soort element verwachten.
+    def is_palindromish(items: list[Any]) -> bool:
+        """
+        Geeft True als de lijst een palindroom
+        is, anders False.
+        """
+        result = []
+        for element in items:
+            result = [element] + result
+        return result == items
 
 ## Efficientere palindroom-ish
+
+Implementeer de volgende functie, rekening houdend met de eisen in de volgende alinea. Voeg zelf doctests toe.
 
 Het geheel omkeren van een lijst (of string) om de palindroom-eigenschap te controleren is wat omslachtig. Je kunt namelijk ook het eerste item en het laatste vergelijken, dan het 2e item en het één-na-laatste item, enzovoort. Maak deze functie. De uitkomst moet correct zijn voor lijsten met 0 elementen, met één element, en ook voor een even en oneven aantal elementen. Geef ook doctests die dat aantonen.
 
     from typing import Any
     
-    def is_palindromish_eff(items: list[Any]):
-        # TODO
+    def is_palindromish_eff(items: list[Any])  -> bool:
+        """
+        Geeft True als de lijst een palindroom
+        is, anders False.
+        """
 
 ## Even getallen
 
-Maak een functie die een lijst aanneemt en alleen de even getallen uit die lijst teruggeeft, in een nieuwe lijst.
+Implementeer de volgende functie.
 
     def filter_even(in_list: list[int]) -> list[int]:
         """
-        Return all even numbers from the list.
-    
+        Geeft alle even getallen uit de lijst,
+        in een nieuwe lijst.
+        
         >>> filter_even([2, 4, 6])
         [2, 4, 6]
         >>> filter_even([2, 3, 4])
@@ -71,111 +96,116 @@ Maak een functie die een lijst aanneemt en alleen de even getallen uit die lijst
         >>> filter_even([])
         []
         """
-        # TODO
 
 ## Alles is even
+
+Implementeer de volgende functie. Vul de doctests aan met verwachte antwoorden.
 
 Maak een functie die een lijst aanneemt en controleert of elk getal in de lijst even is. Het resultaat is een boolean.
 
     def all_even(in_list: list[int]) -> bool:
         """
-        Return True if all integers in the list are even.
-    
+        Geeft True als alle getallen uit de
+        lijst even zijn, anders False.
+        
         >>> all_even([2, 4, 6])
         True
         >>> all_even([2, 3, 4])
-    
+        
         >>> all_even([])
-    
+        
         """
-        # TODO
 
 ## Maximum-element
 
-Maak een functie die de integer met de hoogste waarde vindt in een lijst. Gebruik loops en operators.
+Implementeer de volgende functie. Vul de doctests aan met verwachte antwoorden.
 
     def max_element(in_list: list[int]) -> int:
         """
-        Return the maximum number in the list.
-    
+        Geeft het hoogste getal uit de lijst.
+        
         >>> max_element([1, 3, 2, 5, 4])
         5
         >>> max_element([-1, -3, -2])
-    
+        
         >>> max_element([5, 5, 5])
-    
+        
         """
 
 ## Zoek element
 
-Maak een functie die controleert of een bepaalde waarde in een lijst te vinden is. 
+Implementeer de volgende functie. Vul de doctests aan met verwachte antwoorden.
 
     from typing import Any
     
     def element_exists(in_list: list[Any], element: Any) -> bool:
         """
-        Return True if and only if element is in the list.
-    
+        Geeft True als het element in de lijst
+        staat, anders False.
+        
         >>> element_exists([1, 2, 3], 2)
         True
         >>> element_exists([1, 2, 3], 4)
-    
+        
         >>> element_exists([], 4)
-    
+        
         """
 
 ## Tel aantal elementen
 
-Maak een functie die het aantal voorkomens van een bepaald object telt.
+Implementeer de volgende functie. Vul de doctests aan met verwachte antwoorden.
 
     from typing import Any
     
     def count_occurrences(in_list: list[Any], element: Any) -> int:
         """
-        Return the number of times element appears in the list.
-    
+        Geeft het aantal keer dat het element
+        voorkomt in de lijst.
+        
         >>> count_occurrences([1, 2, 3, 2, 4], 2)
         2
         >>> count_occurrences(['a', 'b', 'a'], 'a')
-    
+        
         >>> count_occurrences([1, 2, 3], 4)
-    
+        
         """
-        # TODO
 
 ## Verwijder dubbele items
 
-Maak een functie die dubbele items weglaat als ze direct na elkaar staan in een lijst. Maak een nieuwe lijst met de ontdubbelde inhoud, dus verander niks aan de oorspronkelijke list.
+Implementeer de volgende functie. Vul de doctests aan met verwachte antwoorden.
 
     def remove_duplicates(in_list: list[Any]) -> list[Any]:
         """
-        Return a new list with duplicates removed, keeping only the first
-        occurrence of each element.
-    
+        Neemt een lijst aan en geeft een nieuwe lijst
+        zonder de dubbele items uit het origineel.
+        
         >>> remove_duplicates([1, 2, 2, 3, 4, 4])
         [1, 2, 3, 4]
         >>> remove_duplicates(['a', 'b', 'a', 'c'])
-    
+        
         >>> remove_duplicates([1, 1, 1])
-    
+        
         """
 
 ## Lijsten op volgorde samenvoegen (moeilijker!)
 
-Maak een functie die een nieuwe lijst maakt met daarin de elementen van twee bronlijsten. De elementen van de bronlijsten moeten al gesorteerd aangeleverd worden en de resulterende lijst moet ook gesorteerd zijn. Je kunt dit voor elkaar krijgen door om beurten in de lijst steeds verder te gaan.
+Implementeer de volgende functie. Vul de doctests aan met verwachte antwoorden.
+
+Je kunt onderstaande voor elkaar krijgen door uit de twee lijsten (min of meer) om beurten getallen te nemen.
 
     def merge_sorted_lists(list1: list[int], list2: list[int]) -> list[int]:
         """
-        Merge two sorted lists into one sorted list.
-    
+        Neemt twee gesorteerde lijsten aan en geeft een nieuwe
+        lijst terug waarin de elementen van beide voorkomen,
+        wederom gesorteerd.
+        
         >>> merge_sorted_lists([1, 3, 5], [2, 4, 6])
         [1, 2, 3, 4, 5, 6]
         >>> merge_sorted_lists([1, 2], [3, 4])
-    
+        
         >>> merge_sorted_lists([], [1, 2])
-    
+        
         """
-        # TODO
 
 ## Hint
 
