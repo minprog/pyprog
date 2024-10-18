@@ -38,12 +38,13 @@ Mod 3 Strings:
 Mod 4 Lists:
     Overzicht: /modules/lists
     Werkcollege:
-        List functions: /opdrachten/lists/list_functions
+        Functies met lijsten: /opdrachten/lists/list_functions
     Opdrachten:
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Selection sort: /opdrachten/lists/selection
         Special sort: /opdrachten/lists/special
         Schuifpuzzel: /opdrachten/lists/schuifpuzzel
+    Challenge:
         Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
 
 Mod 5 Collections:
