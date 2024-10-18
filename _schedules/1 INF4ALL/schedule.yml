@@ -43,8 +43,8 @@ Mod 4 Lists:
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Selection sort: /opdrachten/lists/selection
         Special sort: /opdrachten/lists/special
-        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
-        Virus: /opdrachten/functioneel/virus              # 7 func, main, simulatie, comprehensions
+        Schuifpuzzel: /opdrachten/lists/schuifpuzzel
+        Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
 
 Mod 5 Collections:
     Overzicht: /modules/collections
