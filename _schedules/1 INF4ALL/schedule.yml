@@ -27,6 +27,7 @@ Mod 2 Herhaling:
 Mod 3 Strings:
     Overzicht: /modules/strings
     Opdrachten:
+        Alfabet: /opdrachten/strings/alfabet
         Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
         Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
         Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str
