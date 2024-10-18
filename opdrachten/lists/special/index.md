@@ -30,8 +30,6 @@ Gebruik de pseudocode om het sorteren te implementeren. Ontwerp je code zoals hi
 
 Let op dat de functie de lijst l moet aanpassen, maar deze alsnog moet returnen. Dat is nodig om handig doctests te kunnen doen.
 
-    from typing import Any
-    
     def special_sort(l: list[int]) -> list[int]:
         """
         Sorteert de lijst `l` door deze aan te passen.

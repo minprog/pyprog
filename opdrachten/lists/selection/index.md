@@ -14,8 +14,6 @@ Ontwerp je code zoals hieronder beschreven. Schrijf veel doctests, zodat de corr
 
 Let op dat de functie de lijst l moet aanpassen, maar deze alsnog moet returnen. Dat is nodig om handig doctests te kunnen doen.
 
-    from typing import Any
-    
     def selection_sort(l: list[int]) -> list[int]:
         """
         Sorteert de lijst `l` door deze aan te passen.
