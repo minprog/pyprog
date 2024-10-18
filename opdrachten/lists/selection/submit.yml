@@ -1,0 +1,8 @@
+name: selection_sort
+files:
+    required:
+        - selection_sort.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: selection_sort

@@ -40,14 +40,15 @@ Mod 4 Lists:
     Werkcollege:
         List functions: /opdrachten/lists/list_functions
     Opdrachten:
+        Selection sort: /opdrachten/lists/selection
+        Special sort: /opdrachten/lists/special
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
-        Comprehensions: /opdrachten/functioneel/comprehensions # naar boek?
+        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Virus: /opdrachten/functioneel/virus              # 7 func, main, simulatie, comprehensions
 
 Mod 5 Collections:
     Overzicht: /modules/collections
     Opdrachten:
-        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Algorithms: /opdrachten/week5/algorithms
         Indexer: /opdrachten/week5/indexer
 
