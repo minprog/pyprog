@@ -1,4 +1,6 @@
-# Programmeren, variabelen en beslissingen
+# Module 1: Programmeren, variabelen en beslissingen
+
+Dit is het overzicht van de cursus voor week 1.
 
 Goed, tijd om te programmeren! Je gaat heel snel aan de slag met het uitpuzzelen van echte programmeerproblemen, maar we bouwen ook stap voor stap je kennis op van de ideeën die aan het programmeren ten grondslag liggen.
 
@@ -55,3 +57,17 @@ Deze opdracht is bedoeld voor studenten die erg snel gaan. We lopen hier een kle
 | Opdracht        | Onderwerp                                                   |
 |-----------------|-------------------------------------------------------------|
 | **Priemgetallen** | Challenge: priemgetallen en bijzondere reeksen vinden     |
+
+## Inleveren
+
+Elke opdracht kun je inleveren op de cursuswebsite. De opdrachten worden dan automatisch gecontroleerd. Allereerst of je de opdracht hebt uitgewerkt op de standaardmanier: met functies, doctests en een hoofdprogramma. Maar we hebben ook allerlei inhoudelijke checks waarin we kijken of jouw interpretatie van de opdracht overeenkomt met die van ons.
+
+Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
+
+- Als je de opdracht niet hebt uitgewerkt op de standaardmanier, ga dit dan meteen oplossen. Het heeft geen zin om dit uit te stellen. Je mag opnieuw inleveren.
+
+- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
+
+## Deadline
+
+De bedoeling is dat je deze week in totaal zo'n 20 uur besteed aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag 3 november om 17:00 uur. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan, behalve de challenge.
