@@ -2,6 +2,8 @@
 
 Dit is het overzicht van de cursus voor week 1.
 
+## Onderwerpen
+
 Goed, tijd om te programmeren! Je gaat heel snel aan de slag met het uitpuzzelen van echte programmeerproblemen, maar we bouwen ook stap voor stap je kennis op van de ideeën die aan het programmeren ten grondslag liggen.
 
 - Zo ga je je programma's opbouwen met hulp van kleine *functies*. Meestal maar één functie per programma, maar we gaan je ook uitdagen met functies die elkaar aanroepen.
@@ -19,7 +21,7 @@ Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan
 
 ## Werkcollege
 
-Tijdens het werkcollege op maandagochtend krijg je het boek uitgedeeld. Daarnaast komen de volgende onderwerpen aan bod:
+Maandag 28 oktober is het werkcollege, de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken. Je maakt kennis met de docent en de studentassistent. Daarnaast komen de volgende onderwerpen aan bod:
 
 - Achterhalen van formules en deze opschrijven op zo'n manier dat Python het begrijpt
 - Schrijven van kleine functies op basis van de formules
@@ -27,9 +29,11 @@ Tijdens het werkcollege op maandagochtend krijg je het boek uitgedeeld. Daarnaas
 
 ## Studiematerialen en huiswerk
 
+Tijdens het werkcollege en het laptopcollege ga je al veel tijd besteden aan oefenen. Daarnaast ga je deze week flink wat tijd steken in het boek, om de theorie goed te begrijpen. En er zijn diverse programmeeropdrachten om te oefenen met "problem solving".
+
 ### Functies, input, output en epxressies
 
-Lees het boek tot en met paragraaf 4.3. Doe alle oefeningen! Deze zijn wezenlijk onderdeel van de cursus. Daarna ga je de volgende opdrachten doen.
+Lees het boek tot en met hoofdstuk 3. Doe de oefeningen bij elk onderwerp! Deze zijn wezenlijk onderdeel van de cursus. Daarna ga je de volgende opdrachten doen.
 
 | Opdracht        | Onderwerp                                                   |
 |-----------------|-------------------------------------------------------------|
@@ -41,7 +45,7 @@ Lees het boek tot en met paragraaf 4.3. Doe alle oefeningen! Deze zijn wezenlijk
 
 ### Beslissingen nemen met If-statements
 
-Nu introduceren we if-statements. Oefen eerst in het boek met hoofdstuk 4 tot en met paragraaf 4.3.
+Nu introduceren we if-statements. Oefen eerst in het boek met hoofdstuk 4 tot en met paragraaf 4.3 en ga daarna aan de slag met onderstaande opdrachten.
 
 | Opdracht        | Onderwerp                                                   |
 |-----------------|-------------------------------------------------------------|
@@ -70,4 +74,8 @@ Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
 ## Deadline
 
-De bedoeling is dat je deze week in totaal zo'n 20 uur besteed aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag 3 november om 17:00 uur. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan, behalve de challenge.
+De bedoeling is dat je deze week in totaal zo'n 20 uur besteed aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag 3 november om 17:00 uur. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
+
+## Beoordeling
+
+Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van modules 1 t/m 3 wordt namelijk getoetst tijdens het tentamen in week 4 van de cursus. Alles staat dus in het teken van oefenen voor dit tentamen.
