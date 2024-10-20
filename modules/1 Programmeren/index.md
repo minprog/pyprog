@@ -14,12 +14,20 @@ Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan
 
 Lees het boek tot en met paragraaf 4.3. Doe alle oefeningen! Deze zijn wezenlijk onderdeel van de cursus. Daarna ga je de volgende opdrachten doen:
 
-|----------------|-------------------------------------------------------------|
-| Opdracht       | Onderwerp                                                   |
-|----------------|-------------------------------------------------------------|
-| **Weken**      | Input, output en berekeningen in Python                     |
-| **Cafeine**    | Input, output en berekeningen in Python                     |
-| **Vakantie**   | Berekeningen met meerdere functies                          |
-| **Orakel**     | Automatische belissingen nemen                              |
-| **Acid**       | Boolean waarden in een functie                              |
-|----------------|-------------------------------------------------------------|
+|-----------------|-------------------------------------------------------------|
+| Opdracht        | Onderwerp                                                   |
+|-----------------|-------------------------------------------------------------|
+| **Weken**       | Input, output en berekeningen in Python                     |
+| **Water**       | Input, output en berekeningen in Python                     |
+| **Binair**      | Input, output en berekeningen in Python                     |
+| **Cafeine**     | Input, output en berekeningen in Python                     |
+|-----------------|-------------------------------------------------------------|
+| **Vakantie**    | Berekeningen met meerdere functies                          |
+|-----------------|-------------------------------------------------------------|
+| **Acid**        | Een eigenschap checken en resultaat printen                 |
+| **Orakel**      | Een eigenschap checken en resultaat printen                 |
+| **Byte**        | Een berekening doen in meerdere stappen                     |
+| **Rechthoeken** | Meerdere eigenschappen checken en samenvoegen               |
+|-----------------|-------------------------------------------------------------|
+| **Priemgetallen** | Challenge: priemgetallen en bijzondere reeksen vinden     |
+|-----------------|-------------------------------------------------------------|
