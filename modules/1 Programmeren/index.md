@@ -52,8 +52,6 @@ Nu introduceren we if-statements. Oefen eerst in het boek met hoofdstuk 4 tot en
 
 Deze opdracht is bedoeld voor studenten die erg snel gaan. We lopen hier een klein beetje vooruit op de stof en de uitdaging ligt vooral in het begrijpen van de opdracht en interessante manieren vinden om de problemen op te lossen.
 
-|-----------------|-------------------------------------------------------------|
 | Opdracht        | Onderwerp                                                   |
 |-----------------|-------------------------------------------------------------|
 | **Priemgetallen** | Challenge: priemgetallen en bijzondere reeksen vinden     |
-|-----------------|-------------------------------------------------------------|
