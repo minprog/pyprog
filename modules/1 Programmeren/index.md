@@ -29,29 +29,24 @@ Tijdens het werkcollege op maandagochtend krijg je het boek uitgedeeld. Daarnaas
 
 Lees het boek tot en met paragraaf 4.3. Doe alle oefeningen! Deze zijn wezenlijk onderdeel van de cursus. Daarna ga je de volgende opdrachten doen.
 
-|-----------------|-------------------------------------------------------------|
 | Opdracht        | Onderwerp                                                   |
 |-----------------|-------------------------------------------------------------|
 | **Weken**       | Input, output en berekeningen in Python                     |
 | **Water**       | Input, output en berekeningen in Python                     |
 | **Binair**      | Input, output en berekeningen in Python                     |
 | **Cafeine**     | Input, output en berekeningen in Python                     |
-|-----------------|-------------------------------------------------------------|
 | **Vakantie**    | Berekeningen met meerdere functies                          |
-|-----------------|-------------------------------------------------------------|
 
 ### Beslissingen nemen met If-statements
 
 Nu introduceren we if-statements. Oefen eerst in het boek met hoofdstuk 4 tot en met paragraaf 4.3.
 
-|-----------------|-------------------------------------------------------------|
 | Opdracht        | Onderwerp                                                   |
 |-----------------|-------------------------------------------------------------|
 | **Acid**        | Een eigenschap checken en resultaat printen                 |
 | **Orakel**      | Een eigenschap checken en resultaat printen                 |
 | **Byte**        | Een berekening doen in meerdere stappen                     |
 | **Rechthoeken** | Meerdere eigenschappen checken en samenvoegen               |
-|-----------------|-------------------------------------------------------------|
 
 ### Challenge
 
