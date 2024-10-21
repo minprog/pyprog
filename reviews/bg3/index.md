@@ -1,6 +1,6 @@
-# Code review: Schuifpuzzel
+# Code review: War
 
-> **Je mag deze code review alleen doen als je Schuifpuzzel werkend hebt ingeleverd** vóór de deadline (alles geimplementeerd, misschien nog een bug). Is dat niet zo, dan mag je geen code review doen en kun je in de les doorwerken aan de nieuwe opdrachten.
+> **Je mag deze code review alleen doen als je War werkend hebt ingeleverd** (alles geimplementeerd, misschien nog een bug). Is dat niet zo, dan mag je geen code review doen.
 >
 > De deadline voor inleveren van de verbeterde versie + verslag is **dinsdag 20:00**. Dit mag alleen als je aanwezig was bij het werkcollege om daar een review te doen.
 >
@@ -43,7 +43,9 @@ Deze stappen doe je tijdens het werkcollege. Je reviewpartner wisselt per keer -
 
 1.  Hou daarbij ook in gedachten hoe jij jouw code gaat verbeteren. Zorg dus dat je notities maakt van de verschillen maar ook van je actiepunten.
 
-## Stappenplan: verbeteren en verslag
+## Stappenplan: verbeteren
+
+> Er is wederom geen verslag! Dit was alleen de eerste keer.
 
 Deze stappen doe je na de les.
 
@@ -55,12 +57,8 @@ Je hebt samen met je review-partner de details goed doorgesproken. Je hebt een l
 
 1.  Neem niet het ontwerp van je partner over; dan ga je veel te ver, het is niet de opdracht, en het kan ook leiden tot plagiaatverdenking.
 
-1.  Maak een verslag in PDF (met je naam erboven en de naam van je partner). Geef hierin aan voor **elke verandering in jouw uitwerkingen** waarom je dit hebt gedaan. Zorg dat je stukjes code laat zien (kleine screenshots) met daarbij uitleg. Geef ook dingen aan die je niet hebt veranderd maar waarvoor je wel alternatieven hebt gezien of bedacht.
-
-    Met een verslag dat niet exact bovenstaande regels volgt kun je maximaal 1 punt verdienen voor de review.
-
-1.  Sla je verbeterde uitwerkingen op en test ze uitgebreid. Submit deze samen met je verslag op de submitpagina.
+1.  Sla je verbeterde uitwerkingen op en test ze uitgebreid. Submit deze op de submitpagina.
 
 ## Beoordeling
 
-Later krijg je korte schriftelijke feedback van je docent of assistent waarmee je de volgende review je voordeel kunt doen. Voor de beoordeling van jouw ingeleverde code met verslag gebruiken we de schaal uit de [studiewijzer](https://pyprog.proglab.nl/syllabus#beoordeling-code-review).
+Later krijg je korte schriftelijke feedback van je docent of assistent waarmee je de volgende review je voordeel kunt doen. Voor de beoordeling van jouw ingeleverde code gebruiken we de schaal uit de [studiewijzer](https://pyprog.proglab.nl/syllabus#beoordeling-code-review).
