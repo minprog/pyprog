@@ -4,7 +4,7 @@ buttons:
     Run doctest: |
         import <filename>
         import doctest
-        doctest.testmod(<filename>)
+        doctest.testmod(<filename>, verbose=True)
     Run typecheck: |
         from mypy import api as mypy_api
         mypy_api.run(['--strict', '<filename>.py'])[0]
