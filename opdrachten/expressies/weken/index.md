@@ -1,6 +1,6 @@
 # Weken
 
-In deze en volgende opdrachten ga je vooral veel kleine functies maken waarin een berekening wordt gedaan. De opdrachten bouwen op elkaar voort en herhalen veel.
+In deze en volgende opdrachten ga je vooral veel kleine functies maken waarin een berekening wordt gedaan. De opdrachten bouwen op elkaar voort en herhalen veel. We starten met deze opdracht waar je bijna alles cadeau krijgt, dus het is vooral de instructies volgen.
 
 ## Opdracht
 

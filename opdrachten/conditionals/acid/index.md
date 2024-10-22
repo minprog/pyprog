@@ -22,6 +22,8 @@ Maak een Python-bestand aan genaamd `acid.py`. Splits bovenstaande programma op 
 
 ## Hint
 
+- De functie `is_acidic` moet een `bool` returnen, volgens de type hint. Doe dit via `return True` of `return False`, al naar gelang de conclusie die de functie trekt.
+
 - De logica is al gegeven. Het enige dat je moet doen is het in de template passen. Maar dat is niet helemaal triviaal, zie de volgende hint.
 
 - Het is noodzakelijk om zowel in `is_acidic` als in de `__main__` een `if`-`else` toe te voegen.

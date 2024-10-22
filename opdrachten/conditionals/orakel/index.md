@@ -53,6 +53,4 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-* Dit is de eerste keer dat je met `if`-`else`-statements gaat werken. Vergeet niet dat er ook booleaanse operaties zijn zoals `and` en `or`.
-
-* De functie `check_answer` moet een `bool` returnen, volgens de type hint. Doe dit via `return True` of `return False`, al naar gelang de conclusie die de functie trekt.
+* Vergeet niet dat er ook booleaanse operaties zijn zoals `and` en `or`.
