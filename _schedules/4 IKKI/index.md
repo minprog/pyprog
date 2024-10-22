@@ -155,4 +155,4 @@ Omdat de opdrachten t/m module 3 niet meetellen hoef je je geen zorgen te maken 
 
 ### Module 4, 5, 6 en 7
 
-Voor de modules vanaf 4 is het wel belangrijk dat je geen (half of heel) geplagieerd werk inlevert en ook geen AI-tools hebt gebruikt voor het genereren van (een deel van) de oplossing. Dit zijn opgaven die meetellen voor punten, en daar is dit niet toegestaan. Waar we dit herkennen moeten we je doorsturen naar de examencommissie.
+Voor de modules vanaf 4 is het wel belangrijk dat je geen (half of heel) geplagieerd werk inlevert, dat de code niet samen met andere studenten gemaakt is, en dat je ook geen AI-tools hebt gebruikt voor het genereren van (een deel van) de oplossing. Dit zijn opgaven die meetellen voor punten, en daar is dit allemaal niet toegestaan. Waar we dit herkennen moeten we je doorsturen naar de examencommissie.
