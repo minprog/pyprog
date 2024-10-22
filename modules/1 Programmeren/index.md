@@ -17,13 +17,18 @@ Over al deze dingen vind je uitleg in het boek, en soms staan er extra aanwijzin
 
 ## Ervaren studenten
 
-Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan. En dat is ook wel zo: nog geen `while` of `for` toegestaan deze week. Maar let tegelijk goed op de specifieke *manier van programmeren* die we je willen aanleren. Hierboven stond er al iets over vermeld. Onze manier van programmeren is misschien anders dan je gewend bent. Ben je zeer ervaren, let dan vooral nog op het "ontwerprecept" (uit het boek) dat een belangrijke rol heeft in onze cursus en onze manier van programmeren.
+Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan. En dat is ook wel zo: nog geen `while` of `for` toegestaan deze week. Let op het volgende:
+
+- Doe de opgaven die gemarkeerd zijn met een ᵛ om voldoende te oefenen met de specifieke *manier van programmeren* die we je willen aanleren. Hierboven stond er al iets over vermeld. Onze manier van programmeren is misschien anders dan je gewend bent. Check ook het "ontwerprecept" (boek hoofdstuk 3.6).
+
+- Daag vervolgens jezelf uit met de Challenge, waarin je wel degelijk al loops kan en mag gebruiken.
 
 ## Werkcollege
 
-Maandag 28 oktober is het werkcollege, de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgend activiteiten:
+Maandag 28 oktober is het werkcollege, de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 
-- Achterhalen van formules en deze opschrijven op zo'n manier dat Python het begrijpt
+- Achterhalen en precies maken van formules
+- Formules opschrijven op zo'n manier dat Python het begrijpt
 - Schrijven van kleine functies op basis van de formules
 - Installeren van Python en een editor op je computer
 

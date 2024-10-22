@@ -15,7 +15,7 @@ Mod 1 Programmeren:
         Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
         Byteᵛ: /opdrachten/conditionals/byte
         Rechthoeken: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
-        Beslisboom [TBD]: /opdrachten/conditionals/beslisboom
+        # Beslisboom [TBD]: /opdrachten/conditionals/beslisboom
     Challenge:
         Priemgetallen [TBD]: ''
 
