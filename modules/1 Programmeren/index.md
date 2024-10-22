@@ -23,7 +23,7 @@ Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan
 
 - Daag vervolgens jezelf uit met de Challenge, waarin je wel degelijk al loops kan en mag gebruiken.
 
-## Werkcollege
+## Werkcollege en laptopcollege
 
 Maandag 28 oktober is het werkcollege, de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 
