@@ -2,6 +2,8 @@
 
 Schrijf een programma dat om een decimaal getal vraagt en vervolgens de bits van hetzelfde getal print in binaire representatie.
 
+> Deze opdracht is echt een beetje een puzzel. Wat moet je doen? En hoe? We weten dat een heel groot deel van de studenten deze opdracht kan oplossen door goed te bestuderen wat hieronder gezegd wordt en dan een algemeen stappenplan (algoritme) te formuleren en omzetten in code. Een deel van de studenten heeft even wat aanspraak nodig omdat ze ergens overheen lezen of iets verkeerd begrijpen. Dan helpt het om met een medestudent door te spreken "wat de bedoeling is". Doe dat, en betrek je docent en assistent erbij als het nodig is.
+
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.

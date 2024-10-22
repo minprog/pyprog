@@ -98,7 +98,7 @@ Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk t
 
 Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of wie uitvalt.
 
-Als je denkt dat de opdracht klaar is kun je deze inleveren op de website. De website voert dan een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Maar je hoeft dit niet meteen te verbeteren! Tijdens de les op maandag ga je met medestudenten en docenten kijken wat er nog te verbeteren valt.
+Als je denkt dat de opdracht klaar is kun je deze inleveren op de website. De website voert dan een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Maar je hoeft dit niet gehaast te verbeteren! Tijdens de les op maandag ga je met medestudenten en docenten kijken wat er nog te verbeteren valt.
 
 |          | deadline huiswerk |
 |----------|------------------:|
@@ -113,10 +113,14 @@ Als je denkt dat de opdracht klaar is kun je deze inleveren op de website. De we
 
 ## Aanwezigheid
 
-Je moet normaal bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
+Hoeveel aanwezig
+: Je moet normaal bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
 
-- Meer dan 15 minuten te laat aankomen betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
+Te laat komen
+: Meer dan 15 minuten te laat aankomen betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
 
+Consequentie
+: Als je niet aan de aanwezigheidsplicht hebt voldaan, dan zul je geen hertentamen mogen maken. Mocht je merken dat er echt iets "aan de hand is" waardoor je meerdere colleges gaat missen (vage ziekte, ernstige familieomstandigheden) dan moet je al tijdens het vak in gesprek met de docenten. Zorg dat je ze opzoekt als je denkt dat het niet gaat lukken.
 
 ## Ziekte en inhalen
 
