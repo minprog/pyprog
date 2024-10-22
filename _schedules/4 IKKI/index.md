@@ -122,18 +122,10 @@ Te laat komen
 Consequentie
 : Als je niet aan de aanwezigheidsplicht hebt voldaan, dan zul je geen hertentamen mogen maken. Mocht je merken dat er echt iets "aan de hand is" waardoor je meerdere colleges gaat missen (vage ziekte, ernstige familieomstandigheden) dan moet je al tijdens het vak in gesprek met de docenten. Zorg dat je ze opzoekt als je denkt dat het niet gaat lukken.
 
-## Ziekte en inhalen
-
-Als je ziek bent dan meld je het in ieder geval meteen even aan je groepsdocent via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen en een harde eis als je een uitzondering nodig hebt. Over het algemeen moet je ongeveer bij blijven om het vak goed te kunnen halen. Daarom de volgende richtlijnen:
-
-- Ben je één of twee dagen ziek dan is dat geen probleem en kun je vaak nog inhalen. Ook voor de aanwezigheidsplicht is dat werkbaar. 
-
-- Heb je een medisch noodgeval en ben je hierdoor bijvoorbeeld een hele week uit de running? Dan bespreek je naderhand (zodra je weer iets kunt doen) met een docent hoe je dit kunt oplossen. Daarbij speelt natuurlijk ook mee hoe makkelijk het programmeren je af gaat en hoeveel energie je hebt om te steken in het inhalen. Op basis van al die informatie kijken we samen wat mogelijk is om bij te komen.
-
-- Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de groepsdocent om te kijken wat je opties zijn. Soms laten studenten het vak vallen, maar andere studenten blijven het volgen om in ieder geval te oefenen voor de basiskennis. Stuur maar een [mailtje](mailto:pyprog@proglab.nl)!
+Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
 
 
-## Achter lopen
+## Achterlopen
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
 
@@ -153,10 +145,14 @@ Bij de wekelijkse huiswerkopdrachten is het niet de bedoeling om samen een oplos
 
 Toch is het zinvol om, als je vast zit, met medestudenten de opdracht door te spreken. Bijvoorbeeld: hoe moet zo'n opdracht aanpakken? Wat wordt er van je verwacht in module 2? Helemaal prima om dat soort vragen met medestudenten te bespreken. Je kunt bij de eerste opdrachten van de cursus ook samen opzetjes maken van de oplossing, zonder alles helemaal uit te spellen. Jouw taak is uitzoeken welke hulp je (nog) nodig hebt en wat je zelf al kan.
 
-Omdat de opdrachten t/m module 3 niet meetellen hoef je je geen zorgen te maken als je deze tekst te laat leest en toch opdrachten hebt ingeleverd waarbij je hulp hebt gekregen of tools als ChatGPT hebt gebruikt. De bedoeling is wel dat je zonder kan, dus zeg het vooral tegen de docenten als je dit hebt gedaan. Dat is een goed begin van een gesprek. Want wat jij dan wil weten is: hoe kan ik leren zelfstandig programmeren? We helpen je daar graag bij.
-
-Voor de modules vanaf 4 is het wel belangrijk dat je geen (half of heel) geplagieerd werk inlevert en ook geen AI-tools hebt gebruikt voor het genereren van (een deel van) de oplossing. Waar we dit herkennen moeten we je doorsturen naar de examencommissie.
-
 Het begin van leren programmeren is behoorlijk oncomfortabel. Het kan zelfs ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en betekent zeker niet dat jij het nooit zal leren! Geef jezelf de tijd en ruimte waarin het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
 
 De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker loopt. Als je opdrachten inlevert die je niet geheel zelf hebt gemaakt dan wordt het daarmee voor de docenten onmogelijk om goed beeld te hebben van je voortgang. We zullen dan denken dat het goed gaat terwijl het helemaal niet zo goed gaat. Kom je dan toch in de problemen, dan moet je echt zelf contact opnemen.
+
+### Module 1, 2 en 3
+
+Omdat de opdrachten t/m module 3 niet meetellen hoef je je geen zorgen te maken als je deze tekst te laat leest en toch opdrachten hebt ingeleverd waarbij je hulp hebt gekregen of tools als ChatGPT hebt gebruikt. De bedoeling is wel dat je zonder kan, dus zeg het vooral tegen de docenten als je dit hebt gedaan. Dat is een goed begin van een gesprek. Want wat jij dan wil weten is: hoe kan ik leren zelfstandig programmeren? We helpen je daar graag bij.
+
+### Module 4, 5, 6 en 7
+
+Voor de modules vanaf 4 is het wel belangrijk dat je geen (half of heel) geplagieerd werk inlevert en ook geen AI-tools hebt gebruikt voor het genereren van (een deel van) de oplossing. Dit zijn opgaven die meetellen voor punten, en daar is dit niet toegestaan. Waar we dit herkennen moeten we je doorsturen naar de examencommissie.
