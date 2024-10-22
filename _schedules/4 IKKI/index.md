@@ -119,7 +119,7 @@ Is de opdracht dan niet akkoord, dan vind je op de website meestal iets van een 
 
 Lukt het niet om binnen een paar pogingen de opdracht alsnog akkoord te krijgen, dan geen paniek, en zeker geen AI! Als je oplossing in principe werkt, en dichtbij wat de bedoeling is, dan voldoet dit in ieder geval voor de deadline. Je gaat dan tijdens het *volgende werkcollege* met medestudenten en de docent alles alsnog fixen.
 
-Kom je er echt totaal niet uit terwijl je nog middenin je opdrachten zit, dan is het echt tijd om de docent een mail te sturen, of te spreken bij het college. We willen je echt graag meekrijgen maar dan wordt het maatwerk en moeten we samen kijken waar je vastloopt.
+Kom je er echt totaal niet uit terwijl je nog middenin je opdrachten zit, dan is het echt tijd om de docent een mail te sturen, of te spreken bij het college. We willen je echt graag meekrijgen maar dan wordt het maatwerk en moeten we samen kijken waar je vastloopt. Dit is niet in een algemene regel te vatten.
 
 Wat tot slot *niet* akkoord is, is als je alle opdrachten eruit beukt zonder naar de resultaten te kijken. We weten dat sommige studenten de eerdere instructie iets te licht opvatten en dan geen druk meer voelen om de opdracht echt goed af te maken. Dit is echter *wel* verplicht, en bovenstaande is alleen bedoeld om ruimte te geven aan studenten die het allemaal nog erg moeilijk vinden.
 
@@ -127,13 +127,13 @@ Wat tot slot *niet* akkoord is, is als je alle opdrachten eruit beukt zonder naa
 ## Aanwezigheid
 
 Hoeveel aanwezig
-: Je moet normaal bij alle werkcolleges en laptopcolleges (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
+: Je moet normaal bij **alle werkcolleges en laptopcolleges** (geheel) aanwezig zijn. Je mag maximaal één werkcollege en twee laptopcolleges missen, om welke reden dan ook. Neem je een week "vrij" dan heb je dus geen ruimte meer om ziek te zijn.
 
 Te laat komen
-: Meer dan 15 minuten te laat aankomen betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
+: Meer dan **15 minuten te laat** aankomen betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
 
 Consequentie
-: Als je niet aan de aanwezigheidsplicht hebt voldaan, dan zul je geen hertentamen mogen maken. Mocht je merken dat er echt iets "aan de hand is" waardoor je meerdere colleges gaat missen (vage ziekte, ernstige familieomstandigheden) dan moet je al tijdens het vak in gesprek met de docenten. Zorg dat je ze opzoekt als je denkt dat het niet gaat lukken.
+: Als je niet aan de aanwezigheidsplicht hebt voldaan, dan zul je **geen hertentamen** mogen maken. Mocht je merken dat er echt iets "aan de hand is" waardoor je meerdere colleges gaat missen (vage ziekte, ernstige familieomstandigheden) dan moet je al tijdens het vak in gesprek met de docenten. Zorg dat je ze opzoekt als je denkt dat het niet gaat lukken.
 
 Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
 
