@@ -94,11 +94,9 @@ De opdrachten van module 4 t/m 7 die je hebt gedaan leveren punten op. Hiervoor 
 
 ## Huiswerk en deadlines
 
-Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je buiten de lessen hier aan werkt.
+Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier buiten de lessen aan werkt.
 
-Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. We gebruiken de deadlines ook om te kunnen ontdekken wie het nog moeilijk vindt of wie uitvalt.
-
-Als je denkt dat de opdracht klaar is kun je deze inleveren op de website. De website voert dan een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie. Maar je hoeft dit niet gehaast te verbeteren! Tijdens de les op maandag ga je met medestudenten en docenten kijken wat er nog te verbeteren valt.
+Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. Daarom moet je alle basisopdrachten af hebben vóór de deadline, dus: alles behalve de challenge. "Af" betekent dat je de code voor jezelf werkend hebt, en ingeleverd op de website. Zie ook de opmerkingen hieronder over de automatische checks die uitgevoerd worden.
 
 |          | deadline huiswerk |
 |----------|------------------:|
@@ -109,6 +107,21 @@ Als je denkt dat de opdracht klaar is kun je deze inleveren op de website. De we
 | Module 5 | zo  1 dec  17:00  |
 | Module 6 | zo  8 dec  17:00  |
 | Module 7 | zo 15 dec  17:00  |
+
+**Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT. In plaats daarvan lever je de opdrachten in die je hebt, en je stuurt een mail om de situatie uit te leggen. We hebben allemaal weleens een planningsfout gemaakt dus kom er eerlijk voor uit en bespreek de situatie met je docent.**
+
+
+## Automatische checks
+
+Als je denkt dat een opdracht klaar is kun je deze inleveren op de website. De website voert dan een automatische controle uit. Enerzijds of je opdrachten aan de basisstructuur voldoen, en anderzijds of je oplossing voldoet aan de eisen in de specificatie. Is alles akkoord, dan is de opdracht klaar en kan ook niet meer opnieuw ingeleverd worden.
+
+Is de opdracht dan niet akkoord, dan vind je op de website meestal iets van een hint over wat er mis is. Als je dan wel weet wat er aan de hand is, of wist het eigenlijk wel, dan fix je het natuurlijk meteen. Je mag zo vaak inleveren als je wilt.
+
+Lukt het niet om binnen een paar pogingen de opdracht alsnog akkoord te krijgen, dan geen paniek, en zeker geen AI! Als je oplossing in principe werkt, en dichtbij wat de bedoeling is, dan voldoet dit in ieder geval voor de deadline. Je gaat dan tijdens het *volgende werkcollege* met medestudenten en de docent alles alsnog fixen.
+
+Kom je er echt totaal niet uit terwijl je nog middenin je opdrachten zit, dan is het echt tijd om de docent een mail te sturen, of te spreken bij het college. We willen je echt graag meekrijgen maar dan wordt het maatwerk en moeten we samen kijken waar je vastloopt.
+
+Wat tot slot *niet* akkoord is, is als je alle opdrachten eruit beukt zonder naar de resultaten te kijken. We weten dat sommige studenten de eerdere instructie iets te licht opvatten en dan geen druk meer voelen om de opdracht echt goed af te maken. Dit is echter *wel* verplicht, en bovenstaande is alleen bedoeld om ruimte te geven aan studenten die het allemaal nog erg moeilijk vinden.
 
 
 ## Aanwezigheid
