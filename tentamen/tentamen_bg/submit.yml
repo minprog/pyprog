@@ -1,6 +1,9 @@
 name: tentamen_bg
+exam: true
 files:
-  required:
-    - freq.py
-    - todo.py
-    - benb.py
+    required:
+        listco.py: ''
+        collty.py: ''
+        raden.py: ''
+        bieb.py: ''
+        kladje.py: ''
