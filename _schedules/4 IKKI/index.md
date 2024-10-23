@@ -37,19 +37,19 @@ De cursus duurt 8 weken. Elke week doe je één van de onderstaande modules. In 
 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp. Dat is dus ook de minimumeis van het tentamen in week 4. Tijdens de tweede helft ga je, afhankelijk van je persoonlijke voortgang, herhalen of verdiepen.
 
-Werkcollege week 1 t/m 7 (14 punten)
+Werkcollege week 1 t/m 7 (7 punten)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen; soms gezamenlijk, soms zelfstandig een tutorial doorwerken. De activiteiten leveren punten op die een klein beetje meetellen. De punten krijg je als je ter plekke aanwezig bent en inlevert via de website.
 
-Tentamen (40 punten)
+Tentamen (14 punten)
 : Het tentamen gaat over de stof van module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer. Het tentamen is een minimumeis om het vak te halen. Natuurlijk is er ook een hertentamen, in week 8.
 
 Huiswerk week 4, 5, 6 en 7
 : In de volgende weken van het vak ga je je verdiepen in de rest van Python. In elke module wordt een nieuw onderdeel geïntroduceerd, waarmee je je kennis vergroot. Bespreek met de docent wat een handige planning is: verdiepen of meer herhalen? De punten voor deze modules liggen pas vast na de bijbehorende eindpresentatie.
 
-Eindpresentatie huiswerk (36 punten)
+Eindpresentatie huiswerk (24 punten)
 : De presentatie gaat over het huiswerk van module 4, 5, 6 en 7. Als je deze hebt ingeleverd worden de verschillende opgaven gecontroleerd en dan technisch goedgekeurd. Bij de eindpresentatie in week 8 ga je dan de oplossingen en je aanpak presenteren aan een docent. Daar zijn geen andere studenten bij aanwezig. Bij een goede uitleg worden de punten definitief.
 
-Het eindcijfer is `punten / 10 + 1`. De herkansing betreft alleen de stof van het tentamen, en niet de punten van de werkcolleges en de eindpresentatie.
+Het eindcijfer is `punten * 2 / 10 + 1`. De herkansing betreft alleen de stof van het tentamen, en niet de punten van de werkcolleges en de eindpresentatie.
 
 
 ### Werkcollege
