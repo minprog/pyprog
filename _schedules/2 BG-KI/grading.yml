@@ -86,9 +86,9 @@ grades:
 
     oefen_bg:
         type: check
-    tentamen:
+    tentamen_bg:
         type: float
-    hertentamen:
+    hertentamen_bg:
         type: float
 
 # CALCULATIONS - define the final grades for the course and the weights between
