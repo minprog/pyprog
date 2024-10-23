@@ -1,0 +1,8 @@
+name: priem_getal
+files:
+    required:
+        - priem_getal.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: priem_getal
