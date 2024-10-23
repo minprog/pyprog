@@ -1,9 +1,10 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
-    Installatie: /installatie
 
 Mod 1 Programmeren:
     Overzicht: /modules/programmeren
+    Werkcollege:
+        Installatie: /installatie
     Functies en expressies:
         Wekenᵛ: /opdrachten/expressies/weken
         Water: /opdrachten/expressies/water
