@@ -1,8 +1,8 @@
-name: acid
+name: byte
 files:
-  required:
-    - acid.py
+    required:
+        - byte.py
 check:
-  tool: checkpy
-  repo: minprog/python
-  args: acid
+    tool: checkpy
+    repo: minprog/python
+    args: byte
