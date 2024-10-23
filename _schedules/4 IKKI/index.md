@@ -41,7 +41,7 @@ Werkcollege week 1 t/m 7 (7 punten)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen; soms gezamenlijk, soms zelfstandig een tutorial doorwerken. De activiteiten leveren punten op die een klein beetje meetellen. De punten krijg je als je ter plekke aanwezig bent en inlevert via de website.
 
 Tentamen (14 punten)
-: Het tentamen gaat over de stof van module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle 40 punten in één keer. Het tentamen is een minimumeis om het vak te halen. Natuurlijk is er ook een hertentamen, in week 8.
+: Het tentamen gaat over de stof van module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle punten in één keer. Het tentamen is overigens een minimumeis om het vak te halen, zelfs als je al het huiswerk hebt gemaakt. Natuurlijk is er ook een hertentamen, in week 8.
 
 Huiswerk week 4, 5, 6 en 7
 : In de volgende weken van het vak ga je je verdiepen in de rest van Python. In elke module wordt een nieuw onderdeel geïntroduceerd, waarmee je je kennis vergroot. Bespreek met de docent wat een handige planning is: verdiepen of meer herhalen? De punten voor deze modules liggen pas vast na de bijbehorende eindpresentatie.
