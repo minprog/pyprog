@@ -133,9 +133,10 @@ Te laat komen
 : Meer dan **15 minuten te laat** aankomen betekent dat je afwezig wordt gemarkeerd, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
 
 Consequentie
-: Als je niet aan de aanwezigheidsplicht hebt voldaan, dan zul je **geen hertentamen** mogen maken. Mocht je merken dat er echt iets "aan de hand is" waardoor je meerdere colleges gaat missen (vage ziekte, ernstige familieomstandigheden) dan moet je al tijdens het vak in gesprek met de docenten. Zorg dat je ze opzoekt als je denkt dat het niet gaat lukken.
+: Als je niet aan de aanwezigheidsplicht hebt voldaan, dan zul je **geen hertentamen** mogen maken. Mocht je merken dat er echt iets "aan de hand is" waardoor je meerdere colleges gaat missen (vage ziekte, ernstige familieomstandigheden) dan moet je al tijdens het vak in gesprek met de docenten. Zorg dat je ze meteen opzoekt als je denkt dat het niet gaat lukken. Voel je echt schroom om iets met de docent te bespreken, ga dan direct naar de studieadviseur.
 
-Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
+Verplichte ziekmelding
+: Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
 
 
 ## Achterlopen
