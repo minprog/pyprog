@@ -71,7 +71,7 @@ Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma 
 
 Deze stap is volledig optioneel, dus hoeft niet ingeleverd te worden. Wel goed om over na te denken en te proberen als je tijd over hebt.
 
-We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen (gecontroleerd door `checkpy`). Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. 
+We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen. Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. 
 
 - Behalve 2 zijn *even* getallen nooit een priemgetal (dit vraagt slechts een hele kleine aanpassing van je code).
 
