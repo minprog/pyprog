@@ -67,10 +67,6 @@ We gaan nu terug naar het eerder beschreven doel: op zoek naar het $$N$$-de prie
 
 Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is.
 
-Dan ben je klaar om te testen:
-
-    checkpy priemgetal
-
 ## Stap 5: kleine optimalisaties
 
 Deze stap is volledig optioneel, dus hoeft niet ingeleverd te worden. Wel goed om over na te denken en te proberen als je tijd over hebt.
@@ -84,9 +80,3 @@ We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* p
 ## Hints
 
 Je kunt dit programma schrijven met alleen de Python-onderdelen die je tot nu toe hebt geleerd + loops!
-
-## Testen
-
-Test voor de zekerheid nog een keer of je programma werkt volgens `checkpy`:
-
-    checkpy priemgetal

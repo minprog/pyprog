@@ -40,7 +40,3 @@ Nog belangrijker is natuurlijk als je een getal vindt dat *niet* aan het vermoed
 ## Testen
 
 Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is.
-
-Nu ben je klaar om te testen:
-
-	checkpy goldbach

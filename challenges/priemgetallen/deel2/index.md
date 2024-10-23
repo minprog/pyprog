@@ -40,7 +40,3 @@ Om het idee van de reeks niet-priemgetallen goed te begrijpen, schrijf je bijvoo
 ## Testen
 
 Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma precies zo werkt als daar beschreven is. Test zelf met 100 en met 10,000.
-
-Nu ben je klaar om te testen:
-
-	checkpy reeks
