@@ -138,12 +138,7 @@ grades:
             punten: float
         calculation: punten / 20.0 * 9 + 1
 
-    meedoen:
-        type: float
-        subgrades:
-            punten: integer
-        calculation: (punten + 1) / 6.0 * 9 + 1
-
+    werkcollege_1: *check
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -163,17 +158,17 @@ grades:
 
 calculation:
     eindcijfer_ki:
-        meedoen: 10
-        tentamen_ki: 90
+        werkcolleges: 7
+        tentamen_ki: 14
     eindcijfer_ik:
-        meedoen: 10
-        tentamen_ik: 90
+        werkcolleges: 7
+        tentamen_ik: 14
     herkansing_ki:
-        meedoen: 10
-        hertentamen_ki: 90
+        werkcolleges: 7
+        hertentamen_ki: 14
     herkansing_ik:
-        meedoen: 10
-        hertentamen_ik: 90
+        werkcolleges: 7
+        hertentamen_ik: 14
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -194,13 +189,11 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-code_reviews:
+werkcolleges:
     show_progress: true
     type: maximum
     submits:
-        r1: 1
-        r2: 1
-        r3: 1
+        werkcollege_1: 1
 
 module_1:
     show_progress: true
@@ -341,8 +334,3 @@ oefeningen:
         toetsje: 1
         toetsje_2: 1
         toetsje_3: 1
-
-meedoen:
-    show_overview: true
-    submits:
-        meedoen: 1

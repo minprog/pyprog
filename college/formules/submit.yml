@@ -1,0 +1,31 @@
+name: werkcollege_1
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+files:
+    required:
+        formules.py: |
+            # Schrijf hieronder al je formules uit als Python-functies.
+            # Een voorbeeld is al gegeven. Begin bij het aanvullen van
+            # derde_macht
+            
+            def kwadraat(a):
+                """
+                >>> kwadraat(2)
+                4
+                >>> kwadraat(10)
+                100
+                >>> kwadraat(25)
+                625
+                """
+                return a * a
+
+            def derde_macht(a):
+                """
+                >>>
+                
+                """
+                return ...

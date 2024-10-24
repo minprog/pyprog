@@ -75,9 +75,9 @@ Elke opdracht kun je inleveren op de cursuswebsite. De opdrachten worden dan aut
 
 Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
-- Als je de opdracht niet door de basischecks, ga dit dan meteen oplossen. Je programma moet het format volgen uit de opgave en voldoen aan een paar kleine stijl-eisen. Het heeft geen zin om dit uit te stellen. Je mag opnieuw inleveren.
+- Als je de opdracht niet door de basischecks hebt, ga dit dan meteen oplossen. Je programma moet het format volgen uit de opgave en voldoen aan een paar kleine stijl-eisen. Het heeft geen zin om dit uit te stellen. Je mag opnieuw inleveren.
 
-- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd, maar je programma zou vrijwel af moeten zijn, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
+- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd (geeft verkeerde uitkomst), maar je programma zou vrijwel af moeten zijn, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
 
 ## Deadline
 
