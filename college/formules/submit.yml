@@ -10,7 +10,10 @@ files:
         formules.py: |
             # Schrijf hieronder al je formules uit als Python-functies.
             # Een voorbeeld is al gegeven. Begin bij het aanvullen van
-            # derde_macht
+            # de functie `derde_macht`.
+            
+            # Let op: gebruik de knop "Run doctest" om je code uit te
+            # proberen.
             
             def kwadraat(a):
                 """
@@ -22,7 +25,7 @@ files:
                 625
                 """
                 return a * a
-
+            
             def derde_macht(a):
                 """
                 >>>
