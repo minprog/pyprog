@@ -1,6 +1,6 @@
 # Formules
 
-[Ga naar de tentamen-editor] om de opdracht Formules te maken.
+[Ga naar de tentamen-editor](/exams) om de opdracht Formules te maken.
 
 Tijdens het werken wordt alles automatisch opgeslagen op deze website en is in te zien door je docent.
 
