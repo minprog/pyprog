@@ -38,7 +38,7 @@ templates:
         subgrades:
             aanwezig: boolean
             werkblad: boolean
-        calculation: (aanwezig+werkblad)/2
+        calculation: -((aanwezig+werkblad).abs/2)
         hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
