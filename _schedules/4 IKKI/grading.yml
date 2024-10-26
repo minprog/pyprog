@@ -33,6 +33,12 @@ templates:
             done: boolean
         calculation: done
         hide_calculated: true
+    5: &werkcollege
+        type: pass
+        subgrades:
+            aanwezig: boolean
+        calculation: aanwezig
+        hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -138,7 +144,7 @@ grades:
             punten: float
         calculation: punten / 20.0 * 9 + 1
 
-    werkcollege_1: *check
+    werkcollege_1: *werkcollege
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
