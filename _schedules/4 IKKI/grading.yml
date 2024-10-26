@@ -37,7 +37,8 @@ templates:
         type: pass
         subgrades:
             aanwezig: boolean
-        calculation: aanwezig
+            werkblad: boolean
+        calculation: (aanwezig+werkblad)/-2
         hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
