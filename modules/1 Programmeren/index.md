@@ -2,6 +2,8 @@
 
 Dit is het overzicht voor week 1 van de 8-weekse cursus Programmeren in Python. We gaan meteen aan de slag met code schrijven! Het wordt pittig, maar we hebben gestructureerde activiteiten om goed te beginnen, en veel ruimte om vragen te stellen tijdens de colleges.
 
+We werken nu toe naar het tentamen dat in week 4 plaatsvindt. Module 1 t/m 3 helpen je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te leren en niet om te scoren.
+
 ## Onderwerpen
 
 Goed, tijd om te programmeren! Je gaat heel snel aan de slag met het uitpuzzelen van echte programmeerproblemen, maar we bouwen ook stap voor stap je kennis op van de ideeën die aan het programmeren ten grondslag liggen.
