@@ -2,7 +2,7 @@ Welkom:
     Lees de studiewijzer alvast even door: /syllabus
 
 Mod 1 Programmeren:
-    Overzicht: /modules/programmeren
+    Overzicht en beoordeling: /modules/programmeren
     Werkcollege:
         Formules: /college/formules
         Installatie: /installatie-pulsar
@@ -22,7 +22,7 @@ Mod 1 Programmeren:
         Priemgetallen: '/challenges/priemgetallen'
 
 Mod 2 Herhaling:
-    Overzicht: /modules/herhaling
+    Overzicht en beoordeling: /modules/herhaling
     Werkcollege:
         Herhaal [TBD]: /opdrachten/loops/herhaal
     While-loops:
@@ -38,7 +38,7 @@ Mod 2 Herhaling:
         Monopoly: /challenges/monopoly
 
 Mod 3 Strings:
-    Overzicht: /modules/strings
+    Overzicht en beoordeling: /modules/strings
     # Werkcollege:
     #     Str meth [boek?]: /opdrachten/strings/string_methods
     #     Debugging: /oefeningen/debug
@@ -51,7 +51,7 @@ Mod 3 Strings:
         camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
 
 Mod 4 Lists:
-    Overzicht: /modules/lists
+    Overzicht en beoordeling: /modules/lists
     # Werkcollege:
     #     Functies met lijsten: /opdrachten/lists/list_functions
     Opdrachten:
@@ -64,7 +64,7 @@ Mod 4 Lists:
         Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
 
 Mod 5 Collections:
-    Overzicht: /modules/collections
+    Overzicht en beoordeling: /modules/collections
     Opdrachten:
         Schuifpuzzel: /opdrachten/week5/schuifpuzzel
         Algorithms: /opdrachten/week5/algorithms
@@ -74,7 +74,7 @@ Mod 5 Collections:
         Klimaat: /opdrachten/data/klimaat
 
 Mod 6 Classes:
-    Overzicht: /modules/classes
+    Overzicht en beoordeling: /modules/classes
     Videocollege: /objects/lecture
     Opdrachten:
         Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
@@ -90,7 +90,7 @@ Mod 6 Classes:
         Figuren: /opdrachten/oud/figuren
 
 Mod 7 Data:
-    Overzicht: /modules/dataverwerking
+    Overzicht en beoordeling: /modules/dataverwerking
     Opdrachten: ''
     Challenge:
         Adventure [tbd]: ''
