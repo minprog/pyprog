@@ -1,5 +1,7 @@
 # Weken
 
+> **Studeertip.** Zorg dat je het boek t/m hoofdstuk 3 hebt doorgenomen voordat je aan de programmeeropdrachten begint.
+
 In deze en volgende opdrachten ga je vooral veel kleine functies maken waarin een berekening wordt gedaan. De opdrachten bouwen op elkaar voort en herhalen veel. We starten met deze opdracht waar je bijna alles cadeau krijgt, dus het is vooral de instructies volgen.
 
 ## Opdracht

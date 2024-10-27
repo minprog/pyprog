@@ -1,5 +1,7 @@
 # Acid test
 
+> **Studeertip.** Zorg dat je het boek t/m hoofdstuk 4.3 hebt doorgenomen voordat je aan de programmeeropdrachten over conditionals begint.
+
 Vanaf nu zul je `if`-statements gaan gebruiken in de programma's. Deze opdracht is een oefening om in te komen. De logica is grotendeels gegeven, maar de structurering moet jij doen.
 
 ## Opdracht
