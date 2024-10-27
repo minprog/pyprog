@@ -34,7 +34,7 @@ Een mislukte installatie is géén reden voor een uitzondering op deadlines!
 
 ## Een editor
 
-1. Download de Pulsar editor en installeer volgens de instructies.
+1. Download de [Pulsar editor](https://pulsar-edit.dev) en installeer volgens de instructies.
 
 2. Maak **altijd** een speciale directory om aan je Python-opdrachten te werken, liefst een directory die automatisch wordt gebackupt (Dropbox, Surfdrive, Onedrive, enz.).
 
