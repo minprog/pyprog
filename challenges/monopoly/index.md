@@ -19,7 +19,7 @@ minimaliseren van de kans dat je failliet gaat. Of een mix van die scenario's.
 
 In deze module gaan we een simpel voorbeeld doorrekenen: Monopoly met twee
 spelers, waarbij we stap voor stap meer complexiteit toevoegen. Voor degene die
-de smaak te pakken heeft en nu al droomt van een baan op de risico-analyse-divisie van JP Morgan hebben we nog wat suggesties voor extra opgaves gemaakt. Je kunt trouwens wiskunde gebruiken om Monopoly slimmer te spelen, door bijvoorbeeld te berekenen waar je het beste geld aan uit kan geven. [Deze video van Stand-up maths](https://www.youtube.com/watch?v=ubQXz5RBBtU&pp=ygUUbnVtcGVycGhpbGUgbW9ub3BvbHk%3D) legt uit hoe.
+de smaak te pakken heeft en nu al droomt van een baan op de risico-analyse-divisie van JP Morgan hebben we nog wat suggesties. Je kunt trouwens wiskunde gebruiken om Monopoly slimmer te spelen, door bijvoorbeeld te berekenen waar je het beste geld aan uit kan geven. [Deze video van Stand-up maths](https://www.youtube.com/watch?v=ubQXz5RBBtU&pp=ygUUbnVtcGVycGhpbGUgbW9ub3BvbHk%3D) legt uit hoe.
 
 Twee dingen om alvast te weten voor je aan deze opdracht begint:
 
@@ -40,8 +40,8 @@ Schrijf een programma dat een groot aantal potjes van een vereenvoudigde versie 
 
 ### Achtergrond
 
-We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en hem straten laten kopen. We spelen in de zogenaamde Trump-mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
-waarna alle straten zijn verkocht.
+We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten lopen en straten laten kopen. We spelen in de zogenaamde Trump-mode. De speler heeft oneindig veel geld, er is geen concurrentie. Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
+waarna *alle* straten zijn gekocht.
 
 
 ### Specificatie
@@ -221,8 +221,7 @@ Zorg tot slot dat de functie `simuleer_groot_aantal_potjes_monopoly(aantal_potje
 
 ### Testen
 
-Lever je opdracht nu in om de tussenresultaten te checken.
-
+Lever je opdracht nu in om de tussenresultaten te checken. Maak voor het inleveren alvast een lege file `monopoly_realistisch.py`. Deze ga je pas later gebruiken maar het is noodzakelijk deze alvast in te leveren.
 
 ## Opdracht 2: Startgeld toevoegen
 
