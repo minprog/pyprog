@@ -37,7 +37,7 @@ Mod 2 Herhaling:
         Temperatuurᵛ: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
         Kalenderᵛ: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
     Challenge:
-        TBD [TBD]: ''
+        Monopoly: /challenges/monopoly
 
 Mod 3 Strings:
     Overzicht: /modules/strings
