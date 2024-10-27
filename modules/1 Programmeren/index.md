@@ -38,7 +38,7 @@ Later in de week is er ook een laptopcollege. Deze bijeenkomst is verplicht, net
 
 Tijdens het werkcollege en het laptopcollege ga je al veel tijd besteden aan oefenen. Daarnaast ga je deze week flink wat tijd steken in het boek, om de theorie goed te begrijpen. En er zijn diverse programmeeropdrachten om te oefenen met "problem solving".
 
-### Functies, input, output en epxressies
+### Functies, input, output en expressies
 
 Lees het boek van de inleiding tot en met hoofdstuk 3. Doe de oefeningen bij elk onderwerp! Deze zijn wezenlijk onderdeel van de cursus. Daarna ga je de volgende opdrachten doen.
 
