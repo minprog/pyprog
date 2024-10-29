@@ -70,85 +70,91 @@ templates:
 
 grades:
     # module 1
-    experimenteren: *check
-    fdr: *automatic
     weken: *automatic
+    water: *automatic
+    binair: *automatic
     cafeine: *automatic
     vakantie: *automatic
 
-    # simulaties
-    populatie: *automatic
-    sjoelen: *automatic
-    prisoners: *check
-    birthdays: *check
-
-    # module 2
-    string_func: *automatic
     acid: *automatic
     orakel: *automatic
-    etenstijd: *automatic
-    calculator: *automatic
+    byte: *automatic
+    rechthoeken: *automatic
+
+    priem_getal: *check
+
+    # module 2
+    cola: *automatic
+    greedy: *automatic
+    raadspel: *automatic
+    populatie: *automatic
+
+    piramide: *automatic
+    temperatuur: *automatic
+    kalender: *automatic
+
+    monopoly: *check
 
     # module 3
     string_module: *automatic
     string_methods: *automatic
-    rechthoeken: *automatic
+
+    etenstijd: *automatic
+    calculator: *automatic
     wachtwoord: *automatic
-
-    # module 4
-    list_functions: *automatic
-    scrabble: *automatic
-    cola: *automatic
-    temperatuur: *automatic
-
-    # module 5
     rna: *automatic
     leesbaarheid: *automatic
     camelcase: *automatic
 
-    # module 6
+    # module 4
+    list_functions: *automatic
+
+    scrabble: *automatic
+    selection_sort: *automatic
+    special_sort: *automatic
+    sjoelen: *automatic
     schuifpuzzel: *automatic
-    kalender: *automatic
 
-    # module 7
-
-    # module 8
-    kunstroof: *check
-    recursie: *check
-    comprehensions: *automatic
     virus: *automatic
 
-    # module 9
-    dict_oefening: *automatic
-    set_oefening: *automatic
-    collection_functions: *automatic
-
-    # module 10
-    collection_functions2: *automatic
+    # module 5
     indexer: *automatic
 
-    # module 10
-    algorithms: *check
+    eca2csv: *automatic
+    klimaat: *automatic
 
-    # module 11
+    # module 6
     queue: *automatic
     cards: *automatic
     country: *automatic
     lines: *automatic
     war: *check
-
-    # module 12
     hangman: *automatic
     hangman-less: *automatic
-
-    # module 13
     knapsack: *check
+    lisp: *automatic
+    lisp2: *automatic
+    figuren: *automatic
 
-    # module 14
-    eca2csv: *automatic
-    klimaat: *automatic
+    # module 7
+
+
+
+    # overige
+
+    prisoners: *check
+    birthdays: *check
+    kunstroof: *check
+    recursie: *check
+    comprehensions: *automatic
+
+    dict_oefening: *automatic
+    set_oefening: *automatic
+    collection_functions: *automatic
+
+    collection_functions2: *automatic
+
+    algorithms: *check
 
     pygame: *check
     project: *check
-
-    oefententamen: *automatic
