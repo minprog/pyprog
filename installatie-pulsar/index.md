@@ -19,7 +19,7 @@ Ga naar onze installatiehulp om stap-voor-stap begeleiding te krijgen.
 
 <https://chatgpt.com/g/g-muT6gPRxL-python-kickstarter>
 
-
+(Deze chat lijkt niet te werken in de dekstop GPT app. Kopieer de link eventueel in je browser om 'm daar te gebruiken.)
 
 ## Python
 
