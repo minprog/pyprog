@@ -94,7 +94,7 @@ grades:
             punten: float
         calculation: punten / 20.0 * 9 + 1
 
-    hertentamen_ik:
+    hertentamen_inf4all:
         type: float
         deadline: 30/01/24 22:00
         deadline_hard: true
@@ -124,7 +124,7 @@ calculation:
         tentamen_inf4all: 75
     eindcijfer_herkansing_inf4all:
         code_reviews: 25
-        hertentamen_ik: 75
+        hertentamen_inf4all: 75
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -154,7 +154,7 @@ code_reviews:
         r3: 1
 
 mod_programmeren:
-    show_overview: true
+    show_progress: true
     deadline: 19/9/24 17:00
     submits:
         weken: 1
@@ -165,7 +165,7 @@ mod_programmeren:
         # rechthoeken: 1
 
 mod_herhaling:
-    show_overview: true
+    show_progress: true
     deadline: 3/10/24 17:00
     submits:
         cola: 1
@@ -175,7 +175,7 @@ mod_herhaling:
         sjoelen: 1
 
 mod_strings:
-    show_overview: true
+    show_progress: true
     deadline: 17/10/24 17:00
     submits:
         etenstijd: 1
@@ -186,18 +186,19 @@ mod_strings:
         camelcase: 1
 
 mod_lists:
-    show_overview: true
+    show_progress: true
     deadline: 31/10/24 17:00
     submits:
         scrabble: 1
-        comprehensions: 1
+        selection_sort: 1
+        special_sort: 1
+        schuifpuzzel: 1
         virus: 1
 
 mod_collections:
     show_overview: true
     deadline: 14/11/24 17:00
     submits:
-        schuifpuzzel: 1
         algorithms: 1
         indexer: 1
 
