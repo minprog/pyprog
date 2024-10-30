@@ -43,6 +43,7 @@ Mod 3 Strings:
     #     Str meth [boek?]: /opdrachten/strings/string_methods
     #     Debugging: /oefeningen/debug
     Opdrachten:
+        Alfabet: /opdrachten/strings/alfabet
         Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
         Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
         Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str (iter?)

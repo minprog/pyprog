@@ -1,11 +1,11 @@
 # Raadspel
 
 "Getal onder de tien" is misschien wel een van de meest gespeelde spellen om keuzes te maken voor kinderen. Het is echter wel een spel waar je minstens twee mensen voor nodig hebt: degene die het getal weet en degene die het raadt.
-Stel nou je hebt zin om dit in je eentje te spelen, dan is een computer natuurlijk de perfecte medespeler! Maar waarom ophouden bij 10, dit kan je natuurlijk ook doen tot 100 of 5843!
+Stel nou je hebt zin om dit in je eentje te spelen, dan is een computer natuurlijk de perfecte medespeler ;-) En bovendien: waarom ophouden bij 10, dit kan je natuurlijk ook doen tot 100 of 5843!
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `raadspel.py`, een programma dat de gebruiker vraagt om een getal tussen 1 en een zelfgekozen level. Blijf getallen vragen totdat de gebruiker het goede getal heeft geraden.
+Schrijf, in een bestand genaamd `raadspel.py`, een programma dat de gebruiker vraagt om een getal tussen 1 en een zelfgekozen "level". Blijf getallen vragen totdat de gebruiker het goede getal heeft geraden.
 
 * Vraag als eerst de gebruiker om een level, als een negatief level wordt ingevoerd (of 0) prompt dan voor een nieuw level.
 * Genereer een getal tussen 1 en het level dat de gebruiker moet raden. Hierbij mogen 1 en het level ook gekozen worden.
@@ -33,7 +33,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     if __name__ == '__main__':
         <Vraag de gebruiker om een (valide) level, kies een getal, laat de gebruiker gokken totdat de gok correct is.>
 
-## Tips
+## Tip
 
 * Je moet de gebruiker zo lang laten gokken als nodig is, maar elke gok van de gebruiker moet wel valide zijn. Dit kan resulteren in het gebruik van een loop in een loop.
 
@@ -65,13 +65,3 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
     Je gok is te groot!
     Gok: 8
     Je hebt het getal goed geraden, gefeliciteerd!
-
-## Insturen
-
-Hoeveel tijd heb je gewerkt aan deze opdracht?
-
-<input name="form[qTime]" type="text" required>
-
-Waren er nog dingen waar je op vastliep of heb je specifieke feedback voor deze opdracht?
-
-<textarea name="form[qVastlopers]">
