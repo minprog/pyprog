@@ -225,8 +225,8 @@ tentamen_inf4all:
     submits:
         tentamen_inf4all: 1
 
-hertentamen_ik:
+hertentamen_inf4all:
     show_overview: true
     minimum: 5.5
     submits:
-        hertentamen_ik: 1
+        hertentamen_inf4all: 1
