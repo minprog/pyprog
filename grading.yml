@@ -99,6 +99,7 @@ grades:
     string_module: *automatic
     string_methods: *automatic
 
+    alfabet: *automatic
     etenstijd: *automatic
     calculator: *automatic
     wachtwoord: *automatic

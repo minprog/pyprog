@@ -178,6 +178,7 @@ mod_strings:
     show_progress: true
     deadline: 17/10/24 17:00
     submits:
+        alfabet: 1
         etenstijd: 1
         calculator: 1
         wachtwoord: 1
