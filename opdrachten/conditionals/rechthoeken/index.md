@@ -16,16 +16,20 @@ Met hulp van de coordinaten Ay1 en Ay2 kun je de andere zijde berekenen van die 
 ## Opdracht
 
     $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7
-    Geef de y-coordinaten van A: 0,4
-    Geef de x-coordinaten van B: 6,13
-    Geef de y-coordinaten van B: 2,6
+    Geef de x1 van A: 0
+    Geef de x2 van A: 7
+    Geef de y1 van A: 0
+    Geef de y2 van A: 4
+    Geef de x1 van B: 6
+    Geef de x2 van B: 13
+    Geef de y1 van B: 2
+    Geef de y2 van B: 6
     De rechthoeken zijn gelijk!
 
 Schrijf, in een bestand genaamd `rechthoeken.py`, een programma dat op basis van de gegeven coördinaten bepaalt of twee rechthoeken dezelfde afmetingen hebben.
 Het is daarnaast mogelijk dat de rechthoeken ook vierkanten zijn van dezelfde afmetingen, en in dat geval moet dat ook gemeld worden.
 Mocht er helemaal niks interessants te melden zijn over de rechthoeken dan melden we dat maar.
-Je mag ervan uitgaan dat de gebruiker gehele getallen invoert per paar. Met bovenstaande invoer geeft de gebruiker aan dat Ax1 = 0 en Ax2 = 7.
+Je mag ervan uitgaan dat de gebruiker gehele getallen invoert.
 
 ## Code
 
@@ -62,25 +66,38 @@ Zoals je kan zien staan er twee TODO's in. De bedoeling is dat de functies één
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7
-    Geef de y-coordinaten van A: 0,4
-    Geef de x-coordinaten van B: 6,13
-    Geef de y-coordinaten van B: 2,6
+    Geef de x1 van A: 0
+    Geef de x2 van A: 7
+    Geef de y1 van A: 0
+    Geef de y2 van A: 4
+    Geef de x1 van B: 6
+    Geef de x2 van B: 13
+    Geef de y1 van B: 2
+    Geef de y2 van B: 6
+
     De rechthoeken zijn gelijk!
 
     $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7       
-    Geef de y-coordinaten van A: 0,7
-    Geef de x-coordinaten van B: 6,13
-    Geef de y-coordinaten van B: 2,9
+    Geef de x1 van A: 0
+    Geef de x2 van A: 7
+    Geef de y1 van A: 0
+    Geef de y2 van A: 7
+    Geef de x1 van B: 6
+    Geef de x2 van B: 13
+    Geef de y1 van B: 2
+    Geef de y2 van B: 9
     De rechthoeken zijn gelijk!
     En ze zijn ook nog vierkant!
 
     $ python rechthoeken.py
-    Geef de x-coordinaten van A: 0,7
-    Geef de y-coordinaten van A: 0,7
-    Geef de x-coordinaten van B: 6,15
-    Geef de y-coordinaten van B: 2,9
+    Geef de x1 van A: 0
+    Geef de x2 van A: 7
+    Geef de y1 van A: 0
+    Geef de y2 van A: 7
+    Geef de x1 van B: 6
+    Geef de x2 van B: 15
+    Geef de y1 van B: 2
+    Geef de y2 van B: 9
     Er is niks aan :(
 
 ## Zelf testen
