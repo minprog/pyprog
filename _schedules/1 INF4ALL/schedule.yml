@@ -50,8 +50,13 @@ Mod 4 Lists:
 Mod 5 Collections:
     Overzicht: /modules/collections
     Opdrachten:
-        Algorithms: /opdrachten/week5/algorithms
-        Indexer: /opdrachten/week5/indexer
+        Collections: /opdrachten/collections/collection_functions
+        # Algorithms: /opdrachten/week5/algorithms
+        Indexer: /opdrachten/collections/indexer
+        Big-O: /opdrachten/collections/big-o
+    Project:
+        Preprocessing: /opdrachten/data/eca2csv          # deze gaat weg
+        Klimaat: /opdrachten/data/klimaat
 
 Mod 6 Classes:
     Overzicht: /modules/classes
