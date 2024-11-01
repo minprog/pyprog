@@ -1,0 +1,4 @@
+name: big-o
+files:
+    required:
+        - questions.txt
