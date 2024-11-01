@@ -1,0 +1,13 @@
+name: werkcollege_2
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+files:
+    required:
+        loops.py: |
+            # Schrijf hieronder al je loops.
+            # Let op: gebruik de knop "Run doctest" om je code uit te
+            # proberen.

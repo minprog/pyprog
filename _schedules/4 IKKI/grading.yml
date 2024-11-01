@@ -107,6 +107,7 @@ grades:
         calculation: punten / 20.0 * 9 + 1
 
     werkcollege_1: *werkcollege
+    werkcollege_2: *werkcollege
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -161,6 +162,7 @@ werkcolleges:
     show_progress: true
     submits:
         werkcollege_1: 1
+        werkcollege_2: 1
 
 module_1:
     show_progress: true
