@@ -24,7 +24,7 @@ Mod 1 Programmeren:
 Mod 2 Herhaling:
     Overzicht en beoordeling: /modules/herhaling
     Werkcollege:
-        Loops: /opdrachten/college/loops
+        Loops: /college/loops
     While-loops:
         Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
         Greedyᵛ: /opdrachten/loops/greedy
