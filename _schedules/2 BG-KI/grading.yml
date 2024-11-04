@@ -88,6 +88,8 @@ grades:
         type: check
     tentamen_bg:
         type: float
+    tentamen2_bg:
+        type: float
     hertentamen_bg:
         type: float
 
@@ -213,7 +215,7 @@ tentamen:
     minimum: 5.5
     attempt_required: true
     submits:
-        tentamen_bg: 1
+        tentamen2_bg: 1
 
 hertentamen:
     show_overview: true

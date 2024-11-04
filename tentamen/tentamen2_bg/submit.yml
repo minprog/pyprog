@@ -1,0 +1,21 @@
+name: tentamen2_bg
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+    Run typecheck: |
+        from mypy import api as mypy_api
+        mypy_api.run(['--strict', '<filename>.py'])[0]
+files:
+    required:
+        listco.py: ''
+        collty.py: |
+            scrabble_points = {
+                'a': 1, 'b': 3, 'c': 5, 'd': 2, 'e': 1, 'f': 4, 'g': 3, 'h': 4, 'i': 2, 'j': 4,
+                'k': 3, 'l': 3, 'm': 3, 'n': 1, 'o': 1, 'p': 3, 'q': 10, 'r': 2, 's': 2, 't': 2,
+                'u': 4, 'v': 4, 'w': 5, 'x': 8, 'y': 8, 'z': 4}
+        raden.py: ''
+        bieb.py: ''
+        kladje.py: ''
