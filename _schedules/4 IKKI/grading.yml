@@ -180,7 +180,7 @@ module_1:
         priem_getal: 1
 
 module_2:
-    # show_progress: true
+    show_progress: true
     deadline: 10/11/24 17:00
     submits:
         cola: 1
