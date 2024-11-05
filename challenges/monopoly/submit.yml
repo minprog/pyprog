@@ -6,4 +6,4 @@ files:
 check:
     tool: checkpy
     repo: uva/progns
-    args: -m monopoly
+    args: monopoly monopoly_realistisch
