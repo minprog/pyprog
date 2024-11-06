@@ -1,5 +1,7 @@
 # Piramide
 
+> **Let op.** Deze opdracht is op woensdag 6 november nog aangepast. Als je 'm al helemaal gedaan had dan heb je mogelijk een `*` gebruikt om strings te "vermenigvuldigen". Dit zit echter pas volgende week in de cursus. Deze week is loopen het onderwerp en we willen graag dat je loops gebruikt als je meerdere tekens achter elkaar wil printen. Zie de aanwijzingen hieronder. Het is niet verplicht om je opdracht nog aan te passen maar het is wel de beste oefening om dit alsnog te doen.
+
 Implementeer een programma dat een halve piramide uitprint van een door de gebruiker gegeven hoogte.
 
 	Hoe hoog moet de piramide zijn? 5
