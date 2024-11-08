@@ -5,7 +5,7 @@ Aan deze wachtwoorden zitten vaak eisen om te zorgen dat ze niet te makkelijk te
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `wachtwoord.py`, een programma dat de gebruiker vraagt voor een wachtwoord en laat weten of het wachtwoord voldoet aan de eisen. Het wachtwoord moet minimaal voldoen aan de volgende eisen:
+Schrijf, in een bestand genaamd `wachtwoord.py`, een programma dat de gebruiker vraagt om een wachtwoord en laat weten of het wachtwoord voldoet aan de eisen. Het wachtwoord moet minimaal voldoen aan de volgende eisen:
 
 * Het moet minstens een hoofdletter en een kleine letter bevatten
 * Het moet 8 karakters bevatten

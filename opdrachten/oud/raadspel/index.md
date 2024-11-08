@@ -49,7 +49,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 -   Je moet de gebruiker zo lang laten gokken als nodig is, maar elke gok van de gebruiker moet wel valide zijn (dus bijvoorbeeld niet 13 als het level 10 is). Dit kan resulteren in het gebruik van een loop in een loop!
 
--   Doctests voor `decide_number()` zijn al  gegeven. Doctesten van random-functies zijn ingewikkelder om  te maken,  daarom  hier de benodigde doctests bijgeleverd.
+-   Doctests voor `decide_number()` zijn al  gegeven. Doctesten van random-functies zijn ingewikkelder om  te maken, daarom zijn hier de benodigde doctests bijgeleverd.
 
     - De eerste doctest geeft als `level` het getal 1. Dat betekent dat de enige output van de functie ook het getal 1 kan zijn.
 
