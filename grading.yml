@@ -96,16 +96,16 @@ grades:
     monopoly: *check
 
     # module 3
-    string_module: *automatic
-    string_methods: *automatic
+    camelcase: *automatic
+    rna: *automatic
 
     alfabet: *automatic
     etenstijd: *automatic
     calculator: *automatic
     wachtwoord: *automatic
-    rna: *automatic
     leesbaarheid: *automatic
-    camelcase: *automatic
+
+    pwdgen: *check
 
     # module 4
     list_functions: *automatic
