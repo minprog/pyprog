@@ -6,15 +6,23 @@ Schrijf een programma `alfabet.py` dat van twee woorden bepaalt welke eerder in 
 
 - Vergelijk de woorden letter voor letter (dus in het eerste voorbeeld ga je eerst de `T` en de `L` vergelijken).
 
+- Er zijn drie opties voor de uitkomst van compare:
+
+    - Als woord1 eerder in het alfabet voorkomt dan is de uitkomst -1
+    - Als woord2 eerder in het alfabet voorkomt dan is de uitkomst 1
+    - Als de woorden gelijk zijn dan is de uitkomst 0
+
 - Het algoritme moet zo weinig mogelijk letters bekijken, en zo snel mogelijk de conclusie trekken welk woord eerder komt.
 
-- Je mag dus niet eerst de hele strings lowercase maken of de hele strings vergelijken.
+    - Je mag dus niet eerst de hele strings lowercase maken of de hele strings vergelijken.
+
+- Print in `compare()` is niet toegestaan.
 
 ## Code
 
 Ontwerp je code zoals hieronder beschreven. Schrijf de docstring, doctests en het hoofdprogramma.
 
-    def comes_before(word1: str, word2: str) -> bool:
+    def compare(word1: str, word2: str) -> int:
         """
         
         """
