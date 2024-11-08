@@ -16,7 +16,7 @@ Zowel de start- als de eindpopulaties moeten als input worden gegeven door de ge
 
 * Voor dit programma moet je de gebruiker vragen naar de startpopulatie en eindpopulatie:
 
-    * De startpopulatie moet groter of gelijk zijn dan 9 (aangezien de groei anders erg snel stabiliseert). Als de gebruiker een waarde geeft die geen geheel getal is of kleiner dan 9, moet je de gebruiker vragen om een nieuw getal.
+    * De startpopulatie moet groter of gelijk zijn dan 9 (aangezien de groei anders erg snel stabiliseert). Als de gebruiker een waarde geeft die kleiner dan 9, moet je de gebruiker vragen om een nieuw getal.
 
     * De eindpopulatie moet groter zijn dan de startgrootte. Opnieuw geldt dat je de gebruiker moet vragen om een geldige input als een ongeldige input wordt gegeven.
 

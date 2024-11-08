@@ -9,10 +9,12 @@ natuurlijk ook doen tot 100 of 5843!
 
 Schrijf, in een bestand genaamd `raadspel.py`, een programma dat de gebruiker vraagt om een getal tussen 1 en een zelfgekozen "level". Blijf getallen vragen totdat de gebruiker het goede getal heeft geraden.
 
-* Vraag als eerst de gebruiker om een level. Dit moet een positief getal zijn: als 0 of hoger wordt ingevoerd vraag dan opnieuw.
+* Vraag als eerst de gebruiker om een level. Dit moet een positief getal zijn: als 0 of lager wordt ingevoerd vraag dan opnieuw.
+
 * Genereer een getal tussen 1 en het level dat de gebruiker moet raden. Hierbij mogen 1 en het level ook gekozen worden.
     * Zet bovenaan het programma `import random`
     * Gebruik de functie `random.randint(a, b)` om een willekeurig getal tussen `a` en `b` te kiezen
+
 * Geef de gebruiker een tip na het raden, tips die je mag geven zijn:
     * `Je gok is te groot!`
     * `Je gok is te klein!`
