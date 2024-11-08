@@ -33,7 +33,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
     def decide_number(level: int) -> int:
         """
         Kies een willekeurig getal tussen 1 en level.
-        
+
         >>> decide_number(1)
         1
         >>> decide_number(100) <= 100
@@ -49,11 +49,17 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 -   Je moet de gebruiker zo lang laten gokken als nodig is, maar elke gok van de gebruiker moet wel valide zijn (dus bijvoorbeeld niet 13 als het level 10 is). Dit kan resulteren in het gebruik van een loop in een loop!
 
--   Doctests voor `decide_number()` zijn al  gegeven. Doctesten van random-functies zijn ingewikkelder om  te maken,  daarom  hier de  benodigde  doctests bijgeleverd.  De gegeven doctests tonen niet helemaal aan dat de functie goed werkt, maar als je de doctests 100000 keer zou runnen en deze zou steeds akkoord geven dan is de kans wel heel groot dat de functie correct is!
+-   Doctests voor `decide_number()` zijn al  gegeven. Doctesten van random-functies zijn ingewikkelder om  te maken,  daarom  hier de benodigde doctests bijgeleverd.
+
+    - De eerste doctest geeft als `level` het getal 1. Dat betekent dat de enige output van de functie ook het getal 1 kan zijn.
+
+    - De andere twee doctests laten op twee verschillende manieren zien dat de uitkomt van de functie altijd tussen 1 en `level` moet zitten.
+
+    - De doctests tonen eigenlijk niet helemaal aan dat de functie goed werkt. Alleen  als je de doctests 100000 keer zou runnen en deze zou steeds akkoord geven dan is de kans wel heel groot dat de functie correct is!
 
 ## Voorbeelden
 
-Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder. 
+Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 
     $ python raadspel.py
     Level: 10
