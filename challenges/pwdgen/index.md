@@ -36,6 +36,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
+* In Python kun je `random.choice("abc")` aanroepen om random één van de letters a, b of c te kiezen. Hiervoor moet je bovenaan je programma `import random` hebben staan. Gebruik dit voorbeeld om losse tekens uit het wachtwoord te genereren.
+
 * Controleer visueel of de wachtwoorden echt aan de eisen voldoen. Ga daarna pas de entropie berekenen.
 
 * Zoek op hoe je de entropie van een string kunt berekenen en gebruik deze methode in je eigen programma. Als je code copy-paste, vermeld dan een bron (link) in een comment.
