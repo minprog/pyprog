@@ -53,4 +53,4 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
                 wordlist.append(new_word)
 
     Na uitvoeren van de code bevat de variabele `wordlist` de lijst van niet-toegestane woorden.
-    Zorg dat de file met woorden in dezelfde map staat als je Python-code.
+    Zorg dat de file met woorden in dezelfde map staat als je Python-code en dat deze precies `no_offense.txt` heet.
