@@ -40,7 +40,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 *   Controleer visueel of de wachtwoorden echt aan de eisen voldoen. Ga daarna pas de entropie berekenen.
 
-*   Zoek op hoe je de entropie van een string kunt berekenen en gebruik deze methode in je eigen programma. Als je code copy-paste, vermeld dan een bron (link) in een comment.
+*   Zoek op hoe je het aantal bits entropie van een string kunt berekenen en gebruik deze methode in je eigen programma. Als je code copy-paste, vermeld dan een bron (link) in een comment.
 
 *   "Offensive substrings" filteren is een vak apart. Gebruik hiervoor een losse file (tekstbestand) met op elke regel een offensive substring die niet mag voorkomen in een wachtwoord. Lees de file uit met de volgende code, die een lijst geeft met alle woorden. Check als onderdeel van `new_password` of één van die woorden niet voorkomt en begin opnieuw als het wel zo is.
 
