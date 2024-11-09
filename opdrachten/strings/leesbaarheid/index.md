@@ -53,9 +53,9 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-*  De maat `L` uit de index is: $$100 "aantal\_letters" / "aantal\_woorden"$$.
+*  De maat `L` uit de index is: $$100{{aantal\_letters} \over {aantal\_woorden}}$$.
 
-*  De maat `S` uit de index is: $$100 "aantal\_zinnen" / "aantal\_woorden"$$.
+*  De maat `S` uit de index is: $$100{{aantal\_zinnen} \over {aantal\_woorden}}$$.
 
 *  Beredeneer uit de voorbeelden hieronder hoe je definieert wat een "zin", een "woord" en een "letter" is. `You're` is 1 woord met 5 letters! Bedenk daarna hoe je in Python de tekst kunt analyseren om deze statistieken te bepalen.
 
