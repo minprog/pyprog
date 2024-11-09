@@ -1,5 +1,7 @@
 # Leesbaarheid
 
+> **Studeertip.** Je gaat deze opdracht aanzienlijk sneller en makkelijker maken als je de opdracht eerst helemaal leest voordat je aan de slag gaat.
+
 De Coleman-Liau index is een maat voor de leesbaarheid van een tekst.
 Dit gaat op basis van het Amerikaanse systeem waarin ze 'grades' gebruiken.
 Deze index wordt onder andere berekend op basis van het aantal letters per woord.
@@ -20,19 +22,30 @@ Schrijf, in een bestand genaamd `leesbaarheid.py`, een programma dat de leesbaar
 
 * Als de grade groter of gelijk is aan 16, geef dan `Grade 16+` als output. Print `Below Grade 1` als de grade kleiner is dan 1.
 
+* Je mag geen split gebruiken, maar je moet statistieken berekenen door te loopen over de string.
+
 ## Code
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
-    def calculate_grade(words: int, sentences: int, letters: int) -> int:
+    def calculate_grade(text: str) -> int:
         """
-        Berekent eerst de waarden L en S gebasseerd op het aantal
-        woorden en zinnen. Returnt de grade op basis van deze gegevens.
+        Bepaalt aantal letters, woorden en zinnen van de tekst,
+        en roept coleman_liau aan om grade te berekenen.
+        
+        >>> calculate_grade("One fish. Two fish. Red fish. Blue fish.")
+        
+        >>> calculate_grade("Congratulations! Today is your day. You're "
+        ...     "off to Great Places! You're off and away!")
+        
+        >>> calculate_grade("There are more things in Heaven and Earth, "
+        ...     "Horatio, than are dreamt of in your philosophy.")
+        
         """
 
-    def coleman_liau(L: float, S: float) -> float:
+    def coleman_liau(words: int, sentences: int, letters: int) -> int:
         """
-        Berekent de index (CLI) volgens de Coleman Liau-formule.
+        Berekent de index volgens de Coleman Liau-formule.
         """
 
     if __name__ == '__main__':
@@ -40,9 +53,9 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
 ## Tips
 
-*  De maat `L` uit de index is: aantal\_letters ÷ aantal\_woorden ⨉ 100.
+*  De maat `L` uit de index is: $$100 "aantal\_letters" / "aantal\_woorden"$$.
 
-*  De maat `S` uit de index is: aantal\_zinnen ÷ aantal\_woorden ⨉ 100.
+*  De maat `S` uit de index is: $$100 "aantal\_zinnen" / "aantal\_woorden"$$.
 
 *  Beredeneer uit de voorbeelden hieronder hoe je definieert wat een "zin", een "woord" en een "letter" is. `You're` is 1 woord met 5 letters! Bedenk daarna hoe je in Python de tekst kunt analyseren om deze statistieken te bepalen.
 
