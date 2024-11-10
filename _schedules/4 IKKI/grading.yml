@@ -109,6 +109,7 @@ grades:
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
     werkcollege_3: *werkcollege
+    werkcollege_4: *werkcollege
     tentamen_oefening_w2: *werkcollege
 
 # CALCULATIONS - define the final grades for the course and the weights between

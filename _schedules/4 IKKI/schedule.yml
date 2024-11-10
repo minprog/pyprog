@@ -39,8 +39,6 @@ Mod 2 Herhaling:
 
 Mod 3 Strings:
     Overzicht en beoordeling: /modules/strings
-    # Werkcollege:
-    #     Str meth [boek?]: /opdrachten/strings/string_methods
     #     Debugging: /oefeningen/debug
     Werkcollege:
         Strings: /college/strings
@@ -58,8 +56,8 @@ Mod 3 Strings:
 
 Mod 4 Lists:
     Overzicht en beoordeling: /modules/lists
-    # Werkcollege:
-    #     Functies met lijsten: /opdrachten/lists/list_functions
+    Werkcollege:
+        Lists: /college/lists
     Opdrachten:
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Selection sort: /opdrachten/lists/selection
@@ -95,11 +93,7 @@ Mod 6 Classes:
         Lisp: /opdrachten/oud/lisp
         Lisp2: /opdrachten/oud/lisp2
         Figuren: /opdrachten/oud/figuren
-
-Mod 7 Data:
-    Overzicht en beoordeling: /modules/dataverwerking
-    Opdrachten: ''
-    Challenge:
+    Project:
         Adventure [tbd]: ''
 
 # Module 3:
