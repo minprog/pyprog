@@ -1,0 +1,14 @@
+name: werkcollege_5
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+files:
+    required:
+        lists.py: |
+            # Schrijf hieronder al je collection-functies.
+            # Elke functie moet 2 doctests hebben.
+            # Let op: gebruik de knop "Run doctest" om je code uit te
+            # proberen.
