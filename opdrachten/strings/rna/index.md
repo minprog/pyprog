@@ -34,9 +34,9 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         Accepteert zowel hoofd- als kleine letters.
         """
 
-    def transcribe_dna_to_rna(dna_list: list[str]) -> list[str]:
+    def transcribe_dna_to_rna(dna_list: str) -> str:
         """
-        Schrijft een lijst met DNA-elementen om naar een lijst met
+        Schrijft een string met DNA-elementen om naar een string met
         RNA-elementen (als hoofdletters).
         """
 
