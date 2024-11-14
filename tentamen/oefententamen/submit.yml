@@ -32,7 +32,7 @@ buttons:
 
             return msg
         with open('<filename>.py') as f:
-            code = f.readlines()
+            code = f.read()
         res = find_forbidden(code)
         if res:
             print(res)
