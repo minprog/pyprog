@@ -2,7 +2,7 @@ name: oefententamen
 exam: true
 files:
     required:
-        - oefententamen.py
+        oefententamen.py: ''
 buttons:
     Check: |
         def find_forbidden(src: str) -> str | None:
