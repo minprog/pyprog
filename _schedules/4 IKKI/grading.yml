@@ -171,6 +171,7 @@ werkcolleges:
         werkcollege_1: 1
         werkcollege_2: 1
         werkcollege_3: 1
+        werkcollege_4: 1
 
 module_1:
     show_progress: true
