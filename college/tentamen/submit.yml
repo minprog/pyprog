@@ -37,7 +37,7 @@ buttons:
         if res:
             print(res)
         else:
-            print("Geen string methodes of slicing gevonden.\nLet zelf op eventuele andere dingen die niet mogen.")
+            print("Geen string methodes of slicing gevonden (goed!).\nLet zelf op eventuele andere dingen die niet mogen.")
     Run doctest: |
         import <filename>
         import doctest
