@@ -2,7 +2,7 @@ name: tentamen_ki
 exam: true
 files:
     required:
-        tentamen.py: ''
+        tentamen.py: '# LET OP DIT IS HET TENTAMEN VOOR KI, GA TERUG ALS JE INFORMATIEKUNDE STUDEERT'
 buttons:
     Check: |
         def find_forbidden(src: str) -> str | None:

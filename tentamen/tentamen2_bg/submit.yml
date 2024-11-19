@@ -10,7 +10,7 @@ buttons:
         mypy_api.run(['--strict', '<filename>.py'])[0]
 files:
     required:
-        listco.py: ''
+        listco.py: '# LET OP DIT IS VOOR TENTAMEN BETA_GAMMA, GA TERUG ALS JE IK OF KI STUDEERT'
         collty.py: |
             scrabble_points = {
                 'a': 1, 'b': 3, 'c': 5, 'd': 2, 'e': 1, 'f': 4, 'g': 3, 'h': 4, 'i': 2, 'j': 4,
