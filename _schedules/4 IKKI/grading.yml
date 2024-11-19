@@ -79,15 +79,11 @@ grades:
 
     tentamen_ik:
         type: float
-        deadline: 21/12/23 17:00
-        deadline_hard: true
         subgrades:
             punten: float
         calculation: punten / 20.0 * 9 + 1
     tentamen_ki:
         type: float
-        deadline: 21/12/23 17:00
-        deadline_hard: true
         subgrades:
             punten: float
         calculation: punten / 20.0 * 9 + 1
