@@ -236,13 +236,13 @@ module_3:
 #         klimaat: 1
 
 tentamen_ki:
-    # show_overview: true
+    show_overview: true
     minimum: 5.5
     submits:
         tentamen_ki: 1
 
 tentamen_ik:
-    # show_overview: true
+    show_overview: true
     minimum: 5.5
     submits:
         tentamen_ik: 1
