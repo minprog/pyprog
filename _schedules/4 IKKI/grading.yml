@@ -46,7 +46,7 @@ templates:
             voldoende: boolean
         automatic:
             voldoende: -(correctness_score.floor)
-        calculation: done
+        calculation: voldoende
         hide_calculated: true
 
 
