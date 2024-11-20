@@ -40,6 +40,15 @@ templates:
             werkblad: boolean
         calculation: -((aanwezig+werkblad).abs/2)
         hide_calculated: true
+    6: &tentamen
+        type: pass
+        subgrades:
+            voldoende: boolean
+        automatic:
+            voldoende: -(correctness_score.floor)
+        calculation: done
+        hide_calculated: true
+
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -77,30 +86,10 @@ templates:
 
 grades:
 
-    tentamen_ik:
-        type: float
-        subgrades:
-            punten: float
-        calculation: punten / 20.0 * 9 + 1
-    tentamen_ki:
-        type: float
-        subgrades:
-            punten: float
-        calculation: punten / 20.0 * 9 + 1
-    hertentamen_ik:
-        type: float
-        deadline: 30/01/24 22:00
-        deadline_hard: true
-        subgrades:
-            punten: float
-        calculation: punten / 20.0 * 9 + 1
-    hertentamen_ki:
-        type: float
-        deadline: 30/01/24 22:00
-        deadline_hard: true
-        subgrades:
-            punten: float
-        calculation: punten / 20.0 * 9 + 1
+    tentamen_ik: *tentamen
+    tentamen_ki: *tentamen
+    hertentamen_ik: *tentamen
+    hertentamen_ki: *tentamen
 
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
