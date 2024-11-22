@@ -54,7 +54,11 @@ Mod 3 Strings:
     Challenge:
         Wachtwoord-generator: /challenges/pwdgen
 
-Mod 4 Lists:
+Mod 4 Tentamen:
+    Werkcollege:
+        Oefententamen: /college/tentamen
+
+Mod 5 Lists:
     Overzicht en beoordeling: /modules/lists
     Werkcollege:
         Lists: /college/lists
@@ -67,7 +71,7 @@ Mod 4 Lists:
     Project:
         Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
 
-Mod 5 Collections:
+Mod 6 Collections:
     Overzicht en beoordeling: /modules/collections
     Werkcollege:
         Collections: /college/collections
@@ -80,7 +84,7 @@ Mod 5 Collections:
         Preprocessing: /opdrachten/data/eca2csv          # deze gaat weg
         Klimaat: /opdrachten/data/klimaat
 
-Mod 6 Classes:
+Mod 7 Classes:
     Overzicht en beoordeling: /modules/classes
     Videocollege: /objects/lecture
     Werkcollege:
