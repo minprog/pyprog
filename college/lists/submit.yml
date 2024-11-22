@@ -5,10 +5,15 @@ buttons:
         import <filename>
         import doctest
         doctest.testmod(<filename>, verbose=True)
+    Run typecheck: |
+        from mypy import api as mypy_api
+        mypy_api.run(['--strict', '<filename>.py'])[0]
 files:
     required:
         lists.py: |
             # Schrijf hieronder al je list-functies.
-            # Elke functie moet 2 doctests hebben.
+            # Elke functie moet minstens 2 doctests hebben.
+            #
             # Let op: gebruik de knop "Run doctest" om je code uit te
-            # proberen.
+            # proberen en "Run typecheck" om de types te checken.
+
