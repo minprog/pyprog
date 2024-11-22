@@ -24,13 +24,13 @@ De cursus duurt 8 weken. Elke week doe je één van de onderstaande modules. In 
 
 - **Module 3: Strings.** Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
 
-- **Module 4: Lijsten, comprehensions.** Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
+- **Module 4: Tentamen.** Tijdens het werkcollege ga je een volledig oefententamen doen.
 
-- **Module 5: Collections.** We laten je de resterende collection types uit Python zien, zodat je de meeste basiscode goed kunt begrijpen. Deze collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
+- **Module 5: Lijsten, comprehensions.** Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
-- **Module 6: Classes.** In deze module ga je aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
+- **Module 6: Collections.** We laten je de resterende collection types uit Python zien, zodat je de meeste basiscode goed kunt begrijpen. Deze collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
 
-- **Module 7: ?** Deze module houden we nog even spannend... 
+- **Module 7: Classes.** In deze module ga je aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
 
 
 ## Onderdelen eindcijfer
@@ -43,11 +43,11 @@ Werkcollege week 1 t/m 7 (7 punten)
 Tentamen (14 punten)
 : Het tentamen gaat over de stof van module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle punten in één keer. Het tentamen is overigens een minimumeis om het vak te halen, zelfs als je al het huiswerk hebt gemaakt. Natuurlijk is er ook een hertentamen, in week 8.
 
-Huiswerk week 4, 5, 6 en 7
+Huiswerk week 5, 6 en 7
 : In de volgende weken van het vak ga je je verdiepen in de rest van Python. In elke module wordt een nieuw onderdeel geïntroduceerd, waarmee je je kennis vergroot. Bespreek met de docent wat een handige planning is: verdiepen of meer herhalen? De punten voor deze modules liggen pas vast na de bijbehorende eindpresentatie.
 
 Eindpresentatie huiswerk (24 punten)
-: De presentatie gaat over het huiswerk van module 4, 5, 6 en 7. Als je deze hebt ingeleverd worden de verschillende opgaven gecontroleerd en dan technisch goedgekeurd. Bij de eindpresentatie in week 8 ga je dan de oplossingen en je aanpak presenteren aan een docent. Daar zijn geen andere studenten bij aanwezig. Bij een goede uitleg worden de punten definitief.
+: De presentatie gaat over het huiswerk van module 5, 6 en 7. Als je deze hebt ingeleverd worden de verschillende opgaven gecontroleerd en dan technisch goedgekeurd. Bij de eindpresentatie in week 8 ga je dan de oplossingen en je aanpak presenteren aan een docent. Daar zijn geen andere studenten bij aanwezig. Bij een goede uitleg worden de punten definitief.
 
 Het eindcijfer is `punten * 2 / 10 + 1`. De herkansing betreft alleen de stof van het tentamen, en niet de punten van de werkcolleges en de eindpresentatie.
 
@@ -61,10 +61,10 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Je moet 
 |   1  | ma 28 oktober  | Installatie en oefeningen |
 |   2  | ma  4 november | Review, oefeningen, startopdracht |
 |   3  | ma 11 november | Review, startopdrachten   |
-|   4  | ma 18 november | Oefententamen, geheugenmodel |
-|   5  | ma 25 november | Startopdrachten           |
-|   6  | ma  2 december | Startopdrachten           |
-|   7  | ma  9 december | Startopdrachten           |
+|   4  | ma 18 november | Oefententamen             |
+|   5  | ma 25 november | Startopdrachten lists     |
+|   6  | ma  2 december | Startopdrachten collections |
+|   7  | ma  9 december | Startopdrachten classes   |
 
 
 ### Tentamen
@@ -80,16 +80,16 @@ Als je voldoende van de opgaven oplost en hiermee verschillende oplossingstechni
 Afhankelijk van het tentamenresultaat en hoe je er zelf instaat, ga je hier één van beide kanten op:
 
 Richting 1.
-: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 4 t/m 7, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules.
+: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 5 t/m 7, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules.
 
 Richting 2.
-: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 4 t/m 7 doen, maar de grotere opgaven laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt.
+: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 5 t/m 7 doen, maar de grotere opgaven laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt.
 
 Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
 
 ### Eindpresentatie
 
-De opdrachten van module 4 t/m 7 die je hebt gedaan leveren punten op. Hiervoor moet je elke opdracht aan twee voorwaarden voldoen: 1) technisch goedgekeurd op de website, en 2) je moet bij de eindpresentatie de gebruikte constructies goed uitleggen en de manier waarop je het programmeren hebt aangepakt. Als je dit voldoende kunt uitleggen dan liggen de punten vast.
+De opdrachten van module 5 t/m 7 die je hebt gedaan leveren punten op. Hiervoor moet je elke opdracht aan twee voorwaarden voldoen: 1) technisch goedgekeurd op de website, en 2) je moet bij de eindpresentatie de gebruikte constructies goed uitleggen en de manier waarop je het programmeren hebt aangepakt. Als je dit voldoende kunt uitleggen dan liggen de punten vast.
 
 
 ## Huiswerk en deadlines
@@ -103,7 +103,7 @@ Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de
 | Module 1 | zo  3 nov  17:00  |
 | Module 2 | zo 10 nov  17:00  |
 | Module 3 | zo 17 nov  17:00  |
-| Module 4 | zo 24 nov  17:00  |
+| Module 4 |                -  |
 | Module 5 | zo  1 dec  17:00  |
 | Module 6 | zo  8 dec  17:00  |
 | Module 7 | zo 15 dec  17:00  |
@@ -167,6 +167,6 @@ De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker lo
 
 Omdat de opdrachten t/m module 3 niet meetellen hoef je je geen zorgen te maken als je deze tekst te laat leest en toch opdrachten hebt ingeleverd waarbij je hulp hebt gekregen of tools als ChatGPT hebt gebruikt. De bedoeling is wel dat je zonder kan, dus zeg het vooral tegen de docenten als je dit hebt gedaan. Dat is een goed begin van een gesprek. Want wat jij dan wil weten is: hoe kan ik leren zelfstandig programmeren? We helpen je daar graag bij.
 
-### Module 4, 5, 6 en 7
+### Module 5, 6 en 7
 
-Voor de modules vanaf 4 is het wel belangrijk dat je geen (half of heel) geplagieerd werk inlevert, dat de code niet samen met andere studenten gemaakt is, en dat je ook geen AI-tools hebt gebruikt voor het genereren van (een deel van) de oplossing. Dit zijn opgaven die meetellen voor punten, en daar is dit allemaal niet toegestaan. Waar we dit herkennen moeten we je doorsturen naar de examencommissie.
+Voor de modules vanaf 5 is het wel belangrijk dat je geen (half of heel) geplagieerd werk inlevert, dat de code niet samen met andere studenten gemaakt is, en dat je ook geen AI-tools hebt gebruikt voor het genereren van (een deel van) de oplossing. Dit zijn opgaven die meetellen voor punten, en daar is dit allemaal niet toegestaan. Waar we dit herkennen moeten we je doorsturen naar de examencommissie.
