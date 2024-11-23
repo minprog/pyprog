@@ -52,7 +52,7 @@ Mod 5 Collections:
     Opdrachten:
         Collections: /opdrachten/collections/collection_functions
         # Algorithms: /opdrachten/week5/algorithms
-        IO: /opdrachten/data/io
+        Bestanden lezen: /opdrachten/data/io
         Indexer: /opdrachten/collections/indexer
         Big-O: /opdrachten/collections/big-o
     Project:

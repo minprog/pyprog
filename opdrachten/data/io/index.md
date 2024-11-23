@@ -1,4 +1,4 @@
-# File Input & Output
+# File input en output
 
 In Python kan je op verschillende manieren werken met (data)bestanden. Hieronder vind je enkele voorbeelden, en onderaan een opdracht.
 
@@ -62,5 +62,3 @@ Er zijn verschillende manieren om meerdere regels uit een bestand te lezen. De m
 ## Opdracht: een heel bestand kopiëren
 
 Als je bovenstaande voorbeelden combineert moet je een stukje code kunnen schrijven dat een compleet tekstbestand kopieert. Schrijf zo'n programma en vergelijk je oplossing dan met een medestudent (en daarna eventueel met nog iemand). Kijk ook of het lukt dit uit te testen.
-
-Lever je uitwerking van deze laatste opdracht hieronder in.
