@@ -184,6 +184,10 @@ As you can see, the program should be run using the following command:
 
 Here we start `python` in the Terminal or Command Line, so we can add an "argument" that provides the name of the file that we would like to analyse (`texts/birdman.txt`).
 
+> In Thonny gebruik je dit commando om het programma te starten met een command-line argument. In plaats van de run-knop te gebruiken kun je het commando in de Shell plakken:
+>
+>     %Run indexer.py texts/birdman.txt
+
 If you don't know how to get started with the Terminal, please ask us in class or send and e-mail to the course's e-mail address.
 
 You should not need to know how the `sys.argv` works in the code above to be able to implement the program. All you need to know is that the function `create_index` receives the name of a file that you need to open and read to fill an index.
