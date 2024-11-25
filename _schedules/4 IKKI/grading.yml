@@ -40,6 +40,16 @@ templates:
             werkblad: boolean
         calculation: -((aanwezig+werkblad).abs/2)
         hide_calculated: true
+    7: &werkcollege_her
+        type: pass
+        subgrades:
+            helemaal_goed: boolean
+        calculation: helemaal_goed
+        hide_calculated: true
+        exam: true
+        files:
+            required:
+                uitwerking.py: ''
     6: &tentamen
         type: pass
         subgrades:
@@ -100,6 +110,11 @@ grades:
     tentamen_oefening_w2: *werkcollege
 
     oefententamen: *werkcollege
+    
+    werkcollege_1_her: *werkcollege_her
+    werkcollege_2_her: *werkcollege_her
+    werkcollege_3_her: *werkcollege_her
+    werkcollege_4_her: *werkcollege_her
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
