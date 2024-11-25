@@ -1,5 +1,7 @@
 # Oefenen: tentamen
 
+Je kunt op de pagina [Voortgang](/submissions) je eerdere inzending voor werkcollege 4 downloaden!
+
 Drie bronnen met oefenvragen:
 
 - [Download de losse opgaven](https://public.3.basecamp.com/p/X2W4sZCVpykgArABnhxJnHGo).
