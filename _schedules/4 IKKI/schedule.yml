@@ -4,7 +4,7 @@ Welkom:
 Mod 1 Programmeren:
     Overzicht en beoordeling: /modules/programmeren
     Werkcollege:
-        Formules: /college/formules
+        Formules: /college/wc1her
         Installatie: /installatie-pulsar
     Functies en expressies:
         Wekenᵛ: /opdrachten/expressies/weken
@@ -24,7 +24,7 @@ Mod 1 Programmeren:
 Mod 2 Herhaling:
     Overzicht en beoordeling: /modules/herhaling
     Werkcollege:
-        Loops: /college/loops
+        Loops: /college/wc2her
     While-loops:
         Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
         Greedyᵛ: /opdrachten/loops/greedy
@@ -41,7 +41,7 @@ Mod 3 Strings:
     Overzicht en beoordeling: /modules/strings
     #     Debugging: /oefeningen/debug
     Werkcollege:
-        Strings: /college/strings
+        Strings: /college/wc3her
     Startup:
         camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
         RNA: /opdrachten/strings/rna                      # 4 func, main, list-string conversion
@@ -56,7 +56,7 @@ Mod 3 Strings:
 
 Mod 4 Tentamen:
     Werkcollege:
-        Oefententamen: /college/tentamen
+        Oefententamen: /college/wc4her
 
 Mod 5 Lists:
     Overzicht en beoordeling: /modules/lists
