@@ -46,10 +46,6 @@ templates:
             helemaal_goed: boolean
         calculation: helemaal_goed
         hide_calculated: true
-        exam: true
-        files:
-            required:
-                uitwerking.py: ''
     6: &tentamen
         type: pass
         subgrades:

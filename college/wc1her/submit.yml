@@ -1,0 +1,11 @@
+name: werkcollege_1_her
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+files:
+    required:
+        formules.py: |
+            # Schrijf hieronder al je formules uit als Python-functies.
