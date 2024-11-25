@@ -90,7 +90,9 @@ Richting 1: tentamen goed gehaald.
   | **goed**       | huiswerk 5pt    | huiswerk 5pt    | huiswerk 5pt    |
   | **uitmuntend** | project 3pt     | project 3pt     | project 3pt     |
 
-  Let ook op de wekelijkse deadlines die je verderop kunt vinden. Als je alleen de werkcolleges deelneemt dan levert dit samen met tentamen geen voldoende op.
+  Anders dan voorheen is het verplicht voor de punten om opdrachten helemaal goed te hebben, wat betekent dat ze worden goedgekeurd door de website.
+
+  Let ook op de wekelijkse deadlines die je verderop kunt vinden. Tip: als je alleen de werkcolleges deelneemt dan levert dit samen met tentamen geen voldoende op.
 
 Richting 2: tentamen niet gehaald of op het randje.
 : Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 5 t/m 7 doen, maar de grotere opdrachten laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je ook al wat voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt.
