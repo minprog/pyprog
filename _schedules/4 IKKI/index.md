@@ -93,7 +93,9 @@ Richting 1: tentamen goed gehaald.
   Let ook op de wekelijkse deadlines die je verderop kunt vinden. Als je alleen de werkcolleges deelneemt dan levert dit samen met tentamen geen voldoende op.
 
 Richting 2: tentamen niet gehaald of op het randje.
-: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 5 t/m 7 doen, maar de grotere opgaven laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt. Hier staat wat je nog moet doen. Als je al deze onderdelen helemaal goed doet en begrijpt, dan krijg je hiervoor in één keer 7 punten bovenop het tentamen en de deelnamepunten van de werkcolleges.
+: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 5 t/m 7 doen, maar de grotere opdrachten laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je ook al wat voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt.
+
+  In de volgende lijst staat wat je nog moet doen. Als je al deze onderdelen helemaal goed doet en voldoende kunt presenteren, dan krijg je hiervoor in één keer 7 punten bovenop het tentamen en de deelnamepunten van de werkcolleges.
 
   - Module 1: oefeningen (gedeeltelijk al gedaan)
   - Module 2: oefeningen (gedeeltelijk al gedaan)
@@ -102,6 +104,8 @@ Richting 2: tentamen niet gehaald of op het randje.
   - Module 5: oefeningen
   - Module 6: oefeningen
   - Module 7: oefeningen
+  
+  Zorg dat je je modules laat controleren tijdens de les om zeker te zijn dat ze goedgekeurd worden.
 
 Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
 
