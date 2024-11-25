@@ -219,7 +219,7 @@ module_3:
         leesbaarheid: 1
         pwdgen: 1
 
-module_4:
+module_5:
     show_overview: true
     deadline: 1/12/24 17:00
     submits:
