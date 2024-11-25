@@ -80,11 +80,13 @@ Als je voldoende van de opgaven oplost en hiermee verschillende oplossingstechni
 Afhankelijk van het tentamenresultaat en hoe je er zelf instaat, ga je hier één van beide kanten op:
 
 Richting 1: tentamen goed gehaald.
-: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 5 t/m 7, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules. De puntentelling staat hier, let op de deadlines.
+: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 5 t/m 7, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules.
+
+  De puntentelling staat in de volgende tabel; let ook op de wekelijkse deadlines die je verderop kunt vinden. Als je alleen de werkcolleges deelneemt dan levert dit samen met tentamen geen voldoende op.
   
   |                | **mod 5**       | **mod 6**       | **mod 7**       |
   |----------------|-----------------|-----------------|-----------------|
-  | **voldoende**  | werkcollege 0pt | werkcollege 0pt | werkcollege 0pt |
+  | **onvoldoende** | werkcollege 0pt | werkcollege 0pt | werkcollege 0pt |
   | **goed**       | huiswerk 5pt    | huiswerk 5pt    | huiswerk 5pt    |
   | **uitmuntend** | project 3pt     | project 3pt     | project 3pt     |
 
