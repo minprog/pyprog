@@ -220,7 +220,7 @@ module_3:
         pwdgen: 1
 
 module_5:
-    show_overview: true
+    # show_overview: true
     show_progress: true
     deadline: 1/12/24 17:00
     submits:
@@ -229,6 +229,12 @@ module_5:
         special_sort: 1
         sjoelen: 1
         schuifpuzzel: 1
+
+module_5_project:
+    # show_overview: true
+    show_progress: true
+    deadline: 1/12/24 17:00
+    submits:
         virus: 1
 
 #         dict_oefening: 1
