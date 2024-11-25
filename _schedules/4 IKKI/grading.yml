@@ -206,8 +206,8 @@ module_2:
         monopoly: 1
 
 module_3:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     deadline: 17/11/24 17:00
     submits:
         camelcase: 1
@@ -221,6 +221,7 @@ module_3:
 
 module_5:
     show_overview: true
+    show_progress: true
     deadline: 1/12/24 17:00
     submits:
         scrabble: 1
