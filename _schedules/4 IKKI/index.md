@@ -81,23 +81,23 @@ Afhankelijk van het tentamenresultaat en hoe je er zelf instaat, ga je hier éé
 
 Richting 1: tentamen goed gehaald.
 : Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 5 t/m 7, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules. De puntentelling staat hier, let op de deadlines.
-
-|                | **mod 5**       | **mod 6**       | **mod 7**       |
-|----------------|-----------------|-----------------|-----------------|
-| **voldoende**  | werkcollege 0pt | werkcollege 0pt | werkcollege 0pt |
-| **goed**       | huiswerk 5pt    | huiswerk 5pt    | huiswerk 5pt    |
-| **uitmuntend** | project 3pt     | project 3pt     | project 3pt     |
+  
+  |                | **mod 5**       | **mod 6**       | **mod 7**       |
+  |----------------|-----------------|-----------------|-----------------|
+  | **voldoende**  | werkcollege 0pt | werkcollege 0pt | werkcollege 0pt |
+  | **goed**       | huiswerk 5pt    | huiswerk 5pt    | huiswerk 5pt    |
+  | **uitmuntend** | project 3pt     | project 3pt     | project 3pt     |
 
 Richting 2: tentamen niet gehaald of op het randje.
-: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 5 t/m 7 doen, maar de grotere opgaven laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt. Hier staat wat je nog moet doen. Als je al deze onderdelen helemaal goed doet en begrijpt, dan krijg je hiervoor in één keer 7 punten.
+: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 5 t/m 7 doen, maar de grotere opgaven laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt. Hier staat wat je nog moet doen. Als je al deze onderdelen helemaal goed doet en begrijpt, dan krijg je hiervoor in één keer 7 punten bovenop het tentamen en de deelnamepunten van de werkcolleges.
 
-- Module 1: oefeningen (gedeeltelijk al gedaan)
-- Module 2: oefeningen (gedeeltelijk al gedaan)
-- Module 3: oefeningen (gedeeltelijk al gedaan)
-- Module 4: oefeningen + oefententamen (gedeeltelijk al gedaan)
-- Module 5: oefeningen
-- Module 6: oefeningen
-- Module 7: oefeningen
+  - Module 1: oefeningen (gedeeltelijk al gedaan)
+  - Module 2: oefeningen (gedeeltelijk al gedaan)
+  - Module 3: oefeningen (gedeeltelijk al gedaan)
+  - Module 4: oefeningen + oefententamen (gedeeltelijk al gedaan)
+  - Module 5: oefeningen
+  - Module 6: oefeningen
+  - Module 7: oefeningen
 
 Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
 
