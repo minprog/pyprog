@@ -173,6 +173,14 @@ werkcolleges:
         werkcollege_3: 1
         werkcollege_4: 1
 
+werkcolleges_herkansing:
+    show_progress: true
+    submits:
+        werkcollege_1_her: 1
+        werkcollege_2_her: 1
+        werkcollege_3_her: 1
+        werkcollege_4_her: 1
+
 module_1:
     show_progress: true
     deadline: 3/11/24 17:00
