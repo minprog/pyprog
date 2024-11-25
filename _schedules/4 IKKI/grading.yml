@@ -222,6 +222,7 @@ module_3:
 module_4:
     show_overview: true
     deadline: 1/12/24 17:00
+    submits:
         scrabble: 1
         selection_sort: 1
         special_sort: 1
