@@ -97,14 +97,15 @@ Richting 2: tentamen niet gehaald of op het randje.
 
   In de volgende lijst staat wat je nog moet doen. Als je al deze onderdelen helemaal goed doet en voldoende kunt presenteren, dan krijg je hiervoor in één keer 7 punten bovenop het tentamen en de deelnamepunten van de werkcolleges.
 
-  - Module 1: oefeningen (gedeeltelijk al gedaan)
-  - Module 2: oefeningen (gedeeltelijk al gedaan)
-  - Module 3: oefeningen (gedeeltelijk al gedaan)
+  - Module 1: oefeningen uit werkcolleg (gedeeltelijk al gedaan)
+  - Module 2: oefeningen uit werkcollege(gedeeltelijk al gedaan)
+  - Module 3: oefeningen uit werkcollege(gedeeltelijk al gedaan)
   - Module 4: oefeningen + oefententamen (gedeeltelijk al gedaan)
-  - Module 5: oefeningen
-  - Module 6: oefeningen
-  - Module 7: oefeningen
+  - Module 5: oefeningen uit werkcollege
+  - Module 6: oefeningen uit werkcollege
+  - Module 7: oefeningen uit werkcollege
   
+  Voor elke set oefeningen is de eis dat je ze helemaal perfect werkend en met doctests inlevert.
   Zorg dat je je modules laat controleren tijdens de les om zeker te zijn dat ze goedgekeurd worden.
 
 Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
