@@ -219,13 +219,15 @@ module_3:
         leesbaarheid: 1
         pwdgen: 1
 
-#         list_functions: 1
-#         scrabble: 1
-
-#         schuifpuzzel: 1
-
-#         sjoelen: 1
-#         virus: 1
+module_4:
+    show_overview: true
+    deadline: 1/12/24 17:00
+        scrabble: 1
+        selection_sort: 1
+        special_sort: 1
+        sjoelen: 1
+        schuifpuzzel: 1
+        virus: 1
 
 #         dict_oefening: 1
 #         set_oefening: 1
