@@ -110,6 +110,8 @@ Richting 2: tentamen niet gehaald of op het randje.
   Voor elke set oefeningen is de eis dat je ze helemaal perfect werkend en met doctests inlevert.
   Zorg dat je je modules laat controleren tijdens de les om zeker te zijn dat ze goedgekeurd worden.
 
+Je kunt geen punten van beide richtingen combineren! Dus ofwel 7 punten voor het maken van alle oefeningen, ofwel 0--24 punten voor de huiswerkopdrachten van module 5--7.
+
 Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
 
 ### Eindpresentatie
