@@ -103,6 +103,7 @@ grades:
     werkcollege_4: *werkcollege
     werkcollege_5: *werkcollege
     werkcollege_6: *werkcollege
+    werkcollege_7: *werkcollege
     tentamen_oefening_w2: *werkcollege
 
     oefententamen: *werkcollege
