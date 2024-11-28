@@ -216,6 +216,11 @@ oefententamen:
     submits:
         oefen_bg: 1
 
+tentamen_pre:
+    show_overview: true
+    submits:
+        tentamen_bg: 1
+
 tentamen:
     show_overview: true
     minimum: 5.5
