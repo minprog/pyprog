@@ -187,7 +187,6 @@ mod_strings:
         camelcase: 1
 
 mod_lists:
-    show_progress: true
     deadline: 31/10/24 17:00
     submits:
         list_functions: 1
@@ -198,27 +197,23 @@ mod_lists:
         virus: 1
 
 mod_collections:
-    show_overview: true
-    deadline: 14/11/24 17:00
+    show_progress: true
+    deadline: 27/11/24 17:00
     submits:
-        algorithms: 1
+        collection_functions: 1
         indexer: 1
+        big-o: 1
+        eca2csv: 1
+        klimaat: 1
 
 mod_classes:
-    show_overview: true
-    deadline: 28/11/24 17:00
+    show_progress: true
+    deadline: 12/12/24 17:00
     submits:
         queue: 1
         cards: 1
         hangman-less: 1
         knapsack: 1
-
-mod_dataverwerking:
-    show_overview: true
-    deadline: 12/12/24 17:00
-    submits:
-        eca2csv: 1
-        klimaat: 1
 
 tentamen_inf4all:
     show_overview: true
