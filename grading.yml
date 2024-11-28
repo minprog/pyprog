@@ -159,3 +159,4 @@ grades:
 
     pygame: *check
     project: *check
+    big-o: *check
