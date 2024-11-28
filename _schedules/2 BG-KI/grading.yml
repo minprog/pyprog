@@ -94,7 +94,7 @@ grades:
     tentamen2_bg:
         type: float
         subgrades:
-            punten: integer
+            punten: float
         calculation: punten / 11.0 * 9 + 1
     hertentamen_bg:
         type: float
