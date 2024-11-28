@@ -221,7 +221,6 @@ tentamen:
     minimum: 5.5
     attempt_required: true
     submits:
-        tentamen_bg: 0
         tentamen2_bg: 1
 
 hertentamen:
