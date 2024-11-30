@@ -12,7 +12,6 @@ Het gewenste formaat van een CSV-bestand ziet er als volgt uit. De eerste regel 
 
 ![](telefoon.png)
 
-Let op: de operaties in deze opdracht lijken soms op de voorbeelden uit het boek, maar het zijn zeker geen copy-paste-opdrachten. Eén verschil is bijvoorbeeld dat je hieronder 4 functies moet schrijven die elk twee files openen en weer sluiten. In het het boek worden de files al geopend in de `main`. Dat is hier dus niet de bedoeling. Ook werken we niet met `StringIO` maar alleen maar met databestanden.
 
 ## Header verwijderen
 
