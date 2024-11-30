@@ -63,7 +63,6 @@ Mod 6 Classes:
     Overzicht: /modules/classes
     Lezen en oefenen:
         Videocollege: /opdrachten/classes/lecture
-        "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
         Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
         Cards: /opdrachten/classes/cards                  # UML, data class, container
