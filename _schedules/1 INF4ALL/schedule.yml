@@ -44,7 +44,7 @@ Mod 4 Lists:
         Selection sort: /opdrachten/lists/selection
         Special sort: /opdrachten/lists/special
         Schuifpuzzel: /opdrachten/lists/schuifpuzzel
-    Challenge:
+    Project:
         Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
 
 Mod 5 Collections:
@@ -62,17 +62,15 @@ Mod 5 Collections:
 Mod 6 Classes:
     Overzicht: /modules/classes
     Lezen en oefenen:
-        Videocollege: /objects/lecture
+        Videocollege: /opdrachten/classes/lecture
         "Chapter 14: Object-oriented programming": /boek/objects
     Opdrachten:
         Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
         Cards: /opdrachten/classes/cards                  # UML, data class, container
+        Country: /opdrachten/classes/country
+        Lines: /opdrachten/classes/lines
         Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
         Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
-
-Mod 7 Data:
-    Overzicht: /modules/dataverwerking
-    Opdrachten:
-        Preprocessing: /opdrachten/week7/eca2csv          # deze gaat weg
-        Klimaat: /opdrachten/week7/klimaat
+    Project:
+        Adventure [tbd]: ''
