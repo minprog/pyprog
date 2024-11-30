@@ -69,7 +69,7 @@ Mod 6 Classes:
         Country: /opdrachten/classes/country
         Lines: /opdrachten/classes/lines
         Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
-        Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
+        # Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
     Project:
         Adventure [tbd]: ''
