@@ -1,6 +1,6 @@
 # Oefenen: collection types
 
-[Ga naar de tentamen-editor](/exams) om de opdracht Werkcollege 5 te maken.
+[Ga naar de tentamen-editor](/exams) om de opdracht Werkcollege 6 te maken.
 
 Tijdens het werken wordt alles automatisch opgeslagen op deze website en is in te zien door je docent.
 

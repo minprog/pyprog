@@ -31,6 +31,12 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
     In 2018 varieerde de temperatuur tussen -4.6° op 28-02 en 35.7° op 26-07
     In 2019 varieerde de temperatuur tussen -1.1° op 24-01 en 37.5° op 25-07
 
+    Hittegolven XXX1-XXX9
+    ---------------------
+    In XXX1 was er geen hittegolf
+    In XXX2 was er een hittegolf van 03-04 tot en met 09-04
+    ...
+
 ## Aanwijzingen
 
 - De checks zijn extreem streng: de output moet **exact** zo zijn als hierboven.
@@ -45,7 +51,11 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
     - Wacht even: een lijst met ints? Ja, bijvoorbeeld voor 2010 kun je dit doen: `[-61, 2, 12, 344, 9, 7]`.
 
-- Maak een functie `print_extremes(filename: str)` die de naam van het bestand meekrijgt, dan de functie `extremes()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
+- Maak een functie `print_extremes(filename: str, from: int, to: int)` die de naam van het bestand meekrijgt, dan de functie `extremes()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
+
+- Maak een functie `heatwaves(filename: str, from: int, to: int)` die een dict geeft met daarin per jaartal de begin- en einddata van de *eerste* hittegolf van dat jaar (soms zijn er meer). Een hittegolf is een aaneengesloten reeks dagen waarop de maximumtemperatuur 25 of hoger is, met daarin minstens 3 dagen waarop de maximumtemperatuur 30 of hoger is.
+
+- Maak een functie `print_heatwaves(filename: str, from: int, to: int)` die `heatwaves` aanroept en de informatie op het scherm print zoals hierboven.
 
 - Bedenk welke delen je eventueel nog in aparte functies kunt zetten, maar houd bovenstaande drie functies aan en roep ze aan in een if-name-is-main onderaan je code.
 

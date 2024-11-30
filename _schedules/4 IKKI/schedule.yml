@@ -76,12 +76,13 @@ Mod 6 Collections:
     Werkcollege:
         Collections: /college/collections
     Opdrachten:
-        Collections: /opdrachten/collections/collection_functions
+        # Collections: /opdrachten/collections/collection_functions
         # Algorithms: /opdrachten/week5/algorithms
+        Bestanden lezen: /opdrachten/data/io
         Indexer: /opdrachten/collections/indexer
-        Big-O: /opdrachten/collections/big-o
-    Project:
+        # Big-O: /opdrachten/collections/big-o
         Preprocessing: /opdrachten/data/eca2csv          # deze gaat weg
+    Project:
         Klimaat: /opdrachten/data/klimaat
 
 Mod 7 Classes:
