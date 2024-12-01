@@ -239,6 +239,7 @@ module_5_project:
     # show_overview: true
     show_progress: true
     deadline: 1/12/24 17:00
+    deadline_hard: true
     submits:
         virus: 1
 
