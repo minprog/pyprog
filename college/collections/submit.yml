@@ -4,6 +4,7 @@ buttons:
     Run doctest: |
         import <filename>
         import sys
+        import importlib
         
         if 'collections' in sys.modules:
             sys.modules['collections_temp'] = importlib.reload(sys.modules['collections'])
