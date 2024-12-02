@@ -3,6 +3,9 @@ exam: true
 buttons:
     Run doctest: |
         import <filename>
+        import sys
+        if '<filename>' in sys.modules:
+            del sys.modules['<filename>']
         import doctest
         doctest.testmod(<filename>, verbose=True)
 files:
