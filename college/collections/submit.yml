@@ -7,13 +7,14 @@ buttons:
         import importlib
         
         if 'collections' in sys.modules:
-            sys.modules['collections_temp'] = importlib.reload(sys.modules['collections'])
+            sys.modules['collections_temp'] = sys.modules['collections']
             del sys.modules['collections']
         
         if '/home/pyodide' in sys.path:
             sys.path.remove('/home/pyodide')
-            
+        
         try:
+            sys.modules['collections_temp'] = importlib.reload(sys.modules['collections_temp'])
             import doctest
             doctest.testmod(sys.modules['collections_temp'], verbose=True)
         finally:
