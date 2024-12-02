@@ -7,16 +7,15 @@ buttons:
         import importlib
         
         if 'collections' in sys.modules:
-            sys.modules['collections_temp'] = sys.modules['collections']
-            del sys.modules['collections']
+            sys.modules['collections_temp'] = sys.modules.pop('collections')
         
         if '/home/pyodide' in sys.path:
             sys.path.remove('/home/pyodide')
         
         try:
-            sys.modules['collections_temp'] = importlib.reload(sys.modules['collections_temp'])
+            collections_temp = importlib.import_module('collections_temp')
             import doctest
-            doctest.testmod(sys.modules['collections_temp'], verbose=True)
+            doctest.testmod(collections_temp, verbose=True)
         finally:
             if '/home/pyodide' not in sys.path:
                 sys.path.insert(0, '/home/pyodide')
