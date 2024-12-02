@@ -5,10 +5,11 @@ buttons:
         import <filename>
         import sys
         if 'collections' in sys.modules:
+            sys.modules['collections_temp'] = sys.modules['collections']
             del sys.modules['collections']
         sys.path.pop(0)
         import doctest
-        doctest.testmod(<filename>, verbose=True)
+        doctest.testmod(sys.modules['collections_temp'], verbose=True)
 files:
     required:
         collections.py: |
