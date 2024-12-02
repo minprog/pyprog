@@ -4,8 +4,9 @@ buttons:
     Run doctest: |
         import <filename>
         import sys
-        if '<filename>' in sys.modules:
-            del sys.modules['<filename>']
+        if 'collections' in sys.modules:
+            del sys.modules['collections']
+        sys.path.pop(0)
         import doctest
         doctest.testmod(<filename>, verbose=True)
 files:
