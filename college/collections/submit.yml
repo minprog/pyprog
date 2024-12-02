@@ -2,12 +2,11 @@ name: werkcollege_6
 exam: true
 buttons:
     Run doctest: |
-        
         import <filename>
         import sys
         
         if 'collections' in sys.modules:
-            sys.modules['collections_temp'] = sys.modules['collections']
+            sys.modules['collections_temp'] = importlib.reload(sys.modules['collections'])
             del sys.modules['collections']
         
         if '/home/pyodide' in sys.path:
@@ -31,4 +30,3 @@ files:
                 'a': 1, 'b': 3, 'c': 5, 'd': 2, 'e': 1, 'f': 4, 'g': 3, 'h': 4, 'i': 2, 'j': 4,
                 'k': 3, 'l': 3, 'm': 3, 'n': 1, 'o': 1, 'p': 3, 'q': 10, 'r': 2, 's': 2, 't': 2,
                 'u': 4, 'v': 4, 'w': 5, 'x': 8, 'y': 8, 'z': 4}
-
