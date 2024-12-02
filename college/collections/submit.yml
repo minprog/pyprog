@@ -14,6 +14,8 @@ buttons:
         
         try:
             collections_temp = importlib.import_module('collections_temp')
+            collections_temp = importlib.reload(collections_temp)
+
             import doctest
             doctest.testmod(collections_temp, verbose=True)
         finally:
