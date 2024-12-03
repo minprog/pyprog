@@ -61,7 +61,7 @@ Mod 4 Tentamen:
 Mod 5 Lists:
     Overzicht en beoordeling: /modules/lists
     Werkcollege:
-        Lists: /college/lists
+        Lists: /college/wc5her
     Opdrachten:
         Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
         Selection sort: /opdrachten/lists/selection
