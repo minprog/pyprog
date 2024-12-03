@@ -243,21 +243,43 @@ module_5_project:
     submits:
         virus: 1
 
-#         dict_oefening: 1
-#         set_oefening: 1
-#         collection_functions: 1
+module_6:
+    # show_overview: true
+    show_progress: true
+    deadline: 8/12/24 17:00
+    deadline_hard: true
+    submits:
+        indexer: 1
+        eca2csv: 1
 
-#         collection_functions2: 1
-#         indexer: 1
+module_6_project:
+    # show_overview: true
+    show_progress: true
+    deadline: 8/12/24 17:00
+    deadline_hard: true
+    submits:
+        klimaat: 1
 
+# module_7:
+#     # show_overview: true
+#     show_progress: true
+#     deadline: 15/12/24 17:00
+#     deadline_hard: true
+#     submits:
 #         queue: 1
 #         cards: 1
 #         country: 1
 #         lines: 1
-
 #         hangman: 1
 #         knapsack: 1
-#         klimaat: 1
+
+# module_7_project:
+#     # show_overview: true
+#     show_progress: true
+#     deadline: 15/12/24 17:00
+#     deadline_hard: true
+#     submits:
+#         adventure: 1
 
 tentamen_ki:
     show_overview: true
