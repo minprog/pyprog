@@ -112,6 +112,8 @@ grades:
     werkcollege_2_her: *werkcollege_her
     werkcollege_3_her: *werkcollege_her
     werkcollege_4_her: *werkcollege_her
+    werkcollege_5_her: *werkcollege_her
+    werkcollege_6_her: *werkcollege_her
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -180,6 +182,8 @@ werkcolleges_herkansing:
         werkcollege_2_her: 1
         werkcollege_3_her: 1
         werkcollege_4_her: 1
+        werkcollege_5_her: 1
+        werkcollege_6_her: 1
 
 module_1:
     show_progress: true
