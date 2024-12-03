@@ -42,3 +42,8 @@ buttons:
         import <filename>
         import doctest
         doctest.testmod(<filename>, verbose=True)
+check:
+    tool: checkpy
+    repo: minprog/pytent
+    args: -m wc4
+autocheck: false
