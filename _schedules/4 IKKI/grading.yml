@@ -173,7 +173,7 @@ werkcolleges:
         werkcollege_4: 1
         werkcollege_5: 1
         werkcollege_6: 1
-        # werkcollege_7: 1
+        werkcollege_7: 1
 
 werkcolleges_herkansing:
     show_progress: true
@@ -184,6 +184,7 @@ werkcolleges_herkansing:
         werkcollege_4_her: 1
         werkcollege_5_her: 1
         werkcollege_6_her: 1
+        werkcollege_7: 1
 
 module_1:
     show_progress: true
