@@ -91,8 +91,8 @@ Mod 7 Classes:
     Werkcollege:
         # Collections: /college/collections
         Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
-        Cards: /opdrachten/classes/cards                  # UML, data class, container
     Opdrachten:
+        Cards: /opdrachten/classes/cards                  # UML, data class, container
         Country: /opdrachten/classes/country
         Lines: /opdrachten/classes/lines
         War: /opdrachten/classes/war
