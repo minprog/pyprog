@@ -53,7 +53,9 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
 
 - Maak een functie `print_extremes(filename: str, from: int, to: int)` die de naam van het bestand meekrijgt, dan de functie `extremes()` aanroept en dan alle informatie van de sectie "Extremen" print, inclusief alle gegevens die hierboven in het voorbeeld vermeld zijn.
 
-- Maak een functie `heatwaves(filename: str, from: int, to: int)` die een dict geeft met daarin per jaartal de begin- en einddata van de *eerste* hittegolf van dat jaar (soms zijn er meer). Een hittegolf is een aaneengesloten reeks dagen waarop de maximumtemperatuur 25 of hoger is, met daarin minstens 3 dagen waarop de maximumtemperatuur 30 of hoger is.
+- Een hittegolf is een aaneengesloten reeks dagen waarop de maximumtemperatuur 25 of hoger is, met daarin minstens 3 dagen waarop de maximumtemperatuur 30 of hoger is.
+
+    Maak een functie `heatwaves(filename: str, from: int, to: int)` die een dict geeft met daarin per jaartal de begin- en einddata van de *eerste* hittegolf van dat jaar (soms zijn er meer). Elke value in de dict moet een tuple zijn, met daarin een tuple met twee ints voor de begindatum, en een tuple met twee ints voor de einddatum.
 
 - Maak een functie `print_heatwaves(filename: str, from: int, to: int)` die `heatwaves` aanroept en de informatie op het scherm print zoals hierboven.
 
