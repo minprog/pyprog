@@ -14,10 +14,10 @@ Bij aanwezigheid bij het werkcollege en daadwerkelijk uitvoeren van de oefeninge
 
 De volgende opdrachten moet je allemaal helemaal goedgekeurd hebben op de website om deze te mogen aftekenen tijdens de eindpresentaties. Bij voldoende uitleg en beantwoording van specifieke vragen levert dat tezamen 5 punten op. Deelpunten zijn niet mogelijk.
 
-- **Queue**        Bouwen van een gespecialiseerde class om data mee op te slaan         |
-- **Cards**        Bouwen van twee classes die samenwerken                               |
-- **Hangman**      Bouwen van classes op basis van code die gegeven is                   |
-- **Knapsack**     Een algoritmisch probleem oplossen op basis van data in classes       |
+- **Queue**        Bouwen van een gespecialiseerde class om data mee op te slaan
+- **Cards**        Bouwen van twee classes die samenwerken
+- **Hangman**      Bouwen van classes op basis van code die gegeven is
+- **Knapsack**     Een algoritmisch probleem oplossen op basis van data in classes
 
 ## Project (3 punten)
 
