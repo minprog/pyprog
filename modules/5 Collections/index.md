@@ -8,6 +8,10 @@ Deze week laten we je kennismaken met de resterende ingebouwde standaardtypes in
 
 Elk van de collection types heeft eigen toepassingen. Met name dictionaries worden heel veel gebruikt en de oefeningen gaan daar grotendeels over.
 
+## Studiemateriaal
+
+Hoofdstuk 8 uit het boek behandelt de collection types en bevat ook diverse basisoefeningen.
+
 ## Deelname werkcollege (1 punt)
 
 Bij aanwezigheid bij het werkcollege en daadwerkelijk uitvoeren van de oefeningen en ze uitwerken in Python krijg je 1 punt.
