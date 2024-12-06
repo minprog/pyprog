@@ -21,11 +21,11 @@ UML, or unified modeling language, provides us with a way to draw diagrams of ho
 
 **Assignment** --- Write a declaration for the `Card` class. In the editor to the right, add it to a file named `cardgame.py`. Don't worry about putting something *in* the class; you'll write the class body in a minute!
 
-Use the following syntax:
-
-    class ClassName:
-
-First the `class` keyword, and then the name of your class.
+> Use the following syntax:
+> 
+>     class ClassName:
+> 
+> First the `class` keyword, and then the name of your class.
 
 ## Card: initializer
 
@@ -36,12 +36,14 @@ A method is a function that is attached to a particular class. That is why the c
 
 **First**, write an initializer that takes `suit` and `value` parameters and initializes attributes with the same name.
 
-Use the following syntax:
-
-    def __init__(self, attr1, ...) -> None:
-        self.attr1 = attr1
-
-In the parameter list of the `__init__` method, you define for which attributes a value has to be provided. In the method body, you set the corresponding attributes via `self`. Note that `__init__` doesn't `return` anything! It just sets the attributes.
+> Use the following syntax:
+> 
+>     def __init__(self, attr1, ...) -> None:
+>         self.attr1 = attr1
+> 
+> In the parameter list of the `__init__` method, you define for which attributes a value has to be
+> provided. In the method body, you set the corresponding attributes via `self`. Note that `__init__`
+> doesn't `return` anything! It just sets the attributes.
 
 ## Card: description
 
@@ -51,11 +53,11 @@ In the parameter list of the `__init__` method, you define for which attributes 
 
 `Ace` comes from the attribute `self.value` and `spades` from `self.suit`.
 
-Return a formatted string like this one:
-
-    f"hello, {s}"
-
-This will create a new string that contains `hello, ` and then it will insert the value of the variable `s`. For example, if `s` happens to be the string `"David"`, the f-string above would amount to `"hello, David"`.
+> Return a formatted string using f-string syntax:
+> 
+>     f"hello, {s}"
+> 
+> This will create a new string that contains `hello, ` and then it will insert the value of the variable `s`. For example, if `s` happens to be the string `"David"`, the f-string above would amount to `"hello, David"`.
 
 ## Card: testing
 
@@ -67,17 +69,17 @@ Anything that's inside this `if` will only be executed if we run the file direct
 
 In the `if`, **write** a few statements to create example `Card` objects.
 
-Use the following syntax:
-
-    var1 = ClassName(...)
-
-This assigns a new object of type `ClassName` to the variable `var1`. In the place of the `...` you should provide the required parameters for the initializer. Recall which parameters are needed? These should match the parameters you required in the `__init__` method that you wrote.
+> Use the following syntax:
+> 
+>     var1 = ClassName(...)
+> 
+> This assigns a new object of type `ClassName` to the variable `var1`. In the place of the `...` you should provide the required parameters for the initializer. Recall which parameters are needed? These should match the parameters you required in the `__init__` method that you wrote.
 
 And after those statements, **add** a few statements that print the objects from the variables you created.
 
-Use the following syntax:
-
-    print(var1.description())
+> Use the following syntax:
+> 
+>     print(var1.description())
 
 Now try it out! In the Terminal, **run** `python cardgame.py` and verify the results.
 
@@ -89,22 +91,22 @@ In this exercise, a Deck will be a standard deck of hearts, diamonds, clubs and 
 
 Before writing those methods, let's declare the class and add an initializer.
 
-**Add** a declaration for the `Deck` class to your code. Then, **add** an initializer. The initializer for this class doesn't take any arguments besides `self`, because any `Deck` will always have the same set of cards.
-
-The initializer is a good place for *default* values. Let us provide you with the declarations of two important attributes for this class:
-
-    self._suits = ['Hearts','Diamonds','Clubs','Spades']
-    self._values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
-
-As you can see, we *hardcode* the suits and values, because in our program, these will always be the same. **Copy** those declarations into your initializer.
+**Add** a declaration for the `Deck` class to your code (above the `main` please!). Then, **add** an initializer. The initializer for this class doesn't take any arguments besides `self`, because any `Deck` will always have the same set of cards.
 
 ## Deck: instantiating cards
 
-The purpose of a "deck" will be to *contain* a set of 52 cards. In Python, we choose to store these cards in a list. With the `_suits` and `_values` we defined in the previous step, there is enough information in the `Deck` class to be able to create a `Card` instance for each of the 52 combinations.
+The purpose of a "deck" will be to *contain* a set of 52 cards. In Python, we choose to store these cards in a list.
+
+Let us first provide you with the declarations of two lists that you will need to generate the cards.
+
+    _suits = ['Hearts','Diamonds','Clubs','Spades']
+    _values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
+
+**Copy** those declarations into your initializer.
 
 **Write** code to generate all 52 `Card`s and add them to a list called `_cards`. Code to do this should be added to the end of the initializer.
 
-> The list should be called `_cards` with an underscore because we want it to be encapsulated by the class. Code outside of the class should not need to access this list directly.
+> Note: the list should be called `_cards` with an underscore because we want it to be encapsulated by the class. Code outside of the class should not need to access this list directly.
 
 Here is one suggestion for the pseudocode:
 
@@ -139,13 +141,13 @@ The first of our main methods for the `Deck` class is `shuffle`. It should take 
 
 **Second**, write a `shuffle` method for the `Deck` class. It should do nothing other than call `random.shuffle` with the `cards` attribute as a parameter. This will provide shuffling functionality for your class, and *delegate* that functionality to another (Python-provided) module.
 
-As an example, `random.shuffle` can be used to shuffle lists like this:
-
-    import random
-    numbers = [1, 2, 3, 4, 5]
-    random.shuffle(numbers)
-    print(numbers)
-    [2, 3, 1, 4, 5]
+> As an example, `random.shuffle` can be used to shuffle lists like this:
+> 
+>     import random
+>     numbers = [1, 2, 3, 4, 5]
+>     random.shuffle(numbers)
+>     print(numbers)
+>     [2, 3, 1, 4, 5]
 
 Have a look at the [Python docs](https://docs.python.org/3/library/random.html#random.shuffle) for more information.
 
@@ -165,9 +167,9 @@ In your testing code, add
 
     card = deck.deal()
 
-right after creating the `Deck`. Because the deck hasn't been shuffled at that point, this card should be the King of Spades. Use `print(card.description())` to print the card. **Try** it out!
+right after creating the `Deck`. Because the deck hasn't been shuffled at that point, this card *must* be the King of Spades. Use `print(card.description())` to print the card. **Try** it out!
 
-Now test the `shuffle` method! Call it in your testing code and verify that the shuffling is indeed pseudorandom.
+Now test the `shuffle` method! Call it in your testing code and verify that the shuffling is indeed (pseudo)random.
 
 ## Final Checkup
 
