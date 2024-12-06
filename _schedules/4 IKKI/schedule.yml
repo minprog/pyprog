@@ -87,7 +87,7 @@ Mod 6 Collections:
 
 Mod 7 Classes:
     Overzicht en beoordeling: /modules/classes
-    Videocollege: /objects/lecture
+    Videocollege: /opdrachten/classes/lecture
     Werkcollege:
         # Collections: /college/collections
         Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
