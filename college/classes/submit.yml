@@ -1,0 +1,6 @@
+name: werkcollege_7
+exam: true
+files:
+    required:
+        my_queue.py: |
+            # Schrijf hieronder je queue-code
