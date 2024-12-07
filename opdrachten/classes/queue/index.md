@@ -1,5 +1,7 @@
 # Queue
 
+> Ga naar de [tentamen-editor](/exams) om deze opdracht te maken bij Werkcollege 7.
+
 Let's see what it means to define a useful *interface* for a class by implementing a **queue** data structure. The goal of a queue is to be able to store items that you might retrieve later, in the order in which they were stored. As such, a queue supports two core operations:
 
 - **enqueue**, which adds an item to the back of queue, waiting to be collected again
