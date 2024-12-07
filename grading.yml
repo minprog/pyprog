@@ -122,7 +122,7 @@ grades:
     indexer: *automatic
 
     eca2csv: *automatic
-    klimaat: *check
+    klimaat: *automatic
 
     # module 6
     queue: *automatic
