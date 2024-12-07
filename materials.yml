@@ -1,0 +1,3 @@
+adventure:
+    remote: https://github.com/minprog/adventure.git
+    branch: 2022
