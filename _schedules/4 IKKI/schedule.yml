@@ -102,7 +102,7 @@ Mod 7 Classes:
         # Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
     Project:
-        Adventure [tbd]: '/adventure/more'
+        Adventure: '/adventure/more'
 
 #         Memory model: /opdrachten/week5/memory_model
 #         Cijfers: /opdrachten/week5/cijfers
