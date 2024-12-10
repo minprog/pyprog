@@ -275,7 +275,7 @@ module_7:
         cards: 1
         country: 1
         lines: 1
-        list: 1
+        lisp: 1
         figuren: 1
 
 module_7_project:
