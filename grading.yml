@@ -138,6 +138,7 @@ grades:
     figuren: *automatic
 
     # module 7
+    adventure-more: *automatic
 
 
 

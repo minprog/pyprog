@@ -284,7 +284,7 @@ module_7_project:
     deadline: 15/12/24 17:00
     deadline_hard: true
     submits:
-        adventure: 1
+        adventure-more: 1
 
 tentamen_ki:
     show_overview: true
