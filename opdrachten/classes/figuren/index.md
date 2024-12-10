@@ -26,13 +26,38 @@ Dit sorteren werkt niet zomaar vanzelf. Het werkt omdat voor integers en strings
 
 Hoe je deze operator zelf definieert volgt in een latere stap.
 
-## Voorbereiding
+## Inheritance
 
-Bestudeer goed de uitleg in het boek over inheritance vanaf pagina 290. Je moet onderstaande kunnen maken met hulp van deze uitleg, je eerdere kennis van Python en de informatie uit deze opdracht.
+In deze opgave maak je diverse classes die figuren representeren. We hebben al besproken dat je van verschillende figuren de oppervlakte kunt berekenen met verschillende formules. Daarom ligt het voor de hand aparte classes te maken voor elk soort figuur.
+
+Tegelijk zijn er ook wel eigenschappen of operaties te bedenken die gelijk zijn voor *alle soorten figuren*. Zo zou je je kunnen voorstellen dat elke figuur een methode `is_large()` heeft die op basis van de `area()` van de figuur bepaalt of deze "groot" genoemd moet worden (bijvoorbeeld area() > 20, om maar een willekeurig getal te kiezen).
+
+Met inheritance kun je dan zeggen: de code voor het bepalen van `is_large()` gaan we niet in elke figuur-class kopiëren, omdat deze overal hetzelfde is. Dat is onoverzichtelijk en als je de formule wil aanpassen moet je die overal aanpassen. Handiger is het dan, als je de gedeelde code op één plek kunt plaatsen.
+
+Met inheritance definieer je een "parent"-klasse waarvan alle figuren worden "afgeleid". Dat kan er zo uitzien:
+
+    class Shape:
+        """
+        parent class voor alle figuren
+        """
+        def is_large(self):
+            self.area() > 20
+
+    class Circle(Shape):
+        def area():
+            ...
+    
+    class Rectangle(Shape)
+        def area():
+            ...
+
+Doordat bij `Circle` en `Rectangle` een *parent*-class is aangegeven tussen haakjes, zullen deze twee classes de beschikking hebben over alle methods die in de parent class gedefinieerd zijn (in dit geval dus alleen `is_large()`).
+
+Als je een `circle1` hebt, en `circle1.is_large()` aanroept, dan zal deze functie `self.area()` aanroepen (dus eigenlijk `circle1.area()`) en zo bepalen of die specifieke cirkel "groot" is.
 
 ## Classes
 
-Werk de classes voor `Square`, `Rectangle` en `Circle` uit in een bestand genaamd `figuren.py`.
+Werk de classes voor `Square`, `Rectangle`, `Circle` en `Shape` uit in een bestand genaamd `figuren.py`.
 
 *   Elke class moet een `__init__` krijgen waarin de juiste parameters kunnen worden doorgegeven (denk dus aan de straal). En elke class moet een method `area()` definiëren die de juiste oppervlakte berekent en teruggeeft.
 
