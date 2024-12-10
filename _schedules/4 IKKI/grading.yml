@@ -265,26 +265,26 @@ module_6_project:
     submits:
         klimaat: 1
 
-# module_7:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         queue: 1
-#         cards: 1
-#         country: 1
-#         lines: 1
-#         hangman: 1
-#         knapsack: 1
+module_7:
+    # show_overview: true
+    show_progress: true
+    deadline: 15/12/24 17:00
+    deadline_hard: true
+    submits:
+        # queue: 1
+        cards: 1
+        country: 1
+        lines: 1
+        list: 1
+        figuren: 1
 
-# module_7_project:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         adventure: 1
+module_7_project:
+    # show_overview: true
+    show_progress: true
+    deadline: 15/12/24 17:00
+    deadline_hard: true
+    submits:
+        adventure: 1
 
 tentamen_ki:
     show_overview: true
