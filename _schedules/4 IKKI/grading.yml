@@ -107,6 +107,7 @@ grades:
     tentamen_oefening_w2: *werkcollege
 
     oefententamen: *werkcollege
+    oefenen_hertentamen: *werkcollege
     
     werkcollege_1_her: *werkcollege_her
     werkcollege_2_her: *werkcollege_her
