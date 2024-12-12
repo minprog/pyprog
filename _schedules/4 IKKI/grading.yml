@@ -116,6 +116,17 @@ grades:
     werkcollege_5_her: *werkcollege_her
     werkcollege_6_her: *werkcollege_her
 
+    modules:
+        type: points
+        subgrades:
+            mod_5: check
+            virus: check
+            mod_6: check
+            klima: check
+            mod_7: check
+            adven: check
+        calculation: -(mod_5 * 5 + virus + mod_6 * 5 + klima + mod_7 * 5 + adven)
+
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
@@ -135,15 +146,23 @@ grades:
 calculation:
     eindcijfer_ki:
         werkcolleges: 7
+        modules: 24
+        werkbladen: 7
         tentamen_ki: 14
     eindcijfer_ik:
         werkcolleges: 7
+        modules: 24
+        werkbladen: 7
         tentamen_ik: 14
     herkansing_ki:
         werkcolleges: 7
+        modules: 24
+        werkbladen: 7
         hertentamen_ki: 14
     herkansing_ik:
         werkcolleges: 7
+        modules: 24
+        werkbladen: 7
         hertentamen_ik: 14
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
@@ -176,8 +195,9 @@ werkcolleges:
         werkcollege_6: 1
         werkcollege_7: 1
 
-werkcolleges_herkansing:
+werkbladen:
     show_progress: true
+    type: points
     submits:
         werkcollege_1_her: 1
         werkcollege_2_her: 1
@@ -286,6 +306,12 @@ module_7_project:
     deadline_hard: true
     submits:
         adventure-more: 1
+
+modules:
+    show_overview: true
+    type: points
+    submits:
+        modules: 24
 
 tentamen_ki:
     show_overview: true
