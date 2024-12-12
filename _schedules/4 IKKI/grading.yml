@@ -119,12 +119,12 @@ grades:
     modules:
         type: points
         subgrades:
-            mod_5: check
-            virus: check
-            mod_6: check
-            klima: check
-            mod_7: check
-            adven: check
+            mod_5: boolean
+            virus: boolean
+            mod_6: boolean
+            klima: boolean
+            mod_7: boolean
+            adven: boolean
         calculation: -(mod_5 * 5 + virus + mod_6 * 5 + klima + mod_7 * 5 + adven)
 
 # CALCULATIONS - define the final grades for the course and the weights between
