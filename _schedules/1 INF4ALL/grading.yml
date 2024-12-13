@@ -213,8 +213,10 @@ mod_classes:
     submits:
         queue: 1
         cards: 1
-        hangman-less: 1
-        knapsack: 1
+        country: 1
+        lines: 1
+        hangman: 1
+        # knapsack: 1
 
 tentamen_inf4all:
     show_overview: true
