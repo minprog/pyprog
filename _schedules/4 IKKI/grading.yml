@@ -125,7 +125,7 @@ grades:
             klima: boolean
             mod_7: boolean
             adven: boolean
-        calculation: -(mod_5 * 5 + virus + mod_6 * 5 + klima + mod_7 * 5 + adven)
+        calculation: -(mod_5 * 5 + virus * 3 + mod_6 * 5 + klima * 3 + mod_7 * 5 + adven * 3)
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
