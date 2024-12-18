@@ -331,7 +331,7 @@ tentamen_ik:
         tentamen_ik: 14
 
 hertentamen_ki:
-    # show_overview: true
+    show_overview: true
     type: points
     attempt_required: true
     minimum: 10
@@ -339,7 +339,7 @@ hertentamen_ki:
         hertentamen_ki: 14
 
 hertentamen_ik:
-    # show_overview: true
+    show_overview: true
     type: points
     attempt_required: true
     minimum: 10
