@@ -311,7 +311,6 @@ module_7_project:
 modules:
     show_overview: true
     type: points
-    attempt_required: true
     submits:
         modules: 24
 
