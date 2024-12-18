@@ -315,24 +315,24 @@ modules:
 
 tentamen_ki:
     show_overview: true
-    minimum: 5.5
+    type: points
     submits:
-        tentamen_ki: 1
+        tentamen_ki: 14
 
 tentamen_ik:
     show_overview: true
-    minimum: 5.5
+    type: points
     submits:
-        tentamen_ik: 1
+        tentamen_ki: 14
 
 hertentamen_ki:
     # show_overview: true
-    minimum: 5.5
+    type: points
     submits:
-        hertentamen_ki: 1
+        tentamen_ki: 14
 
 hertentamen_ik:
     # show_overview: true
-    minimum: 5.5
+    type: points
     submits:
-        hertentamen_ik: 1
+        tentamen_ki: 14
