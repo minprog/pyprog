@@ -317,12 +317,14 @@ modules:
 tentamen_ki:
     show_overview: true
     type: points
+    attempt_required: true
     submits:
         tentamen_ki: 14
 
 tentamen_ik:
     show_overview: true
     type: points
+    attempt_required: true
     submits:
         tentamen_ik: 14
 
