@@ -147,12 +147,12 @@ calculation:
     eindcijfer_ki:
         werkcolleges: 7
         modules: 24
-        werkbladen: 7
+        # werkbladen: 7
         tentamen_ki: 14
     eindcijfer_ik:
         werkcolleges: 7
         modules: 24
-        werkbladen: 7
+        # werkbladen: 7
         tentamen_ik: 14
     herkansing_ki:
         werkcolleges: 7
