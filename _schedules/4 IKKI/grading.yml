@@ -324,16 +324,16 @@ tentamen_ik:
     show_overview: true
     type: points
     submits:
-        tentamen_ki: 14
+        tentamen_ik: 14
 
 hertentamen_ki:
     # show_overview: true
     type: points
     submits:
-        tentamen_ki: 14
+        hertentamen_ki: 14
 
 hertentamen_ik:
     # show_overview: true
     type: points
     submits:
-        tentamen_ki: 14
+        hertentamen_ik: 14
