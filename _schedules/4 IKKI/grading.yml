@@ -156,13 +156,13 @@ calculation:
         tentamen_ik: 14
     herkansing_ki:
         werkcolleges: 7
-        modules: 24
-        werkbladen: 7
+        # modules: 24
+        werkbladen: 24
         hertentamen_ki: 14
     herkansing_ik:
         werkcolleges: 7
-        modules: 24
-        werkbladen: 7
+        # modules: 24
+        werkbladen: 24
         hertentamen_ik: 14
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
