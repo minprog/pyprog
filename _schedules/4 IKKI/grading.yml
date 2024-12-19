@@ -199,6 +199,7 @@ werkcolleges:
 werkbladen:
     show_progress: true
     type: points
+    maximum: 24
     submits:
         werkcollege_1_her: 1
         werkcollege_2_her: 1
