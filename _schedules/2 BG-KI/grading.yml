@@ -98,6 +98,9 @@ grades:
         calculation: punten / 11.0 * 9 + 1
     hertentamen_bg:
         type: float
+        subgrades:
+            punten: float
+        calculation: punten / 11.0 * 9 + 1
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -233,5 +236,4 @@ hertentamen:
     minimum: 5.5
     attempt_required: true
     submits:
-        tentamen_bg_her: 1
-
+        hertentamen_bg: 1
