@@ -164,7 +164,7 @@ Bij het tentamen in week 8 ga je programmeren. Je moet laten zien dat je:
 - Een class kunt schrijven door een collection type te encapsulaten (3 van 11 punten)
     - 1 opgave waarin je op basis van voorbeeldcode de class bouwt
 
-Voor alle opgaven is de eis dat je een nette functie schrijft met doctests en goede types. "Goed gebruik" van Python-constructies wordt meegenomen in de beoordeling. Dat betekent dat je normaal code moet schrijven zoals deze tijdens de cursus voorbij is gekomen.
+Het volledig oplossen van elke opgave levert simpelweg de punten op. Aanvullend moet je een nette functie schrijven met doctests en goede types. "Goed gebruik" van Python-constructies wordt in enkele gevallen meegenomen in de beoordeling. Dat betekent dat je normaal code moet schrijven zoals deze tijdens de cursus voorbij is gekomen.
 
 <!-- > De beoordelingswijze van het tentamen zal nog aangepast worden. Zodra dit is gebeurd volgt een mail naar alle deelnemers.
 
