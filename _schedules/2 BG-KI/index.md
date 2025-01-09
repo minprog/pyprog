@@ -44,7 +44,7 @@ Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak besta
 
 3.  **Code reviews tijdens het werkcollege** (25% van eindcijfer).
 
-    Drie keer vind tijdens het werkcollege ook een code review plaats. Je gaat een eerdere opdracht nalopen met een medestudent en daarna opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. De bedoeling is dat je ze allemaal doet (zie cijfers hieronder).
+    Drie keer vind tijdens het werkcollege ook een code review plaats. Je gaat een eerdere opdracht nalopen met een medestudent en daarna opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. De bedoeling is dat je ze allemaal doet (zie cijfers hieronder). Het maximale cijfer van de code reviews telt voor het eindcijfer - dus niet het gemiddelde.
 
 4.  **Beoordeling tentamen** (75% van eindcijfer).
 
@@ -155,13 +155,16 @@ Het cijfer voor één review bereken je door `punten / 6 * 9 + 1`. Het deelcijfe
 
 Bij het tentamen in week 8 ga je programmeren. Je moet laten zien dat je:
 
-- De basis van Python beheerst
-- Collection types kunt toepassen
-- Basis objectoriëntatie kunt toepassen
-- Nette functies kunt schrijven op basis van het recept
-- ...
+- List comprehensions beheerst (2 van 11 punten)
+    - 4 kleine opgaven die elk een manier van toepassen toetsen
+- Collection types kunt toepassen in kleine algoritmen (3 van 11 punten)
+    - 3 kleine opgaven die elk een combinatie collection type + algoritme toetsen
+- Een kleine class kunt schrijven (3 van 11 punten)
+    - 1 opgave waarin je een class bouwt op basis van een stuk code die de class gebruikt
+- Een class kunt schrijven door een collection type te encapsulaten (3 van 11 punten)
+    - 1 opgave waarin je op basis van voorbeeldcode de class bouwt
 
-Meer over de beoordeling volgt na een paar weken.
+Voor alle opgaven is de eis dat je een nette functie schrijft met doctests en goede types. "Goed gebruik" van Python-constructies wordt meegenomen in de beoordeling. Dat betekent dat je normaal code moet schrijven zoals deze tijdens de cursus voorbij is gekomen.
 
 <!-- > De beoordelingswijze van het tentamen zal nog aangepast worden. Zodra dit is gebeurd volgt een mail naar alle deelnemers.
 
