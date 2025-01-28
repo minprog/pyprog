@@ -247,4 +247,4 @@ modules:
     show_overview: true
     type: points
     submits:
-        modules: 1
+        modules: 24
