@@ -33,6 +33,14 @@ templates:
             done: boolean
         calculation: done
         hide_calculated: true
+    6: &tentamen
+        type: pass
+        subgrades:
+            voldoende: boolean
+        automatic:
+            voldoende: -(correctness_score.floor)
+        calculation: voldoende
+        hide_calculated: true
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -87,20 +95,23 @@ grades:
         deadline_hard: true
 
     tentamen_inf4all:
-        type: float
+        <<: *tentamen
         deadline: 30/01/24 22:00
-        deadline_hard: true
-        subgrades:
-            punten: float
-        calculation: punten / 20.0 * 9 + 1
 
     hertentamen_inf4all:
-        type: float
-        deadline: 30/01/24 22:00
-        deadline_hard: true
+        <<: *tentamen
+        # deadline: 30/01/24 22:00
+
+    modules:
+        type: points
         subgrades:
-            punten: float
-        calculation: punten / 20.0 * 9 + 1
+            mod_5: boolean
+            virus: boolean
+            mod_6: boolean
+            klima: boolean
+            mod_7: boolean
+            adven: boolean
+        calculation: -(mod_5 * 5 + virus * 3 + mod_6 * 5 + klima * 3 + mod_7 * 5 + adven * 3)
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -120,10 +131,10 @@ grades:
 
 calculation:
     eindcijfer_inf4all:
-        code_reviews: 25
+        modules: 25
         tentamen_inf4all: 75
     eindcijfer_herkansing_inf4all:
-        code_reviews: 25
+        modules: 25
         hertentamen_inf4all: 75
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
@@ -229,3 +240,9 @@ hertentamen_inf4all:
     minimum: 5.5
     submits:
         hertentamen_inf4all: 1
+
+modules:
+    show_overview: true
+    type: points
+    submits:
+        modules: 1
