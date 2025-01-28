@@ -232,13 +232,13 @@ mod_classes:
 
 tentamen_inf4all:
     show_overview: true
-    minimum: 5.5
+    # minimum: 5.5
     submits:
         tentamen_inf4all: 1
 
 hertentamen_inf4all:
     show_overview: true
-    minimum: 5.5
+    # minimum: 5.5
     submits:
         hertentamen_inf4all: 1
 
