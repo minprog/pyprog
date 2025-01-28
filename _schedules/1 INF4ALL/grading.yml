@@ -131,11 +131,11 @@ grades:
 
 calculation:
     eindcijfer_inf4all:
-        modules: 25
-        tentamen_inf4all: 75
+        modules: 50
+        tentamen_inf4all: 50
     eindcijfer_herkansing_inf4all:
-        modules: 25
-        hertentamen_inf4all: 75
+        modules: 50
+        hertentamen_inf4all: 50
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -240,6 +240,7 @@ tentamen_inf4all:
 hertentamen_inf4all:
     show_overview: true
     # minimum: 5.5
+    type: points
     submits:
         hertentamen_inf4all: 1
 
