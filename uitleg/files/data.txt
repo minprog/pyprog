@@ -1,0 +1,4 @@
+naam,telefoon,counter
+Wak,+31602282791,1
+Reff,+31601739128,2
+Am,+31602739142,3

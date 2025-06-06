@@ -1,0 +1,11 @@
+name: tentamen_oefening_w2
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+files:
+    required:
+        oefening.py: |
+            # Gebruik geen comprehensions of string methods.

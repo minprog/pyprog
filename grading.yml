@@ -26,7 +26,7 @@ templates:
         subgrades:
             points: integer
         calculation: points
-        hide_subgrades: true
+        # hide_subgrades: true
     3: &check
         type: pass
         subgrades:
@@ -70,274 +70,94 @@ templates:
 
 grades:
     # module 1
-    experimenteren:
-        <<: *check
-    fdr:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/10)
-    weken:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    cafeine:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    vakantie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
+    weken: *automatic
+    water: *automatic
+    binair: *automatic
+    cafeine: *automatic
+    vakantie: *automatic
+
+    acid: *automatic
+    orakel: *automatic
+    byte: *automatic
+    rechthoeken: *automatic
+
+    priem_getal: *check
 
     # module 2
-    string_func:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    acid:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    orakel:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    etenstijd:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    calculator:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
+    cola: *automatic
+    greedy: *automatic
+    raadspel: *automatic
+    populatie: *automatic
+
+    piramide: *automatic
+    temperatuur: *automatic
+    kalender: *automatic
+
+    monopoly: *check
 
     # module 3
-    string_module:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    string_methods:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    rechthoeken:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    wachtwoord:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
+    camelcase: *automatic
+    rna: *automatic
+
+    alfabet: *automatic
+    etenstijd: *automatic
+    calculator: *automatic
+    wachtwoord: *automatic
+    leesbaarheid: *automatic
+
+    pwdgen: *check
 
     # module 4
-    list_functions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
-    scrabble:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    cola:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    temperatuur:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
+    list_functions: *automatic
+
+    scrabble: *automatic
+    selection_sort: *automatic
+    special_sort: *automatic
+    sjoelen: *automatic
+    schuifpuzzel: *automatic
+
+    virus: *automatic
 
     # module 5
-    rna:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    leesbaarheid:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    camelcase:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
+    indexer: *automatic
+
+    eca2csv: *automatic
+    klimaat: *automatic
 
     # module 6
-    schuifpuzzel:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/8)
-    kalender:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/12)
+    queue: *automatic
+    cards: *automatic
+    country: *automatic
+    lines: *automatic
+    war: *check
+    hangman: *automatic
+    hangman-less: *automatic
+    knapsack: *check
+    lisp: *automatic
+    lisp2: *automatic
+    figuren: *automatic
 
     # module 7
-    populatie:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
-    sjoelen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/6)
+    adventure-more: *automatic
 
-    # module 8
-    comprehensions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/9)
-    virus:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/17)
 
-    # module 9
-    dict_oefening:
-        <<: *check
-    set_oefening:
-        <<: *check
-    collection_functions:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
 
-    # module 10
-    collection_functions2:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/7)
-    indexer:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/5)
+    # overige
 
-    algorithms:
-        <<: *check
+    prisoners: *check
+    birthdays: *check
+    kunstroof: *check
+    recursie: *check
+    comprehensions: *automatic
 
-    # module 11
-    queue:
-        <<: *automatic
-        automatic:
-            done: -correctness_score.floor
-    cards:
-        <<: *automatic
-        automatic:
-            done: -correctness_score.floor
-    country:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/4)
-    lines:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/4)
+    dict_oefening: *automatic
+    set_oefening: *automatic
+    collection_functions: *automatic
 
-    # module 12
-    hangman:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/20)
-    hangman-less:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor)
+    collection_functions2: *automatic
 
-    # module 13
-    knapsack: *check
-
-    # module 14
-    eca2csv:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
-    klimaat:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/3)
+    algorithms: *check
 
     pygame: *check
     project: *check
-
-    bg1:
-        <<: *manual
-        calculation: points / 6.0 * 9 + 1
-        deadline: 25/9/23 20:00
-    bg2:
-        <<: *manual
-        calculation: points / 6.0 * 9 + 1
-        deadline: 10/10/23 20:00
-    bg3:
-        <<: *manual
-        calculation: points / 6.0 * 9 + 1
-        deadline: 9/10/23 20:00
-
-    r1: *manual
-    r2: *manual
-    r3: *manual
-
-    toetsje:
-        is_test: true
-        subgrades:
-            gedaan: boolean
-        calculation: -gedaan.abs
-        hide_calculated: true
-
-    toetsje_2:
-        is_test: true
-        subgrades:
-            gedaan: boolean
-        calculation: -gedaan.abs
-        hide_calculated: true
-
-    oefententamen:
-        <<: *automatic
-        automatic:
-            done: -(correctness_score.floor/2)
-
-    tentamen_bg:
-        type: float
-    tentamen_inf4all:
-        type: float
-    tentamen_ik:
-        type: float
-    tentamen_ki:
-        type: float
-
-# CALCULATIONS - define the final grades for the course and the weights between
-# subcomponents for each. Often, multiple final grades are differentiated by the
-# choice of grades that are used for the calculation, for example calculating
-# the "normal" final grade based on the "first exam", and the "resit" final
-# grade based on the result of the second exam. Currently, running "calculate
-# final grades" on the website will try to calculate all, which might result in
-# useless non-grades getting calculated.
-#
-# Weights specify proportionally to each other and do not need to add up to
-# anything in particular. If a weight of 0 is specified, the grade is not used
-# in the calculation, but the grade must be "passed" for the calculation to
-# succeed.
-#
-# You can leave this out if the site does not need to perform final grade
-# calculations.
-
-# see -> _schedules/*/grading.yml
-
-# SUB-CALCULATIONS - define the components of the course that may be used in
-# final grade calculations. A few constraints can be specified.
-#
-# The following properties are supported:
-#
-# `submits` are the names of the grades/submits with accompanying weight for
-# each
-#
-# `show_progress: true` will list the results of the grades in a table on
-# students' progress pages
-#
-# `required: true` will only "pass" this part if all comprising grades are
-# passed (used with pass/fail tests)
-#
-# `minimum: 5.5` will only "pass" this part if the weighed average of the grades
-# is at least the specified minimum
-#
-# You can leave these out if unused in the `calculation` section.
-
-# see -> _schedules/*/grading.yml
+    big-o: *check

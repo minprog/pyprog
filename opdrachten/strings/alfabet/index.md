@@ -1,0 +1,55 @@
+# Alfabet
+
+Schrijf een programma `alfabet.py` dat van twee woorden bepaalt welke eerder in het woordenboek voorkomt. Daarbij mag geen verschil worden gemaakt tussen hoofdletters en kleine letters.
+
+## Details
+
+- Vergelijk de woorden letter voor letter (dus in het eerste voorbeeld ga je eerst de `T` en de `L` vergelijken).
+
+- Er zijn drie opties voor de uitkomst van compare:
+
+    - Als woord1 eerder in het alfabet voorkomt dan is de uitkomst -1
+    - Als woord2 eerder in het alfabet voorkomt dan is de uitkomst 1
+    - Als de woorden gelijk zijn dan is de uitkomst 0
+
+- Het algoritme moet zo weinig mogelijk letters bekijken, en zo snel mogelijk de conclusie trekken welk woord eerder komt.
+
+    - Je mag dus niet eerst de hele strings lowercase maken of de hele strings vergelijken.
+
+- Print in `compare()` is niet toegestaan.
+
+## Code
+
+Ontwerp je code zoals hieronder beschreven. Schrijf de docstring, doctests en het hoofdprogramma.
+
+    def compare(word1: str, word2: str) -> int:
+        """
+        
+        """
+
+    if __name__ == '__main__':
+        <Hoofdprogramma>
+
+## Voorbeelden
+
+Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
+
+    $ python3 alfabet.py
+    Woord 1: Taylor
+    Woord 2: Lana
+    Lana first
+
+    $ python3 alfabet
+    Woord 1: shark
+    Woord 2: sWoRd
+    shark first
+
+    $ python3 alfabet
+    Woord 1: Daantje
+    Woord 2: Daan
+    Daan first
+
+    $ python3 alfabet
+    Woord 1: amanda
+    Woord 2: Amanda
+    No need to decide!

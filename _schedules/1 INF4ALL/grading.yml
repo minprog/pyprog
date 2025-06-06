@@ -1,83 +1,251 @@
+# This is a separate section containing a few templates that we will use below.
+# The & feature is built into YAML, it is not a special feature of the website.
+# The section does not need to be called `templates` necessarily.
+
+templates:
+    1: &automatic
+        type: pass
+        subgrades:
+            done: boolean
+        automatic:
+            done: -(correctness_score.floor)
+        calculation: done
+        auto_publish: true
+        hide_calculated: true
+    4: &autopoints
+        type: float
+        subgrades:
+            points: integer
+        automatic:
+            points: correctness_score
+        calculation: (points / 6.0 * 9 + 1).round(1)
+        # auto_publish: true
+        hide_subgrades: true
+    2: &manual
+        type: float
+        subgrades:
+            points: integer
+        calculation: points
+        # hide_subgrades: true
+    3: &check
+        type: pass
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
+    6: &tentamen
+        type: pass
+        subgrades:
+            voldoende: boolean
+        automatic:
+            voldoende: -(correctness_score.floor)
+        calculation: voldoende
+        hide_calculated: true
+
+# GRADES - contains definitions of how grades are structured. The names of the
+# grades match the names of submits that may be defined in `submit.yml`
+# elsewhere, but you can also create grades without an accompanying submit.
+#
+# The following properties are supported:
+#
+# - `type` can be `integer`, `float` or `pass`, which influences presentation
+# and input
+#
+# - `subgrades` defines any extra numbers to be added to a grade, with their
+# types `integer`, `pass`, `boolean` or `float`
+#
+# - note: if any subgrades are defined, teaching assistants are only allowed to
+# enter those, and can't override the grade itself
+#
+# - `calculation` is an expression that is evaluated in the context of the
+# subgrades, which means you can use any subgrade by name in that expression, as
+# well as any standard Ruby objects and syntax
+#
+# - `automatic` is an expression that is evaluated in the context of any
+# automatic grading results (as defined in `submit.yml`) - allowing the use of
+# the variable `correctness_score`. It can only be used to fill in subgrades,
+# but you can then use the `calculation` to transfer the value of a subgrade
+# into the grade.
+#
+# - `hide_calculated` hides the calculated grade, only showing the entered
+# subgrades (to de-emphasize grades for students)
+#
+# - `hide_subgrades` hides the subgrades, for example if you want to do a simple
+# calculation but only show the resulting grade to students
+#
+# You can leave this out if grading isn't used or if each submit simply requires
+# entering a final grade, no subgrades and no calculations.
+
+grades:
+
+    r1:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 2/10/23 13:00
+        deadline_hard: true
+    r2:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 30/10/23 13:00
+        deadline_hard: true
+    r3:
+        <<: *manual
+        calculation: points / 6.0 * 9 + 1
+        deadline: 27/11/23 13:00
+        deadline_hard: true
+
+    tentamen_inf4all:
+        <<: *tentamen
+        deadline: 30/01/24 22:00
+
+    hertentamen_inf4all:
+        <<: *tentamen
+        # deadline: 30/01/24 22:00
+
+    modules:
+        type: points
+        subgrades:
+            mod_5: boolean
+            virus: boolean
+            mod_6: boolean
+            klima: boolean
+            mod_7: boolean
+            adven: boolean
+        calculation: -(mod_5 * 5 + virus * 3 + mod_6 * 5 + klima * 3 + mod_7 * 5 + adven * 3)
+
+# CALCULATIONS - define the final grades for the course and the weights between
+# subcomponents for each. Often, multiple final grades are differentiated by the
+# choice of grades that are used for the calculation, for example calculating
+# the "normal" final grade based on the "first exam", and the "resit" final
+# grade based on the result of the second exam. Currently, running "calculate
+# final grades" on the website will try to calculate all, which might result in
+# useless non-grades getting calculated.
+#
+# Weights specify proportionally to each other and do not need to add up to
+# anything in particular. If a weight of 0 is specified, the grade is not used
+# in the calculation, but the grade must be "passed" for the calculation to
+# succeed.
+#
+# You can leave this out if the site does not need to perform final grade
+# calculations.
+
 calculation:
     eindcijfer_inf4all:
-        code_reviews: 25
-        tentamen_inf4all: 75
+        modules: 50
+        tentamen_inf4all: 50
+    eindcijfer_herkansing_inf4all:
+        modules: 50
+        hertentamen_inf4all: 50
 
-mod_programmeren:
-    show_progress: true
-    deadline: 14/09/23 17:00
-    submits:
-        experimenteren: 1
-        fdr: 1
-        weken: 1
-        cafeine: 1
-        vakantie: 1
-        orakel: 1
-        etenstijd: 1
-        calculator: 1
-
-mod_herhaling:
-    show_progress: true
-    deadline: 28/09/23 17:00
-    submits:
-        rechthoeken: 1
-        wachtwoord: 1
-        scrabble: 1
-        cola: 1
-        temperatuur: 1
-
-mod_decompositie:
-    show_progress: true
-    deadline: 12/10/23 17:00
-    submits:
-        rna: 1
-        leesbaarheid: 1
-        camelcase: 1
-        kalender: 1
-
-mod_simuleren:
-    show_progress: true
-    deadline: 26/10/23 17:00
-    submits:
-        comprehensions: 1
-        populatie: 1
-        sjoelen: 1
-        virus: 1
-
-mod_algoritmen:
-    show_progress: true
-    deadline: 09/11/23 17:00
-    submits:
-        algorithms: 1
-        indexer: 1
-        schuifpuzzel: 1
-
-mod_classes:
-    show_progress: true
-    deadline: 23/11/23 17:00
-    submits:
-        queue: 1
-        cards: 1
-        hangman-less: 1
-        knapsack: 1
-
-mod_dataverwerking:
-    show_progress: true
-    deadline: 07/12/23 17:00
-    submits:
-        eca2csv: 1
-        klimaat: 1
+# SUB-CALCULATIONS - define the components of the course that may be used in
+# final grade calculations. A few constraints can be specified.
+#
+# The following properties are supported:
+#
+# `submits` are the names of the grades/submits with accompanying weight for
+# each
+#
+# `show_progress: true` will list the results of the grades in a table on
+# students' progress pages
+#
+# `required: true` will only "pass" this part if all comprising grades are
+# passed (used with pass/fail tests)
+#
+# `minimum: 5.5` will only "pass" this part if the weighed average of the grades
+# is at least the specified minimum
+#
+# You can leave these out if unused in the `calculation` section.
 
 code_reviews:
     show_progress: true
-    type: points
+    type: maximum
     submits:
         r1: 1
         r2: 1
         r3: 1
 
-tentamen_inf4all:
+mod_programmeren:
     show_progress: true
-    attempt_required: true
+    deadline: 19/9/24 17:00
+    submits:
+        weken: 1
+        cafeine: 1
+        vakantie: 1
+        orakel: 1
+        acid: 1
+        # rechthoeken: 1
+
+mod_herhaling:
+    show_progress: true
+    deadline: 3/10/24 17:00
+    submits:
+        cola: 1
+        temperatuur: 1
+        kalender: 1
+        populatie: 1
+        sjoelen: 1
+
+mod_strings:
+    show_progress: true
+    deadline: 17/10/24 17:00
+    submits:
+        alfabet: 1
+        etenstijd: 1
+        calculator: 1
+        wachtwoord: 1
+        rna: 1
+        leesbaarheid: 1
+        camelcase: 1
+
+mod_lists:
+    show_progress: true
+    deadline: 31/10/24 17:00
+    submits:
+        list_functions: 1
+        scrabble: 1
+        selection_sort: 1
+        special_sort: 1
+        schuifpuzzel: 1
+        virus: 1
+
+mod_collections:
+    show_progress: true
+    deadline: 27/11/24 17:00
+    submits:
+        collection_functions: 1
+        indexer: 1
+        big-o: 1
+        eca2csv: 1
+        klimaat: 1
+
+mod_classes:
+    show_progress: true
+    deadline: 12/12/24 17:00
+    submits:
+        queue: 1
+        cards: 1
+        country: 1
+        lines: 1
+        hangman: 1
+        # knapsack: 1
+        adventure-more: 1
+
+tentamen_inf4all:
+    show_overview: true
+    minimum: 5.5
+    type: points
     submits:
         tentamen_inf4all: 1
+
+hertentamen_inf4all:
+    show_overview: true
+    minimum: 5.5
+    type: points
+    submits:
+        hertentamen_inf4all: 1
+
+modules:
+    show_overview: true
+    type: points
+    submits:
+        modules: 24

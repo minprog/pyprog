@@ -1,6 +1,6 @@
 # Basis Objectgeorienteerd Programmeren
 
-## Studiewijzer INF4ALL<br><small>Herfst 2023</small>
+## Studiewijzer INF4ALL<br><small>Herfst 2024</small>
 
 Dit vak volg je als je INF4ALL doet en de basis van het programmeren onder de knie wil krijgen. Tijdens het vak werk je met Python, om te beginnen met vele kleinere oefenopdrachten. In de loop van de weken ga je meer geavanceerde programma's schrijven.
 
@@ -18,37 +18,33 @@ Martijn Stegeman is docent. Je kunt hem mailen via <m.stegeman@uva.nl>. Opdracht
 
 - **Module 2: Herhalen en lijsten.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
 
-- **Module 3: Decompositie.** Hier ga je aan de slag met het maken van grotere programma's die opgedeeld zijn in meerdere functies.
+- **Module 3: Strings.** Hier ga je aan de slag met strings, om herhaling toe te passen voor de analyse van rijtjes tekens en om nieuwe strings te maken.
 
-- **Module 4: Simuleren.** Met je kennis van de vorige weken ga je programma's bouwen om problemen uit de "echte wereld" door te rekenen. Simuleren is de techniek die je hierbij gebruikt.
+- **Module 4: Lijsten en algoritmen.** Je werkt aan je kennis van lijsten en hoe je deze kunt gebruiken om data bij te houden. Je maakt kennis met enkele (sorteer)algoritmen.
 
-- **Module 5: Algoritmen.** Hier ga je kijken naar een aantal standaard-algoritmen die ontdekt zijn door computerwetenschappers. Met name zoek- en sorteeralgoritmen zijn cruciaal voor elke toepassing.
+- **Module 5: Collecties en data.** Hier leer je een datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
 
 - **Module 6: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
 
-- **Module 7: Data en files.** In de laatste module leer je een grotere datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
 
 ## Opdrachten en eindcijfer
 
 Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
 
-1. Oefeningen uit het boek maken. In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen. Doe er minstens een paar om jezelf te controleren.
+1. Oefeningen uit het boek maken. In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen.
 
 2. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
 
-3. Beoordeling code review (25% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Ze worden erg streng nagekeken, maar de hoogste beoordeling telt zodat je ruimte hebt om te leren.
+3. Beoordeling tentamen (50% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven op basis van de kennis t/m module 3, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen om het vak af te kunnen ronden.
 
-4. Beoordeling tentamen (75% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren.
+4. Aftekenen modules 4, 5 en 6 (50% van eindcijfer). Voor de "normale" opgaven en het "project" binnen deze modules kun je punten verdienen. Indien volledig gemaakt, ingeleverd, goedgekeurd en begrepen (naar inzicht docent) krijg je de punten voor een onderdeel.
 
 ### Minimumeisen
 
 Om in aanmerking te komen voor een eindbeoordeling moet je:
 
-- meedoen met het vak, dus het grootste deel van alle opdrachten volledig werkend hebben ingeleverd vóór het volgende college (dus geen grote gaten laten vallen, naar beoordeling van de docenten, denk aan 80% ingeleverd)
-- specifiek de opdrachten waarvan je een code review moet uitvoeren ingeleverd hebben vóór het volgende werkcollege (we laten altijd tijdig weten welke dit zijn, in de eerste week is dit nog niet relevant)
-- alle code reviews op de gevraagde manier hebben uitgevoerd en tijdig ingeleverd, eventueel in overleg met de docent
-- aanwezig zijn geweest bij alle werkcolleges die in het rooster zijn aangegeven
-- het tentamen voldoende maken
+- goed meedoen met het vak, dus het grootste deel van alle opdrachten volledig werkend hebben ingeleverd vóór het volgende college; laat dus geen grote gaten vallen, naar beoordeling van de docenten, denk aan 80% ingeleverd
+- het tentamen voldoende maken; je kunt het vak dus niet halen door alleen de modules te maken
 
 Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
 
@@ -70,15 +66,14 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Dit is een overzicht van de deadlines per week:
 
-|          | deadline huiswerk | deadline code review |
-|----------|-------------------|----------------------|
-| Module 1 | do 14 sep  17:00  | -                    |
-| Module 2 | do 28 sep  17:00  | ma  2 okt  13:00     |
-| Module 3 | do 12 okt  17:00  | -                    |
-| Module 4 | do 26 okt  17:00  | ma 30 okt  13:00     |
-| Module 5 | do  9 nov  17:00  | -                    |
-| Module 6 | do 23 nov  17:00  | ma 27 nov  13:00     |
-| Module 7 | do  7 dec  17:00  | -                    |
+|          | deadline huiswerk |
+|----------|-------------------|
+| Module 1 | do 19 sep  17:00  |
+| Module 2 | do  3 okt  17:00  |
+| Module 3 | do 17 okt  17:00  |
+| Module 4 | do 31 okt  17:00  |
+| Module 5 | do 27 nov  17:00  |
+| Module 6 | do 12 dec  17:00  |
 
 De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. De code review doe je tijdens de bijeenkomst in Utrecht, en je levert je aanpassingen en verslag in het weekend erna in. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
@@ -90,31 +85,36 @@ Het is heel belangrijk dat als je ziek bent op een normale werkdag, je niet je I
 
 Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de docent. Stuur maar een [mailtje](mailto:m.stegeman@uva.nl)!
 
-## Beoordeling code review
-
-De becijferde opdrachten kunnen elk maximaal 6 punten opleveren. In de [stijlgids](/stijl) zijn diverse aspecten aangegeven op basis waarvan de punten voornamelijk (maar niet uitsluitend) worden bepaald. Deze aspecten gaan over *codekwaliteit*. De schaal is als volgt:
-
-6. uitzonderlijke kwaliteit op basis van een doordacht ontwerp met scherp onderbouwde keuzes
-5. goede kwaliteit, beperkt ruimte voor verbetering en alle keuzes zijn goed onderbouwd
-4. degelijke kwaliteit, ruimte voor verbetering, meerdere keuzes zijn goed onderbouwd
-3. voldoende aandacht voor alle genoemde aspecten, veel ruimte voor verbetering, alle keuzes zijn beredeneerd
-2. enige zichtbare aandacht voor een beperkt aantal aspecten, of er zijn keuzes zonder redenatie
-1. onvoldoende zichtbare aandacht voor de genoemde aspecten, of er is geen redenatie bij de keuzes
-{: start="6" reversed=""}
-
-Wil je goed scoren (4 punten), dan bestudeer je goed de aspecten die we aangeven, doe je actief mee aan de code review, en loop je kritisch elke regel code na met de aspecten en voorschriften in het achterhoofd. Zo leg je een perfecte basis om verder te leren.
-
-Wil je erg hoog scoren (richting 6 punten), dan zul je niet alleen de aangeleverde materialen moeten bestuderen, maar ook externe bronnen. Bij de aspecten zijn verwijzingen te vinden naar hoofdstukken met meer informatie, en je kunt zelf ook op zoek naar kritische bronnen (overleg even of ze van voldoende kwaliteit zijn!).
-
-Het deelcijfer voor de code reviews zal gelijk zijn aan het *hoogste* cijfer dat je voor een code review hebt gehaald. Het cijfer bereken je door `punten / 6 * 9 + 1`.
-
 ## Beoordeling tentamen
 
-Deze wordt hier nog uitgewerkt, maar hoe beter je de Python-constructies uit deze cursus toepast, hoe hoger het cijfer.
+Je moet minimaal 3 van de 5 opgaven succesvol oplossen voor een voldoende. Hierbij is de minimumeis dat de opgave geheel opgelost is en voor minimaal 3 verschillende gevallen een test is toegevoegd aan elke te schrijven functie. De voldoende telt dan mee als een "10" voor 50% van het eindcijfer.
 
-## Boek
+## Beoordeling modules 4, 5 en 6
 
-Voor de theorie gebruik je het boek **Practical Programming**, derde druk, van Paul Gries. Je kunt het aanschaffen als PDF via <https://pragprog.com/titles/gwpy3/practical-programming-third-edition/>. Je kunt het ook bestellen in de boekhandel.
+Voor het maken van het grootste deel van de opgaven uit elke module kun je punten verdienen:
+
+- Module 4 normaal (5p)
+    - Scrabble
+    - Selection sort
+    - Special sort
+    - Schuifpuzzel
+- Module 4 project (3p)
+    - Virus-simulatie
+- Module 5 normaal (5p)
+    - Indexer
+    - Big-O
+- Module 5 project (3p)
+    - Klimaatdata
+- Module 6 normaal (5p)
+    - Queue
+    - Cards
+    - Country
+    - Lines
+    - Hangman
+- Module 6 project (3p)
+    - Adventure
+
+Het totaal is 24 punten. Er worden geen deelpunten gegeven. Het toegekende aantal punten telt als fractie van een "10" voor 50% van het eindcijfer.
 
 ## Samenwerken
 

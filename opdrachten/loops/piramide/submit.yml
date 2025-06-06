@@ -1,0 +1,8 @@
+name: piramide
+files:
+    required:
+        - piramide.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: piramide

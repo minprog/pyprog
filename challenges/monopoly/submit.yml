@@ -1,0 +1,9 @@
+name: monopoly
+files:
+    required:
+        - monopoly.py
+        - monopoly_realistisch.py
+check:
+    tool: checkpy
+    repo: uva/progns
+    args: monopoly monopoly_realistisch

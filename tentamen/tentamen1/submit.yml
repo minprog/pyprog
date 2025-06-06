@@ -1,6 +1,0 @@
-name: tentamen_bg
-files:
-  required:
-    - freq.py
-    - todo.py
-    - benb.py

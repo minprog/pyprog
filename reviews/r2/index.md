@@ -1,4 +1,4 @@
-# Code review: Wachtwoord & Cola
+# Code review: RNA & Leesbaarheid & Camelcase
 
 De code review focust op een aantal **aspecten**. Deze aspecten worden ook gebruikt bij het nakijken van jouw definitieve programma's, dus het gebruik bij de code reviews helpt je om de juiste richting op te gaan. Maar let op: het nakijken beperkt zich niet tot alleen de aspecten. Je kunt zelf namelijk ook uitzoeken hoe je betere Python-programma's kunt schrijven en dat verwachten we van je als je heel hoog wilt scoren.
 

@@ -1,0 +1,6 @@
+name: tentamen_bg_her
+files:
+  required:
+    - books.py
+    - contacts.py
+    - data_cleaner.py

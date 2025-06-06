@@ -1,93 +1,87 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
     Installeer Python op je laptop: /installatie
+    Reviews:
+        Eerste review: /reviews/bg1
+        Tweede review: /reviews/bg2
+        Derde review: /reviews/bg3
 
 Module 1:
     Overzicht: /modbg/programmeren
-    Lezen en oefenen:
-        "Chapter 2: Hello, Python": /boek/hello
-        "Chapter 3: Designing functions": /boek/functions
-        "Chapter 4: Working with text": /boek/text
-        "Chapter 5: Making Choices": /boek/choices
-        "Chapter 6: Modular Approach": /boek/modules
-        "Chapter 7: Using Methods": /boek/methods
-        "Chapter 8: Storing Collections using Lists": /boek/lists
-        "Chapter 9: Repeating Code using Loops": /boek/loops
-    Opdrachten:
-        Etenstijd: /opdrachten/week1/etenstijd
-        Calculator: /opdrachten/week1/calculator
-        Wachtwoord: /opdrachten/week2/wachtwoord
-        Cola: /opdrachten/week2/cola
-        # Sjoelen: /opdrachten/week3/sjoelen
-        Temperatuur: /opdrachten/week2/temperatuur
+    Startopdrachten:
+        Etenstijd: /opdrachten/strings/etenstijd
+        Wachtwoord: /opdrachten/strings/wachtwoord
+        RNA: /opdrachten/strings/rna
+    Huiswerk:
+        camelCase: /opdrachten/strings/camelcase
+        Kalender: /opdrachten/loops/kalender
 
 Module 2:
-    Overzicht: /modbg/decompositie
-    # Code review: /
-    # Lezen en oefenen:
-    Opdrachten:
-        RNA: /opdrachten/week3/rna                 # 4 func, main, list-string conversion
-        Leesbaarheid: /opdrachten/week3/leesbaarheid # 2 func, main, string tellen, find
-        camelCase: /opdrachten/week3/camelcase     # 1 func, main, string constructie
-        Kalender: /opdrachten/week3/kalender       # misschien het printen beetje scaffolden
+    Overzicht: /modbg/simuleren
+    Startopdrachten:
+        Populatie: /opdrachten/simulaties/populatie
+        Sjoelen: /opdrachten/lists/sjoelen
+    Huiswerk:
+        Birthday: /opdrachten/simulaties/birthday
+        Prisoners: /opdrachten/simulaties/prisoners
     Oefenen:
-        Debugging: /opdrachten/week3/debug
+        Debugging: /oefeningen/debug
 
 Module 3:
-    Overzicht: /modbg/simuleren
-    Oefenen:
-        Comprehensions: /opdrachten/week4/comprehensions
-    Opdrachten:
-        Populatie: /opdrachten/week4/populatie     # 1 func, main, simulatie
-        Sjoelen: /opdrachten/week4/sjoelen         # 2 func, main, simulatie
-        Virus: /opdrachten/week4/virus             # 7 func, main, simulatie, comprehensions
+    Overzicht: /modbg/collections
+    Collection types:
+        Dictionaries: /opdrachten/collections/dicts
+        Tuples: /opdrachten/collections/tuples
+        Sets: /opdrachten/collections/sets
+        Oefenen: /opdrachten/collections/collection_functions
+    Startopdrachten:
+        Memory: /opdrachten/collections/memory_model
+        Feestagenda: /opdrachten/collections/feestagenda
+    Huiswerk:
+        Indexer: /opdrachten/collections/indexer
+        Schuifpuzzel: /opdrachten/collections/schuifpuzzel
 
 Module 4:
-    Overzicht: /modbg/algoritmen
-    # Code review: /
-    Lezen en oefenen:
-        "Chapter 11: Collection Types": /boek/collections
-        "Chapter 12: Designing Algorithms": /boek/algorithms
-        "Chapter 13: Search and Sorting": /boek/searching
-    Opdrachten:
-        Algorithms: /opdrachten/week5/algorithms
-        Indexer: /opdrachten/week5/indexer
-        Schuifpuzzel: /opdrachten/week5/schuifpuzzel
-    Oefenen:
-        Memory: /opdrachten/week5/memory_model
-        Feestagenda: /opdrachten/week5/feestagenda
+    Overzicht: /modbg/functioneel
+    Startopdracht:
+        Kunstroof: /opdrachten/collections/kunstroof
+    Huiswerk:
+        Recursie: /opdrachten/functioneel/recursie
+        Comprehensions: /opdrachten/lists/comprehensions
+        Virus: /opdrachten/lists/virus
 
 Module 5:
     Overzicht: /modbg/classes
-    # Tentamen-oefening: /toetsjes/week3
-    Lezen en oefenen:
-        "Chapter 14: Object-oriented programming": /boek/objects
+    Uitleg:
+        Videocollege: /uitleg/classes
+    Startopdrachten:
+        Queue: /opdrachten/classes/queue             # basic datastructuur, encapsulation, init
+        Cards: /opdrachten/classes/cards             # UML, data class, container
     Opdrachten:
-        Queue: /classes/queue                      # basic datastructuur, encapsulation, init
-        Cards: /classes/cards                      # UML, data class, container
-        Hangman: /hangman/classic                  # separation of concerns (lexicon/game)
-        Knapsack: /opdrachten/week6/knapsack       # class-representatie probleem (geen operators!)
+        Lines: /opdrachten/classes/lines
+        War: /opdrachten/classes/war
+        Knapsack: /opdrachten/classes/knapsack       # class-representatie probleem (geen operators!)
         # let op: lisp, figuren zijn geschrapt
 
 Module 6:
     Overzicht: /modbg/pygame
     Opdracht 1:
-        Draw: /opdrachten/week8/pygame00_draw
-        Player: /opdrachten/week8/pygame01_player
-        Abstraction: /opdrachten/week8/pygame02_abstraction
+        Draw: /opdrachten/pygame/pygame00_draw
+        Player: /opdrachten/pygame/pygame01_player
+        Abstraction: /opdrachten/pygame/pygame02_abstraction
     Opdracht 2:
-        Aliens: /opdrachten/week8/pygame03_aliens
-        Inheritance: /opdrachten/week8/pygame04_inheritance
-        Polymorphism: /opdrachten/week8/pygame05_polymorphism
+        Aliens: /opdrachten/pygame/pygame03_aliens
+        Inheritance: /opdrachten/pygame/pygame04_inheritance
+        Polymorphism: /opdrachten/pygame/pygame05_polymorphism
     Opdracht 3:
-        Interaction: /opdrachten/week8/pygame06_interaction
-        Sticky units: /opdrachten/week8/pygame07_sticky_units
+        Interaction: /opdrachten/pygame/pygame06_interaction
+        Sticky units: /opdrachten/pygame/pygame07_sticky_units
     Opdracht 4:
-        Spawn aliens: /opdrachten/week8/pygame08_spawn_aliens
-        Different aliens: /opdrachten/week8/pygame09_different_aliens
-        Points: /opdrachten/week8/pygame10_points
+        Spawn aliens: /opdrachten/pygame/pygame08_spawn_aliens
+        Different aliens: /opdrachten/pygame/pygame09_different_aliens
+        Points: /opdrachten/pygame/pygame10_points
     Insturen:
-        Submit: /opdrachten/week8/submission
+        Submit: /opdrachten/pygame/submission
 
 Module 7:
-    Project: /opdrachten/week9/mygame
+    Project: /opdrachten/clientserver/mygame

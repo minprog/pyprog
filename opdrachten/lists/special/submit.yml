@@ -1,0 +1,8 @@
+name: special_sort
+files:
+    required:
+        - special_sort.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: special_sort

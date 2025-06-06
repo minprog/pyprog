@@ -1,0 +1,4 @@
+name: birthdays
+files:
+  required:
+    - birthdays.py

@@ -1,0 +1,33 @@
+name: werkcollege_6
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import sys
+        import importlib
+        
+        if 'collections' in sys.modules:
+            sys.modules['collections_temp'] = sys.modules.pop('collections')
+        
+        if '/home/pyodide' in sys.path:
+            sys.path.remove('/home/pyodide')
+        
+        try:
+            collections_temp = importlib.import_module('collections_temp')
+            import doctest
+            doctest.testmod(collections_temp, verbose=True)
+        finally:
+            if '/home/pyodide' not in sys.path:
+                sys.path.insert(0, '/home/pyodide')
+files:
+    required:
+        collections.py: |
+            # Schrijf hieronder al je collection-functies.
+            # Elke functie moet 2 doctests hebben.
+            # Let op: gebruik de knop "Run doctest" om je code uit te
+            # proberen.
+            
+            scrabble_points = {
+                'a': 1, 'b': 3, 'c': 5, 'd': 2, 'e': 1, 'f': 4, 'g': 3, 'h': 4, 'i': 2, 'j': 4,
+                'k': 3, 'l': 3, 'm': 3, 'n': 1, 'o': 1, 'p': 3, 'q': 10, 'r': 2, 's': 2, 't': 2,
+                'u': 4, 'v': 4, 'w': 5, 'x': 8, 'y': 8, 'z': 4}

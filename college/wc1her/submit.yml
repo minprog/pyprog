@@ -1,0 +1,16 @@
+name: werkcollege_1_her
+exam: true
+buttons:
+    Run doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+files:
+    required:
+        formules.py: |
+            # Schrijf hieronder al je formules uit als Python-functies.
+check:
+    tool: checkpy
+    repo: minprog/pytent
+    args: -m wc1
+autocheck: false

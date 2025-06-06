@@ -1,0 +1,67 @@
+# Piramide
+
+> **Let op.** Deze opdracht is op woensdag 6 november nog aangepast. Als je 'm al helemaal gedaan had dan heb je mogelijk een `*` gebruikt om strings te "vermenigvuldigen". Dit zit echter pas volgende week in de cursus. Deze week is loopen het onderwerp en we willen graag dat je loops gebruikt als je meerdere tekens achter elkaar wil printen. Zie de aanwijzingen hieronder. Het is niet verplicht om je opdracht nog aan te passen maar het is wel de beste oefening om dit alsnog te doen.
+
+Implementeer een programma dat een halve piramide uitprint van een door de gebruiker gegeven hoogte.
+
+	Hoe hoog moet de piramide zijn? 5
+	        # #
+	      # # #
+	    # # # #
+	  # # # # #
+	# # # # # #
+
+	Hoe hoog moet de piramide zijn? 3
+	    # #
+	  # # #
+	# # # #
+
+## Het idee
+
+Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve piramide van blokken beklimmen voordat hij mag springen naar een vlaggenpost. Dit ziet er zo uit:
+
+![](mario.png)
+
+## Specificatie
+
+* Gebruik `print('# ', end='')` om een hekje met een spatie te printen in één keer. Je kunt een enkele spatie printen met `print(' ', end='')`. En om naar de volgende regel te gaan gebruik je `print()`.
+
+    * Dit zijn de print-opties die je hebt. Aan jou om te ontwerpen hoe je met loops figuren kunt "tekenen" door dit soort `print()`-statements aan te roepen.
+
+* Schrijf in een bestand genaamd `piramide.py` een programma dat de halve piramide van Mario nabouwt door middel van hekjes (`#`) en spaties.
+
+* Vraag, om het wat interessanter te maken, eerst aan de gebruiker de gewenste **hoogte** van de halve piramide. Dit moet een positief getal zijn, niet groter dan 23.
+
+* Als de gebruiker een hoogte invult die niet toegestaan is, dan vraag je de gebruiker opnieuw naar de hoogte. Net zo lang tot de gebruiker een goede hoogte invult.
+
+* Je mag wél aannemen dat de gebruiker braaf gehele getallen (integers) invult. We houden dus geen rekening met bijvoorbeeld kommagetallen of andere invoer.
+
+* Als de hoogte bekend is, genereer dan met behulp van `print` en één of meer loops de halve piramide.
+
+* Let goed op dat er geen spatie staat tussen de linkeronderhoek van je piramide en de linkerrand van je scherm!
+
+* Het is niet toegestaan om `*` te gebruiken met iets anders dan getallen.
+
+## Tips
+
+* Tel goed hoe veel spaties en hekjes er op elke regel moeten staan.
+
+* Denk goed na over welke loopstructuur (`for` en `while`) je wilt gebruiken.
+
+## Stappen
+
+Is bovenstaande een beetje teveel om in één keer te maken? Doe het dan in stappen, zoals programmeurs meestal doen:
+
+1. Pak eerst de invoer aan. Zorg dat een gebruiker een getal kan invoeren en print deze dan weer uit.
+
+2. Pas dan het programma aan zodat het geen foutieve invoer meer accepteert, zoals in de specificatie staat.
+
+3. Zorg dat je op dit moment een variabele `hoogte` hebt met daarin de door de gebruiker aangegeven hoogte. Geef deze door aan een functie die de piramide gaat tekenen.
+
+4. Zorg dan dat je functie een aantal (bv. `hoogte`) hekjes kan printen op één regel.
+
+5. Zorg dan dat je een vierkant kunt printen: meerdere (`hoogte`) hekjes op een regel, en meerdere (`hoogte`) van zulke regels.
+
+7. Maak nu een halve piramide door op elke regel het juiste aantal hekjes te printen.
+
+6. Nu is het tijd om de uitvoer tot in de puntjes gelijk te maken aan de voorbeelden!
