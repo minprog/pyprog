@@ -108,7 +108,7 @@ grades:
 
     oefententamen: *werkcollege
     oefenen_hertentamen: *werkcollege
-    
+
     werkcollege_1_her: *werkcollege_her
     werkcollege_2_her: *werkcollege_her
     werkcollege_3_her: *werkcollege_her
@@ -186,6 +186,7 @@ calculation:
 
 werkcolleges:
     show_progress: true
+    small_block_overview: true
     type: points
     submits:
         werkcollege_1: 1
@@ -198,6 +199,7 @@ werkcolleges:
 
 werkbladen:
     show_progress: true
+    small_block_overview: true
     type: points
     maximum: 24
     minimum: 3.625
@@ -212,6 +214,7 @@ werkbladen:
 
 module_1:
     show_progress: true
+    small_block_overview: true
     deadline: 3/11/24 17:00
     submits:
         weken: 1
@@ -227,6 +230,7 @@ module_1:
 
 module_2:
     show_progress: true
+    small_block_overview: true
     deadline: 10/11/24 17:00
     submits:
         cola: 1
@@ -241,6 +245,7 @@ module_2:
 module_3:
     # show_overview: true
     show_progress: true
+    small_block_overview: true
     deadline: 17/11/24 17:00
     submits:
         camelcase: 1
@@ -255,6 +260,7 @@ module_3:
 module_5:
     # show_overview: true
     show_progress: true
+    small_block_overview: true
     deadline: 1/12/24 17:00
     deadline_hard: true
     submits:
@@ -263,35 +269,23 @@ module_5:
         special_sort: 1
         sjoelen: 1
         schuifpuzzel: 1
-
-module_5_project:
-    # show_overview: true
-    show_progress: true
-    deadline: 1/12/24 17:00
-    deadline_hard: true
-    submits:
         virus: 1
 
 module_6:
     # show_overview: true
     show_progress: true
+    small_block_overview: true
     deadline: 8/12/24 17:00
     deadline_hard: true
     submits:
         indexer: 1
         eca2csv: 1
-
-module_6_project:
-    # show_overview: true
-    show_progress: true
-    deadline: 8/12/24 17:00
-    deadline_hard: true
-    submits:
         klimaat: 1
 
 module_7:
     # show_overview: true
     show_progress: true
+    small_block_overview: true
     deadline: 15/12/24 17:00
     deadline_hard: true
     submits:
@@ -301,13 +295,6 @@ module_7:
         lines: 1
         lisp: 1
         figuren: 1
-
-module_7_project:
-    # show_overview: true
-    show_progress: true
-    deadline: 15/12/24 17:00
-    deadline_hard: true
-    submits:
         adventure-more: 1
 
 modules:
