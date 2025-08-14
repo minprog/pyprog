@@ -5,7 +5,7 @@ Welkom:
 Week 1:
     Overzicht en beoordeling: /modules/programmeren
     Werkcollege:
-        Formules: /college/wc1her
+        Formules: /werkcollege/formules
         Installatie: /installatie-pulsar
     Functies en expressies:
         Weken: /opdrachten/expressies/weken
@@ -25,7 +25,7 @@ Week 1:
 # (Kalender is weg)
 Week 2:
     Werkcollege:
-        Loops: /college/wc2her
+        Loops: /werkcollege/loops
     While-loops:
         Cola: /opdrachten/loops/cola
         Greedy: /opdrachten/loops/greedy
@@ -43,7 +43,7 @@ Week 3:
     Overzicht en beoordeling: /modules/strings
     #    Debugging: /opdrachten/oud/debug
     Werkcollege:
-        String-analyse: /college/wc3her
+        String-analyse: /werkcollege/strings
     Voortgezet:
         Alfabet: /opdrachten/strings/alfabet
         Etenstijd: /opdrachten/strings/etenstijd
@@ -56,7 +56,7 @@ Week 3:
 # String-transformatie
 Week 4:
     Werkcollege:
-        String-transformatie: #
+        String-transformatie: /werkcollege/transformatie
     Startup:
         Remove vowels: #
         Double exclamations: #
@@ -69,7 +69,7 @@ Week 4:
 Week 5:
     Overzicht en beoordeling: /modules/lists
     Werkcollege:
-        Lots of Lists: /college/wc5her
+        Lots of Lists: /werkcollege/lists
     Oefeningen:
         Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
         Unique: /opdrachten/lists/unique #(verwijder dubbelen met volgorde)
@@ -86,7 +86,7 @@ Week 5:
 # Algoritmen
 Week 6:
     Werkcollege:
-        Algoritmen: #
+        Algoritmen: /werkcollege/algoritmen
     Opdrachten:
         # search?
         Scrabble: /opdrachten/lists/scrabble # 1 func, main, loop, if, str
@@ -100,7 +100,7 @@ Week 6:
 # Oefententamen
 Week 7:
     Werkcollege:
-        Oefententamen: /college/wc4her
+        Oefententamen: /werkcollege/wc4her
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -108,7 +108,7 @@ Week 7:
 Week 9:
     Overzicht en beoordeling: /modules/collections
     Werkcollege:
-        Collections: /college/wc6her
+        Collections: /werkcollege/collections
     Opdrachten:
         # TODO meer oefeningen
         # Collections: /opdrachten/collections/collection_functions
@@ -129,7 +129,7 @@ Week 11:
     Overzicht en beoordeling: /modules/classes
     Videocollege: /opdrachten/classes/lecture
     Werkcollege:
-        # Collections: /college/collections
+        # Collections: /werkcollege/collections
         Queue: /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     Opdrachten:
         Cards: /opdrachten/classes/cards # UML, data class, container
@@ -160,7 +160,7 @@ Week 13:
     Overzicht en beoordeling: /modules/classes
     Videocollege: /opdrachten/classes/lecture
     Werkcollege:
-        # Collections: /college/collections
+        # Collections: /werkcollege/collections
 
 # Adventure
 Week 14:
@@ -172,4 +172,4 @@ Week 14:
 # Oefententamen
 Week 15:
     Werkcollege:
-        Oefententamen: /college/wc4her
+        Oefententamen: /werkcollege/wc4her
