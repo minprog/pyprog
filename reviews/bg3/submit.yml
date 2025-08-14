@@ -1,5 +1,0 @@
-name: bg3
-form: true
-files:
-    required:
-        - war.py

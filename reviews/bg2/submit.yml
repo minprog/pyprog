@@ -1,9 +1,0 @@
-name: bg2
-form: true
-files:
-    required:
-        - review_indexer.py
-check:
-  tool: checkpy
-  repo: minprog/python
-  args: review_indexer

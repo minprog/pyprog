@@ -108,7 +108,7 @@ grades:
 
     oefententamen: *werkcollege
     oefenen_hertentamen: *werkcollege
-    
+
     werkcollege_1_her: *werkcollege_her
     werkcollege_2_her: *werkcollege_her
     werkcollege_3_her: *werkcollege_her
