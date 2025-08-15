@@ -1,8 +1,8 @@
-name: calculator
+name: vwl
 files:
     required:
-        - calculator.py
+        - vwl.py
 check:
     tool: checkpy
     repo: minprog/python
-    args: calculator
+    args: vwl
