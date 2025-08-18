@@ -4,9 +4,9 @@ Teksten en lijsten met getallen kunnen vaak eenvoudig "gecomprimeerd" worden, du
 
 Eén manier is "run-length encoding" waarbij je gebruik maakt van de mogelijkheid dat er vaak dezelfde elementen elkaar opvolgen (bijvoorbeeld in een lijst van metingen waarin een groot deel van de metingen 0 is).
 
-Bij run-length encoding vervang je een reeks gelijke elementen door een *paar* `(element, aantal)`. Stel dat je 10 nullen achter elkaar hebt, dan kan het eruit zien als `(0, 10)`.
+Bij run-length encoding vervang je een reeks gelijke elementen door een *paar* `[element, aantal]`. Stel dat je 10 nullen achter elkaar hebt, dan kan het eruit zien als `[0, 10]`.
 
-In deze module werken we met lijsten dus gaat de encryptie-functie een lijst opleveren met daarin ook weer lijsten. Elk van die interne lijsten is zo'n "paar", bijvoorbeeld `[0, 10]`.
+In deze module werken we met lijsten dus gaat de encryptie-functie een lijst opleveren met daarin ook weer lijsten. Elk van die interne lijsten is zo'n "paar" als hierboven.
 
 ## Opdracht
 
