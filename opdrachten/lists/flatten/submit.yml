@@ -1,0 +1,8 @@
+name: flatten
+files:
+    required:
+        - flatten.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: flatten

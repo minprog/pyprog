@@ -29,4 +29,4 @@ Drie voorbeelden van het runnen van het programma. Er wordt steeds een tekst ing
 
     $ python yell.py
     Cringe? CRINGE!
-    Cringe?? Cringe!!
+    Cringe?? CRINGE!!

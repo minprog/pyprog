@@ -64,7 +64,7 @@ Week 4:
         camelCase: /opdrachten/strings/camelcase
         RNA: /opdrachten/strings/rna
     Challenge:
-        ROT13: #
+        ROT13: /opdrachten/strings/rot13
 
 # Lots of lists
 Week 5:
@@ -72,17 +72,17 @@ Week 5:
     Werkcollege:
         Lots of Lists: /werkcollege/lists
     Oefeningen:
-        Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
-        Unique: /opdrachten/lists/unique #(verwijder dubbelen met volgorde)
+        Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
         Flatten: /opdrachten/lists/flatten #(flatten single level)
         Rotate: /opdrachten/lists/rotate #(rotating shift)
         Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
+        Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
         Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
-        Compress: /opdrachten/lists/compress #(RLE)
-        Decompress: /opdrachten/lists/decompress #(un-RLE)
-        Contiguous: /opdrachten/lists/contiguous #(contig sublists 1-2-3 5-6 9)
         Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
-        Winner: /opdrachten/lists/winner (bepaal winnaar tic-tac-toe board)
+        # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
+        # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
+    Challenge:
+        Compress: /opdrachten/lists/compress #(RLE)
 
 # Algoritmen
 Week 6:

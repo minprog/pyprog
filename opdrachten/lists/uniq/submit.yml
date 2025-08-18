@@ -1,0 +1,8 @@
+name: uniq
+files:
+    required:
+        - uniq.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: uniq
