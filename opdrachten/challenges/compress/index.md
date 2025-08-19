@@ -1,5 +1,7 @@
 # Compress
 
+> **Studeertip.** De challenges zijn alleen voor studenten die het erg makkelijk vinden tot nu toe. Als je een challenge hebt gemaakt, klop dan bij het laptopcollege bij je docent aan om 'm door te spreken.
+
 Teksten en lijsten met getallen kunnen vaak eenvoudig "gecomprimeerd" worden, dus kleiner gemaakt, maar zonder informatie te verliezen. De kunst is om een vaste manier te vinden om de originele data weer terug te krijgen.
 
 Eén manier is "run-length encoding" waarbij je gebruik maakt van de mogelijkheid dat er vaak dezelfde elementen elkaar opvolgen (bijvoorbeeld in een lijst van metingen waarin een groot deel van de metingen 0 is).

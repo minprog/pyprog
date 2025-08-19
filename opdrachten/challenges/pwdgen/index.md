@@ -1,5 +1,7 @@
 # Wachtwoord-generator
 
+> **Studeertip.** De challenges zijn alleen voor studenten die het erg makkelijk vinden tot nu toe. Als je een challenge hebt gemaakt, klop dan bij het laptopcollege bij je docent aan om 'm door te spreken.
+
 Veilige wachtwoorden zijn niet per se moeilijk om te genereren, ze zijn vooral moeilijk te onthouden. Daarom is het handig om een password-manager te gebruiken die automatisch wachtwoorden kan genereren en ook invullen in je webbrowser of in een app.
 
 De wachtwoord-generator van Apple probeert enigszins een balans te vinden tussen sterke wachtwoorden en "onthoudbaarheid". Er zijn misschien wel een paar wachtwoorden die je vaak moet intikken en handig zijn om wel uit je hoofd te kennen. De crux is om "woord-achtige" groepjes letters te genereren zodat deze uitspreekbaar en misschien onthoudbaar zijn.

@@ -1,6 +1,6 @@
 # Priemgetallen
 
-> **Studeertip.** De challenges zijn alleen voor studenten die het vrij makkelijk vinden tot nu toe. Specifiek deze week heb je loops nodig, die eigenlijk nog niet tot de stof horen. Je kunt wel alvast kijken in je boek, de rest van hoofdstuk 4. Als je een challenge hebt gemaakt, klop dan bij het laptopcollege bij je docent aan om 'm door te spreken.
+> **Studeertip.** De challenges zijn alleen voor studenten die het erg makkelijk vinden tot nu toe. Als je een challenge hebt gemaakt, klop dan bij het laptopcollege bij je docent aan om 'm door te spreken.
 
 ## Achtergrond
 
@@ -73,7 +73,7 @@ Loop nu de specificatie bovenaan de opdracht goed door en zorg dat je programma 
 
 Deze stap is volledig optioneel, dus hoeft niet ingeleverd te worden. Wel goed om over na te denken en te proberen als je tijd over hebt.
 
-We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen. Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt. 
+We zijn hierboven zo simpel mogelijk begonnen, zodat we snel tot een *correct* programma zijn gekomen. Maar met behulp van wat wiskundig inzicht kunnen we kleine optimalisaties doen, waardoor het programma sneller wordt.
 
 - Behalve 2 zijn *even* getallen nooit een priemgetal (dit vraagt slechts een hele kleine aanpassing van je code).
 
@@ -140,8 +140,8 @@ Schrijf een programma dat laat zien dat het vermoeden van Goldbach correct is vo
 
     # python goldbach.py
     16 = ...
-    18 = 5 + 13 
-    20 = 3 + 17 
+    18 = 5 + 13
+    20 = 3 + 17
     22 = 5 + 17
     24 = ...
 
@@ -151,7 +151,7 @@ Het vermoeden van Goldbach is een van de oudste onopgeloste problemen in de wisk
 
 *"Elk even getal groter dan 2 kan geschreven worden als de som van twee priemgetallen."*
 
-Een priemgetal mag hierbij ook twee keer gebruikt worden (6 = 3 + 3). Hoewel dit vermoeden inderdaad blijkt te kloppen voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen analytisch bewijs voor het vermoeden. 
+Een priemgetal mag hierbij ook twee keer gebruikt worden (6 = 3 + 3). Hoewel dit vermoeden inderdaad blijkt te kloppen voor alle getallen tot $$4\cdot10^{18}$$ is er nog altijd geen analytisch bewijs voor het vermoeden.
 
 Misschien onverwacht: een computer blijkt ongeschikt om het vermoeden te bewijzen (je kunt immers niet tot oneindig tellen); maar je zou het vermoeden wel kunnen ontkrachten door een even getal te identificeren dat niet te schrijven is als de som van twee priemgetallen. Dat zou een tegenbewijs zijn. Spoiler: ook dat is nog niet gevonden.
 

@@ -1,5 +1,7 @@
 # Kalender
 
+> **Studeertip.** De challenges zijn alleen voor studenten die het erg makkelijk vinden tot nu toe. Specifiek deze week heb je loops nodig, die eigenlijk nog niet tot de stof horen. Je kunt wel alvast kijken in je boek, de rest van hoofdstuk 4. Als je een challenge hebt gemaakt, klop dan bij het laptopcollege bij je docent aan om 'm door te spreken.
+
 De kalender zoals we hem kennen kan op vele manieren worden weergegeven. Een van deze manieren is per maand:
 
     $ python kalender.py
@@ -106,7 +108,7 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 *   Als je meerdere keren achter elkaar wil printen op één regel moet je `print` aanpassen zodat er geen ENTER of newline wordt geprint. Dat kan zo: `print(getal, end="")`. Het gaat hier om het opgeven van `end=""` als argument aan `print`.
 
     *   Als je dit niet begrijpt maak dan een Python-file met de volgende inhoud, start het programma, bekijk wat er uit komt en bedenk waarom.
-    
+
             print(1, end="")
             print(2, end="")
             print(3, end="")

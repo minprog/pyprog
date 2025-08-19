@@ -53,7 +53,7 @@ waarna *alle* straten zijn gekocht.
 - De functie `simuleer_groot_aantal_potjes_monopoly()` heeft één argument:
 
 	- `aantal_potjes` het aantal potjes dat gesimuleerd wordt
-	
+
 - De functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes)` moet het gemiddeld aantal worpen teruggeven dat nodig was om alle straten in je bezit te krijgen (via `return`).
 
 
@@ -227,8 +227,8 @@ Lever je opdracht nu in om de tussenresultaten te checken. Maak voor het inlever
 
 ![](GoldenDollar.png){:.inline}{: style="width:20%"}
 
-In een officieel potje Monopoly krijg je 1500 euro startgeld en verdien je 200 euro 
-elke keer dat je START passeert (dus niet alleen als je precies op start komt). Zo'n eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee je nieuwe straten kan kopen. In deze opdracht zoeken we uit welk effect dit precies heeft. 
+In een officieel potje Monopoly krijg je 1500 euro startgeld en verdien je 200 euro
+elke keer dat je START passeert (dus niet alleen als je precies op start komt). Zo'n eindige hoeveelheid startgeld heeft invloed op de snelheid waarmee je nieuwe straten kan kopen. In deze opdracht zoeken we uit welk effect dit precies heeft.
 
 **Let op:** we gaan nu een aanpassing aan de bestaande code maken uit opdracht 1; een uitbreiding. Je hoeft dus geen nieuw bestand aan te maken en aan het eind van deze opdracht lever je de code `monopoly.py` in. Die bevat dus opdracht 1 en 2 tegelijk.
 
@@ -241,16 +241,16 @@ Voor een **enkel** potje ziet de code er dus ongeveer zo uit:
 
 Ook hier zullen we weer net als in opdracht 1 een groot aantal potjes simuleren. Zorg dat het startgeld van de speler meegeven wordt als inputwaarde: `simuleer_groot_aantal_potjes_monopoly(aantal_potjes, startgeld_speler)`. Deze functie zal dit startgeld op zijn beurt dan weer doorgeven aan de functie die een individueel potje simuleert.
 
-Begin met 3000 euro startgeld en verlaag dat steeds met 500 euro: 2500, 2000, 1500, 1000, 500 tot 0 euro. Simuleer voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig mogelijk het gemiddeld aantal worpen te bepalen dat nodig is om alle straten te kopen en print telkens je resultaten om te zien of ze logisch zijn. 
+Begin met 3000 euro startgeld en verlaag dat steeds met 500 euro: 2500, 2000, 1500, 1000, 500 tot 0 euro. Simuleer voor elke keuze van het startgeld 25000 potjes om zo nauwkeurig mogelijk het gemiddeld aantal worpen te bepalen dat nodig is om alle straten te kopen en print telkens je resultaten om te zien of ze logisch zijn.
 
-In het officiële Monopolyspel krijgt elke speler 1500 euro. Print voor die specifieke 
-hoeveelheid startgeld het aantal worpen dat je nodig hebt om alle straten te kopen en 
+In het officiële Monopolyspel krijgt elke speler 1500 euro. Print voor die specifieke
+hoeveelheid startgeld het aantal worpen dat je nodig hebt om alle straten te kopen en
 print dat als volgt op het scherm:
 
 {: .language-python}
 	Monopoly simulator: 1 speler, 1500 euro startgeld, 10,000 potjes
     Gemiddeld duurde het XXX worpen voor de speler alle straten in zijn bezit had
-    
+
 Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 euro startgeld om een idee te krijgen wat het effect is (aantal worpen dat het spel er korter/langer over doet) voor elke 100 euro meer of minder startgeld.
 
 **Tips:**
@@ -263,14 +263,14 @@ Gebruik het verschil tussen het gemiddeld aantal worpen met 1000 euro of 2000 eu
 ### Testen
 
 Lever je opdracht nu in om de tussenresultaten te checken.
-	
+
 
 ## Deel 3: Twee spelers
 
 In het echt wordt het spel Monopoly gespeeld door twee spelers. Doel van deze opdracht is om eerst te evalueren wat het voordeel is van de speler die begint met gooien en vervolgens te bestuderen hoe we in het spel dit nadeel voor speler 2 kunnen herstellen.
- 
+
 ![](Balans.png){:.inline}{: style="width:35%"}
- 
+
 Let op: we gaan nu de code uit opdracht 1 en 2 aanpassen. Om te zorgen dat die werkende code bewaard blijft gaan we deze opdracht maken in een nieuw bestand. Maak een nieuw Python-bestand aan, `monopoly_realistisch.py`, kopieer de code die je tot nu toe hebt en ga verder in dit nieuwe bestand.
 
 ### Voordeel van speler 1
@@ -286,12 +286,12 @@ Het doel is om dit verschil te achterhalen door een groot aantal potjes te simul
 **Strategie:**
 
   - Aanpassing aan *input* functie `simuleer_potje_monopoly()`
-   
+
     De functie die een potje Monopoly simuleert heeft nu natuurlijk van beide spelers de hoeveelheid startgeld nodig. Geef beide als input variabelen mee aan de functie:
-   `simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2)` 
+   `simuleer_potje_Monopoly(startgeld_speler_1,startgeld_speler_2)`
 
  - Aanpassing aan *ouput* functie `simuleer_potje_monopoly()`
-   
+
    Tot nu toe hebben we de functie gevraagd het aantal worpen dat het potje geduurd heeft terug te geven als return waarde. Nu zijn we alleen geïnteresseerd in het verschil in aantal straten tussen speler 1 en speler 2: `delta = aantal_straten_speler_1 - aantal_straten_speler_2`. Dat is dat ook de variabele die we terug gaan geven als return waarden. **Let op:** deze waarde kan nu zowel positief als negatief zijn.
 
        delta = simuleer_potje_monopoly(startgeld_speler_1,startgeld_speler_2)
@@ -300,8 +300,8 @@ Het doel is om dit verschil te achterhalen door een groot aantal potjes te simul
  - Bijhouden hoeveelheid geld en posities van beide spelers:
 
    Hou voor beide spelers de hoeveelheid geld en positie bij. In het begin van het spel bijvoorbeeld geldt voor de posities van de spelers: `positie_1 = 0` en `positie_2 = 0`, maar de dapperen onder jullie kunnen de posities ook bijhouden in lijsten zoals `positie_lijst = [0,0]`. Dezelfde twee opties heeft u bij de hoeveelheid geld dat speler1 en speler 2 heeft tijdens het spel. Standaard is twee losse variabelen, maar je mag ook lijsten gebruiken.
-   
-Test de code altijd voor een enkel potje en bekijk goed of het doet wat je denk dat het zou moeten doen. Ga pas dan het aantal potjes vergroten. Gebruik daarvoor weer dezelfde opzet als je had in de functie uit de eerste opdracht en geeft nu naast het aantal potjes ook het startgeld van beide spelers mee: `simuleer_groot_aantal_potjes_monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` en zorg ervoor dat je de vraag kunt beantwoorden. 
+
+Test de code altijd voor een enkel potje en bekijk goed of het doet wat je denk dat het zou moeten doen. Ga pas dan het aantal potjes vergroten. Gebruik daarvoor weer dezelfde opzet als je had in de functie uit de eerste opdracht en geeft nu naast het aantal potjes ook het startgeld van beide spelers mee: `simuleer_groot_aantal_potjes_monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` en zorg ervoor dat je de vraag kunt beantwoorden.
 
 Print uiteindelijk het verschil naar het scherm:
 {: .language-python}
@@ -310,17 +310,17 @@ Print uiteindelijk het verschil naar het scherm:
 
 ### Nadeel van speler 2 repareren
 
-De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn. 
+De vraag is nu of en zo ja hoe we deze 'oneerlijke' situatie kunnen repareren. Een van de 'knoppen' waar je aan kan draaien in dit spel is de hoeveelheid startgeld die de spelers krijgen. Als speler 2 meer startgeld krijgt kan hij iets van zijn achterstand repareren. Bepaal de hoeveelheid extra startgeld die we aan speler 2 moeten geven aan het begin van het spel zodat hij gemiddeld net zoveel straten in zijn bezit heeft als speler 1 op het moment dat alle straten verdeeld zijn.
 
-Definieer een nieuwe functie `evenwicht()` waarin je de functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)` 
+Definieer een nieuwe functie `evenwicht()` waarin je de functie `simuleer_groot_aantal_potjes_monopoly(aantal_potjes,startgeld_speler_1,startgeld_speler_2)`
 steeds aanroept met verschillende waardes van startgeld voor speler 2. Speler 1 houdt gewoon 1500 euro startgeld. Probeer dit voor 'extra' geld voor speler 2 van 0, 50, 100, 150, 200 euro en print steeds het gemiddelde verschil als volgt op het scherm:
 
     Startgeld [1500,1550]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 50 euro extra)
     Startgeld [1500,1600]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 100 euro extra)
     Startgeld [1500,1650]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 150 euro extra)
     Startgeld [1500,1700]: speler 1 gemiddeld X.XX meer straten (speler 2 heeft 200 euro extra)
-    
-Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee je bovenstaande grafiek kan reproduceren en een goede schatting kan maken van de hoeveelheid extra geld dat we speler 2 moeten geven aan het begin van het spel om het evenwicht te herstellen. 
+
+Als je een paar simulaties hebt gedraaid heb je een kleine data-set waarmee je bovenstaande grafiek kan reproduceren en een goede schatting kan maken van de hoeveelheid extra geld dat we speler 2 moeten geven aan het begin van het spel om het evenwicht te herstellen.
 
 Er is natuurlijk een bedrag waarbij het voordeel ineens bij speler 2 komt te liggen. Gebruikt dat bedrag (en het bedrag ervoor) om een schatting te maken van het bedrag waar het evenwicht ligt. Neem zoals gezegd stappen van 50 en kies als schatting het bedrag wat exact tussen deze stappen van 50 in zit (dus als het tussen 0 en 50 ligt is het bedrag 25).
 
@@ -339,7 +339,7 @@ Je kunt nu definitief inleveren.
 
 ## Samenvatting
 
-De simulatie die we hier gedaan hebben is een versimpelde versie van de vaak zeer complexe 
-modellen waarmee grote financiële partijen risico's inschatten en hun strategie bepalen. 
-Tegelijkertijd worden deze simulaties ook gebruikt door politieke partijen om de effecten 
+De simulatie die we hier gedaan hebben is een versimpelde versie van de vaak zeer complexe
+modellen waarmee grote financiële partijen risico's inschatten en hun strategie bepalen.
+Tegelijkertijd worden deze simulaties ook gebruikt door politieke partijen om de effecten
 van hun keuzes door te rekenen in verschillende scenario's.
