@@ -8,7 +8,7 @@ Week 1:
         Formules: /werkcollege/formules
         Installatie: /installatie/pulsar
     Boek 1:
-        Boek 1: /boek/boek1
+        Hoofdstuk 1 t/m 3: /boek/boek1
     Functies en expressies:
         Weken: /opdrachten/expressies/weken
         Water: /opdrachten/expressies/water
@@ -16,7 +16,7 @@ Week 1:
         Cafeine: /opdrachten/expressies/cafeine
         Vakantie: /opdrachten/expressies/vakantie
     Boek 2:
-        Boek 2: /boek/boek2
+        Paragraaf 4.1-4.3: /boek/boek2
     Conditionals:
         Acid test: /opdrachten/conditionals/acid
         Orakel: /opdrachten/conditionals/orakel
@@ -29,7 +29,7 @@ Week 1:
 # (Kalender is weg)
 Week 2:
     Boek:
-        Boek 3: /boek/boek3
+        Paragraaf 4.4-4.7: /boek/boek3
     Werkcollege:
         Loops: /werkcollege/loops
     While-loops:
@@ -49,7 +49,7 @@ Week 3:
     Overzicht en beoordeling: /modules/strings
     #    Debugging: /opdrachten/oud/debug
     Boek:
-        Boek 4: /boek/boek4
+        Hoofdstuk 5 en 6: /boek/boek4
     Werkcollege:
         String-analyse: /werkcollege/strings
     Voortgezet:
@@ -78,7 +78,7 @@ Week 4:
 Week 5:
     Overzicht en beoordeling: /modules/lists
     Boek:
-        Boek 5: /boek/boek5
+        Paragraaf 7.1-7.3: /boek/boek5
     Werkcollege:
         Lots of Lists: /werkcollege/lists
     Oefeningen:
