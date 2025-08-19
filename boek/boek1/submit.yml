@@ -1,0 +1,7 @@
+name: boek1
+files:
+  required:
+    - boek323.py
+    - boek326.py
+    - boek328.py
+    - boek331.py

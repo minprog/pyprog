@@ -1,0 +1,7 @@
+name: boek3
+files:
+  required:
+    - boek445.py
+    - boek450.py
+    - boek455.py
+    - boek458.py
