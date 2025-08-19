@@ -3,7 +3,7 @@ Welkom:
 
 # Basic form
 Week 1:
-    Overzicht en beoordeling: /modules/programmeren
+    Overzicht: /modules/programmeren
     Werkcollege:
         Formules: /werkcollege/formules
         Installatie: /installatie/pulsar
@@ -28,8 +28,8 @@ Week 1:
 # Loops
 # (Kalender is weg)
 Week 2:
-    Boek:
-        Paragraaf 4.4-4.7: /boek/boek3
+    Overzicht: /modules/herhaling
+    Boek 4.4-4.7: /boek/boek3
     Werkcollege:
         Loops: /werkcollege/loops
     While-loops:
