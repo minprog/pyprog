@@ -46,10 +46,9 @@ Week 2:
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Week 3:
-    Overzicht en beoordeling: /modules/strings
+    Overzicht: /modules/strings
+    Boek hst 5 en 6: /boek/boek4
     #    Debugging: /opdrachten/oud/debug
-    Boek:
-        Hoofdstuk 5 en 6: /boek/boek4
     Werkcollege:
         String-analyse: /werkcollege/strings
     Voortgezet:
@@ -63,6 +62,7 @@ Week 3:
 
 # String-transformatie
 Week 4:
+    Overzicht: /modules/stringtrans
     Werkcollege:
         String-transformatie: /werkcollege/transformatie
     Opdrachten:
@@ -76,9 +76,8 @@ Week 4:
 
 # Lots of lists
 Week 5:
-    Overzicht en beoordeling: /modules/lists
-    Boek:
-        Paragraaf 7.1-7.3: /boek/boek5
+    Overzicht: /modules/lists
+    Boek 7.1-7.3: /boek/boek5
     Werkcollege:
         Lots of Lists: /werkcollege/lists
     Oefeningen:
@@ -96,6 +95,7 @@ Week 5:
 
 # Algoritmen
 Week 6:
+    Overzicht: /modules/algoritmen
     Werkcollege:
         Algoritmen: /werkcollege/algoritmen
     Opdrachten:
