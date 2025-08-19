@@ -58,7 +58,7 @@ Week 3:
         Wachtwoord: /opdrachten/strings/wachtwoord
         Leesbaarheid: /opdrachten/strings/leesbaarheid
     Challenge:
-        Monopoly: /opdrachten/challenges/monopoly
+        Wachtwoord-generator: /opdrachten/challenges/pwdgen
 
 # String-transformatie
 Week 4:
@@ -73,7 +73,7 @@ Week 4:
         RNA: /opdrachten/strings/rna
         ROT13: /opdrachten/strings/rot13
     Challenge:
-        Wachtwoord-generator: /opdrachten/challenges/pwdgen
+        Monopoly: /opdrachten/challenges/monopoly
 
 # Lots of lists
 Week 5:
