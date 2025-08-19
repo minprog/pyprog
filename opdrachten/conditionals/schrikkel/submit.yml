@@ -1,0 +1,8 @@
+name: schrikkel
+files:
+    required:
+        - schrikkel.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: schrikkel
