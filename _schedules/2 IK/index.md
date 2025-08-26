@@ -40,41 +40,41 @@ Structuren
 
 ## Onderdelen eindcijfer
 
-Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt.
+Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
-Werkcolleges (7 punten)
-: Tijdens het werkcollege op maandag doe je diverse oefeningen; soms gezamenlijk, soms zelfstandig een tutorial doorwerken. De activiteiten leveren punten op die een klein beetje meetellen. De punten krijg je als je ter plekke aanwezig bent en inlevert via de website.
+Codepraat (7 punten praktische oefening)
+: Tijdens het laptopcollege op donderdag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
 
-Deeltentamen (7 punten)
-: Dit deeltentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt alle punten in één keer.
+Tussentoets (7 punten ter vervanging van het tentamen)
+: Deze toets gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt alle punten in één keer als het resultaat voldoende is; dit resultaat vervangt bovendien het basisdeel van het tentamen. Mocht je het niet halen, wat kan gebeuren, dan kun je dit deel tijdens het tentamen maken.
 
-Eindtentamen (14/28 punten)
-: Dit is een compleet tentamen waarin je kunt laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Als je het deeltentamen hebt gehaald dan hoef je dat deel niet meer te doen.
+Tentamen (21 punten)
+: Dit is een tentamen waarin je kunt laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Een deel bestaat uit basisopgaven die niet meer gemaakt hoeven worden als de tussentoets voldoende gemaakt is. De verdere opgaven gaan over de verschillende taalconstructies in Python, met een nadruk op classes.
 
-Het eindcijfer is `punten / 35 * 9 + 1`. De herkansing, die na afloop van het vak plaatsvindt, betreft alleen de stof van de tentamens, en dus niet de punten van de werkcolleges.
+Het eindcijfer is `punten / 28 * 9 + 1`. De herkansing vindt na afloop van het vak plaats. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
-### Werkcollege op maandag
+### Werkcollege op maandag/donderdag
 
 Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Je moet aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
-| Week |  Datum | Activiteit                      |
-| :--: | -----: | ------------------------------- |
-|  1   |  1 sep | Installatie en oefeningen       |
-|  2   |  8 sep | Oefeningen loops                |
-|  3   | 15 sep | Oefeningen string-analyse       |
-|  4   | 22 sep | Oefeningen string-transformatie |
-|  5   | 29 sep | Oefeningen lists                |
-|  6   |  6 okt | Oefeningen algoritmen           |
-|  7   | 13 okt | Oefententamen                   |
-|  8   |        | Tentamen 1                      |
-|  9   | 27 okt | Oefeningen collections          |
-|  10  |  3 nov | Oefeningen big-O                |
-|  11  | 10 nov | Oefeningen classes              |
-|  12  | 17 nov | Oefeningen                      |
-|  13  | 24 nov | Oefeningen structures           |
-|  14  |  1 dec | Oefeningen                      |
-|  15  |  8 dec | Oefententamen                   |
-|  16  |        | Tentamen 2                      |
+| Week |  Datum | Werkcollege                     | Laptopcollege |
+| :--: | -----: | ------------------------------- | ------------- |
+|  1   |  1 sep | Installatie en oefeningen       |               |
+|  2   |  8 sep | Oefeningen loops                |               |
+|  3   | 15 sep | Oefeningen string-analyse       |               |
+|  4   | 22 sep | Oefeningen string-transformatie |               |
+|  5   | 29 sep | Oefeningen lists                |               |
+|  6   |  6 okt | Oefeningen algoritmen           |               |
+|  7   | 13 okt | Oefententamen                   |               |
+|  8   |        | Tentamen 1                      |               |
+|  9   | 27 okt | Oefeningen collections          |               |
+|  10  |  3 nov | Oefeningen big-O                |               |
+|  11  | 10 nov | Oefeningen classes              |               |
+|  12  | 17 nov | Oefeningen                      |               |
+|  13  | 24 nov | Oefeningen structures           |               |
+|  14  |  1 dec | Oefeningen                      |               |
+|  15  |  8 dec | Oefententamen                   |               |
+|  16  |        | Tentamen 2                      |               |
 
 ### Tentamen
 
@@ -117,7 +117,7 @@ Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de
 
 Als je denkt dat een opdracht klaar is kun je deze inleveren op de website. De website voert dan een automatische controle uit. Enerzijds of je opdrachten aan de basisstructuur voldoen, en anderzijds of je oplossing voldoet aan de eisen in de specificatie. Is alles akkoord, dan is de opdracht klaar en kan ook niet meer opnieuw ingeleverd worden.
 
-Is de opdracht dan niet akkoord, dan vind je op de website meestal iets van een hint over wat er mis is. Als je dan wel weet wat er aan de hand is, of wist het eigenlijk wel, dan fix je het natuurlijk meteen. Je mag zo vaak inleveren als je wilt.
+Is de opdracht toch niet goedgekeurd, dan vind je op de website meestal iets van een hint over wat er mis is. Als je dan wel weet wat er aan de hand is, of wist het eigenlijk wel, dan fix je het natuurlijk meteen. Je mag zo vaak inleveren als je wilt.
 
 Lukt het niet om binnen een paar pogingen de opdracht alsnog akkoord te krijgen, dan geen paniek, en zeker geen AI! Als je oplossing in principe werkt, en dichtbij wat de bedoeling is, dan voldoet dit in ieder geval voor de deadline. Je gaat dan tijdens het _volgende werkcollege_ met medestudenten en de docent alles alsnog fixen.
 
