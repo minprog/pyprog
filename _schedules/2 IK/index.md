@@ -51,7 +51,9 @@ Tussentoets (7 punten ter vervanging van het tentamen)
 Tentamen (21 punten)
 : Dit is een tentamen waarin je kunt laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Een deel bestaat uit basisopgaven die niet meer gemaakt hoeven worden als de tussentoets voldoende gemaakt is. De verdere opgaven gaan over de verschillende taalconstructies in Python, met een nadruk op classes.
 
-Het eindcijfer is `punten / 28 * 9 + 1`. De herkansing vindt na afloop van het vak plaats. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
+Het eindcijfer is `punten / 28 * 9 + 1`.
+
+De herkansing vindt na afloop van het vak plaats en is bedoeld voor studenten die het opeens een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
 ### Werkcollege op maandag/donderdag
 
