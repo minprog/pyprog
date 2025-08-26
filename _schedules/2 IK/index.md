@@ -49,7 +49,7 @@ Tussentoets (7 punten ter vervanging van het tentamen)
 : Deze toets gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt alle punten in één keer als het resultaat voldoende is; dit resultaat vervangt bovendien het basisdeel van het tentamen. Mocht je het niet halen, wat kan gebeuren, dan kun je dit deel tijdens het tentamen maken.
 
 Tentamen (21 punten)
-: Dit is een tentamen waarin je kunt laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Een deel bestaat uit basisopgaven die niet meer gemaakt hoeven worden als de tussentoets voldoende gemaakt is. De verdere opgaven gaan over de verschillende taalconstructies in Python, met een nadruk op classes.
+: Dit is een tentamen waarin je kunt laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Een deel bestaat uit basisopgaven, die echter niet meer gemaakt hoeven worden als de tussentoets voldoende gemaakt is. De verdere opgaven gaan over de verschillende taalconstructies in Python, met een nadruk op classes.
 
 Het eindcijfer is `punten / 28 * 9 + 1`.
 
@@ -84,19 +84,7 @@ Bij het tentamen krijg je diverse opgaven waarin je een redelijk klein maar wel 
 
 De opgaven van het tentamen zijn gebaseerd op de oefeningen die je tijdens de cursus doet. De bedoeling is dat je basisoplossingen uit je hoofd kent, en technieken beheerst om deze oplossingen aan te passen en te combineren voor de opgaven die je krijgt.
 
-Je haalt het tentamen door opgaven op te lossen volgens de gegeven beschrijving (heel precies!) en door verschillende oplossingstechnieken te laten zien. Die jouw brede kennis van Python tonen.
-
-### Huiswerk van de latere weken
-
-Afhankelijk van het resultaat van het eerste tentamen en hoe je er zelf instaat, ga je hier één van beide kanten op:
-
-Richting 1: tentamen goed gehaald.
-: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 4 t/m 6, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules.
-
-Richting 2: tentamen niet gehaald of op het randje.
-: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 4 t/m 6 doen, maar de grotere opdrachten laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je ook al wat voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt.
-
-Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
+Je haalt het tentamen door opgaven op te lossen volgens de gegeven beschrijving (heel precies!) en door verschillende oplossingstechnieken te laten zien die jouw brede kennis van Python tonen.
 
 ## Huiswerk en deadlines
 
@@ -115,7 +103,19 @@ Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de
 
 **Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT. In plaats daarvan lever je de opdrachten in die je hebt, en je stuurt een mail om de situatie uit te leggen. We hebben allemaal weleens een planningsfout gemaakt dus kom er eerlijk voor uit en bespreek de situatie met je docent.**
 
-## Automatische checks
+### Huiswerk van de latere weken
+
+Afhankelijk van het resultaat van het eerste tentamen en hoe je er zelf instaat, ga je hier één van beide kanten op:
+
+Richting 1: tentamen goed gehaald.
+: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 4 t/m 6, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules.
+
+Richting 2: tentamen niet gehaald of op het randje.
+: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 4 t/m 6 doen, maar de grotere opdrachten laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je ook al wat voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt.
+
+Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
+
+### Automatische checks
 
 Als je denkt dat een opdracht klaar is kun je deze inleveren op de website. De website voert dan een automatische controle uit. Enerzijds of je opdrachten aan de basisstructuur voldoen, en anderzijds of je oplossing voldoet aan de eisen in de specificatie. Is alles akkoord, dan is de opdracht klaar en kan ook niet meer opnieuw ingeleverd worden.
 
