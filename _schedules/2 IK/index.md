@@ -16,7 +16,7 @@ Een groep bestaat uit ongeveer 30 studenten. De docenten zijn aanwezig bij hun e
 
 ## Wat ga je leren
 
-De cursus duurt 16 weken. Je werkt daarbij aan de onderstaande onderwerpen om je voor te bereiden op de tentamens in week 8 en week 16.
+Je werkt eerst aan de onderstaande onderwerpen om je voor te bereiden op het tentamen in week 8. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
 
 Programmeren, variabelen en beslissingen
 : Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden. Je leert over functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
@@ -24,17 +24,19 @@ Programmeren, variabelen en beslissingen
 Strings
 : Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
 
-Lijsten, comprehensions
+Lijsten
 : Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
+In het tweede deel introduceren we meer onderdelen van de taal en worden de programma's duidelijk wat complexer. Deze delen komen terug in het tentamen van week 16.
+
 Collections
-: We laten je de resterende collection types uit Python zien, zodat je de meeste basiscode goed kunt begrijpen. Deze collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
+: We laten je ook de resterende collection types uit Python zien (dictionaries, tuples en sets), zodat je de meeste basiscode goed kunt begrijpen. Collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
 
 Classes
-: Je gaat aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
+: De laatste belangrijke constructie uit Python is een class. Zo kun je code bouwen met objecten die een directe representatie zijn van het onderwerp waar het programma over gaat. Aanvakelijk houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
 
 Structuren
-: Je gaat aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
+: Voor de volgende stap ga je diverse classes in één programma combineren. Dit is in het begin wel even pittig, maar helpt uiteindelijk juist om grotere programma's overzichtelijk te houden. Je werkt dus ook toe naar een grotere game die je als eindproject gaat bouwen.
 
 ## Onderdelen eindcijfer
 
