@@ -1,4 +1,4 @@
-# Programmeren voor Informatiekunde
+# Programmeren IK
 
 ## Studiewijzer<br><small>Herfst 2025</small>
 
@@ -16,19 +16,25 @@ Een groep bestaat uit ongeveer 30 studenten. De docenten zijn aanwezig bij hun e
 
 ## Wat ga je leren
 
-De cursus duurt 16 weken. Je werkt daarbij aan de onderstaande modules om je voor te bereiden op de tentamens in week 8 en week 16.
+De cursus duurt 16 weken. Je werkt daarbij aan de onderstaande onderwerpen om je voor te bereiden op de tentamens in week 8 en week 16.
 
-- **Module 1: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden. Je leert over functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
+Programmeren, variabelen en beslissingen
+: Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden. Je leert over functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
 
-- **Module 2: Strings.** Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
+Strings
+: Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
 
-- **Module 3: Lijsten, comprehensions.** Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
+Lijsten, comprehensions
+: Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
-- **Module 5: Collections.** We laten je de resterende collection types uit Python zien, zodat je de meeste basiscode goed kunt begrijpen. Deze collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
+Collections
+: We laten je de resterende collection types uit Python zien, zodat je de meeste basiscode goed kunt begrijpen. Deze collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
 
-- **Module 6: Classes.** In deze module ga je aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
+Classes
+: Je gaat aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
 
-- **Module 7: Structuren.** In deze module ga je aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
+Structuren
+: Je gaat aan de slag met het ontwerpen van objectgeorienteerde code, waardoor je ook grotere programma's overzichtelijk kunt houden. Maar voor nu houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
 
 ## Onderdelen eindcijfer
 
@@ -46,24 +52,24 @@ Het eindcijfer is `punten / 35 * 9 + 1`. De herkansing betreft alleen de stof va
 
 Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Je moet aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
-| Week |     Datum | Activiteit                     |
-| :--: | --------: | ------------------------------ |
-|  1   |  ma 1 sep | Installatie en oefeningen      |
-|  2   |  ma 8 sep | Startopdrachten loops          |
-|  3   | ma 15 sep | Startopdrachten strings        |
-|  4   | ma 22 sep |                                |
-|  5   | ma 29 sep | Startopdrachten lists          |
-|  6   |  ma 6 okt | Startopdrachten comprehensions |
-|  7   | ma 13 okt | Oefententamen                  |
-|  8   |           | Tentamen 1                     |
-|  9   | ma 27 okt | Startopdrachten collections    |
-|  10  |  ma 3 nov |                                |
-|  11  | ma 10 nov | Startopdrachten classes        |
-|  12  | ma 17 nov |                                |
-|  13  | ma 24 nov | Startopdrachten structures     |
-|  14  |  ma 1 dec |                                |
-|  15  |  ma 8 dec | Oefententamen                  |
-|  16  |           | Tentamen 2                     |
+| Week |     Datum | Activiteit                      |
+| :--: | --------: | ------------------------------- |
+|  1   |  ma 1 sep | Installatie en oefeningen       |
+|  2   |  ma 8 sep | Oefeningen loops                |
+|  3   | ma 15 sep | Oefeningen string-analyse       |
+|  4   | ma 22 sep | Oefeningen string-transformatie |
+|  5   | ma 29 sep | Oefeningen lists                |
+|  6   |  ma 6 okt | Oefeningen algoritmen           |
+|  7   | ma 13 okt | Oefententamen                   |
+|  8   |           | Tentamen 1                      |
+|  9   | ma 27 okt | Oefeningen collections          |
+|  10  |  ma 3 nov | Oefeningen big-O                |
+|  11  | ma 10 nov | Oefeningen classes              |
+|  12  | ma 17 nov | Oefeningen                      |
+|  13  | ma 24 nov | Oefeningen structures           |
+|  14  |  ma 1 dec | Oefeningen                      |
+|  15  |  ma 8 dec | Oefententamen                   |
+|  16  |           | Tentamen 2                      |
 
 ### Tentamen
 
