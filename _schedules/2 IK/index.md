@@ -45,10 +45,13 @@ Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zon
 Werkcolleges (7 punten)
 : Tijdens het werkcollege op maandag doe je diverse oefeningen; soms gezamenlijk, soms zelfstandig een tutorial doorwerken. De activiteiten leveren punten op die een klein beetje meetellen. De punten krijg je als je ter plekke aanwezig bent en inlevert via de website.
 
-Tentamen deel 1 en 2 (28 punten)
-: Het tentamen gaat over de stof van module 1, 2 en 3. Echt de basis dus. Het tentamen is voldoende/onvoldoende, dus als je het haalt, dan krijg je alle punten in één keer. Het tentamen is overigens een minimumeis om het vak te halen, zelfs als je al het huiswerk hebt gemaakt. Natuurlijk is er ook een hertentamen, in week 8.
+Deeltentamen (7 punten)
+: Dit deeltentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt alle punten in één keer.
 
-Het eindcijfer is `punten / 35 * 9 + 1`. De herkansing betreft alleen de stof van het tentamen, en niet de punten van de werkcolleges en de eindpresentatie.
+Eindtentamen (14/28 punten)
+: Dit is een compleet tentamen waarin je kunt laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Als je het deeltentamen hebt gehaald dan hoef je dat deel niet meer te doen.
+
+Het eindcijfer is `punten / 35 * 9 + 1`. De herkansing, die na afloop van het vak plaatsvindt, betreft alleen de stof van de tentamens, en dus niet de punten van de werkcolleges.
 
 ### Werkcollege
 
