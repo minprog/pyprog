@@ -53,28 +53,28 @@ Eindtentamen (14/28 punten)
 
 Het eindcijfer is `punten / 35 * 9 + 1`. De herkansing, die na afloop van het vak plaatsvindt, betreft alleen de stof van de tentamens, en dus niet de punten van de werkcolleges.
 
-### Werkcollege
+### Werkcollege op maandag
 
 Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Je moet aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
-| Week |     Datum | Activiteit                      |
-| :--: | --------: | ------------------------------- |
-|  1   |  ma 1 sep | Installatie en oefeningen       |
-|  2   |  ma 8 sep | Oefeningen loops                |
-|  3   | ma 15 sep | Oefeningen string-analyse       |
-|  4   | ma 22 sep | Oefeningen string-transformatie |
-|  5   | ma 29 sep | Oefeningen lists                |
-|  6   |  ma 6 okt | Oefeningen algoritmen           |
-|  7   | ma 13 okt | Oefententamen                   |
-|  8   |           | Tentamen 1                      |
-|  9   | ma 27 okt | Oefeningen collections          |
-|  10  |  ma 3 nov | Oefeningen big-O                |
-|  11  | ma 10 nov | Oefeningen classes              |
-|  12  | ma 17 nov | Oefeningen                      |
-|  13  | ma 24 nov | Oefeningen structures           |
-|  14  |  ma 1 dec | Oefeningen                      |
-|  15  |  ma 8 dec | Oefententamen                   |
-|  16  |           | Tentamen 2                      |
+| Week |  Datum | Activiteit                      |
+| :--: | -----: | ------------------------------- |
+|  1   |  1 sep | Installatie en oefeningen       |
+|  2   |  8 sep | Oefeningen loops                |
+|  3   | 15 sep | Oefeningen string-analyse       |
+|  4   | 22 sep | Oefeningen string-transformatie |
+|  5   | 29 sep | Oefeningen lists                |
+|  6   |  6 okt | Oefeningen algoritmen           |
+|  7   | 13 okt | Oefententamen                   |
+|  8   |        | Tentamen 1                      |
+|  9   | 27 okt | Oefeningen collections          |
+|  10  |  3 nov | Oefeningen big-O                |
+|  11  | 10 nov | Oefeningen classes              |
+|  12  | 17 nov | Oefeningen                      |
+|  13  | 24 nov | Oefeningen structures           |
+|  14  |  1 dec | Oefeningen                      |
+|  15  |  8 dec | Oefententamen                   |
+|  16  |        | Tentamen 2                      |
 
 ### Tentamen
 
@@ -98,7 +98,7 @@ Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote ka
 
 ## Huiswerk en deadlines
 
-Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier buiten de lessen aan werkt.
+Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier buiten de colleges aan werkt.
 
 Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. Daarom moet je alle basisopdrachten af hebben vóór de deadline, dus: alles behalve de challenge. "Af" betekent dat je de code voor jezelf werkend hebt, en ingeleverd op de website. Zie ook de opmerkingen hieronder over de automatische checks die uitgevoerd worden.
 
@@ -154,10 +154,6 @@ Bij de wekelijkse huiswerkopdrachten is het niet de bedoeling om samen een oplos
 
 Toch is het zinvol om, als je vast zit, met medestudenten de opdracht door te spreken. Bijvoorbeeld: hoe moet zo'n opdracht aanpakken? Wat wordt er van je verwacht in module 2? Helemaal prima om dat soort vragen met medestudenten te bespreken. Je kunt bij de eerste opdrachten van de cursus ook samen opzetjes maken van de oplossing, zonder alles helemaal uit te spellen. Jouw taak is uitzoeken welke hulp je (nog) nodig hebt en wat je zelf al kan.
 
-Het begin van leren programmeren is best oncomfortabel. Het kan zelfs ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en betekent zeker niet dat jij het nooit zal leren! Geef jezelf de tijd en ruimte waarin het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
+Het begin van leren programmeren is best oncomfortabel. Het kan zelfs ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en betekent zeker niet dat jij het nooit zal leren! Geef jezelf de tijd en ruimte, zelfs als het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. Dat kan even duren! En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
 
-De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker loopt. Als je opdrachten inlevert die je niet geheel zelf hebt gemaakt dan wordt het daarmee voor de docenten onmogelijk om goed beeld te hebben van je voortgang. We zullen dan denken dat het goed gaat terwijl het helemaal niet zo goed gaat. Kom je dan toch in de problemen, dan moet je echt zelf contact opnemen.
-
-### Challenges
-
-De challenges kunnen bij een goede mondelinge uitleg punten opleveren. Deze mogen dus niet met hulp van code-tools of medestudenten gemaakt worden.
+De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker loopt, onder andere door naar inzendingen te kijken en via gesprekken bij de werkcolleges. Als je opdrachten inlevert die je niet geheel zelf hebt gemaakt dan wordt het daarmee voor de docenten onmogelijk om goed beeld te hebben van je voortgang. We zullen dan denken dat het goed gaat terwijl het helemaal niet zo goed gaat. Kom je dan toch in de problemen, dan moet je echt zelf contact opnemen.
