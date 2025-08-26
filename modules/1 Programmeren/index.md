@@ -27,7 +27,7 @@ Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan
 
 ## Werkcollege en laptopcollege
 
-Maandag 28 oktober is het werkcollege, de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
+Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 
 - Achterhalen en precies maken van formules
 - Formules opschrijven op zo'n manier dat Python het begrijpt
@@ -52,8 +52,8 @@ Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
 ## Deadline
 
-De bedoeling is dat je deze week in totaal zo'n 20 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag 7 september om 17:00 uur. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
+De bedoeling is dat je deze week in totaal zo'n 20 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag om 17:00 uur. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
 
 ## Beoordeling
 
-Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk getoetst tijdens het tentamen in week 8 van de cursus. Alles staat dus in het teken van oefenen voor dit tentamen.
+Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk getoetst tijdens het tentamen halverwege de cursus. Alles staat dus in het teken van oefenen voor dit tentamen.
