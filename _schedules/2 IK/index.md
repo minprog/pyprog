@@ -42,14 +42,12 @@ Structuren
 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
-Codepraat (7 punten praktische oefening)
+Tentamen (22 punten)
+: - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
+: - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. De nadruk ligt op het schrijven van classes.
+
+Codepraat (6 punten praktische oefening)
 : Tijdens het laptopcollege op donderdag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
-
-Tussentoets (7 punten ter vervanging van het tentamen)
-: Deze toets gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt alle punten in één keer als het resultaat voldoende is; dit resultaat vervangt bovendien het basisdeel van het tentamen. Mocht je het niet halen, wat kan gebeuren, dan kun je dit deel tijdens het tentamen maken.
-
-Tentamen (21 punten)
-: Dit is een tentamen waarin je kunt laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Een deel bestaat uit basisopgaven, die echter niet meer gemaakt hoeven worden als de tussentoets voldoende gemaakt is. De verdere opgaven gaan over de verschillende taalconstructies in Python, met een nadruk op classes.
 
 Het eindcijfer is `punten / 28 * 9 + 1`.
 
