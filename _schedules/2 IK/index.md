@@ -10,7 +10,7 @@ Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle college
 
 ## Docenten en assistenten
 
-De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema en Rein Lukkes. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze aanspreken tijdens colleges, of in noodgevallen bereiken via e-mail op <pyprog@proglab.nl>.
+De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Rein Lukkes en Robin Langerak. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze aanspreken tijdens colleges, of in noodgevallen bereiken via e-mail op <pyprog@proglab.nl>.
 
 Een groep bestaat uit ongeveer 30 studenten. De docenten zijn aanwezig bij hun eigen groep en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog een studentassistent die begeleidt bij het maken van de opdrachten. Assistenten geven daarnaast gevraagd en ongevraagd feedback.
 
@@ -67,7 +67,7 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 |  5   | 29 sep | Oefeningen lists                |
 |  6   |  6 okt | Oefeningen algoritmen           |
 |  7   | 13 okt | Oefententamen (geen punten)     |
-|  8   |        | Tentamen 1                      |
+|  8   |        | Tussentoets                     |
 |  9   | 27 okt | Oefeningen collections          |
 |  10  |  3 nov | Code reviews                    |
 |  11  | 10 nov | Oefeningen classes              |
@@ -75,11 +75,7 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 |  13  | 24 nov | Oefeningen structures           |
 |  14  |  1 dec | Code reviews                    |
 |  15  |  8 dec | Oefententamen (geen punten)     |
-|  16  |        | Tentamen 2                      |
-
-### Laptopcollege op donderdag
-
-Dit is de werkmiddag. Hier ga je een groot deel van je voortgang maken met het huiswerk. Er is veel hulp beschikbaar: docenten en assistenten. Ook gaat de docent een voorbeeld uitwerken van een programma zodat je kunt meekijken hoe dit in z'n werk gaat.
+|  16  |        | Tentamen                        |
 
 ## Huiswerk en deadlines
 
@@ -103,10 +99,18 @@ Kom je er echt totaal niet uit terwijl je nog middenin je opdrachten zit, dan is
 
 Wat tot slot _niet_ akkoord is, is als je alle opdrachten eruit beukt zonder naar de resultaten te kijken. We weten dat sommige studenten de eerdere instructie iets te licht opvatten en dan geen druk meer voelen om de opdracht echt goed af te maken. Dit is echter _wel_ verplicht, en bovenstaande is alleen bedoeld om ruimte te geven aan studenten die het allemaal nog erg moeilijk vinden.
 
-## Aanwezigheid
+## Bijeenkomsten en aanwezigheid
 
-Activiteiten
-: Je wordt verwacht bij alle werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Hier krijg je nuttige informatie en ga je uren maken met programmeren. Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief.
+Werkcollege op maandag
+: Hier ga je steeds aan de slag met nieuwe onderdelen van Python. Vaak eerst op papier en daarna in code. Zoals vermeld bij de becijfering krijg je punten voor actieve deelname aan dit college.
+
+Laptopcollege op donderdag
+: Dit is de werkmiddag. Hier ga je een groot deel van je voortgang maken met het huiswerk. Er is veel hulp beschikbaar: docenten en assistenten. Ook gaat de docent voorbeelden uitwerken van programma's zodat je kunt meekijken hoe dit in z'n werk gaat.
+
+### Aanwezigheid
+
+Aanwezigheid bij colleges
+: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Hier krijg je nuttige informatie en ga je uren maken met programmeren. Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief.
 
 Te laat komen
 : Na de starttijd van het werkcollege (maandag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn. Op de donderdag kan er wat meer flexibiliteit worden geboden, maar maak goed gebruik van de sessie.
