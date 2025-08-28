@@ -1,6 +1,14 @@
 # Installatie
 
-Voor deze cursus heb je **Python** nodig en een **editor**. Hieronder staan verschillende opties om de benodigdheden te installeren.
+Voor deze cursus heb je **Python** nodig en een **editor**.
+
+
+> ChatGPT Python kickstarter
+>
+> Ga naar onze installatiehulp om stap-voor-stap begeleiding te krijgen. Hiermee installeer je Python en mypy. Je gaat ook een Python-programmaatje schrijven en proberen te runnen.
+>
+> <https://chatgpt.com/g/g-muT6gPRxL-python-kickstarter>
+
 
 ## Problemen?
 
@@ -12,15 +20,6 @@ Heb je problemen met de installatie:
 3. als niks helpt, neem dan **direct** contact op via <mailto:pyprog@proglab.nl>
 
 Een mislukte installatie is géén reden voor een uitzondering op deadlines!
-
-
-## ChatGPT Python kickstarter
-
-Ga naar onze installatiehulp om stap-voor-stap begeleiding te krijgen.
-
-<https://chatgpt.com/g/g-muT6gPRxL-python-kickstarter>
-
-(Deze chat lijkt niet te werken in de dekstop GPT app. Kopieer de link eventueel in je browser om 'm daar te gebruiken.)
 
 ## Python
 
@@ -56,6 +55,6 @@ Ga naar onze installatiehulp om stap-voor-stap begeleiding te krijgen.
 
 ## Programma's runnen
 
--   Als je Windows gebruikt, bekijk dan dit filmpje om te zien hoe je Python-programma's kunnen runnen:
+Als je Windows gebruikt, bekijk dan eventueel dit filmpje om te zien hoe je Python-programma's kunnen runnen:
 
-    ![embed](https://www.youtube-nocookie.com/embed/Shf5m_Uol9g?si=mk9nAQ29zSPLtw_s)
+![embed](https://www.youtube-nocookie.com/embed/Shf5m_Uol9g?si=mk9nAQ29zSPLtw_s)
