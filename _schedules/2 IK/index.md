@@ -45,7 +45,7 @@ Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zon
 Tentamen (22 punten)
 : - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
 : - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
-: - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Dit hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
 Codepraat (6 punten praktische oefening)
 : Tijdens het laptopcollege op donderdag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
@@ -54,65 +54,42 @@ Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
-### Werkcollege op maandag/donderdag
+### Werkcollege op maandag
 
-Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Je moet aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
+Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 12 sessies waar je 0,5 punt per keer kunt verdienen. Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
-| Week |  Datum | Werkcollege                     | Laptopcollege |
-| :--: | -----: | ------------------------------- | ------------- |
-|  1   |  1 sep | Installatie en oefeningen       |               |
-|  2   |  8 sep | Oefeningen loops                |               |
-|  3   | 15 sep | Oefeningen string-analyse       |               |
-|  4   | 22 sep | Oefeningen string-transformatie |               |
-|  5   | 29 sep | Oefeningen lists                |               |
-|  6   |  6 okt | Oefeningen algoritmen           |               |
-|  7   | 13 okt | Oefententamen                   |               |
-|  8   |        | Tentamen 1                      |               |
-|  9   | 27 okt | Oefeningen collections          |               |
-|  10  |  3 nov | Oefeningen big-O                |               |
-|  11  | 10 nov | Oefeningen classes              |               |
-|  12  | 17 nov | Oefeningen                      |               |
-|  13  | 24 nov | Oefeningen structures           |               |
-|  14  |  1 dec | Oefeningen                      |               |
-|  15  |  8 dec | Oefententamen                   |               |
-|  16  |        | Tentamen 2                      |               |
+| Week |  Datum | Werkcollege                     |
+| :--: | -----: | ------------------------------- |
+|  1   |  1 sep | Installatie en oefeningen       |
+|  2   |  8 sep | Oefeningen loops                |
+|  3   | 15 sep | Oefeningen string-analyse       |
+|  4   | 22 sep | Oefeningen string-transformatie |
+|  5   | 29 sep | Oefeningen lists                |
+|  6   |  6 okt | Oefeningen algoritmen           |
+|  7   | 13 okt | Oefententamen (geen punten)     |
+|  8   |        | Tentamen 1                      |
+|  9   | 27 okt | Oefeningen collections          |
+|  10  |  3 nov | Code reviews                    |
+|  11  | 10 nov | Oefeningen classes              |
+|  12  | 17 nov | Code reviews                    |
+|  13  | 24 nov | Oefeningen structures           |
+|  14  |  1 dec | Code reviews                    |
+|  15  |  8 dec | Oefententamen (geen punten)     |
+|  16  |        | Tentamen 2                      |
 
-### Tentamen
+### Laptopcollege op donderdag
 
-Bij het tentamen krijg je diverse opgaven waarin je een redelijk klein maar wel compleet programma moet schrijven. Je programmeert ze uit op een computer, maar je hebt geen toegang tot internet voor naslag.
-
-De opgaven van het tentamen zijn gebaseerd op de oefeningen die je tijdens de cursus doet. De bedoeling is dat je basisoplossingen uit je hoofd kent, en technieken beheerst om deze oplossingen aan te passen en te combineren voor de opgaven die je krijgt.
-
-Je haalt het tentamen door opgaven op te lossen volgens de gegeven beschrijving (heel precies!) en door verschillende oplossingstechnieken te laten zien die jouw brede kennis van Python tonen.
+Dit is de werkmiddag. Hier ga je een groot deel van je voortgang maken met het huiswerk. Er is veel hulp beschikbaar: docenten en assistenten. Ook gaat de docent een voorbeeld uitwerken van een programma zodat je kunt meekijken hoe dit in z'n werk gaat.
 
 ## Huiswerk en deadlines
 
 Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier buiten de colleges aan werkt.
 
-Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. Daarom moet je alle basisopdrachten af hebben vóór de deadline, dus: alles behalve de challenge. "Af" betekent dat je de code voor jezelf werkend hebt, en ingeleverd op de website. Zie ook de opmerkingen hieronder over de automatische checks die uitgevoerd worden.
+Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. Daarom moet je alle basisopdrachten af hebben vóór de deadline, dus: alles behalve de challenge.
 
-|          | deadline huiswerk |
-| -------- | ----------------: |
-| Module 1 |   vr 12 sep 17:00 |
-| Module 2 |   vr 26 sep 17:00 |
-| Module 3 |   vr 10 okt 17:00 |
-| Module 4 |    vr 7 nov 17:00 |
-| Module 5 |   vr 21 nov 17:00 |
-| Module 6 |    vr 5 dec 17:00 |
+Maar "af" betekent niet altijd perfect! Je moet het gros goed hebben, maar geen probleem als je een opdracht niet helemaal goedgekeurd krijgt door de website. Hiervoor kun je in de volgende week nog hulp vragen.
 
-**Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT. In plaats daarvan lever je de opdrachten in die je hebt, en je stuurt een mail om de situatie uit te leggen. We hebben allemaal weleens een planningsfout gemaakt dus kom er eerlijk voor uit en bespreek de situatie met je docent.**
-
-### Huiswerk van de latere weken
-
-Afhankelijk van het resultaat van het eerste tentamen en hoe je er zelf instaat, ga je hier één van beide kanten op:
-
-Richting 1: tentamen goed gehaald.
-: Je zit er goed in, en je bent er klaar voor de rest van Python te leren. Dan ga je aan de slag met modules 4 t/m 6, waarin steeds weer nieuwe constructies worden geïntroduceerd zoals lists, dicts, sets, tuples en classes. Hiermee kun je steeds complexere programma's schrijven. Veel studenten doen ook de moeilijkere opdrachten van de modules.
-
-Richting 2: tentamen niet gehaald of op het randje.
-: Je vindt het nog wel moeilijk en je gaat vooral herhalen en basiskennis verdiepen. Je kunt ook de basisopgaven van modules 4 t/m 6 doen, maar de grotere opdrachten laat je liggen. Zo heb je tijd en rust om je voor te bereiden op de herkansing, en tegelijk ben je ook al wat voorbereid voor de Python-constructies die in vervolgvakken worden gebruikt.
-
-Zorg dat je een goed beeld vormt van wat voor jou handig is om te doen. Grote kans dat jouw strategie toch afwijkt van de strategie van anderen. Iedereen moet een eigen pad vinden in het leren programmeren. Zorg dus dat je niet automatisch hetzelfde doet als je buren, en betrek de docent bij je keuzes.
+**Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT. In plaats daarvan lever je de opdrachten in die je hebt, en je stuurt een mail om de situatie uit te leggen. We hebben allemaal weleens een planningsfout gemaakt dus leg het gewoon even uit en bespreek de situatie met je docent.**
 
 ### Automatische checks
 
@@ -132,7 +109,7 @@ Activiteiten
 : Je wordt verwacht bij alle werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Hier krijg je nuttige informatie en ga je uren maken met programmeren. Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief.
 
 Te laat komen
-: Na de starttijd van het college mag je niet meer binnenkomen, ook als er een trein uitvalt. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
+: Na de starttijd van het werkcollege (maandag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn. Op de donderdag kan er wat meer flexibiliteit worden geboden, maar maak goed gebruik van de sessie.
 
 Ziekmelding
 : Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
