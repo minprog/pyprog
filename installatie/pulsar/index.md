@@ -3,9 +3,9 @@
 Voor deze cursus heb je **Python** nodig en een **editor**.
 
 
-> ChatGPT Python kickstarter
+> **ChatGPT Python kickstarter**
 >
-> Ga naar onze installatiehulp om stap-voor-stap begeleiding te krijgen. Hiermee installeer je Python en mypy. Je gaat ook een Python-programmaatje schrijven en proberen te runnen.
+> Ga naar onze installatiehulp om stap-voor-stap begeleiding te krijgen. Hiermee installeer je Python en `mypy`. Je gaat ook een Python-programmaatje schrijven en proberen te runnen.
 >
 > <https://chatgpt.com/g/g-muT6gPRxL-python-kickstarter>
 
