@@ -21,7 +21,7 @@ Over al deze dingen vind je uitleg in het boek, en soms staan er extra aanwijzin
 
 Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan. En dat is ook wel zo: nog geen `while` of `for` toegestaan deze week. Let op het volgende:
 
-- Doe de opgaven die gemarkeerd zijn met een ᵛ om voldoende te oefenen met de specifieke *manier van programmeren* die we je willen aanleren. Hierboven stond er al iets over vermeld. Onze manier van programmeren is misschien anders dan je gewend bent. Check ook het "ontwerprecept" (boek hoofdstuk 3.6).
+- Doe een aantal van de basisopgaven zodat je ziet hoe wij het verwachten. Laat je code controleren door de uitwerking in te sturen op deze site.
 
 - Daag vervolgens jezelf uit met de Challenge, waarin je wel degelijk al loops kan en mag gebruiken.
 
@@ -34,7 +34,7 @@ Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek da
 - Schrijven van kleine functies op basis van de formules
 - Installeren van Python en een editor op je computer
 
-Later in de week is er ook een laptopcollege. Deze bijeenkomst is verplicht, net als het werkcollege. Tijdens het laptopcollege ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk.
+Later in de week is er ook een laptopcollege. Ook hier verwachten we jouw aanwezigheid, net als bij het werkcollege. Tijdens het laptopcollege ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk. Ook zal de docent nog één of twee programma's live uitwerken zodat je kunt meekijken hoe dat gaat.
 
 ## Studiematerialen en huiswerk
 
@@ -56,4 +56,4 @@ De bedoeling is dat je deze week in totaal zo'n 20 uur besteedt aan de cursus. V
 
 ## Beoordeling
 
-Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk getoetst tijdens het tentamen halverwege de cursus. Alles staat dus in het teken van oefenen voor dit tentamen.
+Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk gecheckt bij de tussentoets halverwege de cursus. Alles staat dus in het teken van oefenen voor deze toets.
