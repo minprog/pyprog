@@ -44,14 +44,15 @@ Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zon
 
 Tentamen (22 punten)
 : - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
-: - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. De nadruk ligt op het schrijven van classes.
+: - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
+: - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Dit hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
 Codepraat (6 punten praktische oefening)
 : Tijdens het laptopcollege op donderdag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
 
-Het eindcijfer is `punten / 28 * 9 + 1`.
+Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
-De herkansing vindt na afloop van het vak plaats en is bedoeld voor studenten die het opeens een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
+De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
 ### Werkcollege op maandag/donderdag
 
