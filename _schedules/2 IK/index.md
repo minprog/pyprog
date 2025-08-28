@@ -2,8 +2,6 @@
 
 ## Studiewijzer<br><small>Herfst 2025</small>
 
-## Deze studiewijzer is een concept.
-
 Dit vak volg je als je Informatiekunde studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
 Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle colleges, alle nieuwe oefeningen en de nieuwe opdrachten die we hebben toegevoegd. Let op dat de eisen voor doctests en dergelijke streng zijn, dus waarschijnlijk moet je sommige programma's nog verbeteren. We helpen je daar graag bij in de colleges!
