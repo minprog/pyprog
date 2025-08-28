@@ -1,8 +1,8 @@
 # Week 1: Programmeren, variabelen en beslissingen
 
-Dit is het overzicht voor week 1 van de 8-weekse cursus Programmeren in Python. We gaan meteen aan de slag met code schrijven! Het wordt pittig, maar we hebben gestructureerde activiteiten om goed te beginnen, en veel ruimte om vragen te stellen tijdens de colleges.
+Dit is het overzicht voor week 1 van de 16-weekse cursus Programmeren in Python. We gaan meteen aan de slag met code schrijven! Het wordt pittig, maar we hebben gestructureerde activiteiten om goed te beginnen, en veel ruimte om vragen te stellen tijdens de colleges.
 
-We werken nu toe naar het tentamen dat in week 4 plaatsvindt. Module 1 t/m 3 helpen je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te leren en niet om te scoren.
+We werken nu toe naar de tussentoets die in week 8 plaatsvindt. Week 1 t/m 7 helpen je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te leren en niet om te scoren.
 
 ## Onderwerpen
 
