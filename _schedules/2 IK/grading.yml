@@ -143,27 +143,21 @@ grades:
 # You can leave this out if the site does not need to perform final grade
 # calculations.
 
-calculation:
-    eindcijfer_ki:
-        werkcolleges: 7
-        modules: 24
-        # werkbladen: 7
-        tentamen_ki: 14
-    eindcijfer_ik:
-        werkcolleges: 7
-        modules: 24
-        # werkbladen: 7
-        tentamen_ik: 14
-    herkansing_ki:
-        werkcolleges: 7
-        # modules: 24
-        werkbladen: 24
-        hertentamen_ki: 14
-    herkansing_ik:
-        werkcolleges: 7
-        # modules: 24
-        werkbladen: 24
-        hertentamen_ik: 14
+# calculation:
+#     eindcijfer_ki:
+#         werkcolleges: 6
+#         tussentoets_ki: 11
+#         tentamen_ki: 11
+#     eindcijfer_ik:
+#         werkcolleges: 6
+#         tussentoets_ik: 11
+#         tentamen_ik: 11
+#     herkansing_ki:
+#         werkcolleges: 6
+#         hertentamen_ki: 22
+#     herkansing_ik:
+#         werkcolleges: 6
+#         hertentamen_ki: 22
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.

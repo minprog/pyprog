@@ -201,7 +201,7 @@ mod_lists:
     show_progress: true
     deadline: 31/10/24 17:00
     submits:
-        list_functions: 1
+        # list_functions: 1
         scrabble: 1
         selection_sort: 1
         special_sort: 1
