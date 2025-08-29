@@ -204,7 +204,7 @@ werkcolleges:
 #         werkcollege_6_her: 1
 #         werkcollege_7: 1
 
-module_1:
+week_1:
     show_progress: true
     small_block_overview: true
     deadline: 7/9/25 17:00
@@ -221,7 +221,7 @@ module_1:
         rechthoeken: 1
         kalender: 1
 
-module_2:
+week_2:
     show_overview: true
     # show_progress: true
     small_block_overview: true
@@ -235,7 +235,7 @@ module_2:
         temperatuur: 1
         priemgetallen: 1
 
-module_3:
+week_3:
     show_overview: true
     # show_progress: true
     small_block_overview: true
@@ -248,7 +248,7 @@ module_3:
         leesbaarheid: 1
         pwdgen: 1
 
-module_4:
+week_4:
     show_overview: true
     # show_progress: true
     small_block_overview: true
@@ -262,7 +262,7 @@ module_4:
         rot13: 1
         monopoly: 1
 
-module_5:
+week_5:
     show_overview: true
     # show_progress: true
     small_block_overview: true
@@ -277,7 +277,7 @@ module_5:
         compact: 1
         compress: 1
 
-module_6:
+week_6:
     show_overview: true
     # show_progress: true
     small_block_overview: true
@@ -290,7 +290,7 @@ module_6:
         schuifpuzzel: 1
         virus: 1
 
-# module_10:
+# week_10:
 #     # show_overview: true
 #     show_progress: true
 #     deadline: 8/12/24 17:00
@@ -299,7 +299,7 @@ module_6:
 #         indexer: 1
 #         eca2csv: 1
 
-# module_10_project:
+# week_10_project:
 #     # show_overview: true
 #     show_progress: true
 #     deadline: 8/12/24 17:00
@@ -307,7 +307,7 @@ module_6:
 #     submits:
 #         klimaat: 1
 
-# module_7:
+# week_7:
 #     # show_overview: true
 #     show_progress: true
 #     deadline: 15/12/24 17:00
@@ -320,7 +320,7 @@ module_6:
 #         lisp: 1
 #         figuren: 1
 
-# module_7_project:
+# week_7_project:
 #     # show_overview: true
 #     show_progress: true
 #     deadline: 15/12/24 17:00
