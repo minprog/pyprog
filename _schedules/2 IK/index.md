@@ -46,7 +46,7 @@ Tentamen (22 punten)
 : - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
 Werkcollege (6 punten praktische oefening)
-: Tijdens het laptopcollege op donderdag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
+: Tijdens het werkcollege op maandag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
 
 Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
