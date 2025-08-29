@@ -194,25 +194,26 @@ werkcolleges:
         werkcollege_4: 1
         werkcollege_5: 1
         werkcollege_6: 1
-        werkcollege_7: 1
+        # werkcollege_7: 1
 
-werkbladen:
-    show_progress: true
-    type: points
-    maximum: 24
-    minimum: 3.625
-    submits:
-        werkcollege_1_her: 1
-        werkcollege_2_her: 1
-        werkcollege_3_her: 1
-        werkcollege_4_her: 1
-        werkcollege_5_her: 1
-        werkcollege_6_her: 1
-        werkcollege_7: 1
+# werkbladen:
+#     show_progress: true
+#     type: points
+#     maximum: 24
+#     minimum: 3.625
+#     submits:
+#         werkcollege_1_her: 1
+#         werkcollege_2_her: 1
+#         werkcollege_3_her: 1
+#         werkcollege_4_her: 1
+#         werkcollege_5_her: 1
+#         werkcollege_6_her: 1
+#         werkcollege_7: 1
 
 module_1:
     show_progress: true
-    deadline: 3/11/24 17:00
+    small_block_overview: true
+    deadline: 7/9/25 17:00
     submits:
         weken: 1
         water: 1
@@ -220,14 +221,17 @@ module_1:
         cafeine: 1
         vakantie: 1
         acid: 1
+        schrikkel: 1
         orakel: 1
         byte: 1
         rechthoeken: 1
-        priem_getal: 1
+        kalender: 1
 
 module_2:
-    show_progress: true
-    deadline: 10/11/24 17:00
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 12/9/25 17:00
     submits:
         cola: 1
         greedy: 1
@@ -235,16 +239,14 @@ module_2:
         populatie: 1
         piramide: 1
         temperatuur: 1
-        kalender: 1
-        monopoly: 1
+        priemgetallen: 1
 
 module_3:
-    # show_overview: true
-    show_progress: true
-    deadline: 17/11/24 17:00
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 21/9/25 17:00
     submits:
-        camelcase: 1
-        rna: 1
         alfabet: 1
         etenstijd: 1
         calculator: 1
@@ -252,98 +254,120 @@ module_3:
         leesbaarheid: 1
         pwdgen: 1
 
+module_4:
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 28/9/25 17:00
+    submits:
+        yell: 1
+        remove_vowels: 1
+        shout: 1
+        camelcase: 1
+        rna: 1
+        rot13: 1
+        monopoly: 1
+
 module_5:
-    # show_overview: true
-    show_progress: true
-    deadline: 1/12/24 17:00
-    deadline_hard: true
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 5/10/25 17:00
+    submits:
+        uniq: 1
+        flatten: 1
+        rotate: 1
+        chunk: 1
+        contig: 1
+        interleave: 1
+        compact: 1
+        compress: 1
+
+module_6:
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 12/10/25 17:00
     submits:
         scrabble: 1
         selection_sort: 1
         special_sort: 1
         sjoelen: 1
         schuifpuzzel: 1
-
-module_5_project:
-    # show_overview: true
-    show_progress: true
-    deadline: 1/12/24 17:00
-    deadline_hard: true
-    submits:
         virus: 1
 
-module_6:
-    # show_overview: true
-    show_progress: true
-    deadline: 8/12/24 17:00
-    deadline_hard: true
-    submits:
-        indexer: 1
-        eca2csv: 1
+# module_10:
+#     # show_overview: true
+#     show_progress: true
+#     deadline: 8/12/24 17:00
+#     deadline_hard: true
+#     submits:
+#         indexer: 1
+#         eca2csv: 1
 
-module_6_project:
-    # show_overview: true
-    show_progress: true
-    deadline: 8/12/24 17:00
-    deadline_hard: true
-    submits:
-        klimaat: 1
+# module_10_project:
+#     # show_overview: true
+#     show_progress: true
+#     deadline: 8/12/24 17:00
+#     deadline_hard: true
+#     submits:
+#         klimaat: 1
 
-module_7:
-    # show_overview: true
-    show_progress: true
-    deadline: 15/12/24 17:00
-    deadline_hard: true
-    submits:
-        # queue: 1
-        cards: 1
-        country: 1
-        lines: 1
-        lisp: 1
-        figuren: 1
+# module_7:
+#     # show_overview: true
+#     show_progress: true
+#     deadline: 15/12/24 17:00
+#     deadline_hard: true
+#     submits:
+#         # queue: 1
+#         cards: 1
+#         country: 1
+#         lines: 1
+#         lisp: 1
+#         figuren: 1
 
-module_7_project:
-    # show_overview: true
-    show_progress: true
-    deadline: 15/12/24 17:00
-    deadline_hard: true
-    submits:
-        adventure-more: 1
+# module_7_project:
+#     # show_overview: true
+#     show_progress: true
+#     deadline: 15/12/24 17:00
+#     deadline_hard: true
+#     submits:
+#         adventure-more: 1
 
-modules:
-    show_overview: true
-    type: points
-    submits:
-        modules: 24
+# modules:
+#     show_overview: true
+#     type: points
+#     submits:
+#         modules: 24
 
-tentamen_ki:
-    show_overview: true
-    type: points
-    attempt_required: true
-    minimum: 10
-    submits:
-        tentamen_ki: 14
+# tentamen_ki:
+#     show_overview: true
+#     type: points
+#     attempt_required: true
+#     minimum: 10
+#     submits:
+#         tentamen_ki: 14
 
-tentamen_ik:
-    show_overview: true
-    type: points
-    attempt_required: true
-    minimum: 10
-    submits:
-        tentamen_ik: 14
+# tentamen_ik:
+#     show_overview: true
+#     type: points
+#     attempt_required: true
+#     minimum: 10
+#     submits:
+#         tentamen_ik: 14
 
-hertentamen_ki:
-    show_overview: true
-    type: points
-    attempt_required: true
-    minimum: 10
-    submits:
-        hertentamen_ki: 14
+# hertentamen_ki:
+#     show_overview: true
+#     type: points
+#     attempt_required: true
+#     minimum: 10
+#     submits:
+#         hertentamen_ki: 14
 
-hertentamen_ik:
-    show_overview: true
-    type: points
-    attempt_required: true
-    minimum: 10
-    submits:
-        hertentamen_ik: 14
+# hertentamen_ik:
+#     show_overview: true
+#     type: points
+#     attempt_required: true
+#     minimum: 10
+#     submits:
+#         hertentamen_ik: 14

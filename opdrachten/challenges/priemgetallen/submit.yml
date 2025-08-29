@@ -1,4 +1,4 @@
-name: priem_getal
+name: priemgetallen
 files:
     required:
         - priem_getal.py

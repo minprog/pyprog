@@ -77,11 +77,12 @@ grades:
     vakantie: *automatic
 
     acid: *automatic
+    schrikkel: *automatic
     orakel: *automatic
     byte: *automatic
     rechthoeken: *automatic
 
-    priem_getal: *check
+    kalender: *automatic
 
     # module 2
     cola: *automatic
@@ -91,14 +92,10 @@ grades:
 
     piramide: *automatic
     temperatuur: *automatic
-    kalender: *automatic
 
-    monopoly: *check
+    priemgetallen: *check
 
     # module 3
-    camelcase: *automatic
-    rna: *automatic
-
     alfabet: *automatic
     etenstijd: *automatic
     calculator: *automatic
@@ -108,8 +105,28 @@ grades:
     pwdgen: *check
 
     # module 4
-    list_functions: *automatic
+    yell: *automatic
+    remove_vowels: *automatic
+    shout: *automatic
+    camelcase: *automatic
+    rna: *automatic
+    rot13: *automatic
 
+    monopoly: *check
+
+    # module 5
+    # list_functions: *automatic
+    uniq: *automatic
+    flatten: *automatic
+    rotate: *automatic
+    chunk: *automatic
+    contig: *automatic
+    interleave: *automatic
+    compact: *automatic
+
+    compress: *automatic
+
+    # module 6
     scrabble: *automatic
     selection_sort: *automatic
     special_sort: *automatic
@@ -118,13 +135,13 @@ grades:
 
     virus: *automatic
 
-    # module 5
+    # module 10
     indexer: *automatic
 
     eca2csv: *automatic
     klimaat: *automatic
 
-    # module 6
+    # module 11
     queue: *automatic
     cards: *automatic
     country: *automatic
@@ -137,10 +154,8 @@ grades:
     lisp2: *automatic
     figuren: *automatic
 
-    # module 7
+    # module 14
     adventure-more: *automatic
-
-
 
     # overige
 
