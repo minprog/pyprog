@@ -1,6 +1,6 @@
 # Basis Objectgeorienteerd Programmeren
 
-## Studiewijzer INF4ALL<br><small>Herfst 2024</small>
+## Studiewijzer INF4ALL<br><small>Herfst 2025</small>
 
 Dit vak volg je als je INF4ALL doet en de basis van het programmeren onder de knie wil krijgen. Tijdens het vak werk je met Python, om te beginnen met vele kleinere oefenopdrachten. In de loop van de weken ga je meer geavanceerde programma's schrijven.
 
@@ -10,43 +10,51 @@ Er is geen voorkennis nodig voor dit vak.
 
 ## Docent
 
-Martijn Stegeman is docent. Je kunt hem mailen via <m.stegeman@uva.nl>. Opdrachten zullen nagekeken worden en van feedback voorzien door een assistent.
+Martijn Stegeman is docent. Je kunt hem mailen via <m.stegeman@uva.nl>.
 
 ## Wat ga je leren
 
-- **Module 1: Programmeren, variabelen en beslissingen.** Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden.
+Je werkt eerst aan de onderstaande onderwerpen om je voor te bereiden op de tussentoets in week 8. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
 
-- **Module 2: Herhalen en lijsten.** Bij deze module introduceren we lijsten, om data in op te slaan, en herhaling, waarmee je programma's kunt maken die data stap voor stap verwerken.
+Programmeren, variabelen en beslissingen
+: Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden. Je leert over functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
 
-- **Module 3: Strings.** Hier ga je aan de slag met strings, om herhaling toe te passen voor de analyse van rijtjes tekens en om nieuwe strings te maken.
+Strings
+: Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
 
-- **Module 4: Lijsten en algoritmen.** Je werkt aan je kennis van lijsten en hoe je deze kunt gebruiken om data bij te houden. Je maakt kennis met enkele (sorteer)algoritmen.
+Lijsten
+: Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
-- **Module 5: Collecties en data.** Hier leer je een datafile inlezen en analyseren. Je maakt kennis met technieken om de juiste data te extraheren uit zulke datafiles.
+In het tweede deel introduceren we meer onderdelen van de taal en worden de programma's duidelijk wat complexer. Deze delen komen terug in het tentamen van week 16.
 
-- **Module 6: Object-georienteerd programmeren.** In deze module ga je aan de slag met een geheel nieuwe manier van programma's ontwerpen, zodat je later ook overzicht kunt houden in veel grotere programma's.
+Collections
+: We laten je ook de resterende collection types uit Python zien (dictionaries, tuples en sets), zodat je de meeste basiscode goed kunt begrijpen. Collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
 
+Classes
+: De laatste belangrijke constructie uit Python is een class. Zo kun je code bouwen met objecten die een directe representatie zijn van het onderwerp waar het programma over gaat. Aanvakelijk houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
 
-## Opdrachten en eindcijfer
+Structuren
+: Voor de volgende stap ga je diverse classes in één programma combineren. Dit is in het begin wel even pittig, maar helpt uiteindelijk juist om grotere programma's overzichtelijk te houden. Je werkt dus ook toe naar een grotere game die je als eindproject gaat bouwen.
 
-Programmeren leer je door veel te oefenen. Vrijwel al het werk bij dit vak bestaat dus uit het maken van programmeeropdrachten. Dit zijn de hoofdonderdelen:
+## Onderdelen eindcijfer
 
-1. Oefeningen uit het boek maken. In het boek staan oefeningen die je kunt doen ter ondersteuning van het lezen.
+Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
-2. Insturen van oplossingen voor de programmeeropdrachten. Elke week krijg je diverse programmeeropdrachten als huiswerk. Allemaal helpen ze jou om verschillende combinaties van Python-constructies goed toe te leren passen. De website voert na inleveren een automatische controle uit, niet inhoudelijk maar puur of je de opdrachten gemaakt hebt volgens specificatie.
+Tentamen (22 punten)
+: - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
+: - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
+: - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
-3. Beoordeling tentamen (50% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven op basis van de kennis t/m module 3, maar zonder gebruik van internet of voorbeelden. Je moet minimaal een voldoende halen om het vak af te kunnen ronden.
+Werkcollege (6 punten praktische oefening)
+: Tijdens het werkcollege op maandag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
 
-4. Aftekenen modules 4, 5 en 6 (50% van eindcijfer). Voor de "normale" opgaven en het "project" binnen deze modules kun je punten verdienen. Indien volledig gemaakt, ingeleverd, goedgekeurd en begrepen (naar inzicht docent) krijg je de punten voor een onderdeel.
+Het **eindcijfer** is `punten / 28 * 9 + 1`.
+
+De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
 ### Minimumeisen
 
-Om in aanmerking te komen voor een eindbeoordeling moet je:
-
-- goed meedoen met het vak, dus het grootste deel van alle opdrachten volledig werkend hebben ingeleverd vóór het volgende college; laat dus geen grote gaten vallen, naar beoordeling van de docenten, denk aan 80% ingeleverd
-- het tentamen voldoende maken; je kunt het vak dus niet halen door alleen de modules te maken
-
-Als je aan deze voorwaarden voldoet wordt een eindcijfer berekend volgens de bovenstaande percentages. Verderop in de studiewijzer vind je hoe de deelcijfers worden berekend.
+TODO
 
 ## Vragen stellen
 
@@ -64,7 +72,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Dit is een overzicht van de deadlines per week:
+Dit is een overzicht van de deadlines per module:
 
 |          | deadline huiswerk |
 |----------|-------------------|

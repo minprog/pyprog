@@ -1,75 +1,188 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
-    Installatie: /installatie
 
-Mod 1 Programmeren:
+# Basic form
+Week 1:
     Overzicht: /modules/programmeren
-    Opdrachten:
-        Weken: /opdrachten/expressies/weken
-        Cafeine: /opdrachten/expressies/cafeine           # 1 func, main, expressies
-        Vakantie: /opdrachten/expressies/vakantie         # 3 func, main, expressies
-        Orakel: /opdrachten/conditionals/orakel           # 1 func, main, if
-        Acid test [tijdens bijeenkomst]: /opdrachten/conditionals/acid  # 1 func, main, if
-        # Rechthoeken [tijdens bijeenkomst]: /opdrachten/conditionals/rechthoeken # 3 func, main, if, bool
-
-Mod 2 Herhaling:
-    Overzicht: /modules/herhaling
-    Opdrachten:
-        Herhaal: /opdrachten/loops/herhaal
-        Cola: /opdrachten/loops/cola                      # 3 func, main, if, loop
-        Temperatuur: /opdrachten/loops/temperatuur        # 2 func, main, if, loop, formatting
-        Kalender: /opdrachten/loops/kalender              # misschien het printen beetje scaffolden
-        Populatie: /opdrachten/simulaties/populatie       # 1 func, main, simulatie
-        Sjoelen: /opdrachten/lists/sjoelen           # 2 func, main, simulatie
-    # Oefening:
-    #     Debugging: /oefeningen/debug
-
-Mod 3 Strings:
-    Overzicht: /modules/strings
-    Opdrachten:
-        Alfabet: /opdrachten/strings/alfabet
-        Etenstijd: /opdrachten/strings/etenstijd          # 1 func, main, if, str.split
-        Calculator: /opdrachten/strings/calculator        # 2 func, main, if, str.split
-        Wachtwoord: /opdrachten/strings/wachtwoord        # 4 func, main, if, bool, str
-        RNA: /opdrachten/strings/rna                      # 4 func, main, list-string conversion
-        Leesbaarheid: /opdrachten/strings/leesbaarheid    # 2 func, main, string tellen, find
-        camelCase: /opdrachten/strings/camelcase          # 1 func, main, string constructie
-
-Mod 4 Lists:
-    Overzicht: /modules/lists
     Werkcollege:
-        Functies met lijsten: /opdrachten/lists/list_functions
+        Formules: /werkcollege/formules
+        Installatie: /installatie/pulsar
+    Boek 1:
+        Hoofdstuk 1 t/m 3: /boek/boek1
+    Functies en expressies:
+        Weken: /opdrachten/expressies/weken
+        Water: /opdrachten/expressies/water
+        Binair: /opdrachten/expressies/binair
+        Cafeine: /opdrachten/expressies/cafeine
+        Vakantie: /opdrachten/expressies/vakantie
+    Boek 2:
+        Paragraaf 4.1-4.3: /boek/boek2
+    Conditionals:
+        Acid test: /opdrachten/conditionals/acid
+        Schrikkel: /opdrachten/conditionals/schrikkel
+        Orakel: /opdrachten/conditionals/orakel
+        Byte: /opdrachten/conditionals/byte
+        Rechthoeken: /opdrachten/conditionals/rechthoeken
+    Challenge:
+        Kalender: /opdrachten/challenges/kalender
+
+# Loops
+# (Kalender is weg)
+Week 2:
+    Overzicht: /modules/herhaling
+    Boek 4.4-4.7: /boek/boek3
+    Werkcollege:
+        Loops: /werkcollege/loops
+    While-loops:
+        Cola: /opdrachten/loops/cola
+        Greedy: /opdrachten/loops/greedy
+        Raadspel: /opdrachten/oud/raadspel
+        Populatie: /opdrachten/simulaties/populatie
+    For-loops:
+        Piramide: /opdrachten/loops/piramide
+        Temperatuur: /opdrachten/loops/temperatuur
+    Challenge:
+        Priemgetallen: /opdrachten/challenges/priemgetallen
+
+# String-analyse
+# idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
+Week 3:
+    Overzicht: /modules/strings
+    Boek hst 5 en 6: /boek/boek4
+    #    Debugging: /opdrachten/oud/debug
+    Werkcollege:
+        String-analyse: /werkcollege/strings
+    Voortgezet:
+        Alfabet: /opdrachten/strings/alfabet
+        Etenstijd: /opdrachten/strings/etenstijd
+        Calculator: /opdrachten/strings/calculator
+        Wachtwoord: /opdrachten/strings/wachtwoord
+        Leesbaarheid: /opdrachten/strings/leesbaarheid
+    Challenge:
+        Wachtwoord-generator: /opdrachten/challenges/pwdgen
+
+# String-transformatie
+Week 4:
+    Overzicht: /modules/stringtrans
+    Werkcollege:
+        String-transformatie: /werkcollege/transformatie
     Opdrachten:
-        Scrabble: /opdrachten/lists/scrabble              # 1 func, main, loop, if, str
+        Yell: /opdrachten/strings/yell
+        Remove vowels: /opdrachten/strings/vwl
+        Shout: /opdrachten/strings/shout
+        camelCase: /opdrachten/strings/camelcase
+        RNA: /opdrachten/strings/rna
+        ROT13: /opdrachten/strings/rot13
+    Challenge:
+        Monopoly: /opdrachten/challenges/monopoly
+
+# Lots of lists
+Week 5:
+    Overzicht: /modules/lists
+    Boek 7.1-7.3: /boek/boek5
+    Werkcollege:
+        Lots of Lists: /werkcollege/lists
+    Oefeningen:
+        Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
+        Flatten: /opdrachten/lists/flatten #(flatten single level)
+        Rotate: /opdrachten/lists/rotate #(rotating shift)
+        Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
+        Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
+        Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
+        Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
+        # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
+        # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
+    Challenge:
+        Compress: /opdrachten/challenges/compress #(RLE)
+
+# Algoritmen
+Week 6:
+    Overzicht: /modules/algoritmen
+    Werkcollege:
+        Algoritmen: /werkcollege/algoritmen
+    Opdrachten:
+        # search?
+        Scrabble: /opdrachten/lists/scrabble # 1 func, main, loop, if, str
         Selection sort: /opdrachten/lists/selection
         Special sort: /opdrachten/lists/special
+        Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
         Schuifpuzzel: /opdrachten/lists/schuifpuzzel
-    Project:
-        Virus: /opdrachten/lists/virus              # 7 func, main, simulatie, comprehensions
+    Challenge:
+        Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
-Mod 5 Collections:
-    Overzicht: /modules/collections
+# Oefententamen
+Week 7:
+    Werkcollege:
+        Oefententamen: /werkcollege/wc4her
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Collections intro
+Week 9:
+    Overzicht en beoordeling: /modules/collections
+    Werkcollege:
+        Collections: /werkcollege/collections
     Opdrachten:
-        Collections: /opdrachten/collections/collection_functions
+        # TODO meer oefeningen
+        # Collections: /opdrachten/collections/collection_functions
         # Algorithms: /opdrachten/week5/algorithms
+
+
+Week 10:
+    Opdrachten:
         Bestanden lezen: /opdrachten/data/io
         Indexer: /opdrachten/collections/indexer
         Big-O: /opdrachten/collections/big-o
+        Preprocessing: /opdrachten/data/eca2csv # deze gaat weg
     Project:
-        Preprocessing: /opdrachten/data/eca2csv          # deze gaat weg
         Klimaat: /opdrachten/data/klimaat
 
-Mod 6 Classes:
-    Overzicht: /modules/classes
-    Theorie:
-        Videocollege: /opdrachten/classes/lecture
+# Classes intro
+Week 11:
+    Overzicht en beoordeling: /modules/classes
+    Videocollege: /opdrachten/classes/lecture
+    Werkcollege:
+        # Collections: /werkcollege/collections
+        Queue: /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     Opdrachten:
-        Queue: /opdrachten/classes/queue                  # basic datastructuur, encapsulation, init
-        Cards: /opdrachten/classes/cards                  # UML, data class, container
+        Cards: /opdrachten/classes/cards # UML, data class, container
         Country: /opdrachten/classes/country
+        Phonebook: /opdrachten/classes/phonebook
+        Point: /opdrachten/classes/point
+        Inventory: /opdrachten/classes/inventory
+        RGB: /opdrachten/classes/rgb
+        Browser History: /opdrachten/classes/browser # add("http://..."), prev(), next(), get()
         Lines: /opdrachten/classes/lines
-        Hangman: /opdrachten/classes/hangman              # separation of concerns (lexicon/game)
+        Vocabulary: /opdrachten/classes/vocabulary # add words, get random (increments # practiced, influences chance?)
+        Time: /opdrachten/classes/time
+
+# Programs with classes
+Week 12:
+    Opdrachten:
+        # Lisp: /opdrachten/classes/lisp
+        # Figuren: /opdrachten/classes/figuren
         # Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
         # let op: lisp, figuren zijn geschrapt
     Project:
-        Adventure [tbd]: ''
+        War: /opdrachten/classes/war
+        # Memory model: /opdrachten/week5/memory_model
+        # Cijfers: /opdrachten/week5/cijfers
+
+# Complexe strucuren, of big-O of wat anders
+Week 13:
+    Overzicht en beoordeling: /modules/classes
+    Videocollege: /opdrachten/classes/lecture
+    Werkcollege:
+        # Collections: /werkcollege/collections
+
+# Adventure
+Week 14:
+    Opdrachten:
+        Figuren: /opdrachten/classes/figuren
+    Project:
+        Adventure: /adventure/more
+
+# Oefententamen
+Week 15:
+    Werkcollege:
+        Oefententamen: /werkcollege/wc4her

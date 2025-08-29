@@ -14,7 +14,7 @@ Een groep bestaat uit ongeveer 30 studenten. De docenten zijn aanwezig bij hun e
 
 ## Wat ga je leren
 
-Je werkt eerst aan de onderstaande onderwerpen om je voor te bereiden op het tentamen in week 8. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
+Je werkt eerst aan de onderstaande onderwerpen om je voor te bereiden op de tussentoets in week 8. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
 
 Programmeren, variabelen en beslissingen
 : Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden. Je leert over functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
