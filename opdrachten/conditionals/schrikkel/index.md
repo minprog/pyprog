@@ -8,7 +8,9 @@ Schrijf een functie die bepaalt of een bepaald jaartal een schrikkeljaar is. Sch
 
 ## Hint
 
-Baseer het ontwerp van je programma op `Acid test`.
+Baseer het ontwerp van je programma op *Acid test*.
+
+Submit je programma om te achterhalen of het precies voldoet aan wat wij dachten. De output (dus het printen) is net een beetje anders dan bij *Acid test*. Kies een output en check dan de resultaten van de submit om te zien hoe wij het graag willen.
 
 ## Zelf testen
 
