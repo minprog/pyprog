@@ -1,3 +1,7 @@
+_config:
+    start_date: 1/9/25
+    end_date: 19/12/25
+
 # This is a separate section containing a few templates that we will use below.
 # The & feature is built into YAML, it is not a special feature of the website.
 # The section does not need to be called `templates` necessarily.
