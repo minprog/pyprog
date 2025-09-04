@@ -93,36 +93,9 @@ Het is heel belangrijk dat als je ziek bent op een normale werkdag, je niet je I
 
 Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de docent. Stuur maar een [mailtje](mailto:m.stegeman@uva.nl)!
 
-## Beoordeling tentamen
+## Beoordeling tussentoets
 
-Je moet minimaal 3 van de 5 opgaven succesvol oplossen voor een voldoende. Hierbij is de minimumeis dat de opgave geheel opgelost is en voor minimaal 3 verschillende gevallen een test is toegevoegd aan elke te schrijven functie. De voldoende telt dan mee als een "10" voor 50% van het eindcijfer.
-
-## Beoordeling modules 4, 5 en 6
-
-Voor het maken van het grootste deel van de opgaven uit elke module kun je punten verdienen:
-
-- Module 4 normaal (5p)
-    - Scrabble
-    - Selection sort
-    - Special sort
-    - Schuifpuzzel
-- Module 4 project (3p)
-    - Virus-simulatie
-- Module 5 normaal (5p)
-    - Indexer
-    - Big-O
-- Module 5 project (3p)
-    - Klimaatdata
-- Module 6 normaal (5p)
-    - Queue
-    - Cards
-    - Country
-    - Lines
-    - Hangman
-- Module 6 project (3p)
-    - Adventure
-
-Het totaal is 24 punten. Er worden geen deelpunten gegeven. Het toegekende aantal punten telt als fractie van een "10" voor 50% van het eindcijfer.
+Je moet minimaal 3 van de 4 opgaven succesvol oplossen voor een voldoende. Hierbij is de minimumeis dat de opgave geheel opgelost is en voor minimaal 5 verschillende gevallen een test is toegevoegd aan elke te schrijven functie. De voldoende telt dan mee als een "10" voor 50% van het eindcijfer.
 
 ## Samenwerken
 
