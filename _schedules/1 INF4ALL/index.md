@@ -75,7 +75,7 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 Dit is een overzicht van de deadlines per module:
 
 |                | deadline huiswerk |
-| -------------- | ----------------- |
+| -------------- | ----------------: |
 | Module 1 + 2   | do 19 sep 17:00   |
 | Module 3 + 4   | do 3 okt 17:00    |
 | Module 5 + 6   | do 17 okt 17:00   |
@@ -83,7 +83,7 @@ Dit is een overzicht van de deadlines per module:
 | Module 9 + 10  | do 27 nov 17:00   |
 | Module 11 + 12 | do 12 dec 17:00   |
 
-De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. De code review doe je tijdens de bijeenkomst in Utrecht, en je levert je aanpassingen en verslag in het weekend erna in. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
+De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Tijdens de bijeenkomst in Utrecht doen we code reviews, waarin uitwerkingen worden vergeleken.
 
 ### Ziekte en inhalen
 
