@@ -2,7 +2,7 @@ Welkom:
     Lees de studiewijzer alvast even door: /syllabus
 
 # Basic form
-Week 1:
+Module 1:
     Overzicht: /modules/programmeren
     Werkcollege:
         Formules: /werkcollege/formules
@@ -28,7 +28,7 @@ Week 1:
 
 # Loops
 # (Kalender is weg)
-Week 2:
+Module 2:
     Overzicht: /modules/herhaling
     Boek 4.4-4.7: /boek/boek3
     Werkcollege:
@@ -46,7 +46,7 @@ Week 2:
 
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
-Week 3:
+Module 3:
     Overzicht: /modules/strings
     Boek hst 5 en 6: /boek/boek4
     #    Debugging: /opdrachten/oud/debug
@@ -62,7 +62,7 @@ Week 3:
         Wachtwoord-generator: /opdrachten/challenges/pwdgen
 
 # String-transformatie
-Week 4:
+Module 4:
     Overzicht: /modules/stringtrans
     Werkcollege:
         String-transformatie: /werkcollege/transformatie
@@ -77,7 +77,7 @@ Week 4:
         Monopoly: /opdrachten/challenges/monopoly
 
 # Lots of lists
-Week 5:
+Module 5:
     Overzicht: /modules/lists
     Boek 7.1-7.3: /boek/boek5
     Werkcollege:
@@ -96,7 +96,7 @@ Week 5:
         Compress: /opdrachten/challenges/compress #(RLE)
 
 # Algoritmen
-Week 6:
+Module 6:
     Overzicht: /modules/algoritmen
     Werkcollege:
         Algoritmen: /werkcollege/algoritmen
@@ -111,14 +111,14 @@ Week 6:
         Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
 # Oefententamen
-Week 7:
+Tussentoets:
     Werkcollege:
         Oefententamen: /werkcollege/wc4her
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Collections intro
-Week 9:
+Module 7:
     Overzicht en beoordeling: /modules/collections
     Werkcollege:
         Collections: /werkcollege/collections
@@ -128,7 +128,7 @@ Week 9:
         # Algorithms: /opdrachten/week5/algorithms
 
 
-Week 10:
+Module 8:
     Opdrachten:
         Bestanden lezen: /opdrachten/data/io
         Indexer: /opdrachten/collections/indexer
@@ -138,7 +138,7 @@ Week 10:
         Klimaat: /opdrachten/data/klimaat
 
 # Classes intro
-Week 11:
+Module 9:
     Overzicht en beoordeling: /modules/classes
     Videocollege: /opdrachten/classes/lecture
     Werkcollege:
@@ -157,7 +157,7 @@ Week 11:
         Time: /opdrachten/classes/time
 
 # Programs with classes
-Week 12:
+Module 10:
     Opdrachten:
         # Lisp: /opdrachten/classes/lisp
         # Figuren: /opdrachten/classes/figuren
@@ -169,20 +169,20 @@ Week 12:
         # Cijfers: /opdrachten/week5/cijfers
 
 # Complexe strucuren, of big-O of wat anders
-Week 13:
+Module 11:
     Overzicht en beoordeling: /modules/classes
     Videocollege: /opdrachten/classes/lecture
     Werkcollege:
         # Collections: /werkcollege/collections
 
 # Adventure
-Week 14:
+Module 12:
     Opdrachten:
         Figuren: /opdrachten/classes/figuren
     Project:
         Adventure: /adventure/more
 
 # Oefententamen
-Week 15:
+Tentamen:
     Werkcollege:
         Oefententamen: /werkcollege/wc4her

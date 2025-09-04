@@ -74,14 +74,14 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 Dit is een overzicht van de deadlines per module:
 
-|          | deadline huiswerk |
-|----------|-------------------|
-| Module 1 | do 19 sep  17:00  |
-| Module 2 | do  3 okt  17:00  |
-| Module 3 | do 17 okt  17:00  |
-| Module 4 | do 31 okt  17:00  |
-| Module 5 | do 27 nov  17:00  |
-| Module 6 | do 12 dec  17:00  |
+|                | deadline huiswerk |
+| -------------- | ----------------- |
+| Module 1 + 2   | do 19 sep 17:00   |
+| Module 3 + 4   | do 3 okt 17:00    |
+| Module 5 + 6   | do 17 okt 17:00   |
+| Module 7 + 8   | do 31 okt 17:00   |
+| Module 9 + 10  | do 27 nov 17:00   |
+| Module 11 + 12 | do 12 dec 17:00   |
 
 De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. De code review doe je tijdens de bijeenkomst in Utrecht, en je levert je aanpassingen en verslag in het weekend erna in. Mocht je ziek zijn bij het moment voor code review dan moet je een mail sturen voor een alternatieve afspraak. Ga in ieder geval niet zelf een code review organiseren.
 
@@ -136,58 +136,57 @@ Waar de grens **onduidelijk** is vragen we je om "redelijk" te handelen. Hierond
 
 <details markdown="1"><summary markdown="span">Voorbeelden van **redelijke** acties</summary>
 
-* Praten met medestudenten over de opdrachten in het Nederlands (of een andere natuurlijke taal).
+- Praten met medestudenten over de opdrachten in het Nederlands (of een andere natuurlijke taal).
 
-* Het cursusmateriaal bespreken met anderen om het beter te begrijpen.
+- Het cursusmateriaal bespreken met anderen om het beter te begrijpen.
 
-* Een medestudent helpen bij het debuggen tijdens een laptopcollege of daarbuiten, of zelfs online, door het bekijken, compileren of draaien van zijn of haar code, zelfs op je eigen computer.
+- Een medestudent helpen bij het debuggen tijdens een laptopcollege of daarbuiten, of zelfs online, door het bekijken, compileren of draaien van zijn of haar code, zelfs op je eigen computer.
 
-* Het in je uitwerking opnemen van een paar regels code die je online of ergens anders vindt, gegeven dat deze regels niet de essentie van de opdracht vormen en dat je de bron van de code vermeldt.
+- Het in je uitwerking opnemen van een paar regels code die je online of ergens anders vindt, gegeven dat deze regels niet de essentie van de opdracht vormen en dat je de bron van de code vermeldt.
 
-* Het inzien van tentamens van voorgaande jaren en oplossingen daarvan.
+- Het inzien van tentamens van voorgaande jaren en oplossingen daarvan.
 
-* Code die jij hebt geschreven versturen of laten zien aan iemand anders, wellicht een medestudent, zodat deze jou kan helpen bij het debuggen.
+- Code die jij hebt geschreven versturen of laten zien aan iemand anders, wellicht een medestudent, zodat deze jou kan helpen bij het debuggen.
 
-* Het online delen van een paar regels van jouw code zodat anderen wellicht kunnen helpen met debuggen.
+- Het online delen van een paar regels van jouw code zodat anderen wellicht kunnen helpen met debuggen.
 
-* Een aan het vak verbonden assistent om hulp vragen.
+- Een aan het vak verbonden assistent om hulp vragen.
 
-* Naar het internet gaan voor tutorials buiten het vak, voor referenties, en voor oplossingen bij technische problemen, maar niet voor gehele oplossingen voor (de essentie van) opdrachten.
+- Naar het internet gaan voor tutorials buiten het vak, voor referenties, en voor oplossingen bij technische problemen, maar niet voor gehele oplossingen voor (de essentie van) opdrachten.
 
-* Het uittekenen of uitwerken van oplossingen op een whiteboard door middel van diagrammen of pseudocode, maar niet "echte" code.
+- Het uittekenen of uitwerken van oplossingen op een whiteboard door middel van diagrammen of pseudocode, maar niet "echte" code.
 
-* Werken met (en zelfs betalen voor) een tutor om je te helpen met het vak, gegeven dat de tutor niet het werk voor je doet.
+- Werken met (en zelfs betalen voor) een tutor om je te helpen met het vak, gegeven dat de tutor niet het werk voor je doet.
 </details>
 
 <details markdown="1"><summary markdown="span">Voorbeelden van **onredelijke** acties</summary>
 
-* Een oplossing van een opdracht inzien voordat je jouw opdracht hebt ingeleverd.
+- Een oplossing van een opdracht inzien voordat je jouw opdracht hebt ingeleverd.
 
-* Een medestudent vragen om hun oplossing, voordat je jouw opdracht hebt ingeleverd.
+- Een medestudent vragen om hun oplossing, voordat je jouw opdracht hebt ingeleverd.
 
-* Het decompileren, deobfusceren, of op andere manier achterhalen van een "staff" oplossing van een opdracht.
+- Het decompileren, deobfusceren, of op andere manier achterhalen van een "staff" oplossing van een opdracht.
 
-* Vergeten de bron te citeren van code of technieken die je hebt opgenomen van buiten de lessen van dit vak, en hebt geïntegreerd in je eigen werk, zelfs als je wel de andere restricties aanhoudt.
+- Vergeten de bron te citeren van code of technieken die je hebt opgenomen van buiten de lessen van dit vak, en hebt geïntegreerd in je eigen werk, zelfs als je wel de andere restricties aanhoudt.
 
-* Het aan een medestudent geven of laten zien van een oplossing voor een opdracht waar hij of zij (dus niet jij) moeite mee heeft.
+- Het aan een medestudent geven of laten zien van een oplossing voor een opdracht waar hij of zij (dus niet jij) moeite mee heeft.
 
-* Betalen, of het aanbieden om te betalen, voor het recht om werk van een ander als onderdeel van jouw eigen werk in te leveren.
+- Betalen, of het aanbieden om te betalen, voor het recht om werk van een ander als onderdeel van jouw eigen werk in te leveren.
 
-* Het beschikbaar stellen van oplossingen voor opdrachten van dit vak aan anderen die dit vak in de toekomst wellicht gaan volgen.
+- Het beschikbaar stellen van oplossingen voor opdrachten van dit vak aan anderen die dit vak in de toekomst wellicht gaan volgen.
 
-* Het opzoeken van complete oplossingen voor opdrachten online of ergens anders.
+- Het opzoeken van complete oplossingen voor opdrachten online of ergens anders.
 
-* Werk van een opdracht opsplitsen met een ander.
+- Werk van een opdracht opsplitsen met een ander.
 
-* Werk van een ander, behalve een paar regels zoals eerder omschreven, inleveren.
+- Werk van een ander, behalve een paar regels zoals eerder omschreven, inleveren.
 
-* Hetzelfde of bijna hetzelfde werk inleveren bij dit vak dat je hebt ingeleverd of gaat inleveren bij een ander vak.
+- Hetzelfde of bijna hetzelfde werk inleveren bij dit vak dat je hebt ingeleverd of gaat inleveren bij een ander vak.
 
-* Het inleveren van werk voor dit vak, waarbij je intentie is om dit ook ergens anders voor in te zetten (zeg voor een baan), zonder daar eerst toestemming voor te hebben gekregen van een docent.
+- Het inleveren van werk voor dit vak, waarbij je intentie is om dit ook ergens anders voor in te zetten (zeg voor een baan), zonder daar eerst toestemming voor te hebben gekregen van een docent.
 
-* Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
+- Naar de oplossing voor een opdracht van iemand anders kijken, en vervolgens jouw oplossing daarop baseren.
 </details>
-
 
 ## Plagiaat
 
