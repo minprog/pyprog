@@ -1,8 +1,0 @@
-name: byte
-files:
-    required:
-        - byte.py
-check:
-    tool: checkpy
-    repo: minprog/python
-    args: byte
