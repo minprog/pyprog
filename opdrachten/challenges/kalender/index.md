@@ -114,7 +114,29 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
             print(3, end="")
             print()
 
-*   Net als in Temperatuurtabellen kun je f-strings gebruiken om netjes te printen.
+*   Voor het uitlijnen van de getallen zijn er verschillende technieken. Moderne Python-programma's maken gebruik van f-strings. Hiermee kun je expressies in een string opnemen:
+
+        f"Hierbij de som van 1 en 1: {1+1}"
+
+    Elke expressie tussen accolades `{}` wordt geëvalueerd bij het maken van de string. Bovenstaande string is dus in dit geval gelijk aan:
+
+        "Hierbij de som van 1 en 1: 2"
+
+    Je kunt elke expressie opnemen, dus ook een expressie met variabelen erin:
+
+        >>> credits = 10.5
+        >>> print(f"Your credits are {credits}")
+        Your credits are 10.5
+
+    En tot slot kun je de waarde *formatten* (vandaar de naam f-string):
+
+        >>> letter = 'a'
+        >>> f"{letter:10}"
+        'a         '
+        >>> f"{letter:>10}"
+        '         a'
+
+    Bestudeer goed dit laatste voorbeeld want het gaat je helpen de tabel mooi uit te printen, exact volgens de voorbeelden hieronder!
 
 *   De header heeft altijd dezelfde breedte, en je mag deze gerust hardcoden.
 
