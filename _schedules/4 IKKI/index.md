@@ -41,9 +41,7 @@ Programmeren leer je door veel te oefenen. Je moet het bijbehorende boek lezen o
 
 2. Meedoen met oefeningen tijdens werkcolleges en insturen via de website (10% van eindcijfer). Het gaat hier om een combinatie van code reviews, oefenopdrachten en toetsjes. Aangezien de aanwezigheid verplicht is zul je een groot deel van dit cijfer binnenhalen. Mocht je onverhoopt afwezig zijn dan is er geen inhaalmogelijkheid.
 
-3. Beoordeling code review (20% van eindcijfer). Drie keer is er een programma dat je nog eens uitgebreid gaat nalopen met een medestudent en opnieuw inleveren. Dit programma wordt dan nagekeken op inhoudelijke kwaliteit. Op basis van de derde review krijg je een cijfer voor dit onderdeel van het vak.
-
-4. Beoordeling tentamen (70% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
+4. Beoordeling tentamen (90% van eindcijfer). Bij het tentamen ga je ook weer programma's schrijven, maar zonder gebruik van internet of voorbeelden. Daarnaast wordt beoordeeld in hoeverre je gebruik hebt gemaakt van de technieken die je bij dit vak kunt leren. Je moet minimaal een voldoende halen om het vak af te kunnen ronden. 
 
 
 ## Deadlines
@@ -56,7 +54,7 @@ Dit is een overzicht van de standaard-deadlines per week:
 | Module   3/4 | vr 10 nov  17:00  | -                          |
 | Module   5/6 | vr 17 nov  17:00  | wo 29 nov 19:00 (week 5)   |
 | Module   7/8 | vr 24 nov  17:00  | -                          |
-| Module  9/10 | vr  1 dec  17:00  | wo 13 dec 19:00 (week 7)   |
+| Module  9/10 | vr  1 dec  17:00  | -                          |
 | Module 11/12 | vr  8 dec  17:00  | -                          |
 | Module 13/14 | vr 15 dec  17:00  | -                          |
 
@@ -76,7 +74,6 @@ Dit is een overzicht van de oefeningen tijdens werkcolleges. Je moet het betreff
 |   4  | 21/22 november | Tentamen-oefening 1  |
 |   5  | 28/29 november | Code review 2        |
 |   6  |   5/6 december | Tentamen-oefening 2  |
-|   7  | 12/13 december | Code review 3        |
 
 Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
@@ -104,36 +101,11 @@ Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent
 Voor dit vak is aanwezigheid verplicht bij de werkcolleges en laptopcolleges waar jij bent ingedeeld. Als je *meer dan een week voorloopt*, ga dan in overleg met je groepsdocent voor het aanvragen van een uitzondering. Blijf je zonder overleg weg, dan loop je uiteindelijk het risico dat je het vak daardoor niet meer kunt halen. Uitzonderingen worden *niet* kort vooraf gegeven. Stuur dus nooit een mail om te vragen of je morgen niet hoeft te komen, dat heeft geen zin.
 
 
-## Beoordeling code review
-
-Er zijn drie code reviews tijdens het vak.
-
-**Review 1**
-
-- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
-- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
-- Voor je uitwerking, samen met het verslag, krijg je dan een indicatie voor een cijfer. Je krijgt er ook feedback bij voor de volgende review.
-
-**Review 2**
-
-- Je neemt je uitwerking van een bepaalde opdracht en je gaat deze alvast verbeteren op basis van wat je eerder geleerd hebt en je feedback van de eerste review.
-- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
-- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
-- Voor je uitwerking, samen met het verslag, krijg je dan een indicatie voor een cijfer. Je krijgt er ook feedback bij voor de volgende review.
-
-**Review 3**
-
-- Je neemt je uitwerking van een bepaalde opdracht en je gaat deze alvast verbeteren op basis van wat je eerder geleerd hebt en je feedback van de eerste review.
-- In de les ga je samen met een andere student je uitwerkingen van een opdracht vergelijken en elkaar feedback geven.
-- Na de review ga je jouw uitwerking verbeteren en daarna opnieuw inleveren. Daarbij beschrijf je welke veranderingen je hebt gedaan, en waarom.
-- Deze derde keer krijg je een **definitief cijfer** voor de verbeterde uitwerking en een aantal feedbackpunten die je voor de toekomst kunt gebruiken bij het programmeren.
-
-Voor de eerste twee reviews is geen inhaalmogelijkheid: de review moet op tijd worden ingeleverd zodat de groepsassistent op tijd kan nakijken. Voor de derde review wordt in de tentamenweek een inhaalmogelijkheid georganiseerd. Deze kan alleen bij hoge nood en in overleg gebruikt worden.
-
-
 ## Beoordeling tentamen
 
-Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm van het tentamen doe je een oefententamen tijdens de werkcolleges.
+Tijdens het tentamen ga je aan de slag met een selectie van programmeervraagstukken. Aan jou de taak om deze te analyseren en een mooie oplossing te schrijven. Je krijgt hiervoor een computer ter beschikking en de mogelijkheid om je zelfgeschreven code uit te testen.
+
+De kennis en ervaring die je nodig hebt om dit te doen bouw je op tijdens het maken van de verschillende opdrachten in de cursus. Om te wennen aan de vorm van het tentamen doe je een oefententamen tijdens de werkcolleges.
 
 De onderwerpen binnen het tentamen tellen ongeveer als volgt:
 
@@ -143,11 +115,13 @@ De onderwerpen binnen het tentamen tellen ongeveer als volgt:
 - Objects en classes (module 11 t/m 13): 20%
 - Data processing (module 14): 10%
 
-Je krijgt punten per opgave en het percentage punten dat je haalt wordt omgerekend naar een cijfer.
+Je krijgt punten per opgave en het percentage punten dat je haalt wordt omgerekend naar een cijfer. De eisen per opgave:
+
+- de uitwerking is een redelijke oplossing van de opgave
+- er zijn 3 of meer extra doctests toegevoegd om te laten zien dat de code werkt
+- de code is waar nodig voorzien van types, zodanig dat de typecheck-tool tevreden is
 
 Om het vak te kunnen halen moet je het tentamen of hertentamen voldoende maken. Als je hertentamen doet zal het cijfer daarvan het eerdere cijfer vervangen (laatste cijfer telt).
-
-(Het tentamen zal in principe op de computer zijn, maar we moeten nog een aantal dingen regelen om dit mogelijk te maken. Als dit absoluut niet lukt wordt het een papieren tentamen.)
 
 
 ## Boek
