@@ -213,6 +213,7 @@ week_1:
     small_block_overview: true
     deadline: 7/9/25 17:00
     submits:
+        boek1: 1
         weken: 1
         water: 1
         binair: 1
@@ -231,6 +232,7 @@ week_2:
     small_block_overview: true
     deadline: 12/9/25 17:00
     submits:
+        boek3: 1
         cola: 1
         greedy: 1
         raadspel: 1
