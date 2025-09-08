@@ -70,7 +70,7 @@ templates:
 
 grades:
     # module 1
-    boek1: *manual
+    boek1: *check
 
     weken: *automatic
     water: *automatic
@@ -87,7 +87,7 @@ grades:
     kalender: *automatic
 
     # module 2
-    boek3: *manual
+    boek3: *check
 
     cola: *automatic
     greedy: *automatic
