@@ -4,22 +4,11 @@ Dit is het overzicht voor week 2 van de 16-weekse cursus Programmeren in Python.
 
 ## Onderwerpen
 
-Loops.
+- Verschillende manieren om loops te gebruiken in Python.
+- Iets meer problem solving met complexere aspecten.
+- Nog steeds veel doctests schrijven en de types goed zetten.
 
-## Werkcollege en laptopcollege
-
-Maandag 9 september is het werkcollege, de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
-
-- Achterhalen en precies maken van formules
-- Formules opschrijven op zo'n manier dat Python het begrijpt
-- Schrijven van kleine functies op basis van de formules
-- Installeren van Python en een editor op je computer
-
-Later in de week is er ook een laptopcollege. Deze bijeenkomst is verplicht, net als het werkcollege. Tijdens het laptopcollege ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk.
-
-## Studiematerialen en huiswerk
-
-Tijdens het werkcollege en het laptopcollege ga je al veel tijd besteden aan oefenen. Daarnaast ga je deze week flink wat tijd steken in het boek, om de theorie goed te begrijpen. En er zijn diverse programmeeropdrachten om te oefenen met "problem solving".
+Ervaren studenten gaan snel door de basisopdrachten en doen dan de challenge, die gaat over priemgetallen. Deze opdracht is er voor de uitdaging en is niet direct nodig als oefening voor het tentamen.
 
 ## Inleveren
 
@@ -33,8 +22,8 @@ Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
 ## Deadline
 
-De bedoeling is dat je deze week in totaal zo'n 20 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag 15 september om 17:00 uur. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
+De bedoeling is dat je deze week in totaal zo'n 20 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
 
 ## Beoordeling
 
-Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk getoetst tijdens het tentamen in week 8 van de cursus. Alles staat dus in het teken van oefenen voor dit tentamen.
+Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk gecheckt bij de tussentoets halverwege de cursus. Alles staat dus in het teken van oefenen voor deze toets.
