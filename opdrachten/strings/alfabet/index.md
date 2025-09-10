@@ -16,7 +16,7 @@ Schrijf een programma `alfabet.py` dat van twee woorden bepaalt welke eerder in 
 
     - Je mag dus niet eerst de hele strings lowercase maken of de hele strings vergelijken.
 
-- Print in `compare()` is niet toegestaan.
+- Gebruik van `print` in `compare()` is niet toegestaan.
 
 ## Code
 
@@ -24,7 +24,7 @@ Ontwerp je code zoals hieronder beschreven. Schrijf de docstring, doctests en he
 
     def compare(word1: str, word2: str) -> int:
         """
-        
+
         """
 
     if __name__ == '__main__':

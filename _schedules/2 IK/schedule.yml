@@ -52,6 +52,9 @@ Week 3:
     #    Debugging: /opdrachten/oud/debug
     Werkcollege:
         String-analyse: /werkcollege/strings
+    Oefeningen:
+        Analyse: /opdrachten/strings/analyse
+
     Voortgezet:
         Alfabet: /opdrachten/strings/alfabet
         Etenstijd: /opdrachten/strings/etenstijd
