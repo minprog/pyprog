@@ -2,7 +2,7 @@
 
 Voor het eerst ga je nu werken met een soort variabele waarin meerdere onderdelen bij elkaar staan (een "sequence"). Een **string** is namelijk een rijtje "tekens". Meestal letters of cijfers, maar er kunnen ook andere tekens voorkomen in strings.
 
-De insteek van deze module is dat je heel veel gaat oefenen met het schrijven van loops om strings te analyseren, bijvoorbeeld de vraag: staat er een letter `a` in de string? En je gaat loops schrijven om strings samen te stellen.
+De insteek van deze module is dat je heel veel gaat oefenen met het schrijven van loops om strings te analyseren, bijvoorbeeld de vraag: staat er een letter `a` in de string?
 
 Strings zullen heel belangrijk zijn op het tentamen, omdat we met strings goede opgaven kunnen geven met loops en variabelen, zodat we je basisvaardigheid met die dingen kunnen toetsen.
 
@@ -14,30 +14,7 @@ Strings zullen heel belangrijk zijn op het tentamen, omdat we met strings goede 
 
 ## Werkcollege
 
-Tijdens het werkcollege gaan we heel veel kleinere string-functies schrijven. Eerst ontwikkelen op papier (``pseudocode''), daarna aan de slag in Python. Als je aanwezig bent, goed werkt aan de ontwikkeling van de functies, en ze daarna grotendeels implementeert in de tentamen-editor, krijg je een punt voor het werkcollege.
-
-## Studiematerialen
-
-### Basisopdrachten
-
-Deze opdrachten bouwen sterk voort op de functies uit het werkcollege.
-
-| Opdracht         | Onderwerp                                                     |
-| ---------------- | ------------------------------------------------------------- |
-| **camelCase**    | Construeren van strings                                       |
-| **RNA**          | Input, output, herhaling met strings                          |
-
-### Voortgezette opdrachten
-
-Dit zijn wat grotere problemen, hoewel niet allemaal met hele lange oplossingen. Puzzelen met wat er van je gevraagd wordt is wat hier tijd kost.
-
-| Opdracht         | Onderwerp                                                     |
-| ---------------- | ------------------------------------------------------------- |
-| **Alfabet**      | Strings analyseren en beslissingen nemen                      |
-| **Etenstijd**    | Strings analyseren en beslissingen nemen                      |
-| **Calculator**   | Strings analyseren, beslissingen nemen en meerdere functies   |
-| **Wachtwoord**   | Combinaties van beslissingen in meerdere functies             |
-| **Leesbaarheid** | Analyseren van strings met herhaling                          |
+Tijdens het werkcollege gaan we een aantal kleine string-functies schrijven. Eerst ontwikkelen op papier (``pseudocode''), daarna aan de slag in Python. Als je aanwezig bent, goed werkt aan de ontwikkeling van de functies, en ze daarna grotendeels implementeert in de tentamen-editor, krijg je een punt voor het werkcollege.
 
 ## Inleveren
 
