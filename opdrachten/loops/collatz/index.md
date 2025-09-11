@@ -4,9 +4,9 @@ In deze opdracht schrijf je een Python-module met daarin twee functies. Een `mai
 
 ## De Collatz-reeks
 
-Een Collatz-reeks begint bij een getal $n$ en eindigt altijd bij $1$. De progressie vormt zich als volgt:
+Een Collatz-reeks begint bij een getal $$n$$ en eindigt altijd bij $$1$$. De progressie vormt zich als volgt:
 
-- Als getal $n$ even is (dus deelbaar door 2) dan wordt het door twee gedeeld en dat is het volgende getal.
+- Als getal $$n$$ even is (dus deelbaar door 2) dan wordt het door twee gedeeld en dat is het volgende getal.
 - Als het getal oneven is dan vermenigvuldig je het met 3 en telt er 1 bij op.
 
 Een voorbeeld: 3 wordt 10 wordt 5 wordt 16 wordt 8 wordt 4 wordt 2 wordt 1.
