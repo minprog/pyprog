@@ -227,21 +227,24 @@ week_1:
         kalender: 1
 
 week_2:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 14/9/25 17:00
     submits:
         boek3: 1
+
         collatz: 1
         schrikkel_functies: 1
         int_input: 1
+
         cola: 1
         greedy: 1
         raadspel: 1
         populatie: 1
         piramide: 1
         temperatuur: 1
+
         priemgetallen: 1
 
 week_3:
