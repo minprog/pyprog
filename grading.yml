@@ -89,6 +89,10 @@ grades:
     # module 2
     boek3: *check
 
+    collatz: *automatic
+    schrikkel_functies: *automatic
+    int_input: *automatic
+
     cola: *automatic
     greedy: *automatic
     raadspel: *automatic

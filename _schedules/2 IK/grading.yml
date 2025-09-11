@@ -233,6 +233,9 @@ week_2:
     deadline: 12/9/25 17:00
     submits:
         boek3: 1
+        collatz: 1
+        schrikkel_functies: 1
+        int_input: 1
         cola: 1
         greedy: 1
         raadspel: 1
