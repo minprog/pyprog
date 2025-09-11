@@ -183,7 +183,8 @@ grades:
 # You can leave these out if unused in the `calculation` section.
 
 werkcolleges:
-    show_progress: true
+    # show_progress: true
+    show_overview: true
     type: points
     submits:
         werkcollege_1: 1
