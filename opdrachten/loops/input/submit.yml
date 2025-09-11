@@ -1,0 +1,8 @@
+name: int_input
+files:
+    required:
+        - int_input.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: int_input
