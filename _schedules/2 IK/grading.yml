@@ -230,7 +230,7 @@ week_2:
     show_overview: true
     # show_progress: true
     small_block_overview: true
-    deadline: 12/9/25 17:00
+    deadline: 14/9/25 17:00
     submits:
         boek3: 1
         collatz: 1
