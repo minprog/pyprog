@@ -30,9 +30,9 @@ Week 1:
 # (Kalender is weg)
 Week 2:
     Overzicht: /modules/herhaling
-    Boek 4.4-4.7: /boek/boek3
-    Werkcollege:
-        Loops: /werkcollege/loops
+    Theorie:
+        Boek 4.4-4.7: /boek/boek3
+        Werkcollege loops: /werkcollege/loops
     Basis-oefeningen:
         Collatz: /opdrachten/loops/collatz
         Schrikkel: /opdrachten/loops/schrikkel
@@ -52,11 +52,11 @@ Week 2:
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Week 3:
     Overzicht: /modules/strings
-    Boek hst 5 en 6: /boek/boek4
-    #    Debugging: /opdrachten/oud/debug
-    Werkcollege:
-        String-analyse: /werkcollege/strings
-    Oefeningen:
+    Theorie:
+        Boek hst 5 en 6: /boek/boek4
+        Werkcollege string-analyse: /werkcollege/strings
+        #    Debugging: /opdrachten/oud/debug
+    Basis-oefeningen:
         Analyse: /opdrachten/strings/analyse
     Opdrachten:
         Alfabet: /opdrachten/strings/alfabet
