@@ -1,0 +1,8 @@
+name: string-transformatie
+files:
+    required:
+        - transformatie.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: string_transformatie

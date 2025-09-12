@@ -58,6 +58,7 @@ Week 3:
         #    Debugging: /opdrachten/oud/debug
     Basis-oefeningen:
         Analyse: /opdrachten/strings/analyse
+        Verschillen: /opdrachten/strings/verschillen
     Problem solving:
         Alfabet: /opdrachten/strings/alfabet
         Etenstijd: /opdrachten/strings/etenstijd
@@ -72,6 +73,8 @@ Week 4:
     Overzicht: /modules/stringtrans
     Werkcollege:
         String-transformatie: /werkcollege/transformatie
+    Basis-oefeningen:
+        Transformatie: /opdrachten/strings/transformatie
     Opdrachten:
         Yell: /opdrachten/strings/yell
         Remove vowels: /opdrachten/strings/vwl
