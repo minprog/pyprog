@@ -3,16 +3,18 @@
 Implementeer een programma dat een halve piramide uitprint van een door de gebruiker gegeven hoogte.
 
 	Hoe hoog moet de piramide zijn? 5
-	        # #
-	      # # #
-	    # # # #
-	  # # # # #
-	# # # # # #
+	    ##
+	   ###
+	  ####
+	 #####
+	######
 
 	Hoe hoog moet de piramide zijn? 3
-	    # #
-	  # # #
-	# # # #
+	  ##
+	 ###
+	####
+
+> Let op: de opdracht is aangepast. Er staan geen spaties meer tussen de hekjes van de piramide. Als je nu begint gebruik dan bovenstaande voorbeelden.
 
 ## Het idee
 
@@ -22,7 +24,7 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pirami
 
 ## Specificatie
 
-* Gebruik `print('# ', end='')` om een hekje met een spatie te printen in één keer. Je kunt een enkele spatie printen met `print(' ', end='')`. En om naar de volgende regel te gaan gebruik je `print()`.
+* Gebruik `print('#', end='')` om een hekje te printen zonder daarna naar de volgende regel te gaan. Je kunt een enkele spatie printen met `print(' ', end='')`. En om naar de volgende regel te gaan gebruik je `print()`.
 
     * Dit zijn de print-opties die je hebt. Aan jou om te ontwerpen hoe je met loops figuren kunt "tekenen" door dit soort `print()`-statements aan te roepen.
 
