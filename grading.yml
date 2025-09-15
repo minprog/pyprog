@@ -104,8 +104,8 @@ grades:
     priemgetallen: *check
 
     # module 3
-    string_analyse: *automatic
-    string_verschillen: *automatic
+    string-analyse: *automatic
+    string-verschillen: *automatic
 
     alfabet: *automatic
     etenstijd: *automatic
