@@ -7,8 +7,12 @@ buttons:
         doctest.testmod(<filename>, verbose=True)
 files:
     required:
-        strings.py: |
+        string_functions.py: |
             # Schrijf hieronder al je string-functies.
             # Elke functie moet 2 doctests hebben.
             # Let op: gebruik de knop "Run doctest" om je code uit te
             # proberen.
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: string_functions
