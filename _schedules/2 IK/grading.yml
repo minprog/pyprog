@@ -254,11 +254,15 @@ week_3:
     small_block_overview: true
     deadline: 21/9/25 17:00
     submits:
+        string_analyse: 1
+        string_verschillen: 1
+
         alfabet: 1
         etenstijd: 1
         calculator: 1
         wachtwoord: 1
         leesbaarheid: 1
+
         pwdgen: 1
 
 week_4:
