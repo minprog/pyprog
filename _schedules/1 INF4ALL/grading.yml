@@ -178,17 +178,17 @@ grades:
 #
 # You can leave these out if unused in the `calculation` section.
 
-werkcolleges:
-    show_progress: true
-    type: points
-    submits:
-        werkcollege_1: 1
-        werkcollege_2: 1
-        werkcollege_3: 1
-        werkcollege_4: 1
-        werkcollege_5: 1
-        werkcollege_6: 1
-        # werkcollege_7: 1
+# werkcolleges:
+#     show_progress: true
+#     type: points
+#     submits:
+#         werkcollege_1: 1
+#         werkcollege_2: 1
+#         werkcollege_3: 1
+#         werkcollege_4: 1
+#         werkcollege_5: 1
+#         werkcollege_6: 1
+#         # werkcollege_7: 1
 
 # werkbladen:
 #     show_progress: true
@@ -207,8 +207,10 @@ werkcolleges:
 week_1:
     show_progress: true
     small_block_overview: true
-    deadline: 7/9/25 17:00
+    deadline: 18/9/25 17:00
     submits:
+        boek1: 1
+
         weken: 1
         water: 1
         binair: 1
@@ -219,40 +221,52 @@ week_1:
         orakel: 1
         byte: 1
         rechthoeken: 1
+
         kalender: 1
 
 week_2:
     show_overview: true
     # show_progress: true
     small_block_overview: true
-    deadline: 12/9/25 17:00
+    deadline: 18/9/25 17:00
     submits:
+        boek3: 1
+
+        collatz: 1
+        schrikkel_functies: 1
+        int_input: 1
+
         cola: 1
         greedy: 1
         raadspel: 1
         populatie: 1
         piramide: 1
         temperatuur: 1
+
         priemgetallen: 1
 
 week_3:
     show_overview: true
     # show_progress: true
     small_block_overview: true
-    deadline: 21/9/25 17:00
+    deadline: 2/10/25 17:00
     submits:
+        string-analyse: 1
+        string-verschillen: 1
+
         alfabet: 1
         etenstijd: 1
         calculator: 1
         wachtwoord: 1
         leesbaarheid: 1
+
         pwdgen: 1
 
 week_4:
     show_overview: true
     # show_progress: true
     small_block_overview: true
-    deadline: 28/9/25 17:00
+    deadline: 2/10/25 17:00
     submits:
         yell: 1
         remove_vowels: 1
