@@ -215,6 +215,7 @@ week_1:
     deadline: 7/9/25 17:00
     submits:
         boek1: 1
+
         weken: 1
         water: 1
         binair: 1
@@ -225,6 +226,7 @@ week_1:
         orakel: 1
         byte: 1
         rechthoeken: 1
+
         kalender: 1
 
 week_2:
