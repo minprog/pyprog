@@ -33,7 +33,7 @@ Module 2:
     Theorie:
         Boek 4.4-4.7: /boek/boek3
     Basis-oefeningen:
-        Werkcollege loops: /werkcollege/loops
+        # Werkcollege loops: /werkcollege/loops
         Collatz: /opdrachten/loops/collatz
         Schrikkel: /opdrachten/loops/schrikkel
         Input: /opdrachten/loops/input
