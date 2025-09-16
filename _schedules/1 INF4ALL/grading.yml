@@ -225,8 +225,8 @@ week_1:
         kalender: 1
 
 week_2:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 18/9/25 17:00
     submits:
