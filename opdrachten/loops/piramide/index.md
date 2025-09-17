@@ -14,8 +14,6 @@ Implementeer een programma dat een halve piramide uitprint van een door de gebru
 	 ###
 	####
 
-> Let op: de opdracht is aangepast. Er staan geen spaties meer tussen de hekjes van de piramide. Als je nu begint gebruik dan bovenstaande voorbeelden.
-
 ## Het idee
 
 Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve piramide van blokken beklimmen voordat hij mag springen naar een vlaggenpost. Dit ziet er zo uit:
