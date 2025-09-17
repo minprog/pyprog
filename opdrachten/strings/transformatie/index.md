@@ -22,7 +22,7 @@ Schrijf een functie `verwijder_n_eind` die alle letters `n` verwijdert uit een s
 
 Bedenk zelf een paar voorbeelden.
 
-Hiervoor moet je _vooruit kijken_. Je moet een loop maken op basis van posities, zodat je het teken op elke positie kan bekijken (`pos`) maar ook de letter op de volgende positie (`pos + 1`).
+Hiervoor moet je _vooruit kijken_. Je moet een loop maken op basis van posities, zodat je het teken op elke positie kan bekijken (`pos`) maar ook de letter op de volgende positie (`pos + 1`). Let wel op, dat als je bij het einde van de string bent (`pos = len(s)-1`) je niet naar de volgende positie mag kijken.
 
     for pos in len(s):
         ...
@@ -36,7 +36,7 @@ Schrijf een functie `verwijder_n_begin` die alle letters `n` verwijdert uit een 
 
 Bedenk zelf een paar voorbeelden.
 
-Hiervoor moet je _vooruit kijken_. Je moet een loop maken op basis van posities, zodat je het teken op elke positie kan bekijken (`pos`) maar ook de letter op de volgende positie (`pos + 1`).
+Hiervoor moet je _achteruit kijken_. Je moet een loop maken op basis van posities, zodat je het teken op elke positie kan bekijken (`pos`) maar ook de letter op de vorige positie (`pos - 1`). Let wel op dat je niet positie `-1` bekijkt als je op `pos = 0` bent.
 
     for pos in len(s):
         ...
