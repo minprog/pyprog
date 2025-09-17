@@ -1,6 +1,6 @@
 # Vwl
 
-1. Schrijf een functie die een string aanneemt en een versie teruggeeft waarin alle klinkers uit de string verwijderd zijn.
+1. Schrijf een functie `remove_vowels` die een string aanneemt en een versie teruggeeft waarin alle klinkers uit de string verwijderd zijn.
 
 2. Als deze gevalideerd is met doctests, voeg dan een `main` toe zodat je het programma kunt runnen, en een woord opgeven dat dan zonder klinkers wordt uitgeprint (met hulp van de functie).
 

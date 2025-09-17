@@ -1,6 +1,6 @@
 # Yell
 
-1. Schrijf een functie die een string aanneemt en een versie teruggeeft waarin alle uitroeptekens verdubbeld zijn. Oh, en ook alle vraagtekens.
+1. Schrijf een functie `yell` die een string aanneemt en een versie teruggeeft waarin alle uitroeptekens verdubbeld zijn. Oh, en ook alle vraagtekens.
 
 2. Als deze gevalideerd is met doctests, voeg dan een `main` toe zodat je het programma kunt runnen, en een woord opgeven dat dan met verdubbelde uitroeptekens wordt uitgeprint (met hulp van de functie).
 

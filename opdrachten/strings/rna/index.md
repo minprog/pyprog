@@ -30,7 +30,7 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 
     def check_input(dna: str) -> bool:
         """
-        Controleert of de input een correcte DNA string is.
+        Controleert of de input een correcte DNA-string is.
         Accepteert zowel hoofd- als kleine letters.
         """
 
@@ -54,7 +54,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder. DNA wor
     $ python rna.py
     DNA: atGcAgtAttGCA
     RNA: UACGUCAUAACGU
-    
+
     $ python rna.py
     DNA: hello
     That is not a valid DNA string

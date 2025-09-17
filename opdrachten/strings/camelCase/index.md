@@ -7,7 +7,7 @@ In Python is het dus gebruikelijk om `snake_case` te gebruiken. Daarom schrijven
 
 ## Opdracht
 
-Schrijf, in een bestand genaamd `camelcase.py`, een programma dat de naam van een variabele in camelCase omschrijft snake_case. Maak daarbij een functie voor het algoritme van het omzetten van de string.
+Schrijf, in een bestand genaamd `camelcase.py`, een programma dat de naam van een variabele in camelCase omschrijft snake_case. Maak daarbij een functie `convert` voor het algoritme van het omzetten van de string.
 
 ## Voorbeelden
 
