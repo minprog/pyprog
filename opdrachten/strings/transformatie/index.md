@@ -58,7 +58,7 @@ Algoritme:
 1. Maak een lege string waarin je het resultaat gaat opbouwen, plus een teller die op 0 staat.
 2. Loop door alle tekens in de invoerstring met een `for char in s`-loop.
 3. Houd een teller bij voor hoeveel letters je tot nu toe hebt gezien.
-    - Als char een letter is (char.isalpha()), dan verhoog je de teller.
+    - Als char een letter is (`char.isalpha()`), dan verhoog je de teller.
     - Als de teller een even getal is (2, 4, 6, …), dan maak je deze letter uppercase.
     - Anders laat je de letter zoals hij is.
 4. Voeg het bewerkte teken toe aan de resultaatstring.
