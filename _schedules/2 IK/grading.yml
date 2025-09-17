@@ -251,8 +251,8 @@ week_2:
         priemgetallen: 1
 
 week_3:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 21/9/25 17:00
     submits:
