@@ -4,7 +4,7 @@ Schrijf een functie `compact` met uitgebreide doctests die een referentie naar e
 
 ## Algoritme
 
-Formuleer een compacte algoritme waarin je gebruik maakt van de basisoperaties van Python.
+Formuleer een compact algoritme waarin je gebruik maakt van de basisoperaties van Python.
 
 Bedenk vooraf:
 

@@ -8,7 +8,7 @@
 
 Het is mogelijk elementen uit een lijst te verwijderen. In de eerste versie doe je dit niet, in de tweede wel.
 
-Formuleer compacte algoritmes waarin je gebruik maakt van de basisoperaties van Python.
+Formuleer compact algoritmes waarin je gebruik maakt van de basisoperaties van Python.
 
 Bedenk vooraf:
 
