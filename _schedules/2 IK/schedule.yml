@@ -80,7 +80,7 @@ Week 4:
         Shout: /opdrachten/strings/shout
         camelCase: /opdrachten/strings/camelcase
         RNA: /opdrachten/strings/rna
-        ROT13: /opdrachten/strings/rot13
+        # ROT13: /opdrachten/strings/rot13
     Challenge:
         Monopoly: /opdrachten/challenges/monopoly
 

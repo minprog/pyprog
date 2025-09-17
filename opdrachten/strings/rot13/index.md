@@ -6,7 +6,7 @@ Encryptie is van alle tijden. Hier maak je twee functies die de [Caesar cypher](
 
 Schrijf een functie `rotate` die een string aanneemt en codeert met de gewenste rotatie (gegeven als `n`). Zie de gelinkte Wikipedia voor uitleg.
 
-Schrijf een functie `unrot` die een string aanneemt en decodeert met de gewenste rotatie (gegeven als `n`). Deze functie mag uit één regel bestaan en alleen de andere functie aanroepen.
+Schrijf een functie `unrot` die een string aanneemt en decodeert met de gewenste rotatie (gegeven als `n`). Deze functie mag uit één regel bestaan en alleen de andere functie `rotate` aanroepen.
 
 ## Programma
 
