@@ -267,6 +267,11 @@ week_3:
 
         pwdgen: 1
 
+checkup:
+    show_overview: true
+    submits:
+        checkup: 1
+
 week_4:
     show_overview: true
     # show_progress: true

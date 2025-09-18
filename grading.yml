@@ -115,6 +115,8 @@ grades:
 
     pwdgen: *check
 
+    checkup: *check
+
     # module 4
     yell: *automatic
     remove_vowels: *automatic
