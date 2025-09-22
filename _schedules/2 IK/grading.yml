@@ -273,17 +273,17 @@ checkup:
         checkup: 1
 
 week_4:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 28/9/25 17:00
     submits:
         yell: 1
-        remove_vowels: 1
+        vwl: 1
         shout: 1
         camelcase: 1
         rna: 1
-        rot13: 1
+        # rot13: 1
         monopoly: 1
 
 week_5:

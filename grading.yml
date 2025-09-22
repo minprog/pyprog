@@ -119,7 +119,7 @@ grades:
 
     # module 4
     yell: *automatic
-    remove_vowels: *automatic
+    vwl: *automatic
     shout: *automatic
     camelcase: *automatic
     rna: *automatic
