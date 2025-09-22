@@ -52,11 +52,14 @@ Module 2:
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Module 3:
     Overzicht: /modules/strings
-    Boek hst 5 en 6: /boek/boek4
+    Theorie:
+        Boek hst 5 en 6: /boek/boek4
     #    Debugging: /opdrachten/oud/debug
-    Werkcollege:
-        String-analyse: /werkcollege/strings
-    Voortgezet:
+    Basis-oefeningen:
+        # Werkcollege string-analyse: /werkcollege/strings
+        Analyse: /opdrachten/strings/analyse
+        Verschillen: /opdrachten/strings/verschillen
+    Problem solving:
         Alfabet: /opdrachten/strings/alfabet
         Etenstijd: /opdrachten/strings/etenstijd
         Calculator: /opdrachten/strings/calculator
@@ -66,17 +69,18 @@ Module 3:
         Wachtwoord-generator: /opdrachten/challenges/pwdgen
 
 # String-transformatie
-Module 4:
-    Overzicht: /modules/stringtrans
-    Werkcollege:
-        String-transformatie: /werkcollege/transformatie
+Week 4:
+    Overzicht: /modules/transformaties
+    Basis-oefeningen:
+        # Werkcollege string-transformatie: /werkcollege/transformatie
+        Transformatie: /opdrachten/strings/transformatie
     Opdrachten:
         Yell: /opdrachten/strings/yell
         Remove vowels: /opdrachten/strings/vwl
         Shout: /opdrachten/strings/shout
         camelCase: /opdrachten/strings/camelcase
         RNA: /opdrachten/strings/rna
-        ROT13: /opdrachten/strings/rot13
+        # ROT13: /opdrachten/strings/rot13
     Challenge:
         Monopoly: /opdrachten/challenges/monopoly
 
