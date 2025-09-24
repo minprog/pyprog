@@ -1,6 +1,6 @@
 # Uniq
 
-Schrijf een functie `uniq` met uitgebreide doctests die een lijst aanneemt en een nieuwe lijst teruggeeft waarin dubbele elementen zijn verwijderd.
+Schrijf een functie `uniq` met uitgebreide doctests die een lijst aanneemt en een nieuwe lijst teruggeeft waarin dubbele elementen zijn verwijderd. De originele lijst mag **niet** veranderd worden.
 
 ## Algoritme
 
