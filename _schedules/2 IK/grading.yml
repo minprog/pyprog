@@ -227,8 +227,6 @@ week_1:
         byte: 1
         rechthoeken: 1
 
-        kalender: 1
-
 week_2:
     # show_overview: true
     show_progress: true
@@ -248,8 +246,6 @@ week_2:
         piramide: 1
         temperatuur: 1
 
-        priemgetallen: 1
-
 week_3:
     # show_overview: true
     show_progress: true
@@ -264,8 +260,6 @@ week_3:
         calculator: 1
         wachtwoord: 1
         leesbaarheid: 1
-
-        pwdgen: 1
 
 checkup:
     show_overview: true
@@ -284,7 +278,7 @@ week_4:
         camelcase: 1
         rna: 1
         # rot13: 1
-        monopoly: 1
+
 
 week_5:
     show_overview: true
@@ -299,7 +293,6 @@ week_5:
         contig: 1
         interleave: 1
         compact: 1
-        compress: 1
 
 week_6:
     show_overview: true
@@ -312,6 +305,17 @@ week_6:
         special_sort: 1
         sjoelen: 1
         schuifpuzzel: 1
+
+challenges:
+    show_overview: true
+    small_block_overview: true
+    deadline: 12/10/25 17:00
+    submits:
+        kalender: 1
+        priemgetallen: 1
+        pwdgen: 1
+        monopoly: 1
+        compress: 1
         virus: 1
 
 # week_10:
