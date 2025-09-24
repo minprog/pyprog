@@ -4,12 +4,7 @@ Schrijf een functie `compact` met uitgebreide doctests die een referentie naar e
 
 ## Type
 
-Gebruik `list[Any]` om aan te geven dat deze functie elke lijst kan verwerken:
-
-    from typing import Any
-
-    def compact(lst: list[Any]) -> None:
-        ...
+Ook bij deze functie maakt het niet uit wat het type is van de *elementen* van de lijst.
 
 ## Algoritme
 
