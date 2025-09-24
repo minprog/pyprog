@@ -92,13 +92,13 @@ Week 5:
     Werkcollege:
         Lots of Lists: /werkcollege/lists
     Oefeningen:
+        Rotate: /opdrachten/lists/rotate #(rotating shift)
+        Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
         Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
         Flatten: /opdrachten/lists/flatten #(flatten single level)
-        Rotate: /opdrachten/lists/rotate #(rotating shift)
         Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
         Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
         Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
-        Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
         # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
         # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
     Challenge:
