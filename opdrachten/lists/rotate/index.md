@@ -2,6 +2,18 @@
 
 Schrijf een functie `rotate` met uitgebreide doctests die een lijst aanneemt en de inhoud met één stap draait. Dat wil zeggen dat alle elementen naar links verschuiven. Het eerste element van de lijst komt achteraan. De lijst moet aangepast worden en er is dus geen `return`.
 
+## Code
+
+Twee opmerkingen over de code:
+
+- Gebruik nooit `list` als variabelenaam, want dit is al de naam van een **type**.
+
+- Voor een functie als `rotate` is het niet van belang wat het type is van de elementen van de lijst zelf. Je moet echter wel een type opgeven. Gebruik `Any` als het alles mag zijn:
+
+        from typing import Any
+
+        def rotate(lst: list[Any]) -> None:
+
 ## Algoritme
 
 Formuleer een compact algoritme waarin je gebruik maakt van de basisoperaties van Python.
