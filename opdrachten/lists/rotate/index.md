@@ -8,11 +8,9 @@ Twee opmerkingen over de code:
 
 - Gebruik nooit `list` als variabelenaam, want dit is al de naam van een **type**.
 
-- Voor een functie als `rotate` is het niet van belang wat het type is van de elementen van de lijst zelf. Je moet echter wel een type opgeven. Gebruik `Any` als het alles mag zijn:
+- Voor een functie als `rotate` is het niet van belang wat het type is van de elementen van de lijst zelf. Je moet echter wel een type opgeven. Gebruik `object` als het alles mag zijn:
 
-        from typing import Any
-
-        def rotate(lst: list[Any]) -> None:
+        def rotate(lst: list[object]) -> None:
 
 ## Algoritme
 
