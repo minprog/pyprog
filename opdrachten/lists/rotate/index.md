@@ -22,3 +22,7 @@ Bedenk vooraf:
 - hoe het algoritme er globaal uit moet zien (loops, variabelen)
 - wat er teruggegeven wordt en hoe je dat opbouwt (variabele)
 - of er nog bijzondere gevallen zijn om rekening mee te houden
+
+## Main?
+
+Je schrijft geen `main` voor deze opdracht. Als je nog extra testcode wil hebben dan moet deze wel in een if-name-is-main staan.
