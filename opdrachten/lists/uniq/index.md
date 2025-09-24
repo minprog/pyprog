@@ -1,18 +1,25 @@
 # Uniq
 
-1. Schrijf een functie `uniq_copy` met uitgebreide doctests die een lijst aanneemt en een nieuwe lijst teruggeeft waarin dubbele elementen zijn verwijderd.
-
-2. Schrijf een functie `uniq` met uitgebreide doctests die een referentie naar een lijst aanneemt en de dubbele elementen verwijdert. Er is geen `return` omdat de originele lijst wordt aangepast.
+Schrijf een functie `uniq` met uitgebreide doctests die een lijst aanneemt en een nieuwe lijst teruggeeft waarin dubbele elementen zijn verwijderd.
 
 ## Algoritme
 
-Het is mogelijk elementen uit een lijst te verwijderen. In de eerste versie doe je dit niet, in de tweede wel.
+Een globaal opzetje:
 
-Formuleer compact algoritmes waarin je gebruik maakt van de basisoperaties van Python.
+0. Maak een nieuwe (lege) lijst aan om het resultaat in op te slaan.
+1. Loop door alle posities van de lijst (dus met een positie-teller).
+2. Als je bij een element aankomt, check of het als voorkomt in de nieuwe lijst.
+    - Zo ja, sla over.
+    - Zo niet, voeg het element toe aan de nieuwe lijst.
+3. Zodra je alle elementen langs bent heb je alle unieke elementen gekopieerd.
 
-Bedenk vooraf:
+Bedenk zelf vooraf:
 
 - wat de input is
-- hoe het algoritme er globaal uit moet zien (loops, variabelen)
-- wat er teruggegeven wordt en hoe je dat opbouwt (variabele)
+- hoe het algoritme er globaal uit moet zien (wat voor loops, welke variabelen)
+- wat er teruggegeven wordt (voorbeelden!)
 - of er nog bijzondere gevallen zijn om rekening mee te houden
+
+## Main?
+
+Je schrijft geen `main` voor deze opdracht. Als je nog extra testcode wil hebben dan moet deze wel in een if-name-is-main staan.
