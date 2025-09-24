@@ -1,6 +1,6 @@
 # Interleave
 
-Schrijf een functie `interleave` met uitgebreide doctests die twee lijsten aanneemt en een nieuwe lijst maakt waarin de elementen uit de twee originele lijsten afwisselend zijn opgenomen. De functie moet óók een parameter `throw` aannemen die standaard `False` is. Deze parameter bepaalt of eventuele overtollige elementen uit een van de lijsten worden weggegooid of behouden: het kan namelijk zijn dat de lijsten niet even lang zijn en dat je dus niet "mooi" uitkomt.
+Schrijf een functie `interleave` met uitgebreide doctests die twee lijsten aanneemt en een nieuwe lijst maakt waarin de elementen uit de twee originele lijsten afwisselend zijn opgenomen. De functie moet óók een parameter `keep` aannemen (bool). Deze parameter bepaalt of eventuele overtollige elementen uit een van de lijsten worden weggegooid of behouden: het kan namelijk zijn dat de lijsten niet even lang zijn en dat je elementen uit de langste lijst niet meer kwijt kunt. Als `keep == True` dan moeten deze elementen gewoon aan het eind van de resultaatlijst worden toegevoegd.
 
 ## Tip
 
