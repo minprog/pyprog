@@ -2,6 +2,15 @@
 
 Schrijf een functie `compact` met uitgebreide doctests die een referentie naar een lijst aanneemt en de "falsy" elementen verwijdert --- dat zijn elementen die Python min of meer gelijk stelt aan `False`. Je kunt deze eigenschap testen met `if not x`. Er is geen `return`.
 
+## Type
+
+Gebruik `list[Any]` om aan te geven dat deze functie elke lijst kan verwerken:
+
+    from typing import Any
+
+    def compact(lst: list[Any]) -> None:
+        ...
+
 ## Algoritme
 
 Formuleer een compact algoritme waarin je gebruik maakt van de basisoperaties van Python.
