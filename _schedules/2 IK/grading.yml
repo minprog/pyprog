@@ -272,6 +272,7 @@ week_4:
     small_block_overview: true
     deadline: 28/9/25 17:00
     submits:
+        string-transformatie: 1
         yell: 1
         vwl: 1
         shout: 1

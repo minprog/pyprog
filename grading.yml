@@ -118,6 +118,7 @@ grades:
     checkup: *check
 
     # module 4
+    string-transformatie: *automatic
     yell: *automatic
     vwl: *automatic
     shout: *automatic
