@@ -1,8 +1,8 @@
-name: uniq
+name: compact
 files:
     required:
-        - uniq.py
+        - compact.py
 check:
     tool: checkpy
     repo: minprog/python
-    args: uniq
+    args: compact
