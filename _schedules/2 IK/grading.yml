@@ -286,13 +286,15 @@ week_5:
     small_block_overview: true
     deadline: 5/10/25 17:00
     submits:
-        uniq: 1
-        flatten: 1
+        list_int_basics: 1
+        list_basics: 1
         rotate: 1
+        compact: 1
+        uniq: 1
+        # flatten: 1
         chunk: 1
         contig: 1
         interleave: 1
-        compact: 1
 
 week_6:
     show_overview: true

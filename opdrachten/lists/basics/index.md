@@ -13,6 +13,15 @@ Beperkingen: je moet de functie met een loop schrijven, dus bestaande onderdelen
 
 Tip: we gebruiken hier `list[object]` om aan te geven dat de lijst elke soort element kan bevatten. In Python is alle data niet alleen een `int`, `float`, of `str` maar sowieso ook een `object`.
 
+## Zoek een missend element
+
+Een functie die checkt of het element `elt` **niet** in de lijst `lst` staat.
+
+    def list_contains_no_element(lst: list[object], elt: object) -> bool:
+        ...
+
+Beperkingen: je moet de functie met een loop schrijven, dus bestaande onderdelen van Python zoals `in` en `find` zijn niet toegestaan. Je mag niet de functie `list_contains_element` aanroepen.
+
 ## Tel elementen
 
 Een functie die telt hoe vaak een bepaald element te vinden is in een lijst (bijvoorbeeld een getal).

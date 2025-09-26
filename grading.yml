@@ -129,6 +129,9 @@ grades:
 
     # module 5
     # list_functions: *automatic
+    list_int_basics: *automatic
+    list_basics: *automatic
+
     uniq: *automatic
     flatten: *automatic
     rotate: *automatic
