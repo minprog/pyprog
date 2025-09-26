@@ -1,8 +1,8 @@
-name: flatten
+name: interleave
 files:
     required:
-        - flatten.py
+        - interleave.py
 check:
     tool: checkpy
     repo: minprog/python
-    args: flatten
+    args: interleave
