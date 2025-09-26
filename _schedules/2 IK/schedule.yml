@@ -89,13 +89,15 @@ Week 5:
     Overzicht: /modules/lists
     Theorie:
         Boek 7.1-7.3: /boek/boek5
-    Werkcollege:
-        Lots of Lists: /werkcollege/lists
-    Oefeningen:
+    Basis-oefeningen:
+        Werkcollege: /werkcollege/lists
+        Integer lists: /opdrachten/lists/int_lists
+        List basics: /opdrachten/lists/basics
+    Opdrachten:
         Rotate: /opdrachten/lists/rotate #(rotating shift)
         Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
         Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
-        Flatten: /opdrachten/lists/flatten #(flatten single level)
+        # Flatten: /opdrachten/lists/flatten #(flatten single level)
         Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
         Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
         Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)

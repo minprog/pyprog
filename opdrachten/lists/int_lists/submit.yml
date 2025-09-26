@@ -1,0 +1,8 @@
+name: list_int_basics
+files:
+    required:
+        - list_int_basics.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: list_int_basics
