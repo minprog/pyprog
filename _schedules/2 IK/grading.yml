@@ -282,8 +282,8 @@ week_4:
 
 
 week_5:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 5/10/25 17:00
     submits:
