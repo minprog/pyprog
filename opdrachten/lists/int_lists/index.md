@@ -6,7 +6,7 @@ In deze opgave schrijf je één Python-module `list_int_basics.py` met daarin ee
 
 Een functie die controleert of alle integers uit de lijst `lst` even zijn.
 
-    def list_check_all_even(lst: list[object]) -> bool:
+    def list_check_all_even(lst: list[int]) -> bool:
         ...
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
@@ -17,7 +17,7 @@ Tip: het is niet helemaal duidelijk wat het antwoord moet zijn als er helemaal g
 
 Een functie telt hoeveel integers uit de lijst `lst` even zijn.
 
-    def list_count_even(lst: list[object]) -> int:
+    def list_count_even(lst: list[int]) -> int:
         ...
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
