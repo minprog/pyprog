@@ -8,7 +8,7 @@ Maak ook een `if-name-is-main` waarin je elk van de functies aanroept zodat je z
         get_positive_int()
         get_any_int_but_0()
         get_min_int(100)
-        get_two_ints_in_order()
+        get_two_different_ints()
 
 Zet deze onderaan je bestand.
 
