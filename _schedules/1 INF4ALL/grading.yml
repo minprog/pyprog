@@ -246,8 +246,8 @@ week_2:
         priemgetallen: 1
 
 week_3:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 2/10/25 17:00
     submits:
@@ -263,18 +263,18 @@ week_3:
         pwdgen: 1
 
 week_4:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 2/10/25 17:00
     submits:
+        string-transformatie: 1
         yell: 1
-        remove_vowels: 1
+        vwl: 1
         shout: 1
         camelcase: 1
         rna: 1
-        rot13: 1
-        monopoly: 1
+        # rot13: 1
 
 week_5:
     show_overview: true
