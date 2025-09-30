@@ -1,6 +1,8 @@
 # Compact
 
-Schrijf een functie `compact` met uitgebreide doctests die een referentie naar een lijst aanneemt en de "falsy" elementen verwijdert --- dat zijn elementen die Python min of meer gelijk stelt aan `False`, zoals `0` of `''`. Maar je gaat niet specifiek zoeken naar die waarden, want je kunt deze eigenschap testen met de formule `if not x`. Gebruik die als filter. Er is geen `return` want de elementen moeten uit de originele lijst verwijderd worden.
+Schrijf een functie `compact` met uitgebreide doctests die een referentie naar een lijst aanneemt en een nieuwe lijst oplevert met daarin de "falsy" elementen verwijderd --- dat zijn elementen die Python min of meer gelijk stelt aan `False`, zoals `0` of `''`. Maar je gaat niet specifiek zoeken naar die waarden, want je kunt deze eigenschap testen met de formule `if not x` / `if x`. Gebruik die als filter.
+
+De functie moet een nieuwe "gecompacteerde" lijst returnen en de oude lijst moet onveranderd blijven.
 
 ## Type
 
