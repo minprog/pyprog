@@ -6,6 +6,6 @@ Schrijf een functie `merge_lists` die op de volgende manier twee lijsten van int
 
 - Stel: de gezamenlijke lengte van de lijsten is X. Gebruik een loop die stopt als je X elementen hebt toegevoegd aan de nieuwe lijst.
 
-- De uiteindelijke lijst moet ook gesorteerd zijn. Stel: de lijsten heten A en B. Je moet elke stap zorgvuldig kiezen of je een element van A of van B toevoegt aan de lijst, zodat de nieuwe lijst ook gesorteerd blijft.
+- De uiteindelijke lijst moet ook gesorteerd zijn. Stel: de lijsten heten A en B. Je moet bij elke stap zorgvuldig kiezen of je een element van A of van B toevoegt aan de lijst, zodat de nieuwe lijst ook gesorteerd blijft.
 
 - Je loop mag maximaal X stappen nemen!
