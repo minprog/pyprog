@@ -22,5 +22,6 @@ Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
 
 - eigenlijk gewoon een simpele `for`-loop met een index om te tellen
 - loop zo lang als de *kortste* lijst lang is
+- als je van twee lijsten een element wil pakken (op dezelfde index) dan kun je dat in twee regels doen, er is geen magische formule om dat in één keer te doen - maar het kan wel in dezelfde loop
 - daarna kun je nog een `for`-loop gebruiken om het restje van de langste lijst te kopiëren
 </details>
