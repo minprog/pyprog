@@ -17,5 +17,5 @@ Bedenk vooraf:
 Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
 
 - een `for`-loop waarin je een lege lijst vult, maar je stopt er niet direct elementen in uit de originele lijst
-- in de `for`-loop nog een `for`-loop waarin je steeds `n` elementen pakt en in een (andere) lege lijst stopt
+- vul een tijdelijke lijst met elementen uit de originele lijst, en als de tijdelijke lijst "vol" is dan voeg je deze toe aan de resultaatlijst
 </details>

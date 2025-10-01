@@ -1,0 +1,22 @@
+# Banner
+
+1. Schrijf een functie `longest_word_from_list` met uitgebreide doctests die een lijst met strings aanneemt en het langste woord uit de lijst geeft.
+
+2. Schrijf een functie `print_banner` met doctests die een lijst met strings aanneemt en een banner print. Voorbeeld:
+
+    Lijst:
+
+        lst = ["Margherita", "Tutta", "la", "Vita"]
+
+    Uitkomst van de print:
+
+        ##########
+        Margherita
+        Tutta
+        la
+        Vita
+        ##########
+
+    Deze functie moet verplicht de functie `longest_word_from_list` aanroepen!
+
+3. Schrijf een functie `string_to_list` die een string aanneemt met woorden gescheiden door spaties, en een lijst van losse strings geeft.

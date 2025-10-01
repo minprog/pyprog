@@ -113,11 +113,13 @@ Week 6:
         Algoritmen: /werkcollege/algoritmen
     Opdrachten:
         # search?
-        Scrabble: /opdrachten/lists/scrabble # 1 func, main, loop, if, str
-        Selection sort: /opdrachten/lists/selection
-        Special sort: /opdrachten/lists/special
-        Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
-        Schuifpuzzel: /opdrachten/lists/schuifpuzzel
+        Banner: /opdrachten/algoritmen/banner
+        Scrabble: /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
+        Selection sort: /opdrachten/algoritmen/selection
+        Special sort: /opdrachten/algoritmen/special
+        Merge lists: /opdrachten/algoritmen/merge
+        # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
+        # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
     Challenge:
         Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 

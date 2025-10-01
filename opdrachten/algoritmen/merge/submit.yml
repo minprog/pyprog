@@ -1,0 +1,8 @@
+name: merge_lists
+files:
+    required:
+        - merge_lists.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: merge_lists
