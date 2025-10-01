@@ -24,6 +24,11 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
         Bereken en return de score voor het woord.
         """
 
+    def compute_letter_score(letter: str) -> int:
+        """
+        Bereken en return de score voor één enkele letter.
+        """
+
     if __name__ == '__main__':
         <Hoofdprogramma>
 
@@ -36,10 +41,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests e
 * De score van een *letter* kun je uitvogelen door te kijken welke plek in het alfabet de letter heeft (a = 0, b = 1) en dan op te zoeken wat de bijbehorende puntenwaarde is.
 
     * Gebruik een loop om te kijken op welke plek in de string `"abcdefghijklmnopqrstuvwxyz"` jouw letter zit. Gebruik dat getal om de score op te zoeken in de list `POINTS`.
-    
-    * Nogmaals: gebruik een loop zoals beschreven. Gebruik geen andere constructies. Het doel is niet om de opdracht werkend te krijgen, maar om deze specieke manier te oefenen.
 
-    * Verberg het berekenen van de score van één letter in een aparte functie.
+    * Nogmaals: gebruik een loop zoals beschreven. Gebruik geen andere constructies. Het doel is niet om de opdracht werkend te krijgen, maar om deze specieke manier te oefenen.
 
 ## Voorbeelden
 
