@@ -1,6 +1,6 @@
 # Contig
 
-> Deze opdracht is gevorderd en hoeft niet iedereen te maken. Als je deze opdracht niet maakt, zorg dan wel dat je alle basis-oefeningen hebt gedaan.
+> Deze opdracht is **gevorderd** en hoeft niet iedereen te maken. Als je deze opdracht niet maakt, zorg dan wel dat je alle basis-oefeningen hebt gedaan.
 
 Schrijf een functie `contig` met uitgebreide doctests die een lijst met integers aanneemt en deze opsplitst in lijsten van opeenvolgende (contiguous) elementen. Als een element niet de volgende integer is dan wordt deze in een volgende lijst gezet. De functie geeft een nieuwe lijst terug met daarin de kortere lijsten.
 
