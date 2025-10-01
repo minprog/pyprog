@@ -115,9 +115,9 @@ Week 6:
         # search?
         Banner: /opdrachten/algoritmen/banner
         Scrabble: /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
+        Merge lists: /opdrachten/algoritmen/merge
         Selection sort: /opdrachten/algoritmen/selection
         Special sort: /opdrachten/algoritmen/special
-        Merge lists: /opdrachten/algoritmen/merge
         # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
         # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
     Challenge:
