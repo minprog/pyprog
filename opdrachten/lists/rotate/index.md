@@ -24,10 +24,10 @@ Bedenk vooraf:
 - of er nog bijzondere gevallen zijn om rekening mee te houden
 
 <details markdown="1"><summary markdown="span">Weet je niet waar te beginnen?</summary>
-    Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
+Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
 
-    - een for-loop met index
-    - voorbeeld van een element verplaatsen: lst[2] = lst[3]
+- een `for`-loop met index
+- voorbeeld van een element verplaatsen: `lst[2] = lst[3]`
 </details>
 
 
