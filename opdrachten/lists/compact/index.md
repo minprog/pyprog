@@ -18,3 +18,10 @@ Bedenk vooraf:
 - hoe het algoritme er globaal uit moet zien (loops, variabelen)
 - wat er teruggegeven wordt en hoe je dat opbouwt (variabele)
 - of er nog bijzondere gevallen zijn om rekening mee te houden
+
+<details markdown="1"><summary markdown="span">Weet je niet waar te beginnen?</summary>
+Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
+
+- een `for`-loop waarin je een lege lijst vult met elementen uit origineel
+- alleen element overnemen als `if element`
+</details>

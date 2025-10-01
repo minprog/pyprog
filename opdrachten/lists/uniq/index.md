@@ -19,3 +19,7 @@ Bedenk zelf vooraf:
 - hoe het algoritme er globaal uit moet zien (wat voor loops, welke variabelen)
 - wat er teruggegeven wordt (voorbeelden!)
 - of er nog bijzondere gevallen zijn om rekening mee te houden
+
+<details markdown="1"><summary markdown="span">Weet je niet waar te beginnen?</summary>
+Een opzetje staat hierboven al.
+</details>

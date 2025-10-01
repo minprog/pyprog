@@ -16,3 +16,11 @@ Bedenk vooraf:
 - hoe het algoritme er globaal uit moet zien (loops, variabelen)
 - wat er teruggegeven wordt en hoe je dat opbouwt (variabele)
 - of er nog bijzondere gevallen zijn om rekening mee te houden
+
+<details markdown="1"><summary markdown="span">Weet je niet waar te beginnen?</summary>
+Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
+
+- eigenlijk gewoon een simpele `for`-loop met een index om te tellen
+- loop zo lang als de *kortste* lijst lang is
+- daarna kun je nog een `for`-loop gebruiken om het restje van de langste lijst te kopiëren
+</details>
