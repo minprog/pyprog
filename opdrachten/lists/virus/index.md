@@ -10,6 +10,8 @@ Doe deze opdracht dus echt stap voor stap, inclusief testen!
 
 Anderzijds spelen "list comprehensions" bij deze opdracht een grote rol. Om extra motivatie te geven deze te gebruiken, staat bij enkele opdrachten een **limiet** voor het aantal regels code dat gebruikt mag worden voor de oplossing. Lukt dat niet goed? Maak je oplossing dan (zo mogelijk) eerst werkend zonder list comprehensions en vraag hulp aan de assistenten met het omzetten naar list comprehensions.
 
+> **Als je deze opdracht gaat maken, moet je vooraf hoofdstuk 7.4 over list comprehensions doornemen en oefenen.**
+
 ## Stap 1: Virusgenoom
 
 DNA is een streng met daarin deeltjes die nucleotiden worden genoemd. Elk DNA-molecuul bestaat in feite uit twee strengen van dergelijke nucleotiden, die bovendien bij elke nucleotide met elkaar verbonden zijn. De verbonden nucleotiden noemen we basenparen. Omdat deze paren altijd in vaste combinaties voorkomen kunnen we bij het typeren van een dubbele DNA-streng volstaan met het specificeren van de namen van de nucleotiden van één streng. De namen zijn: adenine (A), cytosine (C), guanine (G) en thymine (T). Bij elke menselijke cel bestaat de DNA-streng uit miljarden van zulke basenparen. Ook veel virussen zijn opgebouwd uit precies dezelfde typen cellen.
