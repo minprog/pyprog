@@ -28,8 +28,8 @@ Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
 
 - een `for`-loop met index
 - voorbeeld van een element verplaatsen: `lst[2] = lst[3]`
+- "alle elementen naar links verschuiven" moet je echt zo doen
 </details>
-
 
 ## Main?
 
