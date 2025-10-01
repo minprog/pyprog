@@ -19,4 +19,4 @@
 
     Deze functie moet verplicht de functie `longest_word_from_list` aanroepen!
 
-3. Schrijf een functie `string_to_list` die een string aanneemt met woorden gescheiden door spaties, en een lijst van losse strings geeft.
+3. Schrijf een functie `string_to_list` die een string aanneemt met woorden gescheiden door spaties, en een lijst van losse strings geeft. Je moet zelf de loops uitprogrammeren die hiervoor nodig zijn.
