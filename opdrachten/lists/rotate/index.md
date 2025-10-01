@@ -23,6 +23,14 @@ Bedenk vooraf:
 - wat er teruggegeven wordt en hoe je dat opbouwt (variabele)
 - of er nog bijzondere gevallen zijn om rekening mee te houden
 
+<details markdown="1"><summary markdown="span">Weet je niet waar te beginnen?</summary>
+    Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
+
+    - een for-loop met index
+    - voorbeeld van een element verplaatsen: lst[2] = lst[3]
+</details>
+
+
 ## Main?
 
 Je schrijft geen `main` voor deze opdracht. Als je nog extra testcode wil hebben dan moet deze wel in een if-name-is-main staan.
