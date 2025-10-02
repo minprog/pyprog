@@ -12,10 +12,7 @@ files:
     required:
         tutorial_strings.py: |
             """
-            strings_intro.py — Introduction to Python strings
-
-            This file introduces basic string concepts.
-            It is written as a tutorial with doctests and small tasks to complete.
+            strings_intro.py
 
             Students: read the explanations, run `python -m doctest strings_intro.py` to test,
             and fill in the TODOs.
