@@ -305,7 +305,7 @@ week_6:
     submits:
         banner: 1
         scrabble: 1
-        merge: 1
+        merge_lists: 1
         selection_sort: 1
         special_sort: 1
         # sjoelen: 1

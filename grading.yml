@@ -146,7 +146,7 @@ grades:
     # module 6
     banner: *automatic
     scrabble: *automatic
-    merge: *automatic
+    merge_lists: *automatic
     selection_sort: *automatic
     special_sort: *automatic
     sjoelen: *automatic
