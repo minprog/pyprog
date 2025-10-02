@@ -303,11 +303,13 @@ week_6:
     small_block_overview: true
     deadline: 12/10/25 17:00
     submits:
+        banner: 1
         scrabble: 1
+        merge: 1
         selection_sort: 1
         special_sort: 1
-        sjoelen: 1
-        schuifpuzzel: 1
+        # sjoelen: 1
+        # schuifpuzzel: 1
 
 challenges:
     show_overview: true
