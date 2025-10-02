@@ -51,7 +51,7 @@ Week 2:
     Theorie:
         Boek hst 5 en 6: /boek/boek4
     Basis-oefeningen:
-        Werkcollege string-analyse: /werkcollege/strings
+        # Werkcollege string-analyse: /werkcollege/strings
         Analyse: /opdrachten/strings/analyse
         Verschillen: /opdrachten/strings/verschillen
     Problem solving:
@@ -60,10 +60,10 @@ Week 2:
         Calculator: /opdrachten/strings/calculator
         Wachtwoord: /opdrachten/strings/wachtwoord
         Leesbaarheid: /opdrachten/strings/leesbaarheid
-    Basis-oefeningen2:
-        Werkcollege string-transformatie: /werkcollege/transformatie
-        Transformatie: /opdrachten/strings/transformatie
-    Opdrachten:
+    Oefeningen transformatie:
+        Transformatie per teken: /opdrachten/strings/char_transformatie
+        Complexere transformatie: /opdrachten/strings/transformatie
+    Problem solving_:
         Yell: /opdrachten/strings/yell
         Remove vowels: /opdrachten/strings/vwl
         Shout: /opdrachten/strings/shout
