@@ -1,10 +1,10 @@
 # Vakantiekosten
 
-> **Studeertip.** Heb je het idee dat je Python niet begrijpt? Bestudeer dan de uitleg in het boek en probeer alle voorbeelden goed te begrijpen. Ook hier geldt: stel vragen en schakel hulp in. Bedenk wel dat we nog niet alle details uitleggen nu, een deel komt later! Daarnaast is het belangrijk dat je leert experimenteren met Python. Maak mini-programma's om te begrijpen hoe een functie van Python werkt. Vraag hoe!
+> **Studeertip.** Heb je het idee dat je Python niet begrijpt? Bestudeer dan de uitleg in het boek en probeer alle voorbeelden goed te begrijpen. Ook hier geldt: stel vragen en schakel hulp in.
 
 Je wil in je eentje op vakantie naar Frankrijk, maar dat kost nogal
 wat. De kosten van de reis naar het verblijf zijn afhankelijk van
-hoeveel kilometer je moet reizen en hoe lang je blijft. 
+hoeveel kilometer je moet reizen en hoe lang je blijft.
 
 ## Opdracht
 
@@ -46,13 +46,13 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
         Bepaalt de vervoerskosten op basis van de te rijden afstand
         naar de accomodatie (tel `km` twee keer voor heen en terug).
         """
-    
+
     def overnight_costs(nights: int) -> float:
         """
         Bepaalt de overnachtingskosten op basis van het aantal nachten
         dat je op vakantie gaat.
         """
-    
+
     def total_costs(km: int, nights: int) -> int:
         """
         Bepaalt de totale kosten op basis van de afstand en het aantal
@@ -60,7 +60,7 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
         Deze functie delegeert zoveel mogelijk werk naar de andere
         twee functies (roep die dus hier aan).
         """
-    
+
     if __name__ == '__main__':
         <Schrijf hier code die input van de gebruiker opvraagt,
         total_costs aanroept, en print hoeveel de vakantie gaat kosten>
