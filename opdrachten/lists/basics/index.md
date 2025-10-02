@@ -33,7 +33,7 @@ Beperkingen: je moet de functie met een loop schrijven om langs alle elementen t
 
 ## Tel meerdere elementen
 
-Een functie die telt hoe vaak bepaalde elementen te vinden zijn in een lijst (bijvoorbeeld getallen). Als `lst_elt` bijvoorbeeld de getallen 4 en 29 bevat, telt de functie hoevaak deze getallen voorkomen in de lijst `lst`.
+Een functie die telt hoe vaak bepaalde elementen te vinden zijn in een lijst (bijvoorbeeld getallen). Als `lst_elt` bijvoorbeeld de getallen 4 en 29 bevat, telt de functie hoevaak deze getallen voorkomen in de lijst `lst` (bij elkaar! niet allemaal aparte tellingen)
 
     def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
         ...
