@@ -1,11 +1,15 @@
 # Merge lists
 
-Schrijf een functie `merge_lists` die op de volgende manier twee lijsten van integers samenvoegt in een nieuwe lijst. Bijvoorbeeld `[1, 2, 5]` en `[4, 5, 6]` wordt samen `[1, 2, 4, 5, 5, 6]`.
+Schrijf een functie `merge_lists` die twee gesorteerde lijsten van integers samenvoegt in een nieuwe lijst, die eveneens gesorteerd is.
 
-- De originele lijsten moeten reeds *gesorteerd zijn*. Dat is een aanname die je mag doen voor je functie, die de functie simpeler maakt. Voor de doctests moet je dus ook gesorteerde lijsten aanleveren.
+Het gaat altijd om lijsten die zelf al gesorteerd zijn, zoals bijvoorbeeld `[1, 2, 5]` en `[4, 5, 6]`. Als je die twee opgeeft bij deze functie wordt het resultaat daarom `[1, 2, 4, 5, 5, 6]`.
 
-- Stel: de gezamenlijke lengte van de lijsten is X. Gebruik een loop die stopt als je X elementen hebt toegevoegd aan de nieuwe lijst.
+De procedure:
 
-- De uiteindelijke lijst moet ook gesorteerd zijn. Stel: de lijsten heten A en B. Je moet bij elke stap zorgvuldig kiezen of je een element van A of van B toevoegt aan de lijst, zodat de nieuwe lijst ook gesorteerd blijft.
+- Stel: de *gezamenlijke* lengte van de lijsten is X. Gebruik een loop die stopt als je X elementen hebt toegevoegd aan de nieuwe lijst. Je loop mag dus maximaal X stappen nemen!
 
-- Je loop mag maximaal X stappen nemen!
+- Stel: de lijsten heten A en B. Je moet bij elke stap beslissen of je een element van A of van B toevoegt aan de nieuw te maken lijst.
+
+- Je moet tellers maken die bijhouden hoeveel tekens je al uit A hebt gepakt en hoeveel tekens uit B. Die tellers geven dus aan *waar je bent*.
+
+Vergeet de doctests niet.
