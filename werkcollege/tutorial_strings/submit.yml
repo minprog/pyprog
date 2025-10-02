@@ -117,17 +117,20 @@ files:
                 # TODO: return whether x is in 'python'
                 return x in "python"
 
+            def has_O(x: str) -> bool:
+                ...
+                # use loop
 
-            def find_position(sub: str, text: str) -> int:
+            def find_position(char: str, text: str) -> int:
                 """
-                You can search for a substring by looping.
+                You can search for a char by looping.
                 Basic idea:
                   index = 0
+                  loop indices
                   for each character in text:
-                      if text starting at index matches sub:
-                          return index
-                      index += 1
-                  return -1 if not found
+                      check if that character is same as char
+                          then return True
+                  otherwise return -1
 
                 >>> find_position("th", "Python")
                 2
@@ -135,10 +138,7 @@ files:
                 -1
                 """
                 # TODO: implement with a loop instead of text.find()
-                for i in range(len(text) - len(sub) + 1):
-                    if text[i:i+len(sub)] == sub:
-                        return i
-                return -1
+
 
 
             # --- 5. Changing case -------------------------------------------------------

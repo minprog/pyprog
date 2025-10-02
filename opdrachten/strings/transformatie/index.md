@@ -15,7 +15,7 @@ Net als bij het werkcollege blijkt dat het niet mogelijk is letterlijk delen van
 
 ## Verwijder letter 'n' aan eind van elk woord
 
-Schrijf een functie `verwijder_n_eind` die alle letters `n` verwijdert uit een string en deze teruggeeft.
+Schrijf een functie `verwijder_n_eind` die alle letters `n` verwijdert uit een string --- maar alleen die aan het eind van een woord staan --- en deze teruggeeft.
 
     def verwijder_n_eind(s: str) -> str:
         ...
@@ -29,9 +29,9 @@ Hiervoor moet je _vooruit kijken_. Je moet een loop maken op basis van posities,
 
 ## Verwijder letter 'n' aan begin van elk woord
 
-Schrijf een functie `verwijder_n_begin` die alle letters `n` verwijdert uit een string en deze teruggeeft.
+Schrijf een functie `verwijder_n_begin` die alle letters `n` verwijdert uit een string --- maar alleen die aan het begin van een woord staan --- en deze teruggeeft.
 
-    def verwijder_n(s: str) -> str:
+    def verwijder_n_begin(s: str) -> str:
         ...
 
 Bedenk zelf een paar voorbeelden.
