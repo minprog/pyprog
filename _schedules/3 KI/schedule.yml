@@ -1,0 +1,186 @@
+Welkom:
+    Lees de studiewijzer alvast even door: /syllabus
+
+# Basic form
+Week 1:
+    Overzicht: /modules/programmeren
+    Overzicht2: /modules/herhaling
+    Werkcollege:
+        Formules: /werkcollege/formules
+        Installatie: /installatie/pulsar
+    Boek 1:
+        Hoofdstuk 1 t/m 3: /boek/boek1
+    Functies en expressies:
+        Weken: /opdrachten/expressies/weken
+        Water: /opdrachten/expressies/water
+        Binair: /opdrachten/expressies/binair
+        Cafeine: /opdrachten/expressies/cafeine
+        Vakantie: /opdrachten/expressies/vakantie
+    Boek 2:
+        Paragraaf 4.1-4.3: /boek/boek2
+    Conditionals:
+        Acid test: /opdrachten/conditionals/acid
+        Schrikkel: /opdrachten/conditionals/schrikkel
+        Orakel: /opdrachten/conditionals/orakel
+        Byte: /opdrachten/conditionals/byte
+        Rechthoeken: /opdrachten/conditionals/rechthoeken
+    Boek 3:
+        Paragraaf 4.4-4.7: /boek/boek3
+    Basis-oefeningen:
+        Werkcollege loops: /werkcollege/loops
+        Collatz: /opdrachten/loops/collatz
+        Schrikkel: /opdrachten/loops/schrikkel
+        Input: /opdrachten/loops/input
+    While-loops:
+        Cola: /opdrachten/loops/cola
+        Greedy: /opdrachten/loops/greedy
+        Raadspel: /opdrachten/oud/raadspel
+        Populatie: /opdrachten/simulaties/populatie
+    For-loops:
+        Piramide: /opdrachten/loops/piramide
+        Temperatuur: /opdrachten/loops/temperatuur
+    Challenge:
+        Kalender: /opdrachten/challenges/kalender
+        Priemgetallen: /opdrachten/challenges/priemgetallen
+
+# String-analyse
+# idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
+Week 2:
+    Overzicht: /modules/strings
+    Overzicht2: /modules/transformaties
+    Theorie:
+        Boek hst 5 en 6: /boek/boek4
+        #    Debugging: /opdrachten/oud/debug
+    Basis-oefeningen:
+        Werkcollege string-analyse: /werkcollege/strings
+        Analyse: /opdrachten/strings/analyse
+        Verschillen: /opdrachten/strings/verschillen
+    Basis-oefeningen2:
+        Werkcollege string-transformatie: /werkcollege/transformatie
+        Transformatie: /opdrachten/strings/transformatie
+    Problem solving:
+        Alfabet: /opdrachten/strings/alfabet
+        Etenstijd: /opdrachten/strings/etenstijd
+        Calculator: /opdrachten/strings/calculator
+        Wachtwoord: /opdrachten/strings/wachtwoord
+        Leesbaarheid: /opdrachten/strings/leesbaarheid
+    Opdrachten:
+        Yell: /opdrachten/strings/yell
+        Remove vowels: /opdrachten/strings/vwl
+        Shout: /opdrachten/strings/shout
+        camelCase: /opdrachten/strings/camelcase
+        RNA: /opdrachten/strings/rna
+        # ROT13: /opdrachten/strings/rot13
+    Challenge:
+        Wachtwoord-generator: /opdrachten/challenges/pwdgen
+        Monopoly: /opdrachten/challenges/monopoly
+
+# Lots of lists
+Week 5:
+    Overzicht: /modules/lists
+    Overzicht2: /modules/algoritmen
+    Theorie:
+        Boek 7.1-7.3: /boek/boek5
+    Basis-oefeningen:
+        Werkcollege list-transformatie en list-analyse: /werkcollege/lists
+        Integer lists: /opdrachten/lists/int_lists
+        List basics: /opdrachten/lists/basics
+        Algoritmen: /werkcollege/algoritmen
+    Opdrachten:
+        Rotate: /opdrachten/lists/rotate #(rotating shift)
+        Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
+        Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
+        # Flatten: /opdrachten/lists/flatten #(flatten single level)
+        Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
+        Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
+        Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
+        # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
+        # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
+    Opdrachten2:
+        # search?
+        Banner: /opdrachten/algoritmen/banner
+        Scrabble: /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
+        Merge lists: /opdrachten/algoritmen/merge
+        Selection sort: /opdrachten/algoritmen/selection
+        Special sort: /opdrachten/algoritmen/special
+        # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
+        # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
+    Challenge:
+        Compress: /opdrachten/challenges/compress #(RLE)
+        Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
+
+# Oefententamen
+Week 7:
+    Werkcollege:
+        Oefententamen: /werkcollege/wc4her
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Collections intro
+Week 9:
+    Overzicht en beoordeling: /modules/collections
+    Werkcollege:
+        Collections: /werkcollege/collections
+    Opdrachten:
+        # TODO meer oefeningen
+        # Collections: /opdrachten/collections/collection_functions
+        # Algorithms: /opdrachten/week5/algorithms
+
+Week 10:
+    Opdrachten:
+        Bestanden lezen: /opdrachten/data/io
+        Indexer: /opdrachten/collections/indexer
+        Big-O: /opdrachten/collections/big-o
+        Preprocessing: /opdrachten/data/eca2csv # deze gaat weg
+    Project:
+        Klimaat: /opdrachten/data/klimaat
+
+# Classes intro
+Week 11:
+    Overzicht en beoordeling: /modules/classes
+    Videocollege: /opdrachten/classes/lecture
+    Werkcollege:
+        # Collections: /werkcollege/collections
+        Queue: /opdrachten/classes/queue # basic datastructuur, encapsulation, init
+    Opdrachten:
+        Cards: /opdrachten/classes/cards # UML, data class, container
+        Country: /opdrachten/classes/country
+        Phonebook: /opdrachten/classes/phonebook
+        Point: /opdrachten/classes/point
+        Inventory: /opdrachten/classes/inventory
+        RGB: /opdrachten/classes/rgb
+        Browser History: /opdrachten/classes/browser # add("http://..."), prev(), next(), get()
+        Lines: /opdrachten/classes/lines
+        Vocabulary: /opdrachten/classes/vocabulary # add words, get random (increments # practiced, influences chance?)
+        Time: /opdrachten/classes/time
+
+# Programs with classes
+Week 12:
+    Opdrachten:
+        # Lisp: /opdrachten/classes/lisp
+        # Figuren: /opdrachten/classes/figuren
+        # Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
+        # let op: lisp, figuren zijn geschrapt
+    Project:
+        War: /opdrachten/classes/war
+        # Memory model: /opdrachten/week5/memory_model
+        # Cijfers: /opdrachten/week5/cijfers
+
+# Complexe strucuren, of big-O of wat anders
+Week 13:
+    Overzicht en beoordeling: /modules/classes
+    Videocollege: /opdrachten/classes/lecture
+    Werkcollege:
+        # Collections: /werkcollege/collections
+
+# Adventure
+Week 14:
+    Opdrachten:
+        Figuren: /opdrachten/classes/figuren
+    Project:
+        Adventure: /adventure/more
+
+# Oefententamen
+Week 15:
+    Werkcollege:
+        Oefententamen: /werkcollege/wc4her
