@@ -144,7 +144,9 @@ grades:
     compress: *automatic
 
     # module 6
+    banner: *automatic
     scrabble: *automatic
+    merge: *automatic
     selection_sort: *automatic
     special_sort: *automatic
     sjoelen: *automatic
