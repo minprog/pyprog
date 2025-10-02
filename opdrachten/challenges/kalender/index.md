@@ -1,6 +1,6 @@
 # Kalender
 
-> **Studeertip.** De challenges zijn alleen voor studenten die het erg makkelijk vinden tot nu toe. Specifiek deze week heb je loops nodig, die eigenlijk nog niet tot de stof horen. Je kunt wel alvast kijken in je boek, de rest van hoofdstuk 4. Als je een challenge hebt gemaakt, klop dan bij het laptopcollege bij je docent aan om 'm door te spreken.
+> **Studeertip.** De challenges zijn alleen voor studenten die het erg makkelijk vinden tot nu toe. Als je een challenge hebt gemaakt, klop dan bij het laptopcollege bij je docent aan om 'm door te spreken.
 
 De kalender zoals we hem kennen kan op vele manieren worden weergegeven. Een van deze manieren is per maand:
 
