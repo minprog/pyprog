@@ -1,4 +1,5 @@
 name: rotate
+dummy: ok
 files:
     required:
         - rotate.py
