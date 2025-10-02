@@ -159,9 +159,9 @@ files:
 
                 It's common to return -1 if the thing cannot be found.
 
-                >>> find_position("t", "Python")
+                >>> where_O_at("Python")
                 2
-                >>> find_position("z", "abc")
+                >>> where_O_at("abc")
                 -1
                 """
                 # TODO: return position of first letter 'O' or else -1
@@ -179,7 +179,7 @@ files:
                 >>> shout("hello")
                 'HELLO!'
                 """
-                # TODO give a shouting version of string s (see doctest)
+                # TODO read the doctest very carefully!
                 ...
 
             def quiet(s: str) -> str:
@@ -191,7 +191,7 @@ files:
                 >>> quiet("LOUD")
                 'loud...'
                 """
-                # TODO give a quiet version of string s (see doctest)
+                # TODO read the doctest very carefully!
                 ...
 
             # --- 7. Looping over characters ---------------------------------------------
@@ -205,6 +205,7 @@ files:
                           increase count
 
                 Here we count vowels (a, e, i, o, u).
+                Hint: find a way to use `in` to check if something is a vowel!
 
                 >>> count_vowels("education")
                 5

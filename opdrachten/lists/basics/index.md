@@ -26,7 +26,7 @@ Beperkingen: je moet de functie met een loop schrijven, dus bestaande onderdelen
 
 Een functie die telt hoe vaak een bepaald element te vinden is in een lijst (bijvoorbeeld een getal).
 
-    def list_count_element(lst: list[object], elt: object) -> bool:
+    def list_count_element(lst: list[object], elt: object) -> int:
         ...
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
@@ -35,7 +35,7 @@ Beperkingen: je moet de functie met een loop schrijven om langs alle elementen t
 
 Een functie die telt hoe vaak bepaalde elementen te vinden zijn in een lijst (bijvoorbeeld getallen). Als `lst_elt` bijvoorbeeld de getallen 4 en 29 bevat, telt de functie hoevaak deze getallen voorkomen in de lijst `lst`.
 
-    def list_count_elements(lst: list[object], lst_elt: list[object]) -> bool:
+    def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
         ...
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen in `lst` te gaan. Als je een element uit `lst` hebt mag je met `lst in lst_elt` kijken of het één van de gezochte elementen is.
