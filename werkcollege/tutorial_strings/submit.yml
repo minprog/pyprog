@@ -1,0 +1,190 @@
+name: tutorial_strings
+exam: true
+buttons:
+    doctest: |
+        import <filename>
+        import doctest
+        doctest.testmod(<filename>, verbose=True)
+    typecheck: |
+        from mypy import api as mypy_api
+        mypy_api.run(['--strict', '<filename>.py'])[0]
+files:
+    required:
+        tutorial_strings.py: |
+            """
+            strings_intro.py — Introduction to Python strings
+
+            This file introduces basic string concepts.
+            It is written as a tutorial with doctests and small tasks to complete.
+
+            Students: read the explanations, run `python -m doctest strings_intro.py` to test,
+            and fill in the TODOs.
+
+            We assume you know variables, if-statements, and loops.
+            """
+
+            # --- 1. Creating and printing strings ---------------------------------------
+
+            def greet() -> str:
+                """
+                Strings are sequences of characters inside quotes. You can use single quotes ('hello') or double quotes ("hello").
+                Even an empty string is valid: "" or ''. These are called string literals.
+                You can directly return a string literal from a function.
+
+                Examples of string literals:
+                  'Hello'
+                  "World"
+                  ''  # empty string
+                  "42"
+
+                >>> greet()
+                'Hello'
+                """
+                # TODO: return a string that says Hello
+                return "Hello"  # placeholder
+
+
+            # --- 2. String indexing -----------------------------------------
+
+            def first_char(s: str) -> str:
+                """
+                Indexing: each character in a string has a position (index). Counting starts at 0.
+                Use s[0] to get the first character.
+
+                For example, for "Python":
+                   P  y  t  h  o  n
+                   0  1  2  3  4  5
+
+                >>> first_char("Python")
+                'P'
+                >>> first_char("abc")
+                'a'
+                """
+                # TODO: return the first character of s
+                return s[0]
+
+
+            def last_char(s: str) -> str:
+                """
+                Negative indexes count from the end. Use s[-1] for the last character, s[-2] for second last.
+
+                >>> last_char("Python")
+                'n'
+                >>> last_char("code")
+                'e'
+                """
+                # TODO: return the last character of s
+                return s[-1]
+
+
+            # --- 3. Combining and repeating strings -------------------------------------
+
+            def excited(word: str) -> str:
+                """
+                + joins (concatenates) strings together. * repeats a string.
+
+                Examples:
+                  'Hi' + '!'  -> 'Hi!'
+                  'Go' * 3    -> 'GoGoGo'
+
+                >>> excited("Hi")
+                'Hi!!!'
+                """
+                # TODO: return word + "!!!"
+                return word + "!!!"
+
+
+            def double_and_space(a: str, b: str) -> str:
+                """
+                You can repeat and combine text to build new strings.
+
+                >>> double_and_space("go", "team")
+                'gogo teamteam'
+                """
+                # TODO: return each word twice with a space between them
+                return a * 2 + " " + b * 2
+
+
+            # --- 4. Checking and searching ----------------------------------------------
+
+            def contains_in_python(x: str) -> bool:
+                """
+                'in' checks if one string occurs inside another.
+                Here we check if the given string is inside the word 'python'.
+
+                >>> contains_in_python('py')
+                True
+                >>> contains_in_python('java')
+                False
+                """
+                # TODO: return whether x is in 'python'
+                return x in "python"
+
+
+            def find_position(sub: str, text: str) -> int:
+                """
+                You can search for a substring by looping.
+                Basic idea:
+                  index = 0
+                  for each character in text:
+                      if text starting at index matches sub:
+                          return index
+                      index += 1
+                  return -1 if not found
+
+                >>> find_position("th", "Python")
+                2
+                >>> find_position("z", "abc")
+                -1
+                """
+                # TODO: implement with a loop instead of text.find()
+                for i in range(len(text) - len(sub) + 1):
+                    if text[i:i+len(sub)] == sub:
+                        return i
+                return -1
+
+
+            # --- 5. Changing case -------------------------------------------------------
+
+            def shout(s: str) -> str:
+                """
+                upper() makes all caps. You can also add extra characters after converting.
+
+                >>> shout("hello")
+                'HELLO!'
+                """
+                return s.upper() + "!"
+
+
+            def quiet(s: str) -> str:
+                """
+                lower() makes all lowercase. You can also add punctuation.
+
+                >>> quiet("LOUD")
+                'loud.'
+                """
+                return s.lower() + "."
+
+
+            # --- 7. Looping over characters ---------------------------------------------
+
+            def count_vowels(s: str) -> int:
+                """
+                To count something in a string:
+                  count = 0
+                  for each character in the string:
+                      if it matches what we want:
+                          increase count
+
+                Here we count vowels (a, e, i, o, u).
+
+                >>> count_vowels("Python")
+                1
+                >>> count_vowels("education")
+                5
+                """
+                count = 0
+                for ch in s.lower():
+                    if ch in "aeiou":
+                        count += 1
+                return count

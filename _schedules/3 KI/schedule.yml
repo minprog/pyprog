@@ -48,22 +48,23 @@ Week 1:
 Week 2:
     Overzicht: /modules/strings
     Overzicht2: /modules/transformaties
+    Werkcollege:
+        Strings-tutorial: /werkcollege/tutorial_strings
     Theorie:
         Boek hst 5 en 6: /boek/boek4
-        #    Debugging: /opdrachten/oud/debug
     Basis-oefeningen:
         Werkcollege string-analyse: /werkcollege/strings
         Analyse: /opdrachten/strings/analyse
         Verschillen: /opdrachten/strings/verschillen
-    Basis-oefeningen2:
-        Werkcollege string-transformatie: /werkcollege/transformatie
-        Transformatie: /opdrachten/strings/transformatie
     Problem solving:
         Alfabet: /opdrachten/strings/alfabet
         Etenstijd: /opdrachten/strings/etenstijd
         Calculator: /opdrachten/strings/calculator
         Wachtwoord: /opdrachten/strings/wachtwoord
         Leesbaarheid: /opdrachten/strings/leesbaarheid
+    Basis-oefeningen2:
+        Werkcollege string-transformatie: /werkcollege/transformatie
+        Transformatie: /opdrachten/strings/transformatie
     Opdrachten:
         Yell: /opdrachten/strings/yell
         Remove vowels: /opdrachten/strings/vwl
