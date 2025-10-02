@@ -38,8 +38,7 @@ files:
                 'Hello'
                 """
                 # TODO: return a string that says Hello
-                return "Hello"  # placeholder
-
+                ...
 
             # --- 2. String indexing -----------------------------------------
 
