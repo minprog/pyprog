@@ -11,8 +11,29 @@ buttons:
 files:
     required:
         lists.py: |
-            # Schrijf hieronder al je functies.
-            # Elke functie moet minstens 2 doctests hebben.
+            # Maak onderstaande functies.
             #
             # Let op: gebruik de knop "Run doctest" om je code uit te
             # proberen en "Run typecheck" om de types te checken.
+            def stretch(s: str) -> str:
+                """
+                Elk teken uit origineel wordt steeds vaker toegevoegd.
+                Zie doctests.
+
+                >>> stretch('abc')
+                'abbccc'
+                >>> stretch('Hoi!')
+                'Hooiii!!!!'
+                """
+
+            def autocorrect(s: str) -> str:
+                """
+                Verwijdert dubbele leestekens en spaties.
+                Dus alles behalve gewone letters en cijfers.
+                Gewone letters en cijfers herken je met .isalnum()
+
+                >>> autocorrect('---')
+                '-'
+                >>> autocorrect('Dit hier,, dit kan niet de bedoeling   zijn.')
+                'Dit hier, dit kan niet de bedoeling zijn.'
+                """
