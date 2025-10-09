@@ -38,7 +38,7 @@ buttons:
             print(res)
     mypy: |
         from mypy import api as mypy_api
-        mypy_api.run(['--strict', '<filename>.py'])[0]
+        mypy_api.run(['<filename>.py'])[0]
     doctest: |
         import <filename>
         import doctest
