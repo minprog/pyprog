@@ -2,7 +2,7 @@ name: oefententamen
 exam: true
 files:
     required:
-        oefententamen.py: ''
+        oefententamen.py: '# Let op: negeer deze type error -> Unsupported left operand type for <'
 buttons:
     check: |
         def find_forbidden(src: str) -> str | None:
@@ -38,7 +38,7 @@ buttons:
             print(res)
     mypy: |
         from mypy import api as mypy_api
-        mypy_api.run(['<filename>.py'])[0]
+        mypy_api.run(['--strict', '<filename>.py'])[0]
     doctest: |
         import <filename>
         import doctest
