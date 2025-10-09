@@ -4,12 +4,12 @@ files:
     required:
         oefententamen.py: ''
 buttons:
-    Check: |
+    check: |
         def find_forbidden(src: str) -> str | None:
             """
-            Vind aanroepen naar ingebouwde string methodes en slicing.
-            Returned een error bericht met de gebruikt methode of slicing en op welke regel.
-            Returned None als er er niks aan de hand is :)
+            Vindt aanroepen naar ingebouwde string methodes en slicing.
+            Returnt een error bericht met de gebruikt methode of slicing en op welke regel.
+            Returnt None als er er niks aan de hand is :)
             """
             method_names = [n for n in dir("") if not n.startswith("__")]
 
@@ -18,7 +18,7 @@ buttons:
                 for line_nr, line in enumerate(lines):
                     if "." + method_name in line:
                         return f"Je mag geen string methodes gebruiken op het tentamen. Zoals {method_name} op regel {line_nr + 1}:\n{line}"
-            
+
             import ast
             msg = None
             class Visitor(ast.NodeVisitor):
@@ -36,7 +36,10 @@ buttons:
         res = find_forbidden(code)
         if res:
             print(res)
-    Run doctest: |
+    mypy: |
+        from mypy import api as mypy_api
+        mypy_api.run(['--strict', '<filename>.py'])[0]
+    doctest: |
         import <filename>
         import doctest
         doctest.testmod(<filename>, verbose=True)
