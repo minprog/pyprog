@@ -2,7 +2,9 @@ name: oefententamen
 exam: true
 files:
     required:
-        oefententamen.py: '# Let op: negeer deze type error -> Unsupported left operand type for <'
+        oefententamen.py: |
+           # Let op: negeer deze type error -> Unsupported left operand type for <
+           # Handig om te gebruiken: 'abcdefghijklmnopqrstuvwxyz'
 buttons:
     check: |
         def find_forbidden(src: str) -> str | None:
