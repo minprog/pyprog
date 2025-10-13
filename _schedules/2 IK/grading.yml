@@ -110,7 +110,7 @@ grades:
     werkcollege_7: *werkcollege
     tentamen_oefening_w2: *werkcollege
 
-    oefententamen: *werkcollege
+    oefententamen: *check
     oefenen_hertentamen: *werkcollege
 
     werkcollege_1_her: *werkcollege_her

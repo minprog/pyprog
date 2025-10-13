@@ -15,11 +15,11 @@ buttons:
             """
             method_names = [n for n in dir("") if not n.startswith("__")]
 
-            lines = src.split("\n")
-            for method_name in method_names:
-                for line_nr, line in enumerate(lines):
-                    if "." + method_name in line:
-                        return f"Je mag geen string methodes gebruiken op het tentamen. Zoals {method_name} op regel {line_nr + 1}:\n{line}"
+            # lines = src.split("\n")
+            # for method_name in method_names:
+            #     for line_nr, line in enumerate(lines):
+            #         if "." + method_name in line:
+            #             return f"Je mag geen string methodes gebruiken op het tentamen. Zoals {method_name} op regel {line_nr + 1}:\n{line}"
 
             import ast
             msg = None
