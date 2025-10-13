@@ -323,6 +323,11 @@ challenges:
         compress: 1
         virus: 1
 
+oefententamen:
+    show_overview: true
+    submits:
+        oefententamen: 1
+
 # week_10:
 #     # show_overview: true
 #     show_progress: true
