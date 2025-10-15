@@ -24,15 +24,15 @@ Week 1:
     Basis-oefeningen:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
-        '[icon:feather] Collatz': /opdrachten/loops/collatz
-        '[icon:feather] Schrikkel': /opdrachten/loops/schrikkel
-        '[icon:feather] Input': /opdrachten/loops/input
-    While-loops:
+        '[icon:lightbulb] Collatz': /opdrachten/loops/collatz
+        '[icon:lightbulb] Schrikkel': /opdrachten/loops/schrikkel
+        '[icon:lightbulb] Input': /opdrachten/loops/input
+        # while
         '[icon:puzzle] Cola': /opdrachten/loops/cola
         '[icon:puzzle] Greedy': /opdrachten/loops/greedy
         '[icon:puzzle] Raadspel': /opdrachten/oud/raadspel
         '[icon:puzzle] Populatie': /opdrachten/simulaties/populatie
-    For-loops:
+        # for
         '[icon:puzzle] Piramide': /opdrachten/loops/piramide
         '[icon:puzzle] Temperatuur': /opdrachten/loops/temperatuur
     Challenges:
