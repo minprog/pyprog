@@ -4,9 +4,9 @@ Welkom:
 # Basic form
 Week 1:
     '[icon:list-check] Overzicht': /modules_kort/programmeren
-    Werkcollege:
-        Formules: /werkcollege/formules
-        Installatie: /installatie/pulsar
+    # Werkcollege:
+    Formules: /werkcollege/formules
+    Installatie: /installatie/pulsar
     Functies en expressies:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
         '[icon:puzzle] Weken': /opdrachten/expressies/weken
@@ -43,29 +43,27 @@ Week 1:
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Week 2:
     '[icon:list-check] Overzicht': /modules_kort/strings
-    Werkcollege:
-        Strings-tutorial: /werkcollege/tutorial_strings
-    Theorie:
-        '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
-    Basis-oefeningen:
+    # Werkcollege:
+    Strings-tutorial: /werkcollege/tutorial_strings
+    # Theorie:
+    '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
+    String-analyse:
         # Werkcollege string-analyse: /werkcollege/strings
-        Analyse: /opdrachten/strings/analyse
-        Verschillen: /opdrachten/strings/verschillen
-    Problem solving:
-        Alfabet: /opdrachten/strings/alfabet
-        Etenstijd: /opdrachten/strings/etenstijd
-        Calculator: /opdrachten/strings/calculator
-        Wachtwoord: /opdrachten/strings/wachtwoord
-        Leesbaarheid: /opdrachten/strings/leesbaarheid
-    Oefeningen transformatie:
-        Transformatie per teken: /opdrachten/strings/char_transformatie
-        Complexere transformatie: /opdrachten/strings/transformatie
-    Problem solving_:
-        Yell: /opdrachten/strings/yell
-        Remove vowels: /opdrachten/strings/vwl
-        Shout: /opdrachten/strings/shout
-        camelCase: /opdrachten/strings/camelcase
-        RNA: /opdrachten/strings/rna
+        '[icon:lightbulb] Analyse': /opdrachten/strings/analyse
+        '[icon:lightbulb] Verschillen': /opdrachten/strings/verschillen
+        '[icon:puzzle] Alfabet': /opdrachten/strings/alfabet
+        '[icon:puzzle] Etenstijd': /opdrachten/strings/etenstijd
+        '[icon:puzzle] Calculator': /opdrachten/strings/calculator
+        '[icon:puzzle] Wachtwoord': /opdrachten/strings/wachtwoord
+        '[icon:puzzle] Leesbaarheid': /opdrachten/strings/leesbaarheid
+    String-transformatie:
+        '[icon:lightbulb] Transformatie per teken': /opdrachten/strings/char_transformatie
+        '[icon:lightbulb] Complexere transformatie': /opdrachten/strings/transformatie
+        '[icon:puzzle] Yell': /opdrachten/strings/yell
+        '[icon:puzzle] Remove vowels': /opdrachten/strings/vwl
+        '[icon:puzzle] Shout': /opdrachten/strings/shout
+        '[icon:puzzle] camelCase': /opdrachten/strings/camelcase
+        '[icon:puzzle] RNA': /opdrachten/strings/rna
         # ROT13: /opdrachten/strings/rot13
     Challenge:
         '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
