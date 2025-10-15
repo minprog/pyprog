@@ -5,8 +5,8 @@ Welkom:
 Week 1:
     '[icon:list-check] Overzicht': /modules_kort/programmeren
     # Werkcollege:
-    Formules: /werkcollege/formules
-    Installatie: /installatie/pulsar
+    'Werkcollege: Formules': /werkcollege/formules
+    'Werkcollege: Installatie': /installatie/pulsar
     Functies en expressies:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
         '[icon:puzzle] Weken': /opdrachten/expressies/weken
@@ -44,7 +44,7 @@ Week 1:
 Week 2:
     '[icon:list-check] Overzicht': /modules_kort/strings
     # Werkcollege:
-    Strings-tutorial: /werkcollege/tutorial_strings
+    'Werkcollege: Strings-tutorial': /werkcollege/tutorial_strings
     # Theorie:
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     String-analyse:
@@ -75,7 +75,7 @@ Week 3:
     # Overzicht2: /modules/algoritmen
     # Theorie:
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
-    Werkcollege list-transformatie en list-analyse: /werkcollege/lists
+    'Werkcollege: lists-tutorial': /werkcollege/lists
     Basis-oefeningen:
         '[icon:rocket-takeoff] Integer lists': /opdrachten/lists/int_lists
         '[icon:rocket-takeoff] List basics': /opdrachten/lists/basics
