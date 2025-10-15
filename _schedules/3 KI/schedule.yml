@@ -73,30 +73,30 @@ Week 2:
 Week 3:
     '[icon:list-check] Overzicht': /modules/lists
     Overzicht2: /modules/algoritmen
-    Theorie:
-        '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
+    # Theorie:
+    '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
+    Werkcollege list-transformatie en list-analyse: /werkcollege/lists
     Basis-oefeningen:
-        Werkcollege list-transformatie en list-analyse: /werkcollege/lists
-        Integer lists: /opdrachten/lists/int_lists
-        List basics: /opdrachten/lists/basics
-        Algoritmen: /werkcollege/algoritmen
+        '[icon:rocket-takeoff] Integer lists': /opdrachten/lists/int_lists
+        '[icon:rocket-takeoff] List basics': /opdrachten/lists/basics
+        '[icon:rocket-takeoff] Algoritmen': /werkcollege/algoritmen
     Opdrachten:
-        Rotate: /opdrachten/lists/rotate #(rotating shift)
-        Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
-        Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
+        '[icon:puzzle] Rotate': /opdrachten/lists/rotate #(rotating shift)
+        '[icon:puzzle] Compact': /opdrachten/lists/compact #(remove 0 or Falsy)
+        '[icon:puzzle] Uniq': /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
         # Flatten: /opdrachten/lists/flatten #(flatten single level)
-        Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
-        Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
-        Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
+        '[icon:puzzle] Chunk': /opdrachten/lists/chunk #(split into chunks of len N)
+        '[icon:puzzle] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
+        '[icon:puzzle] Interleave': /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
         # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
         # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
     Opdrachten2:
         # search?
-        Banner: /opdrachten/algoritmen/banner
-        Scrabble: /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
-        Merge lists: /opdrachten/algoritmen/merge
-        Selection sort: /opdrachten/algoritmen/selection
-        Special sort: /opdrachten/algoritmen/special
+        '[icon:puzzle] Banner': /opdrachten/algoritmen/banner
+        '[icon:puzzle] Scrabble': /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
+        '[icon:puzzle] Merge lists': /opdrachten/algoritmen/merge
+        '[icon:puzzle] Selection sort': /opdrachten/algoritmen/selection
+        '[icon:puzzle] Special sort': /opdrachten/algoritmen/special
         # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
         # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
     Challenge:
