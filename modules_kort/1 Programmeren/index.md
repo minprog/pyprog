@@ -9,7 +9,7 @@ We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 hel
 1. Bereid je eerst voor met de oefening in het werkcollege.
 2. Studeer dan <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#journal-code"></use></svg> in het boek.
 3. Doe oefeningen met een <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#puzzle"></use></svg> puzzelstukje zodat je ziet hoe wij verwachten dat je programmeert.
-4. En maak dan een aantal <a class="nav-link" href="/opdrachten/expressies/water"><svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-2"></use></svg> Water</a> complete Python-programma's waarin de nieuwe Python-onderdelen voorkomen.
+4. En maak dan een aantal <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-2"></use></svg> complete Python-programma's waarin de nieuwe Python-onderdelen voorkomen.
 5. Als je al programmeerervaring hebt kun je meteen door naar de <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-3"></use></svg> challenges waarin je grotere programma's schrijft.
 
 ## Onderwerpen
