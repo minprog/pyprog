@@ -7,25 +7,22 @@ Week 1:
     Werkcollege:
         Formules: /werkcollege/formules
         Installatie: /installatie/pulsar
-    Boek 1:
-        '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
     Functies en expressies:
+        '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
         Weken: /opdrachten/expressies/weken
         Water: /opdrachten/expressies/water
         Binair: /opdrachten/expressies/binair
         Cafeine: /opdrachten/expressies/cafeine
         Vakantie: /opdrachten/expressies/vakantie
-    Boek 2:
-        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
     Conditionals:
+        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
         Acid test: /opdrachten/conditionals/acid
         Schrikkel: /opdrachten/conditionals/schrikkel
         Orakel: /opdrachten/conditionals/orakel
         Byte: /opdrachten/conditionals/byte
         Rechthoeken: /opdrachten/conditionals/rechthoeken
-    Boek 3:
-        '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
     Basis-oefeningen:
+        '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
         Collatz: /opdrachten/loops/collatz
         Schrikkel: /opdrachten/loops/schrikkel
