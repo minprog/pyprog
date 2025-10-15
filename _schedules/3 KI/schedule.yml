@@ -9,18 +9,18 @@ Week 1:
         Installatie: /installatie/pulsar
     Functies en expressies:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
-        Weken: /opdrachten/expressies/weken
-        Water: /opdrachten/expressies/water
-        Binair: /opdrachten/expressies/binair
-        Cafeine: /opdrachten/expressies/cafeine
-        Vakantie: /opdrachten/expressies/vakantie
+        '[icon:puzzle] Weken': /opdrachten/expressies/weken
+        '[icon:puzzle] Water': /opdrachten/expressies/water
+        '[icon:puzzle] Binair': /opdrachten/expressies/binair
+        '[icon:puzzle] Cafeine': /opdrachten/expressies/cafeine
+        '[icon:puzzle] Vakantie': /opdrachten/expressies/vakantie
     Conditionals:
         '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
-        Acid test: /opdrachten/conditionals/acid
-        Schrikkel: /opdrachten/conditionals/schrikkel
-        Orakel: /opdrachten/conditionals/orakel
-        Byte: /opdrachten/conditionals/byte
-        Rechthoeken: /opdrachten/conditionals/rechthoeken
+        '[icon:puzzle] Acid test': /opdrachten/conditionals/acid
+        '[icon:puzzle] Schrikkel': /opdrachten/conditionals/schrikkel
+        '[icon:puzzle] Orakel': /opdrachten/conditionals/orakel
+        '[icon:puzzle] Byte': /opdrachten/conditionals/byte
+        '[icon:puzzle] Rechthoeken': /opdrachten/conditionals/rechthoeken
     Basis-oefeningen:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
@@ -46,7 +46,7 @@ Week 2:
     Werkcollege:
         Strings-tutorial: /werkcollege/tutorial_strings
     Theorie:
-        '[icon:journal-code] Boek hst 5 en 6': /boek/boek4
+        '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     Basis-oefeningen:
         # Werkcollege string-analyse: /werkcollege/strings
         Analyse: /opdrachten/strings/analyse
@@ -76,7 +76,7 @@ Week 3:
     '[icon:list-check] Overzicht': /modules/lists
     Overzicht2: /modules/algoritmen
     Theorie:
-        '[icon:journal-code] Boek 7.1-7.3': /boek/boek5
+        '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Basis-oefeningen:
         Werkcollege list-transformatie en list-analyse: /werkcollege/lists
         Integer lists: /opdrachten/lists/int_lists
