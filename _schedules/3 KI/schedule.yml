@@ -21,7 +21,7 @@ Week 1:
         '[icon:puzzle] Orakel': /opdrachten/conditionals/orakel
         '[icon:puzzle] Byte': /opdrachten/conditionals/byte
         '[icon:puzzle] Rechthoeken': /opdrachten/conditionals/rechthoeken
-    Basis-oefeningen:
+    Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
         '[icon:lightbulb] Collatz': /opdrachten/loops/collatz
