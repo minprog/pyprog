@@ -72,7 +72,7 @@ Week 2:
 # Lots of lists
 Week 3:
     '[icon:list-check] Overzicht': /modules/lists
-    Overzicht2: /modules/algoritmen
+    # Overzicht2: /modules/algoritmen
     # Theorie:
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Werkcollege list-transformatie en list-analyse: /werkcollege/lists
