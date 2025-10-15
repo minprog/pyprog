@@ -1,30 +1,39 @@
-# Functies: Collatz
+# Loops: reeksen
 
-In deze opdracht schrijf je een Python-module met daarin twee functies. Een `main` wordt hier niet gevraagd.
+In deze opdracht schrijf je een Python-module met daarin diverse functies die iets printen. Een `main` wordt hier niet gevraagd.
 
-## De Collatz-reeks
+Lees paragraaf 4.7 van het boek over het printen van reeksen.
 
-Een Collatz-reeks begint bij een getal $$n$$ en eindigt altijd bij $$1$$. De progressie vormt zich als volgt:
+In deze opgave maak je voor elke reeks een aparte functie. Het algemene formaat is zoals in het volgende voorbeeld. Je moet diverse aanpassingen aan doen voor de opgaven! Denk na over welke delen van de code je kan aanpassen om de reeks te veranderen, en wat voor effect elke verandering heeft.
 
-- Als getal $$n$$ even is (dus deelbaar door 2) dan wordt het door twee gedeeld en dat is het volgende getal.
-- Als het getal oneven is dan vermenigvuldig je het met 3 en telt er 1 bij op.
+    def reeks() -> None:
+        """
+        >>> reeks()
+        10
+        20
+        30
+        40
+        50
+        """
+        for i in range(1, 6, 1):
+            print(i * 10)
 
-Een voorbeeld: 3 wordt 10 wordt 5 wordt 16 wordt 8 wordt 4 wordt 2 wordt 1.
+Je ziet hierboven dat we één doctest hebben omdat de functie altijd dezelfde reeks print. Datzelfde doe je bij alle functies hieronder.
 
-## Printen
+## Opgaven
 
-Schrijf een functie `print_collatz` die gegeven een parameter `n` de bijbehorende Collatz-reeks print. Op elke regel komt één getal en de eerste `n` wordt ook geprint. Na het getal 1 eindigt het programma.
+1. Schrijf een functie `reeks1` die met hulp van een `for`-loop precies 10 waarden van deze reeks print: `0 2 4 6 8 10 ...`
 
-Werk het eerst uit op papier in pseudocode; met name de variabelen en loops die je nodig hebt.
+1. Schrijf een functie `reeks2` die met hulp van een `for`-loop precies 12 waarden van deze reeks print: `1 3 5 7 9 11 ...`
 
-## Tellen
+1. Schrijf een functie `reeks3` die met hulp van een `for`-loop precies 15 waarden van deze reeks print: `1 2 5 10 17 26 37 ...`
 
-Schrijf een functie `collatz_length` die gegeven een parameter `n` de lengte van de bijbehorende Collatz-reeks print. Hier worden de Collatz-getallen dus *niet* geprint, maar alleen de totale lengte.
+1. Schrijf een functie `reeks4` die met hulp van een `for`-loop precies 9 waarden van deze reeks print: `5 4 3 2 1 0 -1 -2 -3 ...`
 
-Werk het eerst uit op papier in pseudocode; met name de variabelen en loops die je nodig hebt.
+1. Schrijf een functie `reeks5` die met hulp van een `while`-loop precies 7 waarden van deze reeks print: `1 3 9 27 81 ...` (gebruik `*` om te vermenigvuldigen)
 
-Hints:
+1. Schrijf een functie `reeks6` die met hulp van een `while`-loop precies 10 waarden van deze reeks print: `1000 100 10 1 0 0 ...` (gebruik hier `//` om te delen)
 
-- Je kunt niet vooraf berekenen hoe lang de reeks gaat zijn, dus je moet de reeks berekenen en in de tussentijd een teller bijhouden.
+1. Schrijf een functie `reeks7` die met hulp van een `for`-loop met een `if` precies 10 waarden van deze reeks print: `1 2 * 4 5 * 7 8 * 10 ...`
 
-- Omdat je de reeks wel moet doorlopen kun je de functie baseren op de code van `print_collatz`.
+1. Schrijf een functie `reeks8` die met hulp van een `while`-loop met een `if` precies 10 waarden van deze reeks print: `1 2 # 8 16 # 64 128 # 512 ...` (gebruik `*` om te vermenigvuldigen)
