@@ -1,0 +1,10 @@
+name: programma
+files:
+    required:
+        - prog1.py
+        - prog2.py
+        - prog3.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: prog1 prog2 prog3
