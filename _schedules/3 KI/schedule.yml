@@ -1,9 +1,9 @@
 Welkom:
-    Lees de studiewijzer alvast even door: /syllabus
+    '[icon:patch-exclamation] Lees de studiewijzer alvast even door': /syllabus
 
 # Basic form
 Week 1:
-    Overzicht: /modules_kort/programmeren
+    '[icon:list-check] Overzicht': /modules_kort/programmeren
     Werkcollege:
         Formules: /werkcollege/formules
         Installatie: /installatie/pulsar
@@ -45,7 +45,7 @@ Week 1:
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Week 2:
-    Overzicht: /modules_kort/strings
+    '[icon:list-check] Overzicht': /modules_kort/strings
     Werkcollege:
         Strings-tutorial: /werkcollege/tutorial_strings
     Theorie:
@@ -76,7 +76,7 @@ Week 2:
 
 # Lots of lists
 Week 3:
-    Overzicht: /modules/lists
+    '[icon:list-check] Overzicht': /modules/lists
     Overzicht2: /modules/algoritmen
     Theorie:
         '[icon:journal-code] Boek 7.1-7.3': /boek/boek5
