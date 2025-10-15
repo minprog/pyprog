@@ -28,9 +28,9 @@ Week 1:
         '[icon:rocket-takeoff] Schrikkel': /opdrachten/loops/schrikkel
         '[icon:rocket-takeoff] Input': /opdrachten/loops/input
         # while
-        '[icon:puzzle] Cola': /opdrachten/loops/cola
+        # '[icon:puzzle] Cola': /opdrachten/loops/cola
         '[icon:puzzle] Greedy': /opdrachten/loops/greedy
-        '[icon:puzzle] Raadspel': /opdrachten/oud/raadspel
+        # '[icon:puzzle] Raadspel': /opdrachten/oud/raadspel
         '[icon:puzzle] Populatie': /opdrachten/simulaties/populatie
         # for
         '[icon:puzzle] Piramide': /opdrachten/loops/piramide
