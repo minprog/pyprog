@@ -24,9 +24,9 @@ Week 1:
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
-        '[icon:lightbulb] Collatz': /opdrachten/loops/collatz
-        '[icon:lightbulb] Schrikkel': /opdrachten/loops/schrikkel
-        '[icon:lightbulb] Input': /opdrachten/loops/input
+        '[icon:rocket-takeoff] Collatz': /opdrachten/loops/collatz
+        '[icon:rocket-takeoff] Schrikkel': /opdrachten/loops/schrikkel
+        '[icon:rocket-takeoff] Input': /opdrachten/loops/input
         # while
         '[icon:puzzle] Cola': /opdrachten/loops/cola
         '[icon:puzzle] Greedy': /opdrachten/loops/greedy
@@ -49,16 +49,16 @@ Week 2:
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     String-analyse:
         # Werkcollege string-analyse: /werkcollege/strings
-        '[icon:lightbulb] Analyse': /opdrachten/strings/analyse
-        '[icon:lightbulb] Verschillen': /opdrachten/strings/verschillen
+        '[icon:rocket-takeoff] Analyse': /opdrachten/strings/analyse
+        '[icon:rocket-takeoff] Verschillen': /opdrachten/strings/verschillen
         '[icon:puzzle] Alfabet': /opdrachten/strings/alfabet
         '[icon:puzzle] Etenstijd': /opdrachten/strings/etenstijd
         '[icon:puzzle] Calculator': /opdrachten/strings/calculator
         '[icon:puzzle] Wachtwoord': /opdrachten/strings/wachtwoord
         '[icon:puzzle] Leesbaarheid': /opdrachten/strings/leesbaarheid
     String-transformatie:
-        '[icon:lightbulb] Transformatie per teken': /opdrachten/strings/char_transformatie
-        '[icon:lightbulb] Complexere transformatie': /opdrachten/strings/transformatie
+        '[icon:rocket-takeoff] Transformatie per teken': /opdrachten/strings/char_transformatie
+        '[icon:rocket-takeoff] Complexere transformatie': /opdrachten/strings/transformatie
         '[icon:puzzle] Yell': /opdrachten/strings/yell
         '[icon:puzzle] Remove vowels': /opdrachten/strings/vwl
         '[icon:puzzle] Shout': /opdrachten/strings/shout
