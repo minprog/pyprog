@@ -1,0 +1,8 @@
+name: reeksen
+files:
+    required:
+        - reeksen.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: reeksen

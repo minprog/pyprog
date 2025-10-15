@@ -25,9 +25,10 @@ Week 1:
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
-        '[icon:rocket-takeoff] Collatz': /opdrachten/loops/collatz
-        '[icon:rocket-takeoff] Schrikkel': /opdrachten/loops/schrikkel
-        '[icon:rocket-takeoff] Input': /opdrachten/loops/input
+        '[icon:123] Reeksen': /opdrachten/loops/reeksen
+        '[icon:123] Collatz': /opdrachten/loops/collatz
+        '[icon:123] Schrikkel': /opdrachten/loops/schrikkel
+        '[icon:123] Input': /opdrachten/loops/input
         # while
         # '[icon:puzzle] Cola': /opdrachten/loops/cola
         '[icon:puzzle] Greedy': /opdrachten/loops/greedy
