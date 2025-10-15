@@ -1,5 +1,8 @@
 # Boek: loops
 
 - Werk het boek door van hoofdstuk 4.4 t/m paragraaf 4.7.
-- Doe de oefeningen voor zover nodig (check jezelf goed door wat oefeningen te maken!).
+- Lees de tekst nauwkeurig, maar blijf niet te lang hangen als je iets niet begrijpt.
+- Markeer wat je niet begrijpt met een `*`.
+- Doe de oefeningen voor zover nodig.
+
 - Maak de opgaven 4.45, 4.50, 4.55 en 4.58 en lever in.
