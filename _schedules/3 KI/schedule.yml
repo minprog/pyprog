@@ -11,17 +11,17 @@ Week 1:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
         '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
         '[icon:puzzle] Weken': /opdrachten/expressies/weken
-        '[icon:diagram-3] Water': /opdrachten/expressies/water
+        '[icon:diagram-2] Water': /opdrachten/expressies/water
         # '[icon:puzzle] Binair': /opdrachten/expressies/binair
-        '[icon:diagram-3] Cafeine': /opdrachten/expressies/cafeine
-        '[icon:diagram-3] Vakantie': /opdrachten/expressies/vakantie
+        '[icon:diagram-2] Cafeine': /opdrachten/expressies/cafeine
+        '[icon:diagram-2] Vakantie': /opdrachten/expressies/vakantie
     Conditionals:
         '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
         '[icon:puzzle] Acid test': /opdrachten/conditionals/acid
-        '[icon:diagram-3] Schrikkel': /opdrachten/conditionals/schrikkel
-        '[icon:diagram-3] Orakel': /opdrachten/conditionals/orakel
-        # '[icon:diagram-3] Byte': /opdrachten/conditionals/byte
-        '[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
+        '[icon:diagram-2] Schrikkel': /opdrachten/conditionals/schrikkel
+        '[icon:diagram-2] Orakel': /opdrachten/conditionals/orakel
+        # '[icon:diagram-2] Byte': /opdrachten/conditionals/byte
+        '[icon:diagram-2] Rechthoeken': /opdrachten/conditionals/rechthoeken
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
@@ -30,13 +30,13 @@ Week 1:
         '[icon:puzzle] Schrikkel': /opdrachten/loops/schrikkel
         '[icon:puzzle] Input': /opdrachten/loops/input
         # while
-        # '[icon:diagram-3] Cola': /opdrachten/loops/cola
-        '[icon:diagram-3] Greedy': /opdrachten/loops/greedy
-        # '[icon:diagram-3] Raadspel': /opdrachten/oud/raadspel
-        '[icon:diagram-3] Populatie': /opdrachten/simulaties/populatie
+        # '[icon:diagram-2] Cola': /opdrachten/loops/cola
+        '[icon:diagram-2] Greedy': /opdrachten/loops/greedy
+        # '[icon:diagram-2] Raadspel': /opdrachten/oud/raadspel
+        '[icon:diagram-2] Populatie': /opdrachten/simulaties/populatie
         # for
-        '[icon:diagram-3] Piramide': /opdrachten/loops/piramide
-        '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
+        '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
+        '[icon:diagram-2] Temperatuur': /opdrachten/loops/temperatuur
     Challenges:
         '[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
         '[icon:mortarboard] Priemgetallen': /opdrachten/challenges/priemgetallen
