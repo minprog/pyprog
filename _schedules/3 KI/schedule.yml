@@ -8,7 +8,7 @@ Week 1:
         Formules: /werkcollege/formules
         Installatie: /installatie/pulsar
     Boek 1:
-        Hoofdstuk 1 t/m 3: /boek/boek1
+        '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
     Functies en expressies:
         Weken: /opdrachten/expressies/weken
         Water: /opdrachten/expressies/water
@@ -16,7 +16,7 @@ Week 1:
         Cafeine: /opdrachten/expressies/cafeine
         Vakantie: /opdrachten/expressies/vakantie
     Boek 2:
-        Paragraaf 4.1-4.3: /boek/boek2
+        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
     Conditionals:
         Acid test: /opdrachten/conditionals/acid
         Schrikkel: /opdrachten/conditionals/schrikkel
@@ -24,7 +24,7 @@ Week 1:
         Byte: /opdrachten/conditionals/byte
         Rechthoeken: /opdrachten/conditionals/rechthoeken
     Boek 3:
-        Paragraaf 4.4-4.7: /boek/boek3
+        '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
     Basis-oefeningen:
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
         Collatz: /opdrachten/loops/collatz
@@ -39,8 +39,8 @@ Week 1:
         Piramide: /opdrachten/loops/piramide
         Temperatuur: /opdrachten/loops/temperatuur
     Challenges:
-        Kalender: /opdrachten/challenges/kalender
-        Priemgetallen: /opdrachten/challenges/priemgetallen
+        '[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
+        '[icon:mortarboard] Priemgetallen': /opdrachten/challenges/priemgetallen
 
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
@@ -49,7 +49,7 @@ Week 2:
     Werkcollege:
         Strings-tutorial: /werkcollege/tutorial_strings
     Theorie:
-        Boek hst 5 en 6: /boek/boek4
+        '[icon:journal-code] Boek hst 5 en 6': /boek/boek4
     Basis-oefeningen:
         # Werkcollege string-analyse: /werkcollege/strings
         Analyse: /opdrachten/strings/analyse
@@ -71,15 +71,15 @@ Week 2:
         RNA: /opdrachten/strings/rna
         # ROT13: /opdrachten/strings/rot13
     Challenge:
-        Wachtwoord-generator: /opdrachten/challenges/pwdgen
-        Monopoly: /opdrachten/challenges/monopoly
+        '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
+        '[icon:mortarboard] Monopoly': /opdrachten/challenges/monopoly
 
 # Lots of lists
 Week 3:
     Overzicht: /modules/lists
     Overzicht2: /modules/algoritmen
     Theorie:
-        Boek 7.1-7.3: /boek/boek5
+        '[icon:journal-code] Boek 7.1-7.3': /boek/boek5
     Basis-oefeningen:
         Werkcollege list-transformatie en list-analyse: /werkcollege/lists
         Integer lists: /opdrachten/lists/int_lists
@@ -105,8 +105,8 @@ Week 3:
         # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
         # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
     Challenge:
-        Compress: /opdrachten/challenges/compress #(RLE)
-        Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
+        '[icon:mortarboard] Compress': /opdrachten/challenges/compress #(RLE)
+        '[icon:mortarboard] Virus': /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
 # Oefententamen
 Week 7:
