@@ -4,6 +4,14 @@ Dit is het overzicht voor week 1 van de 8-weekse cursus Programmeren in Python. 
 
 We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 helpen je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te *leren* en niet om te scoren.
 
+## Volgorde
+
+1. Bereid je eerst voor met de oefening in het werkcollege.
+2. Studeer dan <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#journal-code"></use></svg> in het boek.
+3. Doe oefeningen met een <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#puzzle"></use></svg> puzzelstukje zodat je ziet hoe wij verwachten dat je programmeert.
+4. En maak dan een aantal <a class="nav-link" href="/opdrachten/expressies/water"><svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-2"></use></svg> Water</a> complete Python-programma's waarin de nieuwe Python-onderdelen voorkomen.
+5. Als je al programmeerervaring hebt kun je meteen door naar de <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-3"></use></svg> challenges waarin je grotere programma's schrijft.
+
 ## Onderwerpen
 
 Goed, tijd om te programmeren! Je gaat heel snel aan de slag met het uitpuzzelen van echte programmeerproblemen, maar we bouwen ook stap voor stap je kennis op van de ideeën die aan het programmeren ten grondslag liggen.
