@@ -20,6 +20,17 @@ In deze opgaven ga je gespecialiseerde input-functies schrijven. Het doel is om 
 
 Controleren of een invoer een geheel getal is is te lastig voor deze opgaven. Dat doen we niet.
 
+Een voorbeeld van gespecialiseerde input-functie:
+
+    def get_odd_number() -> int:
+        """
+        Deze functie vereist een oneven integer.
+        """
+        result = int(input("Enter an odd int: "))
+        while result % 2 == 0:
+            result = int(input("Enter an odd int: "))
+        return result
+
 ## Positief geheel getal
 
 Schrijf een functie `get_positive_int` die om input vraagt. Je mag ervan uitgaan dat de gebruiker wel een integer intikt, dus geen tekst of kommagetallen. Maar je moet in de functie wél controleren of er sprake is van een positief getal (1 of hoger). Als dat niet zo is, wordt opnieuw om input gevraagd.

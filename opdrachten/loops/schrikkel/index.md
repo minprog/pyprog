@@ -1,10 +1,10 @@
 # Functies: Schrikkel
 
-In deze opdracht schrijf je een Python-module met daarin twee functies. Een `main` wordt hier niet gevraagd.
+In deze opdracht schrijf je een Python-module met daarin drie functies. Een `main` wordt hier niet gevraagd.
 
 ## Schrikkeljaren
 
-In een vorige module heb je al een functie `is_schrikkel` geschreven die bepaalt of een enkel jaartal een schrikkeljaar is. Kopieer deze functie in een nieuwe module genaamd `schrikkel_functies.py`.
+Eerder heb je al een functie `is_schrikkel` geschreven die bepaalt of een enkel jaartal een schrikkeljaar is. Kopieer deze functie in een nieuwe module genaamd `schrikkel_functies.py`.
 
 ## Tellen
 

@@ -1,4 +1,4 @@
-# Functies: Collatz
+# Loops: Collatz
 
 In deze opdracht schrijf je een Python-module met daarin twee functies. Een `main` wordt hier niet gevraagd.
 
