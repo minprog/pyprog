@@ -31,6 +31,12 @@ Een voorbeeld van gespecialiseerde input-functie:
             result = int(input("Enter an odd int: "))
         return result
 
+Let op twee dingen:
+
+- De regel met `input` staat er twee keer! Dit is lelijk maar wel logisch.
+
+- De `while` heeft als voorwaarde dat `result % 2 == 0` ofwel `result` is **even**! Dat klopt, want de loop checkt of er *nog een keer* gevraagd moet worden. Als het getal even is, dan is het fout, dus dan moet er nog een keer gevraagd worden. De `while` loopt checkt dus eigenlijk het omgekeerde van wat je wil zien.
+
 ## Positief geheel getal
 
 Schrijf een functie `get_positive_int` die om input vraagt. Je mag ervan uitgaan dat de gebruiker wel een integer intikt, dus geen tekst of kommagetallen. Maar je moet in de functie wél controleren of er sprake is van een positief getal (1 of hoger). Als dat niet zo is, wordt opnieuw om input gevraagd.
