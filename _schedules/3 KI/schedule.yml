@@ -66,8 +66,9 @@ Week 2:
         '[icon:diagram-2] Shout': /opdrachten/strings/shout
         '[icon:diagram-2] camelCase': /opdrachten/strings/camelcase
         '[icon:diagram-2] RNA': /opdrachten/strings/rna
+        '[icon:puzzle] Algoritmen TBD': /werkcollege/algoritmen
         # ROT13: /opdrachten/strings/rot13
-    Challenge:
+    Challenges:
         '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
         '[icon:mortarboard] Monopoly': /opdrachten/challenges/monopoly
 
@@ -78,21 +79,19 @@ Week 3:
     # Theorie:
     'Werkcollege: lists-tutorial': /werkcollege/lists
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
-    Basis-oefeningen:
+    Oefenen:
         '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists
         '[icon:puzzle] List basics': /opdrachten/lists/basics
-        '[icon:puzzle] Algoritmen': /werkcollege/algoritmen
-    Opdrachten:
         '[icon:diagram-2] Rotate': /opdrachten/lists/rotate #(rotating shift)
         '[icon:diagram-2] Compact': /opdrachten/lists/compact #(remove 0 or Falsy)
         '[icon:diagram-2] Uniq': /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
         # Flatten: /opdrachten/lists/flatten #(flatten single level)
         '[icon:diagram-2] Chunk': /opdrachten/lists/chunk #(split into chunks of len N)
-        '[icon:diagram-2] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
         '[icon:diagram-2] Interleave': /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
         # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
         # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
-    Opdrachten2:
+        '[icon:diagram-2] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
+    Problem solving:
         # search?
         '[icon:puzzle] Banner': /opdrachten/algoritmen/banner
         '[icon:puzzle] Scrabble': /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
@@ -101,7 +100,7 @@ Week 3:
         '[icon:puzzle] Special sort': /opdrachten/algoritmen/special
         # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
         # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
-    Challenge:
+    Challenges:
         '[icon:mortarboard] Compress': /opdrachten/challenges/compress #(RLE)
         '[icon:mortarboard] Virus': /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
