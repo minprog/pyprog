@@ -4,7 +4,7 @@ Dit is het overzicht voor week 1 van de 8-weekse cursus Programmeren in Python. 
 
 We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 helpen je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te *leren* en niet om te scoren.
 
-## Volgorde
+## Studeervolgorde
 
 #### Werkcollege
 
