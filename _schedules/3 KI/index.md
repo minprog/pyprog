@@ -69,6 +69,15 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 
 ## Huiswerk en deadlines
 
+> Regelmaat is belangrijker dan deadlines. De bedoeling is dat je:
+>
+> - Op **maandag** start met de nieuwe onderwerpen in het werkcollege en daarna in het boek studeert. Je kunt dan al een paar oefeningen doen.
+> - Tussen **maandag** en **vrijdag** één of twee dagdelen reserveert om thuis te studeren en te oefenen. Je moet dan een aantal opdrachten hebben gemaakt, hoewel ze misschien niet perfect lukken.
+> - Op **vrijdag** is de werkmiddag en ga je doorwerken met je medestudenten en vragen stellen. Dit is vooral sociaal studeren en niet altijd vol focus. Maar toch is dit een belangrijke stap.
+> - In het **weekend** kun je de finishing touches doen voor een aantal opdrachten. Je kunt ook verder bladeren in het boek en alvast wat lezen.
+>
+> Behalve de colleges kun je natuurlijk zelf sleutelen aan dit plan. Als er maar een plan is.
+
 Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier buiten de colleges aan werkt.
 
 Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. Daarom moet je alle basisopdrachten af hebben vóór de deadline, dus: alles behalve de challenge.
