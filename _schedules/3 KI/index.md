@@ -84,7 +84,7 @@ Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de
 
 Maar "af" betekent niet altijd perfect! Je moet het gros goed hebben, maar geen probleem als je een opdracht niet helemaal goedgekeurd krijgt door de website. Hiervoor kun je in de volgende week nog hulp vragen.
 
-**Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT. In plaats daarvan lever je de opdrachten in die je hebt, en je stuurt een mail om de situatie uit te leggen. We hebben allemaal weleens een planningsfout gemaakt dus leg het gewoon even uit en bespreek de situatie met je docent. Die kan dan meteen meedenken over je verdere planning.**
+**Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT.** In plaats daarvan lever je de opdrachten in die je hebt, en je stuurt een mail om de situatie uit te leggen. We hebben allemaal weleens een planningsfout gemaakt dus leg het gewoon even uit en bespreek de situatie met je docent. Die kan dan meteen meedenken over je verdere planning.
 
 ### Automatische checks
 
