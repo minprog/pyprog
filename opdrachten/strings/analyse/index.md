@@ -45,4 +45,5 @@ Schrijf een functie `has_single_vowel` die een string `s` aanneemt. De functie c
 
 Schrijf een functie `count_vowels` die een string `s` aanneemt en telt hoeveel klinkers erin voorkomen. Als de string leeg is dan is het resultaat ook gewoon `0`.
 
+
 Gebruik de template van de vorige oefening! Een groot deel kun je hergebruiken.
