@@ -35,6 +35,7 @@ Je moet dus checken of <u>alle</u> tekens klinkers zijn. De logica gebiedt dat a
 ## Eén klinker
 
 Schrijf een functie `has_single_vowel` die een string `s` aanneemt. De functie checkt of er minimaal en maximeel één klinker in voorkomt. Je moet dus alle tekens afgaan en een teller bijhouden. Om te checken of één teken een klinker is gebruik je de eerder gemaakte functie `isvowel`.
+
     aantal_klinkers = 0
     for char in s:
         if ...:
@@ -44,6 +45,5 @@ Schrijf een functie `has_single_vowel` die een string `s` aanneemt. De functie c
 ## Klinkers tellen
 
 Schrijf een functie `count_vowels` die een string `s` aanneemt en telt hoeveel klinkers erin voorkomen. Als de string leeg is dan is het resultaat ook gewoon `0`.
-
 
 Gebruik de template van de vorige oefening! Een groot deel kun je hergebruiken.
