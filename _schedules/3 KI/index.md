@@ -119,6 +119,8 @@ Te laat komen
 Ziekmelding
 : Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
 
+Natuurlijk kan je door een persoonlijke omstandigheid ook de wens hebben om niet naar colleges te komen. Het is jouw taak om de docent hierover aan te spreken en goede afspraken te maken.
+
 ## Achterlopen
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
