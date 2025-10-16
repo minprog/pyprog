@@ -24,14 +24,15 @@ De functie kan uit één regel bestaan:
 
 Schrijf een functie `isvowel` die een string `s` aanneemt met daarin één *of meer* tekens en bepaalt of alle tekens in deze string klinkers zijn. Als klinkers beschouwen we: `a`, `e`, `i`, `o` en `u`.
 
-Je moet dus checken of <u>alle</u> tekens klinkers zijn. De logica gebiedt dat als je maar één teken tegenkomt dat <u>geen</u> klinker is, je `False` mag returnen. Het ziet er dan zo uit:
+Je moet dus checken of <u>alle</u> tekens klinkers zijn. De logica gebiedt dat als je ook maar één teken tegenkomt dat <u>geen</u> klinker is, je direct `False` mag returnen. Het ziet er dan zo uit:
 
     for char in s:
         if ...:
             return False
     return True
 
-- Wat moet de functie doen als de gegeven string leeg is? `True` returnen. Check dit in een extra doctest.
+- Dus in de loop zie je dat, op een bepaalde voorwaarde, direct `return False` wordt gedaan.
+- Wat moet de functie doen als de gegeven string leeg is? `True` returnen (dit is makkelijker). Check dit gewenste resultaat in een extra doctest.
 
 ## Eén klinker
 
