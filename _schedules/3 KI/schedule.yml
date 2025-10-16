@@ -25,10 +25,10 @@ Welkom:
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
-        '[icon:puzzle] Reeksen': /opdrachten/loops/reeksen
-        '[icon:puzzle] Collatz': /opdrachten/loops/collatz
-        '[icon:puzzle] Schrikkel': /opdrachten/loops/schrikkel
-        '[icon:puzzle] Input': /opdrachten/loops/input
+        '[icon:puzzle] Reeksen met for en while': /opdrachten/loops/reeksen
+        '[icon:puzzle] Schrikkeljaren tellen in een loop': /opdrachten/loops/schrikkel
+        '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
+        '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
         # while
         # '[icon:diagram-2] Cola': /opdrachten/loops/cola
         '[icon:diagram-2] Greedy': /opdrachten/loops/greedy
