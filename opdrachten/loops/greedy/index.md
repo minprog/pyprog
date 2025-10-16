@@ -1,6 +1,6 @@
 # Greedy
 
-Implementeer een programma dat het minimaal aantal muntjes uitrekent om wisselgeld te geven. 
+Implementeer een programma dat het minimaal aantal muntjes uitrekent om wisselgeld te geven.
 
 	Hoeveel wisselgeld moet er gegeven worden? 0.41
 	4
@@ -31,12 +31,12 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 ## Hints
 
-* De structuur van dit programma lijkt een beetje op die van `water.py`: er is weer duidelijk sprake van invoer, berekening en uitvoer. Het verschil is dat je de berekening nu niet meer kunt schrijven als één formule. Je moet een compleet *algoritme* bedenken!
+* De hoofdstructuur van dit programma lijkt een beetje op die van `water.py`: er is weer duidelijk sprake van invoer, berekening en uitvoer. Het verschil is dat je de berekening nu niet meer kunt schrijven als één formule. Je moet een compleet *algoritme* bedenken!
 
 * Het is handig om gedurende het programma een variabele bij te houden waarin je werkt aan het uiteindelijke antwoord: het aantal terug te geven munten.
+
+* Voor het algoritme gebruik je per munteenheid een while-loop. Trek de waarde van het muntje af van het bedrag dat je nog moet teruggeven, tot dit niet meer gaat (als je 24 cent moet teruggeven kun je geen munt van 25 cent gebruiken).
 
 * Zorg dat, zodra de gebruiker een float heeft ingevuld, je hiervan een integer maakt. Onze munten zijn immers gespecificeerd in een aantal *centen*.
 
 * Om eventuele afrondingsfouten te voorkomen bij het converteren van floats naar integers, rond getallen eerst af door middel van `round()`. Probeer maar eens: `round(7.8)` en `round(7.2)`.
-
-* Hoe je dit probleem precies aanpakt is verder aan jou. Je zou bijvoorbeeld loops kunnen gebruiken of gebruik kunnen maken van de modulo operator `%`. Probeer maar eens `26 % 8`.
