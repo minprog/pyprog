@@ -1,4 +1,4 @@
-# Loops: reeksen
+# Getallenreeksen printen met for en while
 
 In deze opdracht schrijf je een Python-module met daarin diverse functies die iets printen. Een `main` wordt hier niet gevraagd.
 

@@ -25,8 +25,8 @@ Welkom:
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
-        '[icon:puzzle] Reeksen met for en while': /opdrachten/loops/reeksen
-        '[icon:puzzle] Schrikkeljaren tellen in een loop': /opdrachten/loops/schrikkel
+        '[icon:puzzle] Getallenreeksen met for en while': /opdrachten/loops/reeksen
+        '[icon:puzzle] Schrikkeljaren tellen met een loop en een variabele': /opdrachten/loops/schrikkel
         '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
         '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
         # while

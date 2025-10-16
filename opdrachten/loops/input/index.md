@@ -1,4 +1,4 @@
-# Functies: Input
+# Input-loops met while
 
 In deze opdracht schrijf je een Python-module `int_input.py` met daarin vier functies.
 
