@@ -6,11 +6,13 @@ We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 hel
 
 ## Volgorde
 
-Werkcollege
-: Bereid je makkelijk voor met de oefeningen tijdens dit college.
+### Werkcollege
 
-<svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#journal-code"></use></svg> Boek
-: Bestudeer de theorie en uitleg, zodat je weet wat komen gaat.
+Bereid je makkelijk voor met de oefeningen tijdens dit college.
+
+### <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#journal-code"></use></svg> Boek
+
+Bestudeer de theorie en uitleg, zodat je weet wat komen gaat.
 
 <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#puzzle"></use></svg> Puzzelstukjes
 : Gebruik deze oefeningen om programma's volgens een template te schrijven.
