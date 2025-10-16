@@ -6,6 +6,8 @@ We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 hel
 
 ## Studeervolgorde
 
+De onderdelen van de cursus bouwen voort op elkaar. Hieronder vind je de bedoelde volgorde.
+
 #### Werkcollege
 
 Bereid je makkelijk voor met de oefeningen tijdens dit college.
