@@ -51,21 +51,21 @@ Week 2:
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     String-analyse:
         # Werkcollege string-analyse: /werkcollege/strings
-        '[icon:rocket-takeoff] Analyse': /opdrachten/strings/analyse
-        '[icon:rocket-takeoff] Verschillen': /opdrachten/strings/verschillen
-        '[icon:puzzle] Alfabet': /opdrachten/strings/alfabet
-        '[icon:puzzle] Etenstijd': /opdrachten/strings/etenstijd
-        '[icon:puzzle] Calculator': /opdrachten/strings/calculator
-        '[icon:puzzle] Wachtwoord': /opdrachten/strings/wachtwoord
-        '[icon:puzzle] Leesbaarheid': /opdrachten/strings/leesbaarheid
+        '[icon:puzzle] Analyse': /opdrachten/strings/analyse
+        '[icon:puzzle] Verschillen': /opdrachten/strings/verschillen
+        '[icon:diagram-2] Alfabet': /opdrachten/strings/alfabet
+        '[icon:diagram-2] Etenstijd': /opdrachten/strings/etenstijd
+        '[icon:diagram-2] Calculator': /opdrachten/strings/calculator
+        '[icon:diagram-2] Wachtwoord': /opdrachten/strings/wachtwoord
+        '[icon:diagram-2] Leesbaarheid': /opdrachten/strings/leesbaarheid
     String-transformatie:
-        '[icon:rocket-takeoff] Transformatie per teken': /opdrachten/strings/char_transformatie
-        '[icon:rocket-takeoff] Complexere transformatie': /opdrachten/strings/transformatie
-        '[icon:puzzle] Yell': /opdrachten/strings/yell
-        '[icon:puzzle] Remove vowels': /opdrachten/strings/vwl
-        '[icon:puzzle] Shout': /opdrachten/strings/shout
-        '[icon:puzzle] camelCase': /opdrachten/strings/camelcase
-        '[icon:puzzle] RNA': /opdrachten/strings/rna
+        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/char_transformatie
+        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie
+        '[icon:diagram-2] Yell': /opdrachten/strings/yell
+        '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl
+        '[icon:diagram-2] Shout': /opdrachten/strings/shout
+        '[icon:diagram-2] camelCase': /opdrachten/strings/camelcase
+        '[icon:diagram-2] RNA': /opdrachten/strings/rna
         # ROT13: /opdrachten/strings/rot13
     Challenge:
         '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
@@ -76,20 +76,20 @@ Week 3:
     '[icon:list-check] Overzicht': /modules/lists
     # Overzicht2: /modules/algoritmen
     # Theorie:
-    '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     'Werkcollege: lists-tutorial': /werkcollege/lists
+    '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Basis-oefeningen:
-        '[icon:rocket-takeoff] Integer lists': /opdrachten/lists/int_lists
-        '[icon:rocket-takeoff] List basics': /opdrachten/lists/basics
-        '[icon:rocket-takeoff] Algoritmen': /werkcollege/algoritmen
+        '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists
+        '[icon:puzzle] List basics': /opdrachten/lists/basics
+        '[icon:puzzle] Algoritmen': /werkcollege/algoritmen
     Opdrachten:
-        '[icon:puzzle] Rotate': /opdrachten/lists/rotate #(rotating shift)
-        '[icon:puzzle] Compact': /opdrachten/lists/compact #(remove 0 or Falsy)
-        '[icon:puzzle] Uniq': /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
+        '[icon:diagram-2] Rotate': /opdrachten/lists/rotate #(rotating shift)
+        '[icon:diagram-2] Compact': /opdrachten/lists/compact #(remove 0 or Falsy)
+        '[icon:diagram-2] Uniq': /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
         # Flatten: /opdrachten/lists/flatten #(flatten single level)
-        '[icon:puzzle] Chunk': /opdrachten/lists/chunk #(split into chunks of len N)
-        '[icon:puzzle] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
-        '[icon:puzzle] Interleave': /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
+        '[icon:diagram-2] Chunk': /opdrachten/lists/chunk #(split into chunks of len N)
+        '[icon:diagram-2] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
+        '[icon:diagram-2] Interleave': /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
         # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
         # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
     Opdrachten2:
