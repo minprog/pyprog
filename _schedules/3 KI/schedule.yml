@@ -93,11 +93,11 @@ Week 3:
         '[icon:diagram-2] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
     Problem solving:
         # search?
-        '[icon:puzzle] Banner': /opdrachten/algoritmen/banner
-        '[icon:puzzle] Scrabble': /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
-        '[icon:puzzle] Merge lists': /opdrachten/algoritmen/merge
-        '[icon:puzzle] Selection sort': /opdrachten/algoritmen/selection
-        '[icon:puzzle] Special sort': /opdrachten/algoritmen/special
+        '[icon:diagram-2] Banner': /opdrachten/algoritmen/banner
+        '[icon:diagram-2] Scrabble': /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
+        '[icon:diagram-2] Merge lists': /opdrachten/algoritmen/merge
+        '[icon:diagram-2] Selection sort': /opdrachten/algoritmen/selection
+        '[icon:diagram-2] Special sort': /opdrachten/algoritmen/special
         # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
         # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
     Challenges:
