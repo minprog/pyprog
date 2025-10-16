@@ -18,6 +18,7 @@ De functie kan uit één regel bestaan:
         return <hier de formule of c witruimte is>
 
 - Wat moet de functie doen als de gegeven string meer dan één teken bevat? Dat is niet gedefinieerd in deze opgave. Je mag dit negeren.
+- Schrijf minstens twee doctests.
 
 ## Klinker-check
 
@@ -30,7 +31,7 @@ Je moet dus checken of <u>alle</u> tekens klinkers zijn. De logica gebiedt dat a
             return False
     return True
 
-- Wat moet de functie doen als de gegeven string leeg is? `True` returnen. Check dit.
+- Wat moet de functie doen als de gegeven string leeg is? `True` returnen. Check dit in een extra doctest.
 
 ## Eén klinker
 
