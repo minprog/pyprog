@@ -1,18 +1,18 @@
 # Orakel
 
-> **Studeertip.** Heb je nu al ChatGPT gebruikt voor een opdracht? Dat is niet zo gek als je niet weet waar je moet beginnen. Maar: meestal leer je zo niet goed hoe het wél moet. Zorg dus dat je vandaag of morgen nog in gesprek komt met je groepsdocent als je merkt dat je ChatGPT hebt moeten gebruiken.
+> **Studeertip.** Heb je nu al ChatGPT gebruikt voor een opdracht? Dat is niet zo gek als je niet weet waar je moet beginnen. Maar: deze cursus moet echt zonder ChatGPT! Anders ga je het tentamen waarschijnlijk <u>niet</u> halen. Zorg dus dat je vandaag of morgen nog in gesprek komt met je groepsdocent als je merkt dat je ChatGPT hebt moeten gebruiken.
 
-"All right," said the computer, and settled into silence again. The two men fidgeted. The tension was unbearable.  
-"You’re really not going to like it," observed Deep Thought.  
-"Tell us!"  
-"All right," said Deep Thought. "The Answer to the Great Question…"  
-"Yes...!"  
-"Of Life, the Universe and Everything…" said Deep Thought.  
-"Yes...!"  
-"Is.." said Deep Thought, and paused.  
-"Yes...!"  
-"Is.."  
-"Yes...!!!...?"  
+"All right," said the computer, and settled into silence again. The two men fidgeted. The tension was unbearable.
+"You’re really not going to like it," observed Deep Thought.
+"Tell us!"
+"All right," said Deep Thought. "The Answer to the Great Question…"
+"Yes...!"
+"Of Life, the Universe and Everything…" said Deep Thought.
+"Yes...!"
+"Is.." said Deep Thought, and paused.
+"Yes...!"
+"Is.."
+"Yes...!!!...?"
 "Forty-two," said Deep Thought, with infinite majesty and calm.
 
 --- The Hitchhiker’s Guide to the Galaxy, Douglas Adams
