@@ -21,7 +21,7 @@ Week 1:
         '[icon:diagram-2] Schrikkel': /opdrachten/conditionals/schrikkel
         '[icon:diagram-2] Orakel': /opdrachten/conditionals/orakel
         # '[icon:diagram-2] Byte': /opdrachten/conditionals/byte
-        '[icon:diagram-2] Rechthoeken': /opdrachten/conditionals/rechthoeken
+        '[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
@@ -36,7 +36,7 @@ Week 1:
         '[icon:diagram-2] Populatie': /opdrachten/simulaties/populatie
         # for
         '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
-        '[icon:diagram-2] Temperatuur': /opdrachten/loops/temperatuur
+        '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
     Challenges:
         '[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
         '[icon:mortarboard] Priemgetallen': /opdrachten/challenges/priemgetallen
@@ -56,8 +56,8 @@ Week 2:
         '[icon:diagram-2] Alfabet': /opdrachten/strings/alfabet
         '[icon:diagram-2] Etenstijd': /opdrachten/strings/etenstijd
         '[icon:diagram-2] Calculator': /opdrachten/strings/calculator
-        '[icon:diagram-2] Wachtwoord': /opdrachten/strings/wachtwoord
-        '[icon:diagram-2] Leesbaarheid': /opdrachten/strings/leesbaarheid
+        '[icon:diagram-3] Wachtwoord': /opdrachten/strings/wachtwoord
+        '[icon:diagram-3] Leesbaarheid': /opdrachten/strings/leesbaarheid
     String-transformatie:
         '[icon:puzzle] Transformatie per teken': /opdrachten/strings/char_transformatie
         '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie
@@ -65,7 +65,7 @@ Week 2:
         '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl
         '[icon:diagram-2] Shout': /opdrachten/strings/shout
         '[icon:diagram-2] camelCase': /opdrachten/strings/camelcase
-        '[icon:diagram-2] RNA': /opdrachten/strings/rna
+        '[icon:diagram-3] RNA': /opdrachten/strings/rna
         '[icon:puzzle] Algoritmen TBD': /werkcollege/algoritmen
         # ROT13: /opdrachten/strings/rot13
     Challenges:
