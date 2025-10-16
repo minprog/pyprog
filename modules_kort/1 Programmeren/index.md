@@ -6,25 +6,29 @@ We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 hel
 
 ## Volgorde
 
-### Werkcollege
+#### Werkcollege
 
 Bereid je makkelijk voor met de oefeningen tijdens dit college.
 
-### <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#journal-code"></use></svg> Boek
+#### <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#journal-code"></use></svg> Boek
 
 Bestudeer de theorie en uitleg, zodat je weet wat komen gaat.
 
-<svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#puzzle"></use></svg> Puzzelstukjes
-: Gebruik deze oefeningen om programma's volgens een template te schrijven.
+#### <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#puzzle"></use></svg> Puzzelstukjes
 
-<svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-2"></use></svg> Opdrachten
-: Schrijf complete Python-programma's waarin de nieuwe Python-onderdelen voorkomen.
+Gebruik deze oefeningen om programma's volgens een template te schrijven.
 
-<svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-3"></use></svg> Iets complexere opdrachten
-: Oefenen met "problem solving" in de grotere opdrachten (steeds meer per week).
+#### <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-2"></use></svg> Opdrachten
 
-<svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#mortarboard"></use></svg> Challenges
-: Voor zeer ervaren studenten, om grotere programma's te schrijven.
+Schrijf complete Python-programma's waarin de nieuwe Python-onderdelen voorkomen.
+
+#### <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#diagram-3"></use></svg> Iets complexere opdrachten
+
+Oefenen met "problem solving" in de grotere opdrachten (steeds meer per week).
+
+#### <svg class="bi" width="20" height="20" fill="currentColor"><use xlink:href="/icons/bootstrap-icons.svg#mortarboard"></use></svg> Challenges
+
+Voor zeer ervaren studenten, om grotere programma's te schrijven.
 
 ## Onderwerpen
 
