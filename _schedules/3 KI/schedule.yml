@@ -74,7 +74,7 @@ Welkom:
 
 # Lots of lists
 'Week 3: Lists':
-    '[icon:list-check] Overzicht': /modules/lists
+    '[icon:list-check] Overzicht': /modules_kort/lists
     # Overzicht2: /modules/algoritmen
     # Theorie:
     'Werkcollege: lists-tutorial': /werkcollege/lists
