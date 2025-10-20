@@ -72,6 +72,8 @@ grades:
     # module 1
     boek1: *check
 
+    programma: *automatic
+
     weken: *automatic
     water: *automatic
     binair: *automatic
@@ -89,6 +91,7 @@ grades:
     # module 2
     boek3: *check
 
+    reeksen: *automatic
     collatz: *automatic
     schrikkel_functies: *automatic
     int_input: *automatic

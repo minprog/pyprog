@@ -212,43 +212,31 @@ werkcolleges:
 week_1:
     show_progress: true
     small_block_overview: true
-    deadline: 7/9/25 17:00
+    deadline: 2/11/25 17:00
     submits:
-        boek1: 1
-
+        programma: 1
         weken: 1
         water: 1
-        binair: 1
         cafeine: 1
         vakantie: 1
+
         acid: 1
         schrikkel: 1
         orakel: 1
-        byte: 1
         rechthoeken: 1
 
-week_2:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
-    deadline: 14/9/25 17:00
-    submits:
-        boek3: 1
-
-        collatz: 1
+        reeksen: 1
         schrikkel_functies: 1
+        collatz: 1
         int_input: 1
-
-        cola: 1
         greedy: 1
-        raadspel: 1
         populatie: 1
         piramide: 1
         temperatuur: 1
 
-week_3:
-    # show_overview: true
-    show_progress: true
+week_2:
+    show_overview: true
+    # show_progress: true
     small_block_overview: true
     deadline: 21/9/25 17:00
     submits:
@@ -262,13 +250,13 @@ week_3:
         leesbaarheid: 1
 
 checkup:
-    show_overview: true
+    # show_overview: true
     submits:
         checkup: 1
 
 week_4:
-    # show_overview: true
-    show_progress: true
+    show_overview: true
+    # show_progress: true
     small_block_overview: true
     deadline: 28/9/25 17:00
     submits:
@@ -282,8 +270,8 @@ week_4:
 
 
 week_5:
-    # show_overview: true
-    show_progress: true
+    show_overview: true
+    # show_progress: true
     small_block_overview: true
     deadline: 5/10/25 17:00
     submits:
@@ -298,8 +286,8 @@ week_5:
         interleave: 1
 
 week_6:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 12/10/25 17:00
     submits:
@@ -310,6 +298,7 @@ week_6:
         schuifpuzzel: 1
 
 challenges:
+    # show_progress: true
     show_overview: true
     small_block_overview: true
     deadline: 12/10/25 17:00
