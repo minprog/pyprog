@@ -41,6 +41,7 @@ Structuren
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
 Tentamen (22 punten)
+: - Het tentamen vindt plaats in week 8 van het vak en beslaat de hele stof.
 : - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
 : - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
 : - Bij de **tussentoets** halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
