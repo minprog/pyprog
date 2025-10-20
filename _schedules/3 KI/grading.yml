@@ -286,8 +286,8 @@ week_5:
         interleave: 1
 
 week_6:
-    # show_overview: true
-    show_progress: true
+    show_overview: true
+    # show_progress: true
     small_block_overview: true
     deadline: 12/10/25 17:00
     submits:
