@@ -14,7 +14,7 @@ In deze opdracht ga je drie Python-programma's schrijven.
 
 3. Sla op en ga naar de Terminal. Run het programma met `python prog1.py`.
 
-    > We schrijven `python prog1.py` maar welk Python-commando je precies moet geven hangt af van je eigen instellingen. Check eventueel de [installatiepagian(/installatie/pulsar)] voor hints.
+    > We schrijven `python prog1.py` maar welk Python-commando je precies moet geven hangt af van je eigen instellingen. Check eventueel de [installatiepagian](/installatie/pulsar) voor hints.
 
 4. Je programma zou nu om invoer moeten vragen. Tik iets in. Check of het dan nog 3x datzelfde uitprint.
 
