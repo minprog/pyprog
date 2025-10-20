@@ -55,7 +55,9 @@ De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studente
 
 ### Werkcollege op maandag
 
-Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 6 sessies waar je 1 punt per keer kunt verdienen. Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, of te laat, om welke reden dan ook, dan kun je deze punten niet krijgen.
+Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 6 sessies waar je 1 punt per keer kunt verdienen. Het gaat hier om praktische vaardigheden zoals samenwerken, communiceren over code en uitleggen van de werking van code.
+
+Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, of te laat, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
 | Week |  Datum | Werkcollege               |
 | :--: | -----: | ------------------------- |
@@ -77,7 +79,7 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 > - Op **vrijdag** is de werkmiddag en ga je doorwerken met je medestudenten en vragen stellen. Dit is vooral sociaal studeren en niet altijd vol focus. Maar toch is dit een belangrijke stap.
 > - In het **weekend** kun je de finishing touches doen voor een aantal opdrachten. Je kunt ook verder bladeren in het boek en alvast wat lezen.
 >
-> Behalve de colleges kun je natuurlijk zelf sleutelen aan dit plan. Als er maar een plan is.
+> De colleges staan vast, maar verder kun je natuurlijk zelf sleutelen aan dit plan. Als er maar een plan is.
 
 Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier buiten de colleges aan werkt.
 
@@ -95,21 +97,13 @@ Is de opdracht toch niet goedgekeurd, dan vind je op de website meestal iets van
 
 Lukt het niet om binnen een paar pogingen de opdracht alsnog akkoord te krijgen, dan geen paniek, en zeker geen AI! Als je oplossing in principe werkt, en dichtbij wat de bedoeling is, dan voldoet dit in ieder geval voor de deadline. Je gaat dan tijdens het _volgende werkcollege_ met medestudenten en de docent alles alsnog fixen.
 
-Kom je er echt totaal niet uit terwijl je nog middenin je opdrachten zit, dan is het echt tijd om de docent een mail te sturen, of te spreken bij het college. We willen je echt graag meekrijgen maar dan wordt het maatwerk en moeten we samen kijken waar je vastloopt. Dit is niet in een algemene regel te vatten.
+Kom je er echt totaal niet uit terwijl je nog middenin je opdrachten zit, dan is het echt tijd om de docent te spreken bij het college. We willen je echt graag meekrijgen maar dan wordt het maatwerk en moeten we samen kijken waar je vastloopt. Dit is niet in een algemene regel te vatten.
 
 Wat tot slot _niet_ akkoord is, is als je alle opdrachten eruit beukt zonder naar de resultaten te kijken. We weten dat sommige studenten de eerdere instructie iets te licht opvatten en dan geen druk meer voelen om de opdracht echt goed af te maken. Dit is echter _wel_ verplicht, en bovenstaande is alleen bedoeld om ruimte te geven aan studenten die het allemaal nog erg moeilijk vinden.
 
-## Bijeenkomsten en aanwezigheid
+## Aanwezigheid
 
-Werkcollege op maandag
-: Hier ga je steeds aan de slag met nieuwe onderdelen van Python. Vaak eerst op papier en daarna in code. Zoals vermeld bij de becijfering krijg je punten voor actieve deelname aan dit college.
-
-Laptopcollege op vrijdag
-: Dit is de werkmiddag. Hier ga je een groot deel van je voortgang maken met het huiswerk. Er is veel hulp beschikbaar: docenten en assistenten. Ook gaat de docent voorbeelden uitwerken van programma's zodat je kunt meekijken hoe dit in z'n werk gaat.
-
-Let op dat de colleges niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
-
-### Aanwezigheid
+> Let op dat de colleges niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
 
 Aanwezigheid bij colleges
 : Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Hier krijg je nuttige informatie en ga je uren maken met programmeren. Ook bouw je daar een relatie op met docent en medestudenten, wat je in je verdere studie gaat helpen. Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief.
