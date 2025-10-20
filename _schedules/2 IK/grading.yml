@@ -7,50 +7,19 @@ _settings:
 # The section does not need to be called `templates` necessarily.
 
 templates:
-    1: &automatic
+    1: &werkcollege
         type: pass
         subgrades:
-            done: boolean
-        automatic:
-            done: -(correctness_score.floor)
-        calculation: done
-        auto_publish: true
+            meegedaan: boolean
+        calculation: meegedaan
         hide_calculated: true
-    4: &autopoints
-        type: float
-        subgrades:
-            points: integer
-        automatic:
-            points: correctness_score
-        calculation: (points / 6.0 * 9 + 1).round(1)
-        # auto_publish: true
-        hide_subgrades: true
-    2: &manual
-        type: float
-        subgrades:
-            points: integer
-        calculation: points
-        # hide_subgrades: true
-    3: &check
+    2: &check
         type: pass
         subgrades:
             done: boolean
         calculation: done
         hide_calculated: true
-    5: &werkcollege
-        type: pass
-        subgrades:
-            aanwezig: boolean
-            werkblad: boolean
-        calculation: -((aanwezig+werkblad).abs/2)
-        hide_calculated: true
-    7: &werkcollege_her
-        type: pass
-        subgrades:
-            helemaal_goed: boolean
-        calculation: helemaal_goed
-        hide_calculated: true
-    6: &tentamen
+    3: &tentamen
         type: pass
         subgrades:
             voldoende: boolean
@@ -58,7 +27,6 @@ templates:
             voldoende: -(correctness_score.floor)
         calculation: voldoende
         hide_calculated: true
-
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -95,11 +63,12 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
+    checkup: *check
+    oefententamen: *check
 
+    tussentoets_ik: *tentamen
     tentamen_ik: *tentamen
-    tentamen_ki: *tentamen
     hertentamen_ik: *tentamen
-    hertentamen_ki: *tentamen
 
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
@@ -108,28 +77,6 @@ grades:
     werkcollege_5: *werkcollege
     werkcollege_6: *werkcollege
     werkcollege_7: *werkcollege
-    tentamen_oefening_w2: *werkcollege
-
-    oefententamen: *check
-    oefenen_hertentamen: *werkcollege
-
-    werkcollege_1_her: *werkcollege_her
-    werkcollege_2_her: *werkcollege_her
-    werkcollege_3_her: *werkcollege_her
-    werkcollege_4_her: *werkcollege_her
-    werkcollege_5_her: *werkcollege_her
-    werkcollege_6_her: *werkcollege_her
-
-    modules:
-        type: points
-        subgrades:
-            mod_5: boolean
-            virus: boolean
-            mod_6: boolean
-            klima: boolean
-            mod_7: boolean
-            adven: boolean
-        calculation: -(mod_5 * 5 + virus * 3 + mod_6 * 5 + klima * 3 + mod_7 * 5 + adven * 3)
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -193,21 +140,15 @@ werkcolleges:
         werkcollege_4: 1
         werkcollege_5: 1
         werkcollege_6: 1
-        # werkcollege_7: 1
 
-# werkbladen:
-#     show_progress: true
-#     type: points
-#     maximum: 24
-#     minimum: 3.625
-#     submits:
-#         werkcollege_1_her: 1
-#         werkcollege_2_her: 1
-#         werkcollege_3_her: 1
-#         werkcollege_4_her: 1
-#         werkcollege_5_her: 1
-#         werkcollege_6_her: 1
-#         werkcollege_7: 1
+toetsen:
+    show_overview: true
+    submits:
+        checkup: 1
+        oefententamen: 1
+        tussentoets_ik: 1
+        tentamen_ik: 1
+        hertentamen_ik: 1
 
 week_1:
     show_progress: true
@@ -260,11 +201,6 @@ week_3:
         calculator: 1
         wachtwoord: 1
         leesbaarheid: 1
-
-checkup:
-    show_overview: true
-    submits:
-        checkup: 1
 
 week_4:
     # show_overview: true
@@ -322,11 +258,6 @@ challenges:
         monopoly: 1
         compress: 1
         virus: 1
-
-oefententamen:
-    show_overview: true
-    submits:
-        oefententamen: 1
 
 # week_10:
 #     # show_overview: true
