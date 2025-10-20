@@ -13,7 +13,8 @@ Voor deze cursus heb je **Python** nodig en een **editor**.
 
 Heb je problemen met de installatie:
 
-1. check eerst bij de assistenten of je docent
+0. check bovenstaande gpt-hulp
+1. vraag dan de assistenten of je docent tijdens college
 2. ga naar de laptophelpdesk: dinsdag en donderdag 12:00--13:00 in B1.27
     - de eerste drie weken van het studiejaar kun je maandag t/m vrijdag terecht van 10.00 tot 16.00 uur in B1.19A (glazen hok)
 3. als niks helpt, neem dan **direct** contact op via <mailto:pyprog@proglab.nl>
