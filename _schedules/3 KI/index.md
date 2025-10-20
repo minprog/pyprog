@@ -145,4 +145,4 @@ De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker lo
 
 ## Herkansen
 
-Als je dit vak vorig jaar hebt gevolgd en minstens één tentamen hebt gemaakt mag je het vak volgen met weglating van de punten voor de werkcolleges. Dat betekent dat je dan geen werkcolleges volgt en de punten van het tentamen (en tussentoets) het volledige eindcijfer bepalen.
+Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het laptopcollege (zie je rooster). Dat betekent dat de punten van het tentamen (en tussentoets) het volledige eindcijfer bepalen.
