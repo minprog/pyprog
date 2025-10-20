@@ -21,6 +21,7 @@ templates:
         hide_calculated: true
     3: &tentamen
         type: pass
+        exam: true
         subgrades:
             voldoende: boolean
         automatic:
