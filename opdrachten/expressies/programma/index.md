@@ -28,7 +28,7 @@ In deze opdracht ga je drie Python-programma's schrijven.
     - Dan wordt die variabele 3x geprint door 1x `print()` te gebruiken.
     - Tip: je kunt drie keer `hallo` printen met `print('hallo', 'hallo', 'hallo')`. Je moet hier alleen niet `hallo` printen maar wat er is ingevoerd via het toetsenbord. Vervang dus in het voorbeeld `'hallo'` door de naam van de variable.
 
-3. Sla op en ga naar de Terminal. Run het programma met `uv run prog2.py`.
+3. Sla op en ga naar de Terminal. Run het programma met `python prog2.py`.
 
 4. Je programma zou nu om invoer moeten vragen. Tik iets in. Check of het dan op één regel 3x datzelfde uitprint.
 
@@ -42,7 +42,7 @@ In deze opdracht ga je drie Python-programma's schrijven.
     - Dan wordt de absolute waarde geprint van dat getal.
     - Tip: pas de functie `abs()` toe op het getal: bijvoorbeeld met `print(abs(getal))`.
 
-3. Sla op en ga naar de Terminal. Run het programma met `uv run prog3.py`.
+3. Sla op en ga naar de Terminal. Run het programma met `python prog3.py`.
 
 4. Je programma zou nu om invoer moeten vragen. Tik iets in (een negatief getal is wel handig als test). Check of het dan de absolute waarde print.
 
