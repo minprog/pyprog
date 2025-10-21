@@ -4,7 +4,7 @@
 
 Dit vak volg je als je Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
-Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle colleges, alle nieuwe oefeningen en de nieuwe opdrachten die we hebben toegevoegd. Let op dat de eisen voor doctests en dergelijke streng zijn, dus waarschijnlijk moet je sommige programma's nog verbeteren. We helpen je daar graag bij in de colleges!
+Kom je herkansen? Je maakt dan alle huiswerkopdrachten helemaal opnieuw, zonder naar je werk van vorig jaar te kijken. 
 
 ## Docenten en assistenten
 
@@ -70,6 +70,8 @@ Werkcollege (6 punten praktische oefening)
 Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
+
+> Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het laptopcollege (zie je rooster). Dat betekent dat de punten van het tentamen (en tussentoets) het volledige eindcijfer bepalen, en het eindcijfer is dan `punten / 22 * 9 + 1`.
 
 ### Oefeningen werkcollege
 
@@ -140,7 +142,3 @@ Toch is het zinvol om, als je vast zit, met medestudenten de opdracht door te sp
 Het begin van leren programmeren is best oncomfortabel. Het kan zelfs ronduit onprettig voelen. Maar dat betekent niet dat je moet opgeven en betekent zeker niet dat jij het nooit zal leren! Geef jezelf de tijd en ruimte, zelfs als het totaal niet lukt, en puzzel tot er misschien wel een keer iets lukt. Dat kan even duren! En als het je toch teveel wordt (of liever iets eerder), stuur dan gerust een mailtje naar de docenten! We grijpen elke kans aan om je weer op de rails te krijgen.
 
 De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker loopt, onder andere door naar inzendingen te kijken en via gesprekken bij de werkcolleges. Als je opdrachten inlevert die je niet geheel zelf hebt gemaakt dan wordt het daarmee voor de docenten onmogelijk om goed beeld te hebben van je voortgang. We zullen dan denken dat het goed gaat terwijl het helemaal niet zo goed gaat. Kom je dan toch in de problemen, dan moet je echt zelf contact opnemen.
-
-## Herkansen
-
-Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het laptopcollege (zie je rooster). Dat betekent dat de punten van het tentamen (en tussentoets) het volledige eindcijfer bepalen.
