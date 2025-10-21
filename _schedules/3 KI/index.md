@@ -36,6 +36,23 @@ Classes
 Structuren
 : Voor de volgende en laatste stap ga je diverse classes in één programma combineren. Dit is in het begin wel even pittig, maar helpt uiteindelijk juist om grotere programma's overzichtelijk te houden. Je werkt dus ook toe naar een grotere game die je als eindproject gaat bouwen.
 
+## Contact en aanwezigheid
+
+Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de *manier van de cursus*. Om deze reden verwachten we dat je aanwezig bent bij *alle* colleges.
+
+Aanwezigheid bij colleges
+: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Hier krijg je nuttige informatie en ga je uren maken met programmeren. Op de maandagen zijn er activiteiten voor punten en op de vrijdagen kun je bij uitstek samen met anderen programmeren.
+: > Let op dat de colleges niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
+
+Te laat komen
+: Na de starttijd van het werkcollege (maandag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
+
+Ziekmelding
+: Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
+
+Uitzonderingen
+: Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief. Het is niet de bedoeling dat je zomaar wegblijft. Natuurlijk kan je door een persoonlijke omstandigheid ook de wens hebben om helemaal niet naar colleges te komen. Het is jouw taak om de docent hierover aan te spreken en goede afspraken te maken. Hou contact.
+
 ## Onderdelen eindcijfer
 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
@@ -53,7 +70,7 @@ Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
-### Werkcollege op maandag
+### Oefeningen werkcollege
 
 Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 6 sessies waar je 1 punt per keer kunt verdienen. Het gaat hier om praktische vaardigheden zoals samenwerken, communiceren over code en uitleggen van de werking van code.
 
@@ -101,22 +118,7 @@ Kom je er echt totaal niet uit terwijl je nog middenin je opdrachten zit, dan is
 
 Wat tot slot _niet_ akkoord is, is als je alle opdrachten eruit beukt zonder naar de resultaten te kijken. We weten dat sommige studenten de eerdere instructie iets te licht opvatten en dan geen druk meer voelen om de opdracht echt goed af te maken. Dit is echter _wel_ verplicht, en bovenstaande is alleen bedoeld om ruimte te geven aan studenten die het allemaal nog erg moeilijk vinden.
 
-## Aanwezigheid
-
-> Let op dat de colleges niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
-
-Aanwezigheid bij colleges
-: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Hier krijg je nuttige informatie en ga je uren maken met programmeren. Ook bouw je daar een relatie op met docent en medestudenten, wat je in je verdere studie gaat helpen. Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief.
-
-Te laat komen
-: Na de starttijd van het werkcollege (maandag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
-
-Ziekmelding
-: Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
-
-Natuurlijk kan je door een persoonlijke omstandigheid ook de wens hebben om niet naar colleges te komen. Het is jouw taak om de docent hierover aan te spreken en goede afspraken te maken.
-
-## Achterlopen
+### Achterlopen
 
 Red je het niet met het tempo van de opdrachten? Ga dan in overleg met je docent. Als je wel voldoende tijd steekt in het vak, maar je vindt het gewoon best moeilijk, dan is het beter om niet te snel door te gaan. Met je docent kun je een alternatief plan maken. Kun je de docent niet meteen spreken, stuur dan een mail naar <pyprog@proglab.nl>.
 
