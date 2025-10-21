@@ -4,7 +4,7 @@ Wat is een schrikkeljaar? In het werkcollege heb je al een formule samengesteld 
 
 ## Opdracht
 
-Schrijf een functie die bepaalt of een bepaald jaartal een schrikkeljaar is. Schrijf daarbij een `main` die om een jaartal vraagt en dan print of het inderdaad een schrikkeljaar is.
+Schrijf een functie die bepaalt of een bepaald jaartal een schrikkeljaar is. Schrijf daarbij een `main` die om een jaartal vraagt en dan print of het inderdaad een schrikkeljaar is (iets als `2025 is geen schrikkeljaar`).
 
 ## Hint
 
