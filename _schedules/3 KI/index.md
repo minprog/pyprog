@@ -41,7 +41,7 @@ Structuren
 Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de *manier van de cursus* en daarvoor heb je feedback en interacties met de docent en medestudenten nodig. Om deze reden verwachten we dat je aanwezig bent bij *alle* colleges.
 
 Aanwezigheid bij colleges
-: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Op de maandagen zijn er activiteiten voor punten en op de vrijdagen kun je bij uitstek samen met anderen programmeren.
+: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Op de maandagen zijn er activiteiten voor punten en op de vrijdagen kun je bij uitstek samen met anderen programmeren. Als je één keer een vrijdag mist is dat natuurlijk geen probleem. Meld je wel even af via <mailto:pyprog@proglab.nl>.
 
 Te laat komen
 : Na de starttijd van het werkcollege (maandag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
