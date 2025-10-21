@@ -38,11 +38,10 @@ Structuren
 
 ## Contact en aanwezigheid
 
-Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de *manier van de cursus*. Om deze reden verwachten we dat je aanwezig bent bij *alle* colleges.
+Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de *manier van de cursus* en daarvoor heb je feedback en interacties met de docent en medestudenten nodig. Om deze reden verwachten we dat je aanwezig bent bij *alle* colleges.
 
 Aanwezigheid bij colleges
-: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Hier krijg je nuttige informatie en ga je uren maken met programmeren. Op de maandagen zijn er activiteiten voor punten en op de vrijdagen kun je bij uitstek samen met anderen programmeren.
-: > Let op dat de colleges niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
+: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Op de maandagen zijn er activiteiten voor punten en op de vrijdagen kun je bij uitstek samen met anderen programmeren.
 
 Te laat komen
 : Na de starttijd van het werkcollege (maandag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
@@ -52,6 +51,8 @@ Ziekmelding
 
 Uitzonderingen
 : Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief. Het is niet de bedoeling dat je zomaar wegblijft. Natuurlijk kan je door een persoonlijke omstandigheid ook de wens hebben om helemaal niet naar colleges te komen. Het is jouw taak om de docent hierover aan te spreken en goede afspraken te maken. Hou contact.
+
+> Let op dat de colleges niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
 
 ## Onderdelen eindcijfer
 
