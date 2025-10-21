@@ -4,7 +4,7 @@
 
 Dit vak volg je als je Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
-Kom je herkansen? Je maakt dan alle huiswerkopdrachten helemaal opnieuw, zonder naar je werk van vorig jaar te kijken. 
+Kom je herkansen? Je maakt dan alle huiswerkopdrachten helemaal opnieuw, zonder naar je werk van vorig jaar te kijken. Er zijn aparte colleges voor deze groep.
 
 ## Docenten en assistenten
 
@@ -71,7 +71,7 @@ Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
-> Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het laptopcollege (zie je rooster). Dat betekent dat de punten van het tentamen (en tussentoets) het volledige eindcijfer bepalen, en het eindcijfer is dan `punten / 22 * 9 + 1`.
+> Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het laptopcollege (zie je rooster). Dat betekent dat de punten van het tentamen en/of tussentoets het volledige eindcijfer bepalen, en het eindcijfer is dan `punten / 22 * 9 + 1`.
 
 ### Oefeningen werkcollege
 
