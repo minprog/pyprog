@@ -77,7 +77,7 @@ Welkom:
     '[icon:list-check] Overzicht': /modules_kort/lists
     # Overzicht2: /modules/algoritmen
     # Theorie:
-    'Werkcollege: lists-tutorial': /werkcollege/lists
+    'Werkcollege: Lists-tutorial': /werkcollege/lists
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Oefenen:
         '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists

@@ -92,6 +92,8 @@ Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te
 
 ## Huiswerk en deadlines
 
+Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren. De wekelijkse deadline valt op vrijdag. Een groot deel van de studenten kan deze deadline halen.
+
 > Regelmaat is belangrijker dan deadlines. De bedoeling is dat je:
 >
 > - Op **maandag** start met de nieuwe onderwerpen in het werkcollege en daarna in het boek studeert. Je kunt dan al een paar oefeningen doen.
@@ -101,13 +103,11 @@ Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te
 >
 > De colleges staan vast, maar verder kun je natuurlijk zelf sleutelen aan dit plan. Als er maar een plan is.
 
-Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk tijdens de colleges moet je een bepaalde hoeveelheid opdrachten maken en inleveren via de website. De wekelijkse deadline valt op zondag, zodat je vrijheid hebt om zelf te plannen wanneer je hier buiten de colleges aan werkt.
+Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om de tussentoets en het tentamen te kunnen halen. Toch zijn er ook grote verschillen tussen studenten, dus het is niet altijd haalbaar om bij te blijven. We hebben in dat geval liever dat je het goed doet dan snel! Bespreek dit ook met je docent.
 
-Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de stof om het tentamen te kunnen halen. Daarom moet je alle basisopdrachten af hebben vóór de deadline, dus: alles behalve de challenge.
+> Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT. Bij dit vak gaat het om de basics, die je moet beheersen zonder hulp. Dat is ook precies wat we op het tentamen checken.
 
-Maar "af" betekent niet altijd perfect! Je moet het gros goed hebben, maar geen probleem als je een opdracht niet helemaal goedgekeurd krijgt door de website. Hiervoor kun je in de volgende week nog hulp vragen.
-
-**Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT.** In plaats daarvan lever je de opdrachten in die je hebt, en je stuurt een mail om de situatie uit te leggen. We hebben allemaal weleens een planningsfout gemaakt dus leg het gewoon even uit en bespreek de situatie met je docent. Die kan dan meteen meedenken over je verdere planning.
+Oh, het is geen probleem als je een opdracht niet helemaal goedgekeurd krijgt door de website! Tijdens de colleges op maandag los je dit op met hulp van de docent.
 
 ### Automatische checks
 
