@@ -81,7 +81,7 @@ Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
 ## Deadline
 
-De bedoeling is dat je deze week in totaal zo'n 20--25 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is **zondag**. Als je zondag zo'n beetje alle opdrachten hebt gedaan *en ook begrepen* dan ben je goed bij. De challenge is alleen bedoeld voor studenten die erg snel gaan.
+De bedoeling is dat je deze week in totaal zo'n 20--25 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is **vrijdag**. Als je vrijdag zo'n beetje alle opdrachten hebt gedaan *en ook begrepen* dan ben je goed bij. De challenge is alleen bedoeld voor studenten die erg snel gaan.
 
 ## Beoordeling
 
