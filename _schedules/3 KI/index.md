@@ -97,7 +97,7 @@ Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk t
 Regelmaat is belangrijker dan deadlines. De bedoeling is dat je:
 
 - Op **maandag** start met de nieuwe onderwerpen in het werkcollege en daarna in het boek studeert. Je kunt dan al een paar oefeningen doen.
-- Tussen **maandag** en **vrijdag** één of twee dagdelen reserveert om thuis te studeren en te oefenen. Je moet dan een aantal opdrachten hebben gemaakt, hoewel ze misschien niet perfect lukken.
+- Tussen **maandag** en **vrijdag** twee of drie dagdelen reserveert om thuis te studeren en te oefenen. Je moet dan een aantal opdrachten hebben gemaakt, hoewel ze misschien niet perfect lukken.
 - Op **vrijdag** is de werkmiddag en ga je doorwerken met je medestudenten en vragen stellen. Dit is vooral sociaal studeren en niet altijd vol focus. Maar toch is dit een belangrijke stap.
 - In het **weekend** kun je de finishing touches doen voor een aantal opdrachten. Je kunt ook verder bladeren in het boek en alvast wat lezen.
 
