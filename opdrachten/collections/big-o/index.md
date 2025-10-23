@@ -1,70 +1,109 @@
-# Complexity questions
+# Complexiteitsvragen
 
-In the file `questions.txt` write down the answers to the questions below.
+Alle onderstaande codefragmenten gebruiken een datastructuur die gegevens bevat. Bepaal de big O-complexiteit in termen van `n` voor deze fragmenten, waarbij `n` het aantal elementen in de datastructuur vertegenwoordigt. Als de big O-complexiteit van een algoritme bijvoorbeeld kwadratisch is, moet je antwoord `O(n^2)` zijn.
 
-All the code fragments below have some structure that holds data. Determine the big O complexity in terms of `n` for these fragments, where `n` is a variable that represents the number of elements in the datastructure. If for example the big O complexity of an algorithm is quadratic, your answer should be "O(n^2)".
+## Complexiteit van ingebouwde operaties
 
-## Complexity of built-in operations
+De complexiteit van de pseudocode moet je kunnen beredeneren, maar je moet ook weten wat de inherente complexiteit is van de operaties die je in Python kunt uitvoeren, zoals het toevoegen van een element aan een lijst. Op <https://wiki.python.org/moin/TimeComplexity> vind je de tijdcomplexiteit van ingebouwde operaties op `list`, `set` en `dict`.
 
-On <https://wiki.python.org/moin/TimeComplexity> you can find the Time Complexity for each built-in operation of `list`, `set` and `dict`. 
+De tabellen op deze website geven zowel de gemiddelde als de worst-case complexiteit. Voor deze opdracht vragen we je **de gemiddelde complexiteit uit de tabel te gebruiken**. De reden hiervoor is dat `set` en `dict` gemiddeld uitzonderlijk goed presteren, en de worst-case zelden voorkomt. Voor het vergelijken van algoritmes is de worst-case daarom vaak niet relevant. Maar let op: in kritieke situaties waarin prestaties belangrijk zijn, kan het zijn dat "Individuele acties onverwacht lang duren".
 
-The different tables on this website list both the avarage complexity and the worst-case complexity. For this assignment we ask you to **use the avarage complexity from the table**. The reasoning here is that `set` and `dict` have incredible avarage case performance, but very rarely hit a worst case performance. For algorithm comparison reasons, the latter is often not worth considering. That said, in critical high performance situations, it is worth considering that "Individual actions may take surprisingly long".
+Tip: `print` heeft complexiteit O(1).
 
-### Question 1
+## Template voor antwoorden
 
-Consider the following pseudo code. Take `n` to be the length of the list.
+Vul steeds de Big-O in en geef op de regel(s) eronder een precieze afleiding van dit resultaat.
+
+    Vraag 1: O(...)
+    uitleg...
+
+    Vraag 2: O(...)
+    uitleg...
+
+    Vraag 3: O(...)
+    uitleg...
+
+    Vraag 4: O(...)
+    uitleg...
+
+    Vraag 5: O(...)
+    uitleg...
+
+    Vraag 6: O(...)
+    uitleg...
+
+Als voorbeeld geven we de volgende pseudocode:
+
+    for every element in the list L:
+        if element not in set S:
+            add to set S
+
+Onze uitwerking:
+
+    Voorbeeld: O(n)
+    We lopen langs alle n elementen van L
+    In de loop doen we soms een add, en die kost O(1) per keer
+    Daarom is het geheel ook O(n)
+
+### Vraag 1
+
+Bepaal de complexiteit van de volgende regels pseudocode. Neem voor `n` de lengte van de lijst.
 
     while list is not sorted:
         for every element in the list:
             if this element > element to the right:
                 swap element with element to the right
 
-### Question 2
+### Vraag 2
 
-For determining the complexity of the code below you don't need to take the first line into account.
+Gegeven is de volgende set:
 
     my_set = set([42, 21, 7, 3, 2])
 
-    # determine complexity of part here below:
+Bepaal de complexiteit van de volgende regels pseudocode.
+
     if 14 in my_set:
-        print("found :)")
+        print("gevonden :)")
     else:
-        print("not found :(")
+        print("niet gevonden :(")
 
-### Question 3
+### Vraag 3
 
-For determining the complexity of the code below you don't need to take the first line into account.
+Gegeven is de volgende set:
 
     my_set = set([42, 21, 7, 3, 2])
 
-    # determine complexity of part here below:
-    for i in range(len(my_set):
+Bepaal de complexiteit van de volgende regels pseudocode.
+
+    for i in range(len(my_set)):
         if i in my_set:
-            print(f"{i}: found :)")
+            print(f"{i}: gevonden :)")
         else:
-            print(f"{i}: not found :(")
+            print(f"{i}: niet gevonden :(")
 
-### Question 4
+### Vraag 4
 
-For determining the complexity of the code below you don't need to take the first three lines into account.
+Gegeven is de volgende opzet:
 
     n = 10
     set1 = set(range(0, n))
     set2 = set(range(n//2, n + n//2))
 
-    # determine complexity of part here below:
+Bepaal de complexiteit van de volgende regels pseudocode.
+
     intersection = set1 & set2
     print(intersection)
 
-### Question 5
+### Vraag 5
 
-For determining the complexity of the code below you don't need to take the first three lines into account.
+Gegeven is de volgende opzet:
 
     n = 10
     list1 = list(range(0, n))
     list2 = list(range(n//2, n + n//2))
 
-    # determine complexity of part here below:
+Bepaal de complexiteit van de volgende regels pseudocode.
+
     intersection = []
     for element in list1:
         if element in list2:
@@ -72,14 +111,16 @@ For determining the complexity of the code below you don't need to take the firs
 
     print(intersection)
 
-### Question 6
+### Vraag 6
 
-For determining the complexity of the code below you don't need to take the first four lines into account.
+Gegeven is de volgende opzet:
 
     n = 10
     my_dict = {}
     for key in range(n):
         my_dict[key] = list(range(2 * key, 2 * key + n))
+
+Bepaal de complexiteit van de volgende regels pseudocode.
 
     for i in range(n):
         my_list = my_dict[i]
