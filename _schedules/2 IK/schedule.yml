@@ -116,30 +116,29 @@ Week 6:
         Banner: /opdrachten/algoritmen/banner
         Scrabble: /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
         Merge lists: /opdrachten/algoritmen/merge
+        # Algorithms: /opdrachten/week5/algorithms # Papieren oefening
         Selection sort: /opdrachten/algoritmen/selection
         Special sort: /opdrachten/algoritmen/special
-        # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
-        # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
     Challenge:
         Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
 # Oefententamen
 Week 7:
     Werkcollege:
-        Oefententamen: /werkcollege/wc4her
+        Oefententamen: /tentamen/oefententamen
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Collections intro
 Week 9:
-    Overzicht en beoordeling: /modules/collections
-    Werkcollege:
-        Collections: /werkcollege/collections
-    Opdrachten:
-        # TODO meer oefeningen
-        # Collections: /opdrachten/collections/collection_functions
-        # Algorithms: /opdrachten/week5/algorithms
-
+    '[icon:list-check] Overzicht': /modules/collections
+    'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
+    '[icon:journal-code] Hoofdstuk 8': /boek/boek5
+    Oefenen:
+        '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
+    Problem Solving:
+        '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
+        '[icon:diagram-2] Schuifpuzzel': /opdrachten/lists/schuifpuzzel
 
 Week 10:
     Opdrachten:

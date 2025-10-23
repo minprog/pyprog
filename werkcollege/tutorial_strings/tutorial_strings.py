@@ -1,0 +1,204 @@
+"""
+tutorial_strings.py
+
+Students: read the explanations, run `python -m doctest tutorial_strings.py` to test,
+and fill in the TODOs.
+
+We assume you know variables, if-statements, and loops.
+"""
+
+# --- 1. Creating and printing strings ---------------------------------------
+
+def greet() -> str:
+    """
+    Strings are sequences of characters inside quotes. You can use single quotes
+    ('hello') or double quotes ("hello").
+    Even an empty string is valid: "" or ''. These are called string literals.
+    You can directly return a string literal from a function.
+
+    Examples of string literals:
+        'Hello'
+        "World"
+        ''  # empty string
+        "42"
+
+    >>> greet()
+    'Hello'
+    """
+    # TODO: return a string that says Hello
+    ...
+
+# --- 2. String indexing -----------------------------------------
+
+def first_char(s: str) -> str:
+    """
+    Indexing: each character in a string has a position (index). Counting starts
+    at 0. Use s[0] to get the first character, s[1] to get the second, etc.
+
+    For example, for the string "Python" we have these indexes:
+        P  y  t  h  o  n
+        0  1  2  3  4  5
+
+    >>> first_char("Python")
+    'P'
+    >>> first_char("abc")
+    'a'
+    """
+    # TODO: return the first character of s
+    ...
+
+def last_char(s: str) -> str:
+    """
+    Negative indexes count from the end. Use s[-1] for the last character, s[-2] for second last.
+
+    >>> last_char("Python")
+    'n'
+    >>> last_char("code")
+    'e'
+    """
+    # TODO: return the last character of s
+    ...
+
+# --- 3. Combining and repeating strings -------------------------------------
+
+def excited(word: str) -> str:
+    """
+    You can do 'calculations' with strings:
+    + joins (concatenates) strings together
+    * repeats a string
+
+    Examples:
+        'Hi' + '!'  -> 'Hi!'
+        'Go' * 3    -> 'GoGoGo'
+
+    >>> excited("Hi")
+    'Hi!!!'
+    """
+    # TODO: return a string with the original word and then '!!!'
+    ...
+
+def double_and_space(a: str, b: str) -> str:
+    """
+    You can repeat and combine text to build new strings.
+
+    >>> double_and_space("go", "team")
+    'gogo teamteam'
+    """
+    # TODO: read the doctest and figure out how it should work
+    ...
+
+# --- 4. Checking and searching ----------------------------------------------
+
+def part_of_python(x: str) -> bool:
+    """
+    'in' checks if one string occurs inside another.
+    For example, you can check whether:
+        'a' in 'dog' -> False
+        'o' in 'dog' -> True
+        'dog' in 'dog' -> True
+
+    Here we want to check if a given string is part of the word 'python'
+
+    >>> part_of_python('py')
+    True
+    >>> part_of_python('n')
+    True
+    >>> part_of_python('java')
+    False
+    """
+    # TODO
+    ...
+
+def has_O(x: str) -> bool:
+    """
+    Just as well, you can also use a loop to check every character of a string.
+    Something like:
+
+        for char in s:
+            if char == ...:
+                return True
+        return False
+
+    We check every char and return True *immediately* when we find what
+    we need. If our loop finishes without hitting the return, we know
+    that wat we need is not present, so we return False.
+    """
+    # TODO: write a loop that returns True if letter 'O' is in the given string,
+    # else False.
+    ...
+
+def has_no_O(x: str) -> bool:
+    """
+    You can write a similar loop to check that something is definitely NOT
+    present in the string. Start with the loop from the previous exercise.
+    """
+    # TODO: write a loop that returns True if letter 'O' is NOT in the given string,
+    # else False.
+    ...
+
+def where_O_at(text: str) -> int:
+    """
+    If you use an indexed loop you could find out WHERE a character can be found.
+
+        for index in range(len(s)):
+            if s[index] == ...:
+                return index
+
+    It's common to return -1 if the thing cannot be found.
+
+    >>> where_O_at("Python")
+    2
+    >>> where_O_at("abc")
+    -1
+    """
+    # TODO: return position of first letter 'O' or else -1
+    ...
+
+# --- 5. Changing case -------------------------------------------------------
+
+def shout(s: str) -> str:
+    """
+    upper() makes all caps
+
+        'boe'.upper() -> 'BOE'
+        's'.upper() -> 'S'
+
+    >>> shout("hello")
+    'HELLO!'
+    """
+    # TODO read the doctest very carefully!
+    ...
+
+def quiet(s: str) -> str:
+    """
+    lower() makes all lowercase
+
+        'Universum'.lower() -> 'universum'
+
+    >>> quiet("LOUD")
+    'loud...'
+    """
+    # TODO read the doctest very carefully!
+    ...
+
+# --- 7. Looping over characters ---------------------------------------------
+
+def count_vowels(s: str) -> int:
+    """
+    To count something in a string:
+        count = 0
+        for each character in the string:
+            if it matches what we want:
+                increase count
+
+    Here we count vowels (a, e, i, o, u).
+    Hint: find a way to use `in` to check if something is a vowel!
+
+    >>> count_vowels("education")
+    5
+    >>> count_vowels("Python")
+    1
+    >>> count_vowels("RODENT!")
+    2
+    """
+    # TODO

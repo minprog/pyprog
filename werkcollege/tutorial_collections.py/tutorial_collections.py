@@ -1,0 +1,185 @@
+"""
+tutorial_collections.py
+
+Students: read the explanations, run `python -m doctest tutorial_collections.py` to test,
+and fill in the TODOs.
+
+We assume you know variables, if-statements, and loops.
+"""
+
+# --- 1. Tuples --------------------------------------------------------------
+
+def make_tuple() -> tuple:
+    """
+    A tuple is an ordered collection of items. You write it using parentheses.
+    Tuples can hold different data types, and cannot be changed (immutable).
+
+    Examples:
+        (1, 2, 3)
+        ('a', 'b', 'c')
+        ('x', 10, True)
+
+    >>> make_tuple()
+    (1, 2, 3)
+    """
+    # TODO: return a simple tuple with numbers 1, 2, 3
+    ...
+
+
+def first_of_tuple(t: tuple):
+    """
+    You can access items in a tuple by index, just like with strings or lists.
+
+    >>> first_of_tuple((10, 20, 30))
+    10
+    >>> first_of_tuple(('a', 'b', 'c'))
+    'a'
+    """
+    # TODO: return the first element of t
+    ...
+
+
+def pair(a, b) -> tuple:
+    """
+    You can create tuples from variables.
+
+    >>> pair('x', 'y')
+    ('x', 'y')
+    >>> pair(5, 9)
+    (5, 9)
+    """
+    # TODO: return a tuple of (a, b)
+    ...
+
+
+# --- 2. Sets ----------------------------------------------------------------
+
+def make_set() -> set:
+    """
+    A set is an unordered collection of unique items.
+    You write it using curly braces { } or the set() function.
+
+    Examples:
+        {1, 2, 3}
+        set([1, 2, 2, 3]) -> {1, 2, 3}
+
+    >>> make_set() == {1, 2, 3}
+    True
+    """
+    # TODO: return a set with numbers 1, 2, 3
+    ...
+
+
+def add_item(s: set, item) -> set:
+    """
+    You can add items to a set using .add()
+
+    >>> add_item({1, 2}, 3) == {1, 2, 3}
+    True
+    """
+    # TODO: add the given item to the set and return it
+    ...
+
+
+def has_item(s: set, x) -> bool:
+    """
+    You can check membership with 'in'
+
+    >>> has_item({1, 2, 3}, 2)
+    True
+    >>> has_item({1, 2, 3}, 5)
+    False
+    """
+    # TODO: return whether x is in the set
+    ...
+
+
+def union_of_sets(a: set, b: set) -> set:
+    """
+    You can combine sets using | (union) or .union()
+
+    >>> union_of_sets({1, 2}, {2, 3}) == {1, 2, 3}
+    True
+    """
+    # TODO: return the union of a and b
+    ...
+
+
+# --- 3. Dictionaries --------------------------------------------------------
+
+def make_dict() -> dict:
+    """
+    A dictionary (dict) maps keys to values. You write it using curly braces,
+    with key: value pairs.
+
+    Examples:
+        {'a': 1, 'b': 2}
+        {'name': 'Alice', 'age': 20}
+
+    >>> make_dict() == {'a': 1, 'b': 2}
+    True
+    """
+    # TODO: return a dict with keys 'a' and 'b' mapped to 1 and 2
+    ...
+
+
+def get_value(d: dict, key):
+    """
+    You can get a value by key using [ ].
+
+    >>> get_value({'x': 10, 'y': 20}, 'y')
+    20
+    """
+    # TODO: return the value for the given key
+    ...
+
+
+def add_pair(d: dict, key, value) -> dict:
+    """
+    You can add or change a key-value pair by assignment.
+
+    >>> add_pair({'a': 1}, 'b', 2) == {'a': 1, 'b': 2}
+    True
+    """
+    # TODO: add key-value to dict and return it
+    ...
+
+
+def has_key(d: dict, key) -> bool:
+    """
+    You can check if a key exists using 'in'
+
+    >>> has_key({'a': 1, 'b': 2}, 'b')
+    True
+    >>> has_key({'a': 1, 'b': 2}, 'z')
+    False
+    """
+    # TODO: return True if key is in d
+    ...
+
+
+def keys_and_values(d: dict) -> tuple:
+    """
+    dict.keys() gives all keys, dict.values() gives all values.
+
+    >>> keys_and_values({'x': 10, 'y': 20})
+    (['x', 'y'], [10, 20])
+    """
+    # TODO: return a tuple (list_of_keys, list_of_values)
+    ...
+
+
+# --- 4. Practice: combine ---------------------------------------------------
+
+def invert_dict(d: dict) -> dict:
+    """
+    You can loop over a dictionary using:
+        for key, value in d.items():
+
+    Let's make a new dictionary where keys and values are swapped.
+
+    >>> invert_dict({'a': 1, 'b': 2})
+    {1: 'a', 2: 'b'}
+    """
+    # TODO: build and return the inverted dict
+    ...

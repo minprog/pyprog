@@ -1,0 +1,261 @@
+"""
+tutorial_lists.py
+
+Students: read the explanations, run `python -m doctest tutorial_lists.py` to test,
+and fill in the TODOs.
+
+We assume you already know about strings, indexing, and loops.
+"""
+
+# --- 1. Creating and printing lists -----------------------------------------
+
+def make_list() -> list:
+    """
+    A list stores multiple items in order. You write it using square brackets [ ].
+
+    Examples:
+        [1, 2, 3]
+        ["a", "b", "c"]
+        ["mixed", 42, True]
+
+    >>> make_list()
+    [1, 2, 3]
+    """
+    # TODO: return a list with the numbers 1, 2, 3
+    ...
+
+
+def first_item(xs: list):
+    """
+    You can access items in a list by index, just like strings.
+
+    >>> first_item(["a", "b", "c"])
+    'a'
+    >>> first_item([10, 20])
+    10
+    """
+    # TODO: return the first element of the list
+    ...
+
+
+def last_item(xs: list):
+    """
+    Negative indexes count from the end.
+
+    >>> last_item(["a", "b", "c"])
+    'c'
+    >>> last_item([10, 20, 30])
+    30
+    """
+    # TODO: return the last element of the list
+    ...
+
+
+# --- 2. Changing lists ------------------------------------------------------
+
+def change_first(xs: list, new_value):
+    """
+    Lists are mutable. You can assign to a specific index to change an item.
+
+    >>> change_first(["x", "y", "z"], "A")
+    ['A', 'y', 'z']
+    """
+    # TODO: change the first element to new_value and return the list
+    ...
+
+
+def append_item(xs: list, item):
+    """
+    append() adds an item to the end of a list.
+
+    >>> append_item([1, 2], 3)
+    [1, 2, 3]
+    """
+    # TODO: append item and return the list
+    ...
+
+
+def insert_item(xs: list, index: int, item):
+    """
+    insert(index, value) inserts an item at a specific position.
+
+    >>> insert_item(["a", "c"], 1, "b")
+    ['a', 'b', 'c']
+    """
+    # TODO: insert the item at the given index and return the list
+    ...
+
+
+def extend_list(xs: list, ys: list):
+    """
+    extend() adds multiple items from another list.
+
+    >>> extend_list([1, 2], [3, 4])
+    [1, 2, 3, 4]
+    """
+    # TODO: extend xs with ys and return it
+    ...
+
+
+# --- 3. Combining and checking ----------------------------------------------
+
+def combine(a: list, b: list) -> list:
+    """
+    The + operator joins lists together into a new one.
+
+    >>> combine([1, 2], [3, 4])
+    [1, 2, 3, 4]
+    """
+    # TODO: return the combination of both lists
+    ...
+
+
+def repeat(xs: list, n: int) -> list:
+    """
+    The * operator repeats a list.
+
+    >>> repeat([0, 1], 3)
+    [0, 1, 0, 1, 0, 1]
+    """
+    # TODO: return the list repeated n times
+    ...
+
+
+def contains(xs: list, value) -> bool:
+    """
+    'in' checks membership.
+
+    >>> contains(["a", "b", "c"], "b")
+    True
+    >>> contains(["a", "b", "c"], "z")
+    False
+    """
+    # TODO: return True if value is in xs
+    ...
+
+
+# --- 4. Removing items ------------------------------------------------------
+
+def remove_value(xs: list, value):
+    """
+    remove(value) removes the *first* matching element.
+
+    >>> remove_value([1, 2, 3, 2], 2)
+    [1, 3, 2]
+    """
+    # TODO: remove the first occurrence of value and return the list
+    ...
+
+
+def pop_last(xs: list):
+    """
+    pop() removes and returns the last element. You can ignore the return value
+    if you just want to modify the list.
+
+    >>> pop_last([1, 2, 3])
+    [1, 2]
+    """
+    # TODO: remove the last element and return the list
+    ...
+
+
+# --- 5. Looping and counting ------------------------------------------------
+
+def count_items(xs: list) -> int:
+    """
+    You can count items using len().
+
+    >>> count_items([1, 2, 3])
+    3
+    >>> count_items([])
+    0
+    """
+    # TODO: return how many items are in the list
+    ...
+
+
+def count_value(xs: list, value) -> int:
+    """
+    The count() method counts how many times a value occurs.
+
+    >>> count_value([1, 2, 2, 3], 2)
+    2
+    >>> count_value(["a", "b", "a"], "x")
+    0
+    """
+    # TODO: return how often value appears
+    ...
+
+
+def sum_numbers(xs: list[int]) -> int:
+    """
+    You can loop over lists to add up numbers.
+
+    >>> sum_numbers([1, 2, 3])
+    6
+    >>> sum_numbers([])
+    0
+    """
+    # TODO: sum up all numbers in the list
+    ...
+
+
+# --- 6. Sorting and copying -------------------------------------------------
+
+def sorted_copy(xs: list[int]) -> list[int]:
+    """
+    sorted(xs) returns a *new* sorted list, without changing the original.
+
+    >>> sorted_copy([3, 1, 2])
+    [1, 2, 3]
+    """
+    # TODO: return a sorted copy of xs
+    ...
+
+
+def sort_in_place(xs: list[int]) -> list[int]:
+    """
+    sort() changes the list itself.
+
+    >>> sort_in_place([3, 1, 2])
+    [1, 2, 3]
+    """
+    # TODO: sort xs in place and return it
+    ...
+
+
+def copy_list(xs: list) -> list:
+    """
+    You can copy a list with the .copy() method.
+
+    >>> orig = [1, 2, 3]
+    >>> new = copy_list(orig)
+    >>> new == orig and new is not orig
+    True
+    """
+    # TODO: return a copy of xs
+    ...
+
+
+# --- 7. Practice ------------------------------------------------------------
+
+def filter_positive(xs: list[int]) -> list[int]:
+    """
+    Loop through a list and build a new list of positive numbers only.
+
+    >>> filter_positive([-2, 0, 5, 7, -1])
+    [5, 7]
+    """
+    # TODO: collect only the positive numbers and return them
+    ...
+
+
+def multiply_all(xs: list[int], factor: int) -> list[int]:
+    """
+    Create a *new* list with each number multiplied by factor.
+
+    >>> multiply_all([1, 2, 3], 10)
+    [10, 20, 30]
+    """
+    # TODO: return a new list where each element is multiplied
+    ...
