@@ -8,32 +8,20 @@ Deze week laten we je kennismaken met de resterende ingebouwde standaardtypes in
 
 Elk van de collection types heeft eigen toepassingen. Met name dictionaries worden heel veel gebruikt en de oefeningen gaan daar grotendeels over.
 
-## Studiemateriaal
+## Inleveren
 
-Hoofdstuk 8 uit het boek behandelt de collection types en bevat ook diverse basisoefeningen.
+Elke opdracht kun je inleveren op de cursuswebsite. De opdrachten worden dan automatisch gecontroleerd. Allereerst of je de opdracht hebt uitgewerkt op de standaardmanier: met functies, doctests en een hoofdprogramma. Maar we hebben ook allerlei inhoudelijke checks waarin we kijken of jouw interpretatie van de opdracht overeenkomt met die van ons.
 
-## Deelname werkcollege (1 punt)
+Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
-Bij aanwezigheid bij het werkcollege en daadwerkelijk uitvoeren van de oefeningen en ze uitwerken in Python krijg je 1 punt.
+- Als je de opdracht niet door de basischecks hebt, ga dit dan meteen oplossen. Je programma moet het format volgen uit de opgave en voldoen aan een paar kleine stijl-eisen. Het heeft geen zin om dit uit te stellen. Je mag opnieuw inleveren.
 
-## Opdrachten (5 punten)
+- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd (geeft verkeerde uitkomst), maar je programma zou vrijwel af moeten zijn, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
 
-De volgende opdrachten moet je allemaal helemaal goedgekeurd hebben op de website om deze te mogen aftekenen tijdens de eindpresentaties. Bij voldoende uitleg en beantwoording van specifieke vragen levert dat tezamen 5 punten op. Deelpunten zijn niet mogelijk.
+## Deadline
 
-- **Indexer**
-- **Preprocessing**
+De bedoeling is dat je deze week in totaal zo'n 10--15 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
 
-## Project (3 punten)
+## Beoordeling
 
-Het project **Klimaat** van deze week staat in het teken van dataverwerking door middel van samenvatten en zoeken naar statistieken uit een groot databestand.
-
-Als je het project helemaal goedgekeurd krijgt op de website mag je het aftekenen bij de eindpresentaties. Bij voldoende uitleg en beantwoording van specifieke vragen levert het project 3 punten op. Deelpunten zijn niet mogelijk.
-
-
-<!-- Deze module gaat over algoritmen, en dan over twee aspecten hiervan. Enerzijds ga je kijken naar de manier waarop je een algoritme kunt ontwikkelen en waar je dan op moet letten. Anderzijds ga je kennis maken met een aantal "standaard-algoritmen" voor sorteren en zoeken. Deze standaard-algoritmen zijn zo algemeen, dat we ze in pseudocode kunnen beschrijven en in een willekeurige programmeertaal vastleggen om echt te gebruiken. En welke programmeertaal dat ook is, de eigenschappen van de algoritmen zullen steeds hetzelfde zijn.
-
-Je gaat deze week kennismaken met comprehensions in Python, waarmee je bepaalde operaties zeer compact kunt opschrijven. Je gaat oefenen met comprehensions in een grotere opdracht "Virus", waar je ook leert hoe je een simulatie kunt bouwen in Python.
-
-Daarnaast ga je aan de slag met een aantal types die in Python zijn ingebouwd maar die je nog niet hebt gezien. Belangrijkste hier zijn de oefeningen uit het boek, en als je nog tijd over hebt kun je de opdracht Indexer maken.
-
--->
+Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk gecheckt bij de tussentoets halverwege de cursus. Alles staat dus in het teken van oefenen voor deze toets.
