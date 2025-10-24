@@ -141,6 +141,8 @@ Week 9:
         '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
         '[icon:diagram-2] Schuifpuzzel': /opdrachten/lists/schuifpuzzel
         '[icon:diagram-3] Indexer': /opdrachten/collections/indexer
+    Challenge:
+        '[icon:mortarboard] Kunstroof': /opdrachten/collections/kunstroof
 
 Week 10:
     '[icon:list-check] Overzicht': /modules/collections
