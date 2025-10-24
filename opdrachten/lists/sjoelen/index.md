@@ -19,6 +19,12 @@ Schrijf, in een bestand genaamd `sjoelen.py`, een programma waarbij je drie rond
 
 Ontwerp je code zoals hieronder beschreven. Vul de docstrings aan met doctests en eventueel verdere uitleg.
 
+> **Functies die werken op een collection die "mutable" is.** In de opgaven van deze module ga je functies aanroepen en daaraan een object meegeven dat "mutable" is. In deze opgave gaat het om een `list`. Als een functie deze waarde binnen krijgt dan is dit een *referentie* naar dat object in het geheugen.
+>
+> Dit heeft als consequentie dat de functie de lijst kan aanpassen, bijvoorbeeld door `.append()` aan te roepen. De lijst wordt dan *blijvend* aangepast. Zelfs als de functie niet de lijst zelf returnt, zal de lijst óók in de `main` aangepast zijn.
+>
+> In zulke functies heb je dus twee mogelijkheden om de uitkomst te beïnvloeden. Je kunt een waarde returnen, maar je kunt ook een collection aanpassen. Hieronder zie je dat de functie `shuffle_round` allebei moet doen!
+
     def calculate_points(board: list[int]) -> int:
         """
         Berekent het aantal punten dat is behaald met sjoelen. De
