@@ -3,70 +3,67 @@ Welkom:
 
 # Basic form
 Week 1:
-    Overzicht: /modules/programmeren
-    Werkcollege:
-        Formules: /werkcollege/formules
-        Installatie: /installatie/pulsar
-    Boek 1:
-        Hoofdstuk 1 t/m 3: /boek/boek1
+    '[icon:list-check] Overzicht': /modules/programmeren
+    'Werkcollege: Formules': /werkcollege/formules
+    'Werkcollege: Installatie': /installatie/pulsar
     Functies en expressies:
-        Weken: /opdrachten/expressies/weken
-        Water: /opdrachten/expressies/water
-        Binair: /opdrachten/expressies/binair
-        Cafeine: /opdrachten/expressies/cafeine
-        Vakantie: /opdrachten/expressies/vakantie
-    Boek 2:
-        Paragraaf 4.1-4.3: /boek/boek2
+        '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
+        '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
+        '[icon:puzzle] Een programma met een functie en een main: Weken': /opdrachten/expressies/weken
+        '[icon:diagram-2] Water': /opdrachten/expressies/water
+        '[icon:puzzle] Binair': /opdrachten/expressies/binair
+        '[icon:diagram-2] Cafeine': /opdrachten/expressies/cafeine
+        '[icon:diagram-2] Vakantie': /opdrachten/expressies/vakantie
     Conditionals:
-        Acid test: /opdrachten/conditionals/acid
-        Schrikkel: /opdrachten/conditionals/schrikkel
-        Orakel: /opdrachten/conditionals/orakel
-        Byte: /opdrachten/conditionals/byte
-        Rechthoeken: /opdrachten/conditionals/rechthoeken
+        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
+        '[icon:puzzle] Een programma met if-statements: Acid test': /opdrachten/conditionals/acid
+        '[icon:diagram-2] Schrikkel': /opdrachten/conditionals/schrikkel
+        '[icon:diagram-2] Orakel': /opdrachten/conditionals/orakel
+        '[icon:diagram-2] Byte': /opdrachten/conditionals/byte
+        '[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
     Challenge:
-        Kalender: /opdrachten/challenges/kalender
+        '[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
 
 # Loops
 # (Kalender is weg)
 Week 2:
-    Overzicht: /modules/herhaling
-    Theorie:
-        Boek 4.4-4.7: /boek/boek3
+    '[icon:list-check] Overzicht': /modules/herhaling
+    Werkcollege loops: /werkcollege/loops
+    '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
     Basis-oefeningen:
-        Werkcollege loops: /werkcollege/loops
-        Collatz: /opdrachten/loops/collatz
-        Schrikkel: /opdrachten/loops/schrikkel
-        Input: /opdrachten/loops/input
+        '[icon:puzzle] Getallenreeksen met for en while': /opdrachten/loops/reeksen
+        '[icon:puzzle] Schrikkeljaren tellen met een loop en een variabele': /opdrachten/loops/schrikkel
+        '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
+        '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
     While-loops:
-        Cola: /opdrachten/loops/cola
-        Greedy: /opdrachten/loops/greedy
-        Raadspel: /opdrachten/oud/raadspel
-        Populatie: /opdrachten/simulaties/populatie
+        '[icon:diagram-2] Cola': /opdrachten/loops/cola
+        '[icon:diagram-2] Greedy': /opdrachten/loops/greedy
+        '[icon:diagram-2] Raadspel': /opdrachten/oud/raadspel
+        '[icon:diagram-2] Populatie': /opdrachten/simulaties/populatie
     For-loops:
-        Piramide: /opdrachten/loops/piramide
-        Temperatuur: /opdrachten/loops/temperatuur
+        '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
+        '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
     Challenge:
-        Priemgetallen: /opdrachten/challenges/priemgetallen
+        '[icon:mortarboard] Priemgetallen': /opdrachten/challenges/priemgetallen
 
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Week 3:
     Overzicht: /modules/strings
-    Theorie:
-        Boek hst 5 en 6: /boek/boek4
-        #    Debugging: /opdrachten/oud/debug
+    'Werkcollege: Strings-tutorial': /werkcollege/tutorial_strings
+    '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
+    #    Debugging: /opdrachten/oud/debug
     Basis-oefeningen:
-        Werkcollege string-analyse: /werkcollege/strings
-        Analyse: /opdrachten/strings/analyse
-        Verschillen: /opdrachten/strings/verschillen
+        '[icon:puzzle] Analyse': /opdrachten/strings/analyse
+        '[icon:puzzle] Verschillen': /opdrachten/strings/verschillen
     Problem solving:
-        Alfabet: /opdrachten/strings/alfabet
-        Etenstijd: /opdrachten/strings/etenstijd
-        Calculator: /opdrachten/strings/calculator
-        Wachtwoord: /opdrachten/strings/wachtwoord
-        Leesbaarheid: /opdrachten/strings/leesbaarheid
+        '[icon:diagram-2] Alfabet': /opdrachten/strings/alfabet
+        '[icon:diagram-2] Etenstijd': /opdrachten/strings/etenstijd
+        '[icon:diagram-2] Calculator': /opdrachten/strings/calculator
+        '[icon:diagram-3] Wachtwoord': /opdrachten/strings/wachtwoord
+        '[icon:diagram-3] Leesbaarheid': /opdrachten/strings/leesbaarheid
     Challenge:
-        Wachtwoord-generator: /opdrachten/challenges/pwdgen
+        '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
 
 # String-transformatie
 Week 4:
@@ -146,7 +143,6 @@ Week 9:
 
 Week 10:
     '[icon:list-check] Overzicht': /modules/collections
-    # 'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
     Oefenen:
         '[icon:puzzle] Big-O': /opdrachten/collections/big-o
     Opdrachten:
