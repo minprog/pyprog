@@ -11,7 +11,7 @@ Week 1:
         '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
         '[icon:puzzle] Een programma met een functie en een main: Weken': /opdrachten/expressies/weken
         '[icon:diagram-2] Water': /opdrachten/expressies/water
-        '[icon:puzzle] Binair': /opdrachten/expressies/binair
+        '[icon:diagram-2] Binair': /opdrachten/expressies/binair
         '[icon:diagram-2] Cafeine': /opdrachten/expressies/cafeine
         '[icon:diagram-2] Vakantie': /opdrachten/expressies/vakantie
     Conditionals:
@@ -49,7 +49,7 @@ Week 2:
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Week 3:
-    Overzicht: /modules/strings
+    '[icon:list-check] Overzicht': /modules/strings
     'Werkcollege: Strings-tutorial': /werkcollege/tutorial_strings
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     #    Debugging: /opdrachten/oud/debug
@@ -69,55 +69,54 @@ Week 3:
 Week 4:
     Overzicht: /modules/transformaties
     Basis-oefeningen:
-        Werkcollege string-transformatie: /werkcollege/transformatie
-        Transformatie: /opdrachten/strings/transformatie
+        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/char_transformatie
+        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie
     Opdrachten:
-        Yell: /opdrachten/strings/yell
-        Remove vowels: /opdrachten/strings/vwl
-        Shout: /opdrachten/strings/shout
-        camelCase: /opdrachten/strings/camelcase
-        RNA: /opdrachten/strings/rna
+        '[icon:diagram-2] Yell': /opdrachten/strings/yell
+        '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl
+        '[icon:diagram-2] Shout': /opdrachten/strings/shout
+        '[icon:diagram-2] camelCase': /opdrachten/strings/camelcase
+        '[icon:diagram-3] RNA': /opdrachten/strings/rna
         # ROT13: /opdrachten/strings/rot13
     Challenge:
-        Monopoly: /opdrachten/challenges/monopoly
+        '[icon:mortarboard] Monopoly': /opdrachten/challenges/monopoly
 
 # Lots of lists
 Week 5:
-    Overzicht: /modules/lists
-    Theorie:
-        Boek 7.1-7.3: /boek/boek5
+    '[icon:list-check] Overzicht': /modules/lists
+    'Werkcollege: Lists-tutorial': /werkcollege/tutorial_lists
+    '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Basis-oefeningen:
-        Werkcollege list-transformatie en list-analyse: /werkcollege/lists
-        Integer lists: /opdrachten/lists/int_lists
-        List basics: /opdrachten/lists/basics
+        '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists
+        '[icon:puzzle] List basics': /opdrachten/lists/basics
     Opdrachten:
-        Rotate: /opdrachten/lists/rotate #(rotating shift)
-        Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
-        Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
+        '[icon:diagram-2] Rotate': /opdrachten/lists/rotate #(rotating shift)
+        '[icon:diagram-2] Compact': /opdrachten/lists/compact #(remove 0 or Falsy)
+        '[icon:diagram-2] Uniq': /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
         # Flatten: /opdrachten/lists/flatten #(flatten single level)
-        Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
-        Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
-        Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
+        '[icon:diagram-2] Chunk': /opdrachten/lists/chunk #(split into chunks of len N)
+        '[icon:diagram-2] Interleave': /opdrachten/lists/interleave #(alternating, keep all, don't
+        '[icon:diagram-2] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
         # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
         # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
     Challenge:
-        Compress: /opdrachten/challenges/compress #(RLE)
+        '[icon:mortarboard] Compress': /opdrachten/challenges/compress #(RLE)
 
 # Algoritmen
 Week 6:
-    Overzicht: /modules/algoritmen
-    Werkcollege:
-        Algoritmen: /werkcollege/algoritmen
+    '[icon:list-check] Overzicht': /modules/algoritmen
+    # Werkcollege:
+    #     Algoritmen: /werkcollege/algoritmen
     Opdrachten:
         # search?
-        Banner: /opdrachten/algoritmen/banner
-        Scrabble: /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
-        Merge lists: /opdrachten/algoritmen/merge
+        '[icon:diagram-3] Banner': /opdrachten/algoritmen/banner
+        '[icon:diagram-3] Scrabble': /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
+        '[icon:diagram-3] Merge lists': /opdrachten/algoritmen/merge
         # Algorithms: /opdrachten/week5/algorithms # Papieren oefening
-        Selection sort: /opdrachten/algoritmen/selection
-        Special sort: /opdrachten/algoritmen/special
+        '[icon:diagram-3] Selection sort': /opdrachten/algoritmen/selection
+        '[icon:diagram-3] Special sort': /opdrachten/algoritmen/special
     Challenge:
-        Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
+        '[icon:mortarboard] Virus': /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
 # Oefententamen
 Week 7:
