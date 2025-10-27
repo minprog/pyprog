@@ -247,8 +247,6 @@ week_6:
         merge_lists: 1
         selection_sort: 1
         special_sort: 1
-        # sjoelen: 1
-        # schuifpuzzel: 1
 
 challenges:
     show_overview: true
@@ -262,14 +260,21 @@ challenges:
         compress: 1
         virus: 1
 
-# week_10:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 8/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         indexer: 1
-#         eca2csv: 1
+week_9:
+    # show_overview: true
+    show_progress: true
+    deadline: 31/10/25 17:00
+    submits:
+        collection_functions: 1
+        sjoelen: 1
+        schuifpuzzel: 1
+        indexer: 1
+
+challenges2:
+    show_overview: true
+    small_block_overview: true
+    submits:
+        kunstroof: 1
 
 # week_10_project:
 #     # show_overview: true
@@ -277,6 +282,7 @@ challenges:
 #     deadline: 8/12/24 17:00
 #     deadline_hard: true
 #     submits:
+#         eca2csv: 1
 #         klimaat: 1
 
 # week_7:

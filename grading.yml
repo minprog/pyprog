@@ -191,8 +191,6 @@ grades:
     set_oefening: *automatic
     collection_functions: *automatic
 
-    collection_functions2: *automatic
-
     algorithms: *check
 
     pygame: *check
