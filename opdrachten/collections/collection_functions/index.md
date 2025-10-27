@@ -14,8 +14,6 @@ Maak een Python-bestand aan genaamd `collection_functions.py`.
 
 3.  In een dictionary zijn de keys per definitie uniek, maar de values (waarden) niet. Schrijf een functie genaamd `count_values` die een dictionary aanneemt en het aantal unieke waarden in de dictionary uitrekent. Stel dat de input `{'red': 1, 'green': 1, 'blue': 2}` is, dan moet de output `2` zijn.
 
-4.  Schrijf een functie genaamd `reverse_dict` die een dictionary meekrijgt en deze "omdraait". Elke value uit de originele dict wordt een key in de nieuwe dict, met de oude key als waarde.
-
 De bedoeling van de volgende opgaven is om te leren hoe je moet loopen met for-loops en dictionaries en zo alle elementen bekijken (zie ook de uitleg op de dicts-pagina). Deze techniek kun je blijven oefenen en hiermee kun je elke opdracht met dictionaries of lists, sets of tuples leren oplossen.
 
 1.  Nadat je een reeks experimenten hebt gedaan heb je een dictionary met daarin hoe vaak je een groeiplek van paddestoelen bent tegengekomen tijdens een inventarisatie. De dictionary is georganiseerd op naam van de soort (ofwel: dat is de key). Voorbeeld:
