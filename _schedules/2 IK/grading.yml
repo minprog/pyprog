@@ -78,6 +78,8 @@ grades:
     werkcollege_6: *werkcollege
     werkcollege_7: *werkcollege
 
+    tutorial_collections: *werkcollege
+
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
@@ -140,6 +142,7 @@ werkcolleges:
         werkcollege_4: 1
         werkcollege_5: 1
         werkcollege_6: 1
+        tutorial_collections: 1
 
 toetsen:
     show_overview: true
