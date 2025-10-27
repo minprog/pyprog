@@ -212,7 +212,7 @@ werkcolleges:
 week_1:
     show_progress: true
     small_block_overview: true
-    deadline: 2/11/25 17:00
+    deadline: 31/10/25 17:00
     submits:
         programma: 1
         weken: 1
@@ -238,7 +238,7 @@ week_2:
     show_overview: true
     # show_progress: true
     small_block_overview: true
-    deadline: 21/9/25 17:00
+    deadline: 7/11/25 17:00
     submits:
         string-analyse: 1
         string-verschillen: 1
