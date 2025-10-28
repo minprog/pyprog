@@ -99,77 +99,9 @@ Welkom:
         '[icon:mortarboard] Compress': /opdrachten/challenges/compress #(RLE)
         '[icon:mortarboard] Virus': /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
-# Oefententamen
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Oefentoets:
     Oefentoets: /tentamen/oefentoets
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-# Collections intro
-Week 9:
-    Overzicht en beoordeling: /modules/collections
-    Werkcollege:
-        Collections: /werkcollege/collections
-    Opdrachten:
-        # TODO meer oefeningen
-        # Collections: /opdrachten/collections/collection_functions
-        # Algorithms: /opdrachten/week5/algorithms
-
-Week 10:
-    Opdrachten:
-        Bestanden lezen: /opdrachten/data/io
-        Indexer: /opdrachten/collections/indexer
-        Big-O: /opdrachten/collections/big-o
-        Preprocessing: /opdrachten/data/eca2csv # deze gaat weg
-    Project:
-        Klimaat: /opdrachten/data/klimaat
-
-# Classes intro
-Week 11:
-    Overzicht en beoordeling: /modules/classes
-    Videocollege: /opdrachten/classes/lecture
-    Werkcollege:
-        # Collections: /werkcollege/collections
-        Queue: /opdrachten/classes/queue # basic datastructuur, encapsulation, init
-    Opdrachten:
-        Cards: /opdrachten/classes/cards # UML, data class, container
-        Country: /opdrachten/classes/country
-        Phonebook: /opdrachten/classes/phonebook
-        Point: /opdrachten/classes/point
-        Inventory: /opdrachten/classes/inventory
-        RGB: /opdrachten/classes/rgb
-        Browser History: /opdrachten/classes/browser # add("http://..."), prev(), next(), get()
-        Lines: /opdrachten/classes/lines
-        Vocabulary: /opdrachten/classes/vocabulary # add words, get random (increments # practiced, influences chance?)
-        Time: /opdrachten/classes/time
-
-# Programs with classes
-Week 12:
-    Opdrachten:
-        # Lisp: /opdrachten/classes/lisp
-        # Figuren: /opdrachten/classes/figuren
-        # Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
-        # let op: lisp, figuren zijn geschrapt
-    Project:
-        War: /opdrachten/classes/war
-        # Memory model: /opdrachten/week5/memory_model
-        # Cijfers: /opdrachten/week5/cijfers
-
-# Complexe strucuren, of big-O of wat anders
-Week 13:
-    Overzicht en beoordeling: /modules/classes
-    Videocollege: /opdrachten/classes/lecture
-    Werkcollege:
-        # Collections: /werkcollege/collections
-
-# Adventure
-Week 14:
-    Opdrachten:
-        Figuren: /opdrachten/classes/figuren
-    Project:
-        Adventure: /adventure/more
-
-# Oefententamen
-Week 15:
-    Werkcollege:
-        Oefententamen: /werkcollege/wc4her
