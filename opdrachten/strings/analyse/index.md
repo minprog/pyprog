@@ -41,7 +41,8 @@ Schrijf een functie `has_single_vowel` die een string `s` aanneemt. De functie c
     aantal_klinkers = 0
     for char in s:
         if ...:
-            klinkers += 1
+            aantal_klinkers += 1
+    
     <hier code om een conclusie te trekken op basis van aantal_klinkers>
 
 ## Klinkers tellen
