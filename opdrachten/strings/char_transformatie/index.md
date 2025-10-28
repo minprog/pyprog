@@ -22,8 +22,8 @@ Schrijf een functie `l337sp34k` die een string omzet naar "leetspeak". Dat betek
 
 ## Blackout
 
-Schrijf een functie `blackout` die een string aanneemt en een string teruggeeft waarin elke letter onleesbaar is gemaakt (namelijk vervangen door een `#`).
+Schrijf een functie `blackout` die een string aanneemt en een string teruggeeft waarin elke letter onleesbaar is gemaakt (namelijk vervangen door een `#`). Alle andere tekens dan letters moeten blijven zoals ze zijn.
 
 ## Replace char
 
-Schrijf een functie `replace_char` die een string aanneemt en ook nog twee losse tekens `c1` en `c2`. De functie geeft een string terug waarin elk voorkomen van `c1` is vervangen door `c2`.
+Schrijf een functie `replace_char` die een string aanneemt en ook nog twee losse tekens `c1` en `c2`. De functie geeft een string terug waarin elk voorkomen van `c1` is vervangen door `c2`. Ook hier moet je weer een loop gebruiken met `if`s, en zeker niet de `.replace()`-methode.

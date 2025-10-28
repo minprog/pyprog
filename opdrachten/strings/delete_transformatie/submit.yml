@@ -1,0 +1,8 @@
+name: delete_transformatie
+files:
+    required:
+        - delete_transformatie.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: delete_transformatie

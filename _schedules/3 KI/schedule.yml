@@ -56,13 +56,13 @@ Welkom:
         '[icon:diagram-3] Leesbaarheid': /opdrachten/strings/leesbaarheid
     String-transformatie:
         '[icon:puzzle] Transformatie per teken': /opdrachten/strings/char_transformatie
+        '[icon:puzzle] Tekens verwijderen': /opdrachten/strings/delete_transformatie
         '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie
         '[icon:diagram-2] Yell': /opdrachten/strings/yell
+        '[icon:diagram-3] RNA': /opdrachten/strings/rna
         '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl
         '[icon:diagram-2] Shout': /opdrachten/strings/shout
         '[icon:diagram-2] camelCase': /opdrachten/strings/camelcase
-        '[icon:diagram-3] RNA': /opdrachten/strings/rna
-        '[icon:puzzle] Algoritmen TBD': /werkcollege/algoritmen
         # ROT13: /opdrachten/strings/rot13
     Challenges:
         '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
