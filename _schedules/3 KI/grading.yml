@@ -242,38 +242,31 @@ week_2:
     submits:
         string-analyse: 1
         string-verschillen: 1
-
         alfabet: 1
         etenstijd: 1
         calculator: 1
         wachtwoord: 1
         leesbaarheid: 1
 
-checkup:
-    # show_overview: true
-    submits:
-        checkup: 1
-
-week_4:
-    show_overview: true
-    # show_progress: true
-    small_block_overview: true
-    deadline: 28/9/25 17:00
-    submits:
-        string-transformatie: 1
+        string_transformatie_char: 1
+        string_transformatie_delete: 1
+        string_transformatie_complex: 1
         yell: 1
+        rna: 1
         vwl: 1
         shout: 1
         camelcase: 1
-        rna: 1
-        # rot13: 1
 
+# checkup:
+#     # show_overview: true
+#     submits:
+#         checkup: 1
 
-week_5:
+week_3:
     show_overview: true
     # show_progress: true
     small_block_overview: true
-    deadline: 5/10/25 17:00
+    deadline: 14/11/25 17:00
     submits:
         list_int_basics: 1
         list_basics: 1
@@ -285,23 +278,19 @@ week_5:
         contig: 1
         interleave: 1
 
-week_6:
-    show_overview: true
-    # show_progress: true
-    small_block_overview: true
-    deadline: 12/10/25 17:00
-    submits:
+        banner: 1
         scrabble: 1
+        merge_lists: 1
         selection_sort: 1
         special_sort: 1
-        sjoelen: 1
-        schuifpuzzel: 1
+        # sjoelen: 1
+        # schuifpuzzel: 1
 
 challenges:
     # show_progress: true
     show_overview: true
     small_block_overview: true
-    deadline: 12/10/25 17:00
+    deadline: 14/11/25 17:00
     submits:
         kalender: 1
         priemgetallen: 1

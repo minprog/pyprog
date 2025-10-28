@@ -1,6 +1,8 @@
 # Tekens verwijderen uit een string
 
-Maak een Python-module genaamd `delete_transformatie.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
+Bij deze oefeningen ga je tekens verwijderen uit een string. Of beter gezegd: je gaat stap-voor-stap een string kopiëren en dan *sommige tekens weglaten*.
+
+Maak een Python-module genaamd `string_transformatie_delete.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
 
 ## Verwijder letter 'n'
 
@@ -11,7 +13,7 @@ Schrijf een functie `verwijder_n` die alle letters `n` verwijdert uit een string
 
 Bedenk zelf een paar voorbeelden.
 
-Net als bij het werkcollege blijkt dat het niet mogelijk is letterlijk delen van een string te _verwijderen_. Je zult daarom een nieuwe string moeten opbouwen op basis van de gegeven string `s` en die nieuwe string returnen.
+Het is niet mogelijk om letterlijk delen van een string te _verwijderen_. Strings zijn niet mutable, ofwel "aanpasbaar". Je zult daarom een nieuwe string moeten opbouwen op basis van de gegeven string `s` en die nieuwe string returnen.
 
 ## Verwijder letter 'n' aan eind van elk woord
 

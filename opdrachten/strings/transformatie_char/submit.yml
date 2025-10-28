@@ -1,0 +1,8 @@
+name: string_transformatie_char
+files:
+    required:
+        - string_transformatie_char.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: string_transformatie_char

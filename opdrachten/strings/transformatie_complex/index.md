@@ -1,6 +1,8 @@
-# Complexe string-transformatie
+# Complexere string-transformatie
 
-Maak een Python-module genaamd `transformatie.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
+Bij deze oefening bekijken we diverse variaties van transformatie-loops.
+
+Maak een Python-module genaamd `string_transformatie_complex.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
 
 ## Stretch
 

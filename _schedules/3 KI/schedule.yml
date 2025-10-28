@@ -55,9 +55,9 @@ Welkom:
         '[icon:diagram-3] Wachtwoord': /opdrachten/strings/wachtwoord
         '[icon:diagram-3] Leesbaarheid': /opdrachten/strings/leesbaarheid
     String-transformatie:
-        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/char_transformatie
-        '[icon:puzzle] Tekens verwijderen': /opdrachten/strings/delete_transformatie
-        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie
+        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/transformatie_char
+        '[icon:puzzle] Tekens verwijderen': /opdrachten/strings/transformatie_delete
+        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie_complex
         '[icon:diagram-2] Yell': /opdrachten/strings/yell
         '[icon:diagram-3] RNA': /opdrachten/strings/rna
         '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl

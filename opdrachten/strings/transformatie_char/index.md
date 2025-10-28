@@ -1,6 +1,6 @@
 # Transformatie per teken
 
-Maak een Python-module genaamd `char_transformatie.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
+Maak een Python-module genaamd `string_transformatie_char.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
 
 ## Patroon
 
