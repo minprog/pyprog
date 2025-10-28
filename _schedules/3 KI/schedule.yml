@@ -100,9 +100,8 @@ Welkom:
         '[icon:mortarboard] Virus': /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
 # Oefententamen
-Week 7:
-    Werkcollege:
-        Oefententamen: /werkcollege/wc4her
+Oefentoets:
+    Oefentoets: /werkcollege/wc4her
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
