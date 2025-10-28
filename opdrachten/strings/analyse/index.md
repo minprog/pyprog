@@ -6,11 +6,11 @@ Maak een Python-module genaamd `analyse.py`. Schrijf de volgende functies met do
 
 Schrijf een functie `isspace` die een string `s` aanneemt met daarin één teken en bepaalt of deze string "witruimte" is. Een teken is witruimte als het één van de volgende tekens is:
 
-- spatie (`" "`)
-- tab (`"\t"`)
-- newline (`"\n"`)
+- [spatie](https://en.wikipedia.org/wiki/Space_(punctuation)) (dit teken schrijf je als `" "`)
+- [tab](https://en.wikipedia.org/wiki/Tab_key) (dit teken schrijf je als `"\t"`)
+- [newline](https://en.wikipedia.org/wiki/Newline) (dit teken schrijf je als `"\n"`)
 
-Je kunt deze tekens opnemen in je code zoals hierboven geschreven.
+Je kunt deze tekens opnemen in je code zoals hierboven geschreven. Misschien goed om even uit te leggen: sommige speciale tekens kun je opnemen in een string door middel van een backslash `\` en dan bijvoorbeeld een letter. Een `\n` is bijvoorbeeld nodig omdat je niet zomaar een Enter midden in een string in je code kunt tikken.
 
 De functie kan uit één regel bestaan:
 
@@ -36,7 +36,7 @@ Je moet dus checken of <u>alle</u> tekens klinkers zijn. De logica gebiedt dat a
 
 ## Eén klinker
 
-Schrijf een functie `has_single_vowel` die een string `s` aanneemt. De functie checkt of er minimaal en maximeel één klinker in voorkomt. Je moet dus alle tekens afgaan en een teller bijhouden. Om te checken of één teken een klinker is gebruik je de eerder gemaakte functie `isvowel`.
+Schrijf een functie `has_single_vowel` die een string `s` aanneemt. De functie checkt of er minimaal en maximaal één klinker in voorkomt. Je moet dus alle tekens afgaan en een teller bijhouden. Om te checken of één teken een klinker is gebruik je de eerder gemaakte functie `isvowel`.
 
     aantal_klinkers = 0
     for char in s:
