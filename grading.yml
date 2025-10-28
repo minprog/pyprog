@@ -122,6 +122,10 @@ grades:
 
     # module 4
     string-transformatie: *automatic
+    string_transformatie_char: *automatic
+    string_transformatie_delete: *automatic
+    string_transformatie_complex: *automatic
+
     yell: *automatic
     vwl: *automatic
     shout: *automatic
