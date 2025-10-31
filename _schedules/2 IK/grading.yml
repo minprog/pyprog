@@ -23,8 +23,6 @@ templates:
         type: pass
         subgrades:
             voldoende: boolean
-        automatic:
-            voldoende: -(correctness_score.floor)
         calculation: voldoende
         hide_calculated: true
 
