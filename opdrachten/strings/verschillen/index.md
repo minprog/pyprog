@@ -6,7 +6,7 @@ Maak een Python-module genaamd `verschillen.py`. Schrijf de volgende functies me
 
 Schrijf een functie `is_different` die twee strings `s1` en `s2` aanneemt en bepaalt of deze strings verschillen.
 
-Hiervoor ga je loopen met indexes, van 0 tot het einde van de strings. Je bekijkt steeds *hetzelfde* teken van beide strings (bijv. op index 1). Als de strings op één plek verschillen, dan weet je dat de strings verschillen, en kan de functie direct `return False` doen. Als ze niet verschillen op die plek, dan weet je nog niks. Je gaat dan door naar de volgende.
+Hiervoor ga je loopen met indexes, van 0 tot het einde van de strings. Je bekijkt steeds *hetzelfde* teken van beide strings (bijv. op index 1). Als de strings op één plek verschillen, dan weet je dat de strings verschillen, en kan de functie direct `return True` doen. Als ze niet verschillen op die plek, dan weet je nog niks. Je gaat dan door naar de volgende.
 
 Hints:
 
