@@ -72,8 +72,9 @@ Module 3:
 Module 4:
     Overzicht: /modules/transformaties
     Basis-oefeningen:
-        # Werkcollege string-transformatie: /werkcollege/transformatie
-        Transformatie: /opdrachten/strings/transformatie
+        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/transformatie_char
+        '[icon:puzzle] Tekens verwijderen': /opdrachten/strings/transformatie_delete
+        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie_complex
     Opdrachten:
         Yell: /opdrachten/strings/yell
         Remove vowels: /opdrachten/strings/vwl
