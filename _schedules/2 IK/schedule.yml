@@ -69,8 +69,9 @@ Week 3:
 Week 4:
     Overzicht: /modules/transformaties
     Basis-oefeningen:
-        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/char_transformatie
-        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie
+        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/transformatie_char
+        '[icon:puzzle] Tekens verwijderen': /opdrachten/strings/transformatie_delete
+        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie_complex
     Opdrachten:
         '[icon:diagram-2] Yell': /opdrachten/strings/yell
         '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl
