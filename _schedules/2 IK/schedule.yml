@@ -142,11 +142,12 @@ Week 9:
         '[icon:mortarboard] Kunstroof': /opdrachten/collections/kunstroof
 
 Week 10:
-    '[icon:list-check] Overzicht': /modules/collections
-    Oefenen:
-        '[icon:puzzle] Big-O': /opdrachten/collections/big-o
-    Opdrachten:
+    '[icon:list-check] Overzicht': /modules/project
+    # Oefenen:
+    #     '[icon:puzzle] Big-O': /opdrachten/collections/big-o
+    Werkcollege:
         '[icon:diagram-3] Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
+    Klein project:
         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
 # Classes intro
