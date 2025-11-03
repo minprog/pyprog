@@ -44,6 +44,12 @@ templates:
             werkblad: boolean
         calculation: -((aanwezig+werkblad).abs/2)
         hide_calculated: true
+    5: &werkcollege-gedaan
+        type: pass
+        subgrades:
+            gedaan: boolean
+        calculation: gedaan
+        hide_calculated: true
     7: &werkcollege_her
         type: pass
         subgrades:
