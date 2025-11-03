@@ -103,6 +103,7 @@ grades:
 
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
+    tutorial_strings: *werkcollege
     werkcollege_3: *werkcollege
     werkcollege_4: *werkcollege
     werkcollege_5: *werkcollege
@@ -188,7 +189,7 @@ werkcolleges:
     type: points
     submits:
         werkcollege_1: 1
-        werkcollege_2: 1
+        tutorial_strings: 1
         werkcollege_3: 1
         werkcollege_4: 1
         werkcollege_5: 1
