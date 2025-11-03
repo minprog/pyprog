@@ -109,7 +109,7 @@ grades:
 
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
-    tutorial_strings: *werkcollege
+    tutorial_strings: *werkcollege-gedaan
     werkcollege_3: *werkcollege
     werkcollege_4: *werkcollege
     werkcollege_5: *werkcollege
