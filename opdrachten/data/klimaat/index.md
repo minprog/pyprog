@@ -31,7 +31,7 @@ Tijd voor analyse. Schrijf een programma genaamd `klimaat.py` dat een bestand `c
     In 2018 varieerde de temperatuur tussen -4.6° op 28-02 en 35.7° op 26-07
     In 2019 varieerde de temperatuur tussen -1.1° op 24-01 en 37.5° op 25-07
 
-    Hittegolven XXX1-XXX9
+    Hittegolven 1901-2019
     ---------------------
     In XXX1 was er geen hittegolf
     In XXX2 was er een hittegolf van 03-04 tot en met 09-04
