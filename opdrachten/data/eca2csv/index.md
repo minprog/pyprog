@@ -69,13 +69,13 @@ De indicator voor een missing value verschilt per databestand; soms is dat een `
 
 Hints:
 
-- Dit is een wat ingewikkelder probleem dan de rest. Je kunt de "readline-technique" uit het boek gebruiken (pagina 181), maar om de missende waarden uit te rekenen heb je toegang nodig tot *drie achtereenvolgende regels*.
+- Dit is een wat ingewikkelder probleem dan de rest. Je kunt een `for line in file` loop gebruiken die je per stap een `line` geeft met de inhoud van één regel. Deze regel mag je splitten met `.split()`!
 
-- Dat betekent dat je zoals gebruikelijk steeds één regel moet inlezen, maar dat je elke keer de één-na-laatste regel gaat bekijken en zonodig aanpassen. Ook de twee-na-laatste regel heb je hiervoor nodig.
+- Maar belangrijk: je hebt niet genoeg aan de "huidige" regel om dit algoritme te maken. Je hebt tegelijk toegang nodig tot de huidige, de vorige, en de regel daarvoor. Hiervoor moet je *eigen variabelen* maken, bijvoorbeeld `prev1` en `prev0`.
 
-- Je kunt "oude" regels opslaan in variabelen elke keer als je een nieuwe regel inleest.
+- Je kunt "oude" regels opslaan in die variabelen vlak voordat je een nieuwe regel inleest.
 
-- Ontwikkel je algoritme hiervoor op papier en analyseer goed of het zou moeten kloppen door te bedenken hoe het door een bestand van 6 regels zou lopen. **Kom langs in het college om met ons aan het algoritme te werken. We zorgen dat je met een werkende strategie aan de slag kunt.**
+- Ontwikkel je algoritme hiervoor op papier en analyseer goed of het zou moeten kloppen door te bedenken hoe het door een bestand van 6 regels zou lopen. **Tijdens het college kun je met ons aan het algoritme te werken. We zorgen dat je met een werkende strategie aan de slag kunt.**
 
 ## Omzetten naar komma's
 
