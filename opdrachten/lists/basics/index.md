@@ -38,7 +38,7 @@ Een functie die telt hoe vaak bepaalde elementen te vinden zijn in een lijst (bi
     def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
         ...
 
-Beperkingen: je moet de functie met een loop schrijven om langs alle elementen in `lst` te gaan. Als je een element uit `lst` hebt mag je met `lst in lst_elt` kijken of het één van de gezochte elementen is.
+Beperkingen: je moet de functie met een loop schrijven om langs alle elementen in `lst` te gaan. Als je een element uit `lst` hebt mag je met `element in lst_elt` kijken of het één van de gezochte elementen is.
 
 ## Main?
 

@@ -1,10 +1,12 @@
-# Strings
+# Lists
 
-Voor het eerst ga je nu werken met een soort variabele waarin meerdere onderdelen bij elkaar staan (een "sequence"). Een **string** is namelijk een rijtje "tekens". Meestal letters of cijfers, maar er kunnen ook andere tekens voorkomen in strings.
+Lists zijn een manier in Python om een rijtje elementen bij elkaar te verzamelen onder één naam. Denk aan een lijst met temperaturen van de afgelopen 24 uur, of een lijst met daarin woorden die vaak voorkomen in lyrics.
 
-De insteek van deze module is dat je heel veel gaat oefenen met het schrijven van loops om strings te analyseren, bijvoorbeeld de vraag: staat er een letter `a` in de string?
+Hoewel Python zelfs elementen kan mixen in een lijst (bijvoorbeeld floats en strings) werken we doorgaans met lijsten waarin één soort element staat. Het type van een lijst geef je daarom op als `list[int]` of `list[str]` bijvoorbeeld.
 
-Strings zullen belangrijk zijn op het tentamen, omdat we met strings goede opgaven kunnen geven met loops en variabelen, zodat we je basisvaardigheid met die dingen kunnen toetsen.
+Er is een belangrijke overeenkomst met strings: allebei kun je ze *indexeren* met hulp van blokhaken. Je kunt bijvoorbeeld het zoveelste element uit een lijst halen met `lst[4]` net zoals dat bij strings kan. Of het laatste element met `lst[-1]`.
+
+Meer lees je in het boek!
 
 ## Inleveren
 
