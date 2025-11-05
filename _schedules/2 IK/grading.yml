@@ -261,6 +261,7 @@ challenges:
 week_9:
     # show_overview: true
     show_progress: true
+    small_block_overview: true
     deadline: 31/10/25 17:00
     submits:
         collection_functions: 1
@@ -274,14 +275,14 @@ challenges2:
     submits:
         kunstroof: 1
 
-# week_10_project:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 8/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         eca2csv: 1
-#         klimaat: 1
+week_10:
+    # show_overview: true
+    show_progress: true
+    small_block_overview: true
+    deadline: 9/11/25 17:00
+    submits:
+        eca2csv: 1
+        klimaat: 1
 
 # week_7:
 #     # show_overview: true
