@@ -269,12 +269,6 @@ week_9:
         schuifpuzzel: 1
         indexer: 1
 
-challenges2:
-    show_overview: true
-    small_block_overview: true
-    submits:
-        kunstroof: 1
-
 week_10:
     # show_overview: true
     show_progress: true
@@ -310,6 +304,13 @@ week_10:
 #     type: points
 #     submits:
 #         modules: 24
+
+challenges2:
+    show_overview: true
+    small_block_overview: true
+    submits:
+        kunstroof: 1
+
 
 # tentamen_ki:
 #     show_overview: true
