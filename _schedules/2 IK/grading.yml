@@ -141,6 +141,7 @@ werkcolleges:
         werkcollege_5: 1
         werkcollege_6: 1
         tutorial_collections: 1
+        eca2csv: 1
 
 toetsen:
     show_overview: true
@@ -275,7 +276,6 @@ week_10:
     small_block_overview: true
     deadline: 9/11/25 17:00
     submits:
-        eca2csv: 1
         klimaat: 1
 
 # week_7:
