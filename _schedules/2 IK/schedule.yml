@@ -150,6 +150,9 @@ Week 10:
     Klein project:
         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
+# Memory model: /opdrachten/week5/memory_model
+# Cijfers: /opdrachten/week5/cijfers
+
 # Classes intro
 Week 11:
     Overzicht en beoordeling: /modules/classes
@@ -160,38 +163,34 @@ Week 11:
     Opdrachten:
         Cards: /opdrachten/classes/cards # UML, data class, container
         Country: /opdrachten/classes/country
-        Phonebook: /opdrachten/classes/phonebook
-        Point: /opdrachten/classes/point
-        Inventory: /opdrachten/classes/inventory
-        RGB: /opdrachten/classes/rgb
-        Browser History: /opdrachten/classes/browser # add("http://..."), prev(), next(), get()
         Lines: /opdrachten/classes/lines
-        Vocabulary: /opdrachten/classes/vocabulary # add words, get random (increments # practiced, influences chance?)
+        RGB: /opdrachten/classes/rgb
+        Point: /opdrachten/classes/point
         Time: /opdrachten/classes/time
 
-# Programs with classes
+# Collection classes
 Week 12:
     Opdrachten:
+        Phonebook: /opdrachten/classes/phonebook
+        Inventory: /opdrachten/classes/inventory
+        Browser History: /opdrachten/classes/browser # add("http://..."), prev(), next(), get()
+        Vocabulary: /opdrachten/classes/vocabulary # add words, get random (increments # practiced, influences chance?)
+
         # Lisp: /opdrachten/classes/lisp
-        # Figuren: /opdrachten/classes/figuren
-        # Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
-        # let op: lisp, figuren zijn geschrapt
+        Figuren: /opdrachten/classes/figuren
+        Knapsack: /opdrachten/classes/knapsack # class-representatie probleem (no opers!)
     Project:
         War: /opdrachten/classes/war
-        # Memory model: /opdrachten/week5/memory_model
-        # Cijfers: /opdrachten/week5/cijfers
 
-# Complexe strucuren, of big-O of wat anders
+# Complexe strucuren
 Week 13:
-    Overzicht en beoordeling: /modules/classes
-    Videocollege: /opdrachten/classes/lecture
     Werkcollege:
-        # Collections: /werkcollege/collections
+    Project:
+        Adventure: /adventure/more
 
 # Adventure
 Week 14:
-    Opdrachten:
-        Figuren: /opdrachten/classes/figuren
+    Werkcollege:
     Project:
         Adventure: /adventure/more
 
