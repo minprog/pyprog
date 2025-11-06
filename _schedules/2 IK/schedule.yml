@@ -38,8 +38,8 @@ Week 2:
     While-loops:
         '[icon:diagram-2] Cola': /opdrachten/loops/cola
         '[icon:diagram-2] Greedy': /opdrachten/loops/greedy
-        '[icon:diagram-2] Raadspel': /opdrachten/oud/raadspel
-        '[icon:diagram-2] Populatie': /opdrachten/simulaties/populatie
+        '[icon:diagram-2] Raadspel': /opdrachten/loops/raadspel
+        '[icon:diagram-2] Populatie': /opdrachten/loops/populatie
     For-loops:
         '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
         '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
@@ -139,7 +139,7 @@ Week 9:
         '[icon:diagram-2] Schuifpuzzel': /opdrachten/lists/schuifpuzzel
         '[icon:diagram-3] Indexer': /opdrachten/collections/indexer
     Challenge:
-        '[icon:mortarboard] Kunstroof': /opdrachten/collections/kunstroof
+        '[icon:mortarboard] Kunstroof': /opdrachten/challenges/kunstroof
 
 Week 10:
     '[icon:list-check] Overzicht': /modules/project

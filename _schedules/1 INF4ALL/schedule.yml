@@ -40,8 +40,8 @@ Module 2:
     While-loops:
         Cola: /opdrachten/loops/cola
         Greedy: /opdrachten/loops/greedy
-        Raadspel: /opdrachten/oud/raadspel
-        Populatie: /opdrachten/simulaties/populatie
+        Raadspel: /opdrachten/loops/raadspel
+        Populatie: /opdrachten/loops/populatie
     For-loops:
         Piramide: /opdrachten/loops/piramide
         Temperatuur: /opdrachten/loops/temperatuur

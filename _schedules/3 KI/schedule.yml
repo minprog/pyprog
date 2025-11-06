@@ -31,8 +31,8 @@ Welkom:
         # while
         # '[icon:diagram-2] Cola': /opdrachten/loops/cola
         '[icon:diagram-2] Greedy': /opdrachten/loops/greedy
-        # '[icon:diagram-2] Raadspel': /opdrachten/oud/raadspel
-        '[icon:diagram-2] Populatie': /opdrachten/simulaties/populatie
+        # '[icon:diagram-2] Raadspel': /opdrachten/loops/raadspel
+        '[icon:diagram-2] Populatie': /opdrachten/loops/populatie
         # for
         '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
         '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
