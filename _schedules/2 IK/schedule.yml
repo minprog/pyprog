@@ -155,13 +155,12 @@ Week 10:
 
 # Classes intro
 Week 11:
-    Overzicht en beoordeling: /modules/classes
+    '[icon:list-check] Overzicht': /modules/classes
+    'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
+    'Werkcollege: Cards': /opdrachten/classes/cards # UML, data class, container
+    '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     Videocollege: /opdrachten/classes/lecture
-    Werkcollege:
-        # Collections: /werkcollege/collections
-        Queue: /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     Opdrachten:
-        Cards: /opdrachten/classes/cards # UML, data class, container
         Country: /opdrachten/classes/country
         Lines: /opdrachten/classes/lines
         RGB: /opdrachten/classes/rgb
