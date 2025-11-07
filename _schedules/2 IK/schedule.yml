@@ -156,7 +156,7 @@ Week 11:
     '[icon:list-check] Overzicht': /modules/classes
     'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
-    Videocollege: /opdrachten/classes/lecture
+    # Videocollege: /opdrachten/classes/lecture
     Opdrachten:
         '[icon:puzzle] Doctests schrijven voor classes': /opdrachten/classes/doctests
         '[icon:puzzle] Cards': /opdrachten/classes/cards # UML, data class, container
