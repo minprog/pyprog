@@ -155,16 +155,16 @@ Week 10:
 Week 11:
     '[icon:list-check] Overzicht': /modules/classes
     'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
-    'Werkcollege: Cards': /opdrachten/classes/cards # UML, data class, container
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     Videocollege: /opdrachten/classes/lecture
     Opdrachten:
-        Doctests schrijven voor classes: /opdrachten/classes/doctests
-        Country: /opdrachten/classes/country
-        Lines: /opdrachten/classes/lines
-        RGB: /opdrachten/classes/rgb
-        Point: /opdrachten/classes/point
-        Time: /opdrachten/classes/time
+        '[icon:puzzle] Doctests schrijven voor classes': /opdrachten/classes/doctests
+        '[icon:puzzle] Cards': /opdrachten/classes/cards # UML, data class, container
+        '[icon:diagram-2] Country': /opdrachten/classes/country
+        '[icon:diagram-2] Lines': /opdrachten/classes/lines
+        '[icon:diagram-2] RGB': /opdrachten/classes/rgb
+        '[icon:diagram-2] Point': /opdrachten/classes/point
+        '[icon:diagram-2] Time': /opdrachten/classes/time
 
 # Collection classes
 Week 12:
