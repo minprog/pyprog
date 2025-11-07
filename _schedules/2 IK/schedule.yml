@@ -161,6 +161,7 @@ Week 11:
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     Videocollege: /opdrachten/classes/lecture
     Opdrachten:
+        Doctests schrijven voor classes: /opdrachten/classes/doctests
         Country: /opdrachten/classes/country
         Lines: /opdrachten/classes/lines
         RGB: /opdrachten/classes/rgb
