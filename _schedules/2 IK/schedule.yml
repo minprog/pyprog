@@ -143,13 +143,11 @@ Week 9:
 
 Week 10:
     '[icon:list-check] Overzicht': /modules/project
-    # Oefenen:
-    #     '[icon:puzzle] Big-O': /opdrachten/collections/big-o
-    Werkcollege:
-        '[icon:diagram-3] Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
+    'Werkcollege: Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
     Klein project:
         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
+#     '[icon:puzzle] Big-O': /opdrachten/collections/big-o
 # Memory model: /opdrachten/week5/memory_model
 # Cijfers: /opdrachten/week5/cijfers
 
