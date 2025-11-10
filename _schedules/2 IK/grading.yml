@@ -74,10 +74,9 @@ grades:
     werkcollege_4: *werkcollege
     werkcollege_5: *werkcollege
     werkcollege_6: *werkcollege
-    werkcollege_7: *werkcollege
 
     tutorial_collections: *werkcollege
-    queue: *werkcollege
+    werkcollege_7: *werkcollege # queue
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -143,7 +142,7 @@ werkcolleges:
         werkcollege_6: 1
         tutorial_collections: 1
         eca2csv: 1
-        queue: 1
+        werkcollege_7: 1 # queue
 
 toetsen:
     show_overview: true
