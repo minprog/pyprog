@@ -24,14 +24,35 @@ Maak een Python-bestand aan genaamd `country.py`. Voeg de volgende `main`-code t
         usa = Country('United States of America', 313914040, 9826675)
         print(usa)
 
-Die laatste `print` moet de volgende output geven:
+## Stap 1: een simpele data-class
+
+Schrijf de class zodat stap 1 werkt. Zorg dat de class een "name", een "population" en een "area" kan opslaan. De testcode moet netjes de drie waarden printen.
+
+## Stap 2: vergelijken
+
+Maak een nieuwe methode `is_larger`. Deze neemt als extra parameter nog een *ander* `Country`-object aan en vergelijkt hun groottes (kilometers). Schrijf de `def` zo:
+
+    def is_larger(self, other: 'Country'):
+        ...
+
+In deze methode heb je nu en `self` en een `other`. Allebei zijn het `Country`-objecten en van allebei kun je de `area` opvragen. Dus kun je deze oppervlaktes ook vergelijken en het verschil returnen.
+
+## Stap 3: berekening
+
+Schrijf de methode `population_density()` om de bevolkingsdichtheid te berekenen.
+
+## Stap 4: netjes printen
+
+Als je een object `print` dan krijg je normaal een lelijke omschrijving van het object en het geheugenadres in de computer. Heb je niks aan. Je kunt zelf de `__str__`-methode implementeren. Als je dan `print` aanroept ziet het er netjes uit.
+
+Specifiek voor deze opdracht moet die laatste `print` de volgende output geven:
 
     United States of America has a population of 313914040 and is 9826675 square km.
 
-Implementeer stap voor stap de `Country` class om te zorgen dat de bovenstaande testcode goed werkt. Voeg ook doctests toe volgens de voorbeelden in het boek!
+Maak een `def __str__(self)` die zo'n string teruggeeft.
 
-## Hint
+## Testen
 
-- Gebruik alleen wat je uit het boek geleerd hebt.
+1. Run de code met de `main` en zorg dat het precies de juiste ouptut geeft.
 
-- Als header voor `is_larger` gebruik je `def is_larger(self, other: Self) -> bool:`. De vermelding `Self` betekent dat die parameter graag een object van de class `Country` wil hebben. Om dit te gebruiken moet je bovendien `from typing import Self` doen.
+2. Kopieer nu de code uit `main` naar je functies als doctests! Voeg wel de gewenste output van de prints nog toe. Die staat er nu niet tussen.
