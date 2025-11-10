@@ -8,6 +8,9 @@ Maak een bestand `time.py` met de class `Time` die een tijdstip voorstelt (uren,
         print(t - 45)          # 45 seconden eerder
         print(t.next_hour())   # 11:00:00
         print(t.prev_minute()) # 10:30:00
+        print(t)               # nog steeds 10:31:00
+
+De methoden van deze class mogen de interne waarden (instance variables) niet veranderen! Ook bij deze opdracht berekent zo'n methode de nieuwe waarde, maakt een nieuw object en returnt dat object.
 
 Schrijf zelf een doctest voor elke method.
 

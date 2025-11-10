@@ -15,11 +15,13 @@ Schrijf zelf een doctest voor elke method.
 
 ## Formules
 
-- Bij `lighter(factor)` verhoog je elke kleurcomponent met een percentage van de afstand tot 255.  
-- Bij `darker(factor)` verlaag je elke component met een percentage van de huidige waarde.  
-- Bij `invert()` trek je elke component af van 255.  
+De methodes van deze class mogen de interne waarden **niet** veranderen, maar alleen een nieuwe kleur teruggeven!
 
-Gebruik afronding (`round`) indien nodig, en zorg dat waarden binnen 0--255 blijven.
+- Bij `lighter(factor)` verhoog je elke kleurcomponent met een percentage van de afstand tot 255. Maak een nieuw `RGB`-object met deze kleuren en return.  
+- Bij `darker(factor)` verlaag je elke component met een percentage van de huidige waarde. Maak een nieuw `RGB`-object met deze kleuren en return.
+- Bij `invert()` trek je elke component af van 255. Maak een nieuw `RGB`-object met deze kleuren en return.
+
+Gebruik afronding (`round`) indien nodig, en zorg dat waarden altijd binnen het bereik 0--255 blijven (inclusief).
 
 ## Hexadecimale kleur
 

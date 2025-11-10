@@ -22,4 +22,4 @@ Voeg ook doctests toe!
 
 ## Hint
 
-- Als je `**` gebruikt om een wortel te nemen dan is het resultaat standaard van type Any (ofwel, Python weet niet wat het type gaat worden). In ons geval komt er altijd een float uit maar dat weet Python niet. Zorg dat je het resultaat van je formule voor `length` altijd converteert naar float voordat je returnt. Dan krijg je geen melding over het verkeerde type.
+- Als je `**` gebruikt om een wortel te nemen dan is het resultaat standaard van type `Any` (ofwel, Python weet niet wat het type gaat worden). In ons geval komt er altijd een `float` uit maar dat weet Python niet. Zorg dat je het resultaat van je formule voor `length` altijd converteert naar `float` voordat je returnt, en geeft de methode `length` het type `float`. Dan krijg je geen foutmelding.
