@@ -242,13 +242,14 @@ week_1:
         temperatuur: 1
 
 week_2:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 7/11/25 17:00
     submits:
         string-analyse: 1
         string-verschillen: 1
+
         alfabet: 1
         etenstijd: 1
         calculator: 1
@@ -258,25 +259,22 @@ week_2:
         string_transformatie_char: 1
         string_transformatie_delete: 1
         string_transformatie_complex: 1
+
         yell: 1
         rna: 1
         vwl: 1
         shout: 1
         camelcase: 1
 
-# checkup:
-#     # show_overview: true
-#     submits:
-#         checkup: 1
-
 week_3:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 14/11/25 17:00
     submits:
         list_int_basics: 1
         list_basics: 1
+
         rotate: 1
         compact: 1
         uniq: 1
@@ -290,6 +288,7 @@ week_3:
         merge_lists: 1
         selection_sort: 1
         special_sort: 1
+
         # sjoelen: 1
         # schuifpuzzel: 1
 
