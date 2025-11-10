@@ -110,6 +110,7 @@ grades:
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
     tutorial_strings: *werkcollege-gedaan
+    tutorial_lists: *werkcollege-gedaan
     werkcollege_3: *werkcollege
     werkcollege_4: *werkcollege
     werkcollege_5: *werkcollege
@@ -196,7 +197,8 @@ werkcolleges:
     submits:
         werkcollege_1: 1
         tutorial_strings: 1
-        werkcollege_3: 1
+        tutorial_lists: 1
+        # werkcollege_3: 1
         werkcollege_4: 1
         werkcollege_5: 1
         werkcollege_6: 1
