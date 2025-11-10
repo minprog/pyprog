@@ -172,13 +172,17 @@ grades:
     cards: *automatic
     country: *automatic
     lines: *automatic
-    war: *check
-    hangman: *automatic
-    hangman-less: *automatic
-    knapsack: *check
-    lisp: *automatic
-    lisp2: *automatic
-    figuren: *automatic
+    rgb: *automatic
+    point: *automatic
+    time: *automatic
+
+    # war: *check
+    # hangman: *automatic
+    # hangman-less: *automatic
+    # knapsack: *check
+    # lisp: *automatic
+    # lisp2: *automatic
+    # figuren: *automatic
 
     # module 14
     adventure-more: *automatic

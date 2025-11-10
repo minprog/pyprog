@@ -77,6 +77,7 @@ grades:
     werkcollege_7: *werkcollege
 
     tutorial_collections: *werkcollege
+    queue: *werkcollege
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -142,6 +143,7 @@ werkcolleges:
         werkcollege_6: 1
         tutorial_collections: 1
         eca2csv: 1
+        queue: 1
 
 toetsen:
     show_overview: true
@@ -280,49 +282,42 @@ week_10:
     small_block_overview: true
     deadline: 9/11/25 17:00
     submits:
+        # eca2csv: 1  # werkcollege
         klimaat: 1
 
-# week_7:
+week_11:
+    # show_overview: true
+    show_progress: true
+    deadline: 16/11/25 17:00
+    submits:
+        # queue: 1  # werkcollege
+        cards: 1
+        country: 1
+        lines: 1
+        rgb: 1
+        point: 1
+        time: 1
+
+# week_12:
 #     # show_overview: true
 #     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
+#     deadline: 23/11/25 17:00
 #     submits:
-#         # queue: 1
-#         cards: 1
-#         country: 1
-#         lines: 1
-#         lisp: 1
 #         figuren: 1
 
-# week_7_project:
+# week_13:
 #     # show_overview: true
 #     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
+#     deadline: 23/11/25 17:00
 #     submits:
 #         adventure-more: 1
 
-# modules:
-#     show_overview: true
-#     type: points
-#     submits:
-#         modules: 24
 
 challenges2:
     show_overview: true
     small_block_overview: true
     submits:
         kunstroof: 1
-
-
-# tentamen_ki:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         tentamen_ki: 14
 
 # tentamen_ik:
 #     show_overview: true
@@ -331,14 +326,6 @@ challenges2:
 #     minimum: 10
 #     submits:
 #         tentamen_ik: 14
-
-# hertentamen_ki:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         hertentamen_ki: 14
 
 # hertentamen_ik:
 #     show_overview: true
