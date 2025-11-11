@@ -12,6 +12,17 @@ Twee opmerkingen over de code:
 
         def rotate(lst: list[object]) -> None:
 
+## Doctests
+
+Hoe test je een functie die geen `return` doet en ook niet `print`? Dat ziet er zo uit:
+
+    >>> n1 = [1, 2, 3]
+    >>> rotate(n1)
+    >>> n1
+    [2, 3, 1]
+
+De eerste twee regels zijn de setup: een lijst aanmaken en de functie aanroepen. De regel daarna is de echte test: je geeft alleen de variabelenaam, en je zegt gewoon wat het moet zijn. Begrijp je het niet? Check met je docent!
+
 ## Algoritme
 
 Formuleer een compact algoritme waarin je gebruik maakt van de basisoperaties van Python.
