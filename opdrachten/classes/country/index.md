@@ -26,7 +26,7 @@ Maak een Python-bestand aan genaamd `country.py`. Voeg de volgende `main`-code t
 
 ## Stap 1: een simpele data-class
 
-Schrijf de class zodat stap 1 werkt. Zorg dat de class een "name", een "population" en een "area" kan opslaan. De testcode moet netjes de drie waarden printen.
+Schrijf de class zodat stap 1 werkt. Zorg dat de class een "name", een "population" en een "area" kan opslaan. De testcode moet netjes de drie waarden printen (pas de testcode niet aan).
 
 ## Stap 2: vergelijken
 
