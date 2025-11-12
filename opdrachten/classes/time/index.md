@@ -20,13 +20,15 @@ In de testcode zie je de operators `-` en `+`. Jouw class moet twee speciale met
 
 De methode voor plus heet `__add__` en voor min heet `__sub__`. Definieer ze zo:
 
-    def __add__(self, other: 'Time'):
+    def __add__(self, other: int):
         ...
     
-    def __sub__(self, other: 'Time'):
+    def __sub__(self, other: int):
         ...
 
-Implementeer dus zowel `__add__` (voor seconden later) als `__sub__` (voor seconden eerder).
+Let op dat je dus geen `Time`-object meekrijgt als `other`, maar een simpele `int`.
+
+Implementeer zowel `__add__` (voor seconden later) als `__sub__` (voor seconden eerder).
 
 Zorg dat tijdsberekeningen correct omgaan met overgangen van minuten en uren, en dat de tijd altijd binnen 0–23 uur blijft.
 

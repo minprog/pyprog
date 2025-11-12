@@ -26,6 +26,8 @@ De methode `__add__` is een *special method* die bepaalt wat `+` betekent voor o
 
 Binnen deze methode kun je bij de waarden van het andere punt via `other.x` en `other.y`.
 
+Als je deze methode zo implementeert kun je twee `Point`s optellen via `p1 + p2`.
+
 ## Afstand
 
 `distance_to` berekent de afstand tussen twee punten met hulp van de stelling van Pythagoras (weet je nog, in de eerste week van het vak?). Geef de methode vorm zoals de methode `__add__`.
