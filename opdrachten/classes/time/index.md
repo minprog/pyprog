@@ -1,9 +1,9 @@
-# Time
+# MyTime
 
-Maak een bestand `time.py` met de class `Time` die een tijdstip voorstelt (uren, minuten, seconden).
+Maak een bestand `time.py` met de class `MyTime` die een tijdstip voorstelt (uren, minuten, seconden).
 
     if __name__ == '__main__':
-        t = Time("10:31:00")
+        t = MyTime("10:31:00")
         print(t + 90)          # 90 seconden later
         print(t - 45)          # 45 seconden eerder
         print(t.next_hour())   # 11:00:00
@@ -26,7 +26,7 @@ De methode voor plus heet `__add__` en voor min heet `__sub__`. Definieer ze zo:
     def __sub__(self, other: int):
         ...
 
-Let op dat je dus geen `Time`-object meekrijgt als `other`, maar een simpele `int`.
+Let op dat je dus geen `MyTime`-object meekrijgt als `other`, maar een simpele `int`.
 
 ## Hints
 
