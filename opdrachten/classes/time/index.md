@@ -28,9 +28,14 @@ De methode voor plus heet `__add__` en voor min heet `__sub__`. Definieer ze zo:
 
 Let op dat je dus geen `Time`-object meekrijgt als `other`, maar een simpele `int`.
 
-Implementeer zowel `__add__` (voor seconden later) als `__sub__` (voor seconden eerder).
+## Hints
 
-Zorg dat tijdsberekeningen correct omgaan met overgangen van minuten en uren, en dat de tijd altijd binnen 0–23 uur blijft.
+1. Gebruik een interne representatie van *seconden*, zodat je makkelijk berekeningen kunt doen. Hier is een methode die de tijd omzet naar seconden:
 
-- `t + 60` betekent 1 minuut later.
-- `t - 3600` betekent 1 uur eerder.
+        def to_seconds(self) -> int:
+            return self.hours * 3600 + self.minutes * 60 + self.seconds
+
+2. Zorg dat alle tijdsberekeningen correct omgaan met overgangen van minuten en uren, en dat de tijd altijd binnen 0–23 uur blijft.
+
+    - `t + 60` betekent 1 minuut later.
+    - `t - 3600` betekent 1 uur eerder.
