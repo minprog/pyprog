@@ -146,10 +146,6 @@ Week 10:
     Klein project:
         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
-#     '[icon:puzzle] Big-O': /opdrachten/collections/big-o
-# Memory model: /opdrachten/week5/memory_model
-# Cijfers: /opdrachten/week5/cijfers
-
 # Classes intro
 Week 11:
     '[icon:list-check] Overzicht': /modules/classes
@@ -168,6 +164,7 @@ Week 11:
 
 # Collection classes
 Week 12:
+    '[icon:list-check] Overzicht [TBD]': /modules/collection_classes
     'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
         '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
@@ -177,14 +174,10 @@ Week 12:
     Project:
         War: /opdrachten/classes/war
 
-# Lisp: /opdrachten/classes/lisp
-# Figuren: /opdrachten/classes/figuren
-# Knapsack: /opdrachten/classes/knapsack # class-representatie probleem (no opers!)
-
 # Complexe strucuren
 Week 13:
-    Werkcollege:
-        Code review [TBD]: '#'
+    '[icon:list-check] Overzicht [TBD]': /modules/adventure
+    'Werkcollege: Code review 1 [TBD]': '#'
     Adventure:
         0. Introduction: /adventure2/steps/introduction
         1. Rooms: /adventure2/steps/room
@@ -195,8 +188,8 @@ Week 13:
 
 # Adventure
 Week 14:
-    Werkcollege:
-        Code review [TBD]: '#'
+    '[icon:list-check] Overzicht [TBD]': /modules/adventure
+    'Werkcollege: Code review 2 [TBD]': '#'
     Adventure:
         6. Forced movement: /adventure2/steps/forced
         7. Items (big!): /adventure2/steps/items
@@ -208,3 +201,10 @@ Week 14:
 # Oefententamen
 Week 15:
     Oefententamen [TBD]: '#'
+
+# '[icon:puzzle] Big-O': /opdrachten/collections/big-o
+# Memory model: /opdrachten/week5/memory_model
+# Cijfers: /opdrachten/week5/cijfers
+# Lisp: /opdrachten/classes/lisp
+# Figuren: /opdrachten/classes/figuren
+# Knapsack: /opdrachten/classes/knapsack # class-representatie probleem (no opers!)
