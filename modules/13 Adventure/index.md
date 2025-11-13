@@ -1,6 +1,8 @@
-# Collection Classes
+# Project: Adventure
 
-Nu je de techniek van classes een beetje door hebt, ga je classes en collections combineren. Door een Python-collection zoals een set, list of dict in een class te bouwen, kun je snel classes maken waarmee je gegevens beheert. Je hebt dit in de vorige module al gezien met een heel technische class `Queue`, die een heel beperkte lijst implementeert. Deze module ga je diverse classes maken die je zo terug zo kunnen vinden in programma's in de echte wereld.
+Dit is het begin van het einde! Je gaat een adventure game bouwen, zodat je die zelf helemaal kunt uitspelen. We doen dat met een databestand van één van de originele adventure games, genaamd.. [Adventure](https://en.wikipedia.org/wiki/Colossal_Cave_Adventure). In het bestand staan omschrijvingen van kamers, er staat welke kamers met elkaar verbonden zijn, en welke objecten klaarliggen op verschillende plekken.
+
+Het zal een pittige klus worden om het allemaal te implementeren, maar we bouwen helemaal op de kennis die je in de afgelopen tijd hebt opgedaan. Het is dus vooral de complexiteit en niet dat je nieuwe dingen moet doen. Heb er dus vertrouwen in dat je het kan... en als je ergens een verkeerde afslag neemt kun je altijd een stapje terug doen!
 
 ## Inleveren
 
