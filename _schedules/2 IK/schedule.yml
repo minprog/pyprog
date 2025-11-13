@@ -163,7 +163,7 @@ Week 11:
 
 # Collection classes
 Week 12:
-    '[icon:list-check] Overzicht [TBD]': /modules/collection_classes
+    '[icon:list-check] Overzicht': /modules/collection_classes
     'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
         '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
@@ -175,7 +175,7 @@ Week 12:
 
 # Complexe strucuren
 Week 13:
-    '[icon:list-check] Overzicht [TBD]': /modules/adventure
+    '[icon:list-check] Overzicht': /modules/adventure
     'Werkcollege: Code review 1 [TBD]': '#'
     Adventure:
         0. Introduction: /adventure2/steps/introduction
@@ -187,7 +187,7 @@ Week 13:
 
 # Adventure
 Week 14:
-    '[icon:list-check] Overzicht [TBD]': /modules/adventure
+    '[icon:list-check] Overzicht': /modules/adventure
     'Werkcollege: Code review 2 [TBD]': '#'
     Adventure:
         6. Forced movement: /adventure2/steps/forced
