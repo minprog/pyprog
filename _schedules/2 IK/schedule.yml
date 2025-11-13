@@ -186,23 +186,23 @@ Week 13:
     Werkcollege:
         Code review [TBD]: '#'
     Adventure:
-        0. Introduction: /adventure/steps/introduction
-        1. Rooms: /adventure/steps/room
-        2. Data files (big!): /adventure/steps/data
-        3. Moving around: /adventure/steps/move
-        4. Synonyms: /adventure/steps/synonyms
-        5. Back: /adventure/steps/back
+        0. Introduction: /adventure2/steps/introduction
+        1. Rooms: /adventure2/steps/room
+        2. Data files (big!): /adventure2/steps/data
+        3. Moving around: /adventure2/steps/move
+        4. Synonyms: /adventure2/steps/synonyms
+        5. Back: /adventure2/steps/back
 
 # Adventure
 Week 14:
     Werkcollege:
         Code review [TBD]: '#'
     Adventure:
-        6. Forced movement: /adventure/steps/forced
-        7. Items (big!): /adventure/steps/items
-        8. Utility commands: /adventure/steps/commands
-        9. Conditional movement: /adventure/steps/conditional
-        A. Winning the game (big!): /adventure/steps/winning
+        6. Forced movement: /adventure2/steps/forced
+        7. Items (big!): /adventure2/steps/items
+        8. Utility commands: /adventure2/steps/commands
+        9. Conditional movement: /adventure2/steps/conditional
+        A. Winning the game (big!): /adventure2/steps/winning
         Submit: /adventure/steps/submit
 
 # Oefententamen
