@@ -163,7 +163,7 @@ Module 9:
 
 # Collection classes
 Module 10:
-    '[icon:list-check] Overzicht [TBD]': /modules/collection_classes
+    '[icon:list-check] Overzicht': /modules/collection-classes
     'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
         '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
@@ -175,7 +175,7 @@ Module 10:
 
 # Complexe strucuren
 Module 11:
-    '[icon:list-check] Overzicht [TBD]': /modules/adventure
+    '[icon:list-check] Overzicht': /modules/adventure
     'Werkcollege: Code review 1 [TBD]': '#'
     Adventure:
         0. Introduction: /adventure2/steps/introduction
