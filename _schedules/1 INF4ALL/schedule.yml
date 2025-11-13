@@ -125,7 +125,7 @@ Oefentoets:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Collections intro
-Week 9:
+Module 7:
     '[icon:list-check] Overzicht': /modules/collections
     'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
@@ -139,14 +139,14 @@ Week 9:
     Challenge:
         '[icon:mortarboard] Kunstroof': /opdrachten/challenges/kunstroof
 
-Week 10:
+Module 8:
     '[icon:list-check] Overzicht': /modules/project
     'Werkcollege: Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
     Klein project:
         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
 # Classes intro
-Week 11:
+Module 9:
     '[icon:list-check] Overzicht': /modules/classes
     'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
@@ -162,7 +162,7 @@ Week 11:
         '[icon:diagram-3] Time': /opdrachten/classes/time
 
 # Collection classes
-Week 12:
+Module 10:
     '[icon:list-check] Overzicht [TBD]': /modules/collection_classes
     'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
@@ -174,7 +174,7 @@ Week 12:
         War: /opdrachten/classes/war
 
 # Complexe strucuren
-Week 13:
+Module 11:
     '[icon:list-check] Overzicht [TBD]': /modules/adventure
     'Werkcollege: Code review 1 [TBD]': '#'
     Adventure:
@@ -184,12 +184,6 @@ Week 13:
         3. Moving around: /adventure2/steps/move
         4. Synonyms: /adventure2/steps/synonyms
         5. Back: /adventure2/steps/back
-
-# Adventure
-Week 14:
-    '[icon:list-check] Overzicht [TBD]': /modules/adventure
-    'Werkcollege: Code review 2 [TBD]': '#'
-    Adventure:
         6. Forced movement: /adventure2/steps/forced
         7. Items (big!): /adventure2/steps/items
         8. Utility commands: /adventure2/steps/commands
@@ -198,5 +192,5 @@ Week 14:
         Submit: /adventure/steps/submit
 
 # Oefententamen
-Week 15:
+Oefententamen:
     Oefententamen [TBD]: '#'
