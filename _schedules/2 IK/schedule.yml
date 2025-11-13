@@ -153,7 +153,7 @@ Week 11:
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     # Videocollege: /opdrachten/classes/lecture
     Basis-oefeningen:
-        '[icon:puzzle] Doctests schrijven voor classes': /opdrachten/classes/doctests
+        '[icon:puzzle] Doctests voor classes': /opdrachten/classes/doctests
         '[icon:puzzle] Cards': /opdrachten/classes/cards # UML, data class, container
     Opdrachten:
         '[icon:diagram-2] Country': /opdrachten/classes/country
