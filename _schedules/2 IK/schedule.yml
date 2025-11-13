@@ -168,18 +168,18 @@ Week 11:
 
 # Collection classes
 Week 12:
-    'Werkcollege: ...': '#'
+    'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
         '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
         '[icon:diagram-3] Inventory': /opdrachten/collection_classes/inventory
         '[icon:diagram-3] Browser history': /opdrachten/collection_classes/history
         '[icon:diagram-3] Vocabulary trainer': /opdrachten/collection_classes/vocabulary
-
-        # Lisp: /opdrachten/classes/lisp
-        # Figuren: /opdrachten/classes/figuren
-        # Knapsack: /opdrachten/classes/knapsack # class-representatie probleem (no opers!)
     Project:
         War: /opdrachten/classes/war
+
+# Lisp: /opdrachten/classes/lisp
+# Figuren: /opdrachten/classes/figuren
+# Knapsack: /opdrachten/classes/knapsack # class-representatie probleem (no opers!)
 
 # Complexe strucuren
 Week 13:
