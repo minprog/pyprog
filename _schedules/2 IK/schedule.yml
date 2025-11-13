@@ -170,10 +170,10 @@ Week 11:
 # Collection classes
 Week 12:
     Opdrachten:
-        Phonebook: /opdrachten/classes/phonebook
-        Inventory: /opdrachten/classes/inventory
-        Browser history: /opdrachten/classes/history
-        Vocabulary trainer: /opdrachten/classes/vocabulary
+        Phonebook: /opdrachten/collection_classes/phonebook
+        Inventory: /opdrachten/collection_classes/inventory
+        Browser history: /opdrachten/collection_classes/history
+        Vocabulary trainer: /opdrachten/collection_classes/vocabulary
 
         # Lisp: /opdrachten/classes/lisp
         # Figuren: /opdrachten/classes/figuren
