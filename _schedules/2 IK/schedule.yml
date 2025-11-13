@@ -172,12 +172,12 @@ Week 12:
     Opdrachten:
         Phonebook: /opdrachten/classes/phonebook
         Inventory: /opdrachten/classes/inventory
-        Browser History: /opdrachten/classes/browser # add("http://..."), prev(), next(), get()
-        Vocabulary: /opdrachten/classes/vocabulary # add words, get random (increments # practiced, influences chance?)
+        Browser history: /opdrachten/classes/history
+        Vocabulary trainer: /opdrachten/classes/vocabulary
 
         # Lisp: /opdrachten/classes/lisp
-        Figuren: /opdrachten/classes/figuren
-        Knapsack: /opdrachten/classes/knapsack # class-representatie probleem (no opers!)
+        # Figuren: /opdrachten/classes/figuren
+        # Knapsack: /opdrachten/classes/knapsack # class-representatie probleem (no opers!)
     Project:
         War: /opdrachten/classes/war
 
