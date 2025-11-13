@@ -169,11 +169,12 @@ Week 11:
 
 # Collection classes
 Week 12:
+    'Werkcollege: ...': '#'
     Opdrachten:
-        Phonebook: /opdrachten/collection_classes/phonebook
-        Inventory: /opdrachten/collection_classes/inventory
-        Browser history: /opdrachten/collection_classes/history
-        Vocabulary trainer: /opdrachten/collection_classes/vocabulary
+        '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
+        '[icon:diagram-3] Inventory': /opdrachten/collection_classes/inventory
+        '[icon:diagram-3] Browser history': /opdrachten/collection_classes/history
+        '[icon:diagram-3] Vocabulary trainer': /opdrachten/collection_classes/vocabulary
 
         # Lisp: /opdrachten/classes/lisp
         # Figuren: /opdrachten/classes/figuren
@@ -184,16 +185,27 @@ Week 12:
 # Complexe strucuren
 Week 13:
     Werkcollege:
-    Project:
-        Adventure: /adventure/more
+        Code review [TBD]: '#'
+    Adventure:
+        0. Introduction: /adventure/steps/introduction
+        1. Rooms: /adventure/steps/room
+        2. Data files (big!): /adventure/steps/data
+        3. Moving around: /adventure/steps/move
+        4. Synonyms: /adventure/steps/synonyms
+        5. Back: /adventure/steps/back
 
 # Adventure
 Week 14:
     Werkcollege:
-    Project:
-        Adventure: /adventure/more
+        Code review [TBD]: '#'
+    Adventure:
+        6. Forced movement: /adventure/steps/forced
+        7. Items (big!): /adventure/steps/items
+        8. Utility commands: /adventure/steps/commands
+        9. Conditional movement: /adventure/steps/conditional
+        A. Winning the game (big!): /adventure/steps/winning
+        Submit: /adventure/steps/submit
 
 # Oefententamen
 Week 15:
-    Werkcollege:
-        Oefententamen: /werkcollege/wc4her
+    Oefententamen [TBD]: '#'
