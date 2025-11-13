@@ -105,3 +105,66 @@ Oefentoets:
     Oefentoets: /tentamen/oefentoets
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Collections intro
+Week 5:
+    '[icon:list-check] Overzicht [TBD]': '#' # /modules_kort/collections
+    'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
+    '[icon:journal-code] Hoofdstuk 8': /boek/boek6
+    Oefenen:
+        '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
+        '[icon:puzzle] Bestanden lezen': /opdrachten/data/io
+    Problem Solving:
+        '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
+        '[icon:diagram-2] Schuifpuzzel': /opdrachten/lists/schuifpuzzel
+        '[icon:diagram-3] Indexer': /opdrachten/collections/indexer
+    Challenge:
+        '[icon:mortarboard] Kunstroof': /opdrachten/challenges/kunstroof
+    # '[icon:list-check] Overzicht': /modules/project
+    # 'Werkcollege: Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
+    # Klein project:
+    #     '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
+
+# Classes intro
+Week 6:
+    '[icon:list-check] Overzicht [TBD]': '#' # /modules_kort/classes
+    'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
+    '[icon:journal-code] Hoofdstuk 9': /boek/boek7
+    # Videocollege: /opdrachten/classes/lecture
+    Classes:
+        '[icon:puzzle] Doctests voor classes': /opdrachten/classes/doctests
+        '[icon:diagram-2] Country': /opdrachten/classes/country
+        '[icon:diagram-2] Lines': /opdrachten/classes/lines
+        '[icon:diagram-2] RGB': /opdrachten/classes/rgb
+        '[icon:diagram-2] Point': /opdrachten/classes/point
+        '[icon:diagram-3] Time': /opdrachten/classes/time
+    Collection classes:
+        '[icon:puzzle] Cards': /opdrachten/classes/cards
+        '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
+        '[icon:diagram-3] Inventory': /opdrachten/collection_classes/inventory
+        '[icon:diagram-3] Browser history': /opdrachten/collection_classes/history
+        '[icon:diagram-3] Vocabulary trainer': /opdrachten/collection_classes/vocabulary
+    Challenge:
+        War: /opdrachten/classes/war
+
+# Complexe strucuren
+Week 7:
+    '[icon:list-check] Overzicht [TBD]': '#' #/modules_kort/adventure
+    'Werkcollege: Code review [TBD]': '#'
+    Adventure:
+        0. Introduction: /adventure2/steps/introduction
+        1. Rooms: /adventure2/steps/room
+        2. Data files (big!): /adventure2/steps/data
+        3. Moving around: /adventure2/steps/move
+        4. Synonyms: /adventure2/steps/synonyms
+        5. Back: /adventure2/steps/back
+        6. Forced movement: /adventure2/steps/forced
+        7. Items (big!): /adventure2/steps/items
+        8. Utility commands: /adventure2/steps/commands
+        9. Conditional movement: /adventure2/steps/conditional
+        A. Winning the game (big!): /adventure2/steps/winning
+        Submit: /adventure/steps/submit
+
+# Oefententamen
+Oefententamen:
+    Oefententamen [TBD]: '#'
