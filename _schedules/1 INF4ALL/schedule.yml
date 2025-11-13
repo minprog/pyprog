@@ -3,70 +3,67 @@ Welkom:
 
 # Basic form
 Module 1:
-    Overzicht: /modules/programmeren
-    Werkcollege:
-        Formules: /werkcollege/formules
-        Installatie: /installatie/simpel
-    Boek 1:
-        '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
+    '[icon:list-check] Overzicht': /modules/programmeren
+    'Werkcollege: Formules': /werkcollege/formules
+    'Werkcollege: Installatie': /installatie/pulsar
     Functies en expressies:
-        Weken: /opdrachten/expressies/weken
-        Water: /opdrachten/expressies/water
-        Binair: /opdrachten/expressies/binair
-        Cafeine: /opdrachten/expressies/cafeine
-        Vakantie: /opdrachten/expressies/vakantie
-    Boek 2:
-        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
+        '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
+        '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
+        '[icon:puzzle] Een programma met een functie en een main: Weken': /opdrachten/expressies/weken
+        '[icon:diagram-2] Water': /opdrachten/expressies/water
+        '[icon:diagram-2] Binair': /opdrachten/expressies/binair
+        '[icon:diagram-2] Cafeine': /opdrachten/expressies/cafeine
+        '[icon:diagram-2] Vakantie': /opdrachten/expressies/vakantie
     Conditionals:
-        Acid test: /opdrachten/conditionals/acid
-        Schrikkel: /opdrachten/conditionals/schrikkel
-        Orakel: /opdrachten/conditionals/orakel
-        Byte: /opdrachten/conditionals/byte
-        Rechthoeken: /opdrachten/conditionals/rechthoeken
+        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
+        '[icon:puzzle] Een programma met if-statements: Acid test': /opdrachten/conditionals/acid
+        '[icon:diagram-2] Schrikkel': /opdrachten/conditionals/schrikkel
+        '[icon:diagram-2] Orakel': /opdrachten/conditionals/orakel
+        '[icon:diagram-2] Byte': /opdrachten/conditionals/byte
+        '[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
     Challenge:
-        Kalender: /opdrachten/challenges/kalender
+        '[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
 
 # Loops
 # (Kalender is weg)
 Module 2:
-    Overzicht: /modules/herhaling
-    Theorie:
-        '[icon:journal-code] Boek 4.4-4.7': /boek/boek3
+    '[icon:list-check] Overzicht': /modules/herhaling
+    Werkcollege loops: /werkcollege/loops
+    '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
     Basis-oefeningen:
-        # Werkcollege loops: /werkcollege/loops
-        Collatz: /opdrachten/loops/collatz
-        Schrikkel: /opdrachten/loops/schrikkel
-        Input: /opdrachten/loops/input
+        '[icon:puzzle] Getallenreeksen met for en while': /opdrachten/loops/reeksen
+        '[icon:puzzle] Schrikkeljaren tellen met een loop en een variabele': /opdrachten/loops/schrikkel
+        '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
+        '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
     While-loops:
-        Cola: /opdrachten/loops/cola
-        Greedy: /opdrachten/loops/greedy
-        Raadspel: /opdrachten/loops/raadspel
-        Populatie: /opdrachten/loops/populatie
+        '[icon:diagram-2] Cola': /opdrachten/loops/cola
+        '[icon:diagram-2] Greedy': /opdrachten/loops/greedy
+        '[icon:diagram-2] Raadspel': /opdrachten/loops/raadspel
+        '[icon:diagram-2] Populatie': /opdrachten/loops/populatie
     For-loops:
-        Piramide: /opdrachten/loops/piramide
-        Temperatuur: /opdrachten/loops/temperatuur
+        '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
+        '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
     Challenge:
-        Priemgetallen: /opdrachten/challenges/priemgetallen
+        '[icon:mortarboard] Priemgetallen': /opdrachten/challenges/priemgetallen
 
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Module 3:
-    Overzicht: /modules/strings
-    Theorie:
-        '[icon:journal-code] Boek hst 5 en 6': /boek/boek4
+    '[icon:list-check] Overzicht': /modules/strings
+    'Werkcollege: Strings-tutorial': /werkcollege/tutorial_strings
+    '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     #    Debugging: /opdrachten/oud/debug
     Basis-oefeningen:
-        # Werkcollege string-analyse: /werkcollege/strings
-        Analyse: /opdrachten/strings/analyse
-        Verschillen: /opdrachten/strings/verschillen
+        '[icon:puzzle] Analyse': /opdrachten/strings/analyse
+        '[icon:puzzle] Verschillen': /opdrachten/strings/verschillen
     Problem solving:
-        Alfabet: /opdrachten/strings/alfabet
-        Etenstijd: /opdrachten/strings/etenstijd
-        Calculator: /opdrachten/strings/calculator
-        Wachtwoord: /opdrachten/strings/wachtwoord
-        Leesbaarheid: /opdrachten/strings/leesbaarheid
+        '[icon:diagram-2] Alfabet': /opdrachten/strings/alfabet
+        '[icon:diagram-2] Etenstijd': /opdrachten/strings/etenstijd
+        '[icon:diagram-2] Calculator': /opdrachten/strings/calculator
+        '[icon:diagram-3] Wachtwoord': /opdrachten/strings/wachtwoord
+        '[icon:diagram-3] Leesbaarheid': /opdrachten/strings/leesbaarheid
     Challenge:
-        Wachtwoord-generator: /opdrachten/challenges/pwdgen
+        '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
 
 # String-transformatie
 Module 4:
@@ -76,128 +73,130 @@ Module 4:
         '[icon:puzzle] Tekens verwijderen': /opdrachten/strings/transformatie_delete
         '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie_complex
     Opdrachten:
-        Yell: /opdrachten/strings/yell
-        Remove vowels: /opdrachten/strings/vwl
-        Shout: /opdrachten/strings/shout
-        camelCase: /opdrachten/strings/camelcase
-        RNA: /opdrachten/strings/rna
+        '[icon:diagram-2] Yell': /opdrachten/strings/yell
+        '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl
+        '[icon:diagram-2] Shout': /opdrachten/strings/shout
+        '[icon:diagram-2] camelCase': /opdrachten/strings/camelcase
+        '[icon:diagram-3] RNA': /opdrachten/strings/rna
         # ROT13: /opdrachten/strings/rot13
     Challenge:
-        Monopoly: /opdrachten/challenges/monopoly
+        '[icon:mortarboard] Monopoly': /opdrachten/challenges/monopoly
 
 # Lots of lists
 Module 5:
-    Overzicht: /modules/lists
-    Theorie:
-        'Werkcollege: Lists-tutorial': /werkcollege/tutorial_lists
-        '[icon:journal-code] Boek 7.1-7.3': /boek/boek5
+    '[icon:list-check] Overzicht': /modules/lists
+    'Werkcollege: Lists-tutorial': /werkcollege/tutorial_lists
+    '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Basis-oefeningen:
-        # Werkcollege list-transformatie en list-analyse: /werkcollege/lists
-        Integer lists: /opdrachten/lists/int_lists
-        List basics: /opdrachten/lists/basics
+        '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists
+        '[icon:puzzle] List basics': /opdrachten/lists/basics
     Opdrachten:
-        Rotate: /opdrachten/lists/rotate #(rotating shift)
-        Compact: /opdrachten/lists/compact #(remove 0 or Falsy)
-        Uniq: /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
+        '[icon:diagram-2] Rotate': /opdrachten/lists/rotate #(rotating shift)
+        '[icon:diagram-2] Compact': /opdrachten/lists/compact #(remove 0 or Falsy)
+        '[icon:diagram-2] Uniq': /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
         # Flatten: /opdrachten/lists/flatten #(flatten single level)
-        Chunk: /opdrachten/lists/chunk #(split into chunks of len N)
-        Contig: /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
-        Interleave: /opdrachten/lists/interleave #(alternating, keep all, don't keep all)
+        '[icon:diagram-2] Chunk': /opdrachten/lists/chunk #(split into chunks of len N)
+        '[icon:diagram-2] Interleave': /opdrachten/lists/interleave #(alternating, keep all, don't
+        '[icon:diagram-2] Contig': /opdrachten/lists/contig #(contig sublists 1-2-3 5-6 9)
         # Winner: /opdrachten/lists/winner #(bepaal winnaar tic-tac-toe board)
         # Prefix sums: /opdrachten/lists/sums #(cumulatieve prefix-som)
     Challenge:
-        Compress: /opdrachten/challenges/compress #(RLE)
+        '[icon:mortarboard] Compress': /opdrachten/challenges/compress #(RLE)
 
 # Algoritmen
 Module 6:
-    Overzicht: /modules/algoritmen
-    # Werkcollege:
-    #     Algoritmen: /werkcollege/algoritmen
+    # '[icon:list-check] Overzicht': /modules/algoritmen
+    # 'Werkcollege: Algoritmen': /werkcollege/algoritmen
+    # Algorithms: /opdrachten/week5/algorithms # Papieren oefening
     Opdrachten:
         # search?
-        Banner: /opdrachten/algoritmen/banner
-        Scrabble: /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
-        Merge lists: /opdrachten/algoritmen/merge
-        Selection sort: /opdrachten/algoritmen/selection
-        Special sort: /opdrachten/algoritmen/special
-        # Sjoelen: /opdrachten/lists/sjoelen # 2 func, main, simulatie
-        # Schuifpuzzel: /opdrachten/lists/schuifpuzzel
+        '[icon:diagram-3] Banner': /opdrachten/algoritmen/banner
+        '[icon:diagram-3] Scrabble': /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
+        '[icon:diagram-3] Merge lists': /opdrachten/algoritmen/merge
+        '[icon:diagram-3] Selection sort': /opdrachten/algoritmen/selection
+        '[icon:diagram-3] Special sort': /opdrachten/algoritmen/special
     Challenge:
-        Virus: /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
+        '[icon:mortarboard] Virus': /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
 
 # Oefententamen
-Tussentoets:
-    Werkcollege:
-        Oefententamen: /werkcollege/wc4her
+Oefentoets:
+    Oefentoets: /tentamen/oefentoets
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Collections intro
-Module 7:
-    Overzicht en beoordeling: /modules/collections
-    Werkcollege:
-        Collections: /werkcollege/collections
-    Opdrachten:
-        # TODO meer oefeningen
-        # Collections: /opdrachten/collections/collection_functions
-        # Algorithms: /opdrachten/week5/algorithms
+Week 9:
+    '[icon:list-check] Overzicht': /modules/collections
+    'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
+    '[icon:journal-code] Hoofdstuk 8': /boek/boek6
+    Oefenen:
+        '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
+        '[icon:puzzle] Bestanden lezen': /opdrachten/data/io
+    Problem Solving:
+        '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
+        '[icon:diagram-2] Schuifpuzzel': /opdrachten/lists/schuifpuzzel
+        '[icon:diagram-3] Indexer': /opdrachten/collections/indexer
+    Challenge:
+        '[icon:mortarboard] Kunstroof': /opdrachten/challenges/kunstroof
 
-
-Module 8:
-    Opdrachten:
-        Bestanden lezen: /opdrachten/data/io
-        Indexer: /opdrachten/collections/indexer
-        Big-O: /opdrachten/collections/big-o
-        Preprocessing: /opdrachten/data/eca2csv # deze gaat weg
-    Project:
-        Klimaat: /opdrachten/data/klimaat
+Week 10:
+    '[icon:list-check] Overzicht': /modules/project
+    'Werkcollege: Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
+    Klein project:
+        '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
 # Classes intro
-Module 9:
-    Overzicht en beoordeling: /modules/classes
-    Videocollege: /opdrachten/classes/lecture
-    Werkcollege:
-        # Collections: /werkcollege/collections
-        Queue: /opdrachten/classes/queue # basic datastructuur, encapsulation, init
+Week 11:
+    '[icon:list-check] Overzicht': /modules/classes
+    'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
+    '[icon:journal-code] Hoofdstuk 9': /boek/boek7
+    # Videocollege: /opdrachten/classes/lecture
+    Basis-oefeningen:
+        '[icon:puzzle] Doctests voor classes': /opdrachten/classes/doctests
+        '[icon:puzzle] Cards': /opdrachten/classes/cards # UML, data class, container
     Opdrachten:
-        Cards: /opdrachten/classes/cards # UML, data class, container
-        Country: /opdrachten/classes/country
-        Phonebook: /opdrachten/classes/phonebook
-        Point: /opdrachten/classes/point
-        Inventory: /opdrachten/classes/inventory
-        RGB: /opdrachten/classes/rgb
-        Browser History: /opdrachten/classes/browser # add("http://..."), prev(), next(), get()
-        Lines: /opdrachten/classes/lines
-        Vocabulary: /opdrachten/classes/vocabulary # add words, get random (increments # practiced, influences chance?)
-        Time: /opdrachten/classes/time
+        '[icon:diagram-2] Country': /opdrachten/classes/country
+        '[icon:diagram-2] Lines': /opdrachten/classes/lines
+        '[icon:diagram-2] RGB': /opdrachten/classes/rgb
+        '[icon:diagram-2] Point': /opdrachten/classes/point
+        '[icon:diagram-3] Time': /opdrachten/classes/time
 
-# Programs with classes
-Module 10:
+# Collection classes
+Week 12:
+    '[icon:list-check] Overzicht [TBD]': /modules/collection_classes
+    'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
-        # Lisp: /opdrachten/classes/lisp
-        # Figuren: /opdrachten/classes/figuren
-        # Knapsack: /opdrachten/classes/knapsack            # class-representatie probleem (no opers!)
-        # let op: lisp, figuren zijn geschrapt
-    Project:
+        '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
+        '[icon:diagram-3] Inventory': /opdrachten/collection_classes/inventory
+        '[icon:diagram-3] Browser history': /opdrachten/collection_classes/history
+        '[icon:diagram-3] Vocabulary trainer': /opdrachten/collection_classes/vocabulary
+    Challenge:
         War: /opdrachten/classes/war
-        # Memory model: /opdrachten/week5/memory_model
-        # Cijfers: /opdrachten/week5/cijfers
 
-# Complexe strucuren, of big-O of wat anders
-Module 11:
-    Overzicht en beoordeling: /modules/classes
-    Videocollege: /opdrachten/classes/lecture
-    Werkcollege:
-        # Collections: /werkcollege/collections
+# Complexe strucuren
+Week 13:
+    '[icon:list-check] Overzicht [TBD]': /modules/adventure
+    'Werkcollege: Code review 1 [TBD]': '#'
+    Adventure:
+        0. Introduction: /adventure2/steps/introduction
+        1. Rooms: /adventure2/steps/room
+        2. Data files (big!): /adventure2/steps/data
+        3. Moving around: /adventure2/steps/move
+        4. Synonyms: /adventure2/steps/synonyms
+        5. Back: /adventure2/steps/back
 
 # Adventure
-Module 12:
-    Opdrachten:
-        Figuren: /opdrachten/classes/figuren
-    Project:
-        Adventure: /adventure/more
+Week 14:
+    '[icon:list-check] Overzicht [TBD]': /modules/adventure
+    'Werkcollege: Code review 2 [TBD]': '#'
+    Adventure:
+        6. Forced movement: /adventure2/steps/forced
+        7. Items (big!): /adventure2/steps/items
+        8. Utility commands: /adventure2/steps/commands
+        9. Conditional movement: /adventure2/steps/conditional
+        A. Winning the game (big!): /adventure2/steps/winning
+        Submit: /adventure/steps/submit
 
 # Oefententamen
-Tentamen:
-    Werkcollege:
-        Oefententamen: /werkcollege/wc4her
+Week 15:
+    Oefententamen [TBD]: '#'

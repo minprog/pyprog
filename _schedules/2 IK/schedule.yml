@@ -106,14 +106,13 @@ Week 5:
 # Algoritmen
 Week 6:
     # '[icon:list-check] Overzicht': /modules/algoritmen
-    # Werkcollege:
-    #     Algoritmen: /werkcollege/algoritmen
+    # 'Werkcollege: Algoritmen': /werkcollege/algoritmen
+    # Algorithms: /opdrachten/week5/algorithms # Papieren oefening
     Opdrachten:
         # search?
         '[icon:diagram-3] Banner': /opdrachten/algoritmen/banner
         '[icon:diagram-3] Scrabble': /opdrachten/algoritmen/scrabble # 1 func, main, loop, if, str
         '[icon:diagram-3] Merge lists': /opdrachten/algoritmen/merge
-        # Algorithms: /opdrachten/week5/algorithms # Papieren oefening
         '[icon:diagram-3] Selection sort': /opdrachten/algoritmen/selection
         '[icon:diagram-3] Special sort': /opdrachten/algoritmen/special
     Challenge:
