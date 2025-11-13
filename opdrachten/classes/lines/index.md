@@ -12,7 +12,7 @@ Implementeer stap voor stap de `LineSegment` en `Point` classes om te zorgen dat
 
 1.  Schrijf een `Point` class waarvan de `__init__` twee getallen als parameter heeft.
 
-2.  Schrijf een `LineSegment` class waarvan de constructor twee `Point`-instanties als parameter heeft. De eerstgegeven `Point` zal dienen als de start van een lijnsegment.
+2.  Schrijf een `LineSegment` class waarvan de initializer twee `Point`-instanties als parameter heeft. De eerstgegeven `Point` zal dienen als de start van een lijnsegment.
 
 3.  Schrijf een methode `slope` voor `LineSegment` die de helling van de lijn berekent. De helling is de verandering in `y`-waarde gedeeld door de verandering in `x`-waarde.
 

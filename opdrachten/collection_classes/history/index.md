@@ -1,56 +1,46 @@
-# Opdracht: Implementeer de class `BrowserHistory`
+# Browser-geschiedenis
 
-## 1. Doel van de opdracht
-Maak een Python-class die de geschiedenis van een webbrowser beheert. Gebruik een of meer geschikte Python-collections om de data bij te houden. Implementeer veelvoorkomende operaties zoals pagina's bezoeken, teruggaan, vooruitgaan, zoeken en opschonen.
+Maak een Python-class die de geschiedenis van een webbrowser beheert. Gebruik één of meer geschikte Python-collections om de data bij te houden. Implementeer veelvoorkomende operaties zoals pagina's bezoeken, teruggaan, vooruitgaan, zoeken en opschonen.
 
-## 2. Functionele eisen
+## Initializer
 
-### 2.1 Constructor
 - Initialiseert een lege browsergeschiedenis.
-- Houdt minimaal bij:
-  - De complete lijst met bezochte pagina's in volgorde.
-  - De huidige positie in de geschiedenis.
 
-### 2.2 `visit(url)`
+- Houdt minimaal bij:
+    - De complete lijst met bezochte pagina's in volgorde.
+    - De huidige positie in de geschiedenis (deze is belangrijk voor de meeste operaties!).
+
+## Operatie: visit
+
 - Voegt een nieuwe URL toe aan de geschiedenis.
-- Als de gebruiker niet aan het einde van de geschiedenis staat, verwijder dan de forward-geschiedenis.
+- Als de gebruiker niet aan het einde van de geschiedenis staat, verwijder dan de geschiedenis vanaf het huidige punt en vervang door de nieuwe URL.
 - Zet de huidige positie op de nieuwe pagina.
 
-### 2.3 `back()`
+## Operatie: back
+
 - Verplaatst de huidige positie één stap terug.
 - Geeft de nieuwe huidige URL terug.
 - Als er niet verder terug kan worden gegaan, blijft de positie gelijk.
 
-### 2.4 `forward()`
+## Operatie: forward
+
 - Verplaatst de huidige positie één stap vooruit.
-- Randvoorwaarden analoog aan `back()`.
+- Randvoorwaarden zoals bij `back()`.
 
-### 2.5 `current()`
-- Retourneert de URL die op dit moment actief is.
+## Operatie: current
 
-### 2.6 `find(keyword)`
-- Geeft een lijst van alle URLs waarin de keyword-substring voorkomt.
-- Zoeken is case-insensitive.
+- Geeft de URL die op dit moment actief is.
 
-### 2.7 `clear()`
+## Operatie: find
+
+- Geeft een lijst van alle URLs waarin een gegeven substring voorkomt.
+- Zoeken is case-insensitive!
+
+## Operatie: clear
+
 - Maakt de volledige geschiedenis leeg.
 - Reset de huidige positie.
 
-## 3. Ontwerpkeuzes (inleververantwoording)
-Beschrijf kort:
-- Welke datastructuren zijn gekozen en waarom.
-- Hoe randgevallen worden afgehandeld (geen history, back/forward buiten bereik, etc.).
-- Eventuele extra functies die zijn toegevoegd.
+## Errors
 
-## 4. Optionele uitbreidingen
-- Maximale lengtelimiet op de geschiedenis.
-- Opslaan van timestamps per entry.
-- Exporteren en importeren van geschiedenis naar JSON.
-- Undo/redo-functionaliteit.
-
-## 5. Minimale testcases
-Studenten leveren tests aan die verifiëren dat:
-- `visit` correct werkt, inclusief verwijderen van forward-geschiedenis.
-- `back` en `forward` grenzen correct afhandelen.
-- `find` correcte zoekresultaten geeft.
-- `clear` de gehele geschiedenis reset.
+- Geef een `IndexError` als de positie aangepast moet worden maar dit kan niet. Bedenk bij welke operaties dit nodig is.
