@@ -27,6 +27,8 @@ De eerste twee regels zijn de setup: een lijst aanmaken en de functie aanroepen.
 
 Formuleer een compact algoritme waarin je gebruik maakt van de basisoperaties van Python.
 
+In dit geval mag je alleen elementen kopiëren van de ene naar de andere plek! Dus je moet echt elk element "verschuiven" naar de plek ernaast. Voorbeeld van een element verplaatsen: `lst[2] = lst[3]`.
+
 Bedenk vooraf:
 
 - wat de input is
@@ -38,8 +40,6 @@ Bedenk vooraf:
 Dit zijn enkele elementen die je bij deze opdracht kunt gebruiken:
 
 - een `for`-loop met index
-- voorbeeld van een element verplaatsen: `lst[2] = lst[3]`
-- "alle elementen naar links verschuiven" moet je echt zo doen
 </details>
 
 ## Main?
