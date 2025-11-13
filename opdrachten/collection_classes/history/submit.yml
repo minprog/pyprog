@@ -1,0 +1,8 @@
+name: browser_history
+files:
+  required:
+    - browser_history.py
+check:
+  tool: checkpy
+  repo: minprog/python
+  args: browser_history
