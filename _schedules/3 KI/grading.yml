@@ -118,6 +118,7 @@ grades:
     werkcollege_7: *werkcollege
     tentamen_oefening_w2: *werkcollege
 
+    oefentoets: *check
     oefententamen: *werkcollege
     oefenen_hertentamen: *werkcollege
 
@@ -203,6 +204,11 @@ werkcolleges:
         werkcollege_5: 1
         werkcollege_6: 1
         # werkcollege_7: 1
+
+oefentoets:
+    show_overview: true
+    submits:
+        oefentoets: 1
 
 # werkbladen:
 #     show_progress: true
