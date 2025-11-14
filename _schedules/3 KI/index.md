@@ -86,8 +86,8 @@ Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te
 |  3   | 10 nov | Oefeningen lists          |
 |  4   |        | Tussentoets               |
 |  5   | 24 nov | Oefeningen collections    |
-|  6   |  1 dec | Code reviews              |
-|  7   |  8 dec | Oefeningen classes        |
+|  6   |  1 dec | Oefeningen classes        |
+|  7   |  8 dec | Code reviews              |
 |  8   |        | Tentamen                  |
 
 ## Huiswerk en deadlines
