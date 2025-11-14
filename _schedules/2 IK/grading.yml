@@ -295,7 +295,7 @@ week_11:
         lines: 1
         rgb: 1
         point: 1
-        time: 1
+        times: 1
 
 # week_12:
 #     # show_overview: true
