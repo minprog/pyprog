@@ -2,7 +2,8 @@ name: oefentoets
 exam: true
 files:
     required:
-        oefentoets.py: ''
+        oefentoets.py: |
+           # Veel succes! Schrijf hieronder je functies en gebruik de knoppen voor checks!
 buttons:
     check: |
         def find_forbidden(src: str) -> str | None:
