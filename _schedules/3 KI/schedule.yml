@@ -107,7 +107,7 @@ Oefentoets:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Collections intro
-Week 5:
+'Week 5: Collections':
     '[icon:list-check] Overzicht [TBD]': '#' # /modules_kort/collections
     'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
@@ -126,7 +126,7 @@ Week 5:
     #     '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
 # Classes intro
-Week 6:
+'Week 6: Classes':
     '[icon:list-check] Overzicht [TBD]': '#' # /modules_kort/classes
     'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
@@ -148,7 +148,7 @@ Week 6:
         War: /opdrachten/classes/war
 
 # Complexe strucuren
-Week 7:
+'Week 7: Adventure':
     '[icon:list-check] Overzicht [TBD]': '#' #/modules_kort/adventure
     'Werkcollege: Code review [TBD]': '#'
     Adventure:
