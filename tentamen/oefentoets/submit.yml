@@ -38,6 +38,8 @@ buttons:
         res = find_forbidden(code)
         if res:
             print(res)
+        else:
+            print("Geen slicing gevonden, dat is 👍")
     mypy: |
         from mypy import api as mypy_api
         mypy_api.run(['--strict', '<filename>.py'])[0]
