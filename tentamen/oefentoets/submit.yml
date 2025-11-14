@@ -39,7 +39,7 @@ buttons:
         if res:
             print(res)
         else:
-            print("Geen slicing gevonden, dat is 👍")
+            print("Geen slicing gevonden, dat is mooi.")
     mypy: |
         from mypy import api as mypy_api
         mypy_api.run(['--strict', '<filename>.py'])[0]
