@@ -2,9 +2,7 @@ name: oefentoets
 exam: true
 files:
     required:
-        oefentoets.py: |
-           # Let op: negeer deze type error -> Unsupported left operand type for <
-           # Handig om te gebruiken: 'abcdefghijklmnopqrstuvwxyz'
+        oefentoets.py: ''
 buttons:
     check: |
         def find_forbidden(src: str) -> str | None:
