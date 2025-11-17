@@ -288,6 +288,7 @@ week_10:
 week_11:
     # show_overview: true
     show_progress: true
+    small_block_overview: true
     deadline: 16/11/25 17:00
     submits:
         # queue: 1  # werkcollege
