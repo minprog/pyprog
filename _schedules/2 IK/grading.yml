@@ -303,11 +303,11 @@ week_12:
     deadline: 23/11/25 17:00
     submits:
         # figuren: 1
-        phonebook: *automatic
-        inventory: *automatic
-        browser_history: *automatic
-        vocabulary_trainer: *automatic
-        war: *automatic
+        phonebook: 1
+        inventory: 1
+        browser_history: 1
+        vocabulary_trainer: 1
+        war: 1
 
 # week_13:
 #     # show_overview: true
