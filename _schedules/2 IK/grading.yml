@@ -143,6 +143,7 @@ werkcolleges:
         tutorial_collections: 1
         eca2csv: 1
         werkcollege_7: 1 # queue
+        cards: 1
 
 toetsen:
     show_overview: true
