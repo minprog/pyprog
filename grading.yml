@@ -181,6 +181,7 @@ grades:
     inventory: *automatic
     browser_history: *automatic
     vocabulary_trainer: *automatic
+    war: *automatic
 
     # war: *check
     # hangman: *automatic
