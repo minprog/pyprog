@@ -1,6 +1,6 @@
 # Browser-geschiedenis
 
-Maak een Python-class die de geschiedenis van een webbrowser beheert. Gebruik één of meer geschikte Python-collections om de data bij te houden. Implementeer veelvoorkomende operaties zoals pagina's bezoeken, teruggaan, vooruitgaan, zoeken en opschonen.
+Maak een Python-class genaamd `BrowserHistory` die de geschiedenis van een webbrowser beheert. Gebruik één of meer geschikte Python-collections om de data bij te houden. Implementeer veelvoorkomende operaties zoals pagina's bezoeken, teruggaan, vooruitgaan, zoeken en opschonen.
 
 ## Initializer
 
