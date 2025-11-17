@@ -176,6 +176,12 @@ grades:
     point: *automatic
     times: *automatic
 
+    # module 12
+    phonebook: *automatic
+    inventory: *automatic
+    browser_history: *automatic
+    vocabulary_trainer: *automatic
+
     # war: *check
     # hangman: *automatic
     # hangman-less: *automatic

@@ -297,12 +297,17 @@ week_11:
         point: 1
         times: 1
 
-# week_12:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 23/11/25 17:00
-#     submits:
-#         figuren: 1
+week_12:
+    # show_overview: true
+    show_progress: true
+    deadline: 23/11/25 17:00
+    submits:
+        # figuren: 1
+        phonebook: *automatic
+        inventory: *automatic
+        browser_history: *automatic
+        vocabulary_trainer: *automatic
+        war: *automatic
 
 # week_13:
 #     # show_overview: true
