@@ -108,7 +108,7 @@ Oefentoets:
 
 # Collections intro
 'Week 5: Collections':
-    '[icon:list-check] Overzicht [TBD]': '#' # /modules_kort/collections
+    '[icon:list-check] Overzicht': /modules_kort/collections
     'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
     Oefenen voor tentamen:
@@ -128,7 +128,7 @@ Oefentoets:
 
 # Classes intro
 'Week 6: Classes':
-    '[icon:list-check] Overzicht [TBD]': '#' # /modules_kort/classes
+    '[icon:list-check] Overzicht': /modules_kort/classes
     'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     # Videocollege: /opdrachten/classes/lecture
@@ -150,7 +150,7 @@ Oefentoets:
 
 # Complexe strucuren
 'Week 7: Adventure':
-    '[icon:list-check] Overzicht [TBD]': '#' #/modules_kort/adventure
+    '[icon:list-check] Overzicht': /modules_kort/adventure
     'Werkcollege: Code review [TBD]': '#'
     Adventure:
         0. Introduction: /adventure2/steps/introduction
