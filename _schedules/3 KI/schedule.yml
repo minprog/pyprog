@@ -111,12 +111,13 @@ Oefentoets:
     '[icon:list-check] Overzicht [TBD]': '#' # /modules_kort/collections
     'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
-    Oefenen:
+    Oefenen voor tentamen:
         '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
-        '[icon:puzzle] Bestanden lezen': /opdrachten/data/io
-    Problem Solving:
+    Iets grotere programma's:
         '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
         '[icon:diagram-2] Schuifpuzzel': /opdrachten/lists/schuifpuzzel
+    Dataverwerking:
+        '[icon:journal-code] Bestanden lezen': /opdrachten/data/io
         '[icon:diagram-3] Indexer': /opdrachten/collections/indexer
     Challenge:
         '[icon:mortarboard] Kunstroof': /opdrachten/challenges/kunstroof
@@ -165,6 +166,9 @@ Oefentoets:
         A. Winning the game (big!): /adventure2/steps/winning
         Submit: /adventure/steps/submit
 
-# Oefententamen
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Oefententamen:
     Oefententamen [TBD]: '#'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
