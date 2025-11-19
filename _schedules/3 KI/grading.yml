@@ -60,8 +60,6 @@ templates:
         type: pass
         subgrades:
             voldoende: boolean
-        automatic:
-            voldoende: -(correctness_score.floor)
         calculation: voldoende
         hide_calculated: true
 
@@ -121,6 +119,7 @@ grades:
     oefentoets: *check
     oefententamen: *werkcollege
     oefenen_hertentamen: *werkcollege
+    tussentoets_ki: *tentamen
 
     werkcollege_1_her: *werkcollege_her
     werkcollege_2_her: *werkcollege_her
