@@ -204,10 +204,11 @@ werkcolleges:
         werkcollege_6: 1
         # werkcollege_7: 1
 
-oefentoets:
+toetsen:
     show_overview: true
     submits:
         oefentoets: 1
+        tussentoets_ki: 1
 
 # werkbladen:
 #     show_progress: true
