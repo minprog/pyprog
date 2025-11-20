@@ -313,78 +313,21 @@ challenges:
         compress: 1
         virus: 1
 
-# week_10:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 8/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         indexer: 1
-#         eca2csv: 1
+week_4:
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 31/10/25 17:00
+    submits:
+        collection_functions: 1
+        sjoelen: 1
+        schuifpuzzel: 1
+        indexer: 1
 
-# week_10_project:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 8/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         klimaat: 1
-
-# week_7:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         # queue: 1
-#         cards: 1
-#         country: 1
-#         lines: 1
-#         lisp: 1
-#         figuren: 1
-
-# week_7_project:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         adventure-more: 1
-
-# modules:
-#     show_overview: true
-#     type: points
-#     submits:
-#         modules: 24
-
-# tentamen_ki:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         tentamen_ki: 14
-
-# tentamen_ik:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         tentamen_ik: 14
-
-# hertentamen_ki:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         hertentamen_ki: 14
-
-# hertentamen_ik:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         hertentamen_ik: 14
+challenges_2:
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 14/11/25 17:00
+    submits:
+        kunstroof: 1
