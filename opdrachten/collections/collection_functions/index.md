@@ -28,7 +28,7 @@ De bedoeling van de volgende opgaven is om te leren hoe je moet loopen met for-l
 
 4.  Schrijf een functie `dict_intersect` die twee dictionaries als argumenten krijgt, en een enkele dictionary teruggeeft waarin alléén de key-value pairs staan die in beide dictionaries aanwezig zijn (zowel key als value moeten gelijk zijn!).
 
-5.  Schrijf een functie `get_valuable_letters` die de meest waardevolle letters uit het Scrabble-alfabet verkrijgt. Wat de minimum-waarde is, wordt gegeven als een int. Het alfabet is een dictionary die in de functie staat:
+5.  Schrijf een functie `get_valuable_letters` die een set met de meest waardevolle letters uit het Scrabble-alfabet geeft. Er moet een minimum-waarde opgegeven worden; als dat waarde 10 is, dan bestaat de lijst nog maar uit één letter. Het Scrabble-alfabet is een dictionary die je in de functie moet zetten:
 
         scrabble_points = {
         'a': 1, 'b': 3, 'c': 5, 'd': 2, 'e': 1, 'f': 4, 'g': 3, 'h': 4, 'i': 2, 'j': 4,
