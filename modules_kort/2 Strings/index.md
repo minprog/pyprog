@@ -30,4 +30,4 @@ De bedoeling is dat je deze week in totaal zo'n 20--25 uur besteedt aan de cursu
 
 ## Beoordeling
 
-Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk gecheckt bij de tussentoets halverwege de cursus. Alles staat dus in het teken van oefenen voor deze toets.
+Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. Jouw basiskennis wordt namelijk gecheckt bij de tussentoets halverwege de cursus. Alles staat dus in het teken van oefenen voor deze toets.
