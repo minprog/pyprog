@@ -1,0 +1,87 @@
+name: tussentoets_inf4all
+exam: true
+files:
+    required:
+        tussentoets.py: ''
+buttons:
+    check: |
+        def find_forbidden(src: str) -> str | None:
+            """
+            Vindt aanroepen naar ingebouwde string methodes en slicing.
+            Returnt een error bericht met de gebruikt methode of slicing en op welke regel.
+            Returnt None als er er niks aan de hand is :)
+            """
+            results = []
+
+            # all_string_method_names = [n for n in dir("") if not n.startswith("__")]
+
+            method_names = ['split', 'find', 'join']
+            lines = src.split("\n")
+            for method_name in method_names:
+                for line_nr, line in enumerate(lines):
+                    if "." + method_name in line:
+                        results.append(
+                            f"!! Je mag geen zoek-methodes voor strings gebruiken.\n"
+                            f"Bijvoorbeeld `{method_name}` op regel {line_nr + 1}:\n{line.strip()}"
+                        )
+            import ast
+            msg = None
+            class Visitor(ast.NodeVisitor):
+                def visit_Slice(self, node: ast.Slice):
+                    nonlocal msg
+                    results.append(
+                        f"!! Je mag geen gebruik maken van slicing op het tentamen.\n"
+                        f"Bijvoorbeeld op regel {node.lineno}:\n{lines[node.lineno - 1]}"
+                    )
+
+                def visit_Call(self, node: ast.Call):
+                    # detect forbidden builtins like sorted, min, max, abs
+                    forbidden_builtins = ['sorted', 'min', 'max', 'abs']
+                    if isinstance(node.func, ast.Name) and node.func.id in forbidden_builtins:
+                        results.append(
+                            f"!! Je mag geen builtin-functie `{node.func.id}` gebruiken.\n"
+                            f"Bijvoorbeeld op regel {node.lineno}:\n{lines[node.lineno - 1]}"
+                        )
+                    self.generic_visit(node)
+
+
+            tree = ast.parse(src)
+            visitor = Visitor()
+            visitor.visit(tree)
+
+            return results
+        with open('<filename>.py') as f:
+            code = f.read()
+        res = find_forbidden(code)
+        if res:
+            print()
+            print('\n\n'.join(res))
+        else:
+            print("\nGeen verboden constructies gevonden, maar het is je eigen\n"
+                    "verantwoordelijkheid om alleen toegestane onderdelen te\ngebruiken.")
+    mypy: |
+        print("Checking types...")
+
+        from mypy import api as mypy_api
+        mypy_api.run(['--strict', '<filename>.py'])[0]
+
+    doctest: |
+        import sys
+        import importlib
+        import doctest
+
+        modname = "<filename>"
+
+        # Remove cached module
+        if modname in sys.modules:
+            del sys.modules[modname]
+
+        # Reimport from updated source
+        mod = importlib.import_module(modname)
+
+        # Run doctests
+        doctest.testmod(mod, verbose=True)
+check:
+    tool: checkpy
+    repo: minprog/python-tentamen-checks
+    args: -m 2025inf4all
