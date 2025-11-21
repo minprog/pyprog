@@ -58,7 +58,7 @@ templates:
 
 grades:
 
-    tussentoets_ik: *tentamen
+    tussentoets_inf4all: *tentamen
 
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
