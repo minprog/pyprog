@@ -177,7 +177,7 @@ Week 12:
 # Complexe strucuren
 Week 13:
     '[icon:list-check] Overzicht': /modules/adventure
-    'Werkcollege: Code review 1 [TBD]': '#'
+    'Werkcollege: Code review 1': '/reviews/r1'
     Adventure:
         0. Introduction: /adventure2/steps/introduction
         1. Rooms: /adventure2/steps/room

@@ -197,6 +197,10 @@ Net als in andere media waarin tekst een belangrijke rol speelt, kan in programm
 
 Let ook op dat we in het voorbeeld van de energieën bij "Variabelen" ("tegen de regels in") `(v_1 + v_2)**2` schrijven in plaats van '(v_1 + v_2) ** 2'. Dit hebben we gedaan om meer eenheid te creëren in dit onderdeel van de vergelijking. Soms is het handig om dit te doen, omdat het de leesbaarheid van de vergelijking ten gunste kan komen. Naarmate je beter wordt in programmeren en meer code hebt gezien, zul je steeds handiger worden in het maken van keuzes in dit soort grijze gebieden.
 
+### Spaties na komma's
+
+Na elke komma moet een spatie staan (zoals bij een functiedefinitie of een functie-aanroep).
+
 
 ## Complexiteit (en functies)
 
