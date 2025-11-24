@@ -100,6 +100,27 @@ Het is net zo makkelijk om te veel commentaar in je code te schrijven als te wei
 
 Elk commentaar dat je plaats is een afweging waard: hoe draagt het bij aan de begrijpelijkheid van het programma?
 
+### Voorbeeld 0
+
+In elk programma van deze cursus moet je bij elke functie een docstring plaatsen met doctests. De bedoeling is dat je boven de doctests ook zo'n samenvatting plaatst van wat het *doel* is van de functie. Een voorbeeld:
+
+    def convert_wisselgeld(wisselgeld: int | float) -> int:
+        """
+        Zet een geldbedrag om naar het juiste format: het
+        aantal *centen* als een integer.
+        Accepteert een bedrag in dollars (dus niet centen)
+        als float of int.
+        
+        >>> convert_wisselgeld(1.21)
+        121
+        >>> convert_wisselgeld(0.52)
+        52
+        >>> convert_wisselgeld(3)
+        300
+        """
+
+De eerste regel van het comment is het globale doel van de functie. Er staat niet hoe de functie het gaat uitwerken (dat lezen we gewoon in de code). De tweede regel geeft aan wat er nu precies in de functie moet. Dit is namelijk niet zo duidelijk uit de parameter "wisselgeld". Bij andere functies kan dit vanzelf al duidelijk zijn, dus soms is zo'n comment niet nodig.
+
 ### Voorbeeld 1
 
 Wanneer hoeft het nou bijvoorbeeld niet? Als je variabelenamen erg duidelijk zijn, dan hoef je misschien geen commentaar te schrijven. Maar soms kun je toch nog wat toevoegen:
