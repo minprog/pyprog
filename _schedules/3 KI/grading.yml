@@ -199,7 +199,7 @@ werkcolleges:
         werkcollege_1: 1
         tutorial_strings: 1
         tutorial_lists: 1
-        tutorial_collection: 1
+        tutorial_collections: 1
         # werkcollege_3: 1
         werkcollege_4: 1
         werkcollege_5: 1
