@@ -24,7 +24,7 @@ De volgende methoden moeten worden geïmplementeerd:
 
 3. `get_translation(word)`
    
-   Geeft de vertaling(en) terug, of `None` als het woord niet bestaat.
+   Geeft de vertaling(en) terug, of een `KeyError` als het woord niet bestaat (zie de opdracht Phonebook).
 
 4. `list_words()`
 
