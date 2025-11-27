@@ -24,11 +24,11 @@ De volgende methoden moeten worden geïmplementeerd:
 
 3. `get_translation(word)`
    
-   Geeft de vertaling(en) terug, of een melding als het woord niet bestaat.
+   Geeft de vertaling(en) terug, of `None` als het woord niet bestaat.
 
 4. `list_words()`
 
-   Retourneert een overzicht van alle woorden.
+   Geeft een overzicht van alle woorden.
 
 ## Trainingsfunctionaliteit
 
@@ -39,6 +39,6 @@ Implementeer de methode `train(n_questions=5)`.
 - Controleert of het antwoord klopt.
 - Houdt score bij en toont een eindrapport.
 
-## Technische randvoorwaarden
+## Hint
 
 - Gebruik `random` voor het selecteren van woorden.
