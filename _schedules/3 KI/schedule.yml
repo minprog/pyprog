@@ -145,13 +145,13 @@ Oefentoets:
         '[icon:diagram-3] Inventory': /opdrachten/collection_classes/inventory
         '[icon:diagram-3] Browser history': /opdrachten/collection_classes/history
         '[icon:diagram-3] Vocabulary trainer': /opdrachten/collection_classes/vocabulary
-    Challenge:
-        War: /opdrachten/classes/war
+    # Challenge:
+    #     War: /opdrachten/classes/war
 
-# Complexe strucuren
+# Complexe structuren
 'Week 7: Adventure':
     '[icon:list-check] Overzicht': /modules_kort/adventure
-    'Werkcollege: Code review [TBD]': '#'
+    'Werkcollege: Code review': '/reviews/r1'
     Adventure:
         0. Introduction: /adventure2/steps/introduction
         1. Rooms: /adventure2/steps/room

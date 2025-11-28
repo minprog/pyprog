@@ -315,16 +315,40 @@ challenges:
         compress: 1
         virus: 1
 
-week_4:
+week_5:
     show_overview: true
     # show_progress: true
     small_block_overview: true
-    deadline: 31/10/25 17:00
+    deadline: 28/11/25 17:00
     submits:
         collection_functions: 1
         sjoelen: 1
         schuifpuzzel: 1
         indexer: 1
+
+week_6:
+    show_overview: true
+    # show_progress: true
+    small_block_overview: true
+    deadline: 5/12/25 17:00
+    submits:
+        country: 1
+        lines: 1
+        rgb: 1
+        point: 1
+        times: 1
+        cards: 1
+        phonebook: 1
+        inventory: 1
+        browser_history: 1
+        vocabulary_trainer: 1
+
+week_7:
+    show_overview: true
+    # show_progress: true
+    deadline: 12/12/25 17:00
+    submits:
+        adventure-more: 1
 
 challenges_2:
     show_overview: true
