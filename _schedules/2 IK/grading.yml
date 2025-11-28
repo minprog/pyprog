@@ -131,8 +131,8 @@ grades:
 # You can leave these out if unused in the `calculation` section.
 
 werkcolleges:
-    # show_progress: true
-    show_overview: true
+    show_progress: true
+    # show_overview: true
     type: points
     submits:
         werkcollege_1: 1
@@ -147,14 +147,19 @@ werkcolleges:
         cards: 1
         r1: 1
 
-toetsen:
+oefentoetsen:
     show_overview: true
     submits:
         checkup: 1
         oefententamen: 1
-        tussentoets_ik: 1
-        tentamen_ik: 1
-        hertentamen_ik: 1
+
+toetsen:
+    show_progress: true
+    # show_overview: true
+    type: points
+    submits:
+        # oefentoets: 1
+        tussentoets_ki: 11
 
 week_1:
     show_progress: true

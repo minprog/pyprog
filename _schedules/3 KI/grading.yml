@@ -175,27 +175,17 @@ werkcolleges_per_week:
         queue: 1
         r1: 1
 
+oefentoetsen:
+    show_overview: true
+    submits:
+        oefentoets: 1
+
 toetsen:
     show_progress: true
     # show_overview: true
     type: points
     submits:
-        # oefentoets: 1
         tussentoets_ki: 11
-
-# werkbladen:
-#     show_progress: true
-#     type: points
-#     maximum: 24
-#     minimum: 3.625
-#     submits:
-#         werkcollege_1_her: 1
-#         werkcollege_2_her: 1
-#         werkcollege_3_her: 1
-#         werkcollege_4_her: 1
-#         werkcollege_5_her: 1
-#         werkcollege_6_her: 1
-#         werkcollege_7: 1
 
 week_1:
     show_progress: true
