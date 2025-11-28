@@ -226,12 +226,18 @@ week_6:
     small_block_overview: true
     deadline: 12/10/25 17:00
     submits:
+        banner: 1
         scrabble: 1
+        merge_lists: 1
         selection_sort: 1
         special_sort: 1
-        sjoelen: 1
-        schuifpuzzel: 1
-        virus: 1
+
+        # scrabble: 1
+        # selection_sort: 1
+        # special_sort: 1
+        # sjoelen: 1
+        # schuifpuzzel: 1
+        # virus: 1
 
 # week_10:
 #     # show_overview: true
