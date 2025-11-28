@@ -178,9 +178,10 @@ werkcolleges_per_week:
 toetsen:
     show_progress: true
     # show_overview: true
+    type: points
     submits:
-        oefentoets: 1
-        tussentoets_ki: 1
+        # oefentoets: 1
+        tussentoets_ki: 11
 
 # werkbladen:
 #     show_progress: true
