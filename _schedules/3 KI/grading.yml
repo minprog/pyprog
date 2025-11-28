@@ -43,19 +43,15 @@ templates:
             aanwezig: boolean
             werkblad: boolean
         calculation: -((aanwezig+werkblad).abs/2)
-        hide_calculated: true
+        # hide_calculated: true
+        hide_subgrades: true
     5: &werkcollege-gedaan
         type: pass
         subgrades:
             gedaan: boolean
         calculation: gedaan
-        hide_calculated: true
-    7: &werkcollege_her
-        type: pass
-        subgrades:
-            helemaal_goed: boolean
-        calculation: helemaal_goed
-        hide_calculated: true
+        # hide_calculated: true
+        hide_subgrades: true
     6: &tentamen
         type: pass
         subgrades:
