@@ -192,7 +192,7 @@ grades:
     # figuren: *automatic
 
     # module 14
-    adventure-more: *automatic
+    adventure: *automatic
 
     # overige
 
