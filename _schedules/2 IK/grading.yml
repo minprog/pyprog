@@ -142,15 +142,15 @@ werkcolleges_per_week:
         werkcollege_1: 0.5
         werkcollege_2: 0.5
         werkcollege_3: 0.5
-        werkcollege_4: 1
-        werkcollege_5: 1
-        werkcollege_6: 1
-        tutorial_collections: 1
-        eca2csv: 1
-        werkcollege_7: 1 # queue
-        cards: 1
-        r1: 1
-        r2: 1
+        werkcollege_4: 0.5
+        werkcollege_5: 0.5
+        werkcollege_6: 0.5
+        tutorial_collections: 0.5
+        eca2csv: 0.5
+        werkcollege_7: 0.5    # <-- queue
+        cards: 0.5
+        r1: 0.5
+        r2: 0.5
 
 oefentoetsen:
     show_overview: true
