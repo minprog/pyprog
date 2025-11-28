@@ -284,8 +284,8 @@ challenges:
         virus: 1
 
 week_5:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 28/11/25 17:00
     submits:
