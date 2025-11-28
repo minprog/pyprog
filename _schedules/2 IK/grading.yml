@@ -159,7 +159,7 @@ toetsen:
     type: points
     submits:
         # oefentoets: 1
-        tussentoets_ki: 11
+        tussentoets_ik: 11
 
 week_1:
     show_progress: true
