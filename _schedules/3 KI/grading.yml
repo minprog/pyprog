@@ -105,7 +105,8 @@ grades:
     tutorial_strings: *werkcollege-gedaan
     tutorial_lists: *werkcollege-gedaan
     tutorial_collections: *werkcollege-gedaan
-    r1: *werkcollege
+    queue: *werkcollege-gedaan
+    r1: *werkcollege-gedaan
 
     oefentoets: *check
     tussentoets_ki: *tentamen
