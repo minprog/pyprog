@@ -285,7 +285,7 @@ week_7:
     # show_progress: true
     deadline: 12/12/25 17:00
     submits:
-        adventure-more: 1
+        adventure: 1
 
 challenges_2:
     show_overview: true
