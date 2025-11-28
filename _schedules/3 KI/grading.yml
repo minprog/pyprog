@@ -57,7 +57,8 @@ templates:
         subgrades:
             voldoende: boolean
         calculation: voldoende
-        hide_calculated: true
+        # hide_calculated: true
+        # hide_subgrades: true
 
 
 # GRADES - contains definitions of how grades are structured. The names of the
