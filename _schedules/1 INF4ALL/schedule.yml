@@ -28,9 +28,9 @@ Module 1:
 # (Kalender is weg)
 Module 2:
     '[icon:list-check] Overzicht': /modules/herhaling
-    Werkcollege loops: /werkcollege/loops
     '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
     Basis-oefeningen:
+        Werkcollege loops: /werkcollege/loops
         '[icon:puzzle] Getallenreeksen met for en while': /opdrachten/loops/reeksen
         '[icon:puzzle] Schrikkeljaren tellen met een loop en een variabele': /opdrachten/loops/schrikkel
         '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
@@ -50,10 +50,10 @@ Module 2:
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Module 3:
     '[icon:list-check] Overzicht': /modules/strings
-    'Werkcollege: Strings-tutorial': /werkcollege/tutorial_strings
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     #    Debugging: /opdrachten/oud/debug
     Basis-oefeningen:
+        '[icon:puzzle] Strings-tutorial': /werkcollege/tutorial_strings
         '[icon:puzzle] Analyse': /opdrachten/strings/analyse
         '[icon:puzzle] Verschillen': /opdrachten/strings/verschillen
     Problem solving:
@@ -85,9 +85,9 @@ Module 4:
 # Lots of lists
 Module 5:
     '[icon:list-check] Overzicht': /modules/lists
-    'Werkcollege: Lists-tutorial': /werkcollege/tutorial_lists
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Basis-oefeningen:
+        '[icon:puzzle] Lists-tutorial': /werkcollege/tutorial_lists
         '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists
         '[icon:puzzle] List basics': /opdrachten/lists/basics
     Opdrachten:
@@ -127,10 +127,10 @@ Oefentoets:
 # Collections intro
 Module 7:
     '[icon:list-check] Overzicht': /modules/collections
-    'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
     Oefenen:
-        '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
+        '[icon:puzzle] Collections-tutorial': /werkcollege/tutorial_collections
+        '[icon:puzzle] Collections-oefeningen': /opdrachten/collections/collection_functions
         '[icon:puzzle] Bestanden lezen': /opdrachten/data/io
     Problem Solving:
         '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
@@ -141,17 +141,17 @@ Module 7:
 
 Module 8:
     '[icon:list-check] Overzicht': /modules/project
-    'Werkcollege: Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
     Klein project:
+        '[icon:puzzle] Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
 # Classes intro
 Module 9:
     '[icon:list-check] Overzicht': /modules/classes
-    'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     # Videocollege: /opdrachten/classes/lecture
     Basis-oefeningen:
+        '[icon:puzzle] Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
         '[icon:puzzle] Doctests voor classes': /opdrachten/classes/doctests
         '[icon:puzzle] Cards': /opdrachten/classes/cards # UML, data class, container
     Opdrachten:
@@ -164,7 +164,6 @@ Module 9:
 # Collection classes
 Module 10:
     '[icon:list-check] Overzicht': /modules/collection-classes
-    'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
         '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
         '[icon:diagram-3] Inventory': /opdrachten/collection_classes/inventory
@@ -176,7 +175,6 @@ Module 10:
 # Complexe strucuren
 Module 11:
     '[icon:list-check] Overzicht': /modules/adventure
-    'Werkcollege: Code review 1 [TBD]': '#'
     Adventure:
         0. Introduction: /adventure2/steps/introduction
         1. Rooms: /adventure2/steps/room
