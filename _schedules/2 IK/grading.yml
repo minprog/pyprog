@@ -81,6 +81,7 @@ grades:
     werkcollege_7: *werkcollege # queue
     cards: *werkcollege
     r1: *werkcollege
+    r2: *werkcollege
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -149,6 +150,7 @@ werkcolleges_per_week:
         werkcollege_7: 1 # queue
         cards: 1
         r1: 1
+        r2: 1
 
 oefentoetsen:
     show_overview: true
