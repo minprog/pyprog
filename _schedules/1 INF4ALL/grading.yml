@@ -124,13 +124,20 @@ grades:
 #
 # You can leave these out if unused in the `calculation` section.
 
-toetsen:
+oefentoetsen:
     show_overview: true
     submits:
+        checkup: 1
         oefentoets: 1
+        # oefententamen: 1
+
+toetsen:
+    show_progress: true
+    # show_overview: true
+    submits:
         tussentoets_inf4all: 1
 
-week_1:
+module_1:
     show_progress: true
     small_block_overview: true
     deadline: 18/9/25 17:00
@@ -150,7 +157,7 @@ week_1:
 
         kalender: 1
 
-week_2:
+module_2:
     # show_overview: true
     show_progress: true
     small_block_overview: true
@@ -171,7 +178,7 @@ week_2:
 
         priemgetallen: 1
 
-week_3:
+module_3:
     # show_overview: true
     show_progress: true
     small_block_overview: true
@@ -188,7 +195,7 @@ week_3:
 
         pwdgen: 1
 
-week_4:
+module_4:
     # show_overview: true
     show_progress: true
     small_block_overview: true
@@ -202,11 +209,11 @@ week_4:
         rna: 1
         # rot13: 1
 
-week_5:
+module_5:
     # show_overview: true
     show_progress: true
     small_block_overview: true
-    deadline: 5/10/25 17:00
+    deadline: 16/10/25 17:00
     submits:
         list_int_basics: 1
         list_basics: 1
@@ -221,11 +228,11 @@ week_5:
 
         compress: 1
 
-week_6:
+module_6:
     # show_overview: true
     show_progress: true
     small_block_overview: true
-    deadline: 12/10/25 17:00
+    deadline: 16/10/25 17:00
     submits:
         banner: 1
         scrabble: 1
@@ -233,47 +240,52 @@ week_6:
         selection_sort: 1
         special_sort: 1
 
-        # scrabble: 1
-        # selection_sort: 1
-        # special_sort: 1
-        # sjoelen: 1
-        # schuifpuzzel: 1
-        # virus: 1
+# herfstvakantie
 
-# week_10:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 8/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         indexer: 1
-#         eca2csv: 1
+module_7:
+    show_progress: true
+    small_block_overview: true
+    deadline: 6/11/25 17:00
+    submits:
+        collection_functions: 1
+        sjoelen: 1
+        schuifpuzzel: 1
+        indexer: 1
 
-# week_10_project:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 8/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         klimaat: 1
+module_8:
+    show_progress: true
+    small_block_overview: true
+    deadline: 6/11/25 17:00
+    submits:
+        eca2csv: 1  # werkcollege
+        klimaat: 1
 
-# week_7:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         # queue: 1
-#         cards: 1
-#         country: 1
-#         lines: 1
-#         lisp: 1
-#         figuren: 1
+module_9:
+    show_progress: true
+    small_block_overview: true
+    deadline: 20/10/25 17:00
+    submits:
+        cards: 1
+        country: 1
+        lines: 1
+        rgb: 1
+        point: 1
+        times: 1
 
-# week_7_project:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 15/12/24 17:00
-#     deadline_hard: true
-#     submits:
-#         adventure-more: 1
+module_10:
+    show_progress: true
+    small_block_overview: true
+    deadline: 20/10/25 17:00
+    submits:
+        phonebook: 1
+        inventory: 1
+        browser_history: 1
+        vocabulary_trainer: 1
+        war: 1
+
+module_11:
+    show_progress: true
+    small_block_overview: true
+    deadline: 11/12/25 17:00
+    submits:
+        adventure: 1

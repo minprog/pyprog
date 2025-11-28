@@ -254,8 +254,8 @@ week_5:
         interleave: 1
 
 week_6:
-    show_overview: true
-    # show_progress: true
+    # show_overview: true
+    show_progress: true
     small_block_overview: true
     deadline: 12/10/25 17:00
     submits:
@@ -304,7 +304,6 @@ week_11:
     deadline: 16/11/25 17:00
     submits:
         # queue: 1  # werkcollege
-        cards: 1
         country: 1
         lines: 1
         rgb: 1
@@ -316,39 +315,23 @@ week_12:
     show_progress: true
     deadline: 23/11/25 17:00
     submits:
+        cards: 1
         # figuren: 1
         phonebook: 1
         inventory: 1
         browser_history: 1
         vocabulary_trainer: 1
-        war: 1
 
-# week_13:
-#     # show_overview: true
-#     show_progress: true
-#     deadline: 23/11/25 17:00
-#     submits:
-#         adventure-more: 1
-
+week_13/14:
+    # show_overview: true
+    show_progress: true
+    deadline: 12/12/25 17:00
+    submits:
+        adventure: 1
 
 challenges2:
     show_overview: true
     small_block_overview: true
     submits:
         kunstroof: 1
-
-# tentamen_ik:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         tentamen_ik: 14
-
-# hertentamen_ik:
-#     show_overview: true
-#     type: points
-#     attempt_required: true
-#     minimum: 10
-#     submits:
-#         hertentamen_ik: 14
+        war: 1
