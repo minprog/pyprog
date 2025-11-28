@@ -175,7 +175,8 @@ werkcolleges_per_week:
         r1: 1
 
 toetsen:
-    show_overview: true
+    show_progress: true
+    # show_overview: true
     submits:
         oefentoets: 1
         tussentoets_ki: 1
