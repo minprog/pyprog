@@ -69,6 +69,7 @@ grades:
     werkcollege_7: *werkcollege
     tentamen_oefening_w2: *werkcollege
 
+    oefentoets: *werkcollege
     oefententamen: *werkcollege
     oefenen_hertentamen: *werkcollege
 
