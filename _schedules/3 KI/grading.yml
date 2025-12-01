@@ -149,8 +149,8 @@ werkcolleges_per_week:
         tutorial_strings: 1
         tutorial_lists: 1
         tutorial_collections: 1
-        tutorial_classes_queue: *werkcollege-gedaan
-        herhaling_deel_1: *werkcollege-gedaan
+        tutorial_classes_queue: 1
+        herhaling_deel_1: 1
         r1: 1
 
 oefentoetsen:
