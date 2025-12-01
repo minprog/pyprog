@@ -189,8 +189,9 @@ Week 13:
 # Adventure
 Week 14:
     '[icon:list-check] Overzicht': /modules/adventure
-    'Werkcollege: Code review 2 [TBD]': '#'
+    'Werkcollege: Code review 2': '/reviews/r2'
     Adventure:
+        Submit alvast een keer voor feedback: /opdrachten/adventure/submit
         6. Forced movement: /adventure2/steps/forced
         7. Items (big!): /adventure2/steps/items
         8. Utility commands: /adventure2/steps/commands
