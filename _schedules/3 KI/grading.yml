@@ -78,7 +78,8 @@ grades:
     tutorial_strings: *werkcollege-gedaan
     tutorial_lists: *werkcollege-gedaan
     tutorial_collections: *werkcollege-gedaan
-    queue: *werkcollege-gedaan
+    tutorial_classes_queue: *werkcollege-gedaan
+    herhaling_deel_1: *werkcollege-gedaan
     r1: *werkcollege-gedaan
 
     oefentoets: *check
@@ -148,7 +149,8 @@ werkcolleges_per_week:
         tutorial_strings: 1
         tutorial_lists: 1
         tutorial_collections: 1
-        queue: 1
+        tutorial_classes_queue: *werkcollege-gedaan
+        herhaling_deel_1: *werkcollege-gedaan
         r1: 1
 
 oefentoetsen:
