@@ -2,9 +2,13 @@
 
 > Maak deze opgaven als je de tussentoets nog niet gehaald hebt.
 
+Maak de opgaven in de tentamen-editor:
+
+[Herhaling](exam_button:herhaling_deel_1)
+
 ## Opgave 1 (van het makkelijkere soort)
 
-Schrijf een functie die bepaalt of de elementen in parameter `lst` gesorteerd zijn, dat wil zeggen: elk element is niet kleiner dan het vorige element.
+Schrijf een functie die bepaalt of de elementen in parameter `lst` gesorteerd zijn, dat wil zeggen: elk element is niet kleiner dan het vorige element. Vergeet de doctests niet.
 
     is_sorted(lst: list[object]) -> bool
 
@@ -22,7 +26,7 @@ Niet gebruiken
 
 ## Opgave 2 (van het minder makkelijke soort)
 
-Schrijf een functie die bepaalt of parameter \texttt{password} minimaal twee cijfers heeft, een hoofdletter en een kleine letter.
+Schrijf een functie die bepaalt of parameter \texttt{password} minimaal twee cijfers heeft, een hoofdletter en een kleine letter. Vergeet de doctests niet.
 
     verb|password_check(password: str) -> bool
 
