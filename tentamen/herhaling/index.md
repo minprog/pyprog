@@ -2,7 +2,7 @@
 
 > Maak deze opgaven als je de tussentoets nog niet gehaald hebt.
 
-Maak de opgaven in de tentamen-editor:
+Maak **beide** opgaven in de tentamen-editor voor een punt:
 
 [Herhaling](exam_button:herhaling_deel_1)
 
@@ -26,7 +26,7 @@ Niet gebruiken
 
 ## Opgave 2 (van het minder makkelijke soort)
 
-Schrijf een functie die bepaalt of parameter \texttt{password} minimaal twee cijfers heeft, een hoofdletter en een kleine letter. Vergeet de doctests niet.
+Schrijf een functie die bepaalt of parameter `password` minimaal twee cijfers heeft, een hoofdletter en een kleine letter. Vergeet de doctests niet.
 
     password_check(password: str) -> bool
 
