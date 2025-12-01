@@ -28,7 +28,7 @@ Niet gebruiken
 
 Schrijf een functie die bepaalt of parameter \texttt{password} minimaal twee cijfers heeft, een hoofdletter en een kleine letter. Vergeet de doctests niet.
 
-    verb|password_check(password: str) -> bool
+    password_check(password: str) -> bool
 
 Voorbeeld
 : `'Rariteit22'` geeft `True`
