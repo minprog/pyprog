@@ -130,6 +130,7 @@ Oefentoets:
 'Week 6: Classes':
     '[icon:list-check] Overzicht': /modules_kort/classes
     'Werkcollege: Queue': /werkcollege/tutorial_classes_queue # basic datastructuur, encapsulation, init
+    'Werkcollege: Herhaling': /tentamen/herhaling
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     # Videocollege: /opdrachten/classes/lecture
     Classes:
