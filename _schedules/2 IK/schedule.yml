@@ -201,7 +201,7 @@ Week 14:
 
 # Oefententamen
 Oefententamen:
-    Oefententamen [TBD]: '#'
+    Oefententamen: '/tentamen/oefententamen'
 
 # '[icon:puzzle] Big-O': /opdrachten/collections/big-o
 # Memory model: /opdrachten/week5/memory_model

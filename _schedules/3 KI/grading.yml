@@ -82,9 +82,9 @@ grades:
     r1: *werkcollege-gedaan
 
     oefentoets: *check
-    tussentoets_ki: *tentamen
+    oefententamen2: *werkcollege
 
-    oefententamen: *werkcollege
+    tussentoets_ki: *tentamen
 
     oefenen_hertentamen: *werkcollege
 
@@ -155,6 +155,7 @@ oefentoetsen:
     show_overview: true
     submits:
         oefentoets: 1
+        oefententamen2: 1
 
 toetsen:
     show_progress: true
