@@ -12,7 +12,8 @@ templates:
         subgrades:
             meegedaan: boolean
         calculation: meegedaan
-        # hide_calculated: true
+        hide_calculated: false
+        auto_publish: false
         hide_subgrades: true
     2: &check
         type: pass
