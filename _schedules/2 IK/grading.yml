@@ -168,6 +168,7 @@ toetsen:
     submits:
         # oefentoets: 1
         tussentoets_ik: 11
+        tentamen: 11
 
 week_1:
     show_progress: true

@@ -13,7 +13,7 @@ templates:
             done: boolean
         calculation: done
         hide_calculated: true
-    5: &werkcollege
+    4: &werkcollege
         type: pass
         subgrades:
             aanwezig: boolean
@@ -165,6 +165,7 @@ toetsen:
     type: points
     submits:
         tussentoets_ki: 11
+        tentamen: 11
 
 week_1:
     show_progress: true

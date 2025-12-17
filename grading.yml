@@ -12,27 +12,18 @@ templates:
         calculation: done
         auto_publish: true
         hide_calculated: true
-    4: &autopoints
-        type: float
-        subgrades:
-            points: integer
-        automatic:
-            points: correctness_score
-        calculation: (points / 6.0 * 9 + 1).round(1)
-        # auto_publish: true
-        hide_subgrades: true
-    2: &manual
-        type: float
-        subgrades:
-            points: integer
-        calculation: points
-        # hide_subgrades: true
-    3: &check
+    2: &check
         type: pass
         subgrades:
             done: boolean
         calculation: done
         hide_calculated: true
+    3: &tentamen
+        type: points
+        subgrades:
+            deel_1: integer
+            deel_2: integer
+        calculation: deel_1 + deel_2
 
 # GRADES - contains definitions of how grades are structured. The names of the
 # grades match the names of submits that may be defined in `submit.yml`
@@ -69,6 +60,9 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
+
+    tentamen: *tentamen
+
     # module 1
     boek1: *check
 
