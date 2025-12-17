@@ -107,7 +107,7 @@ grades:
 
 calculation:
     eindcijfer_ki:
-        werkcolleges: 6
+        werkcolleges_per_week: 6
         toetsen: 22
     eindcijfer_ki_ouderejaars:
         toetsen: 22
