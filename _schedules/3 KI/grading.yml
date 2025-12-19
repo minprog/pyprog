@@ -135,6 +135,7 @@ werkcolleges_per_week:
     show_progress: true
     # show_overview: true
     type: points
+    maximum: 6
     submits:
         werkcollege_1: 1
         tutorial_strings: 1
