@@ -1,6 +1,6 @@
 _settings:
     start_date: 27/10/25
-    end_date: 19/12/25
+    end_date: 10/2/26
 
 # This is a separate section containing a few templates that we will use below.
 # The & feature is built into YAML, it is not a special feature of the website.
@@ -87,8 +87,6 @@ grades:
 
     tussentoets_ki: *tentamen
 
-    oefenen_hertentamen: *werkcollege
-
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
@@ -158,6 +156,7 @@ toetsen:
     submits:
         tussentoets_ki: 11
         tentamen: 11
+        hertentamen: 22
 
 week_1:
     show_progress: true

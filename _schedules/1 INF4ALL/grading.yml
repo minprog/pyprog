@@ -60,18 +60,8 @@ grades:
 
     tussentoets_inf4all: *tentamen
 
-    werkcollege_1: *werkcollege
-    werkcollege_2: *werkcollege
-    werkcollege_3: *werkcollege
-    werkcollege_4: *werkcollege
-    werkcollege_5: *werkcollege
-    werkcollege_6: *werkcollege
-    werkcollege_7: *werkcollege
-    tentamen_oefening_w2: *werkcollege
-
     oefentoets: *werkcollege
     oefententamen: *werkcollege
-    oefenen_hertentamen: *werkcollege
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -136,6 +126,7 @@ toetsen:
     # show_overview: true
     submits:
         tussentoets_inf4all: 1
+        tentamen: 11
 
 module_1:
     show_progress: true

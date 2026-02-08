@@ -1,6 +1,6 @@
 _settings:
     start_date: 1/9/25
-    end_date: 19/12/25
+    end_date: 10/2/26
 
 # This is a separate section containing a few templates that we will use below.
 # The & feature is built into YAML, it is not a special feature of the website.
@@ -64,14 +64,13 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
-    checkup: *check
-    oefententamen: *check
-    oefententamen2: *check
+    checkup: *check        # week  4
+    oefententamen: *check  # week  7
+    oefententamen2: *check # week 15
 
     tussentoets_ik: *tentamen
-    tentamen_ik: *tentamen
-    hertentamen_ik: *tentamen
 
+    # 2 * 6 werkcolleges, niet allemaal mooi genummerd
     werkcollege_1: *werkcollege
     werkcollege_2: *werkcollege
     werkcollege_3: *werkcollege
@@ -308,6 +307,7 @@ week_11:
 week_12:
     # show_overview: true
     show_progress: true
+    small_block_overview: true
     deadline: 23/11/25 17:00
     submits:
         cards: 1
