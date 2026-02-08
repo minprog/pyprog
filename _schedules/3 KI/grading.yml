@@ -156,7 +156,14 @@ toetsen:
     submits:
         tussentoets_ki: 11
         tentamen: 11
-        hertentamen: 22
+
+herkansing:
+    # show_progress: true
+    show_overview: true
+    type: points
+    submits:
+        tussentoets_ik: 11
+        hertentamen: 11
 
 week_1:
     show_progress: true

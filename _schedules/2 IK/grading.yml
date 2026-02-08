@@ -106,6 +106,11 @@ calculation:
         toetsen: 22
     eindcijfer_ik_ouderejaars:
         toetsen: 22
+    herkansing_ik:
+        werkcolleges_per_week: 6
+        herkansing: 22
+    herkansing_ik_ouderejaars:
+        herkansing: 22
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -156,9 +161,16 @@ toetsen:
     # show_overview: true
     type: points
     submits:
-        # oefentoets: 1
         tussentoets_ik: 11
         tentamen: 11
+
+herkansing:
+    # show_progress: true
+    show_overview: true
+    type: points
+    submits:
+        tussentoets_ik: 11
+        hertentamen: 11
 
 week_1:
     show_progress: true
