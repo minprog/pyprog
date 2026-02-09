@@ -109,6 +109,11 @@ calculation:
         toetsen: 22
     eindcijfer_ki_ouderejaars:
         toetsen: 22
+    herkansing_ki:
+        werkcolleges_per_week: 6
+        herkansing: 22
+    herkansing_ki_ouderejaars:
+        herkansing: 22
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
