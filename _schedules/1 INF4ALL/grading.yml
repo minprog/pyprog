@@ -79,6 +79,13 @@ grades:
 # You can leave this out if the site does not need to perform final grade
 # calculations.
 
+calculation:
+    eindcijfer_incl_werkcolleges:
+        toetsen: 22
+    eindcijfer_zond_werkcolleges:
+        toetsen: 22
+        werkcolleges: 6
+
 # calculation:
 #     eindcijfer_ki:
 #         werkcolleges: 6
@@ -121,11 +128,16 @@ oefentoetsen:
         oefentoets: 1
         # oefententamen: 1
 
+werkcolleges:
+    show_progress: true
+    submits:
+        werkcolleges: 6
+
 toetsen:
     show_progress: true
     # show_overview: true
     submits:
-        tussentoets_inf4all: 1
+        tussentoets_inf4all: 11
         tentamen: 11
 
 module_1:
