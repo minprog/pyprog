@@ -84,9 +84,9 @@ grades:
 calculation:
     eindcijfer_incl_werkcolleges:
         toetsen: 22
+        werkcolleges: 6
     eindcijfer_zond_werkcolleges:
         toetsen: 22
-        werkcolleges: 6
 
 # calculation:
 #     eindcijfer_ki:
