@@ -138,6 +138,7 @@ werkcolleges:
 toetsen:
     show_progress: true
     # show_overview: true
+    type: points
     submits:
         tussentoets_inf4all: 11
         tentamen: 11
