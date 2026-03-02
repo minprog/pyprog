@@ -63,6 +63,8 @@ grades:
     oefentoets: *werkcollege
     oefententamen: *werkcollege
 
+    werkcolleges: *werkcollege
+
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
