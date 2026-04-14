@@ -524,7 +524,11 @@ This keeps packages tied to that course instead of mixing everything together gl
 
 For each new course:
 
-create a new course subfolder inside `~/programming` go into that subfolder create a virtual environment with `uv venv` keep your course files there use `uv run` from inside that folder add packages with `uv add ...` when needed
+- create a new course subfolder inside `~/Documents/programming`
+- go into that subfolder create a virtual environment with `uv venv`
+- keep your course files there
+- use `uv run` from inside that folder
+- add packages with `uv add ...` when needed
 
 ### Example from start to finish
 
