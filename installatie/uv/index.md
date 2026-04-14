@@ -29,12 +29,12 @@ Think of it like this:
 
 Example structure:
 
-```text
+~~~text
 programming/
 └── my-course/
     ├── hello.py
     └── week1.py
-```
+~~~
 
 A file ending in `.py` is a **Python file**. It contains Python code that you can run.
 
@@ -63,9 +63,9 @@ In the terminal, you move between folders using `cd` (change directory).
 
 Example:
 
-```bash
+~~~bash
 cd ~/programming/my-course
-```
+~~~
 
 This step is important: most commands in this guide must be run **inside the correct folder**.
 
@@ -93,10 +93,10 @@ You access the shell through a program called a **terminal**.
 
 A window opens with text like this:
 
-```text
+~~~text
 Last login: ...
 username@macbook ~ %
-```
+~~~
 
 The `%` is the **prompt**. The prompt is the place where you type commands. It means the terminal is ready for a command.
 
@@ -108,9 +108,9 @@ The `%` is the **prompt**. The prompt is the place where you type commands. It m
 
 A window opens with text like this:
 
-```text
+~~~text
 PS C:\Users\YourName>
-```
+~~~
 
 The `>` is the **prompt**. The prompt is the place where you type commands. It means the terminal is ready for a command.
 
@@ -120,27 +120,27 @@ You can try a few simple commands:
 
 List files in the current folder:
 
-```bash
+~~~bash
 ls
-```
+~~~
 
 On Windows PowerShell:
 
-```powershell
+~~~powershell
 dir
-```
+~~~
 
 Move into your Documents folder:
 
-```bash
+~~~bash
 cd ~/Documents
-```
+~~~
 
 On Windows:
 
-```powershell
+~~~powershell
 cd $HOME\Documents
-```
+~~~
 
 ### How the shell relates to normal computer use
 
@@ -182,31 +182,31 @@ Open a terminal and install it.
 
 `mkdir` means “make directory” (create a folder).
 
-```bash
+~~~bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+~~~
 
 After installation, close and reopen your terminal.
 
 Check that it works:
 
-```bash
+~~~bash
 uv --version
-```
+~~~
 
 ### Windows
 
 In PowerShell, run:
 
-```powershell
+~~~powershell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
+~~~
 
 Then reopen PowerShell and check:
 
-```powershell
+~~~powershell
 uv --version
-```
+~~~
 
 ### Install a Python version with `uv`
 
@@ -214,15 +214,15 @@ You can use `uv` to install Python itself.
 
 For example, to install Python 3.12:
 
-```bash
+~~~bash
 uv python install 3.12
-```
+~~~
 
 You can check which Python versions are available on your system with:
 
-```bash
+~~~bash
 uv python list
-```
+~~~
 
 ---
 
@@ -295,19 +295,19 @@ Then create your programming folder inside that location.
 
 ### macOS and Linux
 
-```bash
+~~~bash
 mkdir -p ~/Documents/programming/my-course
 cd ~/Documents/programming/my-course
-```
+~~~
 
 ### Windows PowerShell
 
 `mkdir` means “make directory” (create a folder).
 
-```powershell
+~~~powershell
 mkdir $HOME\Documents\programming\my-course
 cd $HOME\Documents\programming\my-course
-```
+~~~
 
 Replace `my-course` with the actual name of your course.
 
@@ -335,9 +335,9 @@ Why this matters:
 
 From **inside** the course folder, run:
 
-```bash
+~~~bash
 uv venv
-```
+~~~
 
 This creates a `.venv` folder in the current directory.
 
@@ -351,29 +351,29 @@ You can think of it as the "engine room" for your project.
 
 If you want to be explicit about the Python version, use:
 
-```bash
+~~~bash
 uv venv --python 3.12
-```
+~~~
 
 ### Confirm the environment exists
 
 You should now have a folder structure like this:
 
-```text
+~~~text
 programming/
 └── my-course/
     └── .venv/
-```
+~~~
 
 Later, your Python files can also live in `my-course`, for example:
 
-```text
+~~~text
 programming/
 └── my-course/
     ├── .venv/
     ├── hello.py
     └── week1.py
-```
+~~~
 
 ### Work from inside the course folder
 
@@ -385,15 +385,15 @@ Each time you work on the course:
 
 Example:
 
-```bash
+~~~bash
 cd ~/programming/my-course
-```
+~~~
 
 On Windows PowerShell:
 
-```powershell
+~~~powershell
 cd $HOME\programming\my-course
-```
+~~~
 
 ---
 
@@ -415,9 +415,9 @@ That is the key workflow:
 
 Example pattern:
 
-```bash
+~~~bash
 uv run <command>
-```
+~~~
 
 Because you are already in the folder for that course, your work stays organized there.
 
@@ -427,15 +427,15 @@ If your course uses Python files such as `hello.py`, keep those files inside the
 
 Example:
 
-```bash
+~~~bash
 cd ~/programming/my-course
-```
+~~~
 
 You can then run the Python interpreter managed by `uv` when needed. For example:
 
-```bash
+~~~bash
 uv run python hello.py
-```
+~~~
 
 If your project is set up in the course folder, `uv run` uses the local environment.
 
@@ -492,18 +492,18 @@ When you need extra packages for the course, install them from **inside the cour
 
 Example:
 
-```bash
+~~~bash
 cd ~/programming/my-course
 uv add requests
-```
+~~~
 
 This adds the package to the environment for that course.
 
 You can add more than one package:
 
-```bash
+~~~bash
 uv add numpy pandas matplotlib
-```
+~~~
 
 ### Installing additional packages later
 
@@ -511,10 +511,10 @@ Any time later, return to the same course folder and add packages there.
 
 Example:
 
-```bash
+~~~bash
 cd ~/programming/my-course
 uv add rich
-```
+~~~
 
 This keeps packages tied to that course instead of mixing everything together globally.
 
@@ -530,25 +530,25 @@ create a new course subfolder inside `~/programming` go into that subfolder crea
 
 #### macOS and Linux
 
-```bash
+~~~bash
 uv python install 3.12
 mkdir -p ~/programming/python101
 cd ~/programming/python101
 uv venv --python 3.12
 uv add requests
 uv run python
-```
+~~~
 
 #### Windows PowerShell
 
-```powershell
+~~~powershell
 uv python install 3.12
 mkdir $HOME\programming\python101
 cd $HOME\programming\python101
 uv venv --python 3.12
 uv add requests
 uv run python
-```
+~~~
 
 ### Common mistakes to avoid
 
@@ -563,21 +563,21 @@ Do not:
 
 Use this pattern every time:
 
-```bash
+~~~bash
 uv python install 3.12
 mkdir -p ~/programming/my-course
 cd ~/programming/my-course
 uv venv --python 3.12
-```
+~~~
 
 Then, when working:
 
-```bash
+~~~bash
 cd ~/programming/my-course
 uv run <tool-name>
 uv add <package-name>
 uv run python your_file.py
-```
+~~~
 
 This gives you:
 
