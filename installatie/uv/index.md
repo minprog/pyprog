@@ -12,6 +12,8 @@ This guide shows how to:
 
 **Key idea:** you will always work inside one course folder using the terminal. All commands in this guide assume you are inside that folder.
 
+---
+
 ## Files and folders (basics)
 
 If you are new to programming, it is important to understand how files and folders work.
@@ -66,6 +68,8 @@ cd ~/programming/my-course
 ```
 
 This step is important: most commands in this guide must be run **inside the correct folder**.
+
+---
 
 ## What is a shell?
 
@@ -138,7 +142,7 @@ On Windows:
 cd $HOME\Documents
 ```
 
-### How the shell relates to normal use
+### How the shell relates to normal computer use
 
 The shell lets you do the same things as clicking, but using text commands.
 
@@ -158,7 +162,9 @@ This guide uses the shell because programming tools like `uv` are controlled wit
 
 You do not replace your normal way of using the computer; you add the shell as a second way of working.
 
-## Install `uv`
+---
+
+## Installing uv and Python
 
 `uv` is a fast Python package and environment manager.
 
@@ -202,7 +208,7 @@ Then reopen PowerShell and check:
 uv --version
 ```
 
-## Install a Python version with `uv`
+### Install a Python version with `uv`
 
 You can use `uv` to install Python itself.
 
@@ -217,6 +223,8 @@ You can check which Python versions are available on your system with:
 ```bash
 uv python list
 ```
+
+---
 
 ## Create a programming folder and course subfolder
 
@@ -311,6 +319,8 @@ Examples:
 - `intro-programming`
 - `datascience-course`
 
+---
+
 ## Create a virtual environment in the course folder
 
 Now make a virtual environment inside the course folder.
@@ -345,7 +355,7 @@ If you want to be explicit about the Python version, use:
 uv venv --python 3.12
 ```
 
-## Confirm the environment exists
+### Confirm the environment exists
 
 You should now have a folder structure like this:
 
@@ -365,7 +375,7 @@ programming/
     └── week1.py
 ```
 
-## Work from inside the course folder
+### Work from inside the course folder
 
 Each time you work on the course:
 
@@ -384,6 +394,8 @@ On Windows PowerShell:
 ```powershell
 cd $HOME\programming\my-course
 ```
+
+---
 
 ## Run commands with `uv run`
 
@@ -409,7 +421,7 @@ uv run <command>
 
 Because you are already in the folder for that course, your work stays organized there.
 
-## Running Python code
+### Running Python code
 
 If your course uses Python files such as `hello.py`, keep those files inside the course folder.
 
@@ -427,7 +439,9 @@ uv run python hello.py
 
 If your project is set up in the course folder, `uv run` uses the local environment.
 
-## What are packages?
+---
+
+## Adding packages
 
 A **package** is a collection of Python code written by other people that you can reuse in your own programs.
 
@@ -452,7 +466,7 @@ Here are some widely used packages you may encounter:
 
 You only install the packages you need for your course.
 
-## Global vs local packages
+### Global vs local packages
 
 There are two ways to install Python packages:
 
@@ -472,7 +486,7 @@ Why local installs are better:
 
 In this guide, you always install packages **locally inside the course folder**.
 
-## Installing packages into the virtual environment
+### Installing packages into the virtual environment
 
 When you need extra packages for the course, install them from **inside the course folder**.
 
@@ -491,7 +505,7 @@ You can add more than one package:
 uv add numpy pandas matplotlib
 ```
 
-## Installing additional packages later
+### Installing additional packages later
 
 Any time later, return to the same course folder and add packages there.
 
@@ -504,15 +518,17 @@ uv add rich
 
 This keeps packages tied to that course instead of mixing everything together globally.
 
+---
+
 ## Recommended student workflow
 
 For each new course:
 
 create a new course subfolder inside `~/programming` go into that subfolder create a virtual environment with `uv venv` keep your course files there use `uv run` from inside that folder add packages with `uv add ...` when needed
 
-## Example from start to finish
+### Example from start to finish
 
-### macOS and Linux
+#### macOS and Linux
 
 ```bash
 uv python install 3.12
@@ -523,7 +539,7 @@ uv add requests
 uv run python
 ```
 
-### Windows PowerShell
+#### Windows PowerShell
 
 ```powershell
 uv python install 3.12
@@ -534,7 +550,7 @@ uv add requests
 uv run python
 ```
 
-## Common mistakes to avoid
+### Common mistakes to avoid
 
 Do not:
 
