@@ -212,10 +212,10 @@ uv --version
 
 You can use `uv` to install Python itself.
 
-For example, to install Python 3.12:
+For example, to install Python 3.14:
 
 ~~~bash
-uv python install 3.12
+uv python install 3.14
 ~~~
 
 You can check which Python versions are available on your system with:
@@ -352,7 +352,7 @@ You can think of it as the "engine room" for your project.
 If you want to be explicit about the Python version, use:
 
 ~~~bash
-uv venv --python 3.12
+uv venv --python 3.14
 ~~~
 
 ### Confirm the environment exists
@@ -535,10 +535,10 @@ For each new course:
 #### macOS and Linux
 
 ~~~bash
-uv python install 3.12
+uv python install 3.14
 mkdir -p ~/programming/python101
 cd ~/programming/python101
-uv venv --python 3.12
+uv venv --python 3.14
 uv add requests
 uv run python
 ~~~
@@ -546,10 +546,10 @@ uv run python
 #### Windows PowerShell
 
 ~~~powershell
-uv python install 3.12
+uv python install 3.14
 mkdir $HOME\programming\python101
 cd $HOME\programming\python101
-uv venv --python 3.12
+uv venv --python 3.14
 uv add requests
 uv run python
 ~~~
@@ -568,10 +568,10 @@ Do not:
 Use this pattern every time:
 
 ~~~bash
-uv python install 3.12
+uv python install 3.14
 mkdir -p ~/programming/my-course
 cd ~/programming/my-course
-uv venv --python 3.12
+uv venv --python 3.14
 ~~~
 
 Then, when working:
