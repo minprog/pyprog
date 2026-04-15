@@ -494,7 +494,7 @@ Example:
 
 ~~~bash
 cd ~/programming/my-course
-uv add requests
+uv pip install requests
 ~~~
 
 This adds the package to the environment for that course.
@@ -502,7 +502,7 @@ This adds the package to the environment for that course.
 You can add more than one package:
 
 ~~~bash
-uv add numpy pandas matplotlib
+uv pip install numpy pandas matplotlib
 ~~~
 
 ### Installing additional packages later
@@ -513,7 +513,7 @@ Example:
 
 ~~~bash
 cd ~/programming/my-course
-uv add rich
+uv pip install rich
 ~~~
 
 This keeps packages tied to that course instead of mixing everything together globally.
@@ -528,7 +528,7 @@ For each new course:
 - go into that subfolder create a virtual environment with `uv venv`
 - keep your course files there
 - use `uv run` from inside that folder
-- add packages with `uv add ...` when needed
+- add packages with `uv pip install ...` when needed
 
 ### Example from start to finish
 
@@ -539,7 +539,7 @@ uv python install 3.14
 mkdir -p ~/programming/python101
 cd ~/programming/python101
 uv venv --python 3.14
-uv add requests
+uv pip install requests
 uv run python
 ~~~
 
@@ -550,7 +550,7 @@ uv python install 3.14
 mkdir $HOME\programming\python101
 cd $HOME\programming\python101
 uv venv --python 3.14
-uv add requests
+uv pip install requests
 uv run python
 ~~~
 
@@ -579,7 +579,7 @@ Then, when working:
 ~~~bash
 cd ~/programming/my-course
 uv run <tool-name>
-uv add <package-name>
+uv pip install <package-name>
 uv run python your_file.py
 ~~~
 
