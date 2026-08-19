@@ -1,4 +1,4 @@
-name: werkcollege_1
+name: werkcollege_formules
 exam: true
 buttons:
     Run doctest: |
@@ -11,10 +11,10 @@ files:
             # Schrijf hieronder al je formules uit als Python-functies.
             # Een voorbeeld is al gegeven. Begin bij het aanvullen van
             # de functie `derde_macht`.
-            
+
             # Let op: gebruik de knop "Run doctest" om je code uit te
             # proberen.
-            
+
             def kwadraat(a):
                 """
                 >>> kwadraat(2)
@@ -25,10 +25,10 @@ files:
                 625
                 """
                 return a * a
-            
+
             def derde_macht(a):
                 """
                 >>>
-                
+
                 """
                 return ...

@@ -1,0 +1,7 @@
+lab:
+  windows:
+    - editor
+    - readme
+    - terminal
+  files:
+    - tutorial_strings.py

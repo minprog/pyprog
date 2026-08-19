@@ -1,4 +1,4 @@
-name: string-verschillen
+name: string_verschillen
 files:
     required:
         - string_verschillen.py

@@ -1,9 +1,0 @@
-name: werkcollege_7
-exam: true
-files:
-    required:
-        my_queue.py: |
-            # Schrijf hieronder je queue-code
-check:
-    tool: check50
-    slug: minprog/objects/2023/queue

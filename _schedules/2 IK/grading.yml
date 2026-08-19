@@ -64,25 +64,25 @@ templates:
 # entering a final grade, no subgrades and no calculations.
 
 grades:
-    checkup: *check        # week  4
-    oefententamen: *check  # week  7
-    oefententamen2: *check # week 15
+    # checkup: *check        # week  4
+    # oefententamen1: *check  # week  7
+    # oefententamen2: *check # week 15
 
     tussentoets_ik: *tentamen
 
     # 2 * 6 werkcolleges, niet allemaal mooi genummerd
-    werkcollege_1: *werkcollege
-    werkcollege_2: *werkcollege
-    werkcollege_3: *werkcollege
-    werkcollege_4: *werkcollege
-    werkcollege_5: *werkcollege
-    werkcollege_6: *werkcollege
-    tutorial_collections: *werkcollege
-    eca2csv: *werkcollege
-    werkcollege_7: *werkcollege # queue
-    cards: *werkcollege
-    r1: *werkcollege
-    r2: *werkcollege
+    # werkcollege_formules: *werkcollege
+    # werkcollege_loops: *werkcollege
+    # werkcollege_3: *werkcollege
+    # werkcollege_4: *werkcollege
+    # werkcollege_5: *werkcollege
+    # werkcollege_6: *werkcollege
+    # tutorial_collections: *werkcollege
+    # eca2csv: *werkcollege
+    # werkcollege_7: *werkcollege # queue
+    # cards: *werkcollege
+    # r1: *werkcollege
+    # r2: *werkcollege
 
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
@@ -153,7 +153,7 @@ oefentoetsen:
     show_overview: true
     submits:
         checkup: 1
-        oefententamen: 1
+        oefententamen1: 1
         oefententamen2: 1
 
 toetsen:
@@ -216,8 +216,8 @@ week_3:
     small_block_overview: true
     deadline: 21/9/25 17:00
     submits:
-        string-analyse: 1
-        string-verschillen: 1
+        string_analyse: 1
+        string_verschillen: 1
 
         alfabet: 1
         etenstijd: 1
@@ -231,7 +231,7 @@ week_4:
     small_block_overview: true
     deadline: 28/9/25 17:00
     submits:
-        string-transformatie: 1
+        string_transformatie: 1
         string_transformatie_char: 1
         string_transformatie_delete: 1
         string_transformatie_complex: 1

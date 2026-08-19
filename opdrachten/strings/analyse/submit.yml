@@ -1,4 +1,4 @@
-name: string-analyse
+name: string_analyse
 files:
     required:
         - string_analyse.py

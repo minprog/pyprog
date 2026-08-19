@@ -1,4 +1,4 @@
-name: big-o
+name: big_o
 files:
     required:
         - questions.txt

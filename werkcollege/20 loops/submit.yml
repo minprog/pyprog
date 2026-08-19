@@ -1,4 +1,4 @@
-name: werkcollege_4
+name: werkcollege_loops
 exam: true
 buttons:
     Run doctest: |
@@ -7,8 +7,7 @@ buttons:
         doctest.testmod(<filename>, verbose=True)
 files:
     required:
-        strings.py: |
-            # Schrijf hieronder al je string-functies.
-            # Elke functie moet 2 doctests hebben.
+        loops.py: |
+            # Schrijf hieronder al je loops.
             # Let op: gebruik de knop "Run doctest" om je code uit te
             # proberen.

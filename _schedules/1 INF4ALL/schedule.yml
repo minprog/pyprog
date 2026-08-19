@@ -87,7 +87,7 @@ Module 5:
     '[icon:list-check] Overzicht': /modules/lists
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Basis-oefeningen:
-        '[icon:puzzle] Lists-tutorial': /werkcollege/tutorial_lists
+        '[icon:puzzle] Lists-tutorial': /werkcollege/lists
         '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists
         '[icon:puzzle] List basics': /opdrachten/lists/basics
     Opdrachten:
@@ -129,7 +129,7 @@ Module 7:
     '[icon:list-check] Overzicht': /modules/collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
     Oefenen:
-        '[icon:puzzle] Collections-tutorial': /werkcollege/tutorial_collections
+        '[icon:puzzle] Collections-tutorial': /werkcollege/collections
         '[icon:puzzle] Collections-oefeningen': /opdrachten/collections/collection_functions
         '[icon:puzzle] Bestanden lezen': /opdrachten/data/io
     Problem Solving:

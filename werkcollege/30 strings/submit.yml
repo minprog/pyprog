@@ -1,4 +1,4 @@
-name: tutorial_strings
+name: werkcollege_strings
 exam: true
 buttons:
     doctest: |
@@ -8,6 +8,7 @@ buttons:
     typecheck: |
         from mypy import api as mypy_api
         mypy_api.run(['<filename>.py'])[0]
+config: https://minprog.github.io/pyprog/werkcollege/strings
 files:
     required:
         tutorial_strings.py: |
