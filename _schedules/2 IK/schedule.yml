@@ -1,8 +1,16 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
 
-# Basic form
 Week 1:
+    Karel 1: ok
+    Karel 2: ok
+
+Week 2:
+    Karel 3: ok
+    Tussentoets Karel: ok
+
+# Basic form
+Week 3:
     '[icon:list-check] Overzicht': /modules/programmeren
     'Werkcollege: Formules': /werkcollege/formules
     'Werkcollege: Installatie': /installatie/pulsar
@@ -24,10 +32,7 @@ Week 1:
     Challenge:
         '[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
 
-# Loops
-# (Kalender is weg)
-Week 2:
-    '[icon:list-check] Overzicht': /modules/herhaling
+    '[icon:list-check] Overzicht2': /modules/herhaling
     Werkcollege loops: /werkcollege/loops
     '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
     Basis-oefeningen:
@@ -43,13 +48,13 @@ Week 2:
     For-loops:
         '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
         '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
-    Challenge:
+    Challenge2:
         '[icon:mortarboard] Priemgetallen': /opdrachten/challenges/priemgetallen
 
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
-Week 3:
-    '[icon:list-check] Overzicht': /modules/strings
+Week 4:
+    '[icon:list-check] Overzicht2': /modules/strings
     'Werkcollege: Strings-tutorial': /werkcollege/strings
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     #    Debugging: /opdrachten/oud/debug
@@ -66,7 +71,7 @@ Week 3:
         '[icon:mortarboard] Wachtwoord-generator': /opdrachten/challenges/pwdgen
 
 # String-transformatie
-Week 4:
+Week 5:
     Overzicht: /modules/transformaties
     Basis-oefeningen:
         '[icon:puzzle] Transformatie per teken': /opdrachten/strings/transformatie_char
@@ -83,7 +88,7 @@ Week 4:
         '[icon:mortarboard] Monopoly': /opdrachten/challenges/monopoly
 
 # Lots of lists
-Week 5:
+Week 6:
     '[icon:list-check] Overzicht': /modules/lists
     'Werkcollege: Lists-tutorial': /werkcollege/lists
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
@@ -104,10 +109,11 @@ Week 5:
         '[icon:mortarboard] Compress': /opdrachten/challenges/compress #(RLE)
 
 # Algoritmen
-Week 6:
+Week 7:
     # '[icon:list-check] Overzicht': /modules/algoritmen
     # 'Werkcollege: Algoritmen': /werkcollege/algoritmen
     # Algorithms: /opdrachten/week5/algorithms # Papieren oefening
+    'Werkcollege: Oefentoets': /tentamen/oefentoets
     Opdrachten:
         # search?
         '[icon:diagram-3] Banner': /opdrachten/algoritmen/banner
@@ -117,11 +123,6 @@ Week 6:
         '[icon:diagram-3] Special sort': /opdrachten/algoritmen/special
     Challenge:
         '[icon:mortarboard] Virus': /opdrachten/lists/virus # 7 func, main, simulatie, comprehensions
-
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Oefentoets:
-    Oefentoets: /tentamen/oefentoets
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

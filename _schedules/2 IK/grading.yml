@@ -131,21 +131,25 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-werkcolleges_per_week:
+karel:
     show_progress: true
-    # show_overview: true
     type: points
     submits:
-        werkcollege_1: 0.5
-        werkcollege_2: 0.5
-        werkcollege_3: 0.5
-        werkcollege_4: 0.5
-        werkcollege_5: 0.5
-        werkcollege_6: 0.5
-        tutorial_collections: 0.5
-        eca2csv: 0.5
-        werkcollege_7: 0.5    # <-- queue
-        cards: 0.5
+        karel_werkblad_1: 0
+        karel_werkblad_2: 0
+        karel_werkblad_3: 0
+
+werkcolleges_per_week:
+    show_progress: true
+    type: points
+    submits:
+        werkcollege_loops: 0.5
+        werkcollege_strings: 0.5
+        werkcollege_transformatie: 0.5
+        werkcollege_lists: 0.5
+
+        werkcollege_collections: 0.5
+        werkcollege_classes_queue: 0.5
         r1: 0.5
         r2: 0.5
 
