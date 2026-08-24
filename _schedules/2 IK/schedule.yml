@@ -14,7 +14,7 @@ Week 3:
     Week 3, deel 1:
         '[icon:list-check] Overzicht': /modules/programmeren
         #'Werkcollege: Formules': /werkcollege/formules
-        'Werkcollege: Installatie': /installatie/pulsar
+        'Werkcollege: Installatie': /installatie/zed
     Functies en expressies:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
         '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
@@ -32,7 +32,7 @@ Week 3:
         #'[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
     #Challenge:
         #'[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
-        
+
     Week 3, deel 2:
         '[icon:list-check] Overzicht2': /modules/herhaling
         Werkcollege loops: /werkcollege/loops
