@@ -11,44 +11,45 @@ Week 2:
 
 # Basic form
 Week 3:
-    '[icon:list-check] Overzicht': /modules/programmeren
-    'Werkcollege: Formules': /werkcollege/formules
-    'Werkcollege: Installatie': /installatie/pulsar
-    Functies en expressies:
+    '[icon:list-check] Overzicht': /modules/variabelen
+    #'[icon:list-check] Overzicht': /modules/programmeren
+    #'[icon:list-check] Overzicht2': /modules/herhaling
+    Voorbereiding:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
+        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
+        '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
+    Werkcollege:
+        #'Werkcollege: Formules': /werkcollege/formules
+        'Werkcollege: Installatie': /installatie/zed
+        Werkcollege loops: /werkcollege/loops
+    Basis-oefeningen:]:
         '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
         '[icon:puzzle] Een programma met een functie en een main: Weken': /opdrachten/expressies/weken
+        '[icon:puzzle] Een programma met if-statements: Acid test': /opdrachten/conditionals/acid
+        '[icon:puzzle] Getallenreeksen met for en while': /opdrachten/loops/reeksen
+        #'[icon:puzzle] Schrikkeljaren tellen met een loop en een variabele': /opdrachten/loops/schrikkel
+        #'[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
+        '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
+    Functies en expressies:
         '[icon:diagram-2] Water': /opdrachten/expressies/water
-        '[icon:diagram-2] Binair': /opdrachten/expressies/binair
+        #'[icon:diagram-2] Binair': /opdrachten/expressies/binair
         '[icon:diagram-2] Cafeine': /opdrachten/expressies/cafeine
         '[icon:diagram-2] Vakantie': /opdrachten/expressies/vakantie
     Conditionals:
-        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
-        '[icon:puzzle] Een programma met if-statements: Acid test': /opdrachten/conditionals/acid
-        '[icon:diagram-2] Schrikkel': /opdrachten/conditionals/schrikkel
+        #'[icon:diagram-2] Schrikkel': /opdrachten/conditionals/schrikkel
         '[icon:diagram-2] Orakel': /opdrachten/conditionals/orakel
-        '[icon:diagram-2] Byte': /opdrachten/conditionals/byte
-        '[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
-    Challenge:
-        '[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
-
-    '[icon:list-check] Overzicht2': /modules/herhaling
-    Werkcollege loops: /werkcollege/loops
-    '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
-    Basis-oefeningen:
-        '[icon:puzzle] Getallenreeksen met for en while': /opdrachten/loops/reeksen
-        '[icon:puzzle] Schrikkeljaren tellen met een loop en een variabele': /opdrachten/loops/schrikkel
-        '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
-        '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
+        #'[icon:diagram-2] Byte': /opdrachten/conditionals/byte
+        #'[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
     While-loops:
-        '[icon:diagram-2] Cola': /opdrachten/loops/cola
-        '[icon:diagram-2] Greedy': /opdrachten/loops/greedy
+        #'[icon:diagram-2] Cola': /opdrachten/loops/cola
+        #'[icon:diagram-2] Greedy': /opdrachten/loops/greedy
         '[icon:diagram-2] Raadspel': /opdrachten/loops/raadspel
         '[icon:diagram-2] Populatie': /opdrachten/loops/populatie
     For-loops:
-        '[icon:diagram-2] Piramide': /opdrachten/loops/piramide
+        #'[icon:diagram-2] Piramide': /opdrachten/loops/piramide
         '[icon:diagram-3] Temperatuur': /opdrachten/loops/temperatuur
-    Challenge2:
+    Challenge:
+        #'[icon:mortarboard] Kalender': /opdrachten/challenges/kalender
         '[icon:mortarboard] Priemgetallen': /opdrachten/challenges/priemgetallen
 
 # String-analyse
