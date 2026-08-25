@@ -55,7 +55,7 @@ Week 3:
 # String-analyse
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 Week 4:
-    '[icon:list-check] Overzicht2': /modules/strings
+    '[icon:list-check] Overzicht': /modules/strings
     'Werkcollege: Strings-tutorial': /werkcollege/strings
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     #    Debugging: /opdrachten/oud/debug

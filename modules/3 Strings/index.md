@@ -1,5 +1,6 @@
 # Strings
 
+
 Voor het eerst ga je nu werken met een soort variabele waarin meerdere onderdelen bij elkaar staan (een "sequence"). Een **string** is namelijk een rijtje "tekens". Meestal letters of cijfers, maar er kunnen ook andere tekens voorkomen in strings.
 
 De insteek van deze module is dat je heel veel gaat oefenen met het schrijven van loops om strings te analyseren, bijvoorbeeld de vraag: staat er een letter `a` in de string?
