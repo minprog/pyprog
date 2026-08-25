@@ -47,10 +47,8 @@ Structuren
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
 Tentamen (18 punten)
-: - Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier.
-:       - Bij de tussentoets in week twee kun je de 3 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
-: - Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst.
-:       - Bij de tussentoets in week acht kun je de 6 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier. // Bij de tussentoets in week twee kun je de 3 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. // Bij de tussentoets in week acht kun je de 6 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 : - Het derde deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren, met een totaal van 9. De nadruk ligt op het schrijven van classes.
 
 Werkcollege (6 punten praktische oefening)
