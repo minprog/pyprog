@@ -1,6 +1,6 @@
 # Programmeren IK
 
-## Studiewijzer<br><small>Herfst 2025</small>
+## Studiewijzer<br><small>Herfst 2026</small>
 
 Dit vak volg je als je Informatiekunde studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
@@ -47,9 +47,9 @@ Structuren
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
 Tentamen (18 punten)
-: - Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier. // Bij de tussentoets in week twee kun je de 3 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
-: - Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. // Bij de tussentoets in week acht kun je de 6 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
-: - Het derde deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren, met een totaal van 9. De nadruk ligt op het schrijven van classes.
+: - **Tussentoets 1.** Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier. // Bij de tussentoets in week twee kun je de 3 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - **Tussentoets 2.** Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. // Bij de tussentoets in week acht kun je de 6 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - **Tentamen.** Het derde deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren, met een totaal van 9. De nadruk ligt op het schrijven van classes.
 
 Werkcollege (6 punten praktische oefening)
 : Tijdens het werkcollege doe je diverse oefeningen waarin je niet alleen programmeert maar vaak ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
