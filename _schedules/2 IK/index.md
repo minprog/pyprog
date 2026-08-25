@@ -64,22 +64,22 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 
 | Week |  Datum | Werkcollege                     |
 | :--: | -----: | ------------------------------- |
-|  1   |  1 sep | Installatie en oefeningen       |
-|  2   |  8 sep | Oefeningen loops                |
-|  3   | 15 sep | Oefeningen string-analyse       |
-|  4   | 22 sep | Oefeningen string-transformatie |
-|  5   | 29 sep | Oefeningen lists                |
-|  6   |  6 okt | Oefeningen algoritmen           |
-|  7   | 13 okt | Oefententamen (geen punten)     |
-|  8   |        | Tussentoets                     |
-|  9   | 27 okt | Oefeningen collections          |
-|  10  |  3 nov | Code reviews                    |
-|  11  | 10 nov | Oefeningen classes              |
-|  12  | 17 nov | Code reviews                    |
-|  13  | 24 nov | Oefeningen structures           |
-|  14  |  1 dec | Code reviews                    |
-|  15  |  8 dec | Oefententamen (geen punten)     |
-|  16  |        | Tentamen                        |
+|  1   |  3 sep | Karel de Robot                  |
+|  2   |  7 sep | Karel de Robot                  |
+|  3   | 14 sep | Installatie en oefeningen loops |
+|  4   | 21 sep | Oefeningen string-analyse       |
+|  5   | 28 sep | Oefeningen string-transformatie |
+|  6   |  5 okt | Oefeningen lists                |
+|  7   | 12 okt | Oefententamen                   |
+|  8   |        | **Tentamenweek**                |
+|  9   | 26 okt | Oefeningen collections          |
+|  10  |  2 nov | Code reviews                    |
+|  11  |  9 nov | Oefeningen classes              |
+|  12  | 16 nov | Code reviews                    |
+|  13  | 23 nov | Oefeningen structures           |
+|  14  | 30 nov | Code reviews                    |
+|  15  |  7 dec | Oefententamen                   |
+|  16  |        | **Tentamenweek**                |
 
 ## Huiswerk en deadlines
 
