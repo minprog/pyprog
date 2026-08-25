@@ -21,20 +21,20 @@ Tijdens de **eerste twee weken** ga je aan de slag met Karel de Robot. Dit is ee
 Daarna ga je werken met Python, om te beginnen ter voorbereiding van de tweede tussentoets, in week 8. Je gaat elke week een nieuw onderdeel van de taal toepassen zodat je uiteindelijk allerlei Python-programma's kunt lezen en ook schrijven. Problem solving blijft een belangrijk onderwerp. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
 
 Programmeren, variabelen en beslissingen
-: Hier gaan we in op de beginselen van Python: functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
+: We gaan in op de beginselen van Python: functies, variabelen en expressies. We voegen meteen for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
 
 Strings
-: Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
+: Naast werken met getallen ga je aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
 
 Lijsten
-: Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
+: We introduceren lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
 ・゜・。・゜・
 
 In de tweede helft van de cursus introduceren we meer onderdelen van de taal en worden de programma's duidelijk wat complexer. Deze delen komen terug in het tentamen van week 16.
 
 Collections
-: We laten je ook de resterende collection types uit Python zien (dictionaries, tuples en sets), zodat je de meeste basiscode goed kunt begrijpen. Collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
+: We laten je ook de resterende collection types uit Python zien (dictionaries, tuples en sets), zodat je de meeste basiscode goed kunt begrijpen. Collections worden veel gebruikt voor data science en in wetenschappelijke projecten.
 
 Classes
 : De laatste belangrijke constructie uit Python is een class. Zo kun je code bouwen met objecten die een directe representatie zijn van het onderwerp waar het programma over gaat. Aanvakelijk houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
