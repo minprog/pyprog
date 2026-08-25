@@ -14,7 +14,9 @@ De docenten zijn aanwezig bij de colleges en zorgen voor persoonlijke begeleidin
 
 ## Wat ga je leren
 
-Tijdens de eerste twee weken ga je aan de slag met Karel de Robot. Dit is een heel eigen programmeertaal waarin je direct kan zien wat je code doet. In deze module leer je al een aantal onderdelen kennen die in elke programmeertaal terugkomen. Daarnaast focussen we op problem solving: goed begrijpen wat het probleem (de opdracht) is, missende informatie invullen, en dan een oplossing formuleren en uitprogrammeren. De twee weken worden afgesloten met de eerste tussentoets.
+Tijdens de **eerste twee weken** ga je aan de slag met Karel de Robot. Dit is een heel eigen programmeertaal waarin je direct kan zien wat je code doet. In deze module leer je al een aantal onderdelen kennen die in elke programmeertaal terugkomen. Daarnaast focussen we op problem solving: goed begrijpen wat het probleem (de opdracht) is, missende informatie invullen, en dan een oplossing formuleren en uitprogrammeren. De twee weken worden afgesloten met de eerste tussentoets.
+
+・゜・。・゜・
 
 Daarna ga je werken met Python, om te beginnen ter voorbereiding van de tweede tussentoets, in week 8. Je gaat elke week een nieuw onderdeel van de taal toepassen zodat je uiteindelijk allerlei Python-programma's kunt lezen en ook schrijven. Problem solving blijft een belangrijk onderwerp. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
 
@@ -27,7 +29,9 @@ Strings
 Lijsten
 : Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
-In het tweede deel introduceren we meer onderdelen van de taal en worden de programma's duidelijk wat complexer. Deze delen komen terug in het tentamen van week 16.
+・゜・。・゜・
+
+In de tweede helft van de cursus introduceren we meer onderdelen van de taal en worden de programma's duidelijk wat complexer. Deze delen komen terug in het tentamen van week 16.
 
 Collections
 : We laten je ook de resterende collection types uit Python zien (dictionaries, tuples en sets), zodat je de meeste basiscode goed kunt begrijpen. Collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
