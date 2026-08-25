@@ -8,16 +8,18 @@ Kom je herkansen? Dan doe je gewoon het hele vak opnieuw, inclusief alle college
 
 ## Docenten en assistenten
 
-De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Rein Lukkes en Robin Langerak. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze aanspreken tijdens colleges, of in noodgevallen bereiken via e-mail op <pyprog@proglab.nl>.
+De vakcoördinator is Martijn Stegeman, docent is Rein Lukkes en assistent Anne Beks. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze aanspreken tijdens colleges, of in noodgevallen bereiken via e-mail op <pyprog@proglab.nl>.
 
-Een groep bestaat uit ongeveer 30 studenten. De docenten zijn aanwezig bij hun eigen groep en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog een studentassistent die begeleidt bij het maken van de opdrachten. Assistenten geven daarnaast gevraagd en ongevraagd feedback.
+De docenten zijn aanwezig bij de colleges en zorgen voor persoonlijke begeleiding en afspraken. Assistenten geven daarnaast gevraagd en ongevraagd feedback en weten de weg in de cursus en de opdrachten.
 
 ## Wat ga je leren
 
-Je werkt eerst aan de onderstaande onderwerpen om je voor te bereiden op de tussentoets in week 8. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
+Tijdens de eerste twee weken ga je aan de slag met Karel de Robot. Dit is een heel eigen programmeertaal waarin je direct kan zien wat je code doet. In deze module leer je al een aantal onderdelen kennen die in elke programmeertaal terugkomen. Daarnaast focussen we op problem solving: goed begrijpen wat het probleem (de opdracht) is, missende informatie invullen, en dan een oplossing formuleren en uitprogrammeren. De twee weken worden afgesloten met de eerste tussentoets.
+
+Daarna ga je werken met Python, om te beginnen ter voorbereiding van de tweede tussentoets, in week 8. Je gaat elke week een nieuw onderdeel van de taal toepassen zodat je uiteindelijk allerlei Python-programma's kunt lezen en ook schrijven. Problem solving blijft een belangrijk onderwerp. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
 
 Programmeren, variabelen en beslissingen
-: Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden. Je leert over functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
+: Hier gaan we in op de beginselen van Python: functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
 
 Strings
 : Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
@@ -40,15 +42,17 @@ Structuren
 
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
-Tentamen (22 punten)
-: - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
-: - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
-: - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+Tentamen (18 punten)
+: - Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier.
+:     - Bij de tussentoets in week twee kun je de 3 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst.
+:     - Bij de tussentoets in week acht kun je de 6 punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - Het derde deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren, met een totaal van 9. De nadruk ligt op het schrijven van classes.
 
 Werkcollege (6 punten praktische oefening)
-: Tijdens het werkcollege op maandag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
+: Tijdens het werkcollege doe je diverse oefeningen waarin je niet alleen programmeert maar vaak ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
 
-Het **eindcijfer** is `punten / 28 * 9 + 1`.
+Het **eindcijfer** is `punten / 24 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
