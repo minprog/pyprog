@@ -1,5 +1,6 @@
 # String-transformaties
 
+
 In de vorige module heb je naar strings gekeken en hoe je elk element van een string kunt bekijken, direct of via een loop.
 
 Deze module behandelt string-transformaties, waar je strings construeert op basis van een andere string. Kijk bijvoorbeeld naar deze string:

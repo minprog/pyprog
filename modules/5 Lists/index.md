@@ -1,5 +1,6 @@
 # Lists
 
+
 Lists zijn een manier in Python om een rijtje elementen bij elkaar te verzamelen onder één naam. Denk aan een lijst met temperaturen van de afgelopen 24 uur, of een lijst met daarin woorden die vaak voorkomen in lyrics.
 
 Hoewel Python zelfs elementen kan mixen in een lijst (bijvoorbeeld floats en strings) werken we doorgaans met lijsten waarin één soort element staat. Het type van een lijst geef je daarom op als `list[int]` of `list[str]` bijvoorbeeld.
