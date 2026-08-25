@@ -62,24 +62,24 @@ De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studente
 
 Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 13 sessies waar je 0,5 punt per keer kunt verdienen, met een maximum van 6. Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
-| Week |  Datum | Werkcollege                     |
-| :--: | -----: | ------------------------------- |
-|  1   |  3 sep | Karel de Robot                  |
-|  2   |  7 sep | Karel de Robot                  |
-|  3   | 14 sep | Installatie en oefeningen loops |
-|  4   | 21 sep | Oefeningen string-analyse       |
-|  5   | 28 sep | Oefeningen string-transformatie |
-|  6   |  5 okt | Oefeningen lists                |
-|  7   | 12 okt | Oefententamen                   |
-|  8   |        | **Tentamenweek**                |
-|  9   | 26 okt | Oefeningen collections          |
-|  10  |  2 nov | Code reviews                    |
-|  11  |  9 nov | Oefeningen classes              |
-|  12  | 16 nov | Code reviews                    |
-|  13  | 23 nov | Oefeningen structures           |
-|  14  | 30 nov | Code reviews                    |
-|  15  |  7 dec | **Alleen vragenuur**            |
-|  16  |        | **Tentamenweek**                |
+| Week |    Datum | Werkcollege                     |
+| :--: | -------: | ------------------------------- |
+|  1   | do 3 sep | Karel de Robot                  |
+|  2   | ma 7 sep | Karel de Robot                  |
+|  3   |   14 sep | Installatie en oefeningen loops |
+|  4   |   21 sep | Oefeningen string-analyse       |
+|  5   |   28 sep | Oefeningen string-transformatie |
+|  6   |    5 okt | Oefeningen lists                |
+|  7   |   12 okt | Oefententamen                   |
+|  8   |          | **Tentamenweek**                |
+|  9   |   26 okt | Oefeningen collections          |
+|  10  |    2 nov | Code reviews                    |
+|  11  |    9 nov | Oefeningen classes              |
+|  12  |   16 nov | Code reviews                    |
+|  13  |   23 nov | Oefeningen structures           |
+|  14  |   30 nov | Code reviews                    |
+|  15  |    7 dec | **Alleen vragenuur**            |
+|  16  |          | **Tentamenweek**                |
 
 ## Huiswerk en deadlines
 
