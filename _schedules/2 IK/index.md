@@ -60,7 +60,7 @@ De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studente
 
 ### Werkcollege op maandag
 
-Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 14 sessies waar je 0,5 punt per keer kunt verdienen, met een maximum van 6. Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
+Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 13 sessies waar je 0,5 punt per keer kunt verdienen, met een maximum van 6. Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
 | Week |  Datum | Werkcollege                     |
 | :--: | -----: | ------------------------------- |
@@ -78,7 +78,7 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 |  12  | 16 nov | Code reviews                    |
 |  13  | 23 nov | Oefeningen structures           |
 |  14  | 30 nov | Code reviews                    |
-|  15  |  7 dec | Oefententamen                   |
+|  15  |  7 dec | **Alleen vragenuur**            |
 |  16  |        | **Tentamenweek**                |
 
 ## Huiswerk en deadlines
