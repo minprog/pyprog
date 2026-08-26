@@ -56,7 +56,7 @@ Werkcollege (6 punten praktische oefening)
 
 Het **eindcijfer** is `punten / 24 * 9 + 1`.
 
-De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoetsen. De praktische oefening blijft apart staan.
+De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten bij wie het niet zo lekker liep, maar die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen alle eerdere resultaten van het tentamen, inclusief die van de tussentoetsen. De praktische oefening blijft wél apart staan.
 
 |              | Tussentoets 1 | Tussentoets 2 | Eindtentamen |
 | ------------ | ------------- | ------------- | ------------ |
