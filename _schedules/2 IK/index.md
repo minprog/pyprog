@@ -48,7 +48,7 @@ Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zon
 
 Tentamen (18 punten)
 : - **Tussentoets 1 (3 punten)** Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier. Bij deze tussentoets worden deelpunten gegeven.
-: - **Tussentoets 2 (6 punten)** Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt hier in één keer alle punten als je voldoende oplost. Er is daarom ook een _extra_ herkansing voor deze tussentoets tijdens het eindtentamen.
+: - **Tussentoets 2 (6 punten)** Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt hier in één keer alle punten als je voldoende opgaven oplost. Er is daarom ook een _extra_ herkansing voor deze tussentoets tijdens het eindtentamen.
 : - **Eindtentamen (9 punten)** Het derde deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren. De nadruk ligt op het schrijven van classes.
 
 Werkcollege (6 punten praktische oefening)
