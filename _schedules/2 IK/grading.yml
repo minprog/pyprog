@@ -9,6 +9,7 @@ _settings:
 templates:
     1: &werkcollege
         type: pass
+        exam: true
         subgrades:
             meegedaan: boolean
         calculation: meegedaan
@@ -69,6 +70,10 @@ grades:
     # oefententamen2: *check # week 15
 
     tussentoets_ik: *tentamen
+
+    karel_1: *werkcollege
+    karel_2: *werkcollege
+    karel_3: *werkcollege
 
     # 2 * 6 werkcolleges, niet allemaal mooi genummerd
     # werkcollege_formules: *werkcollege
@@ -135,9 +140,9 @@ karel:
     show_progress: true
     type: points
     submits:
-        karel_werkblad_1: 0
-        karel_werkblad_2: 0
-        karel_werkblad_3: 0
+        karel_1: 0
+        karel_2: 0
+        karel_3: 0
 
 werkcolleges_per_week:
     show_progress: true
