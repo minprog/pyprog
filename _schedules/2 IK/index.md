@@ -47,8 +47,8 @@ Structuren
 Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zonder hulp, gebruik makend van de mogelijkheden die Python je biedt. Je cijfer hangt verder af van je brede vaardigheid met taalconstructies om programmeerproblemen op te lossen.
 
 Tentamen (18 punten)
-: - **Tussentoets 1 (3 punten)** Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier. // Bij de tussentoets in week twee kun je de punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
-: - **Tussentoets 2 (6 punten)** Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. // Bij de tussentoets in week acht kun je de punten hiervoor al binnenhalen. Die opgaven hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - **Tussentoets 1 (3 punten)** Het eerste deel van het tentamen gaat over Karel de Robot. We testen je kennis van de taal en je vaardigheid van het problemen oplossen. Dit deel is op papier. Bij deze tussentoets worden deelpunten gegeven.
+: - **Tussentoets 2 (6 punten)** Het tweede deel van het tentamen gaat over de basis van Python. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Er is een _extra_ herkansing voor deze tussentoets tijdens het eindtentamen.
 : - **Eindtentamen (9 punten)** Het derde deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren. De nadruk ligt op het schrijven van classes.
 
 Werkcollege (6 punten praktische oefening)
@@ -56,7 +56,14 @@ Werkcollege (6 punten praktische oefening)
 
 Het **eindcijfer** is `punten / 24 * 9 + 1`.
 
-De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
+De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoetsen. De praktische oefening blijft apart staan.
+
+|              | Tussentoets 1 | Tussentoets 2 | Eindtentamen |
+| ------------ | ------------- | ------------- | ------------ |
+| 10 sep 2026  | eerste kans   |               |              |
+| 22 okt 2026  |               | eerste kans   |              |
+| 16 dec 2026  |               | extra kans    | eerste kans  |
+| jan/feb 2027 | herkansing    | herkansing    | herkansing   |
 
 ### Werkcolleges
 
