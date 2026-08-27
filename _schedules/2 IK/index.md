@@ -71,8 +71,9 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 
 | Week | Dag |  Datum | Werkcollege                     |
 | :--: | :-: | -----: | ------------------------------- |
-|  1   | do  |  3 sep | Karel de Robot                  |
-|  2   | ma  |  7 sep | Karel de Robot                  |
+|  1   | do  |  3 sep | Karel de Robot 1                |
+|  1   | vr  |  4 sep | Karel de Robot 2                |
+|  2   | ma  |  7 sep | Karel de Robot 3                |
 |  3   | ma  | 14 sep | Installatie en oefeningen loops |
 |  4   | ma  | 21 sep | Oefeningen string-analyse       |
 |  5   | ma  | 28 sep | Oefeningen string-transformatie |
