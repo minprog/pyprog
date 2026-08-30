@@ -1,0 +1,13 @@
+lab:
+  windows:
+    - editor
+    - readme
+    - terminal
+  files:
+    - tutorial_strings.py
+  buttons:
+    run:
+    doctest: |
+      import <filename>
+      import doctest
+      doctest.testmod(<filename>, verbose=True)

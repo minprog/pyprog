@@ -69,7 +69,7 @@ grades:
     # oefententamen1: *check  # week  7
     # oefententamen2: *check # week 15
 
-    tussentoets_ik: *tentamen
+    # tussentoets_ik: *tentamen
 
     karel_1: *werkcollege
     karel_2: *werkcollege
