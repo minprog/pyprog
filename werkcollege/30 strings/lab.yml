@@ -1,4 +1,5 @@
 lab:
+  readme: index.md
   windows:
     - editor
     - readme
