@@ -4,7 +4,7 @@ Strings zijn reeksen tekens. In deze tutorial bouw je stap voor stap een aantal
 kleine functies die met strings werken.
 
 **Hoe het werkt.** Elke pagina hieronder laat één functie zien. Kopieer die naar
-`tutorial_strings.py` in de editor en vervang de `TODO` door je eigen code. Klik
+`tutorial_strings.py` in de editor en vervang de `...` door je eigen code. Klik
 op de knop **doctest** om alle functies te controleren die je tot dan toe
 geschreven hebt. De regels met `>>>` in elke functie zijn de tests: ze laten een
 aanroep zien en het antwoord dat eruit moet komen.
@@ -126,11 +126,10 @@ def part_of_python(x: str) -> bool:
     >>> part_of_python('java')
     False
     """
-    # TODO
     ...
 ```
 
-{% next "Verder: zoeken met een lus" %}
+{% next "Verder: zoeken met een loop" %}
 
 Je kunt de tekens ook zelf een voor een langslopen:
 
@@ -139,8 +138,11 @@ Je kunt de tekens ook zelf een voor een langslopen:
             return True
     return False
 
-Zodra je vindt wat je zoekt, geef je meteen `True` terug. Loopt de lus af zonder
+Zodra je vindt wat je zoekt, geef je meteen `True` terug. Is de loop klaar zonder
 dat er iets teruggegeven is, dan zat het er niet in en geef je `False` terug.
+
+Schrijf zo'n loop die `True` teruggeeft als de letter o in `x` zit, en anders
+`False`.
 
 ```python
 def has_o(x: str) -> bool:
@@ -150,14 +152,14 @@ def has_o(x: str) -> bool:
     >>> has_o("cat")
     False
     """
-    # TODO: schrijf een lus die True teruggeeft als de letter o in x zit, anders False
     ...
 ```
 
 {% next "Verder: andersom" %}
 
-Met een vergelijkbare lus controleer je of iets er juist *niet* in zit. Begin bij
-de lus die je net geschreven hebt en bedenk welk antwoord waar hoort.
+Met een vergelijkbare loop controleer je of iets er juist *niet* in zit: `True`
+als de letter o NIET in `x` zit. Begin bij de loop die je net geschreven hebt en
+bedenk welk antwoord waar hoort.
 
 ```python
 def has_no_o(x: str) -> bool:
@@ -167,7 +169,6 @@ def has_no_o(x: str) -> bool:
     >>> has_no_o("dog")
     False
     """
-    # TODO: schrijf een lus die True teruggeeft als de letter o NIET in x zit
     ...
 ```
 
@@ -180,7 +181,8 @@ iets staat:
         if s[index] == ...:
             return index
 
-`-1` teruggeven is de gebruikelijke manier om te zeggen "niet gevonden".
+`-1` teruggeven is de gebruikelijke manier om te zeggen "niet gevonden". Geef
+hier dus de positie van de eerste letter o terug, of anders `-1`.
 
 ```python
 def where_o_at(text: str) -> int:
@@ -190,7 +192,6 @@ def where_o_at(text: str) -> int:
     >>> where_o_at("abc")
     -1
     """
-    # TODO: geef de positie van de eerste letter o terug, of anders -1
     ...
 ```
 
@@ -213,7 +214,6 @@ def shout(s: str) -> str:
     >>> shout("hello")
     'HELLO!'
     """
-    # TODO: lees de test heel goed!
     ...
 ```
 
@@ -227,7 +227,6 @@ def quiet(s: str) -> str:
     >>> quiet("LOUD")
     'loud...'
     """
-    # TODO: lees de test heel goed!
     ...
 ```
 
@@ -257,7 +256,6 @@ def count_vowels(s: str) -> int:
     >>> count_vowels("RODENT!")
     2
     """
-    # TODO
     ...
 ```
 

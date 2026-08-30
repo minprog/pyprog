@@ -1,0 +1,13 @@
+lab:
+  windows:
+    - editor
+    - readme
+    - terminal
+  files:
+    - tutorial_python.py
+  buttons:
+    run:
+    doctest: |
+      import <filename>
+      import doctest
+      doctest.testmod(<filename>, verbose=True)
