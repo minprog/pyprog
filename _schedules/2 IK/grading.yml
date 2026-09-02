@@ -107,15 +107,15 @@ grades:
 
 calculation:
     eindcijfer:
-        werkcolleges_per_week: 6
-        tentamen: 22
-    eindcijfer_ik_ouderejaars:
-        tentamen: 22
-    herkansing_ik:
-        werkcolleges_per_week: 6
-        herkansing: 22
-    herkansing_ik_ouderejaars:
-        herkansing: 22
+        werkcolleges: 6
+        tentamen: 18
+    eindcijfer_ouderejaars:
+        tentamen: 18
+    herkansing:
+        werkcolleges: 6
+        herkansing: 18
+    herkansing_ouderejaars:
+        herkansing: 18
 
 # SUB-CALCULATIONS - define the components of the course that may be used in
 # final grade calculations. A few constraints can be specified.
@@ -136,7 +136,7 @@ calculation:
 #
 # You can leave these out if unused in the `calculation` section.
 
-karel:
+werkcolleges:
     show_progress: true
     type: points
     submits:
@@ -144,10 +144,6 @@ karel:
         karel_2: 0.5
         karel_3: 0.5
 
-werkcolleges_per_week:
-    show_progress: true
-    type: points
-    submits:
         werkcollege_loops: 0.5
         werkcollege_strings: 0.5
         werkcollege_transformatie: 0.5
