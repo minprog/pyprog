@@ -1,6 +1,17 @@
 Welkom:
     Lees de studiewijzer alvast even door: /syllabus
 
+# Karel de Robot
+Karel 1:
+    'Werkcollege: Karel de Robot 1': /werkcollege/karel-1
+
+Karel 2:
+    'Werkcollege: Karel de Robot 2': /werkcollege/karel-2
+
+Karel 3:
+    'Werkcollege: Karel de Robot 3': /werkcollege/karel-3
+    '[icon:mortarboard] Karel-challenge': /werkcollege/karel-challenge
+
 # Basic form
 Week 3:
     '[icon:list-check] Overzicht': /modules_karel/python

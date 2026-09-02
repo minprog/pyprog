@@ -1,0 +1,87 @@
+name: karel_2
+exam: true
+files:
+    required:
+        playground.karel: ''
+        pattern.karel: ''
+hidden_files:
+    required:
+        pattern1.w: |
+            Dimension: (6, 2)
+            Beeper: (1, 1) 1
+            Beeper: (3, 1) 1
+            Beeper: (4, 1) 1
+            Beeper: (6, 1) 1
+            Karel: (1, 1) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        pattern2.w: |
+            Dimension: (6, 2)
+            Beeper: (2, 1) 1
+            Beeper: (3, 1) 1
+            Beeper: (5, 1) 1
+            Beeper: (6, 1) 1
+            Karel: (1, 1) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        facesouth-n.w: |
+            Dimension: (3, 3)
+            Karel: (2, 2) north
+            BeeperBag: INFINITE
+            Speed: 0.00
+        facesouth-e.w: |
+            Dimension: (3, 3)
+            Karel: (2, 2) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        facesouth-s.w: |
+            Dimension: (3, 3)
+            Karel: (2, 2) south
+            BeeperBag: INFINITE
+            Speed: 0.00
+        facesouth-w.w: |
+            Dimension: (3, 3)
+            Karel: (2, 2) west
+            BeeperBag: INFINITE
+            Speed: 0.00
+        take1.w: |
+            Dimension: (3, 3)
+            Beeper: (2, 2) 1
+            Karel: (2, 2) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        take2.w: |
+            Dimension: (3, 3)
+            Beeper: (2, 2) 2
+            Karel: (2, 2) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        leave1.w: |
+            Dimension: (3, 3)
+            Beeper: (2, 2) 1
+            Karel: (2, 2) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        leave2.w: |
+            Dimension: (3, 3)
+            Beeper: (2, 2) 2
+            Karel: (2, 2) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        surround1.w: |
+            Dimension: (3, 3)
+            Wall: (2, 2) north
+            Wall: (2, 2) east
+            Wall: (2, 2) south
+            Wall: (2, 2) west
+            Karel: (2, 2) east
+            BeeperBag: INFINITE
+            Speed: 0.00
+        surround2.w: |
+            Dimension: (3, 3)
+            Wall: (2, 2) north
+            Wall: (2, 2) south
+            Wall: (2, 2) west
+            Karel: (2, 2) east
+            BeeperBag: INFINITE
+            Speed: 0.00
