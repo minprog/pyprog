@@ -24,45 +24,26 @@ templates:
             deel_1: integer
             deel_2: integer
         calculation: deel_1 + deel_2
-
-# GRADES - contains definitions of how grades are structured. The names of the
-# grades match the names of submits that may be defined in `submit.yml`
-# elsewhere, but you can also create grades without an accompanying submit.
-#
-# The following properties are supported:
-#
-# - `type` can be `integer`, `float` or `pass`, which influences presentation
-# and input
-#
-# - `subgrades` defines any extra numbers to be added to a grade, with their
-# types `integer`, `pass`, `boolean` or `float`
-#
-# - note: if any subgrades are defined, teaching assistants are only allowed to
-# enter those, and can't override the grade itself
-#
-# - `calculation` is an expression that is evaluated in the context of the
-# subgrades, which means you can use any subgrade by name in that expression, as
-# well as any standard Ruby objects and syntax
-#
-# - `automatic` is an expression that is evaluated in the context of any
-# automatic grading results (as defined in `submit.yml`) - allowing the use of
-# the variable `correctness_score`. It can only be used to fill in subgrades,
-# but you can then use the `calculation` to transfer the value of a subgrade
-# into the grade.
-#
-# - `hide_calculated` hides the calculated grade, only showing the entered
-# subgrades (to de-emphasize grades for students)
-#
-# - `hide_subgrades` hides the subgrades, for example if you want to do a simple
-# calculation but only show the resulting grade to students
-#
-# You can leave this out if grading isn't used or if each submit simply requires
-# entering a final grade, no subgrades and no calculations.
+    4: &werkcollege
+        type: pass
+        exam: true
+        subgrades:
+            meegedaan: boolean
+        calculation: meegedaan
+        hide_calculated: false
+        auto_publish: false
+        hide_subgrades: true
 
 grades:
 
     tentamen: *tentamen
     hertentamen: *tentamen
+
+
+    karel_1: *werkcollege
+    karel_2: *werkcollege
+    karel_3: *werkcollege
+
 
     # module 1
     boek1: *check

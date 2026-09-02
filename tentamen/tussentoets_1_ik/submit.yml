@@ -1,0 +1,4 @@
+# Karel-tussentoets, op papier: deze pagina bestaat alleen om het cijfer in te
+# kunnen voeren. Zonder `files` en zonder `form` toont de site geen inleverformulier.
+name: tussentoets_1_ik
+exam: true

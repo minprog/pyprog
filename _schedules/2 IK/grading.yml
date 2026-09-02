@@ -2,89 +2,38 @@ _settings:
     start_date: 1/9/25
     end_date: 10/2/26
 
-# This is a separate section containing a few templates that we will use below.
-# The & feature is built into YAML, it is not a special feature of the website.
-# The section does not need to be called `templates` necessarily.
-
-templates:
-    1: &werkcollege
-        type: pass
-        exam: true
-        subgrades:
-            meegedaan: boolean
-        calculation: meegedaan
-        hide_calculated: false
-        auto_publish: false
-        hide_subgrades: true
-    2: &check
-        type: pass
-        subgrades:
-            done: boolean
-        calculation: done
-        hide_calculated: true
-    3: &tentamen
-        type: points
-        exam: true
-        subgrades:
-            deel_1: integer
-            deel_2: integer
-            deel_3: integer
-        calculation: deel_1 + deel_2 + deel_3
-    4: &tussentoets
-        type: points
-        exam: true
-        subgrades:
-            score: integer
-        calculation: score
-
-# GRADES - contains definitions of how grades are structured. The names of the
-# grades match the names of submits that may be defined in `submit.yml`
-# elsewhere, but you can also create grades without an accompanying submit.
-#
-# The following properties are supported:
-#
-# - `type` can be `integer`, `float` or `pass`, which influences presentation
-# and input
-#
-# - `subgrades` defines any extra numbers to be added to a grade, with their
-# types `integer`, `pass`, `boolean` or `float`
-#
-# - note: if any subgrades are defined, teaching assistants are only allowed to
-# enter those, and can't override the grade itself
-#
-# - `calculation` is an expression that is evaluated in the context of the
-# subgrades, which means you can use any subgrade by name in that expression, as
-# well as any standard Ruby objects and syntax
-#
-# - `automatic` is an expression that is evaluated in the context of any
-# automatic grading results (as defined in `submit.yml`) - allowing the use of
-# the variable `correctness_score`. It can only be used to fill in subgrades,
-# but you can then use the `calculation` to transfer the value of a subgrade
-# into the grade.
-#
-# - `hide_calculated` hides the calculated grade, only showing the entered
-# subgrades (to de-emphasize grades for students)
-#
-# - `hide_subgrades` hides the subgrades, for example if you want to do a simple
-# calculation but only show the resulting grade to students
-#
-# You can leave this out if grading isn't used or if each submit simply requires
-# entering a final grade, no subgrades and no calculations.
-
 grades:
-    # checkup: *check        # week  4
-    # oefententamen1: *check  # week  7
-    # oefententamen2: *check # week 15
+    # tentamens specifiek voor hier
+    tussentoets_1_ik:
+        type: points
+        exam: true
+        hide_calculated: true
+        subgrades:
+            karel: integer
+    tussentoets_2_ik:
+        type: points
+        exam: true
+        hide_calculated: true
+        subgrades:
+            karel: integer
+            python: integer
+    tentamen:
+        type: points
+        exam: true
+        hide_calculated: true
+        subgrades:
+            python: integer
+            advanced_python: integer
 
-    tussentoets_karel: *tussentoets
-    tussentoets_python: *tussentoets
-
-    tentamen: *tentamen
-    hertentamen: *tentamen
-
-    karel_1: *werkcollege
-    karel_2: *werkcollege
-    karel_3: *werkcollege
+    # bij hertentamen vervallen alle eerdere tentamencijfers
+    hertentamen:
+        type: points
+        exam: true
+        subgrades:
+            karel: integer
+            python: integer
+            advanced_python: integer
+        calculation: sum_all
 
     # 2 * 6 werkcolleges, niet allemaal mooi genummerd
     # werkcollege_formules: *werkcollege
@@ -100,52 +49,17 @@ grades:
     # r1: *werkcollege
     # r2: *werkcollege
 
-# CALCULATIONS - define the final grades for the course and the weights between
-# subcomponents for each. Often, multiple final grades are differentiated by the
-# choice of grades that are used for the calculation, for example calculating
-# the "normal" final grade based on the "first exam", and the "resit" final
-# grade based on the result of the second exam. Currently, running "calculate
-# final grades" on the website will try to calculate all, which might result in
-# useless non-grades getting calculated.
-#
-# Weights specify proportionally to each other and do not need to add up to
-# anything in particular. If a weight of 0 is specified, the grade is not used
-# in the calculation, but the grade must be "passed" for the calculation to
-# succeed.
-#
-# You can leave this out if the site does not need to perform final grade
-# calculations.
-
 calculation:
+    # Let op: de werkcolleges tellen automatisch niet mee (...?) indien
+    # niets ingeleverd/becijferd. Dit is voor de ouderejaars.
     eindcijfer:
-        werkcolleges: 6
-        tentamen: 18
-    eindcijfer_ouderejaars:
-        tentamen: 18
+        werkcolleges?: 6
+        karel: 3
+        python: 6
+        advanced_python: 9
     herkansing:
-        werkcolleges: 6
-        herkansing: 18
-    herkansing_ouderejaars:
-        herkansing: 18
-
-# SUB-CALCULATIONS - define the components of the course that may be used in
-# final grade calculations. A few constraints can be specified.
-#
-# The following properties are supported:
-#
-# `submits` are the names of the grades/submits with accompanying weight for
-# each
-#
-# `show_progress: true` will list the results of the grades in a table on
-# students' progress pages
-#
-# `required: true` will only "pass" this part if all comprising grades are
-# passed (used with pass/fail tests)
-#
-# `minimum: 5.5` will only "pass" this part if the weighed average of the grades
-# is at least the specified minimum
-#
-# You can leave these out if unused in the `calculation` section.
+        werkcolleges?: 6
+        hertentamen: 18
 
 werkcolleges:
     show_progress: true
@@ -165,34 +79,39 @@ werkcolleges:
         r1: 0.5
         r2: 0.5
 
-oefentoetsen:
-    show_overview: true
-    submits:
-        checkup: 1
-        oefententamen1: 1
-        oefententamen2: 1
-
-tentamen:
+# tentamen-componenten: laatste telt doorgaans
+karel:
     show_progress: true
-    # show_overview: true
+    exam: true
+    type: points_last
+    submits:
+        tussentoets_1_ik.karel: 3
+        tussentoets_2_ik.karel: 3
+python:
+    show_progress: true
+    exam: true
+    type: points_last
+    submits:
+        tussentoets_2_ik.python: 6
+        tentamen.python: 6
+advanced_python:
+    show_progress: true
+    exam: true
     type: points
     submits:
-        tussentoets_karel: 3
-        tussentoets_python: 6
-        tentamen: 9
+        tentamen.advanced_python: 9
 
-herkansing:
-    # show_progress: true
+# hertentamen is apart
+hertentamen:
     show_overview: true
+    exam: true
     type: points
+    attempt_required: true
     submits:
-        tussentoets_karel: 3
-        tussentoets_python: 6
-        hertentamen: 11
+        hertentamen: 18
 
 week_1:
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 7/9/25 17:00
     submits:
         boek1: 1
@@ -209,9 +128,7 @@ week_1:
         rechthoeken: 1
 
 week_2:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 14/9/25 17:00
     submits:
         boek3: 1
@@ -229,9 +146,7 @@ week_2:
         temperatuur: 1
 
 week_3:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 21/9/25 17:00
     submits:
         string_analyse: 1
@@ -244,9 +159,7 @@ week_3:
         leesbaarheid: 1
 
 week_4:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 28/9/25 17:00
     submits:
         string_transformatie: 1
@@ -262,9 +175,7 @@ week_4:
 
 
 week_5:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 5/10/25 17:00
     submits:
         list_int_basics: 1
@@ -278,9 +189,7 @@ week_5:
         interleave: 1
 
 week_6:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 12/10/25 17:00
     submits:
         banner: 1
@@ -291,7 +200,6 @@ week_6:
 
 challenges:
     show_overview: true
-    small_block_overview: true
     deadline: 12/10/25 17:00
     submits:
         kalender: 1
@@ -302,9 +210,7 @@ challenges:
         virus: 1
 
 week_9:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 31/10/25 17:00
     submits:
         collection_functions: 1
@@ -313,18 +219,14 @@ week_9:
         indexer: 1
 
 week_10:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 9/11/25 17:00
     submits:
         # eca2csv: 1  # werkcollege
         klimaat: 1
 
 week_11:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 16/11/25 17:00
     submits:
         # queue: 1  # werkcollege
@@ -335,9 +237,7 @@ week_11:
         times: 1
 
 week_12:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 23/11/25 17:00
     submits:
         cards: 1
@@ -348,15 +248,20 @@ week_12:
         vocabulary_trainer: 1
 
 week_13/14:
-    # show_overview: true
-    show_progress: true
+    show_overview: true
     deadline: 12/12/25 17:00
     submits:
         adventure: 1
 
 challenges2:
     show_overview: true
-    small_block_overview: true
     submits:
         kunstroof: 1
         war: 1
+
+oefentoetsen:
+    show_overview: true
+    submits:
+        checkup: 1
+        oefententamen1: 1
+        oefententamen2: 1
