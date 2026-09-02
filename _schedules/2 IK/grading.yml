@@ -106,11 +106,11 @@ grades:
 # calculations.
 
 calculation:
-    eindcijfer_ik:
+    eindcijfer:
         werkcolleges_per_week: 6
-        toetsen: 22
+        tentamen: 22
     eindcijfer_ik_ouderejaars:
-        toetsen: 22
+        tentamen: 22
     herkansing_ik:
         werkcolleges_per_week: 6
         herkansing: 22
@@ -140,9 +140,9 @@ karel:
     show_progress: true
     type: points
     submits:
-        karel_1: 0
-        karel_2: 0
-        karel_3: 0
+        karel_1: 0.5
+        karel_2: 0.5
+        karel_3: 0.5
 
 werkcolleges_per_week:
     show_progress: true
@@ -165,13 +165,14 @@ oefentoetsen:
         oefententamen1: 1
         oefententamen2: 1
 
-toetsen:
+tentamen:
     show_progress: true
     # show_overview: true
     type: points
     submits:
-        tussentoets_ik: 11
-        tentamen: 11
+        tussentoets_karel: 3
+        tussentoets_python: 6
+        tentamen: 9
 
 herkansing:
     # show_progress: true
