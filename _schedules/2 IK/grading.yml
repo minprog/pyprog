@@ -186,7 +186,8 @@ herkansing:
     show_overview: true
     type: points
     submits:
-        tussentoets_ik: 11
+        tussentoets_karel: 3
+        tussentoets_python: 6
         hertentamen: 11
 
 week_1:
