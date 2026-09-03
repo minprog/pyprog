@@ -152,6 +152,6 @@ Het begin van leren programmeren is best oncomfortabel. Het kan zelfs ronduit on
 
 De docenten proberen ook zelf studenten te vinden waar het nog niet zo lekker loopt, onder andere door naar inzendingen te kijken en via gesprekken bij de werkcolleges. Als je opdrachten inlevert die je niet geheel zelf hebt gemaakt dan wordt het daarmee voor de docenten onmogelijk om goed beeld te hebben van je voortgang. We zullen dan denken dat het goed gaat terwijl het helemaal niet zo goed gaat. Kom je dan toch in de problemen, dan moet je echt zelf contact opnemen.
 
-## Herkansen
+<!--## Herkansen
 
-Als je dit vak vorig jaar hebt gevolgd en minstens één tentamen hebt gemaakt mag je het vak volgen met weglating van de punten voor de werkcolleges. Dat betekent dat je dan geen werkcolleges volgt en de punten van het tentamen (en tussentoets) het volledige eindcijfer bepalen.
+Als je dit vak vorig jaar hebt gevolgd en minstens één tentamen hebt gemaakt mag je het vak volgen met weglating van de punten voor de werkcolleges. Dat betekent dat je dan geen werkcolleges volgt en de punten van het tentamen (en tussentoets) het volledige eindcijfer bepalen.-->
