@@ -79,37 +79,6 @@ werkcolleges:
         r1: 0.5
         r2: 0.5
 
-# tentamen-componenten: laatste telt doorgaans
-karel:
-    show_progress: true
-    exam: true
-    type: points_last
-    submits:
-        tussentoets_1_ik.karel: 3
-        tussentoets_2_ik.karel: 3
-python:
-    show_progress: true
-    exam: true
-    type: points_last
-    submits:
-        tussentoets_2_ik.python: 6
-        tentamen.python: 6
-advanced_python:
-    show_progress: true
-    exam: true
-    type: points
-    submits:
-        tentamen.advanced_python: 9
-
-# hertentamen is apart
-hertentamen:
-    show_overview: true
-    exam: true
-    type: points
-    attempt_required: true
-    submits:
-        hertentamen: 18
-
 week_1:
     show_overview: true
     deadline: 7/9/25 17:00
@@ -265,3 +234,34 @@ oefentoetsen:
         checkup: 1
         oefententamen1: 1
         oefententamen2: 1
+
+# tentamen-componenten: laatste telt doorgaans
+karel:
+    show_progress: true
+    exam: true
+    type: points_last
+    submits:
+        tussentoets_1_ik.karel: 3
+        tussentoets_2_ik.karel: 3
+python:
+    show_progress: true
+    exam: true
+    type: points_last
+    submits:
+        tussentoets_2_ik.python: 6
+        tentamen.python: 6
+advanced_python:
+    show_progress: true
+    exam: true
+    type: points
+    submits:
+        tentamen.advanced_python: 9
+
+# hertentamen is apart
+hertentamen:
+    show_overview: true
+    exam: true
+    type: points
+    attempt_required: true
+    submits:
+        hertentamen: 18
