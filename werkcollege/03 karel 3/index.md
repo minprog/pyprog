@@ -1,6 +1,6 @@
 # Werkcollege: Karel de Robot 3
 
-[Ga naar de tentamen-editor](/exams) om de opdrachten van dit werkcollege te maken.
+Ga via onderstaande knop naar de tentamen-editor om de opdrachten van dit werkcollege te maken.
 
 Je schrijft vier programma's:
 
@@ -13,3 +13,5 @@ De werelden staan al klaar in de editor, dus je hoeft ze niet zelf te maken.
 
 In `playground.karel` kun je vrij dingen uitproberen. Dat bestand wordt niet nagekeken.
 De werelden `maze1.w` en `maze2.w` staan als gewone tabbladen open: die mag je openen en aanpassen, bijvoorbeeld om de beeper op een andere hoek te zetten.
+
+[Karel 3](exam_button:karel_3)
