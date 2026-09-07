@@ -7,4 +7,4 @@ Het oefententamen bevat twee nuttige dingen die je ook bij het tentamen hebt:
 
 Je hoeft dus niet alle woorden perfect te onthouden.
 
-[Oefententamen](homework3.pdf)
+[Oefententamen](homework3.pdf) en [Opgaven van maandag](session3.pdf)
