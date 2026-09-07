@@ -1,6 +1,6 @@
 # Karel playground
 
-**<-- Als je ingelogd bent kun je hier links op "Overzicht" klikken voor digitale oefententamen en werkblad**
+**<-- Als je ingelogd bent kun je hier links op "Overzicht" klikken voor het digitale oefententamen en het werkblad**
 
 Ga via onderstaande knop naar de tentamen-editor om te oefenen met alle
 opdrachten van Karel 1, 2 en 3. Je oude uitwerkingen kun je eventueel downloaden op de pagina [Voortgang](/submissions).
