@@ -13,6 +13,7 @@ Karel 3:
     '[icon:mortarboard] Karel-challenge': /werkcollege/karel-challenge
 
 Karel:
+    '[icon:list-check] Overzicht': /modules_karel/karel
     '[icon:joystick] Karel playground': /werkcollege/karel-playground
 
 # Basic form
