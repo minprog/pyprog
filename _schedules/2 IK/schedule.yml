@@ -12,6 +12,9 @@ Karel 3:
     'Werkcollege: Karel de Robot 3': /werkcollege/karel-3
     '[icon:mortarboard] Karel-challenge': /werkcollege/karel-challenge
 
+Karel:
+    '[icon:joystick] Karel playground': /werkcollege/karel-playground
+
 # Basic form
 Week 3:
     '[icon:list-check] Overzicht': /modules_karel/python
