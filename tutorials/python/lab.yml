@@ -8,6 +8,5 @@ lab:
   buttons:
     run:
     doctest: |
-      import <filename>
-      import doctest
-      doctest.testmod(<filename>, verbose=True)
+      import terra_doctest
+      terra_doctest.run("<filename>")
