@@ -22,9 +22,7 @@ Week 3:
     #'[icon:list-check] Overzicht': /modules/programmeren
     #'[icon:list-check] Overzicht2': /modules/herhaling
     Voorbereiding:
-        '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
-        '[icon:journal-code] Paragraaf 4.1-4.3': /boek/boek2
-        '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
+        '[icon:journal-code] Hoofdstuk 1 t/m 4': /boek/boek123
     Werkcollege:
         #'Werkcollege: Formules': /werkcollege/formules
         'Werkcollege: Installatie': /installatie/zed
