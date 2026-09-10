@@ -34,18 +34,35 @@ def kwadraat(a: int) -> int:
     return a * a
 ```
 
-Wat staat daar precies?
+**Klik op de knop 'doctest' om de functie op werking te testen.**
 
-- `def` begint een functie, net zoals `DEFINE-NEW-INSTRUCTION` in Karel een
-  instructie begon.
-- `kwadraat` is de naam. Tussen de haakjes staan de **parameters**: gegevens die
-  de functie binnenkrijgt. Karel-instructies hadden die niet.
-- `a: int` zegt dat `a` een geheel getal is, en `-> int` dat er een geheel getal
-  uit komt. Python controleert dat niet, maar het vertelt de lezer wat je bedoelt.
-- De dubbele punt en het **inspringen** bepalen wat er bij de functie hoort.
-  Karel had daar `BEGIN` en `END` voor; Python kijkt naar de witruimte links.
-- De tekst tussen `"""` is de docstring. De regels met `>>>` daarin zijn tests.
-- `return` geeft het antwoord terug en beëindigt de functie.
+{% next "Uitleg" %}
+
+Besef je vooral dat deze functie, in plaats van een figuur te besturen,
+een getal uitrekent. Je kunt dit onder andere zien aan de `return`.
+
+Wat staat er verder?
+
+- De functie-header:
+    - Het woord `def` begint een functie, net zoals `DEFINE-NEW-INSTRUCTION` in Karel een
+    instructie begon.
+    - Het woord `kwadraat` is de naam van de functie.
+    - Tussen de haakjes staan de *parameters*: de informatie die de functie nodig heeft om haar werk te doen.
+        - Karel-instructies hadden geen parameters, dus dit is nieuw.
+        - `a: int` zegt dat `a` een geheel getal is (integer!).
+    - De formulering `-> int` betekent dat de functie een geheel getal
+    moet opleveren.
+        - Python check dit niet standaard, maar in de cursus checken we of dit aanwezig is en klopt.
+- De inhoud van de functie (body):
+    - Na de dubbele punt vind je diverse regels die *ingesprongen* zijn,
+      dat wil zeggen een stukje verder van de kantlijn staan.
+      Dat betekent dat precies die regels tot de functie horen.
+    - Karel had `BEGIN` en `END` voor en de afstand tot de kantlijn
+      maakte voor Karel niet uit. In Python is dit essentieel.
+    - `return` geeft het antwoord terug en beëindigt de functie.
+- De docstring:
+    - De tekst tussen twee `"""` (triple quotes) is de *docstring*. 
+    - In de docstring staan tests die beginnen met  `>>>`.
 
 {% next "Verder: zelf een functie schrijven" %}
 
