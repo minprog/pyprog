@@ -36,4 +36,4 @@ Klik nu op **Generate Token**. Pas op! De lange string met letters en cijfers wo
 
         https://github.com/{githubusername}/{githubreponame}
 
-Vul jouw gegevens daarin in, zonder de `<>`
+Vul jouw gegevens daarin in, zonder de `{}`
