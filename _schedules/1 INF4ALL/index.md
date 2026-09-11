@@ -52,7 +52,7 @@ Er is alleen een individuele herkansing in geval van calamiteiten.
 
 ### Minimumeisen
 
-De opdrachten moeten op volgorde worden gedaan en enkele keren worden afgetekend.
+De opdrachten moeten op volgorde worden gedaan en enkele keren worden afgetekend (dit is wat gebeurt tijdens de individuele afspraken).
 Het is niet mogelijk een toets te maken zonder tussentijds contact met de docent.
 
 ## Vragen stellen
