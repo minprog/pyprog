@@ -1,6 +1,6 @@
 # Basis Objectgeorienteerd Programmeren
 
-## Studiewijzer INF4ALL<br><small>Herfst 2025</small>
+## Studiewijzer INF4ALL<br><small>Herfst 2026</small>
 
 Dit vak volg je als je INF4ALL doet en de basis van het programmeren onder de knie wil krijgen. Tijdens het vak werk je met Python, om te beginnen met vele kleinere oefenopdrachten. In de loop van de weken ga je meer geavanceerde programma's schrijven.
 
@@ -14,7 +14,7 @@ Martijn Stegeman is docent. Je kunt hem mailen via <m.stegeman@uva.nl>.
 
 ## Wat ga je leren
 
-Je werkt eerst aan de onderstaande onderwerpen om je voor te bereiden op de tussentoets in week 8. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
+Je werkt eerst aan de onderstaande onderwerpen om je voor te bereiden op de tussentoets in op 6 november 2026. De programma's beginnen nog simpel, maar zeker voor beginners is het een hoop informatie.
 
 Programmeren, variabelen en beslissingen
 : Hier gaan we in op de beginselen van Python, en we introduceren je tot de specifieke manier van programmeren die we in deze cursus aanhouden. Je leert over functies, variabelen en expressies. We voegen daarna for-loops en while-loops toe aan je repertoire, zodat je alles hebt om basisprogramma's te schrijven. Een kleine simulatie bouwen is al mogelijk.
@@ -25,7 +25,7 @@ Strings
 Lijsten
 : Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
-In het tweede deel introduceren we meer onderdelen van de taal en worden de programma's duidelijk wat complexer. Deze delen komen terug in het tentamen van week 16.
+In het tweede deel introduceren we meer onderdelen van de taal en worden de programma's duidelijk wat complexer. Deze delen komen terug in het tentamen van 15 januari 2027.
 
 Collections
 : We laten je ook de resterende collection types uit Python zien (dictionaries, tuples en sets), zodat je de meeste basiscode goed kunt begrijpen. Collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
@@ -45,20 +45,25 @@ Tentamen (22 punten)
 : - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
 : - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
-Werkcollege (6 punten praktische oefening)
-: Tijdens het werkcollege op maandag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op. (Geldt voor deelnemers van de lerarenopleiding.)
+Het **eindcijfer** is `punten / 22 * 9 + 1`.
 
-Het **eindcijfer** is `punten / 28 * 9 + 1`.
-
-De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
+Er is alleen een individuele herkansing in geval van calamiteiten.
 
 ### Minimumeisen
 
-TODO
+De opdrachten moeten op volgorde worden gedaan en enkele keren worden afgetekend.
+Het is niet mogelijk een toets te maken zonder tussentijds contact met de docent.
 
 ## Vragen stellen
 
-Je kunt terecht met vragen bij de docent tijdens de tweewekelijkse bijeenkomsten in Utrecht. Daarnaast is het incidenteel mogelijk om af te spreken voor wat extra hulp als je vast zit. Je kunt per mail aangeven als je denkt dat je dit nodig hebt. Belangrijk is ook om je medestudenten in te schakelen, als je maar rekening houdt met de samenwerkregels hieronder.
+Je kunt terecht met vragen:
+
+- Voor een korte technische vraag: mail Martijn via <python@proglab.nl>.
+- Om op weg geholpen te worden met een individuele opdracht: tot en met 16 oktober op maandag en donderdag 13-16 uur in lokaal L0.10 van de UvA. Je hoeft je komst niet aan te kondigen.
+- Voor individuele tutoring met Martijn op vrijdagochtend 10-13 uur in lokaal L0.09, van bij de UvA. Dit kan *alleen* op afspraak.
+- Heb je behoefte aan een *extra* afspraak, neem dan het initiatief en stuur een mail naar Martijn via <python@proglab.nl>.
+
+De UvA locatie is Amsterdam Science Park. Het adres van het UvA-gebouw Lab42 is Science Park 900, Amsterdam.
 
 <details markdown="1"><summary markdown="span">Kom je helemaal niet verder en heb je even geen hulp?</summary>
 Juist even niet aan de opdracht werken kan je verder helpen!
@@ -72,24 +77,36 @@ Juist even niet aan de opdracht werken kan je verder helpen!
 
 ## Deadlines
 
-Dit is een overzicht van de deadlines per module:
+Dit is een overzicht van de beoogde deadlines per module:
 
 |                | deadline huiswerk |
 | -------------- | ----------------: |
-| Module 1 + 2   | do 19 sep 17:00   |
-| Module 3 + 4   | do 3 okt 17:00    |
-| Module 5 + 6   | do 17 okt 17:00   |
-| Module 7 + 8   | do 31 okt 17:00   |
-| Module 9 + 10  | do 27 nov 17:00   |
-| Module 11 + 12 | do 12 dec 17:00   |
+| Module 1       | vr 18 sep 17:00   |
+| Module 2       | vr 25 sep 17:00   |
+| Module 3       | vr  2 okt 17:00   |
+| Module 4       | vr  9 okt 17:00   |
+| Module 5       | vr 16 okt 17:00   |
+| Module 6       | vr 23 okt 17:00   |
+| Oefentoets     | vr 30 okt 17:00   |
+| Module 7       | vr 13 nov 17:00   |
+| Module 8       | vr 20 nov 17:00   |
+| Module 9       | vr 27 nov 17:00   |
+| Module 10      | vr  4 dec 17:00   |
+| Module 11      | vr 11 dec 17:00   |
+| Module 12      | vr 18 dec 17:00   |
+| Oefententamen  | vr  8 jan 17:00   |
 
-De deadlines voor het huiswerk zijn "hard", zodat achterlopen niet wordt gestimuleerd. Tijdens de bijeenkomst in Utrecht doen we code reviews, waarin uitwerkingen worden vergeleken.
+"Beoogd" betekent dat dit een handig ritme is om voorbereid te zijn voor
+toets en tentamen. Maar de ervaring leert dat
+er ook andere dingen in het leven zijn van INF4ALL, dus het ligt voor de
+hand dat je ook weleens achter raakt. Dat is OK, als je maar zorgt dat je
+daarna weer bij raakt.
 
 ### Ziekte en inhalen
 
-Als je ziek bent op een dag dat je aan INF4ALL ging werken dan meld je het in ieder geval meteen even aan de docent via e-mail.
+Als je ziek bent op een dag dat je aan INF4ALL ging werken dan meld je het in ieder geval meteen even aan de docent via e-mail, want dan loop je achter.
 
-Het is heel belangrijk dat als je ziek bent op een normale werkdag, je niet je INF4ALL-dag gaat gebruiken om het werk in te halen! Je moet tijd opeisen voor INF4ALL anders komt het niet af.
+Het is heel belangrijk dat als je ziek bent op een normale werkdag, je niet je INF4ALL-dag gaat gebruiken om je betaalde werk in te halen! Je moet tijd opeisen voor INF4ALL anders komt het niet af.
 
 Raak je helemaal uit tempo omdat je bijvoorbeeld toch teveel andere dingen te doen hebt of niet genoeg focus kan vinden? Het is belangrijk dat je dit snel bespreekt met de docent. Stuur maar een [mailtje](mailto:m.stegeman@uva.nl)!
 
