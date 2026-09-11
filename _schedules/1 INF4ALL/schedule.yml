@@ -4,8 +4,8 @@ Welkom:
 # Basic form
 Module 1:
     '[icon:list-check] Overzicht': /modules/programmeren
-    'Werkcollege: Formules': /werkcollege/formules
-    'Werkcollege: Installatie': /installatie/pulsar
+    # 'Werkcollege: Formules': /werkcollege/formules
+    'Werkcollege: Installatie': /installatie/terra
     Functies en expressies:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
         '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
