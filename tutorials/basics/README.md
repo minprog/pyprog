@@ -1,7 +1,7 @@
 # Tutorial: de basis van Python
 
 **Hoe het werkt.** Elke pagina hieronder laat één functie zien. Kopieer die naar
-`tutorial_python.py` in de editor en vervang de `...` door je eigen code. Klik
+`basics_python.py` in de editor en vervang de `...` door je eigen code. Klik
 op de knop **doctest** om alle functies te controleren die je tot dan toe
 geschreven hebt. De regels met `>>>` in elke functie zijn de tests: ze laten een
 aanroep zien en het antwoord dat eruit moet komen.

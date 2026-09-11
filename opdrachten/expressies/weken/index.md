@@ -1,6 +1,6 @@
 # Weken
 
-> **Studeertip.** Zorg dat je het boek t/m hoofdstuk 3 hebt doorgenomen voordat je aan de programmeeropdrachten begint.
+> **Let op.** Als je in Terra IDE werkt is er nog geen knop voor doctest. Deze komt er aan.
 
 In deze en volgende opdrachten ga je vooral veel kleine functies maken waarin een berekening wordt gedaan. De opdrachten bouwen op elkaar voort en herhalen veel. We starten met deze opdracht waar je bijna alles cadeau krijgt, dus het is vooral de instructies volgen.
 
