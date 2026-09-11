@@ -1,0 +1,12 @@
+lab:
+  windows:
+    - editor
+    - readme
+    - terminal
+  files:
+    - basics_python.py
+  buttons:
+    run:
+    doctest: |
+      import terra_doctest
+      terra_doctest.run("<filename>")

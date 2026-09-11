@@ -1,9 +1,4 @@
-# Tutorial: van Karel naar Python
-
-In Karel schreef je instructies die *iets deden*: Karel liep een stap, draaide,
-legde een beeper neer. In Python schrijf je meestal functies die *iets
-uitrekenen* en het antwoord teruggeven. Zo'n functie krijgt gegevens binnen en
-levert een uitkomst op.
+# Tutorial: de basis van Python
 
 **Hoe het werkt.** Elke pagina hieronder laat één functie zien. Kopieer die naar
 `tutorial_python.py` in de editor en vervang de `...` door je eigen code. Klik
@@ -251,66 +246,6 @@ def solve_quadratic(a: float, b: float, c: float) -> tuple:
     (2.0, 1.0)
     >>> solve_quadratic(1, 0, -4)
     (2.0, -2.0)
-    """
-    ...
-```
-
-{% next "Verder: herhalen" %}
-
-## 7. Herhalen
-
-In Karel herhaalde je met `ITERATE 5 TIMES`. In Python doe je dat met een
-`for`-loop, en die telt bovendien mee waar je bent:
-
-    for jaar in range(start, end + 1):
-        ...
-
-`range(a, b)` levert de getallen `a` tot en met `b - 1`. Wil je `b` er ook bij
-hebben, dan schrijf je `range(a, b + 1)`.
-
-Wat je bijhoudt zet je in een variabele die je vóór de loop op 0 zet en er
-binnenin ophoogt met `aantal = aantal + 1`. Vergeet niet aan het eind te
-`return`'en: dat gebeurt ná de loop, dus minder ver ingesprongen.
-
-Tel zo de schrikkeljaren van `start` tot en met `end`. Je mag daarbij je eigen
-`is_leap_year` gebruiken.
-
-```python
-def count_leap_years(start: int, end: int) -> int:
-    """
-    >>> count_leap_years(2000, 2001)
-    1
-    >>> count_leap_years(2020, 2024)
-    2
-    >>> count_leap_years(1800, 1900)
-    24
-    """
-    ...
-```
-
-{% next "Verder: doorzoeken" %}
-
-## 8. Doorgaan tot je er bent
-
-Bij een `for`-loop weet je van tevoren hoe vaak je rondgaat. Hier niet: je weet
-pas dat je klaar bent als je het n-de schrikkeljaar te pakken hebt. Daarvoor is
-de `while`-loop, dezelfde als Karels `WHILE ... DO`:
-
-    while gevonden < n:
-        ...
-
-Begin bij `start` en loop de jaren één voor één af. Tel elk schrikkeljaar dat je
-tegenkomt, en zodra je er `n` hebt is het jaar waar je op staat het antwoord.
-
-```python
-def nth_leap_year(start: int, n: int) -> int:
-    """
-    >>> nth_leap_year(2000, 1)
-    2000
-    >>> nth_leap_year(1800, 1)
-    1804
-    >>> nth_leap_year(2000, 3)
-    2008
     """
     ...
 ```

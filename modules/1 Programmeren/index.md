@@ -1,8 +1,8 @@
-# Week 1: Programmeren, variabelen en beslissingen
+# Module 1: Programmeren, variabelen en beslissingen
 
-Dit is het overzicht voor week 1 van de 16-weekse cursus Programmeren in Python. We gaan meteen aan de slag met code schrijven! Het wordt pittig, maar we hebben gestructureerde activiteiten om goed te beginnen, en veel ruimte om vragen te stellen tijdens de colleges.
+Dit is het overzicht voor module 1 van de 16-weekse cursus Programmeren in Python. We gaan meteen aan de slag met code schrijven! Het wordt pittig, maar we hebben gestructureerde activiteiten om goed te beginnen, en veel ruimte om vragen te stellen tijdens de colleges.
 
-We werken nu toe naar de tussentoets die in week 8 plaatsvindt. Week 1 t/m 7 helpen je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te leren en niet om te scoren.
+We werken nu toe naar de tussentoets. De eerste helft van de cursus helpt je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te leren en niet om te scoren.
 
 ## Onderwerpen
 
@@ -25,7 +25,7 @@ Voor studenten met programmeerervaring zal het lijken alsof we wat langzaam gaan
 
 - Daag vervolgens jezelf uit met de Challenge, waarin je wel degelijk al loops kan en mag gebruiken.
 
-## Werkcollege en laptopcollege
+<!--## Werkcollege en laptopcollege
 
 Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 
@@ -34,11 +34,11 @@ Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek da
 - Schrijven van kleine functies op basis van de formules
 - Installeren van Python en een editor op je computer
 
-Later in de week is er ook een laptopcollege. Ook hier verwachten we jouw aanwezigheid, net als bij het werkcollege. Tijdens het laptopcollege ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk. Ook zal de docent nog één of twee programma's live uitwerken zodat je kunt meekijken hoe dat gaat.
+Later in de week is er ook een laptopcollege. Ook hier verwachten we jouw aanwezigheid, net als bij het werkcollege. Tijdens het laptopcollege ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk. Ook zal de docent nog één of twee programma's live uitwerken zodat je kunt meekijken hoe dat gaat.-->
 
-## Studiematerialen en huiswerk
+<!--## Studiematerialen en huiswerk
 
-Tijdens het werkcollege en het laptopcollege ga je al veel tijd besteden aan oefenen. Daarnaast ga je deze week flink wat tijd steken in het boek, om de theorie goed te begrijpen. En er zijn diverse programmeeropdrachten om te oefenen met "problem solving".
+Tijdens het werkcollege en het laptopcollege ga je al veel tijd besteden aan oefenen. Daarnaast ga je deze week flink wat tijd steken in het boek, om de theorie goed te begrijpen. En er zijn diverse programmeeropdrachten om te oefenen met "problem solving".-->
 
 ## Inleveren
 
@@ -52,8 +52,8 @@ Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
 ## Deadline
 
-De bedoeling is dat je deze week in totaal zo'n 10--15 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De deadline van de opdrachten is zondag. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
+De bedoeling is dat je deze week in totaal zo'n 10--15 uur besteedt aan de cursus. Voor sommige studenten kan dit wat meer of wat minder zijn. De bedoeling is dat je dan zo goed mogelijk alle opdrachten hebt gedaan. De challenge is alleen bedoeld voor studenten die erg snel gaan.
 
 ## Beoordeling
 
-Hoewel inleveren van opdrachten verplicht is, krijg je nog geen cijfers. De basiskennis van wordt namelijk gecheckt bij de tussentoets halverwege de cursus. Alles staat dus in het teken van oefenen voor deze toets.
+Hoewel inleveren van opdrachten verplicht is, krijg je hiervoor geen cijfers. De basiskennis van wordt namelijk gecheckt bij de tussentoets halverwege de cursus. Alles staat dus in het teken van oefenen voor deze toets.
