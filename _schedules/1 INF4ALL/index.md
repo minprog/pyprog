@@ -43,7 +43,8 @@ Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zon
 Tentamen (22 punten)
 : - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
 : - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
-: - Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak. Maar als de tussentoets nog niet lekker ging, dan kunt je dit deel dus bij het eindtentamen alsnog halen.
+
+Bij de tussentoets halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak. Maar als de tussentoets nog niet lekker ging, dan kunt je dit deel dus bij het eindtentamen alsnog halen.
 
 Het **eindcijfer** is `punten / 22 * 9 + 1`.
 
