@@ -10,7 +10,7 @@ Er is geen voorkennis nodig voor dit vak.
 
 ## Docent
 
-Martijn Stegeman is docent. Je kunt hem mailen via <m.stegeman@uva.nl>.
+Martijn Stegeman is docent. Je kunt hem mailen via <python@proglab.nl>.
 
 ## Wat ga je leren
 
