@@ -9,13 +9,13 @@ grades:
         exam: true
         hide_calculated: true
         subgrades:
-            karel: integer
+            karel: float
     tussentoets_2_ik:
         type: points
         exam: true
         hide_calculated: true
         subgrades:
-            karel: integer
+            karel: float
             python: integer
     tentamen:
         type: points
@@ -23,16 +23,16 @@ grades:
         hide_calculated: true
         subgrades:
             python: integer
-            advanced_python: integer
+            advanced_python: float
 
     # bij hertentamen vervallen alle eerdere tentamencijfers
     hertentamen:
         type: points
         exam: true
         subgrades:
-            karel: integer
+            karel: float
             python: integer
-            advanced_python: integer
+            advanced_python: float
         calculation: sum_all
 
     # 2 * 6 werkcolleges, niet allemaal mooi genummerd
