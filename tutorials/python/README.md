@@ -35,8 +35,10 @@ def kwadraat(a: int) -> int:
 
 {% next "Uitleg" %}
 
-Besef je vooral dat deze functie, in plaats van een figuur te besturen,
-een getal uitrekent. Je kunt dit onder andere zien aan de `return`.
+Besef je vooral dat deze functie een getal uitrekent. Bij Karel ging het
+allemaal om besturen van de robot. Nu ga je functies maken die iets
+uitrekenen. Dit is ook waarom er `return` staat: de functie geeft een
+resultaat "terug".
 
 Wat staat er verder?
 
