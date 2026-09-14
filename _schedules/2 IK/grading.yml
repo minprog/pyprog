@@ -10,6 +10,7 @@ grades:
         hide_calculated: true
         subgrades:
             karel: float
+        calculation: karel
     tussentoets_2_ik:
         type: points
         exam: true
