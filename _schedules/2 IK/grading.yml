@@ -82,7 +82,7 @@ werkcolleges:
         # r1: 0.5
         # r2: 0.5
 
-module_2:
+module_3:
     show_progress: true
     deadline: 20/9/26 17:00
     submits:
@@ -111,24 +111,22 @@ module_2:
         # schrikkel: 1
         # binair: 1
 
-module_3:
-    show_overview: true
-    deadline: 20/9/26 17:00
-    submits:
-        boek3: 1
-
-        schrikkel_functies: 1
-        collatz: 1
-        int_input: 1
-
-        cola: 1
-        greedy: 1
-        piramide: 1
-
 module_4:
     show_overview: true
+    requirement: [ programma, weken, water, cafeine, vakantie, acid, orakel, int_input, raadspel, populatie, reeksen, temperatuur ]
     deadline: 27/9/26 17:00
     submits:
+        # boek3: 1
+
+        # schrikkel_functies: 1
+        # collatz: 1
+        # int_input: 1
+
+        # cola: 1
+        # greedy: 1
+        # piramide: 1
+        #
+
         string_analyse: 1
         string_verschillen: 1
 
@@ -140,6 +138,7 @@ module_4:
 
 module_5:
     show_overview: true
+    requirement: [ string_analyse, string_verschillen, alfabet, etenstijd, calculator, wachtwoord, leesbaarheid ]
     deadline: 4/10/26 17:00
     submits:
         string_transformatie: 1
