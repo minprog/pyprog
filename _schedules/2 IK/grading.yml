@@ -70,6 +70,7 @@ werkcolleges:
         karel_2: 0.5
         karel_3: 0.5
         tutorial_python: 0.5
+        tutorial_strings: 0.5
 
         # werkcollege_loops: 0.5
         # werkcollege_strings: 0.5
