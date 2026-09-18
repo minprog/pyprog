@@ -3,15 +3,12 @@
 Strings zijn reeksen tekens. In deze tutorial bouw je stap voor stap een aantal
 kleine functies die met strings werken.
 
-**Hoe het werkt.** Elke pagina hieronder laat één functie zien. Kopieer die naar
-`tutorial_strings.py` in de editor en vervang de `...` door je eigen code. Klik
-op de knop **doctest** om alle functies te controleren die je tot dan toe
-geschreven hebt. De regels met `>>>` in elke functie zijn de tests: ze laten een
-aanroep zien en het antwoord dat eruit moet komen.
+**Hoe het werkt.** Bij elke stap krijg je de code voor één functie.
+Kopieer die naar de editor hiernaast en vervang de `...` door je eigen code.
+Klik op de knop **doctest** om alle functies te controleren die je schrijft.
+Als alle doctests goed zijn, klik dan op **typecheck** te zorgen dat je types goed zijn.
 
-Je bestand begint bijna leeg. Dat klopt — je vult het zelf.
-
-Werk de pagina's op volgorde door; elke pagina bouwt voort op de vorige.
+Werk de pagina's op volgorde door, want elke pagina bouwt voort op de vorige.
 
 {% next "Beginnen" %}
 
@@ -20,6 +17,10 @@ Werk de pagina's op volgorde door; elke pagina bouwt voort op de vorige.
 Een string schrijf je als tekens tussen aanhalingstekens. Enkele en dubbele
 aanhalingstekens werken allebei, en de lege string `''` is net zo goed een
 string.
+
+Schrijf nu eerst een functie die een string teruggeeft.
+Altijd dezelfde, zie de doctest die al geschreven is.
+
 
 ```python
 def greet() -> str:
@@ -34,7 +35,7 @@ def greet() -> str:
 
 ## 2. Indexeren
 
-Elk teken heeft een positie, de index, en je telt vanaf 0:
+Elk teken in een string heeft een positie, de **index**, en je telt die vanaf 0:
 
 ```
  P  y  t  h  o  n
@@ -42,6 +43,8 @@ Elk teken heeft een positie, de index, en je telt vanaf 0:
 ```
 
 `s[0]` is dus het eerste teken en `s[1]` het tweede.
+
+Schrijf nu (met bovenstaande kennis) een functie die altijd het eerste teken van een string teruggeeft.
 
 ```python
 def first_char(s: str) -> str:
@@ -56,8 +59,11 @@ def first_char(s: str) -> str:
 
 {% next "Verder: achteruit tellen" %}
 
-Negatieve indexen tellen vanaf het eind: `s[-1]` is het laatste teken, `s[-2]`
-het teken daarvoor.
+Python begrijpt ook **negatieve indexen**.
+Die tellen vanaf het einde van de string:
+`s[-1]` is het laatste teken, `s[-2]` het teken daarvoor.
+
+Schrijf een functie die altijd het laatste teken van een string teruggeeft.
 
 ```python
 def last_char(s: str) -> str:
@@ -80,6 +86,8 @@ een:
     'Hi' + '!'  ->  'Hi!'
     'Go' * 3    ->  'GoGoGo'
 
+Gebruik dit om een functie te schrijven die een superexcited versie van die string teruggeeft. Gebruik zowel plakken als herhalen!!!
+
 ```python
 def excited(word: str) -> str:
     """
@@ -93,7 +101,7 @@ def excited(word: str) -> str:
 
 {% next "Verder: allebei tegelijk" %}
 
-Plakken en herhalen kun je vrij combineren. Onderstaande functie krijgt string `a` en `b` en moet er iets mee doen. Lees de test goed om te bedenken wat deze functie moet geven.
+Plakken en herhalen kun je vrij combineren. Onderstaande functie krijgt de strings `a` en `b` en moet er dan iets mee doen. Lees de doctest goed om te bedenken wat deze functie moet teruggeven.
 
 ```python
 def double_and_space(a: str, b: str) -> str:
@@ -114,7 +122,7 @@ Met `in` controleer je of de ene string in de andere voorkomt:
     'o' in 'dog'    ->  True
     'dog' in 'dog'  ->  True
 
-Hier controleer je of de gegeven string deel uitmaakt van het woord `'python'`.
+Schrijf een functie die controleert of de gegeven string (`x`) *onderdeel is* van de van het woord `'python'`.
 
 ```python
 def part_of_python(x: str) -> bool:
@@ -131,7 +139,7 @@ def part_of_python(x: str) -> bool:
 
 {% next "Verder: zoeken met een loop" %}
 
-Je kunt de tekens ook zelf een voor een langslopen:
+Je kunt de tekens ook zelf een voor een langslopen, bijvoorbeeld om de letters van de string te **doorzoeken**:
 
     for char in s:
         if char == ...:
@@ -141,7 +149,7 @@ Je kunt de tekens ook zelf een voor een langslopen:
 Zodra je vindt wat je zoekt, geef je meteen `True` terug. Is de loop klaar zonder
 dat er iets teruggegeven is, dan zat het er niet in en geef je `False` terug.
 
-Schrijf zo'n loop die `True` teruggeeft als de letter o in `x` zit, en anders
+Schrijf een functie met zo'n loop die `True` teruggeeft als de letter o in `x` zit, en anders
 `False`.
 
 ```python
@@ -158,8 +166,8 @@ def has_o(x: str) -> bool:
 {% next "Verder: andersom" %}
 
 Met een vergelijkbare loop controleer je of iets er juist *niet* in zit: `True`
-als de letter o NIET in `x` zit. Begin bij de loop die je net geschreven hebt en
-bedenk welk antwoord waar hoort.
+als de letter `'o'` NIET in `x` zit.
+Begin bij de loop die je net geschreven hebt en bedenk hoe je het moet omgooien om het juiste resultaat te krijgen.
 
 ```python
 def has_no_o(x: str) -> bool:
@@ -174,15 +182,15 @@ def has_no_o(x: str) -> bool:
 
 {% next "Verder: een positie vinden" %}
 
-Loop je over de indexen in plaats van over de tekens, dan kun je vertellen *waar*
-iets staat:
+Je kunt niet alleen loopen met de letters in een string, maar ook met de index.
+Dan kun je bijhouden en vertellen *waar* iets staat:
 
     for index in range(len(s)):
         if s[index] == ...:
             return index
 
-`-1` teruggeven is de gebruikelijke manier om te zeggen "niet gevonden". Geef
-hier dus de positie van de eerste letter o terug, of anders `-1`.
+Schrijf een functie die bepaalt waar de (eerste) `o` in een string gevonden kan worden, dus op welke index.
+`-1` teruggeven is de gebruikelijke manier om te zeggen "niet gevonden". Doe dat als de `o` helemaal niet vindbaar blijkt.
 
 ```python
 def where_o_at(text: str) -> int:
@@ -205,8 +213,7 @@ letters:
     'boe'.upper()       ->  'BOE'
     'Universum'.lower() ->  'universum'
 
-Lees de test heel goed — er wordt net iets meer gevraagd dan alleen de letters
-omzetten.
+Gebruik dit om een functie te schrijven. Lees de doctest om te bepalen wat de functie moet doen. (Net iets meer dan alleen omzetten.)
 
 ```python
 def shout(s: str) -> str:
@@ -217,9 +224,9 @@ def shout(s: str) -> str:
     ...
 ```
 
-{% next "Verder: zachtjes" %}
+{% next "Verder: de zachte versie" %}
 
-Zelfde idee, andere kant op. Lees ook hier de test goed.
+Zelfde idee, maar dan andersom. Lees weer de doctest en implementeer de functie.
 
 ```python
 def quiet(s: str) -> str:
@@ -242,9 +249,10 @@ tegenkomt waar je naar zoekt:
         als het is wat we zoeken:
             verhoog aantal
 
-Hier tel je de klinkers a, e, i, o en u. Twee hints: met `in` kun je controleren
-of een teken een van meerdere tekens is, en de laatste test staat in
-hoofdletters.
+Schrijf een functie die telt hoeveel klinkers er in een string zitten (a, e, i, o en u).
+Twee hints: met `in` kun je controleren of één teken uit de string een klinker is, en de laatste test staat in hoofdletters maar moet ook gewoon klinkers tellen.
+
+Deze is dus meer denkwerk dan de vorige functies.
 
 ```python
 def count_vowels(s: str) -> int:
@@ -263,9 +271,8 @@ def count_vowels(s: str) -> int:
 
 ## Klaar
 
-Klik nog één keer op **doctest**. Als er staat dat alle tests slagen, ben je
-klaar met de tutorial.
+Klik nog één keer op **doctest** en **typecheck**.
+Als er staat dat alle tests slagen, en er geen problemen met types zijn,
+dan ben je klaar met de tutorial.
 
-Slaagt er nog iets niet, dan noemt de uitvoer de functie, de aanroep die
-geprobeerd is, wat eruit had moeten komen en wat eruit kwam. Verbeter die ene
-functie en klik opnieuw.
+Slaagt er nog iets niet, verbeter dan je code en vraag om hulp als je er niet uitkomt.
