@@ -45,6 +45,7 @@ grades:
     karel_3: *werkcollege
 
     tutorial_python: *werkcollege
+    tutorial_strings: *werkcollege
 
     # module 1
     boek1: *check
