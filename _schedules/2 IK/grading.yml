@@ -85,18 +85,30 @@ module_2:
     show_progress: true
     deadline: 20/9/26 17:00
     submits:
-        boek1: 1
+        # boek1: 1
 
+        programma: 1
         weken: 1
+
         water: 1
-        binair: 1
         cafeine: 1
         vakantie: 1
+
         acid: 1
-        schrikkel: 1
         orakel: 1
-        byte: 1
-        rechthoeken: 1
+
+        int_input: 1
+        raadspel: 1
+        populatie: 1
+
+        reeksen: 1
+        temperatuur: 1
+
+        # byte: 1
+        # rechthoeken: 1
+
+        # schrikkel: 1
+        # binair: 1
 
 module_3:
     show_overview: true
@@ -104,17 +116,13 @@ module_3:
     submits:
         boek3: 1
 
-        reeksen: 1
         schrikkel_functies: 1
         collatz: 1
         int_input: 1
 
         cola: 1
         greedy: 1
-        raadspel: 1
-        populatie: 1
         piramide: 1
-        temperatuur: 1
 
 module_4:
     show_overview: true
