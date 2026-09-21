@@ -150,6 +150,7 @@ module_1:
     submits:
         # boek1: 1
 
+        programma: 1
         weken: 1
         water: 1
         binair: 1
