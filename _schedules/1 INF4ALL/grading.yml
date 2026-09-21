@@ -148,7 +148,7 @@ module_1:
     small_block_overview: true
     deadline: 18/9/26 17:00
     submits:
-        boek1: 1
+        # boek1: 1
 
         weken: 1
         water: 1
@@ -169,7 +169,7 @@ module_2:
     small_block_overview: true
     deadline: 25/9/26 17:00
     submits:
-        boek3: 1
+        # boek3: 1
 
         collatz: 1
         schrikkel_functies: 1
