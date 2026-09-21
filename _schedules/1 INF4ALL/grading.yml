@@ -145,7 +145,6 @@ toetsen:
 
 module_1:
     show_progress: true
-    small_block_overview: true
     deadline: 18/9/26 17:00
     submits:
         # boek1: 1
@@ -165,9 +164,7 @@ module_1:
         kalender: 1
 
 module_2:
-    # show_overview: true
     show_progress: true
-    small_block_overview: true
     deadline: 25/9/26 17:00
     submits:
         # boek3: 1
@@ -187,9 +184,8 @@ module_2:
         priemgetallen: 1
 
 module_3:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
+    # show_progress: true
     deadline: 2/10/26 17:00
     submits:
         string_analyse: 1
@@ -204,9 +200,8 @@ module_3:
         pwdgen: 1
 
 module_4:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
+    # show_progress: true
     deadline: 9/10/26 17:00
     submits:
         string_transformatie: 1
@@ -218,9 +213,8 @@ module_4:
         # rot13: 1
 
 module_5:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
+    # show_progress: true
     deadline: 16/10/26 17:00
     submits:
         list_int_basics: 1
@@ -237,9 +231,8 @@ module_5:
         compress: 1
 
 module_6:
-    # show_overview: true
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
+    # show_progress: true
     deadline: 23/10/26 17:00
     submits:
         banner: 1
@@ -251,8 +244,7 @@ module_6:
 # herfstvakantie
 
 module_7:
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 13/11/26 17:00
     submits:
         collection_functions: 1
@@ -261,16 +253,14 @@ module_7:
         indexer: 1
 
 module_8:
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 20/11/26 17:00
     submits:
         eca2csv: 1  # werkcollege
         klimaat: 1
 
 module_9:
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 27/11/26 17:00
     submits:
         cards: 1
@@ -281,8 +271,7 @@ module_9:
         times: 1
 
 module_10:
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 4/12/26 17:00
     submits:
         phonebook: 1
@@ -292,8 +281,7 @@ module_10:
         war: 1
 
 module_11:
-    show_progress: true
-    small_block_overview: true
+    show_overview: true
     deadline: 18/12/26 17:00
     submits:
         adventure: 1
