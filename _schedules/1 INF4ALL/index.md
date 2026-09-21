@@ -93,8 +93,7 @@ Dit is een overzicht van de beoogde deadlines per module:
 | Module 8       | vr 20 nov 17:00   |
 | Module 9       | vr 27 nov 17:00   |
 | Module 10      | vr  4 dec 17:00   |
-| Module 11      | vr 11 dec 17:00   |
-| Module 12      | vr 18 dec 17:00   |
+| Module 11      | vr 18 dec 17:00   |
 | Oefententamen  | vr  8 jan 17:00   |
 
 "Beoogd" betekent dat dit een handig ritme is om voorbereid te zijn voor
