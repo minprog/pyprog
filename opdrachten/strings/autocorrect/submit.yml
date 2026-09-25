@@ -1,0 +1,8 @@
+name: autocorrect
+files:
+    required:
+        - autocorrect.py
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: string_transformatie_complex

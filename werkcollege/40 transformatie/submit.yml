@@ -1,14 +1,3 @@
-name: werkcollege_transformatie
+name: tutorial_transformatie
 exam: true
-buttons:
-    Run doctest: |
-        import <filename>
-        import doctest
-        doctest.testmod(<filename>, verbose=True)
-files:
-    required:
-        strings.py: |
-            # Schrijf hieronder al je string-functies.
-            # Elke functie moet 2 doctests hebben.
-            # Let op: gebruik de knop "Run doctest" om je code uit te
-            # proberen.
+lab_config: https://minprog.github.io/pyprog/tutorials/transformatie

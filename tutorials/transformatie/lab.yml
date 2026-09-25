@@ -1,0 +1,15 @@
+lab:
+    windows:
+        - editor
+        - readme
+        - terminal
+    files:
+        - tutorial_transformatie.py
+    buttons:
+        run:
+        doctest: |
+            import terra_doctest
+            terra_doctest.run("<filename>")
+        typecheck: |
+            from mypy import api as mypy_api
+            mypy_api.run(['<filename>.py'])[0]

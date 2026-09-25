@@ -46,6 +46,7 @@ grades:
 
     tutorial_python: *werkcollege
     tutorial_strings: *werkcollege
+    tutorial_transformatie: *werkcollege
 
     # module 1
     boek1: *check
@@ -103,6 +104,9 @@ grades:
     string_transformatie_char: *automatic
     string_transformatie_delete: *automatic
     string_transformatie_complex: *automatic
+    stretch: *automatic
+    autocorrect: *automatic
+    spongebob: *automatic
 
     yell: *automatic
     vwl: *automatic

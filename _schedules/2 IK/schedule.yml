@@ -79,11 +79,11 @@ Module 4:
 # String-transformatie
 Module 5:
     Overzicht: /modules/transformaties
-    Basis-oefeningen:
-        '[icon:puzzle] Transformatie per teken': /opdrachten/strings/transformatie_char
-        '[icon:puzzle] Tekens verwijderen': /opdrachten/strings/transformatie_delete
-        '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie_complex
+    'Werkcollege: String-transformaties': /werkcollege/transformatie
     Opdrachten:
+        '[icon:puzzle] Stretch': /opdrachten/strings/stretch
+        '[icon:puzzle] Autocorrect': /opdrachten/strings/autocorrect
+        '[icon:puzzle] Spongebob': /opdrachten/strings/spongebob
         '[icon:diagram-2] Yell': /opdrachten/strings/yell
         '[icon:diagram-2] Remove vowels': /opdrachten/strings/vwl
         '[icon:diagram-2] Shout': /opdrachten/strings/shout

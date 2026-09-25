@@ -144,7 +144,9 @@ module_5:
         string_transformatie: 1
         string_transformatie_char: 1
         string_transformatie_delete: 1
-        string_transformatie_complex: 1
+        stretch: 1
+        autocorrect: 1
+        spongebob: 1
         yell: 1
         vwl: 1
         shout: 1
