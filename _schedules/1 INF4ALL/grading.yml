@@ -188,6 +188,7 @@ module_3:
     # show_progress: true
     deadline: 2/10/26 17:00
     submits:
+        tutorial_strings: 1
         string_analyse: 1
         string_verschillen: 1
 

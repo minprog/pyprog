@@ -54,7 +54,7 @@ Module 3:
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     #    Debugging: /opdrachten/oud/debug
     Basis-oefeningen:
-        '[icon:puzzle] Strings-tutorial': /werkcollege/tutorial_strings
+        '[icon:puzzle] Strings-tutorial': /werkcollege/strings
         '[icon:puzzle] Analyse': /opdrachten/strings/analyse
         '[icon:puzzle] Verschillen': /opdrachten/strings/verschillen
     Problem solving:
