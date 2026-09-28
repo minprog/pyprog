@@ -130,14 +130,14 @@ oefentoetsen:
         oefentoets: 1
         # oefententamen: 1
 
-werkcolleges:
-    show_progress: true
-    submits:
-        werkcolleges: 6
+# werkcolleges:
+#     show_progress: true
+#     submits:
+#         werkcolleges: 6
 
 toetsen:
-    show_progress: true
-    # show_overview: true
+    # show_progress: true
+    show_overview: true
     type: points
     submits:
         tussentoets_inf4all: 11
