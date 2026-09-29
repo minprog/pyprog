@@ -142,9 +142,6 @@ module_5:
     requirement: [ string_analyse, string_verschillen, alfabet, etenstijd, calculator, wachtwoord, leesbaarheid ]
     deadline: 4/10/26 17:00
     submits:
-        string_transformatie: 1
-        string_transformatie_char: 1
-        string_transformatie_delete: 1
         stretch: 1
         autocorrect: 1
         spongebob: 1
