@@ -325,15 +325,14 @@ def position(xs: list[str], value: str) -> int:
 
 ## 9. Een list langslopen
 
-Je loopt een list langs zoals je een string langsloopt. Een teller of totaal
-begin je vóór de loop:
+Je loopt een list langs zoals je een string langsloopt:
 
-    total = 0
     for number in xs:
-        total += number
+        ...
 
 Schrijf een functie die alle getallen in de list bij elkaar optelt. Gebruik een
-loop en niet `sum()`. Een lege list heeft som 0.
+loop en niet `sum()`. Een lege list heeft som 0. Je hebt een variabele nodig
+die je vóór de loop maakt en in de loop aanpast.
 
 ```python
 def total(xs: list[int]) -> int:
@@ -348,7 +347,7 @@ def total(xs: list[int]) -> int:
 
 {% next "Verder: het grootste getal" %}
 
-Voor het grootste getal houd je het grootste getal tot nu toe bij. Begin met het
+Voor het grootste getal houd je het grootste getal *tot nu toe* bij. Begin met het
 eerste element en vergelijk de rest ermee. Je mag aannemen dat de list niet
 leeg is. Gebruik een loop en niet `max()`.
 
@@ -396,7 +395,7 @@ def positives(xs: list[int]) -> list[int]:
 
 In plaats van te kiezen kun je ook elk element veranderen. Schrijf een functie
 die een **nieuwe** list teruggeeft met elk getal vermenigvuldigd met `factor`.
-De list die je meekrijgt mag niet veranderen.
+**De list die je meekrijgt mag niet veranderen.**
 
 ```python
 def multiply_all(xs: list[int], factor: int) -> list[int]:
