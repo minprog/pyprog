@@ -72,6 +72,7 @@ werkcolleges:
         tutorial_python: 0.5
         tutorial_strings: 0.5
         tutorial_transformatie: 0.5
+        tutorial_lists: 0.5
 
         # werkcollege_loops: 0.5
         # werkcollege_strings: 0.5

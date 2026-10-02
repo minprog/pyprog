@@ -47,6 +47,7 @@ grades:
     tutorial_python: *werkcollege
     tutorial_strings: *werkcollege
     tutorial_transformatie: *werkcollege
+    tutorial_lists: *werkcollege
 
     # module 1
     boek1: *check
