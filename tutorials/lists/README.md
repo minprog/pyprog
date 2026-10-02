@@ -40,28 +40,35 @@ def make_list() -> list[int]:
 ## 2. Indexeren
 
 Net als bij strings heeft elk element een **index**, en je telt vanaf 0.
-Ook negatieve indexen werken: `xs[-1]` is het laatste element.
+Het eerste element heeft dus index 0, het tweede index 1, enzovoort.
 
-```
- "a"  "b"  "c"
-  0    1    2
- -3   -2   -1
-```
+|  waarde | 10 | 20 | 30 |
+|:--------|:--:|:--:|:--:|
+|   index |  0 |  1 |  2 |
+
+`xs[0]` is het eerste element van `xs`.
 
 Schrijf een functie die het eerste element van een list teruggeeft.
 
 ```python
-def first_item(xs: list[str]) -> str:
+def first_item(xs: list[int]) -> int:
     """
-    >>> first_item(["a", "b", "c"])
-    'a'
-    >>> first_item(["x"])
-    'x'
+    >>> first_item([10, 20, 30])
+    10
+    >>> first_item([7])
+    7
     """
     return ...
 ```
 
 {% next "Verder: het laatste element" %}
+
+Ook **negatieve indexen** werken. Die tellen vanaf het einde van de list:
+`xs[-1]` is het laatste element, `xs[-2]` het element daarvoor.
+
+|  waarde |  10 |  20 |  30 |
+|:--------|:---:|:---:|:---:|
+|   index |  -3 |  -2 |  -1 |
 
 Schrijf een functie die het laatste element teruggeeft. Je hoeft de lengte van
 de list niet te weten.
