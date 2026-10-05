@@ -155,7 +155,8 @@ module_5:
 
 
 module_6:
-    show_overview: true
+    show_progress: true
+    requirement: [ stretch, autocorrect, spongebob, yell, vwl, shout, camelcase, rna ]
     deadline: 11/10/26 17:00
     submits:
         list_int_basics: 1
