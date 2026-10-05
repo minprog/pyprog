@@ -65,6 +65,10 @@ grades:
 
     werkcolleges: *werkcollege
 
+    # toon bij de tutorials alleen de kolom done
+    tutorial_strings: *check
+    tutorial_transformatie: *check
+
 # CALCULATIONS - define the final grades for the course and the weights between
 # subcomponents for each. Often, multiple final grades are differentiated by the
 # choice of grades that are used for the calculation, for example calculating
