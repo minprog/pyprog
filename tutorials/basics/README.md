@@ -88,6 +88,8 @@ maal `a` maal `a`.
 
 **Kopieer de functie en vul de uitwerking in.**
 
+**Verwijder niet de eerdere functies. Je bestand moet straks alle correcte uitwerkingen bevatten.**
+
 ```python
 def cube(a: int) -> int:
     """
