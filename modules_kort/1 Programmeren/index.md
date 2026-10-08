@@ -4,6 +4,17 @@ Dit is het overzicht voor week 1 van de 8-weekse cursus Programmeren in Python. 
 
 We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 helpen je om de basis goed onder de knie te krijgen. Je zult geen punten ontvangen voor de opdrachten van deze modules. Gebruik alle oefeningen en opdrachten dus echt om te *leren* en niet om te scoren.
 
+## Activiteiten
+
+| College | Uur | Activiteit |
+| --- | --- | --- |
+| Werkcollege | Uur 1 | Kick-off en tutorial |
+|  | Uur 2 | Afmaken tutorial |
+|  | Uur 3 | Installatie + uitdelen boek |
+| Laptopcollege | Uur 1 | Loops-tutorial |
+|  | Uur 2 | Huiswerk maken |
+|  | Uur 3 | Huiswerk maken |
+
 ## Studeervolgorde
 
 De onderdelen van de cursus bouwen voort op elkaar. Hieronder vind je de bedoelde volgorde.
@@ -55,15 +66,6 @@ Heb je al programmeerervaring? Dan mag je je eigen programma wat aanpassen:
 - Daag vervolgens jezelf uit met een **challenge**. Hierin ga je grotere programma's schrijven die waarschijnlijk ook voor jou nog wel wat moeilijkheden bevatten.
 
 ## Werkcollege en laptopcollege
-
-| College | Uur | Activiteit |
-| --- | --- | --- |
-| Werkcollege | Uur 1 | Kick-off en tutorial |
-|  | Uur 2 | Afmaken tutorial |
-|  | Uur 3 | Installatie |
-| Laptopcollege | Uur 1 | Loops-tutorial |
-|  | Uur 2 | Huiswerk maken |
-|  | Uur 3 | Huiswerk maken |
 
 Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 

@@ -1,5 +1,9 @@
 # Strings
 
+Deze week werk je met strings: rijtjes tekens. Eerst oefen je met loops om strings te analyseren, bijvoorbeeld door te controleren of er een letter `a` in staat. Daarna schrijf je string-*transformaties*, waarbij je een nieuwe string opbouwt op basis van een andere string, bijvoorbeeld om dubbele spaties uit een tekst te halen. Door kleine functies te combineren kun je zo hele databestanden geschikt maken voor verdere analyse.
+
+## Activiteiten
+
 | College | Uur | Activiteit |
 | --- | --- | --- |
 | Werkcollege | Uur 1 | Kick-off en tutorial |
@@ -8,20 +12,6 @@
 | Laptopcollege | Uur 1 | Transformaties-tutorial |
 |  | Uur 2 | Huiswerk maken |
 |  | Uur 3 | Huiswerk maken |
-
-Voor het eerst ga je nu werken met een datatype waarin meerdere onderdelen bij elkaar staan. Een *string* is namelijk een rijtje "tekens". Meestal letters of cijfers, maar er kunnen ook andere tekens voorkomen in strings.
-
-De insteek van deze module is dat je heel veel gaat oefenen met het schrijven van loops om strings te analyseren, bijvoorbeeld de vraag: staat er een letter `a` in de string?
-
-Daarna gaan we meteen door naar string-*transformaties*, waar je strings construeert op basis van een andere string. Kijk bijvoorbeeld naar dit voorbeeld:
-
-    Dit is een tekstje   dat is gecopy- paste uit een externe  bron.
-
-Ziet er niet helemaal netjes uit. We willen de string transformeren naar een versie zonder dubbele spaties en waar koppeltekens niet gevolgd worden door spaties:
-
-    Dit is een tekstje dat is gecopy-paste uit een externe bron.
-
-Hiervoor kun je kleine functies schrijven. Door die functies te combineren kun je dan hele databestanden transformeren om ze geschikt te maken voor verdere analyse.
 
 ## Inleveren
 

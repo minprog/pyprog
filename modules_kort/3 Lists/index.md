@@ -1,5 +1,9 @@
 # Lists
 
+Een list verzamelt een rijtje elementen onder één naam, bijvoorbeeld de temperaturen van de afgelopen 24 uur. Meestal staat er in een list één soort element, bijvoorbeeld alleen getallen of alleen woorden. Net als bij strings kun je een list indexeren met blokhaken: `lst[4]` geeft het element op positie 4 en `lst[-1]` het laatste element.
+
+## Activiteiten
+
 | College | Uur | Activiteit |
 | --- | --- | --- |
 | Werkcollege | Uur 1 | Kick-off en tutorial |
@@ -8,14 +12,6 @@
 | Laptopcollege | Uur 1 | Oefentoets |
 |  | Uur 2 | Oefentoets |
 |  | Uur 3 | Huiswerk maken |
-
-Lists zijn een manier in Python om een rijtje elementen bij elkaar te verzamelen onder één naam. Denk aan een lijst met temperaturen van de afgelopen 24 uur, of een lijst met daarin woorden die vaak voorkomen in lyrics.
-
-Hoewel Python zelfs elementen kan mixen in een lijst (bijvoorbeeld floats en strings) werken we doorgaans met lijsten waarin één soort element staat. Het type van een lijst geef je daarom op als `list[int]` of `list[str]` bijvoorbeeld.
-
-Er is een belangrijke overeenkomst met strings: allebei kun je ze *indexeren* met hulp van blokhaken. Je kunt bijvoorbeeld het zoveelste element uit een lijst halen met `lst[4]` net zoals dat bij strings kan. Of het laatste element met `lst[-1]`.
-
-Meer lees je in het boek!
 
 ## Inleveren
 
