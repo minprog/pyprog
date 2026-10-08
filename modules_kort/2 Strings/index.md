@@ -1,5 +1,11 @@
 # Strings
 
+| Uur | Activiteit |
+| --- | --- |
+| Uur 1 | Kick-off en tutorial |
+| Uur 2 | Afmaken tutorial |
+| Uur 3 | Start met weekopdrachten |
+
 Voor het eerst ga je nu werken met een datatype waarin meerdere onderdelen bij elkaar staan. Een *string* is namelijk een rijtje "tekens". Meestal letters of cijfers, maar er kunnen ook andere tekens voorkomen in strings.
 
 De insteek van deze module is dat je heel veel gaat oefenen met het schrijven van loops om strings te analyseren, bijvoorbeeld de vraag: staat er een letter `a` in de string?

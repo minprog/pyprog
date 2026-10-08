@@ -56,6 +56,12 @@ Heb je al programmeerervaring? Dan mag je je eigen programma wat aanpassen:
 
 ## Werkcollege en laptopcollege
 
+| Uur | Activiteit |
+| --- | --- |
+| Uur 1 | Kick-off en tutorial |
+| Uur 2 | Afmaken tutorial |
+| Uur 3 | Installatie |
+
 Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 
 - Achterhalen en precies maken van formules
