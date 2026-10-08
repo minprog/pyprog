@@ -53,7 +53,7 @@ In deze opdracht bestaat je code uit een zelfgeschreven functie en een hoofdprog
 Je moet hier niet alleen je zelfgeschreven functie aanroepen maar ook een aantal functies die al geïmplementeerd zijn in Python.
 
 Ontwerp je code zoals hieronder beschreven.
-Vul de docstrings aan met voorbeeld-aanroepen en de gewenste uitkomsten (stap 3 van het function design recipe), en eventueel verdere uitleg.
+Vul de docstrings aan met voorbeeld-aanroepen en de gewenste uitkomsten (stap 3 van het stappenplan op pagina 35 van het boek), en eventueel verdere uitleg.
 
 Schrijf ook code om invoer te vragen en de functie aan te roepen. Het is gebruikelijk (en in deze cursus verplicht) om de invoer en het uitprinten af te handelen in het `main`-deel, zoals hieronder aangegeven. De *berekening* vindt dan juist in een aparte functie plaats.
 

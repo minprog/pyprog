@@ -38,7 +38,7 @@ Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
 In deze opdracht bestaat je code uit drie zelfgeschreven functies.
 
 Ontwerp je code zoals hieronder beschreven.
-Vul de docstrings aan met voorbeeld-aanroepen (doctests!) en de gewenste uitkomsten (stap 3 van het FDR), en eventueel verdere uitleg.
+Vul de docstrings aan met voorbeeld-aanroepen (doctests!) en de gewenste uitkomsten (stap 3 van het stappenplan op pagina 35 van het boek), en eventueel verdere uitleg.
 Schrijf ook code om invoer te vragen en de functie aan te roepen.
 
     def travel_costs(km: int) -> float:
