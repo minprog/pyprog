@@ -25,6 +25,10 @@ Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de i
 
         """
 
+In de docstring van `weeks_elapsed` staan **doctests**: voorbeelden die laten zien dat de functie goed werkt. Een doctest bestaat uit twee regels. Op de eerste regel staat `>>>` met daarachter een aanroep van de functie. Op de regel eronder, zonder lege regel ertussen, staat precies het antwoord dat Python daarvoor laat zien. De eerste doctest hierboven zegt dus: `weeks_elapsed(3, 20)` moet `2` opleveren.
+
+Bij de laatste twee doctests ontbreekt het antwoord. Bedenk zelf wat eruit moet komen en vul dat in. Voeg daarna zelf nog een paar doctests toe, ook voor een randgeval zoals twee keer dezelfde dag. Hoe je de doctests laat controleren, lees je onderaan bij *Zelf testen*.
+
 ## Omvormen naar een programma
 
 Tot nu toe heb je functies gemaakt en ook hierboven heb je een Python-bestand geschreven waarin een functie staat. Dat is geen compleet Python-programma.

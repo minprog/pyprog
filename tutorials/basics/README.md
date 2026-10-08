@@ -12,21 +12,12 @@ Werk de pagina's op volgorde door; elke pagina bouwt voort op de vorige.
 
 ## 1. Hoe een functie eruitziet
 
-Hier is een complete functie. Kopieer hem naar de editor en klik meteen op
-**doctest**: hij is al af, dus de test slaagt.
+Hier is een complete functie. Kopieer hem naar de editor.
 
 ```python
 def square(a: int) -> int:
-    """
-    >>> square(6)
-    36
-    >>> square(2)
-    4
-    """
     return a * a
 ```
-
-**Klik op de knop 'doctest' om de functie op werking te testen.**
 
 {% next "Uitleg" %}
 
@@ -47,12 +38,46 @@ Wat staat er verder?
     - Na de dubbele punt vind je diverse regels die *ingesprongen* zijn,
       dat wil zeggen een stukje verder van de kantlijn staan.
       Dat betekent dat precies die regels tot de functie horen.
-    - Het inspringen is in Python essentieel: Python gebruikt het om te bepalen
-      welke regels bij de functie horen.
+      Het inspringen is in Python dus essentieel.
     - `return` geeft het antwoord terug en beëindigt de functie.
+
+{% next "Doctests" %}
+
+## Doctests: de functie testen
+
+Hoe weet je dat een functie goed werkt? Je probeert hem uit met een paar
+aanroepen waarvan je het antwoord al weet. In Python zet je die aanroepen in de
+functie zelf, in een *docstring*, en dan heten ze **doctests**.
+
+Hier is dezelfde functie met twee doctests. Vervang hem in de editor en klik op
+**doctest**: de functie is al af, dus de tests slagen.
+
+```
+def square(a: int) -> int:
+    """
+    >>> square(6)
+    36
+    >>> square(2)
+    4
+    """
+    return a * a
+```
+
+**Klik op de knop 'doctest' om de functie op werking te testen.**
+
+{% next "Uitleg doctests" %}
+
 - De docstring:
-    - De tekst tussen twee `"""` (triple quotes) is de *docstring*. 
-    - In de docstring staan tests die beginnen met  `>>>`.
+    - De tekst tussen twee `"""` (triple quotes) is de *docstring*. Die staat
+      direct onder de header.
+    - In de docstring staan tests die beginnen met `>>>`. Achter `>>>` staat een
+      aanroep van de functie, en op de regel eronder staat het antwoord dat
+      daaruit moet komen.
+- De knop **doctest** voert elke aanroep uit en vergelijkt het resultaat met het
+  antwoord eronder. Komt er iets anders uit, dan meldt de uitvoer welke test
+  niet klopt.
+- Kies voor je tests aanroepen waarvan je zeker weet wat eruit moet komen. Later
+  schrijf je zulke tests ook zelf.
 
 {% next "Verder: zelf een functie schrijven" %}
 
