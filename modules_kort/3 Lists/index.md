@@ -1,10 +1,12 @@
 # Lists
 
-| Uur | Activiteit |
-| --- | --- |
-| Uur 1 | Kick-off en tutorial |
-| Uur 2 | Afmaken tutorial |
-| Uur 3 | Start met weekopdrachten |
+| College | Uur | Activiteit |
+| --- | --- | --- |
+| Werkcollege | Uur 1 | Kick-off en tutorial |
+|  | Uur 2 | Afmaken tutorial |
+|  | Uur 3 | Start met weekopdrachten |
+| Laptopcollege | Uur 1-2 | Oefentoets |
+|  | Uur 3 | Huiswerk maken |
 
 Lists zijn een manier in Python om een rijtje elementen bij elkaar te verzamelen onder één naam. Denk aan een lijst met temperaturen van de afgelopen 24 uur, of een lijst met daarin woorden die vaak voorkomen in lyrics.
 
