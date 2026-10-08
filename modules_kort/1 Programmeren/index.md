@@ -62,7 +62,8 @@ Heb je al programmeerervaring? Dan mag je je eigen programma wat aanpassen:
 |  | Uur 2 | Afmaken tutorial |
 |  | Uur 3 | Installatie |
 | Laptopcollege | Uur 1 | Loops-tutorial |
-|  | Uur 2-3 | Huiswerk maken |
+|  | Uur 2 | Huiswerk maken |
+|  | Uur 3 | Huiswerk maken |
 
 Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 

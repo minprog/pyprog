@@ -6,7 +6,8 @@
 |  | Uur 2 | Afmaken tutorial |
 |  | Uur 3 | Start met weekopdrachten |
 | Laptopcollege | Uur 1 | Transformaties-tutorial |
-|  | Uur 2-3 | Huiswerk maken |
+|  | Uur 2 | Huiswerk maken |
+|  | Uur 3 | Huiswerk maken |
 
 Voor het eerst ga je nu werken met een datatype waarin meerdere onderdelen bij elkaar staan. Een *string* is namelijk een rijtje "tekens". Meestal letters of cijfers, maar er kunnen ook andere tekens voorkomen in strings.
 
