@@ -1,7 +1,5 @@
 # Weken
 
-> **Let op.** Als je in Terra IDE werkt is er nog geen knop voor doctest. Deze komt er aan.
-
 In deze en volgende opdrachten ga je vooral veel kleine functies maken waarin een berekening wordt gedaan. De opdrachten bouwen op elkaar voort en herhalen veel. We starten met deze opdracht waar je bijna alles cadeau krijgt, dus het is vooral de instructies volgen.
 
 ## Opdracht
@@ -61,3 +59,19 @@ Als je nu het programma **opstart** kun je het uittesten. Ga naar de Terminal of
     Er zijn 2 volle weken verstreken.
 
 We hebben hier zelf op het toetsenbord de getallen `3` en `20` ingevoerd en daarna is het resultaat geprint. Ziet het er bij jou exact zo uit? Dan is je programma klaar om in te sturen en gecontroleerd te worden.
+
+## Zelf testen
+
+Werkt je programma goed? Je kunt het insturen om te controleren. Maar je kunt een deel van de tests ook zelf runnen. Dat maakt het verbeteren van fouten misschien iets sneller.
+
+-   Gebruik dit commando om de doctests te controleren die je zelf geschreven hebt:
+
+        python3 -m doctest -v programma.py
+
+    Gebruik hierin het `python` of `python3`-commando afhankelijk van wat op jouw computer de juiste versie is.
+
+-   Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+
+        mypy --strict --ignore-missing-imports programma.py
+
+Mocht het installeren niet lukken, dan kun je altijd hulp vragen. Maar hoe dan ook kun je insturen op deze website, en dan gebeurt het controleren automatisch.

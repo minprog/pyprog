@@ -72,3 +72,19 @@ Schrijf ook code om invoer te vragen en de functie aan te roepen.
 * Zorg dat de uiteindelijke kosten worden afgerond, zodat je output een integer is. In de docstring staat wanneer je moet afronden. Ga dan ook geen tussenstappen afronden, want dan krijg je een verkeerd antwoord.
 
     * De ingebouwde Python-functie `round()` werkt niet goed voor deze opdracht. Die functie gebruikt een statistisch verantwoorde manier van afronden: `round(2.5)` geeft `2`. Maar in deze opdracht gaat het over afronden van geld, wat normaliter wordt gedaan op de manier die je op school leert: `2.4` wordt `2` en `2.5` wordt `3`. Je kunt deze manier van afronden bereiken met de volgende expressie: `int(x + 0.5)` waarbij `x` is het af te ronden getal. Het is geen slecht idee om een aparte zelfgeschreven functie te definiëren voor het afronden, maar dat is optioneel. Je moet hoe dan ook wel de juiste manier van afronden gebruiken.
+
+## Zelf testen
+
+Werkt je programma goed? Je kunt het insturen om te controleren. Maar je kunt een deel van de tests ook zelf runnen. Dat maakt het verbeteren van fouten misschien iets sneller.
+
+-   Gebruik dit commando om de doctests te controleren die je zelf geschreven hebt:
+
+        python3 -m doctest -v programma.py
+
+    Gebruik hierin het `python` of `python3`-commando afhankelijk van wat op jouw computer de juiste versie is.
+
+-   Je kunt ook de type hints checken. Installeer dan `mypy` via het commando `pip3 install mypy` en controleer zo je programma:
+
+        mypy --strict --ignore-missing-imports programma.py
+
+Mocht het installeren niet lukken, dan kun je altijd hulp vragen. Maar hoe dan ook kun je insturen op deze website, en dan gebeurt het controleren automatisch.
