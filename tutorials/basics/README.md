@@ -63,6 +63,8 @@ def square(a: int) -> int:
     return a * a
 ```
 
+**Voeg deze doctests toe in jouw editor hiernaast.**
+
 **Klik op de knop 'doctest' om de functie op werking te testen.**
 
 {% next "Uitleg doctests" %}
