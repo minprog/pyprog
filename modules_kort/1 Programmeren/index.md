@@ -11,7 +11,7 @@ We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 hel
 | Werkcollege | Uur 1 | Kick-off en tutorial |
 |  | Uur 2 | Afmaken tutorial |
 |  | Uur 3 | Installatie + uitdelen boek |
-| Laptopcollege | Uur 1 | Loops-tutorial |
+| Computerpracticum | Uur 1 | Loops-tutorial |
 |  | Uur 2 | Huiswerk maken |
 |  | Uur 3 | Huiswerk maken |
 
@@ -65,7 +65,7 @@ Heb je al programmeerervaring? Dan mag je je eigen programma wat aanpassen:
 
 - Daag vervolgens jezelf uit met een **challenge**. Hierin ga je grotere programma's schrijven die waarschijnlijk ook voor jou nog wel wat moeilijkheden bevatten.
 
-## Werkcollege en laptopcollege
+## Werkcollege en computerpracticum
 
 Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek dat we bij de cursus gebruiken (en je gaat deze week meteen een hoop doen uit dit boek!). Je maakt bij het college voor het eerst kennis met de docent en de studentassistent. Daarnaast ga je aan de slag met de volgende activiteiten:
 
@@ -74,11 +74,11 @@ Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek da
 - Schrijven van kleine functies op basis van de formules
 - Installeren van Python en een editor op je computer
 
-Later in de week is er ook een laptopcollege. Ook hier verwachten we jouw aanwezigheid, net als bij het werkcollege. Tijdens het laptopcollege ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk. Ook zal de docent nog één of twee programma's live uitwerken zodat je kunt meekijken hoe dat gaat.
+Later in de week (donderdag of vrijdag) is er ook een computerpracticum. Ook hier verwachten we jouw aanwezigheid, net als bij het werkcollege. Tijdens het computerpracticum ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk. Ook zal de docent nog één of twee programma's live uitwerken zodat je kunt meekijken hoe dat gaat.
 
 ## Studiematerialen en huiswerk
 
-Tijdens het werkcollege en het laptopcollege ga je al veel tijd besteden aan oefenen. Daarnaast ga je deze week flink wat tijd steken in het boek, om de theorie goed te begrijpen. En er zijn diverse programmeeropdrachten om te oefenen met "problem solving".
+Tijdens het werkcollege en het computerpracticum ga je al veel tijd besteden aan oefenen. Daarnaast ga je deze week flink wat tijd steken in het boek, om de theorie goed te begrijpen. En er zijn diverse programmeeropdrachten om te oefenen met "problem solving".
 
 ## Inleveren
 
@@ -88,7 +88,7 @@ Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
 - Als je de opdracht niet door de basischecks hebt, ga dit dan meteen oplossen. Je programma moet het format volgen uit de opgave en voldoen aan een paar kleine stijl-eisen. Het heeft geen zin om dit uit te stellen. Je mag opnieuw inleveren.
 
-- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd (geeft verkeerde uitkomst), maar je programma zou vrijwel af moeten zijn, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
+- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd (geeft verkeerde uitkomst), maar je programma zou vrijwel af moeten zijn, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag of dinsdag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
 
 ## Deadline
 

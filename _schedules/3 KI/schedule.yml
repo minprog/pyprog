@@ -25,7 +25,6 @@ Welkom:
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
         '[icon:puzzle] Loops-tutorial': /werkcollege/loops
-        # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
         '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
         '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
         # while
@@ -108,7 +107,7 @@ Oefentoets:
 # Collections intro
 'Week 5: Collections':
     '[icon:list-check] Overzicht': /modules_kort/collections
-    'Werkcollege: Collections-tutorial': /werkcollege/tutorial_collections
+    'Werkcollege: Collections-tutorial': /werkcollege/collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
     Oefenen voor tentamen:
         '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
@@ -128,7 +127,7 @@ Oefentoets:
 # Classes intro
 'Week 6: Classes':
     '[icon:list-check] Overzicht': /modules_kort/classes
-    'Werkcollege: Queue': /werkcollege/tutorial_classes_queue # basic datastructuur, encapsulation, init
+    'Werkcollege: Queue': /werkcollege/classes_queue # basic datastructuur, encapsulation, init
     'Werkcollege: Herhaling': /tentamen/herhaling
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     # Videocollege: /opdrachten/classes/lecture

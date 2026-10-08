@@ -1,9 +1,7 @@
-# Tutorial: collection types
+# Tutorial: collections
 
-- Ga via onderstaande knop naar de tentamen-editor om de collections-tutorial te doorlopen.
+Klik op onderstaande knop om de tutorial te starten. Je voortgang wordt live bijgehouden, en je kunt afsluiten met de knop "Submit" aldaar.
 
-- Zorg dat je alles goed invult.
+Als je later verder wil werken aan de tutorial kun je deze gewoon opnieuw laden en doorgaan.
 
-- Gebruik de knoppen "doctest" en "typecheck" om te controleren of er nog fouten zijn.
-
-[Tutorial: Collections](exam_button:tutorial_collections)
+[Start de tutorial](exam_button:tutorial_collections)

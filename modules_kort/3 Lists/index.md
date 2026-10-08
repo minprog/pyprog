@@ -9,7 +9,7 @@ Een list verzamelt een rijtje elementen onder één naam, bijvoorbeeld de temper
 | Werkcollege | Uur 1 | Kick-off en tutorial |
 |  | Uur 2 | Afmaken tutorial |
 |  | Uur 3 | Start met weekopdrachten |
-| Laptopcollege | Uur 1 | Oefentoets |
+| Computerpracticum | Uur 1 | Oefentoets |
 |  | Uur 2 | Oefentoets |
 |  | Uur 3 | Huiswerk maken |
 
@@ -21,7 +21,7 @@ Als je opdracht niet wordt goedgekeurd dan geldt het volgende:
 
 - Als je de opdracht niet door de basischecks hebt, ga dit dan meteen oplossen. Je programma moet het format volgen uit de opgave en voldoen aan een paar kleine stijl-eisen. Het heeft geen zin om dit uit te stellen. Je mag opnieuw inleveren.
 
-- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd (geeft verkeerde uitkomst), maar je programma zou vrijwel af moeten zijn, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
+- Als je er niet uitkomt omdat je opdracht inhoudelijk wordt afgekeurd (geeft verkeerde uitkomst), maar je programma zou vrijwel af moeten zijn, dan hoef je dit niet meteen op te lossen. Tijdens het volgende werkcollege, op maandag of dinsdag na de deadline, gaan we dit soort dingen ook klassikaal oplossen.
 
 ## Deadline
 

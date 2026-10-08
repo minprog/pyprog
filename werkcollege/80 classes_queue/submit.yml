@@ -1,16 +1,3 @@
 name: tutorial_classes_queue
 exam: true
-buttons:
-    doctest: |
-        import <filename>
-        import doctest
-        doctest.testmod(<filename>, verbose=True)
-    typecheck: |
-        from mypy import api as mypy_api
-        mypy_api.run(['<filename>.py'])[0]
-files:
-    required:
-        - my_queue.py
-check:
-    tool: check50
-    slug: minprog/objects/2023/queue
+lab_config: https://minprog.github.io/pyprog/tutorials/queue

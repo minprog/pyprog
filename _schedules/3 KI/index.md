@@ -22,7 +22,7 @@ Programmeren, variabelen en beslissingen
 Strings
 : Naast werken met getallen ga je nu aan de slag met rijtjes letters, ofwel strings. Dan kun je bijvoorbeeld aan de slag met het controleren van de veiligheid van een wachtwoord, of het berekenen van de complexiteit van een tekst.
 
-Lijsten
+Lists
 : Bij deze module introduceren we lijsten, om data in op te slaan. We introduceren een aantal sorteeralgoritmen uit de informatica. Daarmee is de weg vrij om eenvoudige tekst-gebaseerde spelletjes en complexere simulaties te bouwen.
 
 In het tweede deel introduceren we meer onderdelen van de taal en worden de programma's echt complexer. Deze delen komen terug in het tentamen van week 8.
@@ -31,20 +31,20 @@ Collections
 : We laten je ook de resterende collection types uit Python zien (dictionaries, tuples en sets), zodat je de meeste basiscode goed kunt begrijpen. Collections worden veel gebruikt voor data-manipulatie zoals in wetenschappelijke projecten.
 
 Classes
-: De laatste belangrijke constructie uit Python is een class. Zo kun je code bouwen met objecten die een directe representatie zijn van het onderwerp waar het programma over gaat. Aanvakelijk houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
+: De laatste belangrijke constructie uit Python is een class. Zo kun je code bouwen met objecten die een directe representatie zijn van het onderwerp waar het programma over gaat. Aanvankelijk houden we het iets kleiner, met oefenopdrachten. Kaartspelletjes zijn wel een thema in deze module.
 
-Structuren
-: Voor de volgende en laatste stap ga je diverse classes in één programma combineren. Dit is in het begin wel even pittig, maar helpt uiteindelijk juist om grotere programma's overzichtelijk te houden. Je werkt dus ook toe naar een grotere game die je als eindproject gaat bouwen.
+Adventure
+: Als laatste onderdeel bouw je een project: een grote game, een adventure. Hiervoor combineer je diverse classes in één programma. Dit is in het begin wel even pittig, maar helpt uiteindelijk juist om grotere programma's overzichtelijk te houden.
 
 ## Contact en aanwezigheid
 
 Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de *manier van de cursus* en daarvoor heb je feedback en interacties met de docent en medestudenten nodig. Om deze reden verwachten we dat je aanwezig bent bij *alle* colleges.
 
 Aanwezigheid bij colleges
-: Je wordt verwacht bij **alle** werkcolleges en laptopcolleges, en wel van de begintijd tot de eindtijd. Op de maandagen zijn er activiteiten voor punten en op de vrijdagen kun je bij uitstek samen met anderen programmeren. Als je één keer een vrijdag mist is dat natuurlijk geen probleem. Meld je wel even af via <mailto:pyprog@proglab.nl>.
+: Je wordt verwacht bij **alle** werkcolleges en computerpractica, en wel van de begintijd tot de eindtijd. Op het werkcollege (maandag of dinsdag) zijn er activiteiten voor punten en op het computerpracticum (donderdag of vrijdag) kun je bij uitstek samen met anderen programmeren. Als je één keer een computerpracticum mist is dat natuurlijk geen probleem. Meld je wel even af via <mailto:pyprog@proglab.nl>.
 
 Te laat komen
-: Na de starttijd van het werkcollege (maandag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
+: Na de starttijd van het werkcollege (maandag of dinsdag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
 
 Ziekmelding
 : Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
@@ -61,17 +61,17 @@ Het doel is dat je na dit vak op z'n minst kleine programma's kunt schrijven zon
 Tentamen (22 punten)
 : - Het tentamen vindt plaats in week 8 van het vak en beslaat de hele stof.
 : - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
-: - Het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manierne punten opleveren. De nadruk ligt op het schrijven van classes.
+: - In het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren. De nadruk ligt op het schrijven van classes.
 : - Bij de **tussentoets** halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
 Werkcollege (6 punten praktische oefening)
-: Tijdens het werkcollege op maandag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per activiteit punten op.
+: Tijdens het werkcollege op maandag of dinsdag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per werkcollege punten op.
 
 Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
-> Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het laptopcollege (zie je rooster). Dat betekent dat de punten van het tentamen en/of tussentoets het volledige eindcijfer bepalen, en het eindcijfer is dan `punten / 22 * 9 + 1`.
+> Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het computerpracticum (zie je rooster). Dat betekent dat de punten van het tentamen en/of tussentoets het volledige eindcijfer bepalen, en het eindcijfer is dan `punten / 22 * 9 + 1`.
 
 ### Oefeningen werkcollege
 
@@ -79,16 +79,16 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 
 Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, of te laat, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
-| Week |  Datum | Werkcollege               |
-| :--: | -----: | ------------------------- |
-|  1   | 27 okt | Installatie en formules   |
-|  2   |  3 nov | Oefeningen strings        |
-|  3   | 10 nov | Oefeningen lists          |
-|  4   |        | Tussentoets               |
-|  5   | 24 nov | Oefeningen collections    |
-|  6   |  1 dec | Oefeningen classes        |
-|  7   |  8 dec | Code reviews              |
-|  8   |        | Tentamen                  |
+| Week |        Datum | Werkcollege             |
+| :--: | -----------: | ----------------------- |
+|  1   |    26/27 okt | Installatie en formules |
+|  2   |      2/3 nov | Oefeningen strings      |
+|  3   |     9/10 nov | Oefeningen lists        |
+|  4   |              | Tussentoets             |
+|  5   |    23/24 nov | Oefeningen collections  |
+|  6   | 30 nov/1 dec | Oefeningen classes      |
+|  7   |      7/8 dec | Code reviews            |
+|  8   |              | Tentamen                |
 
 ## Huiswerk en deadlines
 
@@ -96,9 +96,9 @@ Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk t
 
 Regelmaat is belangrijker dan deadlines. De bedoeling is dat je:
 
-- Op **maandag** start met de nieuwe onderwerpen in het werkcollege en daarna in het boek studeert. Je kunt dan al een paar oefeningen doen.
-- Tussen **maandag** en **vrijdag** twee of drie dagdelen reserveert om thuis te studeren en te oefenen. Je moet dan een aantal opdrachten hebben gemaakt, hoewel ze misschien niet perfect lukken.
-- Op **vrijdag** is de werkmiddag en ga je doorwerken met je medestudenten en vragen stellen. Dit is vooral sociaal studeren en niet altijd vol focus. Maar toch is dit een belangrijke stap.
+- Op **maandag of dinsdag** start met de nieuwe onderwerpen in het werkcollege en daarna in het boek studeert. Je kunt dan al een paar oefeningen doen.
+- Tussen **maandag of dinsdag** en **vrijdag** twee of drie dagdelen reserveert om thuis te studeren en te oefenen. Je moet dan een aantal opdrachten hebben gemaakt, hoewel ze misschien niet perfect lukken.
+- Op **donderdag of vrijdag** is het computerpracticum en ga je doorwerken met je medestudenten en vragen stellen. Dit is vooral sociaal studeren en niet altijd vol focus. Maar toch is dit een belangrijke stap.
 - In het **weekend** kun je de finishing touches doen voor een aantal opdrachten. Je kunt ook verder bladeren in het boek en alvast wat lezen.
 
 De colleges staan vast, maar verder kun je natuurlijk zelf sleutelen aan dit plan. Als er maar een plan is.
@@ -107,7 +107,7 @@ Het doel van de deadlines is om te zorgen dat iedereen voldoende ver komt met de
 
 > Als het misloopt met de deadline, gebruik dan niet alsnog ChatGPT. Bij dit vak gaat het om de basics, die je moet beheersen zonder hulp. Dat is ook precies wat we op het tentamen checken.
 
-Oh, het is geen probleem als je een opdracht niet helemaal goedgekeurd krijgt door de website! Tijdens de colleges op maandag los je dit op met hulp van de docent.
+Oh, het is geen probleem als je een opdracht niet helemaal goedgekeurd krijgt door de website! Tijdens de werkcolleges op maandag of dinsdag los je dit op met hulp van de docent.
 
 ### Automatische checks
 
