@@ -24,7 +24,7 @@ Welkom:
         '[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
-        'Werkcollege: Loops-tutorial': /werkcollege/loops
+        '[icon:puzzle] Loops-tutorial': /werkcollege/loops
         # Werkcollege loops: /werkcollege/loops # is alleen primes, geschrapt
         '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
         '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
@@ -55,7 +55,7 @@ Welkom:
         '[icon:diagram-3] Wachtwoord': /opdrachten/strings/wachtwoord
         '[icon:diagram-3] Leesbaarheid': /opdrachten/strings/leesbaarheid
     String-transformatie:
-        'Werkcollege: Transformatie-tutorial': /werkcollege/transformatie
+        '[icon:puzzle] Transformatie-tutorial': /werkcollege/transformatie
         '[icon:puzzle] Complexere transformatie': /opdrachten/strings/transformatie_complex
         '[icon:diagram-2] Yell': /opdrachten/strings/yell
         '[icon:diagram-3] RNA': /opdrachten/strings/rna
