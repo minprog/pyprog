@@ -83,8 +83,10 @@ def square(a: int) -> int:
 
 {% next "Verder: zelf een functie schrijven" %}
 
-Nu zelf. Dezelfde vorm, alleen de derde macht in plaats van het kwadraat: `a`
+Nieuwe functie. Dezelfde vorm, alleen de derde macht in plaats van het kwadraat: `a`
 maal `a` maal `a`.
+
+**Kopieer de functie en vul de uitwerking in.**
 
 ```python
 def cube(a: int) -> int:
