@@ -12,8 +12,8 @@ Ontwerp je code zoals hieronder beschreven. Vul de doctests aan en voeg dan de i
 
     def weeks_elapsed(day1: int, day2: int) -> int:
         """
-        day1 and day2 are days in the same year. Return the number of full weeks
-        that have elapsed between the two days.
+        Berekent het aantal volle weken dat verstreken is tussen twee dagen
+        in hetzelfde jaar. De dagen zijn gegeven als dagnummer (day1 en day2).
 
         >>> weeks_elapsed(3, 20)
         2
@@ -54,8 +54,8 @@ Vul de code aan op de plek van de `...` om de functie aan te roepen.
 Als je nu het programma **opstart** kun je het uittesten. Ga naar de Terminal of Command Prompt en start Python met jouw programma:
 
     % python3 weken.py
-    Dagnummer: 3
-    Dagnummer: 20
+    Dagnummer 1: 3
+    Dagnummer 2: 20
     Er zijn 2 volle weken verstreken.
 
 We hebben hier zelf op het toetsenbord de getallen `3` en `20` ingevoerd en daarna is het resultaat geprint. Ziet het er bij jou exact zo uit? Dan is je programma klaar om in te sturen en gecontroleerd te worden.

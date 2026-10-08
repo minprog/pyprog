@@ -60,6 +60,6 @@ Is bovenstaande een beetje teveel om in één keer te maken? Doe het dan in stap
 
 5. Zorg dan dat je een vierkant kunt printen: meerdere (`hoogte`) hekjes op een regel, en meerdere (`hoogte`) van zulke regels.
 
-7. Maak nu een halve piramide door op elke regel het juiste aantal hekjes te printen.
+6. Maak nu een halve piramide door op elke regel het juiste aantal hekjes te printen.
 
-6. Nu is het tijd om de uitvoer tot in de puntjes gelijk te maken aan de voorbeelden!
+7. Nu is het tijd om de uitvoer tot in de puntjes gelijk te maken aan de voorbeelden!

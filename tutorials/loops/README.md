@@ -250,23 +250,23 @@ Soms bepaal je het volgende getal liever zelf, bijvoorbeeld door steeds te
 verdubbelen. Dan gebruik je een `while`-loop. Die herhaalt zijn blok zolang een
 voorwaarde waar is:
 
-    getal = 1
-    aantal = 0
-    while aantal < 6:
-        print(getal)
-        getal = getal * 2
-        aantal = aantal + 1
+    number = 1
+    count = 0
+    while count < 6:
+        print(number)
+        number = number * 2
+        count = count + 1
 
 Dit gebeurt er:
 
-- Vóór de loop zet je de variabelen op hun beginwaarde: `getal` begint op 1 en
-  `aantal` op 0.
-- De voorwaarde `aantal < 6` wordt voor elke ronde gecontroleerd. Is die niet
+- Vóór de loop zet je de variabelen op hun beginwaarde: `number` begint op 1 en
+  `count` op 0.
+- De voorwaarde `count < 6` wordt voor elke ronde gecontroleerd. Is die niet
   meer waar, dan stopt de loop.
-- Binnen de loop pas je de variabelen zelf aan. `getal = getal * 2` verdubbelt
-  `getal`, en `aantal = aantal + 1` telt mee hoeveel getallen je al hebt
+- Binnen de loop pas je de variabelen zelf aan. `number = number * 2` verdubbelt
+  `number`, en `count = count + 1` telt mee hoeveel getallen je al hebt
   geprint.
-- Vergeet je `aantal` te verhogen, dan is de voorwaarde altijd waar en stopt de
+- Vergeet je `count` te verhogen, dan is de voorwaarde altijd waar en stopt de
   loop nooit.
 
 Dit print zes getallen: 1, 2, 4, 8, 16 en 32.
@@ -282,12 +282,12 @@ def print_doublings() -> None:
     16
     32
     """
-    getal = 1
-    aantal = 0
-    while aantal < 6:
-        print(getal)
-        getal = getal * 2
-        aantal = aantal + 1
+    number = 1
+    count = 0
+    while count < 6:
+        print(number)
+        number = number * 2
+        count = count + 1
 ```
 
 {% next "Verder: zelf een while-loop schrijven" %}
@@ -335,16 +335,16 @@ def print_halvings() -> None:
     0
     0
     """
-    getal = 100
-    aantal = 0
-    while aantal < 9:
-        print(getal)
-        getal = getal // 2
-        aantal = aantal + 1
+    number = 100
+    count = 0
+    while count < 9:
+        print(number)
+        number = number // 2
+        count = count + 1
 ```
 
-Na een tijdje blijft `getal` op 0 staan, omdat `0 // 2` weer 0 is. De loop gaat
-gewoon door tot `aantal` 9 bereikt heeft.
+Na een tijdje blijft `number` op 0 staan, omdat `0 // 2` weer 0 is. De loop gaat
+gewoon door tot `count` 9 bereikt heeft.
 
 {% next "Verder: zelf delen" %}
 
@@ -393,7 +393,7 @@ def is_leap_year(y: int) -> bool:
 Laat hem in het bestand staan, want de functies hieronder roepen hem aan.
 
 Om iets te tellen houd je een variabele bij die je vóór de loop op 0 zet en
-waar je binnenin 1 bij optelt met `aantal = aantal + 1`. Vergeet niet aan het
+waar je binnenin 1 bij optelt met `count = count + 1`. Vergeet niet aan het
 eind te `return`'en: dat gebeurt ná de loop, dus minder ver ingesprongen.
 
 Tel zo de schrikkeljaren van `start` tot en met `end`. Denk eraan dat je `end + 1`
@@ -420,7 +420,7 @@ Bij het tellen weet je van tevoren welke jaren je langsloopt. Hier niet: je weet
 pas dat je klaar bent als je het n-de schrikkeljaar te pakken hebt. Dit is een
 taak voor `while`:
 
-    while gevonden < n:
+    while found < n:
         ...
 
 Begin bij `start` en loop de jaren één voor één af. Tel elk schrikkeljaar dat je

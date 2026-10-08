@@ -21,7 +21,7 @@ Werk het eerst uit op papier in pseudocode; met name de variabelen en loops die 
 
 ## Tellen
 
-Schrijf een functie `collatz_length` die gegeven een parameter `n` de lengte van de bijbehorende Collatz-reeks print. Hier worden de Collatz-getallen dus *niet* geprint, maar alleen de totale lengte.
+Schrijf een functie `collatz_length` die gegeven een parameter `n` de lengte van de bijbehorende Collatz-reeks teruggeeft met `return`. Deze functie print dus *niets*: de Collatz-getallen worden niet geprint en ook de lengte niet.
 
 Werk het eerst uit op papier in pseudocode; met name de variabelen en loops die je nodig hebt.
 

@@ -23,7 +23,7 @@ Schrijf, in een bestand genaamd `temperatuur.py`, een programma dat de gebruiker
 
 * Je moet de getallen (en letters) rechts uitlijnen zoals in de voorbeelden.
 
-* Alle temperaturen worden op gehele graden naar *beneden* afgerond.
+* Alle temperaturen worden afgerond op gehele graden door de cijfers achter de komma weg te laten. Dat is afronden richting 0: `-17.8` wordt `-17` en `17.8` wordt `17`. Dit is wat de functie `int()` doet. Let op: `//` rondt negatieve getallen juist af naar `-18`, en geeft hier dus een ander antwoord.
 
 ## Code
 

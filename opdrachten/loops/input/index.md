@@ -49,6 +49,6 @@ Schrijf een functie `get_any_int_but_0` die om input vraagt. Je mag ervan uitgaa
 
 Schrijf een functie `get_min_int` die om input vraagt. Er is een parameter `minimum` die aangeeft wat het minimale getal is dat ingevoerd moet worden. Je mag ervan uitgaan dat de gebruiker wel een integer intikt, dus geen tekst of kommagetallen. Maar je moet in de functie wél controleren of het ingevoerde getal voldoet aan het minimum. Als dat niet zo is, wordt opnieuw om input gevraagd.
 
-## Twee verschillende etallen
+## Twee verschillende getallen
 
 Schrijf een functie `get_two_different_ints` die *twee keer* om input vraagt. Je mag ervan uitgaan dat de gebruiker wel twee keer een integer intikt, dus geen tekst of kommagetallen. Maar je moet in de functie wél controleren of de getallen niet gelijk zijn. Als dat toch zo is, wordt opnieuw om input gevraagd (wederom twee getallen).

@@ -34,7 +34,7 @@ In deze opdracht ga je drie Python-programma's schrijven.
 
 ## Programma 3
 
-1. Maak een bestand genaamd `prog2.py`.
+1. Maak een bestand genaamd `prog3.py`.
 
 2. Schrijf enkele regels code in dat bestand:
 

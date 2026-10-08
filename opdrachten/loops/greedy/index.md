@@ -29,6 +29,20 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 * [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law) (negatief bedrag slaat nergens op in deze opdracht), zorg dan dat er opnieuw geprobeerd moet worden.
 
+## Code
+
+Ontwerp je code zoals hieronder beschreven. Vul de docstring aan met doctests en eventueel verdere uitleg. De berekening vindt plaats in de functie; het hoofdprogramma regelt alleen de invoer en de uitvoer.
+
+    def count_coins(cents: int) -> int:
+        """
+        Berekent het minimale aantal munten (25, 10, 5 en 1 cent)
+        waarmee het bedrag `cents` kan worden teruggegeven.
+        """
+
+    if __name__ == '__main__':
+        <Vraag om het bedrag tot het geldig is, zet het om naar centen,
+        roep de functie aan en print het aantal munten>
+
 ## Hints
 
 * De hoofdstructuur van dit programma lijkt een beetje op die van `water.py`: er is weer duidelijk sprake van invoer, berekening en uitvoer. Het verschil is dat je de berekening nu niet meer kunt schrijven als één formule. Je moet een compleet *algoritme* bedenken!
@@ -39,4 +53,4 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 * Zorg dat, zodra de gebruiker een float heeft ingevuld, je hiervan een integer maakt. Onze munten zijn immers gespecificeerd in een aantal *centen*.
 
-* Om eventuele afrondingsfouten te voorkomen bij het converteren van floats naar integers, rond getallen eerst af door middel van `round()`. Probeer maar eens: `round(7.8)` en `round(7.2)`.
+* Om eventuele afrondingsfouten te voorkomen bij het converteren van floats naar integers, rond getallen eerst af door middel van `round()`. Probeer maar eens: `round(7.8)` en `round(7.2)`. Dit is iets anders dan bij het afronden van geld in andere opdrachten: hier is het getal eigenlijk al een heel aantal centen en haalt `round()` alleen de kleine afwijking weg, zoals `401.99999999999994` in plaats van `402`.

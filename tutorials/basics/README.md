@@ -16,11 +16,11 @@ Hier is een complete functie. Kopieer hem naar de editor en klik meteen op
 **doctest**: hij is al af, dus de test slaagt.
 
 ```python
-def kwadraat(a: int) -> int:
+def square(a: int) -> int:
     """
-    >>> kwadraat(6)
+    >>> square(6)
     36
-    >>> kwadraat(2)
+    >>> square(2)
     4
     """
     return a * a
@@ -30,17 +30,15 @@ def kwadraat(a: int) -> int:
 
 {% next "Uitleg" %}
 
-Besef je vooral dat deze functie, in plaats van een figuur te besturen,
-een getal uitrekent. Je kunt dit onder andere zien aan de `return`.
+Deze functie rekent een getal uit en geeft het terug. Je kunt dit onder andere
+zien aan de `return`.
 
 Wat staat er verder?
 
 - De functie-header:
-    - Het woord `def` begint een functie, net zoals `DEFINE-NEW-INSTRUCTION` in Karel een
-    instructie begon.
-    - Het woord `kwadraat` is de naam van de functie.
+    - Het woord `def` begint een functie.
+    - Het woord `square` is de naam van de functie.
     - Tussen de haakjes staan de *parameters*: de informatie die de functie nodig heeft om haar werk te doen.
-        - Karel-instructies hadden geen parameters, dus dit is nieuw.
         - `a: int` zegt dat `a` een geheel getal is (integer!).
     - De formulering `-> int` betekent dat de functie een geheel getal
     moet opleveren.
@@ -49,8 +47,8 @@ Wat staat er verder?
     - Na de dubbele punt vind je diverse regels die *ingesprongen* zijn,
       dat wil zeggen een stukje verder van de kantlijn staan.
       Dat betekent dat precies die regels tot de functie horen.
-    - Karel had `BEGIN` en `END` voor en de afstand tot de kantlijn
-      maakte voor Karel niet uit. In Python is dit essentieel.
+    - Het inspringen is in Python essentieel: Python gebruikt het om te bepalen
+      welke regels bij de functie horen.
     - `return` geeft het antwoord terug en beëindigt de functie.
 - De docstring:
     - De tekst tussen twee `"""` (triple quotes) is de *docstring*. 
@@ -62,11 +60,11 @@ Nu zelf. Dezelfde vorm, alleen de derde macht in plaats van het kwadraat: `a`
 maal `a` maal `a`.
 
 ```python
-def derde_macht(a: int) -> int:
+def cube(a: int) -> int:
     """
-    >>> derde_macht(2)
+    >>> cube(2)
     8
-    >>> derde_macht(5)
+    >>> cube(5)
     125
     """
     return ...
@@ -135,9 +133,8 @@ def fahrenheit_to_celsius(f: float) -> float:
 
 ## 4. Waar of niet waar
 
-In Karel testte je dingen als `front-is-clear` in een `IF` of `WHILE`. Zo'n test
-levert waar of niet waar op. In Python heten die twee waarden `True` en `False`,
-en je kunt ze ook gewoon teruggeven met `return`.
+Een test levert waar of niet waar op. In Python heten die twee waarden `True`
+en `False`, en je kunt ze ook gewoon teruggeven met `return`.
 
 Je maakt ze met vergelijkingen: `==` (gelijk aan), `!=` (niet gelijk),
 `<`, `>`, `<=`, `>=`. Let op de dubbele `==`: één `=` betekent iets heel anders.
@@ -188,8 +185,7 @@ Niet alles hoef je zelf te schrijven. `math.sqrt(x)` geeft de wortel van `x`.
 Dat werkt doordat bovenaan `basics_python.py` de regel `import math` staat:
 daarmee haal je de wiskundefuncties erbij.
 
-Merk op dat je hier een functie *aanroept* binnen je eigen functie, net zoals je
-in Karel een zelfgemaakte instructie kon gebruiken in een andere.
+Merk op dat je hier een functie *aanroept* binnen je eigen functie.
 
 Geef de wortel terug van `a` in het kwadraat plus `b` in het kwadraat.
 
