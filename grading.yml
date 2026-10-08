@@ -45,6 +45,7 @@ grades:
     karel_3: *werkcollege
 
     tutorial_python: *werkcollege
+    tutorial_loops: *werkcollege
     tutorial_strings: *werkcollege
     tutorial_transformatie: *werkcollege
     tutorial_lists: *werkcollege

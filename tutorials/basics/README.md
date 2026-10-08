@@ -185,7 +185,7 @@ def is_leap_year(y: int) -> bool:
 ## 5. Functies uit een bibliotheek
 
 Niet alles hoef je zelf te schrijven. `math.sqrt(x)` geeft de wortel van `x`.
-Dat werkt doordat bovenaan `tutorial_python.py` de regel `import math` staat:
+Dat werkt doordat bovenaan `basics_python.py` de regel `import math` staat:
 daarmee haal je de wiskundefuncties erbij.
 
 Merk op dat je hier een functie *aanroept* binnen je eigen functie, net zoals je
