@@ -1,6 +1,6 @@
 # Introductie in Programmeren KI
 
-## Studiewijzer<br><small>Herfst 2026 (voorlopige versie)</small>
+## Studiewijzer<br><small>Herfst 2026</small>
 
 Dit vak volg je als je Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
@@ -38,13 +38,13 @@ Adventure
 
 ## Contact en aanwezigheid
 
-Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de *manier van de cursus* en daarvoor heb je feedback en interacties met de docent en medestudenten nodig. Om deze reden verwachten we dat je aanwezig bent bij *alle* colleges.
+Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de _manier van de cursus_ en daarvoor heb je feedback en interacties met de docent en medestudenten nodig. Om deze reden verwachten we dat je aanwezig bent bij _alle_ colleges.
 
 Aanwezigheid bij colleges
-: Je wordt verwacht bij **alle** werkcolleges en computerpractica, en wel van de begintijd tot de eindtijd. Op het werkcollege (maandag of dinsdag) zijn er activiteiten voor punten en op het computerpracticum (donderdag of vrijdag) kun je bij uitstek samen met anderen programmeren. Als je één keer een computerpracticum mist is dat natuurlijk geen probleem. Meld je wel even af via <mailto:pyprog@proglab.nl>.
+: Je wordt verwacht bij **alle** werkcolleges en computerpractica, en wel van de begintijd tot de eindtijd. Zowel bij het werkcollege als bij het computerpracticum verdien je een basispunt voor je eindcijfer door deelname aan de tutorial. Als je een keer een computerpracticum mist is dat natuurlijk geen probleem, maar je mist dan wel een puntje. Meld je wel even af via <mailto:pyprog@proglab.nl>.
 
 Te laat komen
-: Na de starttijd van het werkcollege (maandag of dinsdag) mag je niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
+: Na de starttijd van het werkcollege mag je in de regel niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
 
 Ziekmelding
 : Als je ziek bent dan meld je het in ieder geval meteen even aan je docenten via e-mail <mailto:pyprog@proglab.nl>. Je hoeft het niet uitgebreid uit te leggen, maar wel meteen melden. Het contact hierover houden is het belangrijkste dat je kunt doen.
@@ -52,7 +52,7 @@ Ziekmelding
 Uitzonderingen
 : Als je de omgeving te onrustig vindt dan ga je met de docent in gesprek voor een alternatief. Het is niet de bedoeling dat je zomaar wegblijft. Natuurlijk kan je door een persoonlijke omstandigheid ook de wens hebben om helemaal niet naar colleges te komen. Het is jouw taak om de docent hierover aan te spreken en goede afspraken te maken. Hou contact.
 
-> Let op dat de colleges niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
+> Let op dat de colleges zeker niet lang genoeg zijn om alle stof van de week af te krijgen! Je moet nog vele uren buiten de colleges reserveren voor dit vak.
 
 ## Onderdelen eindcijfer
 
@@ -65,30 +65,30 @@ Tentamen (22 punten)
 : - Bij de **tussentoets** halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
 Werkcollege (6 punten praktische oefening)
-: Tijdens het werkcollege op maandag of dinsdag doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per werkcollege punten op.
+: Tijdens de colleges doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per college punten op.
 
 Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
-> Als je hogerejaars bent dan zijn er geen werkcolleges met punten, maar alleen het computerpracticum (zie je rooster). Dat betekent dat de punten van het tentamen en/of tussentoets het volledige eindcijfer bepalen, en het eindcijfer is dan `punten / 22 * 9 + 1`.
+> Als je hogerejaars bent en je maakt een vliegende start, je bent tijdens de eerste week gewoon aanwezig, en je toont na deze week week in een persoonlijk gesprek aan dat je de basis voldoende beheerst, dan kun je het vak volgen zonder de colleges. Het eindcijfer is dan `punten / 22 * 9 + 1`.
 
 ### Oefeningen werkcollege
 
-Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 6 sessies waar je 1 punt per keer kunt verdienen. Het gaat hier om praktische vaardigheden zoals samenwerken, communiceren over code en uitleggen van de werking van code.
+Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 12 sessies waar je 0,5 punt per keer kunt verdienen. Het gaat hier om praktische vaardigheden zoals programmeren, samenwerken, communiceren over code en uitleggen van de werking van code.
 
 Je moet (op tijd) aanwezig zijn én een goed resultaat inleveren om de punten te kunnen krijgen. Ben je niet aanwezig, of te laat, om welke reden dan ook, dan kun je deze punten niet krijgen.
 
-| Week |        Datum | Werkcollege             |
-| :--: | -----------: | ----------------------- |
-|  1   |    26/27 okt | Installatie en formules |
-|  2   |      2/3 nov | Oefeningen strings      |
-|  3   |     9/10 nov | Oefeningen lists        |
-|  4   |              | Tussentoets             |
-|  5   |    23/24 nov | Oefeningen collections  |
-|  6   | 30 nov/1 dec | Oefeningen classes      |
-|  7   |      7/8 dec | Code reviews            |
-|  8   |              | Tentamen                |
+| Week |         Datum | Werkcollege             | Computerpracticum         |
+| :--: | ------------: | ----------------------- | ------------------------- |
+|  1   |    26--30 okt | Installatie en formules | Oefeningen loops          |
+|  2   |      2--6 nov | Oefeningen strings      | Oefeningen transformaties |
+|  3   |     9--13 nov | Oefeningen lists        | Oefentoets                |
+|  4   |               | Tussentoets             |                           |
+|  5   |    16--20 nov | Oefeningen collections  | n.t.b.                    |
+|  6   | 30 nov--4 dec | Oefeningen classes      | n.t.b.                    |
+|  7   |     7--11 dec | Code reviews            | n.t.b.                    |
+|  8   |               | Tentamen                |                           |
 
 ## Huiswerk en deadlines
 
