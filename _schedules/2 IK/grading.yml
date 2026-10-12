@@ -30,8 +30,8 @@ grades:
     oefentoets:
         type: pass
         subgrades:
-            gedaan: boolean
-        calculation: gedaan
+            meegedaan: boolean
+        calculation: meegedaan
         hide_calculated: true
 
     # bij hertentamen vervallen alle eerdere tentamencijfers
