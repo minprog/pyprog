@@ -244,6 +244,7 @@ oefentoetsen:
     show_overview: true
     submits:
         checkup: 1
+        oefentoets: 1
         oefententamen1: 1
         oefententamen2: 1
 
