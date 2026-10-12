@@ -26,6 +26,14 @@ grades:
             python: integer
             advanced_python: float
 
+    # handmatig af te vinken, geen automatische controle
+    oefentoets:
+        type: pass
+        subgrades:
+            gedaan: boolean
+        calculation: gedaan
+        hide_calculated: true
+
     # bij hertentamen vervallen alle eerdere tentamencijfers
     hertentamen:
         type: points
