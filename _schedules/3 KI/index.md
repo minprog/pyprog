@@ -8,7 +8,7 @@ Kom je herkansen? Je maakt dan alle huiswerkopdrachten helemaal opnieuw, zonder 
 
 ## Docenten en assistenten
 
-De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Darius Barsony en Thomas Loots. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze aanspreken tijdens colleges, of in noodgevallen bereiken via e-mail op <pyprog@proglab.nl>.
+De vakcoördinator is Martijn Stegeman, en docenten zijn Jelle van Assema, Emmeke Veltmeijer en Mitchell Verhaar. Zij geven het vak vorm en verzorgen de organisatie. Je kunt ze aanspreken tijdens colleges, of in noodgevallen bereiken via e-mail op <pyprog@proglab.nl>.
 
 Een groep bestaat uit ongeveer 30 studenten. De docenten zijn aanwezig bij hun eigen groep en zorgen voor persoonlijke begeleiding en afspraken. Elke groep heeft naast een docent ook nog een studentassistent die begeleidt bij het maken van de opdrachten. Assistenten geven daarnaast gevraagd en ongevraagd feedback.
 
