@@ -48,6 +48,8 @@ In deze opdracht ga je drie Python-programma's schrijven.
 
 ## Automatisch nakijken
 
-Ga nu naar de tab hierboven "Submit" en stuur je drie programma's in. Je wordt dan doorgestuurd naar de pagina "Voortgang". Als je die na 10-20 seconden ververst, staat er een automatische check klaar die je drie programma's heeft gecontroleerd op de juiste werking.
+Download je drie programma's door in de Terra IDE rechts te klikken op te bestanden.
+
+Ga nu naar de tab hierboven "Submit" en stuur je deze drie programma's in. Je wordt dan doorgestuurd naar de pagina "Voortgang". Als je die na 10-20 seconden ververst, staat er een automatische check klaar die je drie programma's heeft gecontroleerd op de juiste werking.
 
 Begrijp je de output van de check niet (zou best kunnen)? Vraag het de assistenten of je medestudenten.
