@@ -4,7 +4,7 @@
 
 Dit vak volg je als je Kunstmatige Intelligentie studeert. We gaan bij dit vak niet uit van voorkennis van programmeren, maar we zullen alles vanaf de eerste stappen opbouwen. Heb je wel al ervaring, dan zul je er waarschijnlijk wat sneller doorheen gaan, maar tegelijk zal er ook een hoop nieuws zijn in de manier waarop we in dit vak programmeren.
 
-Kom je herkansen? Je maakt dan alle huiswerkopdrachten helemaal opnieuw, zonder naar je werk van vorig jaar te kijken. Er zijn aparte colleges voor deze groep.
+Kom je herkansen? Je maakt dan alle huiswerkopdrachten helemaal opnieuw, zonder naar je werk van vorig jaar te kijken. Je bent verder gewoon ingedeeld in een groep en je eindcijfer is om te beginnen op dezelfde manier samengesteld als dat van de andere studenten.
 
 ## Docenten en assistenten
 
@@ -41,7 +41,7 @@ Adventure
 Dit is een cursus waarbij contact houden met de docent belangrijk is. Elk onderdeel van de cursus is namelijk afhankelijk van de vorige onderdelen. Als je een week niet meedoet is dit lastig in te halen. Daar komt bij dat "gewoon programmeren" niet goed genoeg is. Je moet tijdens het tentamen programmeren op de _manier van de cursus_ en daarvoor heb je feedback en interacties met de docent en medestudenten nodig. Om deze reden verwachten we dat je aanwezig bent bij _alle_ colleges.
 
 Aanwezigheid bij colleges
-: Je wordt verwacht bij **alle** werkcolleges en computerpractica, en wel van de begintijd tot de eindtijd. Zowel bij het werkcollege als bij het computerpracticum verdien je een basispunt voor je eindcijfer door deelname aan de tutorial. Als je een keer een computerpracticum mist is dat natuurlijk geen probleem, maar je mist dan wel een puntje. Meld je wel even af via <mailto:pyprog@proglab.nl>.
+: Je wordt verwacht bij **alle** werkcolleges en computerpractica, en wel van de begintijd tot de eindtijd. Zowel bij het werkcollege als bij het computerpracticum verdien je een basispunt voor je eindcijfer door deelname aan de activiteit. Als je een keer een computerpracticum mist is dat natuurlijk geen probleem, maar je mist dan wel een puntje. Meld je wel even af via <mailto:pyprog@proglab.nl>.
 
 Te laat komen
 : Na de starttijd van het werkcollege mag je in de regel niet meer binnenkomen, ook als er een trein uitvalt. Laat binnenkomen is storend. Zorg dus dat je ruim op tijd vertrekt als je een traject hebt waar de treinen niet goed rijden of je een slechte aansluiting hebt. Het is echt aan jou om hier rekening mee te houden en voorbereid te zijn.
@@ -62,7 +62,7 @@ Tentamen (22 punten)
 : - Het tentamen vindt plaats in week 8 van het vak en beslaat de hele stof.
 : - Het eerste deel van het tentamen gaat over de eerste helft van het vak: echt de basis dus. Door enkele kleinere programma's te schrijven en werkend te krijgen laat je zien dat je deze basis beheerst. Je krijgt 11 punten in één keer als het resultaat voor dit deel voldoende is.
 : - In het tweede deel van het tentamen kun je laten zien hoe goed je de verschillende constructies van Python beheerst en hiermee overzichtelijke programma's kunt bouwen. Er zijn meerdere opgaven die op verschillende manieren punten opleveren. De nadruk ligt op het schrijven van classes.
-: - Bij de **tussentoets** halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
+: - **Let op!** Bij de **tussentoets** halverwege het vak kun je de eerste 11 punten van het basisdeel al binnenhalen. Die hoef je dan niet meer te maken bij het tentamen aan het eind van het vak.
 
 Werkcollege (6 punten praktische oefening)
 : Tijdens de colleges doe je diverse oefeningen waarin je niet alleen programmeert maar ook communiceert over code. Soms gaat het over de algoritmen zelf, soms over het vergelijken van de oplossingen van verschillende studenten, en soms over manieren om oplossingen beter te maken. Voldoende deelname levert per college punten op.
@@ -71,7 +71,7 @@ Het **eindcijfer** is `punten / 28 * 9 + 1`.
 
 De **herkansing** vindt na afloop van het vak plaats en is bedoeld voor studenten die het na een tijd toch een stuk beter beginnen te begrijpen. Bij het maken van de herkansing vervallen de resultaten van het tentamen, inclusief die van de tussentoets. De praktische oefening blijft apart staan.
 
-> Als je hogerejaars bent en je maakt een vliegende start, je bent tijdens de eerste week gewoon aanwezig, en je toont na deze week week in een persoonlijk gesprek aan dat je de basis voldoende beheerst, dan kun je het vak volgen zonder de colleges. Het eindcijfer is dan `punten / 22 * 9 + 1`.
+> Als je hogerejaars bent en je maakt een vliegende start, je bent tijdens de eerste week gewoon aanwezig, en je toont na deze week week in een persoonlijk gesprek aan dat je de basis voldoende beheerst (tijdens de colleges van week 2, waar je dus ook gewoon aanwezig bent), dan kun je het vak volgen zonder de colleges. Het eindcijfer is dan `punten / 22 * 9 + 1`. Als je dit niet precies zo doet tellen de werkcollegepunten gewoon mee als onderdeel van het eindcijfer.
 
 ### Oefeningen werkcollege
 
@@ -97,7 +97,7 @@ Elke week krijg je allerlei programmeeropdrachten als huiswerk. Naast het werk t
 Regelmaat is belangrijker dan deadlines. De bedoeling is dat je:
 
 - Op **maandag of dinsdag** start met de nieuwe onderwerpen in het werkcollege en daarna in het boek studeert. Je kunt dan al een paar oefeningen doen.
-- Tussen **maandag of dinsdag** en **vrijdag** twee of drie dagdelen reserveert om thuis te studeren en te oefenen. Je moet dan een aantal opdrachten hebben gemaakt, hoewel ze misschien niet perfect lukken.
+- **Door de weeks** twee dagdelen reserveert om thuis of op een studielocatie te studeren en te oefenen. Je moet per week een aantal opdrachten hebben gemaakt, hoewel ze misschien niet perfect lukken.
 - Op **donderdag of vrijdag** is het computerpracticum en ga je doorwerken met je medestudenten en vragen stellen. Dit is vooral sociaal studeren en niet altijd vol focus. Maar toch is dit een belangrijke stap.
 - In het **weekend** kun je de finishing touches doen voor een aantal opdrachten. Je kunt ook verder bladeren in het boek en alvast wat lezen.
 
