@@ -6,7 +6,7 @@ Dit vak volg je als je Kunstmatige Intelligentie studeert. We gaan bij dit vak n
 
 Kom je herkansen? Je maakt dan alle huiswerkopdrachten helemaal opnieuw, zonder naar je werk van vorig jaar te kijken. Je bent verder gewoon ingedeeld in een groep en je eindcijfer is om te beginnen op dezelfde manier samengesteld als dat van de andere studenten.
 
-> Tip: verspreid geen screenshots van de studiewijzer, en check vooral deze pagina als je iets doorgestuurd krijgt. Deze studiewijzer kan sowieso nog veranderen tot de start van het vak, juist de kleine regeltjes.
+> Tip: verspreid geen screenshots van de studiewijzer, en check vooral deze pagina als je iets doorgestuurd krijgt. Deze studiewijzer kan namelijk nog veranderen, dus een screenshot is altijd achterhaald. Verwacht tot de start van het vak in ieder geval nog belangrijke veranderingen.
 
 ## Docenten en assistenten
 
