@@ -2,6 +2,8 @@
 
 In deze opdracht ga je drie Python-programma's schrijven.
 
+> Alle programma's tijdens de cursus schrijf je in de Terra IDE. Deze staat altijd gelinkt met een knop bovenaan deze pagina. Tijdens het eerste college heb je als het goed is een Github-account aangemaakt en gekoppeld aan Terra, zodat je meteen aan de slag kan.
+
 ## Programma 1
 
 1. Maak een bestand genaamd `prog1.py`.
