@@ -7,39 +7,57 @@ files:
            # en gebruik de knoppen voor checks!
 buttons:
     check: |
-        def find_forbidden(src: str) -> str | None:
-            """
-            Vindt aanroepen naar ingebouwde string methodes en slicing.
-            Returnt een error bericht met de gebruikt methode of slicing en op welke regel.
-            Returnt None als er er niks aan de hand is :)
-            """
-            method_names = [n for n in dir("") if not n.startswith("__")]
+        import ast
 
-            # lines = src.split("\n")
-            # for method_name in method_names:
-            #     for line_nr, line in enumerate(lines):
-            #         if "." + method_name in line:
-            #             return f"Je mag geen string methodes gebruiken op het tentamen. Zoals {method_name} op regel {line_nr + 1}:\n{line}"
+        def find_forbidden(src: str) -> list[str]:
+            """
+            Vindt dingen die op geen enkele toets zijn toegestaan.
+            Geeft een lijst met foutberichten, gesorteerd op regelnummer.
+            Geeft een lege lijst als er niks aan de hand is :)
+            """
+            lines = src.split("\n")
+            try:
+                tree = ast.parse(src)
+            except SyntaxError as e:
+                return [f"!! Syntaxfout op regel {e.lineno}:\n{e.msg}"]
 
-            import ast
-            msg = None
+            forbidden_methods = {'split', 'find', 'join', 'count'}
+            forbidden_builtins = {'sorted', 'reversed', 'min', 'max', 'abs'}
+            found = []
+
+            def report(node: ast.AST, text: str):
+                line = lines[node.lineno - 1].strip()
+                found.append((node.lineno, f"!! {text} op regel {node.lineno}:\n{line}"))
+
             class Visitor(ast.NodeVisitor):
-                def visit_Slice(self, node: ast.Slice):
-                    nonlocal msg
-                    msg = f"Je mag geen gebruik maken van slicing op het tentamen. Zoals op regel {node.lineno}:\n{lines[node.lineno - 1]}"
+                def visit_Attribute(self, node: ast.Attribute):
+                    if node.attr in forbidden_methods:
+                        report(node, f"Je mag de methode {node.attr} niet gebruiken")
+                    self.generic_visit(node)
 
-            tree = ast.parse(src)
-            visitor = Visitor()
-            visitor.visit(tree)
+                def visit_Call(self, node: ast.Call):
+                    if isinstance(node.func, ast.Name) and node.func.id in forbidden_builtins:
+                        report(node, f"Je mag de functie {node.func.id} niet gebruiken")
+                    self.generic_visit(node)
 
-            return msg
+                def _comprehension(self, node: ast.expr):
+                    report(node, "Je mag geen comprehensions gebruiken")
+                    self.generic_visit(node)
+
+                visit_ListComp = visit_SetComp = visit_DictComp = visit_GeneratorExp = _comprehension
+
+            Visitor().visit(tree)
+            return [msg for _, msg in sorted(found)]
+
         with open('<filename>.py') as f:
             code = f.read()
         res = find_forbidden(code)
         if res:
-            print(res)
+            print()
+            print('\n\n'.join(res))
         else:
-            print("Geen slicing gevonden, dat is mooi.")
+            print("\nGeen verboden constructies gevonden, maar het is je eigen\n"
+                    "verantwoordelijkheid om alleen toegestane onderdelen te\ngebruiken.")
     mypy: |
         from mypy import api as mypy_api
         mypy_api.run(['--strict', '<filename>.py'])[0]
