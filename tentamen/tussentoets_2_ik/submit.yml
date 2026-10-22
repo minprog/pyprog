@@ -20,7 +20,11 @@ buttons:
                 return [f"!! Syntaxfout op regel {e.lineno}:\n{e.msg}"]
 
             forbidden_methods = {'split', 'find', 'join', 'count'}
-            forbidden_builtins = {'sorted', 'reversed', 'min', 'max', 'abs'}
+            forbidden_builtins = {
+                'sorted', 'reversed', 'min', 'max', 'abs', 'map', 'zip', 'all', 'any', 'eval',
+            }
+            forbidden_imports = {'math', 'decimal'}
+            old_typing = ['Optional', 'List[', 'Tuple[', 'Dict[', 'Set[']
             found = []
 
             def report(node: ast.AST, text: str):
@@ -38,6 +42,24 @@ buttons:
                         report(node, f"Je mag de functie {node.func.id} niet gebruiken")
                     self.generic_visit(node)
 
+                def visit_Try(self, node: ast.Try):
+                    report(node, "Je mag try niet gebruiken")
+                    self.generic_visit(node)
+
+                def visit_Import(self, node: ast.Import):
+                    for alias in node.names:
+                        if alias.name in forbidden_imports:
+                            report(node, f"Je mag {alias.name} niet importeren")
+
+                def visit_ImportFrom(self, node: ast.ImportFrom):
+                    if node.module in forbidden_imports:
+                        report(node, f"Je mag {node.module} niet importeren")
+
+                def visit_Name(self, node: ast.Name):
+                    if node.id in ('print', 'input'):
+                        report(node, f"Je mag {node.id} niet gebruiken: "
+                                     f"print en input horen niet in de tentamenopgaven")
+
                 def _comprehension(self, node: ast.expr):
                     report(node, "Je mag geen comprehensions gebruiken")
                     self.generic_visit(node)
@@ -45,6 +67,14 @@ buttons:
                 visit_ListComp = visit_SetComp = visit_DictComp = visit_GeneratorExp = _comprehension
 
             Visitor().visit(tree)
+
+            for nr, line in enumerate(lines, start=1):
+                if "\t" in line:
+                    found.append((nr, f"!! Je mag geen tabs gebruiken op regel {nr}:\n{line.strip()}"))
+                for name in old_typing:
+                    if name in line:
+                        found.append((nr, f"!! Gebruik list[...] en ... | None i.p.v. {name} "
+                                          f"op regel {nr}:\n{line.strip()}"))
             return [msg for _, msg in sorted(found)]
 
         with open('<filename>.py') as f:
@@ -54,8 +84,7 @@ buttons:
             print()
             print('\n\n'.join(res))
         else:
-            print("\nGeen verboden constructies gevonden, maar het is je eigen\n"
-                    "verantwoordelijkheid om alleen toegestane onderdelen te\ngebruiken.")
+            print("\nGeen verboden constructies gevonden, maar let zelf goed op.")
     mypy: |
         print("Checking types...")
 
