@@ -32,6 +32,8 @@ buttons:
                 found.append((node.lineno, f"!! {text} op regel {node.lineno}:\n{line}"))
 
             class Visitor(ast.NodeVisitor):
+                function_depth = 0
+
                 def visit_Attribute(self, node: ast.Attribute):
                     if node.attr in forbidden_methods:
                         report(node, f"Je mag de methode {node.attr} niet gebruiken")
@@ -55,10 +57,14 @@ buttons:
                     if node.module in forbidden_imports:
                         report(node, f"Je mag {node.module} niet importeren")
 
+                def visit_FunctionDef(self, node: ast.FunctionDef):
+                    self.function_depth += 1
+                    self.generic_visit(node)
+                    self.function_depth -= 1
+
                 def visit_Name(self, node: ast.Name):
-                    if node.id in ('print', 'input'):
-                        report(node, f"Je mag {node.id} niet gebruiken: "
-                                     f"print en input horen niet in de tentamenopgaven")
+                    if self.function_depth > 0 and node.id in ('print', 'input'):
+                        report(node, f"{node.id} hoort niet gebruikt te worden in je uitwerking van de opgaven")
 
                 def _comprehension(self, node: ast.expr):
                     report(node, "Je mag geen comprehensions gebruiken")
@@ -84,7 +90,7 @@ buttons:
             print()
             print('\n\n'.join(res))
         else:
-            print("\nGeen verboden constructies gevonden, maar let zelf goed op.")
+            print("\nGeen verboden constructies gevonden, maar je moet het zelf ook checken!")
     mypy: |
         print("Checking types...")
 
