@@ -16,7 +16,7 @@ grades:
         exam: true
         hide_calculated: true
         subgrades:
-            karel: float
+            # karel: float
             python: integer
     tentamen:
         type: points
@@ -271,7 +271,7 @@ karel:
     type: points_last
     submits:
         tussentoets_1_ik.karel: 3
-        tussentoets_2_ik.karel: 3
+        # tussentoets_2_ik.karel: 3
 python:
     show_overview: true
     exam: true
