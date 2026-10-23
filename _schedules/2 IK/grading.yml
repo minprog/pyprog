@@ -71,6 +71,13 @@ calculation:
         werkcolleges?: 6
         hertentamen: 18
 
+tentamens:
+    show_progress: true
+    submits:
+        tussentoets_1_ik: 1
+        tussentoets_2_ik: 1
+        tentamen: 1
+
 werkcolleges:
     show_progress: true
     type: points
@@ -257,12 +264,6 @@ oefentoetsen:
         oefententamen1: 1
         oefententamen2: 1
 
-tentamens:
-    show_progress: true
-    submits:
-        tussentoets_1_ik: 1
-        tussentoets_2_ik: 1
-        tentamen: 1
 
 
 # tentamen-componenten: laatste telt doorgaans
