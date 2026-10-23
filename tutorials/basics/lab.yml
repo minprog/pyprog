@@ -4,7 +4,7 @@ lab:
         - readme
         - terminal
     files:
-        - basics_python.py
+        - tutorial_python_basics.py
     buttons:
         run:
         doctest: |

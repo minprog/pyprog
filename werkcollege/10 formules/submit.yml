@@ -1,3 +1,7 @@
 name: tutorial_formules
 type: practice
 lab_config: https://minprog.github.io/pyprog/tutorials/basics
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: tutorial_python_basics
