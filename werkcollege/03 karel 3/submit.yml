@@ -1,5 +1,5 @@
 name: karel_3
-exam: true
+type: practice
 files:
     required:
         playground.karel: ''
