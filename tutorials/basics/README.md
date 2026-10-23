@@ -88,7 +88,7 @@ maal `a` maal `a`.
 
 **Kopieer de functie en vul de uitwerking in.**
 
-**Verwijder niet de eerdere functies. Je bestand moet straks alle correcte uitwerkingen bevatten.**
+**Verwijder geen gemaakte/gekopieerde functies uit je bestand, maar voeg steeds nieuwe toe. Je bestand moet straks alle correcte uitwerkingen bevatten.**
 
 ```python
 def cube(a: int) -> int:
@@ -109,8 +109,8 @@ Een functie kan meerdere parameters hebben; je zet er komma's tussen. Bij het
 aanroepen geef je de waarden in dezelfde volgorde mee.
 
 Tel de drie getallen op en deel door 3. Delen doe je met `/`. Let op: daar komt
-altijd een kommagetal uit, ook als het precies uitkomt. Daarom staat er `3.0` in
-de test en niet `3`.
+altijd een kommagetal uit, ook als het precies uitkomt. Daarom staat er `2.0` in
+de test en niet `2`.
 
 ```python
 def avg3(a: float, b: float, c: float) -> float:
