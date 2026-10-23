@@ -18,6 +18,7 @@ grades:
         subgrades:
             # karel: float
             python: integer
+        calculation: python
     tentamen:
         type: points
         exam: true
