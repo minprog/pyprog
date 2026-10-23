@@ -72,9 +72,8 @@ Het werkcollege is de eerste bijeenkomst van het vak. Je krijgt daar het boek da
 - Achterhalen en precies maken van formules
 - Formules opschrijven op zo'n manier dat Python het begrijpt
 - Schrijven van kleine functies op basis van de formules
-- Installeren van Python en een editor op je computer
 
-Later in de week (donderdag of vrijdag) is er ook een computerpracticum. Ook hier verwachten we jouw aanwezigheid, net als bij het werkcollege. Tijdens het computerpracticum ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk. Ook zal de docent nog één of twee programma's live uitwerken zodat je kunt meekijken hoe dat gaat.
+Later in de week (donderdag of vrijdag) is er ook een computerpracticum. Ook hier verwachten we jouw aanwezigheid, net als bij het werkcollege. Er is een wat kortere activiteit, ook weer voor een punt. Tijdens de rest van het computerpracticum ga je werken aan de opdrachten en er is veel ruimte om vragen te stellen en met andere studenten eerste opzetjes te maken voor je huiswerk. Ook zal de docent nog één of twee programma's live uitwerken zodat je kunt meekijken hoe dat gaat.
 
 ## Studiematerialen en huiswerk
 
