@@ -5,8 +5,8 @@ Welkom:
 # Basic form
 'Week 1: Programmeren':
     '[icon:list-check] Overzicht': /modules_kort/programmeren
-    'Werkcollege: Formules': /werkcollege/formules
-    'Werkcollege: Installatie': /installatie/terra
+    # 'Werkcollege: Formules': /werkcollege/formules
+    'Installatie': /installatie/terra
     Functies en expressies:
         '[icon:journal-code] Hoofdstuk 1 t/m 3': /boek/boek1
         '[icon:puzzle] Een programma zonder functies schrijven': /opdrachten/expressies/programma
@@ -24,7 +24,7 @@ Welkom:
         '[icon:diagram-3] Rechthoeken': /opdrachten/conditionals/rechthoeken
     Loops:
         '[icon:journal-code] Paragraaf 4.4-4.7': /boek/boek3
-        '[icon:puzzle] Loops-tutorial': /werkcollege/loops
+        # '[icon:puzzle] Loops-tutorial': /werkcollege/loops
         '[icon:puzzle] Een reeks van onbekende lengte met while': /opdrachten/loops/collatz
         '[icon:puzzle] Input-loops met while': /opdrachten/loops/input
         # while
