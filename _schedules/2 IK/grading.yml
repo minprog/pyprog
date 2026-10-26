@@ -78,6 +78,7 @@ tentamens:
         tussentoets_2_ik: 1
         tentamen: 1
 
+
 werkcolleges:
     show_progress: true
     type: points
