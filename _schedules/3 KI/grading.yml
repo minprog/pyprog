@@ -1,0 +1,208 @@
+_settings:
+    start_date: 26/10/26
+    end_date: 18/12/26
+
+grades:
+    # De tussentoets levert de 11 punten van het basisdeel op.
+    tussentoets_ki:
+        type: points
+        exam: true
+        hide_calculated: true
+        subgrades:
+            python: integer
+    tentamen:
+        type: points
+        exam: true
+        hide_calculated: true
+        subgrades:
+            python: integer
+            advanced_python: integer
+
+    # handmatig af te vinken, geen automatische controle
+    oefentoets:
+        type: pass
+        subgrades:
+            meegedaan: boolean
+        calculation: meegedaan
+        hide_calculated: true
+
+    # bij hertentamen vervallen alle eerdere tentamencijfers
+    hertentamen:
+        type: points
+        exam: true
+        subgrades:
+            python: integer
+            advanced_python: integer
+        calculation: sum_all
+
+calculation:
+    # Totaal 28 punten: tentamen 22 + werkcolleges 6.
+    eindcijfer:
+        werkcolleges?: 6
+        python: 11
+        advanced_python: 11
+    herkansing:
+        werkcolleges?: 6
+        hertentamen: 22
+
+tentamens:
+    show_progress: true
+    submits:
+        tussentoets_ki: 1
+        tentamen: 1
+
+# 12 sessies van 0,5 punt (werkcollege en computerpracticum).
+werkcolleges:
+    show_progress: true
+    type: points
+    submits:
+        tutorial_formules: 0.5
+        tutorial_loops: 0.5
+        tutorial_strings: 0.5
+        tutorial_transformatie: 0.5
+        tutorial_lists: 0.5
+        oefentoets: 0.5
+        tutorial_collections: 0.5
+        tutorial_classes_queue: 0.5
+        # r1: 0.5
+        # Nog niet bepaald (n.t.b. in de studiewijzer):
+        # ntb_1: 0.5
+        # ntb_2: 0.5
+        # ntb_3: 0.5
+
+week_1:
+    show_progress: true
+    deadline: 30/10/26 17:00
+    submits:
+        programma: 1
+        weken: 1
+
+        water: 1
+        cafeine: 1
+        vakantie: 1
+
+        acid: 1
+        schrikkel: 1
+        orakel: 1
+        rechthoeken: 1
+
+        collatz: 1
+        int_input: 1
+        greedy: 1
+        populatie: 1
+        piramide: 1
+        temperatuur: 1
+
+week_2:
+    show_progress: true
+    requirement: [ programma, weken, water, cafeine, vakantie, acid, schrikkel, orakel, rechthoeken, collatz, int_input, greedy, populatie, piramide, temperatuur ]
+    deadline: 6/11/26 17:00
+    submits:
+        string_analyse: 1
+        string_verschillen: 1
+
+        alfabet: 1
+        etenstijd: 1
+        calculator: 1
+        wachtwoord: 1
+        leesbaarheid: 1
+
+        string_transformatie_complex: 1
+        yell: 1
+        rna: 1
+        vwl: 1
+        shout: 1
+        camelcase: 1
+
+week_3:
+    show_progress: true
+    requirement: [ string_analyse, string_verschillen, alfabet, etenstijd, calculator, wachtwoord, leesbaarheid, string_transformatie_complex, yell, rna, vwl, shout, camelcase ]
+    deadline: 13/11/26 17:00
+    submits:
+        list_int_basics: 1
+        list_basics: 1
+        rotate: 1
+        compact: 1
+        uniq: 1
+        chunk: 1
+        contig: 1
+        interleave: 1
+
+        banner: 1
+        scrabble: 1
+        merge_lists: 1
+        selection_sort: 1
+        special_sort: 1
+
+week_5:
+    show_overview: true
+    deadline: 20/11/26 17:00
+    submits:
+        collection_functions: 1
+        sjoelen: 1
+        schuifpuzzel: 1
+        indexer: 1
+
+week_6:
+    show_overview: true
+    deadline: 4/12/26 17:00
+    submits:
+        country: 1
+        lines: 1
+        rgb: 1
+        point: 1
+        times: 1
+
+        cards: 1
+        phonebook: 1
+        inventory: 1
+        browser_history: 1
+        vocabulary_trainer: 1
+
+week_7:
+    show_overview: true
+    deadline: 11/12/26 17:00
+    submits:
+        adventure: 1
+
+challenges:
+    show_overview: true
+    submits:
+        kalender: 1
+        priemgetallen: 1
+        pwdgen: 1
+        monopoly: 1
+        compress: 1
+        virus: 1
+        kunstroof: 1
+
+oefentoetsen:
+    show_overview: true
+    submits:
+        checkup: 1
+        oefentoets: 1
+        oefententamen1: 1
+
+# tentamen-componenten: laatste telt doorgaans
+python:
+    show_overview: true
+    exam: true
+    type: points_last
+    submits:
+        tussentoets_ki.python: 11
+        tentamen.python: 11
+advanced_python:
+    show_overview: true
+    exam: true
+    type: points
+    submits:
+        tentamen.advanced_python: 11
+
+# hertentamen is apart
+hertentamen:
+    show_overview: true
+    exam: true
+    type: points
+    attempt_required: true
+    submits:
+        hertentamen: 22
