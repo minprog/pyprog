@@ -50,6 +50,7 @@ grades:
     tutorial_strings: *werkcollege
     tutorial_transformatie: *werkcollege
     tutorial_lists: *werkcollege
+    tutorial_collections: *werkcollege
 
     # module 1
     boek1: *check
