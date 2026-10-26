@@ -135,7 +135,7 @@ Module 7:
 # Collections intro
 Module 9:
     '[icon:list-check] Overzicht': /modules/collections
-    'Werkcollege: Collections-tutorial': /werkcollege/collections
+    # 'Werkcollege: Collections-tutorial': /werkcollege/collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
     Oefenen:
         '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
