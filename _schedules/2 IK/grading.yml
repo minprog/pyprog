@@ -89,13 +89,7 @@ werkcolleges:
         tutorial_strings: 0.5
         tutorial_transformatie: 0.5
         tutorial_lists: 0.5
-
-        # werkcollege_loops: 0.5
-        # werkcollege_strings: 0.5
-        # werkcollege_transformatie: 0.5
-        # werkcollege_lists: 0.5
-
-        # werkcollege_collections: 0.5
+        werkcollege_collections: 0.5
         # werkcollege_classes_queue: 0.5
         # r1: 0.5
         # r2: 0.5
