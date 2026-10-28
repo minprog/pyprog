@@ -441,7 +441,35 @@ def nth_leap_year(start: int, n: int) -> int:
     ...
 ```
 
-{% next "Afronden" %}
+{% next "Verder: priemgetallen" %}
+
+## 9. Priemgetallen
+
+Definieer een functie `is_prime()` met één argument die van een bepaald getal onderzoekt of het een priemgetal is of niet. De functie moet een `bool` returnen.
+
+Begin zo simpel mogelijk. Gebruik een `for`-loop en modulo om te bepalen *hoeveel getallen een deler zijn* van het argument. Als je dit bijhoudt in de loop (tellen!), kun je na afloop van de loop bepalen of het getal een priemgetal is of niet.
+
+```python
+def is_prime(n: int) -> bool:
+    ...
+```
+
+{% next "Verder: meer priemgetallen" %}
+
+## 10. Een lijst priemgetallen
+
+Definieer een functie `print_prime_list()` met één argument, `until`. Maak in deze functie een `for`-loop om alle getallen onder de `until` langs te lo(o)pen en bepaal voor elk van deze "kandidaat-priemgetallen" of het wel of niet een priemgetal is door de functie `is_prime` aan te roepen.
+
+Schrijf deze procedure en maak deze goed werkend. De functie moet niets returnen(!), maar moet wel ieder gevonden priemgetal printen op een losse regel.
+
+```python
+def print_prime_list(until: int) -> None:
+    ...
+```
+
+(Check op internet maar alsjeblieft niet met een LLM of het antwoord klopt.)
+
+{% next "Verder: klaar!" %}
 
 ## Klaar
 
