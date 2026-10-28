@@ -4,7 +4,7 @@ lab:
         - readme
         - terminal
     files:
-        - loops_python.py
+        - tutorial_loops.py
     buttons:
         run:
         doctest: |
