@@ -1,3 +1,7 @@
 name: tutorial_loops
 type: practice
 lab_config: https://minprog.github.io/pyprog/tutorials/loops
+check:
+    tool: checkpy
+    repo: minprog/python
+    args: tutorial_loops

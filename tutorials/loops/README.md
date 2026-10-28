@@ -5,7 +5,7 @@ meerdere keren doen: een reeks getallen laten zien, alle jaren in een periode
 langslopen, of doorzoeken tot je iets gevonden hebt. Daarvoor zijn loops.
 
 **Hoe het werkt.** Elke pagina hieronder laat één functie zien. Kopieer die naar
-`loops_python.py` in de editor en vervang de `...` door je eigen code. Klik
+`tutorial_loops.py` in de editor en vervang de `...` door je eigen code. Klik
 op de knop **doctest** om alle functies te controleren die je tot dan toe
 geschreven hebt. De regels met `>>>` in elke functie zijn de tests: ze laten een
 aanroep zien en wat daarvan op het scherm moet verschijnen of wat eruit moet
