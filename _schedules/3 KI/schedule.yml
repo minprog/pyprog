@@ -43,7 +43,6 @@ Welkom:
 # idee: focus op meerdere manieren implementeren (veel std-func of eigen loops)
 'Week 2: Strings':
     '[icon:list-check] Overzicht': /modules_kort/strings
-    'Werkcollege: Strings-tutorial': /werkcollege/strings
     '[icon:journal-code] Hoofdstuk 5 en 6': /boek/boek4
     String-analyse:
         '[icon:diagram-2] Alfabet': /opdrachten/strings/alfabet
