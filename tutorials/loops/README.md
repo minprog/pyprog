@@ -39,7 +39,7 @@ geprint worden.
 
 Kopieer de functie naar de editor en klik op **doctest**.
 
-```python
+```
 def print_one_to_five() -> None:
     """
     >>> print_one_to_five()
@@ -91,7 +91,7 @@ Het voorbeeld hieronder print de veelvouden van 5 van 5 tot en met 30:
   getal achter dat groter is dan 30, maar kleiner dan het volgende getal in de
   reeks (35). Hier werkt 31.
 
-```python
+```
 def print_fives() -> None:
     """
     >>> print_fives()
@@ -137,7 +137,7 @@ De stap mag ook negatief zijn. Dan telt `range` terug:
 Dit print 5, 4, 3, 2 en 1. Ook nu doet het einde niet mee: bij een negatieve
 stap stopt de loop dus **voor** het einde, en komt 0 er niet in.
 
-```python
+```
 def print_countdown() -> None:
     """
     >>> print_countdown()
@@ -194,7 +194,7 @@ getal dat deelbaar is door 5:
 - Tekst zet je tussen aanhalingstekens. Print je `"!"`, dan zie je een `!` op
   het scherm.
 
-```python
+```
 def print_with_exclamations() -> None:
     """
     >>> print_with_exclamations()
@@ -271,7 +271,7 @@ Dit gebeurt er:
 
 Dit print zes getallen: 1, 2, 4, 8, 16 en 32.
 
-```python
+```
 def print_doublings() -> None:
     """
     >>> print_doublings()
@@ -321,7 +321,7 @@ dat naar beneden afrondt:
 Je kunt dit gebruiken om steeds door een getal te delen. Dit voorbeeld halveert
 vanaf 100, negen keer:
 
-```python
+```
 def print_halvings() -> None:
     """
     >>> print_halvings()
@@ -375,7 +375,7 @@ Nu gebruik je loops om iets uit te rekenen in plaats van te printen. Voor de
 volgende opdrachten heb je de functie `is_leap_year` nodig. Die is hier al af:
 kopieer hem naar de editor en klik op **doctest**.
 
-```python
+```
 def is_leap_year(y: int) -> bool:
     """
     >>> is_leap_year(2024)
