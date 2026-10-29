@@ -364,6 +364,28 @@ def biggest(xs: list[int]) -> int:
     ...
 ```
 
+{% next "Verder: elementen tellen" %}
+
+### Tel elementen
+
+Een functie die telt hoe vaak een bepaald element te vinden is in een lijst (bijvoorbeeld een getal).
+
+    def list_count_element(lst: list[object], elt: object) -> int:
+        ...
+
+Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
+
+{% next "Verder: even getallen tellen" %}
+
+### Tel even getallen
+
+Een functie telt hoeveel integers uit de lijst `lst` even zijn.
+
+    def list_count_even(lst: list[int]) -> int:
+        ...
+
+Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
+
 {% next "Verder: een nieuwe list opbouwen" %}
 
 ## 10. Een nieuwe list opbouwen
@@ -411,6 +433,28 @@ def multiply_all(xs: list[int], factor: int) -> list[int]:
     ...
 ```
 
+{% next "Verder: even getallen pakken" %}
+
+### Pak de even getallen
+
+Een functie die uit een lijst `lst` de even getallen haalt en in een nieuwe lijst zet.
+
+    def list_get_even(lst: list[int]) -> list[int]:
+        ...
+
+Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
+
+{% next "Verder: meerdere elementen tellen" %}
+
+### Tel meerdere elementen
+
+Een functie die telt hoe vaak bepaalde elementen te vinden zijn in een lijst (bijvoorbeeld getallen). Als `lst_elt` bijvoorbeeld de getallen 4 en 29 bevat, telt de functie hoevaak deze getallen voorkomen in de lijst `lst` (bij elkaar! niet allemaal aparte tellingen)
+
+    def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
+        ...
+
+Beperkingen: je moet de functie met een loop schrijven om langs alle elementen in `lst` te gaan. Als je een element uit `lst` hebt mag je met `element in lst_elt` kijken of het één van de gezochte elementen is.
+
 {% next "Verder: loopen met een index" %}
 
 ## 11. Loopen met een index
@@ -441,56 +485,42 @@ def is_sorted(xs: list[int]) -> bool:
     ...
 ```
 
-{% next "Verder: sorteren en kopiëren" %}
+{% next "Verder: alles even?" %}
 
-## 12. Sorteren en kopiëren
+### Beslissing: alles even?
 
-Er zijn twee manieren om te sorteren, en het verschil is belangrijk:
+Een functie die controleert of alle integers uit de lijst `lst` even zijn.
 
-    sorted(xs)    # geeft een nieuwe, gesorteerde list; xs blijft zoals hij was
-    xs.sort()     # sorteert xs zelf en geeft niets terug
+    def list_check_all_even(lst: list[int]) -> bool:
+        ...
 
-Schrijf een functie die een gesorteerde kopie teruggeeft en de originele list
-niet aanpast.
+Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
 
-```python
-def sorted_copy(xs: list[int]) -> list[int]:
-    """
-    >>> numbers = [3, 1, 2]
-    >>> sorted_copy(numbers)
-    [1, 2, 3]
-    >>> numbers
-    [3, 1, 2]
-    """
-    ...
-```
+Tip: het is niet helemaal duidelijk wat het antwoord moet zijn als er helemaal geen getallen in de lijst staan. We kiezen hier voor `True` (dit betekent: triviaal waar).
 
-{% next "Verder: een alias" %}
+{% next "Verder: een element zoeken" %}
 
-Als je een list aan een tweede variabele toewijst, kopieer je hem niet. Je hebt
-dan twee namen voor dezelfde list:
+### Zoek een element
 
-    a = [1, 2]
-    b = a
-    b.append(3)
-    a       ->  [1, 2, 3]
+Een functie die checkt of het element `elt` ergens in de lijst `lst` staat.
 
-Wil je echt een losse kopie, gebruik dan `xs.copy()` (of `xs[:]`).
+    def list_contains_element(lst: list[object], elt: object) -> bool:
+        ...
 
-Schrijf een functie die `xs` kopieert, aan de kopie `0` toevoegt en de kopie
-teruggeeft. De originele list moet hetzelfde blijven.
+Beperkingen: je moet de functie met een loop schrijven, dus bestaande onderdelen van Python zoals `in` en `find` zijn niet toegestaan.
 
-```python
-def with_zero(xs: list[int]) -> list[int]:
-    """
-    >>> numbers = [1, 2]
-    >>> with_zero(numbers)
-    [1, 2, 0]
-    >>> numbers
-    [1, 2]
-    """
-    ...
-```
+Tip: we gebruiken hier `list[object]` om aan te geven dat de lijst elke soort element kan bevatten. In Python is alle data niet alleen een `int`, `float`, of `str` maar sowieso ook een `object`.
+
+{% next "Verder: een missend element zoeken" %}
+
+### Zoek een missend element
+
+Een functie die checkt of het element `elt` **niet** in de lijst `lst` staat.
+
+    def list_contains_no_element(lst: list[object], elt: object) -> bool:
+        ...
+
+Beperkingen: je moet de functie met een loop schrijven, dus bestaande onderdelen van Python zoals `in` en `find` zijn niet toegestaan. Je mag niet de functie `list_contains_element` aanroepen.
 
 {% next "Afronden" %}
 

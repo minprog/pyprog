@@ -64,11 +64,8 @@ Welkom:
 # Lots of lists
 'Week 3: Lists':
     '[icon:list-check] Overzicht': /modules_kort/lists
-    'Werkcollege: Lists-tutorial': /werkcollege/lists
     '[icon:journal-code] Paragraaf 7.1-7.3': /boek/boek5
     Oefenen:
-        '[icon:puzzle] Integer lists': /opdrachten/lists/int_lists
-        '[icon:puzzle] List basics': /opdrachten/lists/basics
         '[icon:diagram-2] Rotate': /opdrachten/lists/rotate #(rotating shift)
         '[icon:diagram-2] Compact': /opdrachten/lists/compact #(remove 0 or Falsy)
         '[icon:diagram-2] Uniq': /opdrachten/lists/uniq #(verwijder dubbelen met volgorde)
