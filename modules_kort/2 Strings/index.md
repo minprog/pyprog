@@ -10,7 +10,7 @@ Deze week werk je met strings: rijtjes tekens. Eerst oefen je met loops om strin
 |  | Uur 2 | Afmaken tutorial |
 |  | Uur 3 | Start met weekopdrachten |
 | Computerpracticum | Uur 1 | Transformaties-tutorial |
-|  | Uur 2 | Huiswerk maken |
+|  | Uur 2 | Transformaties-tutorial |
 |  | Uur 3 | Huiswerk maken |
 
 ## Inleveren

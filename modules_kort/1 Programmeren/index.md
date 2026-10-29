@@ -12,7 +12,7 @@ We werken nu toe naar de tussentoets die in week 4 plaatsvindt. Week 1 t/m 3 hel
 |  | Uur 2 | Afmaken tutorial |
 |  | Uur 3 | Installatie + uitdelen boek |
 | Computerpracticum | Uur 1 | Loops-tutorial |
-|  | Uur 2 | Huiswerk maken |
+|  | Uur 2 | Loops-tutorial |
 |  | Uur 3 | Huiswerk maken |
 
 ## Studeervolgorde
