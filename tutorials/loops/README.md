@@ -408,6 +408,10 @@ def count_leap_years(start: int, end: int) -> int:
     2
     >>> count_leap_years(1800, 1900)
     24
+    >>> count_leap_years(2001, 2003)
+    0
+    >>> count_leap_years(2024, 2024)
+    1
     """
     ...
 ```
@@ -437,6 +441,10 @@ def nth_leap_year(start: int, n: int) -> int:
     1804
     >>> nth_leap_year(2000, 3)
     2008
+    >>> nth_leap_year(1896, 3)
+    1908
+    >>> nth_leap_year(1999, 2)
+    2004
     """
     ...
 ```
@@ -454,6 +462,8 @@ def is_prime(n: int) -> bool:
     ...
 ```
 
+**Schrijf hier zelf doctests!!**
+
 {% next "Verder: meer priemgetallen" %}
 
 ## 10. Een lijst priemgetallen
@@ -466,8 +476,7 @@ Schrijf deze procedure en maak deze goed werkend. De functie moet niets returnen
 def print_prime_list(until: int) -> None:
     ...
 ```
-
-(Check op internet maar alsjeblieft niet met een LLM of het antwoord klopt.)
+**Schrijf hier zelf doctests!!**
 
 {% next "Verder: klaar!" %}
 
