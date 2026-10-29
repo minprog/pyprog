@@ -98,16 +98,12 @@ week_2:
     requirement: [ programma, weken, water, cafeine, vakantie, acid, schrikkel, orakel, rechthoeken, collatz, int_input, greedy, populatie, piramide, temperatuur ]
     deadline: 6/11/26 17:00
     submits:
-        string_analyse: 1
-        string_verschillen: 1
-
         alfabet: 1
         etenstijd: 1
         calculator: 1
         wachtwoord: 1
         leesbaarheid: 1
 
-        string_transformatie_complex: 1
         yell: 1
         rna: 1
         vwl: 1
@@ -116,7 +112,7 @@ week_2:
 
 week_3:
     show_progress: true
-    requirement: [ string_analyse, string_verschillen, alfabet, etenstijd, calculator, wachtwoord, leesbaarheid, string_transformatie_complex, yell, rna, vwl, shout, camelcase ]
+    requirement: [ alfabet, etenstijd, calculator, wachtwoord, leesbaarheid, yell, rna, vwl, shout, camelcase ]
     deadline: 13/11/26 17:00
     submits:
         list_int_basics: 1

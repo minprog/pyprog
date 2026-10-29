@@ -267,6 +267,146 @@ def count_vowels(s: str) -> int:
     ...
 ```
 
+{% next "Verder: spacing" %}
+
+## 7. Spacing
+
+Schrijf een functie `isspace` die een string `s` aanneemt met daarin één teken en bepaalt of deze string "witruimte" is. Een teken is witruimte als het één van de volgende tekens is:
+
+- [spatie](https://en.wikipedia.org/wiki/Space_(punctuation)) (dit teken schrijf je als `" "`)
+- [tab](https://en.wikipedia.org/wiki/Tab_key) (dit teken schrijf je als `"\t"`)
+- [newline](https://en.wikipedia.org/wiki/Newline) (dit teken schrijf je als `"\n"`)
+
+Je kunt deze tekens opnemen in je code zoals hierboven geschreven. Misschien goed om even uit te leggen: sommige speciale tekens kun je opnemen in een string door middel van een backslash `\` en dan bijvoorbeeld een letter. Een `\n` is bijvoorbeeld nodig omdat je niet zomaar een Enter midden in een string in je code kunt tikken.
+
+De functie kan uit één regel bestaan:
+
+    def isspace(c: str) -> bool:
+        return <hier de formule of c witruimte is>
+
+- Wat moet de functie doen als de gegeven string meer dan één teken bevat? Dat is niet gedefinieerd in deze opgave. Je mag dit negeren.
+
+```python
+def isspace(c: str) -> bool:
+    """
+    >>> isspace(" ")
+    True
+    >>> isspace("\t")
+    True
+    >>> isspace("\n")
+    True
+    >>> isspace("a")
+    False
+    """
+    ...
+```
+
+{% next "Verder: klinker-check" %}
+
+## 8. Klinker-check
+
+Schrijf een functie `isvowel` die een string `s` aanneemt met daarin één *of meer* tekens en bepaalt of alle tekens in deze string klinkers zijn. Als klinkers beschouwen we: `a`, `e`, `i`, `o` en `u`.
+
+Je moet dus checken of <u>alle</u> tekens klinkers zijn. De logica gebiedt dat als je ook maar één teken tegenkomt dat <u>geen</u> klinker is, je direct `False` mag returnen. Het ziet er dan zo uit:
+
+    for char in s:
+        if ...:
+            return False
+    return True
+
+- Dus in de loop zie je dat, op een bepaalde voorwaarde, direct `return False` wordt gedaan.
+- Wat moet de functie doen als de gegeven string leeg is? `True` returnen (dit is makkelijker). Check dit gewenste resultaat in een extra doctest.
+
+```python
+def isvowel(s: str) -> bool:
+    """
+    >>> isvowel("a")
+    True
+    >>> isvowel("slim")
+    False
+    >>> isvowel("")
+    True
+    """
+    ...
+```
+
+{% next "Verder: eén klinker" %}
+
+## 9. Eén klinker
+
+Schrijf een functie `has_single_vowel` die een string `s` aanneemt. De functie checkt of er minimaal en maximaal één klinker in voorkomt. Je moet dus alle tekens afgaan en een teller bijhouden. Om te checken of één teken een klinker is gebruik je de eerder gemaakte functie `isvowel`.
+
+    aantal_klinkers = 0
+    for char in s:
+        if ...:
+            aantal_klinkers += 1
+
+    <hier code om een conclusie te trekken op basis van aantal_klinkers>
+
+```python
+def has_single_vowel(s: str) -> bool:
+    """
+    >>> has_single_vowel("bims")
+    True
+    >>> has_single_vowel("yolo")
+    False
+    >>> has_single_vowel("")
+    False
+    """
+    ...
+```
+
+{% next "Verder: verschillend?" %}
+
+## 10. Verschillend?
+
+Schrijf een functie `is_different` die twee strings `s1` en `s2` aanneemt en bepaalt of deze strings verschillen.
+
+Hiervoor ga je loopen met indexes, van 0 tot het einde van de strings. Je bekijkt steeds *hetzelfde* teken van beide strings (bijv. op index 1). Als de strings op één plek verschillen, dan weet je dat de strings verschillen, en kan de functie direct `return True` doen. Als ze niet verschillen op die plek, dan weet je nog niks. Je gaat dan door naar de volgende.
+
+Hints:
+
+- Schrijf het eerst zodat het werkt als je strings van gelijke lengte ("abc" en "def") geeft.
+- Denk daarna hoe je het gaat afhandelen als de strings van verschillende lengte zijn en verwerk dit in de code.
+
+```python
+def is_different(s1: str, s2: str) -> bool:
+    """
+    >>> is_different("dance", "night")
+    True
+    >>> is_different("dance", "dance")
+    False
+    >>> is_different("piano", "pianissimo")
+    True
+    >>> is_different("", "")
+    False
+    """
+    ...
+```
+
+{% next "Verder: hoe verschillend?" %}
+
+## 11. Hoe verschillend?
+
+Schrijf een functie `count_difference` die twee strings `s1` en `s2` aanneemt en bepaalt hoeveel verschillen de strings hebben.
+
+We gebruiken een vereenvoudigd algoritme. Als de strings verschillen van lengte dan berekenen we dat verschil en dat is de basis. Dan vergelijken we zoveel mogelijk de tekens per positie, zoals bij de vorige functie. Voor elke positie waar de tekens verschillen tel je één op bij de basis.
+
+```python
+def count_difference(s1: str, s2: str) -> int:
+    """
+    >>> count_difference("dance", "night")
+    5
+    >>> count_difference("dance", "dance")
+    0
+    >>> count_difference("piano", "pianissimo")
+    6
+    >>> count_difference("", "mamba")
+    5
+    """
+    ...
+```
+
 {% next "Afronden" %}
 
 ## Klaar
