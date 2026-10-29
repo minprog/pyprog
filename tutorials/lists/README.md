@@ -118,7 +118,7 @@ def first_two(xs: list[int]) -> list[int]:
 Anders dan een string kun je een list wel aanpassen. Met een toewijzing
 verander je het element op een bepaalde plek:
 
-    xs[0] = "nieuw"
+    xs[0] = "N"
 
 Dit verandert de list zelf, het maakt geen kopie. Een functie die dat doet
 hoeft dus niets terug te geven.
@@ -307,8 +307,9 @@ def count_value(xs: list[int], value: int) -> int:
 {% next "Verder: een positie vinden" %}
 
 Schrijf een functie die de index van het eerste exemplaar van `value`
-teruggeeft, of `-1` als het er niet in zit. Dit is hetzelfde patroon als bij
-strings: eerst controleren, dan pas zoeken.
+teruggeeft, of `-1` als het er niet in zit. Dit is hetzelfde idee als `where_o_at`
+bij strings: `-1` betekent "niet gevonden". Hier controleer je eerst met `in`,
+en zoek je daarna pas met `.index()`.
 
 ```python
 def position(xs: list[str], value: str) -> int:
@@ -370,8 +371,10 @@ def biggest(xs: list[int]) -> int:
 
 Een functie die telt hoe vaak een bepaald element te vinden is in een lijst (bijvoorbeeld een getal).
 
-    def list_count_element(lst: list[object], elt: object) -> int:
-        ...
+```python
+def list_count_element(lst: list[object], elt: object) -> int:
+    ...
+```
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
 
@@ -381,8 +384,10 @@ Beperkingen: je moet de functie met een loop schrijven om langs alle elementen t
 
 Een functie telt hoeveel integers uit de lijst `lst` even zijn.
 
-    def list_count_even(lst: list[int]) -> int:
-        ...
+```python
+def list_count_even(lst: list[int]) -> int:
+    ...
+```
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
 
@@ -439,8 +444,10 @@ def multiply_all(xs: list[int], factor: int) -> list[int]:
 
 Een functie die uit een lijst `lst` de even getallen haalt en in een nieuwe lijst zet.
 
-    def list_get_even(lst: list[int]) -> list[int]:
-        ...
+```python
+def list_get_even(lst: list[int]) -> list[int]:
+    ...
+```
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
 
@@ -450,8 +457,10 @@ Beperkingen: je moet de functie met een loop schrijven om langs alle elementen t
 
 Een functie die telt hoe vaak bepaalde elementen te vinden zijn in een lijst (bijvoorbeeld getallen). Als `lst_elt` bijvoorbeeld de getallen 4 en 29 bevat, telt de functie hoevaak deze getallen voorkomen in de lijst `lst` (bij elkaar! niet allemaal aparte tellingen)
 
-    def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
-        ...
+```python
+def list_count_elements(lst: list[object], lst_elt: list[object]) -> int:
+    ...
+```
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen in `lst` te gaan. Als je een element uit `lst` hebt mag je met `element in lst_elt` kijken of het één van de gezochte elementen is.
 
@@ -491,8 +500,10 @@ def is_sorted(xs: list[int]) -> bool:
 
 Een functie die controleert of alle integers uit de lijst `lst` even zijn.
 
-    def list_check_all_even(lst: list[int]) -> bool:
-        ...
+```python
+def list_check_all_even(lst: list[int]) -> bool:
+    ...
+```
 
 Beperkingen: je moet de functie met een loop schrijven om langs alle elementen te gaan.
 
@@ -504,8 +515,10 @@ Tip: het is niet helemaal duidelijk wat het antwoord moet zijn als er helemaal g
 
 Een functie die checkt of het element `elt` ergens in de lijst `lst` staat.
 
-    def list_contains_element(lst: list[object], elt: object) -> bool:
-        ...
+```python
+def list_contains_element(lst: list[object], elt: object) -> bool:
+    ...
+```
 
 Beperkingen: je moet de functie met een loop schrijven, dus bestaande onderdelen van Python zoals `in` en `find` zijn niet toegestaan.
 
@@ -517,8 +530,10 @@ Tip: we gebruiken hier `list[object]` om aan te geven dat de lijst elke soort el
 
 Een functie die checkt of het element `elt` **niet** in de lijst `lst` staat.
 
-    def list_contains_no_element(lst: list[object], elt: object) -> bool:
-        ...
+```python
+def list_contains_no_element(lst: list[object], elt: object) -> bool:
+    ...
+```
 
 Beperkingen: je moet de functie met een loop schrijven, dus bestaande onderdelen van Python zoals `in` en `find` zijn niet toegestaan. Je mag niet de functie `list_contains_element` aanroepen.
 
