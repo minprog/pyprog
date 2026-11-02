@@ -138,7 +138,7 @@ Module 9:
     # 'Werkcollege: Collections-tutorial': /werkcollege/collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
     Oefenen:
-        '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
+        # '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
         '[icon:puzzle] Bestanden lezen': /opdrachten/data/io
     Problem Solving:
         '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
