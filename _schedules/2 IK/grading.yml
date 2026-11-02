@@ -90,6 +90,7 @@ werkcolleges:
         tutorial_transformatie: 0.5
         tutorial_lists: 0.5
         tutorial_collections: 0.5
+        tutorial_coll_functions: 0.5
         # werkcollege_classes_queue: 0.5
         # r1: 0.5
         # r2: 0.5

@@ -51,6 +51,7 @@ grades:
     tutorial_transformatie: *werkcollege
     tutorial_lists: *werkcollege
     tutorial_collections: *werkcollege
+    tutorial_coll_functions: *werkcollege
 
     # module 1
     boek1: *check
