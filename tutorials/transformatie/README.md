@@ -405,7 +405,7 @@ def stretch(s: str) -> str:
 
 Schrijf een functie `autocorrect` die dubbele leestekens en spaties verwijdert uit een string. Alleen gewone letters en cijfers (te herkennen met `c.isalnum()`) worden met rust gelaten.
 
-Gebruik een normale transformatie-loop (`for char in s:`) maar check altijd, vóórdat je een teken toevoegt aan het resultaat, of dat teken niet toevallig al aan het eind van het resultaat staat.
+Gebruik een normale transformatie-loop (`for char in s:`) maar check altijd, vóórdat je een leesteken of spatie toevoegt aan het resultaat, of dat teken niet toevallig al aan het eind van het resultaat staat.
 
 ```python
 def autocorrect(s: str) -> str:
