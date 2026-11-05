@@ -1,6 +1,6 @@
 # String-analyse
 
-Maak een Python-module genaamd `analyse.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
+Maak een Python-module genaamd `string_analyse.py`. Schrijf de volgende functies met doctests. Je maakt voor deze opgave geen `main`, maar wel doctests!
 
 ## Spacing
 
