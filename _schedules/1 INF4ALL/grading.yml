@@ -58,7 +58,14 @@ templates:
 
 grades:
 
-    tussentoets_inf4all: *tentamen
+    tussentoets_inf4all:
+        type: points
+        exam: true
+        hide_calculated: true
+        subgrades:
+            # karel: float
+            python: integer
+        calculation: python
 
     oefentoets: *werkcollege
     oefententamen1: *werkcollege
