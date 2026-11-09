@@ -156,7 +156,7 @@ Module 9:
 # Classes intro
 Module 10:
     '[icon:list-check] Overzicht': /modules/classes
-    'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
+    # 'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
     # Videocollege: /opdrachten/classes/lecture
     Basis-oefeningen:
