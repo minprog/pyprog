@@ -147,14 +147,14 @@ Module 9:
     Challenge:
         '[icon:mortarboard] Kunstroof': /opdrachten/challenges/kunstroof
 
-Week 10:
-    '[icon:list-check] Overzicht': /modules/project
-    'Werkcollege: Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
-    Klein project:
-        '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
+# Week 10:
+#     '[icon:list-check] Overzicht': /modules/project
+#     'Werkcollege: Preprocessing': /opdrachten/data/eca2csv # deze gaat weg
+#     Klein project:
+#         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
 # Classes intro
-Week 11:
+Module 10:
     '[icon:list-check] Overzicht': /modules/classes
     'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7

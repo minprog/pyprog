@@ -81,8 +81,8 @@ Dit is een indicatief overzicht van de oefeningen tijdens werkcolleges. Er zijn 
 |  7   | ma  | 12 okt | Oefententamen                   |
 |  8   |     |        | **Tentamenweek**                |
 |  9   | ma  | 26 okt | Oefeningen collections          |
-|  10  | ma  |  2 nov | Code reviews                    |
-|  11  | ma  |  9 nov | Oefeningen classes              |
+|  10  | ma  |  2 nov | Oefeningen collection functions |
+|  11  | ma  |  9 nov | Oefeningen classes (Queue)      |
 |  12  | ma  | 16 nov | Code reviews                    |
 |  13  | ma  | 23 nov | Oefeningen structures           |
 |  14  | ma  | 30 nov | Code reviews                    |
