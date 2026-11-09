@@ -17,6 +17,9 @@ Op elk van deze datastructuren zijn operaties gedefinieerd, en die verschillen s
 
 Welke operaties? Denk aan `'hallo' + 'wereld'` (de plus met strings maken een nieuwe string). Of `['ding1'].append('ding2')` (een list uitbreiden met één element).
 
+{% next "Een nieuwe datastructuur" %}
+
+
 ## Een nieuwe datastructuur
 
 We beginnen met een datastructuur met extreem weinig operaties, namelijk een "queue". Het enige dat een queue kan is toevoegen en verwijderen, maar wel met een twist.
