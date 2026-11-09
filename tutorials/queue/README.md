@@ -1,4 +1,25 @@
-# Tutorial: een queue bouwen
+# Tutorial: een eigen Queue
+
+Tijdens de afgelopen modules heb je gekeken naar datastructen die ingebouwd zitten in Python:
+
+- Een **list**, waarin je allerlei verschillende soorten elementen kunt opslaan, willekeurig toevoegen, verwijderen en vervangen.
+    - Voorbeeld `['aap', 'noot', 'mies']` of `[]` of `[2.333, 9.1, 100.0]` enz. Meestal zijn het lijstjes of databestanden die je in een list kunt vinden.
+- Een **tuple**, waarin je enkele elementen samen kunt voegen tot één. De elementen zijn niet te veranderen na het aanmaken.
+    - Voorbeeld `('Jordy', '23', 'Apeldoorn')`. Hier pakken we een aantal eigenschappen van een persoon samen, zodat die in één variabele kunnen.
+- Een **dictionary**, waarin je "paren" kunt opslaan, meestal een naam (de key) en iets dat onder die naam wordt opgeslagen (de value).
+    - Voorbeeld `{ 'SP904': 'Science Park 904', 'Lab42': 'Science Park 900' }`. Een vertaallijst van gebouwcodes naar het adres dus.
+- Een **set**, waarin elementen zijn opgeslagen om heel efficiënt te kunnen checken of ze erin zitten. Er kan niet 2x hetzelfde element in zitten.
+    - Voorbeeld `{ 'stoelen', 'tafels', 'boekenkasten', 'badkamermeubels' }`. Categoriën van dingen die je bij de IKEA kan kopen.
+
+## Operaties
+
+Op elk van deze datastructuren zijn operaties gedefinieerd, en die verschillen steeds. Het idee is dat niet alle operaties logisch zijn. De ontwerper van de datastructuur heeft deze zo ontworpen dat die datastructuur handig is om te gebruiken voor specifieke doeleinden. De operaties passen daarbij.
+
+Welke operaties? Denk aan `'hallo' + 'wereld'` (de plus met strings maken een nieuwe string). Of `['ding1'].append('ding2')` (een list uitbreiden met één element).
+
+## Een nieuwe datastructuur
+
+We beginnen met een datastructuur met extreem weinig operaties, namelijk een "queue". Het enige dat een queue kan is toevoegen en verwijderen, maar wel met een twist.
 
 Een **queue** (wachtrij) bewaart waarden die je later weer ophaalt, in de
 volgorde waarin je ze hebt neergezet. Wie het eerst in de queue komt, komt er
@@ -9,12 +30,7 @@ Een queue ondersteunt twee hoofdhandelingen:
 - **enqueue** zet een waarde achteraan de queue,
 - **dequeue** haalt de waarde voorin de queue weg en geeft die terug.
 
-```
- enqueue                                       dequeue
-    |                                             |
-    v      achter                      voor       v
-   ---->  [ 5 ][ 8 ][ 2 ][ 7 ]  ---->
-```
+![](wikipedia_queue.png)
 
 Je kent dit uit het dagelijks leven: de eerste klant in de rij wordt ook het
 eerst geholpen. Computers gebruiken het onder andere om taken af te handelen.
