@@ -115,8 +115,8 @@ week_3:
     requirement: [ alfabet, etenstijd, calculator, wachtwoord, leesbaarheid, yell, rna, vwl, shout, camelcase ]
     deadline: 13/11/26 17:00
     submits:
-        list_int_basics: 1
-        list_basics: 1
+        # list_int_basics: 1
+        # list_basics: 1
         rotate: 1
         compact: 1
         uniq: 1
