@@ -1,5 +1,5 @@
 name: oefentoets
-exam: true
+type: practice
 files:
     required:
         oefentoets.py: |
