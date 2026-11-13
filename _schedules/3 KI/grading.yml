@@ -95,7 +95,7 @@ week_1:
 
 week_2:
     show_progress: true
-    requirement: [ programma, weken, water, cafeine, vakantie, acid, schrikkel, orakel, rechthoeken, collatz, int_input, greedy, populatie, piramide, temperatuur ]
+    # requirement: [ programma, weken, water, cafeine, vakantie, acid, schrikkel, orakel, rechthoeken, collatz, int_input, greedy, populatie, piramide, temperatuur ]
     deadline: 6/11/26 17:00
     submits:
         alfabet: 1
@@ -112,7 +112,7 @@ week_2:
 
 week_3:
     show_progress: true
-    requirement: [ alfabet, etenstijd, calculator, wachtwoord, leesbaarheid, yell, rna, vwl, shout, camelcase ]
+    # requirement: [ alfabet, etenstijd, calculator, wachtwoord, leesbaarheid, yell, rna, vwl, shout, camelcase ]
     deadline: 13/11/26 17:00
     submits:
         # list_int_basics: 1
