@@ -21,6 +21,6 @@
 
     De regels met hekjes (`#`) zijn precies zo breed als het langste woord. Dus deze functie moet verplicht de functie `longest_word_from_list` aanroepen!
 
-3.  Schrijf een functie `string_to_list` die een string aanneemt met woorden, steeds gescheiden door één spatie, en een lijst van losse strings geeft. Je moet zelf de loops uitprogrammeren die hiervoor nodig zijn.
+3.  Schrijf een functie `string_to_list` die een string aanneemt met woorden (geen lijst dus), de woorden steeds gescheiden door één spatie. De functie moet een lijst van losse strings teruggeven. Je moet zelf de loops uitprogrammeren die hiervoor nodig zijn.
 
-4.  Maak er nu een programma van (main!) waarin een gebruiker een boodschap kan intikken. Deze boodschap gaat door `string_to_list` en dan wordt `print_banner` aangeroepen met de resulterende lijst.
+4.  Maak er nu een programma van (een main!) waarin een gebruiker een boodschap kan intikken. Deze boodschap gaat door `string_to_list` en dan wordt `print_banner` aangeroepen met de resulterende lijst. Zo heb je een programma dat banners kan genereren.

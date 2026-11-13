@@ -9,9 +9,13 @@ Het liefst willen we dit efficiënt doen. Efficiënt betekent hier dat je algori
     >>> merge_lists([1, 2, 5], [4, 5, 6])
     [1, 2, 4, 5, 5, 6]
 
-De strategie is: bekijk per **stap** of je een getal van `lst1` of van `lst2` kunt toevoegen. Dat moet de kleinste van de twee zijn!
+De strategie is als volgt. 
 
-Als je een getal van een lijst hebt toegevoegd moet je die "wegstrepen" zodat je deze niet nog een keer gaat bekijken. Dat doe je door bij te houden hoeveel getallen van elke lijst je al hebt toegevoegd.
+- Je weet precies hoe lang de lijst gaat zijn (3 + 3 = 6 lang in bovenstaand voorbeeld). Loop dat aantal keer met hulp van `range`.
+
+- Bekijk elke stap of je een getal van `lst1` of van `lst2` kunt toevoegen. Dat moet de kleinste van de twee zijn!
+
+- Als je een getal van een lijst hebt toegevoegd moet je die "wegstrepen" zodat je deze niet nog een keer gaat bekijken. Je gaat niet letterlijk wegstrepen of verwijderen. Je gaat twee variabelen gebruiken die bijhouden hoeveel getallen van elke lijst je al hebt toegevoegd. Zo weet je waar in de twee lijsten je moet zijn bij de volgende stap.
 
 ## Stappenplan
 
