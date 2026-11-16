@@ -154,7 +154,7 @@ Module 9:
 #         '[icon:diagram-3] Klimaat': /opdrachten/data/klimaat
 
 # Classes intro
-Module 10:
+Module 11:
     '[icon:list-check] Overzicht': /modules/classes
     # 'Werkcollege: Queue': /opdrachten/classes/queue # basic datastructuur, encapsulation, init
     '[icon:journal-code] Hoofdstuk 9': /boek/boek7
@@ -170,7 +170,7 @@ Module 10:
         '[icon:diagram-3] Time': /opdrachten/classes/time
 
 # Collection classes
-Module 11:
+Module 12:
     '[icon:list-check] Overzicht': /modules/collection-classes
     'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
@@ -182,7 +182,7 @@ Module 11:
         War: /opdrachten/classes/war
 
 # Complexe strucuren
-Module 12:
+Module 13:
     '[icon:list-check] Overzicht': /modules/adventure
     'Werkcollege: Code review 1': '/reviews/r1'
     Adventure:
@@ -194,7 +194,7 @@ Module 12:
         5. Back: /adventure2/steps/back
 
 # Adventure
-Module 13:
+Module 14:
     '[icon:list-check] Overzicht': /modules/adventure
     'Werkcollege: Code review 2': '/reviews/r2'
     Adventure:
