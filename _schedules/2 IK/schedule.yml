@@ -172,7 +172,7 @@ Module 11:
 # Collection classes
 Module 12:
     '[icon:list-check] Overzicht': /modules/collection-classes
-    'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
+    # 'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
         '[icon:diagram-3] Phonebook': /opdrachten/collection_classes/phonebook
         '[icon:diagram-3] Inventory': /opdrachten/collection_classes/inventory
