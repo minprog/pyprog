@@ -170,7 +170,7 @@ Module 10:
         '[icon:diagram-3] Time': /opdrachten/classes/time
 
 # Collection classes
-Week 12:
+Module 11:
     '[icon:list-check] Overzicht': /modules/collection-classes
     'Werkcollege: Cards [alsnog]': /opdrachten/classes/cards
     Opdrachten:
@@ -182,7 +182,7 @@ Week 12:
         War: /opdrachten/classes/war
 
 # Complexe strucuren
-Week 13:
+Module 12:
     '[icon:list-check] Overzicht': /modules/adventure
     'Werkcollege: Code review 1': '/reviews/r1'
     Adventure:
@@ -194,7 +194,7 @@ Week 13:
         5. Back: /adventure2/steps/back
 
 # Adventure
-Week 14:
+Module 13:
     '[icon:list-check] Overzicht': /modules/adventure
     'Werkcollege: Code review 2': '/reviews/r2'
     Adventure:
