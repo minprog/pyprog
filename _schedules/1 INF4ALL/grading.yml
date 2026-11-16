@@ -93,10 +93,7 @@ grades:
 # calculations.
 
 calculation:
-    eindcijfer_incl_werkcolleges:
-        toetsen: 22
-        werkcolleges: 6
-    eindcijfer_zond_werkcolleges:
+    eindcijfer:
         toetsen: 22
 
 # calculation:
