@@ -5,10 +5,116 @@ lab:
         - terminal
     files:
         - hangman.py
+        - hangman_original.py
         - cinema.py
+        - cinema_original.py
         - dictionary.txt
     buttons:
         run:
+        compare: |
+            import builtins
+            import contextlib
+            import io
+            import random
+
+            PAIRS = {
+                "hangman": ("hangman.py", "hangman_original.py"),
+                "cinema": ("cinema.py", "cinema_original.py"),
+            }
+
+            SCENARIOS = {
+                "hangman": [
+                    # een spel dat verloren gaat
+                    ["5", "6"] + list("aeioubcdfghjklmnpqrstvwxyz"),
+                    # een spel dat gewonnen wordt
+                    ["3", "40"] + list("aeioubcdfghjklmnpqrstvwxyz"),
+                    # ongeldige woordlengte, ongeldig aantal pogingen,
+                    # een gok van twee letters, een cijfer, niets, en twee keer
+                    # dezelfde letter
+                    ["0", "45", "4", "0", "-2", "2", "ab", "1", "", "a", "a"]
+                    + list("eiouwrstlnbcdfgh"),
+                    # een kort woord met maar één poging
+                    ["3", "1"] + list("aeioustrlnbcdfgh"),
+                ],
+                "cinema": [
+                    # het voorbeeld uit de opdracht
+                    ["saturday", "20", "y", "2", "30", "n", "8"],
+                    # een baby, een senior, een student, groepskorting, en
+                    # ongeldige invoer voor de dag, het uur, 3D en een leeftijd
+                    ["funday", "tuesday", "25", "-1", "11", "x", "n", "4",
+                     "1", "70", "130", "12", "n", "40", "y"],
+                    # een gratis kaartje
+                    ["monday", "9", "n", "1", "2"],
+                    # precies op de grenzen van de leeftijden en de tijden
+                    ["friday", "18", "n", "4", "2", "3", "11", "65"],
+                ],
+            }
+
+
+            def run(filename, answers):
+                """Run a program with fixed answers and return everything it printed."""
+                remaining = list(answers)
+                output = io.StringIO()
+
+                def fake_input(prompt=""):
+                    print(prompt, end="", file=output)
+                    if not remaining:
+                        raise EOFError("no more answers")
+                    return remaining.pop(0)
+
+                with open(filename) as source:
+                    code = compile(source.read(), filename, "exec")
+
+                real_input = builtins.input
+                builtins.input = fake_input
+                random.seed(0)
+                try:
+                    with contextlib.redirect_stdout(output):
+                        exec(code, {"__name__": "__main__", "__file__": filename})
+                except EOFError:
+                    print("\n[de invoer van deze test was op]", file=output)
+                except Exception as error:
+                    print(f"\n[gestopt met een fout: {type(error).__name__}: {error}]",
+                          file=output)
+                finally:
+                    builtins.input = real_input
+                return output.getvalue()
+
+
+            def report(number, answers, mine, original):
+                mine_lines = mine.split("\n")
+                original_lines = original.split("\n")
+                for index in range(max(len(mine_lines), len(original_lines))):
+                    here = mine_lines[index] if index < len(mine_lines) else "(niets meer)"
+                    there = (original_lines[index] if index < len(original_lines)
+                             else "(niets meer)")
+                    if here != there:
+                        print(f"Test {number}: VERSCHIL op regel {index + 1}")
+                        print(f"    origineel: {there!r}")
+                        print(f"    bij jou:   {here!r}")
+                        print(f"    antwoorden: {' '.join(answers)}")
+                        return False
+                return True
+
+
+            key = "<filename>".removesuffix("_original")
+            if key not in PAIRS:
+                print(f"Deze knop werkt alleen in {' en '.join(PAIRS)}.")
+            else:
+                yours, original = PAIRS[key]
+                good = 0
+                for number, answers in enumerate(SCENARIOS[key], 1):
+                    if report(number, answers, run(yours, answers),
+                              run(original, answers)):
+                        print(f"Test {number}: output is precies gelijk.")
+                        good += 1
+
+                print()
+                if good == len(SCENARIOS[key]):
+                    print(f"Alle {good} tests geven dezelfde output als {original}.")
+                else:
+                    print(f"Gelijk bij {good} van de {len(SCENARIOS[key])} tests. "
+                          f"Zoek het verschil met {original} op.")
         complexity: |
             import ast
 

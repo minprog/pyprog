@@ -5,15 +5,19 @@ tutorial leer je code herkennen die te ingewikkeld is en haal je die stap voor
 stap uit elkaar. Als maat gebruik je de **Cyclomatic Complexity**: het aantal
 verschillende routes door een stuk code.
 
-**Hoe het werkt.** In de editor staan drie bestanden klaar: `hangman.py`,
-`cinema.py` en `dictionary.txt`. Je hoeft dus niets te kopiëren. Je werkt aan
-`hangman.py`; de bioscoop (`cinema.py`) is een extra opdracht voor als je tijd
-over hebt.
+**Hoe het werkt.** In de editor staan de bestanden al klaar, je hoeft dus niets
+te kopiëren. Je werkt aan `hangman.py`; de bioscoop (`cinema.py`) is een extra
+opdracht voor als je tijd over hebt. Verder staan er `dictionary.txt` met de
+woorden voor het spel, en `hangman_original.py` en `cinema_original.py`.
 
-Nieuw is de knop **complexity**. Die rekent voor het bestand dat je op dat
+Die laatste twee zijn kopieën van de originele programma's, en daar blijf je
+vanaf. Ze staan er zodat je altijd kan terugkijken, en zodat de knop **compare**
+kan controleren of jouw versie nog precies dezelfde output geeft.
+
+Nieuw zijn twee knoppen. **complexity** rekent voor het bestand dat je op dat
 moment open hebt de Cyclomatic Complexity van elke functie uit, en klaagt over
-elke functie die hoger uitkomt dan 3. Met de knop **run** draai je het
-programma in de terminal.
+elke functie die hoger uitkomt dan 3. **compare** vergelijkt de output van jouw
+versie met die van het origineel. Met **run** draai je het programma zelf.
 
 Werk de pagina's op volgorde door.
 
@@ -137,9 +141,56 @@ aangepaste programma moet blijven werken.
 Lees daarna de code helemaal door. Je ziet dat alles in één grote functie staat,
 met commentaarregels als scheiding tussen de onderdelen.
 
+{% next "Verder: vergelijken met het origineel" %}
+
+## 5. Vergelijken met het origineel
+
+Je gaat de code flink verbouwen, en bij elke stap kan er iets kleins veranderen
+in wat het programma print: een punt die wegvalt, een regel die er twee keer
+staat, een melding die niet meer komt. Daarom staat `hangman_original.py` in de
+editor: dat is dezelfde code als `hangman.py`, maar die versie laat je zoals hij
+is. **Pas `hangman_original.py` dus niet aan.**
+
+Daar is de knop **compare** voor. Die draait jouw versie en het origineel
+allebei, met dezelfde antwoorden, en vergelijkt regel voor regel wat ze printen.
+Klik er nu eens op. Omdat je nog niets veranderd hebt, hoor je dit te zien:
+
+    Test 1: output is precies gelijk.
+    Test 2: output is precies gelijk.
+    Test 3: output is precies gelijk.
+    Test 4: output is precies gelijk.
+
+    Alle 4 tests geven dezelfde output als hangman_original.py.
+
+De vier tests spelen een spel dat verloren gaat, een spel dat gewonnen wordt,
+een spel met allerlei ongeldige invoer (een woordlengte van 0, een gok van twee
+letters, twee keer dezelfde letter) en een kort woord met één poging.
+
+Verandert er straks iets aan de output, dan wijst de knop de eerste regel aan
+die niet klopt:
+
+    Test 1: VERSCHIL op regel 5
+        origineel: "Guess a letter (6 left): It's in the word! :)"
+        bij jou:   "Guess a letter (6 left): It's in the word! :-)"
+        antwoorden: 5 6 a e i o u b c d f g h j k l m n p q r s t v w x y z
+
+Onder `antwoorden` staan de antwoorden die de test heeft ingetypt, in die
+volgorde. Zo kan je het spel zelf met **run** naspelen en kijken wat er gebeurt.
+
+Klik dus na elke stap op **compare**. Zo weet je precies bij welke verandering
+de output stuk ging, en hoef je niet achteraf te zoeken.
+
+Twee dingen om te weten:
+
+* De knoppen **compare** en **complexity** kijken naar het bestand dat je op dat
+  moment open hebt. Werk je aan de bioscoop, open dan `cinema.py`.
+* Klik je ze aan terwijl `hangman_original.py` voor je staat, dan vergelijkt
+  **compare** het origineel met zichzelf (altijd gelijk) en klaagt
+  **complexity** nog steeds over de complexiteit. Dat hoort zo.
+
 {% next "Verder: de opdracht" %}
 
-## 5. De opdracht
+## 6. De opdracht
 
 Aan jou de taak om `hangman.py` zo te verbeteren dat geen enkele functie een
 Cyclomatic Complexity hoger dan 3 heeft. De knop **complexity** mag dus niet
@@ -153,8 +204,9 @@ Dat kan op twee manieren:
 De spelregels:
 
 * De output van het programma moet **exact** hetzelfde blijven, inclusief alle
-  teksten en leestekens.
+  teksten en leestekens. Vergelijk met `hangman_original.py`.
 * Alle code blijft in één bestand: `hangman.py`.
+* `hangman_original.py` blijft onaangeroerd.
 * Alle code mag worden gewijzigd.
 * Geen enkele functie mag een Cyclomatic Complexity hoger dan 3 hebben.
 * De type hints moeten blijven kloppen. Klik af en toe op **typecheck**.
@@ -168,7 +220,7 @@ niet meer waar die zit.
 
 {% next "Verder: aan de slag" %}
 
-## 6. Aan de slag
+## 7. Aan de slag
 
 Nu ga je zelf op zoek naar de plekken om te knippen. Lees `hangman_game` van
 boven naar beneden en bepaal waar een onderdeel begint en eindigt. De
@@ -204,18 +256,18 @@ En een paar dingen om op te letten:
   `guesses.add(letter)`) werken gewoon: de aanroeper ziet die verandering. Maar
   een `int` werkt niet zo. Verlaagt een functie het aantal pogingen, dan moet je
   het nieuwe aantal `return`'en en in de aanroeper weer opslaan.
-* Blijf na elke stap het spel draaien. Je hebt de output van het originele
-  programma gezien; daar mag niets aan veranderd zijn.
+* Klik na elke stap op **compare**. Zo merk je het meteen als de output
+  verandert, en weet je ook door welke verandering dat gebeurde.
 
 Werk zo door tot de knop **complexity** niets meer te klagen heeft. Kom je er
 niet uit, vraag dan een assistent om mee te kijken.
 
 {% next "Verder: hangman klaar" %}
 
-## 7. Hangman klaar
+## 8. Hangman klaar
 
-Klik nog één keer op **complexity** en op **typecheck**. Als er geen klachten
-meer zijn, is `hangman.py` af.
+Klik nog één keer op **compare**, op **complexity** en op **typecheck**. Zijn
+alle tests gelijk en is er geen klacht meer, dan is `hangman.py` af.
 
 Kijk nu eens naar het bestand als geheel. Je hebt geen regel functionaliteit
 toegevoegd, en toch is het programma veel beter te begrijpen: bovenaan staat een
@@ -233,7 +285,7 @@ gehad. De volgende pagina's zijn extra.
 
 {% next "Verder: extra opdracht bioscoop" %}
 
-## 8. Extra: de bioscoop
+## 9. Extra: de bioscoop
 
 Deze opdracht is optioneel, voor als je tijd over hebt. Hij is een stuk minder
 gestuurd: je krijgt hints, maar geen stappenplan.
@@ -283,11 +335,16 @@ op **complexity**:
 
 De opdracht is dezelfde als bij hangman: zorg dat geen enkele functie boven 3
 uitkomt, met exact dezelfde output, alles in `cinema.py`, en met kloppende type
-hints.
+hints. Ook hier staat het origineel klaar, in `cinema_original.py`, en ook dat
+bestand laat je zoals het is. De knop **compare** werkt hier precies zo, met
+vier eigen tests: het voorbeeld hierboven, een bezoek met een baby, een senior,
+een student en groepskorting, een gratis kaartje, en een paar leeftijden en
+tijden die precies op de grens zitten. Open wel eerst `cinema.py`, want de
+knoppen kijken naar het bestand dat je open hebt.
 
 {% next "Verder: hints voor de bioscoop" %}
 
-## 9. Hints voor de bioscoop
+## 10. Hints voor de bioscoop
 
 Bij hangman kwam je een heel eind met code uitknippen en in een functie zetten.
 Hier is dat niet genoeg: dit programma zit vol losse beslissingen, en een paar
@@ -316,16 +373,17 @@ apart stukje werk: leeftijd erin, prijs eruit. Hetzelfde geldt voor het bepalen
 van de toeslag voor het tijdstip of voor de dag. Als functies maar één ding
 doen, hoeven ze ook niet veel keuzes te maken.
 
-**Testen.** Test de randgevallen: een ongeldige dag, een uur dat net op de grens
-zit (11, 12, 17, 18), een leeftijd precies op de grens tussen twee categorieën,
-en een gezelschap van 4 personen met een baby erbij.
+**Testen.** De knop **compare** dekt een aantal gevallen, maar niet alles. Speel
+met **run** ook zelf een paar bezoeken na: een ongeldige dag, een uur dat net op
+de grens zit (11, 12, 17, 18), een leeftijd precies op de grens tussen twee
+categorieën, en een gezelschap van 4 personen met een baby erbij.
 
 {% next "Verder: klaar!" %}
 
 ## Klaar
 
 Je bent klaar als de knop **complexity** over `hangman.py` niets meer te klagen
-heeft en het spel nog precies hetzelfde doet als in het begin. Heb je ook
+heeft en de knop **compare** alle tests gelijk vindt. Heb je ook
 `cinema.py` onder de 3 gekregen, dan heb je het extra werk ook gedaan.
 
 Wat je hier geleerd hebt, kan je op al je eigen programma's toepassen. Draai de
