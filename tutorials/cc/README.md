@@ -175,7 +175,7 @@ die niet klopt:
         antwoorden: 5 6 a e i o u b c d f g h j k l m n p q r s t v w x y z
 
 Onder `antwoorden` staan de antwoorden die de test heeft ingetypt, in die
-volgorde. Zo kan je het spel zelf met **run** naspelen en kijken wat er gebeurt.
+volgorde. Zo kan je het spel zelf met **run** spelen en kijken wat er gebeurt.
 
 Klik dus na elke stap op **compare**. Zo weet je precies bij welke verandering
 de output stuk ging, en hoef je niet achteraf te zoeken.
@@ -285,10 +285,9 @@ gehad. De volgende pagina's zijn extra.
 
 {% next "Verder: extra opdracht bioscoop" %}
 
-## 9. Extra: de bioscoop
+## 9. De bioscoop
 
-Deze opdracht is optioneel, voor als je tijd over hebt. Hij is een stuk minder
-gestuurd: je krijgt hints, maar geen stappenplan.
+Deze opdracht is optioneel.
 
 In `cinema.py` staat de kassa van een bioscoop. Je geeft de dag, het tijdstip,
 of het een 3D-film is en het aantal kaartjes in. Daarna geef je voor ieder
