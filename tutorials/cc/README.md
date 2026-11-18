@@ -77,7 +77,7 @@ def grade(points: int, bonus: bool) -> str:
     for _ in range(3):
         points += 0
     if points >= 8:
-        return "good"
+        return "great"
     elif points >= 6:
         return "pass"
     else:
@@ -106,7 +106,7 @@ functies te schrijven die één ding doen.
 ## 3. Meten met de knop complexity
 
 Tellen met de hand is leerzaam, maar je hoeft het niet zelf te doen. De
-Cyclomatic Complexity is te berekenen, en daar zit de knop **complexity** voor.
+Cyclomatic Complexity is goed automatisch te berekenen. In deze tutorial is daar de **complexity** knop voor.
 Die rekent voor elke functie in het bestand dat je open hebt de score uit, en
 noemt elke functie die boven 3 uitkomt.
 
@@ -125,7 +125,7 @@ Als het goed is wijst hij de ingewikkelde punten in je programma aan.
 ## 4. Kennismaken met Hangman
 
 In `hangman.py` staat een werkend spelletje Hangman (galgje). De computer kiest
-een woord uit `dictionary.txt`, jij raadt letter voor letter.
+een woord uit `dictionary.txt` en vervolgens raad jij letter voor letter het woord.
 
 Klik op **run** en speel een spelletje. Kies een woordlengte tussen 3 en 10,
 want zulke woorden staan in `dictionary.txt`.
@@ -135,9 +135,7 @@ na elke gok print, en wat er aan het eind staat. Dit is ook precies hoe jouw
 aangepaste programma moet blijven werken.
 
 Lees daarna de code helemaal door. Je ziet dat alles in één grote functie staat,
-met commentaarregels als scheiding tussen de onderdelen. Die commentaarregels
-zijn een hint: waar de programmeur een kopje nodig had om uit te leggen wat er
-gebeurt, zit vaak een functie verstopt.
+met commentaarregels als scheiding tussen de onderdelen.
 
 {% next "Verder: de opdracht" %}
 
@@ -168,220 +166,53 @@ programma om te kijken of het nog hetzelfde doet. Pas daarna ga je verder met
 het volgende stukje. Als je in één keer alles verbouwt, weet je bij een fout
 niet meer waar die zit.
 
-{% next "Verder: de eerste functie" %}
+{% next "Verder: aan de slag" %}
 
-## 6. Stap 1: vragen om invoer
+## 6. Aan de slag
 
-Begin bovenaan. Het programma vraagt om een woordlengte en blijft vragen tot het
-antwoord klopt:
+Nu ga je zelf op zoek naar de plekken om te knippen. Lees `hangman_game` van
+boven naar beneden en bepaal waar een onderdeel begint en eindigt. De
+commentaarregels zijn daarbij een hint: waar de programmeur een kopje nodig had
+om uit te leggen wat er gebeurt, zit vaak een functie verstopt. Vertrouw er niet
+blind op, want soms hoort er meer bij elkaar en soms zitten er twee dingen in
+één blok.
 
-```
-    word_length = int(input("What length of word would you like to play with?\n"))
-    while word_length > 44 or word_length <= 0:
-        word_length = int(input("Invalid word length! Please enter a length between 1 and 44.\n"))
-```
+Een paar vragen die je bij elk stukje kan stellen:
 
-Dat zijn vier regels die samen één ding doen: een geldig getal ophalen. Zet ze
-in een eigen functie en roep die aan:
+* **Kan ik in één zin zeggen wat dit stukje doet?** Die zin is de naam van je
+  functie. Lukt het niet om een naam te vinden, dan heb je waarschijnlijk op de
+  verkeerde plek geknipt.
+* **Wat heeft dit stukje nodig, en wat levert het op?** Dat zijn de parameters
+  en de `return`-waarde. Een stukje dat van alles uit de rest van de functie
+  nodig heeft, is meestal nog niet goed afgebakend.
+* **Staat deze code ergens anders ook (bijna)?** Dan is dat één functie die je
+  twee keer aanroept.
+* **Hoeft dit stukje echt te printen?** Een functie die een waarde uitrekent of
+  opbouwt en die teruggeeft, kan je los uitproberen zonder het hele spel te
+  spelen. Laat de `print` dan buiten de functie staan.
 
-```
-def ask_word_length() -> int:
-    word_length = int(input("What length of word would you like to play with?\n"))
-    while word_length > 44 or word_length <= 0:
-        word_length = int(input("Invalid word length! Please enter a length between 1 and 44.\n"))
-    return word_length
-```
-
-In `hangman_game` blijft dan één regel over:
-
-```
-    word_length = ask_word_length()
-```
-
-Let op twee dingen. De teksten in de `input`-aanroepen laat je precies staan
-zoals ze waren, anders verandert de output. En de `while`-loop is nu uit
-`hangman_game` verdwenen, dus de score van `hangman_game` gaat met 1 omlaag.
-
-Doe dit nu zelf, draai het programma, en klik daarna op **complexity**. Je
-hoort te zien dat `hangman_game` nog steeds te complex is, maar met een lager
-getal dan 17. De nieuwe functie `ask_word_length` heeft een Cyclomatic
-Complexity van 2 en is dus prima.
-
-{% next "Verder: nog een keer vragen" %}
-
-## 7. Stap 2: hetzelfde patroon herkennen
-
-Iets verderop staat bijna dezelfde code, nu voor het aantal pogingen:
-
-```
-    number_guesses = int(input("How many guesses are allowed?\n"))
-    while number_guesses <= 0:
-        number_guesses = int(input("Negative or zero guesses make no sense.\n"))
-```
-
-Maak hier ook een functie van, bijvoorbeeld `ask_number_guesses`. Draai het
-programma en meet opnieuw.
-
-Je ziet nu twee functies die hetzelfde *patroon* hebben: vraag iets, blijf
-vragen zolang het antwoord niet klopt, geef het antwoord terug. Alleen de
-teksten en de voorwaarde verschillen. Later, bij de bioscoop, kom je daar op
-terug: zulke herhaling kan je vaak samenvoegen in één functie met parameters.
-Hier mag je het ook gewoon twee losse functies laten.
-
-{% next "Verder: het woordenboek" %}
-
-## 8. Stap 3: de woorden inlezen
-
-Het volgende blok leest het woordenboek in en houdt alleen de woorden van de
-juiste lengte over:
-
-```
-    words: set[str] = set()
-    with open('dictionary.txt', "r") as file:
-        for line in file:
-            word = line.rstrip()
-            if len(word) == word_length:
-                words.add(word)
-```
-
-Hier zitten een `for` en een `if` in, dus dit blok is alleen al 3 routes waard.
-Dat is precies het soort stuk dat je wil wegzetten in een eigen functie.
-
-De functie heeft `word_length` nodig om te weten welke woorden hij moet houden,
-en levert de woorden op. Het begin ziet er dus zo uit:
-
-```
-def load_words(word_length: int) -> set[str]:
-    ...
-```
-
-Schrijf deze functie, roep hem aan in `hangman_game`, en draai het programma.
-Meet opnieuw. `load_words` zelf komt uit op 3: precies op de grens, dus de knop
-**complexity** klaagt er niet over.
-
-{% next "Verder: het patroon printen" %}
-
-## 9. Stap 4: het woord met strepen
-
-Nu de binnenkant van het spel. Na elke gok bouwt het programma de weergave van
-het woord op: de letters die geraden zijn en een `_` voor de rest.
-
-```
-            current_pattern = ''
-            for letter in word:
-                if letter in correct_guesses:
-                    current_pattern += letter
-                else:
-                    current_pattern += '_'
-            print(current_pattern)
-```
-
-Dit is een mooi voorbeeld van een functie die je een naam kan geven die uitlegt
-wat er gebeurt. Maak een functie die van een woord en de geraden letters de
-weergave maakt:
-
-```
-def pattern(word: str, correct_guesses: set[str]) -> str:
-    ...
-```
-
-Merk op dat de `print` buiten de functie blijft. De functie *maakt* de tekst,
-`hangman_game` *laat hem zien*. Zo kan je de functie ook los testen, zonder het
-hele spel te spelen: er bestaat precies één goed antwoord per invoer.
-
-Schrijf de functie en gebruik hem in het spel:
-
-```
-            print(pattern(word, correct_guesses))
-```
-
-Draai het spel en controleer of de strepen er nog precies zo uitzien als
-eerst.
-
-{% next "Verder: is het woord geraden?" %}
-
-## 10. Stap 5: tweemaal dezelfde vraag
-
-Twee keer in het programma staat bijna letterlijk dezelfde code, één keer in de
-spel-loop en één keer aan het eind:
-
-```
-            guessed_all = True
-            for letter in word:
-                if letter not in correct_guesses:
-                    guessed_all = False
-                    break
-```
-
-Dat stuk beantwoordt een vraag met ja of nee: zijn alle letters van het woord
-geraden? Zo'n functie geeft een `bool` terug:
-
-```
-def is_guessed(word: str, correct_guesses: set[str]) -> bool:
-    ...
-```
-
-Dit stuk kan ook korter dan het origineel. Je hebt de variabele `guessed_all`
-niet nodig: zodra je een letter vindt die niet geraden is, weet je het antwoord
-al en mag je meteen `return False` doen. Na de loop weet je dat alle letters
-geraden zijn, dus dan `return True`. Zo verdwijnt de `break` en houd je een
-`for` met een `if` over: een score van 3.
-
-Vervang nu beide plekken door een aanroep van `is_guessed`. Let op de
-tweede plek, aan het eind van het spel: daar staat
-
-```
-        if guessed_all:
-            print("Whoa, you won!!!")
-```
-
-en dat wordt
-
-```
-        if is_guessed(word, correct_guesses):
-            print("Whoa, you won!!!")
-```
-
-Draai het spel, win een keer en verlies een keer, en meet opnieuw.
-
-{% next "Verder: de rest" %}
-
-## 11. Stap 6: de rest van het spel
-
-Nu komt het stuk dat je zelf moet uitzoeken. Klik op **complexity** en kijk
-hoeveel `hangman_game` nog is. Waarschijnlijk zit je nog boven 3, want de
-functie bevat nog steeds: de buitenste `while True`, de loop die om letters
-vraagt, de controle op een geldige letter, en de `if`/`else` voor een goede of
-foute gok.
-
-Zoek de groepen die bij elkaar horen. Een paar vragen om je op weg te helpen:
-
-* Het vragen om één letter is weer datzelfde patroon van "vraag tot het klopt".
-  Welke informatie heeft dat stukje nodig, en wat levert het op?
-* Het verwerken van één gok (is de letter goed, wat wordt er geprint, gaat het
-  aantal pogingen omlaag) is een afgerond stukje werk.
-* Eén heel spel spelen is ook een afgerond stukje werk. Als `play_game` één spel
-  speelt, wat blijft er dan nog over in `hangman_game`?
-* Ook het slot van het spel, waar "gewonnen" of "verloren" geprint wordt, kan
-  een eigen functie zijn.
-
-Een paar dingen om op te letten:
+En een paar dingen om op te letten:
 
 * Een functie met een loop én een `if` erin zit al snel op 3. Zit je erboven,
   dan moet er nog een stukje uit.
-* Functies die iets aanpassen aan een `set` die ze meekrijgen (zoals
+* Soms is korter ook eenvoudiger. Zodra je binnen een loop het antwoord al weet,
+  mag je meteen `return`'en. Dan heb je geen hulpvariabele en geen `break` meer
+  nodig, en dat is ook weer een route minder.
+* De teksten in de `input`- en `print`-aanroepen laat je precies staan zoals ze
+  waren, anders verandert de output.
+* Functies die iets toevoegen aan een `set` die ze meekrijgen (zoals
   `guesses.add(letter)`) werken gewoon: de aanroeper ziet die verandering. Maar
-  een `int` zoals `current_guesses` werkt niet zo. Als een functie dat aantal
-  verlaagt, moet je het nieuwe aantal `return`'en en in de aanroeper weer
-  opslaan.
+  een `int` werkt niet zo. Verlaagt een functie het aantal pogingen, dan moet je
+  het nieuwe aantal `return`'en en in de aanroeper weer opslaan.
 * Blijf na elke stap het spel draaien. Je hebt de output van het originele
-  programma gezien; er mag niets veranderd zijn.
+  programma gezien; daar mag niets aan veranderd zijn.
 
-Werk door tot de knop **complexity** niets meer te klagen heeft.
+Werk zo door tot de knop **complexity** niets meer te klagen heeft. Kom je er
+niet uit, vraag dan een assistent om mee te kijken.
 
 {% next "Verder: hangman klaar" %}
 
-## 12. Hangman klaar
+## 7. Hangman klaar
 
 Klik nog één keer op **complexity** en op **typecheck**. Als er geen klachten
 meer zijn, is `hangman.py` af.
@@ -402,7 +233,7 @@ gehad. De volgende pagina's zijn extra.
 
 {% next "Verder: extra opdracht bioscoop" %}
 
-## 13. Extra: de bioscoop
+## 8. Extra: de bioscoop
 
 Deze opdracht is optioneel, voor als je tijd over hebt. Hij is een stuk minder
 gestuurd: je krijgt hints, maar geen stappenplan.
@@ -456,7 +287,7 @@ hints.
 
 {% next "Verder: hints voor de bioscoop" %}
 
-## 14. Hints voor de bioscoop
+## 9. Hints voor de bioscoop
 
 Bij hangman kwam je een heel eind met code uitknippen en in een functie zetten.
 Hier is dat niet genoeg: dit programma zit vol losse beslissingen, en een paar
