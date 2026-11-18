@@ -10,7 +10,6 @@ lab:
         - cinema_original.py
         - dictionary.txt
     buttons:
-        run:
         compare: |
             import builtins
             import contextlib
