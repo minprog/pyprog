@@ -19,8 +19,6 @@ moment open hebt de Cyclomatic Complexity van elke functie uit, en klaagt over
 elke functie die hoger uitkomt dan 3. **compare** vergelijkt de output van jouw
 versie met die van het origineel. Met **run** draai je het programma zelf.
 
-Werk de pagina's op volgorde door.
-
 {% next "Beginnen" %}
 
 ## 1. Wat is Cyclomatic Complexity?
