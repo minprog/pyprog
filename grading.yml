@@ -52,6 +52,7 @@ grades:
     tutorial_lists: *werkcollege
     tutorial_collections: *werkcollege
     tutorial_coll_functions: *werkcollege
+    tutorial_cc: *werkcollege
     tutorial_classes_queue: *werkcollege
     tutorial_zelfwerk: *werkcollege
 

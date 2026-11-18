@@ -1,0 +1,55 @@
+lab:
+    windows:
+        - editor
+        - readme
+        - terminal
+    files:
+        - hangman.py
+        - cinema.py
+        - dictionary.txt
+    buttons:
+        run:
+        complexity: |
+            import ast
+
+            MAX_COMPLEXITY = 3
+
+            DECISIONS = (ast.If, ast.IfExp, ast.For, ast.AsyncFor, ast.While,
+                         ast.ExceptHandler, ast.comprehension, ast.Assert)
+
+            FUNCTIONS = (ast.FunctionDef, ast.AsyncFunctionDef)
+
+
+            def inside(node):
+                """Yield every node below node, but not inside a nested function."""
+                for child in ast.iter_child_nodes(node):
+                    if isinstance(child, FUNCTIONS):
+                        continue
+                    yield child
+                    yield from inside(child)
+
+
+            def complexity(function):
+                return 1 + sum(1 for node in inside(function)
+                               if isinstance(node, DECISIONS))
+
+
+            filename = "<filename>.py"
+            with open(filename) as source:
+                tree = ast.parse(source.read(), filename)
+
+            complaints = 0
+            for node in ast.walk(tree):
+                if isinstance(node, FUNCTIONS):
+                    score = complexity(node)
+                    if score > MAX_COMPLEXITY:
+                        complaints += 1
+                        print(f"{filename}:{node.lineno}: '{node.name}' heeft een "
+                              f"Cyclomatic Complexity van {score}")
+
+            if complaints == 0:
+                print(f"{filename}: alle functies hebben een Cyclomatic Complexity "
+                      f"van hoogstens {MAX_COMPLEXITY}.")
+        typecheck: |
+            from mypy import api as mypy_api
+            mypy_api.run(['<filename>.py'])[0]
