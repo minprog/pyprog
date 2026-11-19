@@ -99,10 +99,10 @@ Oefentoets:
 # Collections intro
 'Week 5: Collections':
     '[icon:list-check] Overzicht': /modules_kort/collections
-    'Werkcollege: Collections-tutorial': /werkcollege/collections
+    # 'Werkcollege: Collections-tutorial': /werkcollege/collections
     '[icon:journal-code] Hoofdstuk 8': /boek/boek6
-    Oefenen voor tentamen:
-        '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
+    # Oefenen voor tentamen:
+    #     '[icon:puzzle] Collections': /opdrachten/collections/collection_functions
     Iets grotere programma's:
         '[icon:diagram-2] Sjoelen': /opdrachten/lists/sjoelen # 2 func, main, simulatie
         '[icon:diagram-2] Schuifpuzzel': /opdrachten/lists/schuifpuzzel
