@@ -10,6 +10,8 @@ grades:
         hide_calculated: true
         subgrades:
             python: integer
+        calculation: python
+
     tentamen:
         type: points
         exam: true
