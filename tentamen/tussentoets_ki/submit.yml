@@ -2,7 +2,24 @@ name: tussentoets_ki
 exam: true
 files:
     required:
-        tussentoets.py: ''
+        tussentoets.py: |
+            #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            #    Veel succes met de tussentoets!  Jij kunt dit. :)
+            #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            #
+            #        ____
+            #       / . .\
+            #       \  ---<     "Sssssuccces!"
+            #        \  /
+            #      __/ /
+            #     (___/
+            #
+            # Even rustig ademhalen, begin bij de vraag die je het
+            # makkelijkst vindt (vraag 1), en druk vaak op de knoppen
+            # om te checken.
+            #
+            # Let op: bij vraag 5 mag je `in` wel gebruiken.
+
 buttons:
     check: |
         import ast
