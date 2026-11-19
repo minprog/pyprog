@@ -5,57 +5,76 @@ files:
         tussentoets.py: ''
 buttons:
     check: |
-        def find_forbidden(src: str) -> str | None:
+        import ast
+
+        FORBIDDEN_METHODS = ['split', 'find', 'join', 'count']
+        FORBIDDEN_BUILTINS = ['sorted', 'min', 'max', 'abs', 'reversed']
+
+        def find_forbidden(src: str) -> list[str]:
             """
-            Vindt aanroepen naar ingebouwde string methodes en slicing.
-            Returnt een error bericht met de gebruikt methode of slicing en op welke regel.
-            Returnt None als er er niks aan de hand is :)
+            Vindt aanroepen naar verboden string-methodes en builtins,
+            slicing, comprehensions en vermenigvuldigen met `*`.
+            Geeft een lijst met foutberichten, met per bericht de regel.
+            Geeft een lege lijst als er niks aan de hand is :)
             """
             results = []
-
-            # all_string_method_names = [n for n in dir("") if not n.startswith("__")]
-
-            method_names = ['split', 'find', 'join']
             lines = src.split("\n")
-            for method_name in method_names:
-                for line_nr, line in enumerate(lines):
-                    if "." + method_name in line:
-                        results.append(
-                            f"!! Je mag geen zoek-methodes voor strings gebruiken.\n"
-                            f"Bijvoorbeeld `{method_name}` op regel {line_nr + 1}:\n{line.strip()}"
-                        )
-            import ast
-            msg = None
+
+            def line_of(node: ast.AST) -> str:
+                return lines[node.lineno - 1].strip()
+
             class Visitor(ast.NodeVisitor):
                 def visit_Slice(self, node: ast.Slice):
-                    nonlocal msg
                     results.append(
                         f"!! Je mag geen gebruik maken van slicing op het tentamen.\n"
-                        f"Bijvoorbeeld op regel {node.lineno}:\n{lines[node.lineno - 1]}"
+                        f"Bijvoorbeeld op regel {node.lineno}:\n{line_of(node)}"
                     )
+                    self.generic_visit(node)
 
                 def visit_Call(self, node: ast.Call):
-                    # detect forbidden builtins like sorted, min, max, abs
-                    forbidden_builtins = ['sorted', 'min', 'max', 'abs']
-                    if isinstance(node.func, ast.Name) and node.func.id in forbidden_builtins:
+                    if isinstance(node.func, ast.Name) and node.func.id in FORBIDDEN_BUILTINS:
                         results.append(
-                            f"!! Je mag geen builtin-functie `{node.func.id}` gebruiken.\n"
-                            f"Bijvoorbeeld op regel {node.lineno}:\n{lines[node.lineno - 1]}"
+                            f"!! Je mag de builtin-functie `{node.func.id}` niet gebruiken.\n"
+                            f"Bijvoorbeeld op regel {node.lineno}:\n{line_of(node)}"
+                        )
+                    if isinstance(node.func, ast.Attribute) and node.func.attr in FORBIDDEN_METHODS:
+                        results.append(
+                            f"!! Je mag geen string-methodes zoals `{node.func.attr}` gebruiken.\n"
+                            f"Bijvoorbeeld op regel {node.lineno}:\n{line_of(node)}"
                         )
                     self.generic_visit(node)
 
+                def _comprehension(self, node: ast.AST):
+                    results.append(
+                        f"!! Je mag geen comprehensions gebruiken.\n"
+                        f"Bijvoorbeeld op regel {node.lineno}:\n{line_of(node)}"
+                    )
+                    self.generic_visit(node)
 
-            tree = ast.parse(src)
-            visitor = Visitor()
-            visitor.visit(tree)
+                visit_ListComp = _comprehension
+                visit_SetComp = _comprehension
+                visit_DictComp = _comprehension
+                visit_GeneratorExp = _comprehension
 
+                def visit_BinOp(self, node: ast.BinOp):
+                    if isinstance(node.op, ast.Mult):
+                        results.append(
+                            f"!! Let op: vermenigvuldigen met strings (`*`) is niet toegestaan.\n"
+                            f"Controleer regel {node.lineno}:\n{line_of(node)}"
+                        )
+                    self.generic_visit(node)
+
+            Visitor().visit(ast.parse(src))
             return results
+
         with open('<filename>.py') as f:
             code = f.read()
         res = find_forbidden(code)
         if res:
             print()
             print('\n\n'.join(res))
+            print()
+            print("\033[93mAls je twijfelt of de waarschuwing hierboven klopt (je denkt dat het gewoon mag), check met de docent.\033[0m")
         else:
             print("\nGeen verboden constructies gevonden, maar het is je eigen\n"
                     "verantwoordelijkheid om alleen toegestane onderdelen te\ngebruiken.")
@@ -84,4 +103,4 @@ buttons:
 check:
     tool: checkpy
     repo: minprog/python-tentamen-checks
-    args: -m 2025ki
+    args: -m 2026ki
