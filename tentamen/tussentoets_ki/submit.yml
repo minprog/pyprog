@@ -74,7 +74,7 @@ buttons:
             print()
             print('\n\n'.join(res))
             print()
-            print("\033[93mAls je twijfelt of de waarschuwing hierboven klopt en\n je denkt dat het gewoon mag, check met de docent.\033[0m")
+            print("\033[93mAls je twijfelt of de waarschuwing hierboven klopt en\nje denkt dat het gewoon mag, check met de docent.\033[0m")
         else:
             print("\nGeen verboden constructies gevonden, maar het is je eigen\n"
                     "verantwoordelijkheid om alleen toegestane onderdelen te\ngebruiken.")
