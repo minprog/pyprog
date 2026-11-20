@@ -36,7 +36,7 @@ Schrijf, in een bestand genaamd `schuifpuzzel.py`, een programma dat een speler 
 
 * De beginconfiguratie is de configuratie zoals hierboven beschreven.
 
-* Vraag de speler telkens om een nieuwe tegel te schuiven. Mocht de speler een tegel kiezen die niet verschoven kan worden, laat de speler dan een nieuwe tegel kiezen. Je mag er hierbij van uit gaan dat de speler correcte tegel nummers invult.
+* Vraag de speler telkens om een nieuwe tegel te schuiven. Mocht de speler een tegel kiezen die niet verschoven kan worden, laat de speler dan een nieuwe tegel kiezen. Je mag er hierbij van uit gaan dat de speler correcte tegelnummers invult.
 
 * De puzzel is opgelost als de tegels in oplopende volgorde staan gesorteerd zoals eerder beschreven.
 
