@@ -110,6 +110,8 @@ Het wordt ook bij deze opdracht aangemoedigd om extra functies te introduceren d
 
 * Net als in Temperatuurtabellen kun je f-strings gebruiken om netjes te printen.
 
+* Je mag `split()` gebruiken om een string op te hakken!
+
 ## Voorbeelden
 
 Je programma moet uiteindelijk werken zoals in de voorbeelden hieronder.
