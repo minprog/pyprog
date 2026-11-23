@@ -56,6 +56,13 @@ grades:
     tutorial_classes_queue: *werkcollege
     tutorial_zelfwerk: *werkcollege
 
+    alternatief_5a: *werkcollege
+    alternatief_5b: *werkcollege
+    alternatief_6a: *werkcollege
+    alternatief_6b: *werkcollege
+    alternatief_7a: *werkcollege
+    alternatief_7b: *werkcollege
+
     # module 1
     boek1: *check
 

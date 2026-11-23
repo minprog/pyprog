@@ -65,12 +65,21 @@ werkcolleges:
         tutorial_lists: 0.5
         oefentoets: 0.5
         tutorial_collections: 0.5
+        tutorial_coll_functions: 0.5
         tutorial_classes_queue: 0.5
         # r1: 0.5
         # Nog niet bepaald (n.t.b. in de studiewijzer):
         # ntb_1: 0.5
         # ntb_2: 0.5
         # ntb_3: 0.5
+        #
+        alternatief_5a: 0.5
+        alternatief_5b: 0.5
+        alternatief_6a: 0.5
+        alternatief_6b: 0.5
+        alternatief_7a: 0.5
+        alternatief_7b: 0.5
+
 
 week_1:
     show_progress: true
