@@ -63,6 +63,9 @@ grades:
     alternatief_7a: *werkcollege
     alternatief_7b: *werkcollege
 
+    r1: *werkcollege
+    r2: *werkcollege
+
     # module 1
     boek1: *check
 
